@@ -1,0 +1,72 @@
+.primary-header {
+    height: 100vh;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+
+    .image {
+        position: absolute;
+        z-index: 1;
+
+        &::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: var(--color-slate-gray);
+            pointer-events: none;
+            opacity: 0.6;
+        }
+    }
+
+    .chessboard-nav {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-left: auto;
+        transform: rotate(45deg);
+        z-index: 11;
+
+        .paragraph {
+            transform: rotate(-45deg);
+        }
+    }
+
+    > .primary-header__div {
+        align-self: self-end;
+        padding: var(--padding-organism);
+        z-index: 10;
+
+        .paragraph {
+            display: none;
+        }
+    }
+
+    @media (width < 500px) {
+        flex-direction: column;
+        background-color: var(--color-charcoal-grey);
+        height: auto;
+
+        .image {
+            height: fit-content;
+            position: relative;
+        }
+
+        .primary-header__div {
+            align-self: flex-start;
+            position: relative;
+
+            .paragraph {
+                display: block;
+                position: absolute;
+                top: calc(var(--padding-organism) * -3);
+                left: 0;
+                padding: var(--padding-organism);
+                padding-right: calc(var(--padding-organism) * 2);
+                background-color: var(--color-charcoal-grey);
+            }
+        }
+    }
+}

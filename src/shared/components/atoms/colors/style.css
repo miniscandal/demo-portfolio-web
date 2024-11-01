@@ -1,0 +1,31 @@
+.light {
+    color: var(--color-light);
+}
+
+.light-silver {
+    color: var(--color-light-silver);
+}
+
+.sly-blue {
+    color: var(--color-sky-blue);
+}
+
+.charcoal-grey {
+    color: var(--color-charcoal-grey);
+}
+
+.color-royal-blue {
+    color: var(--color-royal-blue);
+}
+
+.color-deep-ocean {
+    color: var(--color-deep-ocean);
+}
+
+.color-warm-silver {
+    color: var(--color-warm-silver);
+}
+
+.color-coffee-brown {
+    color: var(--color-coffee-brown);
+}

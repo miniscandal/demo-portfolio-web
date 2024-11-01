@@ -1,0 +1,23 @@
+.button-link-downloader {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: var(--padding-molecule);
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: var(--border-radius-molecule);
+    gap: var(--gap-molecule);
+
+    &.olive-green {
+        background-color: var(--color-olive-green);
+    }
+
+    &.fit {
+        width: fit-content;
+    }
+
+    &.regular {
+        width: 15rem;
+    }
+}

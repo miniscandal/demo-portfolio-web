@@ -1,0 +1,50 @@
+.copy-email-clipboard {
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    border-right: solid var(--color-light-silver) 1px;
+    border-left: solid var(--color-light-silver) 1px;
+    user-select: all;
+    padding-left: var(--padding-simple-molecule);
+    padding-right: var(--padding-simple-molecule);
+    user-select: none;
+
+    &::before {
+        content: '';
+        position: absolute;
+        width: 1rem;
+        height: 1rem;
+        top: 50%;
+        left: 50%;
+        opacity: 0;
+        transform: translate(-50%, -50%);
+        z-index: 10;
+        border-top: solid var(--color-light-silver) 1px;
+        border-bottom: solid var(--color-light-silver) 1px;
+        transition:
+            width var(--transition-seconds) linear,
+            height var(--transition-seconds) linear,
+            opacity calc(var(--transition-seconds) / 2) linear;
+    }
+
+    &:hover {
+        &::before {
+            opacity: 1;
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    &.copied-clipboard::after {
+        content: 'copied';
+        color: var(--color-light-silver);
+        background-color: var(--color-smoky-purple);
+        position: absolute;
+        top: -3rem;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: var(--padding-simple-molecule);
+        border-radius: var(--border-radius-simple-molecule);
+        animation: var(--animation-fade-out);
+    }
+}

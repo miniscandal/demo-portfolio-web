@@ -1,0 +1,4 @@
+.social_networks {
+    display: flex;
+    gap: var(--gap-molecule);
+}

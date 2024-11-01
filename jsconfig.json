@@ -1,0 +1,55 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./src/",
+        "paths": {
+            "@assets-documents/*": [
+                "assets/documents/*"
+            ],
+            "@assets-fonts/*": [
+                "assets/fonts/*"
+            ],
+            "@assets-images/*": [
+                "assets/images/*"
+            ],
+            "@contexts/*": [
+                "contexts/*"
+            ],
+            "@core/*": [
+                "core/*"
+            ],
+            "@feat-home-pages/*": [
+                "features/home/components/pages/*"
+            ],
+            "@feat-home-molecules/*": [
+                "features/home/components/molecules/*"
+            ],
+            "@feat-home-organisms/*": [
+                "features/home/components/organisms/*"
+            ],
+            "@shared-atoms/*": [
+                "shared/components/atoms/*"
+            ],
+            "@shared-molecules/*": [
+                "shared/components/molecules/*"
+            ],
+            "@shared-organisms/*": [
+                "shared/components/organisms/*"
+            ],
+            "@shared-constants/*": [
+                "shared/constants/*"
+            ],
+            "@shared-customHooks/*": [
+                "shared/customHooks/*"
+            ],
+            "@shared-resources-json/*": [
+                "shared/resources/json/*"
+            ],
+            "@shared-styles/*": [
+                "shared/styles/*"
+            ],
+            "@shared-utils/*": [
+                "shared/utils/*"
+            ]
+        }
+    }
+}

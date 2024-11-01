@@ -1,0 +1,51 @@
+Use HTML Tags
+
+Use tags: `<p>, <h1>, <h2>, <h3>, <span>, <strong>, <em>, <a>` (Text and Content) for atoms components
+
+Use tags: `<div>, <section>, <header>, <footer>, <nav>, <article>` (Structural Tags) for molecules components
+
+Use tags: `<article>, <section>, <aside>, <figure>, <figcaption>` (Semantic Tags) for organisms components
+
+
+
+
+Use HTML Tags
+
+Use tags for atoms components (Text and Content):
+
+<p>, <h1>, <h2>, <h3>, <span>, <strong>, <em>, <a>
+
+
+Use tags for molecules components (Structural Tags):
+
+<div>, <nav>
+
+
+Use tags for organisms components (Semantic Tags):
+
+<article>, <section>, <aside>, <figure>, <figcaption>
+
+
+Use tags for pages components (Structural Tags)
+
+<header>, <footer>, <main>
+
+
+
+Sistema de Niveles (z-index)
+
+0: Elementos de fondo (por ejemplo, el fondo de la página).
+10: Elementos de contenido (por ejemplo, tarjetas, secciones).
+20: Modales o diálogos.
+30: Elementos flotantes o pop-ups (por ejemplo, menús desplegables).
+
+
+
+
+Import order
+
+
+Módulos de terceros: Importa primero las bibliotecas externas, como React, React Router, Redux, etc.
+Componentes de tu proyecto: A continuación, importa tus componentes personalizados (ya sean de nivel superior o secundarios).
+Estilos y archivos CSS: Luego, importa los archivos de estilo CSS o cualquier archivo relacionado con el estilo.
+Otros módulos: Finalmente, puedes importar otros módulos, utilidades o funciones que no sean componentes.

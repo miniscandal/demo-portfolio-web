@@ -1,0 +1,23 @@
+.title-h1 {
+    font-size: 2.2rem;
+}
+
+.title-h2 {
+    font-size: 1.6rem;
+}
+
+.title-h3 {
+    font-size: 1.4rem;
+}
+
+.title-h4 {
+    font-size: 1.2rem;
+}
+
+.title-h2.decorated::after {
+    content: '';
+    display: block;
+    width: 2rem;
+    height: 2px;
+    background-color: #9dac38;
+}

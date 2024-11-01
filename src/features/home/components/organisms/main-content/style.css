@@ -1,0 +1,9 @@
+.main-content {
+    display: flex;
+    flex-direction: column;
+
+    article {
+        padding-top: var(--padding-container);
+        padding-bottom: var(--padding-container);
+    }
+}

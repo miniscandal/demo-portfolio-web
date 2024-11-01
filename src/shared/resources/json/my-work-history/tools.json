@@ -1,0 +1,72 @@
+{
+    "javaScript": {
+        "name": "JavaScript",
+        "color": "#ee9b01e6",
+        "iconSrc": "/src/assets/images/svg/js.svg"
+    },
+    "python": {
+        "name": "Python",
+        "color": "#9657a6e6",
+        "iconSrc": "/src/assets/images/svg/python.svg"
+    },
+    "html": {
+        "name": "HTML",
+        "color": "#e34f26e6",
+        "iconSrc": "/src/assets/images/svg/html.svg"
+    },
+    "css": {
+        "name": "CSS",
+        "color": "#9463ffe6",
+        "iconSrc": "/src/assets/images/svg/css.svg"
+    },
+    "mosquitto": {
+        "name": "Mosquitto",
+        "color": "#3c5280e6",
+        "iconSrc": "/src/assets/images/svg/mosquitto.svg"
+    },
+    "react": {
+        "name": "React",
+        "color": "#087ea4e6",
+        "iconSrc": "/src/assets/images/svg/react.svg"
+    },
+    "json": {
+        "name": "JSON",
+        "color": "#8f979ae6",
+        "iconSrc": "/src/assets/images/svg/json.svg"
+    },
+    "mqttJs": {
+        "name": "MQTT.js",
+        "color": "#6d8c00e6",
+        "iconSrc": "/src/assets/images/svg/mqttjs.svg"
+    },
+    "insomnia": {
+        "name": "Insomnia",
+        "color": "#4b2d9f",
+        "iconSrc": "/src/assets/images/svg/react.svg"
+    },
+    "bigChat": {
+        "name": "AI Bing Chat",
+        "color": "#427ac1",
+        "iconSrc": "/src/assets/images/svg/react.svg"
+    },
+    "arduino": {
+        "name": "Arduino",
+        "color": "#008184",
+        "iconSrc": "/src/assets/images/svg/arduino.svg"
+    },
+    "c": {
+        "name": "C",
+        "color": "#2196f3",
+        "iconSrc": "/src/assets/images/svg/c.svg"
+    },
+    "cpp": {
+        "name": "C++",
+        "color": "#1465bb",
+        "iconSrc": "/src/assets/images/svg/c++.svg"
+    },
+    "pdf": {
+        "name": "PDF",
+        "color": "#f27b57",
+        "iconSrc": "/src/assets/images/svg/pdf.svg"
+    }
+}

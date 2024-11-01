@@ -1,0 +1,74 @@
+{
+    "internetOfThings": {
+        "name": "Internet Of Things",
+        "color": "#4d455de6"
+    },
+    "observerPattern": {
+        "name": "Observer Pattern",
+        "color": "#be6600e6"
+    },
+    "atommicWebDesing": {
+        "name": "Atommic Web Desing",
+        "color": "#3c3c7ae6"
+    },
+    "bemMethodology": {
+        "name": "BEM Methodology",
+        "color": "#a5a800e6"
+    },
+    "mqtt": {
+        "name": "MQ Telemetry Transport",
+        "color": "#547e27e6"
+    },
+    "functionalProgramming": {
+        "name": "Functional Programming",
+        "color": "#0649c5e6"
+    },
+    "eventDelegation": {
+        "name": "Event Delegation",
+        "color": "#cf2a85e6"
+    },
+    "realTimeAplication": {
+        "name": "Real Time Aplication",
+        "color": "#ee9b01e6"
+    },
+    "responsiveWebDesing": {
+        "name": "Responsive Web Desing",
+        "color": "#4c8d26e6"
+    },
+    "apiRestFul": {
+        "name": "API RESTful",
+        "color": "#004f98e6"
+    },
+    "userExperience": {
+        "name": "User Experience",
+        "color": "#eb7389e6"
+    },
+    "artificialIntelligenceTechnology": {
+        "name": "AI Technology",
+        "color": "#617373e6"
+    },
+    "ebook": {
+        "name": "Electronic Book",
+        "color": "#f27b57e6"
+    },
+    "embeddedSystem": {
+        "name": "Embedded System",
+        "color": "#1465bbe6"
+    },
+    "testing": {
+        "name": "Code Test",
+        "color": "#a0a50de6"
+    },
+    "dataSheet": {
+        "name": "Reading Data Sheets",
+        "color": "#b07265e6"
+    },
+    "customProperties": {
+        "name": "Custom Properties JS",
+        "color": "#b9848c"
+    },
+    "useDataAttributes": {
+        "name": "Use Data Attributes JS",
+        "color": "#fae4c7"
+    }
+}

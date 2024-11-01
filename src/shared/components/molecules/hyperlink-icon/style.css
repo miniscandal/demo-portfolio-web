@@ -1,0 +1,17 @@
+.hyperlink-icon {
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: var(--padding-atom);
+    border: solid 1px var(--color-light-silver);
+    border-radius: var(--border-radius-atom);
+    cursor: pointer;
+}
+
+.hyperlink-icon:hover {
+    box-shadow: var(--box-shadow-inset);
+}
+
+.hyperlink-icon.regular {
+    width: 2rem;
+    height: 2rem;
+}

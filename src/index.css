@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'Figtree';
+    src: url('@assets-fonts/figtree/variable.ttf');
+}
+
+:root {
+    color-scheme: light dark;
+
+    --color-dark: #2e2e2e;
+    --color-light: #eeeeee;
+
+    --color-slate-gray: #554d74;
+    --color-coffee-brown: #453c41;
+    --color-charcoal-grey: #48494a;
+    --color-steel-grey: #7b7c81;
+    --color-smoky-purple: #7b586b;
+    --color-light-silver: #d4dbe2;
+    --color-warm-silver: #b0bbbf;
+    --color-olive-green: #9dac38;
+    --color-teal-green: #358282;
+    --color-deep-ocean: #586c91;
+    --color-royal-blue: #2f70af;
+    --color-sky-blue: #4886af;
+    --color-bright-orange: #d33f0f;
+    --color-coral-orange: #f5704a;
+    --color-cool-sky: #d1e2f3;
+
+
+    --padding-uniform: 1.5rem;
+    --padding-atom: 0.3rem;
+    --padding-simple-molecule: 0.5rem;
+    --padding-molecule: 1rem;
+    --padding-organism: 1.5rem;
+    --padding-container: 6rem;
+
+    --gap-uniform: 1.5rem;
+    --gap-simple-molecule: 0.5rem;
+    --gap-molecule: 1rem;
+    --gap-organism: 2rem;
+    --gap-container: 6rem;
+
+    --border-radius-uniform: 1rem;
+    --border-radius-atom: 0.3rem;
+    --border-radius-simple-molecule: 0.25rem;
+    --border-radius-molecule: 0.5rem;
+    --border-radius-organism: 2rem;
+    --border-radius-container: 2.5rem;
+
+    --scale3d: scale3d(1.15, 1.15, 1.15);
+    --transition-seconds: 0.3s;
+
+    --hover-brightness: brightness(1.5);
+
+    --box-shadow-inset: inset 0 0 0.25rem #ffffff80;
+
+    --animation-fade-out: fade-out 3.5s 1;
+    --animation-blink-character: blink-character 2s infinite;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Figtree, helvetica;
+}
+
+body,
+html {
+    max-width: 100svw;
+    min-height: 100svh;
+}

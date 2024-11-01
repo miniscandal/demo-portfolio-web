@@ -1,0 +1,14 @@
+.my-work-history {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+
+    .title-h2 {
+        padding-bottom: var(--padding-container);
+    }
+
+    .my-work-experience {
+        align-self: center;
+    }
+}

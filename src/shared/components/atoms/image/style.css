@@ -1,0 +1,37 @@
+.image {
+    img {
+        width: 100%;
+        height: 100%;
+        vertical-align: bottom;
+    }
+
+    &.auto {
+        width: 100%;
+        height: 100%;
+    }
+
+
+    &.regular {
+        width: 300px;
+        height: 300px;
+    }
+
+
+    &.cover {
+        img {
+            object-fit: cover;
+        }
+    }
+
+    &.contain {
+        img {
+            object-fit: contain;
+        }
+    }
+
+    &.fill {
+        img {
+            object-fit: fill;
+        }
+    }
+}
