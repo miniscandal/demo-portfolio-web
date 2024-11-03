@@ -1,38 +1,37 @@
 .personal-information {
-    .personal-information__div {
-        display: flex;
-        flex-direction: column;
-        gap: var(--gap-organism);
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-organism);
 
-        .personal-information__div--titles {
-            display: flex;
-            flex-direction: column;
-            gap: var(--gap-molecule);
+    .title:first-child {
+        padding-bottom: var(--padding-molecule);
+    }
+
+    .button-link-downloader {
+        align-self: flex-start;
+    }
+
+    .personal-information__div--social {
+        display: flex;
+        flex-wrap: wrap;
+        gap: var(--gap-molecule);
+
+        .copy-email-clipboard {
+            align-self: flex-end;
+        }
+    }
+
+    @media (width < 400px) {
+        .title {
+            text-align: center;
+        }
+
+        .button-link-downloader {
+            margin: auto;
         }
 
         .personal-information__div--social {
-            display: flex;
-            flex-wrap: wrap;
-            gap: var(--gap-molecule);
-
-            .copy-email-clipboard {
-                height: fit-content;
-                align-self: flex-end;
-            }
-        }
-
-        @media (width < 400px) {
-            .personal-information__div--titles {
-                text-align: center;
-            }
-
-            .button-link-downloader {
-                margin: auto;
-            }
-
-            .personal-information__div--social {
-                justify-content: center;
-            }
+            justify-content: center;
         }
     }
 }

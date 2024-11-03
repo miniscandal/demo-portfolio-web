@@ -24,20 +24,23 @@
     --color-bright-orange: #d33f0f;
     --color-coral-orange: #f5704a;
     --color-cool-sky: #d1e2f3;
-
+    --color-window-glass: #ffffff59;
+    --color-misty-gray: #d4dbe266;
+    --color-heather-mist: #a0849d;
 
     --padding-uniform: 1.5rem;
     --padding-atom: 0.3rem;
     --padding-simple-molecule: 0.5rem;
     --padding-molecule: 1rem;
-    --padding-organism: 1.5rem;
-    --padding-container: 6rem;
+    --padding-organism: 2rem;
+    --padding-simple-container: 6rem;
+    --padding-container: 8rem;
 
     --gap-uniform: 1.5rem;
     --gap-simple-molecule: 0.5rem;
     --gap-molecule: 1rem;
     --gap-organism: 2rem;
-    --gap-container: 6rem;
+    --gap-container: 8rem;
 
     --border-radius-uniform: 1rem;
     --border-radius-atom: 0.3rem;
@@ -47,7 +50,10 @@
     --border-radius-container: 2.5rem;
 
     --scale3d: scale3d(1.15, 1.15, 1.15);
+
     --transition-seconds: 0.3s;
+    --transition-transform: transform 0.3s linear;
+    --transition-box-shadow: box-shadow 0.3s linear;
 
     --hover-brightness: brightness(1.5);
 
@@ -55,6 +61,7 @@
 
     --animation-fade-out: fade-out 3.5s 1;
     --animation-blink-character: blink-character 2s infinite;
+    --animation-shake: shake 0.3s infinite;
 }
 
 * {

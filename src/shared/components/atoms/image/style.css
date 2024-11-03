@@ -5,17 +5,15 @@
         vertical-align: bottom;
     }
 
+    &.regular {
+        width: 25rem;
+        height: 25rem;
+    }
+
     &.auto {
         width: 100%;
         height: 100%;
     }
-
-
-    &.regular {
-        width: 300px;
-        height: 300px;
-    }
-
 
     &.cover {
         img {

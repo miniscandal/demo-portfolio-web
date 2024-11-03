@@ -6,15 +6,13 @@ import './style.css';
 function MainContent() {
 
     return (
-        <main>
-            <div className='main-content'>
-                <article>
-                    <MyWorkHistory />
-                </article>
-                <article>
-                    <MyWorkHistory />
-                </article>
-            </div>
+        <main className='main'>
+            <article>
+                <MyWorkHistory />
+            </article>
+            <article>
+                {/* <MyWorkHistory /> */}
+            </article>
         </main>
     );
 }

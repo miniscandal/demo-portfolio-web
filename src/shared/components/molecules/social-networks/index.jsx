@@ -4,25 +4,29 @@ import linkedinIcon from '@assets-images/svg/linkedin.svg';
 import githubIcon from '@assets-images/svg/github.svg';
 import emailIcon from '@assets-images/svg/email.svg';
 
+import { message } from '@shared-resources-contact/mailto-template.json';
+import { socialNetworks } from '@shared-resources-contact/social-networks.json';
+
 import './style.css';
 
 
 function SocialNetworks() {
+    const { linkedin, github } = socialNetworks;
     const hyperlinkIconLinkedin = {
-        href: 'https://mx.linkedin.com/',
+        href: linkedin.url,
         iconSrc: linkedinIcon
     };
     const hyperlinkIconGithub = {
-        href: 'https://github.com/',
+        href: github.url,
         iconSrc: githubIcon
     };
     const hyperlinkIconEmail = {
-        href: 'mailto:oscar01dev@gmail.com?',
+        href: message.url,
         iconSrc: emailIcon
     };
 
     return (
-        <section className="social_networks">
+        <section className='social-networks'>
             <HyperlinkIcon {...hyperlinkIconLinkedin} />
             <HyperlinkIcon {...hyperlinkIconGithub} />
             <HyperlinkIcon {...hyperlinkIconEmail} />

@@ -1,6 +1,7 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
+
 export default defineConfig({
     plugins: [react()],
     resolve: {
@@ -24,7 +25,8 @@ export default defineConfig({
             '@shared-constants': '/src/shared/constants/',
             '@shared-customHooks': '/src/shared/customHooks/',
 
-            '@shared-resources-json': '/src/shared/resources/json/',
+            '@shared-resources-data': '/src/shared/resources/data/',
+            '@shared-resources-contact': '/src/shared/resources/contact/',
 
             '@shared-styles': '/src/shared/styles/',
             '@shared-utils': '/src/shared/utils/',

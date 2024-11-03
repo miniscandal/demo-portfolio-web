@@ -1,28 +1,28 @@
 {
     "ebookDevelopment": {
         "name": "E-Book Development",
-        "date": {
+        "employmentDuration": {
             "start": {
-                "startYear": 2020,
-                "startMonth": 8
+                "year": 2020,
+                "month": 8
             },
             "end": {
-                "endYear": 2021,
-                "endMonth": 9
+                "year": 2021,
+                "month": 9
             }
         },
         "descriptionSpanish": "Colaboré como programador y diseñador de esquemas electrónicos en un proyecto para el desarrollo de un libro digital educativo de módulos electrónicos. El proyecto tenía como objetivo explicar el funcionamiento de estos componentes junto a su integración con la placa de desarrollo Arduino para facilitar el aprendizaje de Sistemas Embebidos a estudiantes de ingeniería y aficionados de la electrónica.",
-        "descriptionEnglish": "I collaborated as a programmer and designer of electronic schematics in a project for the development of an educational digital book of electronic modules. The objective of the project was to explain the operation of these components together with their integration with the Arduino development board to facilitate the learning of Embedded Systems to engineering students and electronic enthusiasts.",
-        "technologies": [
+        "descriptionEnglish": "I collaborated as a programmer and designer of electronic schematics in a project for the development of an educational digital book of electronic modules.\n\nThe objective of the project was to explain the operation of these components, together with their integration with the Arduino development board,\n\nto facilitate the learning of Embedded Systems to engineering students and electronic enthusiasts.",
+        "technologiesTools": [
             "arduino",
             "c",
             "cpp"
         ],
-        "concepts": [
+        "knowledge": [
             "embeddedSystem",
             "dataSheet"
         ],
-        "attitudes": [
+        "interpersonalCompetencies": [
             "empathy",
             "riskTaking",
             "collaboration",

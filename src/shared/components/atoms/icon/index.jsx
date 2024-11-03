@@ -1,10 +1,10 @@
-import documentation from '@assets-images/svg/documentation.svg';
+import iconSrc from '@assets-images/svg/c++.svg';
 
 import './style.css';
 
 
 function Icon({
-    src = documentation,
+    src = iconSrc,
     color = 'light',
     size = 'regular',
     backgroundColor = false

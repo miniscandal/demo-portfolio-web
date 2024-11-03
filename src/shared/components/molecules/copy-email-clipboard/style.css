@@ -1,13 +1,28 @@
 .copy-email-clipboard {
-    text-align: center;
     position: relative;
-    cursor: pointer;
+    text-align: center;
     border-right: solid var(--color-light-silver) 1px;
     border-left: solid var(--color-light-silver) 1px;
     user-select: all;
     padding-left: var(--padding-simple-molecule);
     padding-right: var(--padding-simple-molecule);
     user-select: none;
+    cursor: pointer;
+
+    &.copied-clipboard {
+        &::after {
+            content: 'copied';
+            color: var(--color-light-silver);
+            background-color: var(--color-smoky-purple);
+            position: absolute;
+            top: -3rem;
+            left: 50%;
+            transform: translateX(-50%);
+            padding: var(--padding-simple-molecule);
+            border-radius: var(--border-radius-simple-molecule);
+            animation: var(--animation-fade-out);
+        }
+    }
 
     &::before {
         content: '';
@@ -33,18 +48,5 @@
             width: 100%;
             height: 100%;
         }
-    }
-
-    &.copied-clipboard::after {
-        content: 'copied';
-        color: var(--color-light-silver);
-        background-color: var(--color-smoky-purple);
-        position: absolute;
-        top: -3rem;
-        left: 50%;
-        transform: translateX(-50%);
-        padding: var(--padding-simple-molecule);
-        border-radius: var(--border-radius-simple-molecule);
-        animation: var(--animation-fade-out);
     }
 }

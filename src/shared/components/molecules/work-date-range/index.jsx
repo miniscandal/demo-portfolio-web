@@ -1,33 +1,31 @@
+import { Paragraph } from '@shared-atoms/paragraph';
 import { Time } from '@shared-atoms/time';
 
 import './style.css';
 
 
 function WorkDateRange({
-    startYear,
-    startMonth,
-    endYear,
-    endMonth,
+    employmentDuration = {
+        start: {
+            year: 1590,
+            month: 2
+        },
+        end: {
+            year: 3503,
+            month: 9
+        }
+    },
     color = 'light'
 }) {
-    const classList = [
+    const paragraph = {
         color
-    ].join(' ');
-    const startTime = {
-        year: startYear,
-        month: startMonth,
-        color: 'color-deep-ocean'
-    }
-    const endTime = {
-        year: endYear,
-        month: endMonth,
-        color: 'color-deep-ocean'
-    }
+    };
+    const { start, end } = employmentDuration;
 
     return (
-        <p className={`work-date-range ${classList}`}>
-            <Time {...startTime} /> {'\u00a0'} - {'\u00a0'} <Time {...endTime} />
-        </p>
+        <Paragraph {...paragraph}>
+            <Time {...start} /> {'\u00a0'} - {'\u00a0'} <Time {...end} />
+        </Paragraph>
     );
 }
 

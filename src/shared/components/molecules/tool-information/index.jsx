@@ -1,29 +1,27 @@
 import { Icon } from '@shared-atoms/icon';
-import { Paragraph } from '@shared-atoms/paragraph';
+import svgTool from '@assets-images/svg/tool.svg';
 
 import './style.css';
 
 
-function ToolInformation({ name, iconSrc, color }) {
-    const classList = [
-        color
-    ].join(' ');
+function ToolInformation({
+    name: text = 'Tool',
+    iconSrc: src = svgTool,
+    color: bgColor = 'lightpink'
+}) {
     const icon = {
-        src: iconSrc,
-        size: 'medium',
+        src,
+        size: 'regular',
         backgroundColor: true
-    };
-    const paragraph = {
-        text: name
     };
 
     return (
-        <a className={`tool-information ${classList}`}>
+        <a className='tool-information'>
             <div>
                 <Icon {...icon} />
             </div>
-            <div style={{ backgroundColor: color }}>
-                <Paragraph {...paragraph} />
+            <div style={{ backgroundColor: bgColor }}>
+                {text}
             </div>
         </a >
     );

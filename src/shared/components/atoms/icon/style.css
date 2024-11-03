@@ -6,24 +6,24 @@
     }
 
     &.regular {
-        width: 1.5rem;
-        height: 1.5rem;
+        width: 2.5rem;
+        height: 2.5rem;
     }
 
     &.medium {
-        width: 2.3rem;
-        height: 2.3rem;
+        width: 2.25rem;
+        height: 2.25rem;
     }
 
-    &.auto {
-        width: 100%;
-        height: 100%;
+    &.small {
+        width: 2rem;
+        height: 2rem;
     }
 
-    &.icon.background-color {
+    &.background-color {
         padding: var(--padding-atom);
         border-radius: var(--border-radius-atom);
-        border: solid 1px var(--color-warm-silver);
+        border: solid 0.1rem var(--color-warm-silver);
         background-color: var(--color-cool-sky);
     }
 }

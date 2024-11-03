@@ -1,0 +1,29 @@
+.skills-implemented-work {
+    .title {
+        padding-bottom: var(--padding-organism);
+    }
+
+    > div {
+        display: grid;
+        gap: var(--gap-organism);
+    }
+
+    &.columns-1 {
+        > div {
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+
+    &.columns-2 {
+        > div {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    &.columns-auto {
+        > div {
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+}

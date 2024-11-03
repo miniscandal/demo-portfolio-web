@@ -1,7 +1,9 @@
 import { Title } from '@shared-atoms/title';
 import { MyWorkExperience } from '../my-work-experience';
 
-import { ebookDevelopment } from '@shared-resources-json/my-work-history/experience.json';
+import { alternatingWordOrder } from '@shared-utils/alternating-word-order';
+
+import { ebookDevelopment } from '@shared-resources-data/my-work-history/experiences.json';
 
 import './style.css';
 
@@ -13,13 +15,20 @@ function MyWorkHistory() {
         type: 'h2',
         decorated: true
     };
+    const { interpersonalCompetencies, descriptionEnglish, ...information } = ebookDevelopment;
 
-    const myWorkExperience = ebookDevelopment;
+    const myWorkExperience = {
+        ...information,
+        interpersonalCompetencies: alternatingWordOrder(interpersonalCompetencies),
+        descriptionEnglish,
+    };
 
     return (
         <section className='my-work-history'>
             <Title {...title} />
-            <MyWorkExperience  {...myWorkExperience} />
+            <div>
+                <MyWorkExperience  {...myWorkExperience} />
+            </div>
         </section>
     );
 }

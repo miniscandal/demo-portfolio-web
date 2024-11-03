@@ -7,7 +7,7 @@ function Home() {
     return (
         <>
             <PrimaryHeader />
-            {/* <MainContent /> */}
+            <MainContent />
             <footer>
 
             </footer>

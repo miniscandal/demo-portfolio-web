@@ -1,0 +1,23 @@
+.eight-pointed-start {
+    width: fit-content;
+    position: relative;
+
+    &:hover {
+        &::after {
+            transform: rotate(135deg);
+            transition: transform 2s linear;
+        }
+    }
+
+    &::after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        transform: rotate(45deg);
+        border: solid 1px var(--color-light-silver);
+    }
+}

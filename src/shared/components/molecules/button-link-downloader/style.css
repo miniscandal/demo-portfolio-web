@@ -1,23 +1,19 @@
 .button-link-downloader {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
-    text-align: center;
-    padding: var(--padding-molecule);
-    cursor: pointer;
-    text-decoration: none;
-    border-radius: var(--border-radius-molecule);
+    align-items: center;
+    justify-content: center;
     gap: var(--gap-molecule);
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    padding: var(--padding-molecule);
+    border-radius: var(--border-radius-molecule);
+    font-size: 1rem;
+    color: var(--color-light);
+    background-color: var(--color-olive-green);
 
     &.olive-green {
         background-color: var(--color-olive-green);
-    }
-
-    &.fit {
-        width: fit-content;
-    }
-
-    &.regular {
-        width: 15rem;
     }
 }

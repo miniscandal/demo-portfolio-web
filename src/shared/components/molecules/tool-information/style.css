@@ -1,35 +1,33 @@
 .tool-information {
-    width: 9rem;
-    height: 5rem;
-    display: flex;
-    flex-direction: column;
+    display: block;
+    color: var(--color-light);
+    cursor: pointer;
 
-    .paragraph {
-        text-align: center;
+    > div {
+        &:first-child {
+            .icon {
+                transform: translateY(0.5rem);
+                transition: var(--transition-transform), var(--transition-box-shadow);
+            }
+        }
+
+        &:last-child {
+            padding: var(--padding-simple-molecule);
+            border-radius: var(--border-radius-atom);
+            text-align: center;
+        }
     }
-}
 
-.tool-information > div {
-    width: 100%;
-    height: 50%;
-}
-
-.tool-information > div:first-child {
-    position: relative;
-
-    .icon {
-        position: absolute;
-        bottom: -25%;
-        transition: transform 0.5s, box-shadow 0.5s;
+    &.auto {
+        width: 100%;
     }
-}
 
-.tool-information:hover .icon {
-    transform: translateX(0.5rem);
-    box-shadow: -8px 8px 8px var(--color-charcoal-grey);
-}
-
-.tool-information > div:last-child {
-    border-radius: var(--border-radius-atom);
-    padding: var(--padding-atom);
+    &:hover {
+        div:first-child {
+            .icon {
+                transform: translateX(0.3rem) translateY(0.5rem);
+                box-shadow: -0.2rem 0.2rem 0.2rem var(--color-charcoal-grey);
+            }
+        }
+    }
 }

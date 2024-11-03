@@ -1,11 +1,13 @@
 import './style.css';
 
 
-function EightPointedStart() {
+function EightPointedStart({ children }) {
 
     return (
-        <div>
-
+        <div className='eight-pointed-start container'>
+            <div className='child'>
+                {children}
+            </div>
         </div>
     );
 }

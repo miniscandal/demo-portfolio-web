@@ -1,0 +1,33 @@
+.interpersonal-competency-information {
+    border-radius: var(--border-radius-atom);
+    background-color: var(--color-heather-mist);
+    text-align: center;
+    position: relative;
+    padding: var(--padding-simple-molecule);
+    cursor: pointer;
+
+    .paragraph {
+        padding-left: var(--padding-simple-molecule);
+        padding-right: var(--padding-simple-molecule);
+    }
+
+    &:hover {
+
+        &::after {
+            inset: 0;
+        }
+    }
+
+    &::after {
+        content: '';
+        display: block;
+        position: absolute;
+        inset: var(--padding-simple-molecule);
+        border: solid 0.1rem var(--color-misty-gray);
+        transition:
+            top var(--transition-seconds) linear,
+            right var(--transition-seconds) linear,
+            bottom var(--transition-seconds) linear,
+            left var(--transition-seconds) linear;
+    }
+}

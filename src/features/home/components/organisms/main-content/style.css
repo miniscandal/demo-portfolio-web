@@ -1,9 +1,9 @@
-.main-content {
+.main {
     display: flex;
     flex-direction: column;
+    background-color: var(--color-light-silver);
 
     article {
         padding-top: var(--padding-container);
-        padding-bottom: var(--padding-container);
     }
 }

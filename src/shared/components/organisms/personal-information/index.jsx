@@ -1,7 +1,7 @@
 import { Title } from '@shared-atoms/title';
 import { ButtonLinkDownloader } from '@shared-molecules/button-link-downloader';
 import { SocialNetworks } from '@shared-molecules/social-networks';
-import { CopyEmailClipboard } from '@shared-atoms/copy-email-clipboard';
+import { CopyEmailClipboard } from '@shared-molecules/copy-email-clipboard';
 
 import cvFile from '@assets-documents/cv-oscar-gonzalez.pdf';
 
@@ -21,22 +21,17 @@ function PersonalInformation() {
     };
     const buttonLinkDownloader = {
         description: 'Resume',
-        href: cvFile,
-        size: 'fit'
+        href: cvFile
     };
 
     return (
         <section className="personal-information">
-            <div className="personal-information__div">
-                <div className='personal-information__div--titles'>
-                    <Title {...titleH1} />
-                    <Title {...titleH2} />
-                </div>
-                <ButtonLinkDownloader {...buttonLinkDownloader} />
-                <div className='personal-information__div--social'>
-                    <SocialNetworks />
-                    <CopyEmailClipboard />
-                </div>
+            <Title {...titleH1} />
+            <Title {...titleH2} />
+            <ButtonLinkDownloader {...buttonLinkDownloader} />
+            <div className='personal-information__div--social'>
+                <SocialNetworks />
+                <CopyEmailClipboard />
             </div>
         </section>
     );

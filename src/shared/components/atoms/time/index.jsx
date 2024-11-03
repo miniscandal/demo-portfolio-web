@@ -1,10 +1,10 @@
 import './style.css';
 
 
-function Time({ year, month, color = 'light' }) {
-    const classList = [
-        color
-    ].join(' ');
+function Time({
+    year = 1603,
+    month = 9
+}) {
     const dateTime = `${year}-${String(month).padStart(2, '0')}-01`;
     const formatDate = (year, month) => {
         const monthNames = [
@@ -17,7 +17,7 @@ function Time({ year, month, color = 'light' }) {
 
 
     return (
-        <time className={`time ${classList}`} dateTime={dateTime}>
+        <time className='time' dateTime={dateTime}>
             {textDateTime}
         </time>
     );

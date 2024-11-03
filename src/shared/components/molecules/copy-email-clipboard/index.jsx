@@ -1,5 +1,7 @@
 import { useState } from 'react';
 
+import { Paragraph } from '@shared-atoms/paragraph';
+
 import './style.css';
 
 
@@ -11,15 +13,11 @@ import './style.css';
  * 
  */
 
-
-function CopyEmailClipboard({ color = 'light' }) {
+function CopyEmailClipboard() {
     const [copied, setCopied] = useState(false);
-
     const classList = [
-        color,
         copied ? 'copied-clipboard' : ''
     ];
-
     const handleClick = () => {
         const email = 'oscar01dev@gmail.com';
         navigator.clipboard.writeText(email);
@@ -28,12 +26,15 @@ function CopyEmailClipboard({ color = 'light' }) {
             setCopied(false);
         }, 3500);
     };
+    const paragraph = {
+        text: 'copy email to clipboard'
+    };
 
     return (
-        <p className={`copy-email-clipboard ${classList.join(' ')}`} onClick={handleClick}>
-            copy email to clipboard
-        </p>
-    );
+        <div className={`copy-email-clipboard ${classList.join(' ')}`} onClick={handleClick}>
+            <Paragraph {...paragraph} />
+        </div>
+    )
 }
 
 export { CopyEmailClipboard };

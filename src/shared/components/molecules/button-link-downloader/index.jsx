@@ -1,6 +1,6 @@
 import { Icon } from '@shared-atoms/icon';
 
-import download from '@assets-images/svg/download.svg';
+import downloadIcon from '@assets-images/svg/download.svg';
 
 import './style.css';
 
@@ -8,19 +8,10 @@ import './style.css';
 function ButtonLinkDownloader({
     description = 'File',
     href = '#',
-    file = new Blob([], { type: 'text/plain' }),
-    bgColor = 'olive-green',
-    iconSrc = download,
-    size = 'regular',
-    color = 'light'
+    file = new Blob([], { type: 'text/plain' })
 }) {
-    const classList = [
-        bgColor,
-        size,
-        color
-    ];
     const icon = {
-        src: iconSrc,
+        src: downloadIcon,
         size: 'regular'
     }
     const handleClick = () => {
@@ -32,7 +23,7 @@ function ButtonLinkDownloader({
 
     return (
         <a
-            className={`button-link-downloader ${classList.join(' ')}`}
+            className='button-link-downloader '
             href={href}
             target='_blanck'
             onClick={handleClick}

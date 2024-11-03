@@ -41,8 +41,11 @@
             "@shared-customHooks/*": [
                 "shared/customHooks/*"
             ],
-            "@shared-resources-json/*": [
-                "shared/resources/json/*"
+            "@shared-resources-data/*": [
+                "shared/resources/data/*"
+            ],
+            "@shared-resources-contact/*": [
+                "shared/resources/contact/*"
             ],
             "@shared-styles/*": [
                 "shared/styles/*"

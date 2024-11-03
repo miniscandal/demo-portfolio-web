@@ -1,0 +1,30 @@
+.pixel-art-character {
+    > div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &.show-container {
+        background-color: var(--color-steel-grey);
+    }
+
+    &.regular {
+        width: 4.5rem;
+        height: 4.5rem;
+
+
+        > div {
+            transform: scale(0.3);
+        }
+    }
+
+    &.small {
+        width: 2rem;
+        height: 2rem;
+
+        > div {
+            transform: scale(0.1);
+        }
+    }
+}

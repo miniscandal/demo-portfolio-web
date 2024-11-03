@@ -1,4 +1,4 @@
-.social_networks {
+.social-networks {
     display: flex;
     gap: var(--gap-molecule);
 }
