@@ -27,4 +27,15 @@
             transform: scale(0.1);
         }
     }
+
+    &.large {
+        width: 9rem;
+        height: 15rem;
+
+        > div {
+            transform: scale(0.9);
+        }
+
+
+    }
 }

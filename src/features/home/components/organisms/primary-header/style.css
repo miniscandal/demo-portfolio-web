@@ -4,14 +4,6 @@
     position: relative;
     overflow: hidden;
 
-
-    .group-stars {
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: 10;
-    }
-
     .image {
         position: absolute;
         z-index: 1;
@@ -50,6 +42,11 @@
         > .paragraph {
             display: none;
         }
+
+        > div {
+            margin-left: calc(var(--padding-molecule) * -1 + 0.5rem);
+            padding-bottom: var(--padding-molecule);
+        }
     }
 
     @media (width < 60rem) {
@@ -70,22 +67,37 @@
 
 
         .primary-header__div {
-            align-self: flex-start;
+            width: 100%;
+            display: flex;
+            gap: var(--gap-organism);
+            flex-direction: row-reverse;
+            justify-content: space-around;
             position: relative;
 
             > .paragraph {
                 display: inline-block;
                 position: absolute;
                 top: calc((var(--padding-molecule) + 1rem) * -1);
-
                 left: 0;
                 padding-top: var(--padding-molecule);
                 padding-left: var(--padding-simple-organism);
                 padding-right: var(--padding-simple-organism);
                 background-color: var(--color-charcoal-grey);
                 border-radius: var(--border-radius-simple-molecule);
-
             }
+
+            > div {
+                padding: 0;
+                display: flex;
+                align-items: center;
+            }
+        }
+    }
+
+    @media (width < 40rem) {
+        .primary-header__div {
+            flex-direction: column;
+            align-items: center;
         }
     }
 }

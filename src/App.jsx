@@ -25,21 +25,17 @@ import { InterpersonalSkills } from '@feat-home-organisms/interpersonal-skills';
 import { MyWorkExperience } from '@feat-home-organisms/my-work-experience';
 import { MyWorkHistory } from '@feat-home-organisms/my-work-history';
 import { MainContent } from '@feat-home-organisms/main-content';
-
 import { PrimaryHeader } from '@feat-home-organisms/primary-header';
-
 import { LittleStar } from '@shared-molecules/little-star';
-
-
-
 import { GroupStars } from '@feat-home-molecules/group-stars';
+import { Home } from '@feat-home-pages/home';
 
 
 function App() {
 
     return (
         <>
-            <PrimaryHeader />
+            <Home />
         </>
     );
 }
