@@ -1,4 +1,3 @@
-import { Title } from '@shared-atoms/title';
 import { MyWorkExperience } from '../my-work-experience';
 
 import { alternatingWordOrder } from '@shared-utils/alternating-word-order';
@@ -9,12 +8,6 @@ import './style.css';
 
 
 function MyWorkHistory() {
-    const title = {
-        text: 'PERFORMANCE AND RESULTS',
-        color: 'charcoal-grey',
-        type: 'h2',
-        decorated: true
-    };
     const { interpersonalCompetencies, descriptionEnglish, ...information } = ebookDevelopment;
 
     const myWorkExperience = {
@@ -25,10 +18,7 @@ function MyWorkHistory() {
 
     return (
         <section className='my-work-history'>
-            <Title {...title} />
-            <div>
-                <MyWorkExperience  {...myWorkExperience} />
-            </div>
+            <MyWorkExperience  {...myWorkExperience} />
         </section>
     );
 }

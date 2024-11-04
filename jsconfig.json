@@ -41,6 +41,9 @@
             "@shared-customHooks/*": [
                 "shared/customHooks/*"
             ],
+            "@shared-mocks/*": [
+                "shared/mocks/*"
+            ],
             "@shared-resources-data/*": [
                 "shared/resources/data/*"
             ],

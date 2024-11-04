@@ -13,11 +13,20 @@
         content: '';
         display: block;
         position: absolute;
-        top: 0;
+        top: -65%;
         right: 0;
+        left: -20%;
         bottom: 0;
-        left: 0;
+        padding-left: 140%;
+        padding-top: 140%;
         transform: rotate(45deg);
         border: solid 1px var(--color-light-silver);
     }
+}
+
+
+body {
+    background-color: gray;
+
+    padding: 200px;
 }

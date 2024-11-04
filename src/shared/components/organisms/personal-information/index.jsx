@@ -29,7 +29,7 @@ function PersonalInformation() {
             <Title {...titleH1} />
             <Title {...titleH2} />
             <ButtonLinkDownloader {...buttonLinkDownloader} />
-            <div className='personal-information__div--social'>
+            <div>
                 <SocialNetworks />
                 <CopyEmailClipboard />
             </div>

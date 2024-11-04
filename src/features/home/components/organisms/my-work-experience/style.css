@@ -4,14 +4,10 @@
     padding: 0 var(--padding-simple-container);
 
     header {
-        display: flex;
-        flex-direction: column;
-        gap: var(--gap-molecule);
-
         padding-bottom: var(--padding-organism);
 
-        > .title {
-            padding-bottom: var(--padding-molecule);
+        .title {
+            padding-bottom: var(--padding-simple-molecule);
         }
     }
 
@@ -19,21 +15,5 @@
         display: flex;
         flex-direction: column;
         gap: var(--gap-organism);
-
-        > .my-work-experience__div {
-            display: flex;
-            flex-wrap: wrap;
-            gap: var(--gap-organism);
-
-            .skills-implemented-work {
-                flex: 1;
-            }
-
-            .skills-implemented-work:last-child {
-                .title {
-                    padding-bottom: calc(var(--padding-organism) + 2.5rem);
-                }
-            }
-        }
     }
 }

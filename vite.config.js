@@ -24,6 +24,7 @@ export default defineConfig({
 
             '@shared-constants': '/src/shared/constants/',
             '@shared-customHooks': '/src/shared/customHooks/',
+            '@shared-mocks': '/src/shared/mocks/',
 
             '@shared-resources-data': '/src/shared/resources/data/',
             '@shared-resources-contact': '/src/shared/resources/contact/',

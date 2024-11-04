@@ -20,19 +20,26 @@ import { PersonalInformation } from '@shared-organisms/personal-information';
 import { SkillsImplementedWork } from '@shared-organisms/skills-implemented-work';
 import { SquareShapeAnchorTag } from '@feat-home-molecules/square-shaped-anchor-tag';
 import { ChessboardNav } from '@feat-home-organisms/chessboard-nav';
-import { EightPointedStart } from '@feat-home-organisms/eight-pointed-star';
-
+import { TechnicalSkills } from '@feat-home-organisms/technical-skills';
+import { InterpersonalSkills } from '@feat-home-organisms/interpersonal-skills';
 import { MyWorkExperience } from '@feat-home-organisms/my-work-experience';
-
+import { MyWorkHistory } from '@feat-home-organisms/my-work-history';
 import { MainContent } from '@feat-home-organisms/main-content';
 
+import { PrimaryHeader } from '@feat-home-organisms/primary-header';
+
+import { LittleStar } from '@shared-molecules/little-star';
+
+
+
+import { GroupStars } from '@feat-home-molecules/group-stars';
 
 
 function App() {
 
     return (
         <>
-            <MyWorkExperience />
+            <PrimaryHeader />
         </>
     );
 }

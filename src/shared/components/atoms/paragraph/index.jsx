@@ -1,8 +1,10 @@
+import mock from '@shared-mocks/dom-components/paragraph.json';
+
 import './style.css';
 
 
 function Paragraph({
-    text = 'Paragraph: \n\nThe <p> in HTML defines a paragraph.\n\nIt is used to group blocks of text, facilitating \nthe reading and structure of content on a web page.',
+    text = mock.text,
     size = 'regular',
     color = 'light',
     cursorAnimation = false,

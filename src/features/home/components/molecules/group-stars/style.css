@@ -1,0 +1,24 @@
+.group-stars {
+    position: relative;
+
+    .little-star:nth-child(1) {
+        position: absolute;
+        left: 1rem;
+        top: 1rem;
+        border: solid 1px var(--color-light-silver);
+    }
+
+    .little-star:nth-child(2) {
+        position: absolute;
+        left: 1rem;
+        top: 16rem;
+        border: solid 1px var(--color-light-silver);
+    }
+
+    .little-star:nth-child(3) {
+        position: absolute;
+        left: 14rem;
+        top: 9rem;
+        border: solid 1px var(--color-light-silver);
+    }
+}

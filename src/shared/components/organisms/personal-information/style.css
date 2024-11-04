@@ -1,20 +1,17 @@
 .personal-information {
     display: flex;
     flex-direction: column;
-    gap: var(--gap-organism);
-
-    .title:first-child {
-        padding-bottom: var(--padding-molecule);
-    }
 
     .button-link-downloader {
+        margin-top: var(--padding-simple-organism);
+        margin-bottom: var(--padding-simple-organism);
         align-self: flex-start;
     }
 
-    .personal-information__div--social {
+    > div {
         display: flex;
         flex-wrap: wrap;
-        gap: var(--gap-molecule);
+        gap: var(--padding-molecule);
 
         .copy-email-clipboard {
             align-self: flex-end;
@@ -27,10 +24,11 @@
         }
 
         .button-link-downloader {
-            margin: auto;
+            margin-left: auto;
+            margin-right: auto;
         }
 
-        .personal-information__div--social {
+        div {
             justify-content: center;
         }
     }

@@ -1,0 +1,5 @@
+.technical-skills {
+    display: flex;
+    gap: var(--gap-organism);
+    flex-wrap: wrap;
+}

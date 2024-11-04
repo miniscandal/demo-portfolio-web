@@ -4,7 +4,7 @@ import './style.css';
 function EightPointedStart({ children }) {
 
     return (
-        <div className='eight-pointed-start container'>
+        <div className='eight-pointed-start'>
             <div className='child'>
                 {children}
             </div>
