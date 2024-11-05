@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
     plugins: [react()],
-    base: '/vite-react-gallery/',
+    base: '/',
     resolve: {
         alias: {
             '@assets-documents': '/src/assets/documents/',
