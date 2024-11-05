@@ -11,29 +11,23 @@
             "@assets-images/*": [
                 "assets/images/*"
             ],
-            "@contexts/*": [
-                "contexts/*"
-            ],
-            "@core/*": [
-                "core/*"
-            ],
-            "@feat-home-header-organisms/*": [
-                "features/home/primary-header/components/organisms/*"
-            ],
-            "@feat-home-root/*": [
-                "features/home/root/*"
-            ],
             "@feat-home-performance-and-results-organisms/*": [
                 "features/home/performance-and-results/components/organisms/*"
             ],
             "@feat-home-performance-and-results-pages/*": [
                 "features/home/performance-and-results/components/pages/*"
             ],
+            "@feat-home-primary-header-organisms/*": [
+                "features/home/primary-header/components/organisms/*"
+            ],
             "@feat-home-primary-footer-molecules/*": [
                 "features/home/primary-footer/components/molecules/*"
             ],
             "@feat-home-primary-footer-pages/*": [
                 "features/home/primary-footer/components/pages/*"
+            ],
+            "@feat-home-root/*": [
+                "features/home/root/*"
             ],
             "@shared-atoms/*": [
                 "shared/components/atoms/*"
@@ -46,9 +40,6 @@
             ],
             "@shared-constants/*": [
                 "shared/constants/*"
-            ],
-            "@shared-customHooks/*": [
-                "shared/customHooks/*"
             ],
             "@shared-mocks/*": [
                 "shared/mocks/*"

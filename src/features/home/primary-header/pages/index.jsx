@@ -1,4 +1,4 @@
-import { ChessboardNav } from '@feat-home-header-molecules/chessboard-nav';
+import { ChessboardNav } from '@feat-home-primary-header-organisms/chessboard-nav';
 import { Image } from '@shared-atoms/image';
 import { PixelArtCharacterDialog } from '@shared-molecules/pixel-art-character-dialog';
 import { ProfessionalContact } from '@shared-organisms/professional-contact';

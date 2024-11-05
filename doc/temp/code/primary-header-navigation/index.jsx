@@ -1,5 +1,5 @@
 import { Image } from '@shared-atoms/image';
-import { ChessboardNav } from 'features/home/primary-header/components/molecules/chessboard-nav';
+import { ChessboardNav } from '@feat-home-primary-header-organisms/chessboard-nav';
 import { ProfessionalContact } from '@shared-organisms/professional-contact';
 import { PixelArtCharacterDialog } from '@shared-molecules/pixel-art-character-dialog';
 

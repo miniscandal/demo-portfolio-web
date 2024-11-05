@@ -1,4 +1,4 @@
-import { PrimaryHeader } from '@feat-home-header-organisms/primary-header';
+import { PrimaryHeader } from '../primary-header/pages';
 import { PerformanceAndResults } from '@feat-home-performance-and-results-pages/index';
 import { PrimaryFooter } from '@feat-home-primary-footer-pages/index';
 
