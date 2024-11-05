@@ -1,6 +1,8 @@
 .knowledge-information {
+    min-width: 10rem;
     display: block;
     padding: var(--padding-simple-molecule);
+    padding-right: 3rem;
     border-radius: var(--border-radius-atom);
     position: relative;
     color: var(--color-light);

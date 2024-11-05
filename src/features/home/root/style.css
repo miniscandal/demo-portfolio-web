@@ -4,4 +4,9 @@
      gap: var(--gap-container);
      padding: var(--padding-container) var(--padding-molecule);
      background-color: var(--color-light-silver);
+
+     > .performance-and-results {
+         max-width: 44rem;
+         margin: auto;
+     }
  }

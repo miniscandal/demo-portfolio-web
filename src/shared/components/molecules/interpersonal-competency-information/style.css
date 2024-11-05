@@ -1,4 +1,5 @@
 .interpersonal-competency-information {
+    min-width: 10rem;
     border-radius: var(--border-radius-atom);
     background-color: var(--color-heather-mist);
     text-align: center;

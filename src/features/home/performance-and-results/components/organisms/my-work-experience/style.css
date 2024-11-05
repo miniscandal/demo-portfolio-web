@@ -13,7 +13,6 @@
         gap: var(--gap-organism);
 
         > .technical-skills {
-            width: 80%;
             justify-content: space-between;
         }
     }
@@ -23,10 +22,10 @@
     }
 
     @media (width < 40rem) {
-        padding: 0 var(--padding-organism));
+        padding: 0 var(--padding-organism);
     }
 
     @media (width < 30rem) {
-        padding: 0 var(--padding-molecule);
+        padding: 0;
     }
 }

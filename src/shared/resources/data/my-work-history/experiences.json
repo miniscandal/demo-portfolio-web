@@ -12,7 +12,7 @@
             }
         },
         "descriptionSpanish": "Colaboré como programador y diseñador de esquemas electrónicos en un proyecto para el desarrollo de un libro digital educativo de módulos electrónicos. El proyecto tenía como objetivo explicar el funcionamiento de estos componentes junto a su integración con la placa de desarrollo Arduino para facilitar el aprendizaje de Sistemas Embebidos a estudiantes de ingeniería y aficionados de la electrónica.",
-        "descriptionEnglish": "I collaborated as a programmer and designer of electronic schematics in a project for the development of an educational digital book of electronic modules.\n\nThe objective of the project was to explain the operation of these components, together with their integration with the Arduino development board,\n\nto facilitate the learning of Embedded Systems to engineering students and electronic enthusiasts.",
+        "descriptionEnglish": "I collaborated as a programmer and designer of electronic schematics in a project for the development of an educational digital book of electronic modules.\n\nThe objective of the project was to explain the operation of these components, together with their integration with the Arduino development board, to facilitate the learning of Embedded Systems to engineering students and electronic enthusiasts.",
         "technologiesTools": [
             "arduino",
             "c",

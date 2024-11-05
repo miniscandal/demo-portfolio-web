@@ -8,11 +8,11 @@ import './style.css';
 
 function SpecializationTechnologicalSkills() {
     const skillsImplementedWork = {
-        textTitle: 'Technological Skills Specialization',
+        textTitle: 'TECHNOLOGICAL SKILLS SPECIALIZATION',
         skills: ['java', 'javaScript', 'css', 'react', 'python', 'springBoot'],
         skillsInformation: technologiesToolsData,
         component: ToolInformation,
-        columns: 4,
+        columns: 0,
         color: 'light'
     };
 

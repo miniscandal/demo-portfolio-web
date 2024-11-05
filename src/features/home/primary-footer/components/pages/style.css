@@ -1,58 +1,60 @@
 .primary-footer {
-    margin: auto;
-    padding: var(--padding-organism);
+    display: flex;
+    flex-direction: column;
     background-color: var(--color-coffee-brown);
+    gap: var(--gap-organism);
+    padding: 0 var(--padding-molecule);
 
-    > section {
-        max-width: 80rem;
+
+    > div {
+        max-width: 100rem;
         margin: auto;
-        display: flex;
-        align-items: center;
-        gap: var(--gap-organism);
-        justify-content: space-between;
+        padding: var(--padding-organism) 0;
 
-        padding: var(--padding-simple-organism) 0;
-
-        &:first-child {
-            border-bottom: solid var(--color-light-silver) 0.05rem;
-        }
+        > section {
+            display: flex;
+            gap: var(--gap-double-organism);
 
 
-        @media (width < 60rem) {
+            @media (width < 60rem) {
+                flex-direction: column;
+            }
+
             &:first-child {
-                flex-direction: column;
-            }
-        }
+                border-bottom: dotted var(--color-light-silver) 0.05rem;
+                padding-bottom: var(--padding-simple-container);
 
-        @media (width < 55rem) {
+                > .specialization-technological-skills {
+                    max-width: 40rem;
+                }
+
+                > .about-me {
+                    max-width: 35rem;
+                }
+            }
+
             &:last-child {
-                flex-direction: column;
-            }
-        }
+                padding-top: var(--padding-organism);
 
-        &:last-child {
-            > .about-me__div--inspired {
-                .paragraph:last-child {
-                    padding-top: var(--padding-molecule);
-                    text-align: center;
-                }
-            }
+                > div {
+                    &:first-child {
+                        max-width: 35rem;
+                    }
 
-            > .about-me__div--professional-contact {
-                display: flex;
-                flex-direction: column;
-                gap: var(--gap-molecule);
+                    &:first-child > .paragraph:first-child {
+                        padding-bottom: var(--padding-simple-molecule);
+                    }
 
-                > .social-networks {
-                    margin-left: auto;
-                }
+                    &:last-child {
+                        margin-left: auto;
+                        display: flex;
+                        flex-wrap: wrap;
+                        flex-direction: row-reverse;
+                        gap: var(--gap-molecule);
 
-                @media (width < 55rem) {
-                    flex-direction: row-reverse;
-                    justify-content: space-between;
-
-                    > .copy-email-clipboard {
-                        margin-top: auto;
+                        > .copy-email-clipboard {
+                            margin-top: auto;
+                        }
                     }
                 }
             }

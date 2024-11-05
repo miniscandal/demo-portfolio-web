@@ -17,6 +17,11 @@
     &.columns-2 {
         > div {
             grid-template-columns: repeat(2, 1fr);
+
+            @media (width < 25rem) {
+                display: flex;
+                flex-wrap: wrap;
+            }
         }
     }
 
@@ -27,14 +32,7 @@
         }
     }
 
-
-    &.columns-4 {
-        > div {
-            grid-template-columns: repeat(4, 1fr);
-        }
-    }
-
-    &.columns-auto {
+    &.columns-0 {
         > div {
             display: flex;
             flex-wrap: wrap;

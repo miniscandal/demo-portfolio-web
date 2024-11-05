@@ -12,7 +12,7 @@ function InterpersonalSkills({ interpersonalCompetencies }) {
         skills: interpersonalCompetencies,
         skillsInformation: interpersonalCompetenciesData,
         Component: InterpersonalCompetencyInformation,
-        columns: 'auto',
+        columns: 0,
         color: 'royal-blue'
     };
 

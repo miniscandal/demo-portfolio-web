@@ -10,30 +10,32 @@ import './style.css';
 
 function PrimaryFooter() {
     const paragraphInspiredQuote = {
-        text: '“No one knows what the future holds, so its potential is endless”',
+        text: '«No one knows what the future holds, so its potential is endless»',
         color: 'light'
     };
     const paragraphAuthor = {
-        text: 'Rintaro Okabe - Steins;Gate (anime series)',
+        text: '-Rintaro Okabe - Steins;Gate (anime series)',
         color: 'light'
     };
 
     return (
         <footer className='primary-footer'>
-            <section>
-                <AboutMe />
-                <SpecializationTechnologicalSkills />
-            </section>
-            <section>
-                <div className='about-me__div--inspired'>
-                    <Paragraph {...paragraphInspiredQuote} />
-                    <Paragraph {...paragraphAuthor} />
-                </div>
-                <div className='about-me__div--professional-contact'>
-                    <SocialNetworks />
-                    <CopyEmailClipboard />
-                </div>
-            </section>
+            <div>
+                <section>
+                    <SpecializationTechnologicalSkills />
+                    <AboutMe />
+                </section>
+                <section>
+                    <div>
+                        <Paragraph {...paragraphInspiredQuote} />
+                        <Paragraph {...paragraphAuthor} />
+                    </div>
+                    <div>
+                        <SocialNetworks />
+                        <CopyEmailClipboard />
+                    </div>
+                </section>
+            </div>
         </footer>
     );
 }
