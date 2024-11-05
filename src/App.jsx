@@ -1,4 +1,4 @@
-import { Home } from '@feat-home-pages/home';
+import { RootHome } from '@feat-home-root/index';
 
 import './App.css';
 
@@ -7,7 +7,7 @@ function App() {
 
     return (
         <>
-            <Home />
+            <RootHome />
         </>
     );
 }

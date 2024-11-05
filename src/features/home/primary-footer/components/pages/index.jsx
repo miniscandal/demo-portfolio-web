@@ -1,8 +1,9 @@
-import { AboutMe } from '@feat-home-molecules/about-me';
+import { AboutMe } from '@feat-home-primary-footer-molecules/about-me';
+import { SpecializationTechnologicalSkills } from '@feat-home-primary-footer-molecules/specialization-technological-skills';
+
 import { Paragraph } from '@shared-atoms/paragraph';
 import { CopyEmailClipboard } from '@shared-molecules/copy-email-clipboard';
 import { SocialNetworks } from '@shared-molecules/social-networks';
-import { SpecializationTechnologicalSkills } from '@feat-home-molecules/specialization-technological-skills';
 
 import './style.css';
 

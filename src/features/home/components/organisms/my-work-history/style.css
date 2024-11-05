@@ -1,6 +1,0 @@
-.my-work-history {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: var(--padding-simple-container);
-}

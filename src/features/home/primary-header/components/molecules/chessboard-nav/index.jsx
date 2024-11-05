@@ -1,4 +1,4 @@
-import { SquareShapeAnchorTag } from '@feat-home-molecules/square-shaped-anchor-tag';
+import { SquareShapeAnchorTag } from '@feat-home-header-molecules/square-shaped-anchor-tag';
 
 import './style.css';
 

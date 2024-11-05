@@ -17,14 +17,23 @@
             "@core/*": [
                 "core/*"
             ],
-            "@feat-home-pages/*": [
-                "features/home/components/pages/*"
+            "@feat-home-header-organisms/*": [
+                "features/home/primary-header/components/organisms/*"
             ],
-            "@feat-home-molecules/*": [
-                "features/home/components/molecules/*"
+            "@feat-home-root/*": [
+                "features/home/root/*"
             ],
-            "@feat-home-organisms/*": [
-                "features/home/components/organisms/*"
+            "@feat-home-performance-and-results-organisms/*": [
+                "features/home/performance-and-results/components/organisms/*"
+            ],
+            "@feat-home-performance-and-results-pages/*": [
+                "features/home/performance-and-results/components/pages/*"
+            ],
+            "@feat-home-primary-footer-molecules/*": [
+                "features/home/primary-footer/components/molecules/*"
+            ],
+            "@feat-home-primary-footer-pages/*": [
+                "features/home/primary-footer/components/pages/*"
             ],
             "@shared-atoms/*": [
                 "shared/components/atoms/*"

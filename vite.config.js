@@ -9,14 +9,9 @@ export default defineConfig({
             '@assets-documents': '/src/assets/documents/',
             '@assets-fonts': '/src/assets/fonts/',
             '@assets-images': '/src/assets/images/',
-
             '@contexts': '/src/contexts/',
 
             '@core': '/src/core/',
-
-            '@feat-home-molecules': '/src/features/home/components/molecules/',
-            '@feat-home-organisms': '/src/features/home/components/organisms/',
-            '@feat-home-pages': '/src/features/home/components/pages/',
 
             '@shared-atoms': '/src/shared/components/atoms/',
             '@shared-molecules': '/src/shared/components/molecules/',
@@ -31,6 +26,16 @@ export default defineConfig({
 
             '@shared-styles': '/src/shared/styles/',
             '@shared-utils': '/src/shared/utils/',
+
+            '@feat-home-root': '/src/features/home/root/',
+            '@feat-home-header-molecules': '/src/features/home/primary-header/components/molecules/',
+            '@feat-home-header-organisms': '/src/features/home/primary-header/components/organisms/',
+
+            '@feat-home-performance-and-results-organisms': '/src/features/home/performance-and-results/components/organisms/',
+            '@feat-home-performance-and-results-pages': '/src/features/home/performance-and-results/components/pages/',
+
+            '@feat-home-primary-footer-molecules': '/src/features/home/primary-footer/components/molecules/',
+            '@feat-home-primary-footer-pages': '/src/features/home/primary-footer/components/pages/',
         }
     }
 });

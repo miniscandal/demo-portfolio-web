@@ -1,7 +1,7 @@
 import { Image } from '@shared-atoms/image';
-import { ChessboardNav } from '@feat-home-molecules/chessboard-nav';
+import { ChessboardNav } from 'features/home/primary-header/components/molecules/chessboard-nav';
 import { ProfessionalContact } from '@shared-organisms/professional-contact';
-import { PixelArtCharacterDialog } from '@feat-home-molecules/pixel-art-character-dialog';
+import { PixelArtCharacterDialog } from '@shared-molecules/pixel-art-character-dialog';
 
 import srcPhoto from '@assets-images/solid/me-coding.webp';
 

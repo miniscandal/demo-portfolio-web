@@ -1,8 +1,8 @@
 import { Title } from '@shared-atoms/title';
 import { WorkDateRange } from '@shared-molecules/work-date-range';
 import { Paragraph } from '@shared-atoms/paragraph';
-import { InterpersonalSkills } from '@feat-home-organisms/interpersonal-skills';
-import { TechnicalSkills } from '@feat-home-organisms/technical-skills';
+import { InterpersonalSkills } from '@feat-home-performance-and-results-organisms/interpersonal-skills';
+import { TechnicalSkills } from '@feat-home-performance-and-results-organisms/technical-skills';
 
 import './style.css';
 

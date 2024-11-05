@@ -1,10 +1,5 @@
 .my-work-experience {
-    max-width: 55rem;
-    border-left: solid var(--color-warm-silver) 2px;
-    border-right: solid var(--color-warm-silver) 2px;
-    padding: 0 var(--padding-simple-container);
-
-    header {
+    > header {
         padding-bottom: var(--padding-organism);
 
         .title {
