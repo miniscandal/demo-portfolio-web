@@ -26,7 +26,7 @@
     },
     "react": {
         "name": "React",
-        "color": "#087ea4e6",
+        "color": "#3c99dc",
         "iconSrc": "/src/assets/images/svg/react.svg"
     },
     "json": {
@@ -68,5 +68,15 @@
         "name": "PDF",
         "color": "#f27b57",
         "iconSrc": "/src/assets/images/svg/pdf.svg"
+    },
+    "java": {
+        "name": "Java",
+        "color": "#5382a1",
+        "iconSrc": "/src/assets/images/svg/java.svg"
+    },
+    "springBoot": {
+        "name": "Spring Boot",
+        "color": "#6db33f",
+        "iconSrc": "/src/assets/images/svg/spring-boot.svg"
     }
 }

@@ -1,0 +1,61 @@
+.primary-footer {
+    margin: auto;
+    padding: var(--padding-organism);
+    background-color: var(--color-coffee-brown);
+
+    > section {
+        max-width: 80rem;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        gap: var(--gap-organism);
+        justify-content: space-between;
+
+        padding: var(--padding-simple-organism) 0;
+
+        &:first-child {
+            border-bottom: solid var(--color-light-silver) 0.05rem;
+        }
+
+
+        @media (width < 60rem) {
+            &:first-child {
+                flex-direction: column;
+            }
+        }
+
+        @media (width < 55rem) {
+            &:last-child {
+                flex-direction: column;
+            }
+        }
+
+        &:last-child {
+            > .about-me__div--inspired {
+                .paragraph:last-child {
+                    padding-top: var(--padding-molecule);
+                    text-align: center;
+                }
+            }
+
+            > .about-me__div--professional-contact {
+                display: flex;
+                flex-direction: column;
+                gap: var(--gap-molecule);
+
+                > .social-networks {
+                    margin-left: auto;
+                }
+
+                @media (width < 55rem) {
+                    flex-direction: row-reverse;
+                    justify-content: space-between;
+
+                    > .copy-email-clipboard {
+                        margin-top: auto;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,10 +1,7 @@
-import { PersonalInformation } from '@shared-organisms/personal-information';
-import { ChessboardNav } from '../chessboard-nav';
 import { Image } from '@shared-atoms/image';
-import { Paragraph } from '@shared-atoms/paragraph';
-import { PixelArtCharacter } from '@shared-molecules/pixel-art-character';
-
-import { PIXEL_ART_ANIME_UMI } from '@shared-constants/pixel-art-characters';
+import { ChessboardNav } from '@feat-home-molecules/chessboard-nav';
+import { ProfessionalContact } from '@shared-organisms/professional-contact';
+import { PixelArtCharacterDialog } from '@feat-home-molecules/pixel-art-character-dialog';
 
 import srcPhoto from '@assets-images/solid/me-coding.webp';
 
@@ -14,31 +11,19 @@ import './style.css';
 function PrimaryHeader() {
     const image = {
         src: srcPhoto,
-        size: 'auto',
+        size: 'default',
         objectFit: 'cover'
     };
-    const paragraph = {
-        text: 'Hello World!',
-        cursorAnimation: true
-    };
-    const pixelArtCharacter = {
-        character: PIXEL_ART_ANIME_UMI,
-        size: 'large',
-        showContainer: false
-    }
 
     return (
-        <header className='primary-header'>
+        <section className='primary-header-navigation'>
             <Image {...image} />
-            <ChessboardNav />
-            <div className='primary-header__div'>
-                <div>
-                    <PixelArtCharacter {...pixelArtCharacter} />
-                </div>
-                <Paragraph {...paragraph} />
-                <PersonalInformation />
+            <div className='primary-header-navigation__div'>
+                <PixelArtCharacterDialog />
+                <ProfessionalContact />
             </div>
-        </header>
+            <ChessboardNav />
+        </section>
     );
 }
 

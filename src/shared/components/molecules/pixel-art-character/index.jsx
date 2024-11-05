@@ -1,4 +1,4 @@
-import { PIXEL_ART_HAMTARO } from '@shared-constants/pixel-art-characters';
+import { PIXEL_ART_ANIME_UMI_REGULAR } from '@shared-constants/pixel-art-characters';
 
 import './style.css';
 
@@ -11,20 +11,17 @@ import './style.css';
  */
 
 function PixelArtCharacter({
-    character = PIXEL_ART_HAMTARO,
-    size = 'regular',
+    character = PIXEL_ART_ANIME_UMI_REGULAR,
     showContainer = true
 }) {
     const classList = [
-        size,
+        `art-${character}`,
         showContainer ? 'show-container' : ''
     ];
 
     return (
         <div className={`pixel-art-character ${classList.join(' ')}`}>
-            <div className={character}>
-
-            </div>
+            <div className={character}></div>
         </div>
     );
 }

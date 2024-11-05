@@ -9,23 +9,27 @@ import './style.css';
 
 
 function TechnicalSkills({ technologiesTools, knowledge }) {
+    const skillsImplementedWorkSkills = {
+        textTitle: 'Some tech tools I used',
+        skills: technologiesTools,
+        skillsInformation: technologiesToolsData,
+        Component: ToolInformation,
+        columns: '2',
+        color: 'royal-blue'
+    };
+    const skillsImplementedWorkKnowledge = {
+        textTitle: 'Some knowledge that I applied',
+        skills: knowledge,
+        skillsInformation: knowledgeData,
+        Component: KnowledgeInformation,
+        columns: '1',
+        color: 'royal-blue'
+    };
 
     return (
         <section className='technical-skills'>
-            <SkillsImplementedWork
-                textTitle='Some tech tools I used'
-                skills={technologiesTools}
-                skillsInformation={technologiesToolsData}
-                Component={ToolInformation}
-                columns='2'
-            />
-            <SkillsImplementedWork
-                textTitle='Some knowledge that I applied'
-                skills={knowledge}
-                skillsInformation={knowledgeData}
-                Component={KnowledgeInformation}
-                columns='1'
-            />
+            <SkillsImplementedWork {...skillsImplementedWorkSkills} />
+            <SkillsImplementedWork {...skillsImplementedWorkKnowledge} />
         </section>
     );
 }

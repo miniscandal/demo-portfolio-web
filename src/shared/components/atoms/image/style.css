@@ -10,26 +10,25 @@
         height: 25rem;
     }
 
-    &.auto {
+    &.adaptive {
         width: 100%;
         height: 100%;
     }
 
+    &.default {
+        width: auto;
+        height: auto;
+    }
+
     &.cover {
-        img {
+        > img {
             object-fit: cover;
         }
     }
 
     &.contain {
-        img {
+        > img {
             object-fit: contain;
-        }
-    }
-
-    &.fill {
-        img {
-            object-fit: fill;
         }
     }
 }

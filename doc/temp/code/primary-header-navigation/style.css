@@ -1,0 +1,52 @@
+.primary-header-navigation {
+    overflow: hidden;
+    position: relative;
+
+    > .image {
+        position: relative;
+
+        &::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background-color: var(--color-slate-gray);
+            pointer-events: none;
+            opacity: 0.6;
+        }
+
+        @media (width < 95rem) {
+            height: 40rem;
+        }
+
+        @media (width < 40rem) {
+            height: 15rem;
+        }
+    }
+
+    > .chessboard-nav {
+        position: absolute;
+        top: -2rem;
+        right: -2rem;
+        transform: rotate(45deg);
+        z-index: 10;
+
+        .paragraph {
+            transform: rotate(-45deg);
+        }
+    }
+
+    > .primary-header-navigation__div {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        padding: var(--padding-simple-organism);
+    }
+
+
+    @media (width < 40rem) {
+        > .primary-header-navigation__div {
+            position: static;
+            background-color: var(--color-charcoal-grey);
+        }
+    }
+}

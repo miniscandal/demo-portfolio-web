@@ -3,19 +3,15 @@
     color: var(--color-light);
     cursor: pointer;
 
-    > div {
-        &:first-child {
-            .icon {
-                transform: translateY(0.5rem);
-                transition: var(--transition-transform), var(--transition-box-shadow);
-            }
-        }
+    .icon-background {
+        transform: translateY(0.5rem);
+        transition: var(--transition-transform), var(--transition-box-shadow);
+    }
 
-        &:last-child {
-            padding: var(--padding-simple-molecule);
-            border-radius: var(--border-radius-atom);
-            text-align: center;
-        }
+    > div:last-child {
+        padding: var(--padding-simple-molecule);
+        border-radius: var(--border-radius-atom);
+        text-align: center;
     }
 
     &.auto {
@@ -23,11 +19,9 @@
     }
 
     &:hover {
-        div:first-child {
-            .icon {
-                transform: translateX(0.3rem) translateY(0.5rem);
-                box-shadow: -0.2rem 0.2rem 0.2rem var(--color-charcoal-grey);
-            }
+        .icon-background {
+            transform: translateX(0.3rem) translateY(0.5rem);
+            box-shadow: -0.2rem 0.2rem 0.2rem var(--color-charcoal-grey);
         }
     }
 }

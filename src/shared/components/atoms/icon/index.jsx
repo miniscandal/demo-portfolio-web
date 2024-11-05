@@ -5,18 +5,11 @@ import './style.css';
 
 function Icon({
     src = iconSrc,
-    color = 'light',
-    size = 'regular',
-    backgroundColor = false
+    size = 'regular'
 }) {
-    const classList = [
-        color,
-        size,
-        backgroundColor ? 'background-color' : ''
-    ];
 
     return (
-        <div className={`icon ${classList.join(' ')}`}>
+        <div className={`icon ${size}`}>
             <img src={src} />
         </div>
     );

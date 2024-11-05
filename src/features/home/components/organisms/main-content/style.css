@@ -4,13 +4,16 @@ main {
     overflow: hidden;
     gap: var(--gap-container);
     background-color: var(--color-light-silver);
+    padding: var(--padding-container) 0;
 
     > article {
-        max-width: 60rem;
+        max-width: 70rem;
         margin: auto;
+        padding: 0 var(--padding-molecule);
 
         > .h2 {
             padding-bottom: var(--padding-container);
+
         }
     }
 }

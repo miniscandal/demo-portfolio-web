@@ -15,14 +15,15 @@ function SkillsImplementedWork({
         }
     },
     Component = ToolInformation,
-    columns = 2
+    columns = 2,
+    color = 'light'
 }) {
     const classList = [
         `columns-${columns}`
     ];
     const title = {
         text: textTitle,
-        color: 'royal-blue',
+        color,
         type: 'h4'
     };
     const components = skills.map((value, index) => (

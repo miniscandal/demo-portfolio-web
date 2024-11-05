@@ -1,8 +1,5 @@
 .title {
     text-wrap: balance;
-    line-height: 1.5;
-    letter-spacing: 1px;
-
 
     &.h1 {
         font-size: 2.2rem;
@@ -26,7 +23,7 @@
                 content: '';
                 display: block;
                 width: 2rem;
-                height: 2px;
+                height: 0.1rem;
                 background-color: var(--color-olive-green);
             }
         }

@@ -19,6 +19,7 @@ function MyWorkHistory() {
     return (
         <section className='my-work-history'>
             <MyWorkExperience  {...myWorkExperience} />
+            <MyWorkExperience  {...myWorkExperience} />
         </section>
     );
 }

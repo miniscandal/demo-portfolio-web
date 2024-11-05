@@ -1,0 +1,4 @@
+.professional-competency {
+    display: flex;
+    gap: var(--gap-molecule);
+}

@@ -24,7 +24,6 @@
         left: 0;
         border: solid 1px var(--color-light-silver);
         will-change: transform;
-
         transition:
             transform var(--transition-seconds) linear,
             box-shadow var(--transition-seconds) linear;

@@ -12,9 +12,10 @@ function Title({ text = 'I am a title', color = 'light', type = 'h1', decorated 
         h3: <h3 className={`title h3 ${classList}`}>{text}</h3>,
         h4: <h4 className={`title h4 ${classList}`}>{text}</h4>
     };
+    const title = types[type];
 
     return (
-        types[type]
+        title
     );
 }
 

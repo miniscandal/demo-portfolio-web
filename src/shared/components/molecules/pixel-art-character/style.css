@@ -9,33 +9,25 @@
         background-color: var(--color-steel-grey);
     }
 
-    &.regular {
-        width: 4.5rem;
-        height: 4.5rem;
+    &.art-hamtaro {
+        &.small {
+            width: 1.9rem;
+            height: 1.9rem;
 
-
-        > div {
-            transform: scale(0.3);
+            > div {
+                transform: scale(0.1);
+            }
         }
     }
 
-    &.small {
-        width: 2rem;
-        height: 2rem;
+    &.art-anime-umi {
+        &.regular {
+            width: 9.5rem;
+            height: 16.5rem;
 
-        > div {
-            transform: scale(0.1);
+            > div {
+                transform: scale(1);
+            }
         }
-    }
-
-    &.large {
-        width: 9rem;
-        height: 15rem;
-
-        > div {
-            transform: scale(0.9);
-        }
-
-
     }
 }

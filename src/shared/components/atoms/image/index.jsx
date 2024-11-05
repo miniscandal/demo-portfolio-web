@@ -3,14 +3,10 @@ import image from '@assets-images/solid/anime-1.jpg';
 import './style.css';
 
 
-function Image({ src = image, size = 'regular', objectFit = 'fill' }) {
-    const classList = [
-        size,
-        objectFit
-    ];
+function Image({ src = image, size = 'regular', objectFit = 'none' }) {
 
     return (
-        <div className={`image ${classList.join(' ')}`}>
+        <div className={`image ${size} ${objectFit}`}>
             <img src={src} />
         </div>
     );

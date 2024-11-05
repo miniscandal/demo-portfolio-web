@@ -1,4 +1,4 @@
-import { Icon } from '@shared-atoms/icon';
+import { IconBackground } from '@shared-molecules/icon-background';
 import svgTool from '@assets-images/svg/tool.svg';
 
 import './style.css';
@@ -9,17 +9,14 @@ function ToolInformation({
     iconSrc: src = svgTool,
     color: bgColor = 'lightpink'
 }) {
-    const icon = {
+    const iconBackground = {
         src,
-        size: 'regular',
-        backgroundColor: true
+        size: 'regular'
     };
 
     return (
         <a className='tool-information'>
-            <div>
-                <Icon {...icon} />
-            </div>
+            <IconBackground {...iconBackground} />
             <div style={{ backgroundColor: bgColor }}>
                 {text}
             </div>

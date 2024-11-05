@@ -6,7 +6,7 @@
     padding: var(--padding-simple-molecule);
     cursor: pointer;
 
-    .paragraph {
+    > .paragraph {
         padding-left: var(--padding-simple-molecule);
         padding-right: var(--padding-simple-molecule);
     }

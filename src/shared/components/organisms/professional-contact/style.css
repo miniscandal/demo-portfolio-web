@@ -1,4 +1,4 @@
-.personal-information {
+.professional-contact {
     display: flex;
     flex-direction: column;
 
@@ -19,22 +19,18 @@
         flex-wrap: wrap;
         gap: var(--padding-molecule);
 
-        .copy-email-clipboard {
+        > .copy-email-clipboard {
             align-self: flex-end;
         }
     }
 
-    @media (width < 30rem) {
-        .title {
-            text-align: center;
-        }
-
+    @media (width < 25rem) {
         .button-link-downloader {
-            margin-left: auto;
-            margin-right: auto;
+            width: 100%;
         }
 
-        div {
+        > div {
+
             justify-content: center;
         }
     }

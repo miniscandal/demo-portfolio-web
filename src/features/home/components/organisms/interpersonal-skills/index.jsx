@@ -7,16 +7,18 @@ import './style.css';
 
 
 function InterpersonalSkills({ interpersonalCompetencies }) {
+    const skillsImplementedWork = {
+        textTitle: 'Some concepts that I applied',
+        skills: interpersonalCompetencies,
+        skillsInformation: interpersonalCompetenciesData,
+        Component: InterpersonalCompetencyInformation,
+        columns: 'auto',
+        color: 'royal-blue'
+    };
 
     return (
         <section className='interpersonal-skills'>
-            <SkillsImplementedWork
-                textTitle='Some concepts that I applied'
-                skills={interpersonalCompetencies}
-                skillsInformation={interpersonalCompetenciesData}
-                Component={InterpersonalCompetencyInformation}
-                columns='auto'
-            />
+            <SkillsImplementedWork {...skillsImplementedWork} />
         </section>
     );
 }

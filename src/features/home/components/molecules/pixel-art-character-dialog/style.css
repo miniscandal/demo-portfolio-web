@@ -1,0 +1,23 @@
+    .pixel-art-character-dialog {
+        > .paragraph {
+            width: fit-content;
+            padding: var(--padding-molecule);
+            border-radius: var(--border-radius-molecule);
+            margin-bottom: var(--padding-molecule);
+            background-color: var(--color-light-silver);
+            position: relative;
+
+            &::before {
+                content: '';
+                position: absolute;
+                bottom: -9px;
+                left: 50%;
+                transform: translateX(-50%);
+                width: 0;
+                height: 0;
+                border-left: 10px solid transparent;
+                border-right: 10px solid transparent;
+                border-top: 10px solid var(--color-light-silver);
+            }
+        }
+    }

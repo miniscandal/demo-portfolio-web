@@ -1,4 +1,5 @@
 .my-work-experience {
+    max-width: 55rem;
     border-left: solid var(--color-warm-silver) 2px;
     border-right: solid var(--color-warm-silver) 2px;
     padding: 0 var(--padding-simple-container);
@@ -15,5 +16,22 @@
         display: flex;
         flex-direction: column;
         gap: var(--gap-organism);
+
+        > .technical-skills {
+            width: 80%;
+            justify-content: space-between;
+        }
+    }
+
+    @media (width < 60rem) {
+        padding: 0 calc(var(--padding-simple-container) / 2);
+    }
+
+    @media (width < 40rem) {
+        padding: 0 var(--padding-organism));
+    }
+
+    @media (width < 30rem) {
+        padding: 0 var(--padding-molecule);
     }
 }

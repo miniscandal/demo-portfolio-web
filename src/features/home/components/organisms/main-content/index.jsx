@@ -5,8 +5,20 @@ import './style.css';
 
 
 function MainContent() {
-    const title = {
+    const titleWorkHistory = {
         text: 'PERFORMANCE AND RESULTS',
+        color: 'charcoal-grey',
+        type: 'h2',
+        decorated: true
+    };
+    const titleKnowledge = {
+        text: 'Demonstrating my skills and knowledge',
+        color: 'charcoal-grey',
+        type: 'h2',
+        decorated: true
+    };
+    const titleWhatDo = {
+        text: 'What I Do',
         color: 'charcoal-grey',
         type: 'h2',
         decorated: true
@@ -15,11 +27,14 @@ function MainContent() {
     return (
         <main>
             <article>
-                <Title {...title} />
+                <Title {...titleWorkHistory} />
                 <MyWorkHistory />
             </article>
             <article>
-                <MyWorkHistory />
+                <Title {...titleKnowledge} />
+            </article>
+            <article>
+                <Title {...titleWhatDo} />
             </article>
         </main>
     );

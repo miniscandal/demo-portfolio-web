@@ -8,7 +8,7 @@ import cvFile from '@assets-documents/cv-oscar-gonzalez.pdf';
 import './style.css';
 
 
-function PersonalInformation() {
+function ProfessionalContact() {
     const titleH1 = {
         text: 'Oscar González',
         color: 'light-silver',
@@ -25,7 +25,7 @@ function PersonalInformation() {
     };
 
     return (
-        <section className="personal-information">
+        <section className="professional-contact">
             <Title {...titleH1} />
             <Title {...titleH2} />
             <ButtonLinkDownloader {...buttonLinkDownloader} />
@@ -37,4 +37,4 @@ function PersonalInformation() {
     );
 }
 
-export { PersonalInformation };
+export { ProfessionalContact };
