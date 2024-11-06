@@ -17,14 +17,29 @@
             "@feat-home-performance-and-results-pages/*": [
                 "features/home/performance-and-results/components/pages/*"
             ],
+            "@feat-home-primary-header-molecules/*": [
+                "features/home/primary-header/components/molecules/*"
+            ],
             "@feat-home-primary-header-organisms/*": [
                 "features/home/primary-header/components/organisms/*"
+            ],
+            "@feat-home-primary-header-pages/*": [
+                "features/home/primary-header/components/pages/*"
             ],
             "@feat-home-primary-footer-molecules/*": [
                 "features/home/primary-footer/components/molecules/*"
             ],
+            "@feat-home-primary-footer-organisms/*": [
+                "features/home/primary-footer/components/organisms/*"
+            ],
             "@feat-home-primary-footer-pages/*": [
                 "features/home/primary-footer/components/pages/*"
+            ],
+            "@feat-home-professional-profile-organisms/*": [
+                "features/home/professional-profile/components/organisms/*"
+            ],
+            "@feat-home-professional-profile-pages/*": [
+                "features/home/professional-profile/components/pages/*"
             ],
             "@feat-home-root/*": [
                 "features/home/root/*"

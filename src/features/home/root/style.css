@@ -5,8 +5,9 @@
      padding: var(--padding-container) var(--padding-molecule);
      background-color: var(--color-light-silver);
 
-     > .performance-and-results {
-         max-width: 44rem;
+     > .performance-and-results,
+     .professional-profile {
+         max-width: 80rem;
          margin: auto;
      }
  }

@@ -1,0 +1,29 @@
+{
+    "competencies": {
+        "computerSystemEngineering": {
+            "name": "Computer System Enginnering",
+            "descriptionEnglish": "My broad set of skills and knowledge allows me to face various situations and challenges. I carry out analysis, planning, design and adjustment of computer systems to guarantee their optimal and efficient operation. In addition, I implement the digital transformation of processes, products and services, process automation, data collection and analysis for decision making.",
+            "descriptionSpanish": "Mi amparo conjunto de habilidades y conocimientos me permite enfrentar diversas situaciones y desafíos. Realizo análisis, planificación, diseño y ajuste de sistemas informáticos para garantizar su funcionamiento óptimo y eficiente. Además, implemento la transformación digital de procesos, productos y servicios, automatización de procesos, recopilación y análisis de datos para la toma de decisiones."
+        },
+        "softwareDeveloper": {
+            "name": "Software Developer",
+            "descriptionEnglish": "I propose tailor-made technological solutions to meet your unique requirements. My approach includes the methodical planning and development of software, which forms the foundation of contemporary computing systems used in a wide range of applications and devices.",
+            "descriptionSpanish": "Propongo soluciones tecnológicas a medida para satisfacer sus requisitos únicos. Mi enfoque incluye la planificación y el desarrollo metódicos de software, que constituye la base de los sistemas informáticos contemporáneos utilizados en una amplia gama de aplicaciones y dispositivos."
+        },
+        "databaseAdministration": {
+            "name": "Database Administration",
+            "descriptionEnglish": "I improve the efficiency and effectiveness of the data that is handled within an organization by removing redundant or unnecessary data and normalizing it so that it is easy to use, accurate and useful. I make sure that data and information is available to the right people at the right time.",
+            "descriptionSpanish": "Mejoro la eficiencia y eficacia de los datos que se manejan dentro de una organización eliminando datos redundantes o innecesarios y normalizándolos para que sean fáciles de usar, precisos y útiles. Me aseguro de que los datos y la información estén disponibles para las personas adecuadas en el momento adecuado."
+        },
+        "internetOfThings": {
+            "name": "Internet Of Things",
+            "descriptionEnglish": "I develop a solution that allows any device, animal or person to connect to the internet. This facilitates the monitoring of variables of interest and access to information in real time. By decentralizing analysis and decision-making, living conditions are improved and personalized business models are facilitated.",
+            "descriptionSpanish": "Desarrollo una solución que permite que cualquier dispositivo, animal o persona se conecte a internet. Esto facilita el seguimiento de variables de interés y el acceso a la información en tiempo real. Al descentralizar el análisis y la toma de decisiones, se mejoran las condiciones de vida y se facilitan modelos de negocio personalizados."
+        },
+        "functionalAnalyst": {
+            "name": "Functional Analyst",
+            "descriptionEnglish": "I determine the functional requirements of a system based on the needs of the user. I make sure that both the software development process and the technical needs of the user are addressed, while also making sure that the system is easy to use.",
+            "descriptionSpanish": "Determino los requisitos funcionales de un sistema en base a las necesidades del usuario. Me aseguro de que se aborden tanto el proceso de desarrollo de software como las necesidades técnicas del usuario, al mismo tiempo que me aseguro de que el sistema sea fácil de usar."
+        }
+    }
+}

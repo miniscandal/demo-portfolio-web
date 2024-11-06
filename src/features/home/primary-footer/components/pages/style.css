@@ -7,7 +7,7 @@
 
 
     > div {
-        max-width: 100rem;
+        max-width: 80rem;
         margin: auto;
         padding: var(--padding-organism) 0;
 

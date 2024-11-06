@@ -1,5 +1,5 @@
 import { AboutMe } from '@feat-home-primary-footer-molecules/about-me';
-import { SpecializationTechnologicalSkills } from '@feat-home-primary-footer-molecules/specialization-technological-skills';
+import { SpecializationTechnologicalSkills } from '@feat-home-primary-footer-organisms/specialization-technological-skills';
 
 import { Paragraph } from '@shared-atoms/paragraph';
 import { CopyEmailClipboard } from '@shared-molecules/copy-email-clipboard';
@@ -40,4 +40,4 @@ function PrimaryFooter() {
     );
 }
 
-export { PrimaryFooter }
+export { PrimaryFooter };

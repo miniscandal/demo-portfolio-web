@@ -1,6 +1,6 @@
 .technical-skills {
     display: flex;
-    gap: var(--gap-double-organism);
+    gap: var(--gap-organism);
     flex-wrap: wrap;
 
     > .skills-implemented-work {

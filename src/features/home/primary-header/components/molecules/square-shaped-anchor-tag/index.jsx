@@ -16,7 +16,7 @@ function SquareShapeAnchorTag({
     return (
         <div className={`square-shaped-anchor-tag ${classList.join(' ')}`}>
             <div className='transform-effect'></div>
-            <Paragraph color='light-silver'>
+            <Paragraph color='light'>
                 <Span text={symbol} />
                 {'\u000A'}
                 {text}

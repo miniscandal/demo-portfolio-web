@@ -1,0 +1,15 @@
+.professional-profile {
+    > .title {
+        padding-bottom: var(--padding-container);
+    }
+
+    > section {
+        display: flex;
+        flex-wrap: wrap;
+        gap: var(--gap-double-organism);
+
+        > .competency-description {
+            max-width: 35rem;
+        }
+    }
+}

@@ -1,0 +1,15 @@
+.competency-description {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-organism);
+
+    > div {
+        display: flex;
+        align-items: center;
+        gap: var(--gap-molecule);
+    }
+
+    > .paragraph {
+        padding-left: calc(var(--gap-molecule) * 2.5);
+    }
+}

@@ -3,7 +3,7 @@ import { Image } from '@shared-atoms/image';
 import { PixelArtCharacterDialog } from '@shared-molecules/pixel-art-character-dialog';
 import { ProfessionalContact } from '@shared-organisms/professional-contact';
 
-import srcPhoto from '@assets-images/solid/me-coding.webp';
+import srcPhoto from '@assets-images/solid/main-3.jpg';
 
 import './style.css';
 

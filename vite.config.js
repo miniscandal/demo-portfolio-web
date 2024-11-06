@@ -21,14 +21,20 @@ export default defineConfig({
             '@shared-utils': '/src/shared/utils/',
 
             '@feat-home-root': '/src/features/home/root/',
+
             '@feat-home-primary-header-molecules': '/src/features/home/primary-header/components/molecules/',
             '@feat-home-primary-header-organisms': '/src/features/home/primary-header/components/organisms/',
+            '@feat-home-primary-header-pages': '/src/features/home/primary-header/components/pages/',
 
             '@feat-home-performance-and-results-organisms': '/src/features/home/performance-and-results/components/organisms/',
             '@feat-home-performance-and-results-pages': '/src/features/home/performance-and-results/components/pages/',
 
             '@feat-home-primary-footer-molecules': '/src/features/home/primary-footer/components/molecules/',
+            '@feat-home-primary-footer-organisms': '/src/features/home/primary-footer/components/organisms/',
             '@feat-home-primary-footer-pages': '/src/features/home/primary-footer/components/pages/',
+
+            '@feat-home-professional-profile-organisms': '/src/features/home/professional-profile/components/organisms/',
+            '@feat-home-professional-profile-pages': '/src/features/home/professional-profile/components/pages/',
         }
     }
 });
