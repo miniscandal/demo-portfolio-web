@@ -11,7 +11,8 @@
             inset: 0;
             background-color: var(--color-slate-gray);
             pointer-events: none;
-            opacity: 0.7;
+            opacity: 0.65;
+            filter: blur(20px);
         }
 
         @media (width < 95rem) {
