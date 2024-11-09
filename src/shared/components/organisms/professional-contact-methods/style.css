@@ -1,0 +1,18 @@
+.professional-contact-methods {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--padding-molecule);
+
+    > .copy-email-clipboard {
+        align-self: flex-end;
+    }
+
+    &.reverse {
+        flex-direction: row-reverse;
+
+
+        > .social-networks {
+            margin-top: auto;
+        }
+    }
+}

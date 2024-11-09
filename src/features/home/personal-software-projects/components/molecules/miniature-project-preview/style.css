@@ -1,0 +1,24 @@
+.miniature-project-preview {
+    > .image {
+        border-radius: var(--border-radius-simple-molecule);
+        overflow: hidden;
+        box-shadow: 0 0 1.5rem var(--color-dark);
+        transform: rotate(8deg);
+        user-select: none;
+
+        &::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background-color: var(--color-slate-gray);
+            opacity: 0.10;
+        }
+    }
+
+    &.panel-active {
+
+        > .image {
+            transform: rotate(0deg);
+        }
+    }
+}

@@ -1,4 +1,5 @@
 import { Paragraph } from '@shared-atoms/paragraph';
+import { MangaDialog } from '@shared-molecules/manga-dialog';
 import { PixelArtCharacter } from '@shared-molecules/pixel-art-character';
 
 import { PIXEL_ART_ANIME_UMI_REGULAR } from '@shared-constants/pixel-art-characters';
@@ -7,22 +8,24 @@ import { PIXEL_ART_ANIME_UMI_REGULAR } from '@shared-constants/pixel-art-charact
 import './style.css';
 
 
-function PixelArtCharacterDialog() {
-    const paragraph = {
+function PixelArtCharacterDialog({ size = 'regular' }) {
+    const mangaDialog = {
         text: 'Hello World!',
-        cursorAnimation: true,
-        color: 'dark',
+        text: ' Lorem ipsum dolor sit amet consectetur adipisicing elit.'
     };
     const pixelArtCharacter = {
+        text: 'Hello World!',
         character: PIXEL_ART_ANIME_UMI_REGULAR,
-        size: 'large',
-        showContainer: false
-    }
+        size: 'small',
+        showContainer: true
+    };
 
     return (
-        <section className='pixel-art-character-dialog'>
-            <Paragraph {...paragraph} />
-            <PixelArtCharacter {...pixelArtCharacter} />
+        <section className={`pixel-art-character-dialog ${size}`}>
+            <MangaDialog {...mangaDialog} />
+            <div className='pixel-art'>
+                <PixelArtCharacter {...pixelArtCharacter} />
+            </div>
         </section>
     );
 }

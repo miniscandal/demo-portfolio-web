@@ -1,0 +1,10 @@
+.personal-software-projects {
+    > .title {
+        padding-bottom: var(--padding-container);
+    }
+
+    > section {
+        display: flex;
+        justify-content: center;
+    }
+}

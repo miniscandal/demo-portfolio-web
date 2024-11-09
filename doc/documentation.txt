@@ -1,3 +1,4 @@
+
 Use HTML Tags
 
 Use tags: `<p>, <h1>, <h2>, <h3>, <span>, <strong>, <em>, <a>` (Text and Content) for atoms components
@@ -49,3 +50,13 @@ Módulos de terceros: Importa primero las bibliotecas externas, como React, Reac
 Componentes de tu proyecto: A continuación, importa tus componentes personalizados (ya sean de nivel superior o secundarios).
 Estilos y archivos CSS: Luego, importa los archivos de estilo CSS o cualquier archivo relacionado con el estilo.
 Otros módulos: Finalmente, puedes importar otros módulos, utilidades o funciones que no sean componentes.
+
+
+
+
+Concepts
+
+Resumen: Una descripción general sin profundizar en aspectos específicos.
+Perspectiva estratégica: Enfoque en los objetivos y planes a largo plazo sin entrar en las particularidades.
+Enfoque conceptual: Más centrado en las ideas y conceptos que en las aplicaciones o implementaciones específicas.
+Visión de alto nivel: Similar a un resumen, donde se prioriza la visión general sobre los aspectos técnicos detallados.

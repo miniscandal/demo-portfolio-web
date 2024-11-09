@@ -1,9 +1,13 @@
-import { Star } from './variants';
+import { KidStar } from './variants';
 
 import './style.css';
 
 
-function IconFontSvg({ svg = Star, color = 'light', size = 'regular' }) {
+function IconFontSvg({
+    svg = KidStar,
+    color = 'light',
+    size = 'regular'
+}) {
     const classList = [
         color,
         size

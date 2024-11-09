@@ -13,9 +13,10 @@
         &.small {
             width: 1.9rem;
             height: 1.9rem;
+            display: none;
 
             > div {
-                transform: scale(0.1);
+                transform: scale(0.4);
             }
         }
     }
@@ -27,6 +28,17 @@
 
             > div {
                 transform: scale(1);
+            }
+        }
+    }
+
+    &.art-anime-rintaro {
+        &.regular {
+            width: 5.3rem;
+            height: 8.5rem;
+
+            > div {
+                transform: scale(0.5);
             }
         }
     }

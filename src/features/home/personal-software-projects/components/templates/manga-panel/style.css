@@ -1,0 +1,16 @@
+.manga-panel {
+    height: 100%;
+    clip-path: inherit;
+    padding: var(--padding-molecule);
+    overflow: hidden;
+    position: relative;
+    background-color: var(--color-light);
+
+    > .span {
+        position: absolute;
+        top: 1rem;
+        right: 0.5rem;
+        padding: var(--padding-atom);
+        background-color: var(--color-warm-silver);
+    }
+}

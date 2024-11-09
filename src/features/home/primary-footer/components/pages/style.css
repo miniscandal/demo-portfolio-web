@@ -39,23 +39,15 @@
                 > div {
                     &:first-child {
                         max-width: 35rem;
-                    }
 
-                    &:first-child > .paragraph:first-child {
-                        padding-bottom: var(--padding-simple-molecule);
-                    }
-
-                    &:last-child {
-                        margin-left: auto;
-                        display: flex;
-                        flex-wrap: wrap;
-                        flex-direction: row-reverse;
-                        gap: var(--gap-molecule);
-
-                        > .copy-email-clipboard {
-                            margin-top: auto;
+                        > .paragraph:first-child {
+                            padding-bottom: var(--padding-simple-molecule);
                         }
                     }
+                }
+
+                > .professional-contact-methods {
+                    margin-left: auto;
                 }
             }
         }

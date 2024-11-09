@@ -1,0 +1,11 @@
+.span {
+    line-height: 1;
+
+    &.regular {
+        font-size: 1rem;
+    }
+
+    &.small {
+        font-size: 0.8rem;
+    }
+}

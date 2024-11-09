@@ -1,0 +1,23 @@
+.icon-button {
+    cursor: pointer;
+    background: none;
+    border: none;
+    border-radius: var(--border-radius-molecule);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: dashed var(--color-charcoal-grey) 1px;
+
+    .icon-font-svg {
+        transition: var(--transition-transform);
+    }
+
+    &.regular {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    &:hover {
+        box-shadow: 0 0 0.5rem;
+    }
+}

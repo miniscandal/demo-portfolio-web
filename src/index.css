@@ -28,7 +28,15 @@
     --color-misty-gray: #d4dbe266;
     --color-heather-mist: #a0849d;
 
+
+    --color-name-undefined-a: #c4c4c4;
+    --color-name-undefined-b: #808080;
+    --color-name-undefined-c: #f5cdac;
+    --color-name-undefined-d: #ecd7bb;
+
+
     --padding-uniform: 1.5rem;
+    --padding-simple-atom: 0.2rem;
     --padding-atom: 0.3rem;
     --padding-simple-molecule: 0.5rem;
     --padding-molecule: 1rem;
@@ -77,8 +85,8 @@ body {
     font-family: Figtree, helvetica;
 }
 
-body,
-html {
+html,
+body {
     max-width: 100svw;
     min-height: 100svh;
 }

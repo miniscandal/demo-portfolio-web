@@ -4,6 +4,10 @@
     align-items: center;
     position: relative;
 
+    > .paragraph {
+        padding-left: 1rem;
+    }
+
     > .transform-effect {
         display: flex;
         align-items: center;

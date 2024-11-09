@@ -1,1 +1,37 @@
-Eliminar size  auto, no es necesaria
+panel one: 
+
+description / por que el desarrollo de este proyecto
+
+
+panel two
+
+
+conceptos (por que se eligio) / tecnologias (por que se eligio)
+
+
+
+pnael three
+
+
+planeacion del proyecto (ideas , recursos, documetatoin) / code (structure, main files)
+
+
+
+panel for
+
+demo (galery / video) / code (main files, scripts)
+
+
+
+
+
+panel lateral: return , github, deploy = si existe?, coffe level dificutlte range :
+
+level: rango del 1 al 6, explicar que por que nunca el 6 o por que nunca el uno
+
+
+1: simpre habra al go mas facil ademas todo tiene su dificultad
+2:aplique tennologias y conceptos conocidos y utilizado acctulmente
+3: aplique tencologias y conocidas conocidos pero no utilizado sactualmente
+4:apliquye tencilogias y conceopts nuevas
+5: simpre habra algo mas dificil y herramientas y  con ceptos que aprnder

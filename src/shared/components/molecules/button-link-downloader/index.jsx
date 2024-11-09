@@ -1,6 +1,6 @@
 import { Icon } from '@shared-atoms/icon';
 
-import downloadIcon from '@assets-images/svg/download.svg';
+import svgFileSave from '@assets-images/svg/file-save.svg';
 
 import './style.css';
 
@@ -11,13 +11,13 @@ function ButtonLinkDownloader({
     file = new Blob([], { type: 'text/plain' })
 }) {
     const icon = {
-        src: downloadIcon,
+        src: svgFileSave,
         size: 'regular'
     }
     const handleClick = () => {
         const a = document.createElement('a');
         a.href = file;
-        a.download = href;
+        a.download = 'cv-oscar-gonzález.pdf';
         a.click();
     };
 

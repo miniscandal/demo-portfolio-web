@@ -3,6 +3,7 @@
     position: relative;
 
     > .image {
+        height: 85vh;
         position: relative;
 
         &::after {
@@ -19,15 +20,15 @@
             height: 40rem;
         }
 
-        @media (width < 40rem) {
+        @media (width < 45rem) {
             height: 15rem;
         }
     }
 
     > .chessboard-nav {
         position: absolute;
-        top: -2rem;
-        right: -2rem;
+        top: 0;
+        right: 0;
         transform: rotate(45deg);
         z-index: 10;
 
@@ -44,8 +45,12 @@
     }
 
 
-    @media (width < 40rem) {
+    @media (width < 45rem) {
         max-height: none;
+
+        > .chessboard-nav {
+            right: -2rem;
+        }
 
         > .primary-header-navigation__div {
             position: static;

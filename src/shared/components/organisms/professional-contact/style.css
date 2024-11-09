@@ -1,37 +1,13 @@
 .professional-contact {
-    display: flex;
-    flex-direction: column;
-
     > .title {
         &.h1 {
             padding-bottom: var(--padding-molecule);
         }
     }
 
-    .button-link-downloader {
+    > .button-link-downloader {
         margin-top: var(--padding-simple-organism);
         margin-bottom: var(--padding-simple-organism);
-        align-self: flex-start;
-    }
-
-    > div {
-        display: flex;
-        flex-wrap: wrap;
-        gap: var(--padding-molecule);
-
-        > .copy-email-clipboard {
-            align-self: flex-end;
-        }
-    }
-
-    @media (width < 25rem) {
-        .button-link-downloader {
-            width: 100%;
-        }
-
-        > div {
-
-            justify-content: center;
-        }
+        width: fit-content;
     }
 }

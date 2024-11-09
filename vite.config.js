@@ -35,6 +35,11 @@ export default defineConfig({
 
             '@feat-home-professional-profile-organisms': '/src/features/home/professional-profile/components/organisms/',
             '@feat-home-professional-profile-pages': '/src/features/home/professional-profile/components/pages/',
+
+            '@feat-home-personal-software-projects-templates': '/src/features/home/personal-software-projects/components/templates/',
+            '@feat-home-personal-software-projects-pages': '/src/features/home/personal-software-projects/components/pages/',
+            '@feat-home-personal-software-projects-organisms': '/src/features/home/personal-software-projects/components/organisms/',
+            '@feat-home-personal-software-projects-molecules': '/src/features/home/personal-software-projects/components/molecules/',
         }
     }
 });

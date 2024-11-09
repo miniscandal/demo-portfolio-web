@@ -1,7 +1,7 @@
 import { Title } from '@shared-atoms/title';
 import { ButtonLinkDownloader } from '@shared-molecules/button-link-downloader';
-import { SocialNetworks } from '@shared-molecules/social-networks';
-import { CopyEmailClipboard } from '@shared-molecules/copy-email-clipboard';
+import { ProfessionalContactMethods } from '@shared-organisms/professional-contact-methods';
+
 
 import cvFile from '@assets-documents/cv-oscar-gonzalez.pdf';
 
@@ -29,10 +29,7 @@ function ProfessionalContact() {
             <Title {...titleH1} />
             <Title {...titleH2} />
             <ButtonLinkDownloader {...buttonLinkDownloader} />
-            <div>
-                <SocialNetworks />
-                <CopyEmailClipboard />
-            </div>
+            <ProfessionalContactMethods />
         </section>
     );
 }

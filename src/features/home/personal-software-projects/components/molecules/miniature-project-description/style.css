@@ -1,0 +1,5 @@
+.miniature-project-description {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-simple-molecule);
+}

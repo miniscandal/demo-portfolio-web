@@ -17,6 +17,18 @@
             "@feat-home-performance-and-results-pages/*": [
                 "features/home/performance-and-results/components/pages/*"
             ],
+            "@feat-home-personal-software-projects-pages/*": [
+                "features/home/personal-software-projects/components/pages/*"
+            ],
+            "@feat-home-personal-software-projects-templates/*": [
+                "features/home/personal-software-projects/components/templates/*"
+            ],
+            "@feat-home-personal-software-projects-organisms/*": [
+                "features/home/personal-software-projects/components/organisms/*"
+            ],
+            "@feat-home-personal-software-projects-molecules/*": [
+                "features/home/personal-software-projects/components/molecules/*"
+            ],
             "@feat-home-primary-header-molecules/*": [
                 "features/home/primary-header/components/molecules/*"
             ],

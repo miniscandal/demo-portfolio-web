@@ -12,12 +12,15 @@ import './style.css';
 
 function PixelArtCharacter({
     character = PIXEL_ART_ANIME_UMI_REGULAR,
+    size = 'regular',
     showContainer = true
 }) {
     const classList = [
         `art-${character}`,
-        showContainer ? 'show-container' : ''
+        showContainer ? 'show-container' : '',
+        size
     ];
+    console.log(size);
 
     return (
         <div className={`pixel-art-character ${classList.join(' ')}`}>

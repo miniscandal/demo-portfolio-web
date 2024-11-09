@@ -1,4 +1,4 @@
-import image from '@assets-images/solid/anime-1.jpg';
+import image from '@assets-images/photo-me/anime-1.jpg';
 
 import './style.css';
 

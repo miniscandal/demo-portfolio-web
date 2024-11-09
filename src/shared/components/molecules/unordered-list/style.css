@@ -1,0 +1,7 @@
+.unordered-list {
+    list-style: none;
+
+    > li {
+        cursor: pointer;
+    }
+}
