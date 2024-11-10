@@ -6,8 +6,6 @@ import { Terminal } from '@shared-atoms/icon-font-svg/variants';
 import { EditNote } from '@shared-atoms/icon-font-svg/variants';
 import { Database } from '@shared-atoms/icon-font-svg/variants';
 
-import { EXPERIENCE_EDUCATIONAL_BACKGROUND } from '@shared-constants/anchor-id';
-
 import { competencies } from '@shared-resources-data/professional-information/profile.json';
 
 import './style.css';
@@ -15,7 +13,7 @@ import './style.css';
 
 function ProfessionalProfile() {
     const title = {
-        text: 'PROFESSIONAL EXPERIENCE - EDUCATIONAL BACKGROUND',
+        text: 'TECHNICAL COMPETENCIES AND EXPERTISE',
         color: 'charcoal-grey',
         type: 'h2',
         decorated: true
@@ -73,7 +71,7 @@ function ProfessionalProfile() {
     });
 
     return (
-        <section id={EXPERIENCE_EDUCATIONAL_BACKGROUND} className='professional-profile'>
+        <section className='professional-profile'>
             <Title {...title} />
             <section>
                 {professionalCompetencies}

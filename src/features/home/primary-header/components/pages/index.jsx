@@ -14,12 +14,15 @@ function PrimaryHeader() {
         size: 'default',
         objectFit: 'cover'
     };
+    const pixelArtCharacterDialog = {
+        text: 'Hello World!'
+    };
 
     return (
         <header className='primary-header'>
             <Image {...image} />
             <div className='primary-header-navigation__div'>
-                <PixelArtCharacterDialog />
+                <PixelArtCharacterDialog {...pixelArtCharacterDialog} />
                 <ProfessionalContact />
             </div>
             <ChessboardNav />

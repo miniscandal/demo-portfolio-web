@@ -13,10 +13,9 @@
         &.small {
             width: 1.9rem;
             height: 1.9rem;
-            display: none;
 
             > div {
-                transform: scale(0.4);
+                transform: scale(0.1);
             }
         }
     }
@@ -28,6 +27,15 @@
 
             > div {
                 transform: scale(1);
+            }
+        }
+
+        &.small {
+            width: 8.2rem;
+            height: 14rem;
+
+            > div {
+                transform: scale(0.85);
             }
         }
     }

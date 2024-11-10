@@ -1,13 +1,13 @@
 import { Title } from '@shared-atoms/title';
 import { WorkDateRange } from '@shared-molecules/work-date-range';
 import { Paragraph } from '@shared-atoms/paragraph';
-import { InterpersonalSkills } from '@feat-home-performance-and-results-organisms/interpersonal-skills';
-import { TechnicalSkills } from '@feat-home-performance-and-results-organisms/technical-skills';
+import { InterpersonalSkills } from '@feat-home-work-experience-history-organisms/interpersonal-skills';
+import { TechnicalSkills } from '@feat-home-work-experience-history-organisms/technical-skills';
 
 import './style.css';
 
 
-function MyWorkExperience({
+function WorkExperience({
     name,
     employmentDuration = {
         start: {
@@ -44,7 +44,7 @@ function MyWorkExperience({
     };
 
     return (
-        <section className='my-work-experience'>
+        <section className='work-experience'>
             <header>
                 <Title {...title} />
                 <WorkDateRange {...workDateRange} />
@@ -58,4 +58,4 @@ function MyWorkExperience({
     );
 }
 
-export { MyWorkExperience };
+export { WorkExperience };

@@ -1,8 +1,12 @@
-import { PrimaryHeader } from '../primary-header/components/pages';
-import { PerformanceAndResults } from '@feat-home-performance-and-results-pages/index';
+import { PrimaryHeader } from '@feat-home-primary-header-pages/index';
+import { WorkExperienceHistory } from '@feat-home-work-experience-history-pages/index';
 import { PrimaryFooter } from '@feat-home-primary-footer-pages/index';
 import { ProfessionalProfile } from '@feat-home-professional-profile-pages/index';
 import { PersonalSoftwareProjects } from '@feat-home-personal-software-projects-pages/index';
+
+import { TECHNICAL_COMPETENCIES_AND_EXPERTISE } from '@shared-constants/anchor-id';
+import { PERSONAL_PROJECTS } from '@shared-constants/anchor-id';
+import { WORK_EXPERIENCE } from '@shared-constants/anchor-id';
 
 import './style.css';
 
@@ -11,19 +15,27 @@ function RootHome() {
 
     return (
         <>
-            <PrimaryHeader />
-            <main>
-                <div>
-                    <PerformanceAndResults />
-                </div>
-                <div>
-                    <ProfessionalProfile />
-                </div>
-                <div>
-                    <PersonalSoftwareProjects />
-                </div>
-            </main>
-            <PrimaryFooter />
+            <scroll-container>
+                <PrimaryHeader />
+                <main>
+                    <scroll-page id={WORK_EXPERIENCE}>
+                        <div>
+                            <WorkExperienceHistory />
+                        </div>
+                    </scroll-page>
+                    <scroll-page id={TECHNICAL_COMPETENCIES_AND_EXPERTISE}>
+                        <div>
+                            <ProfessionalProfile />
+                        </div>
+                    </scroll-page>
+                    <scroll-page id={PERSONAL_PROJECTS}>
+                        <div>
+                            <PersonalSoftwareProjects />
+                        </div>
+                    </scroll-page>
+                </main>
+                <PrimaryFooter />
+            </scroll-container>
         </>
     );
 }

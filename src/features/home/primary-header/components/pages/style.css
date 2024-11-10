@@ -25,6 +25,13 @@
         }
     }
 
+    > .primary-header-navigation__div {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        padding: var(--padding-simple-organism);
+    }
+
     > .chessboard-nav {
         position: absolute;
         top: 0;
@@ -36,14 +43,6 @@
             transform: rotate(-45deg);
         }
     }
-
-    > .primary-header-navigation__div {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        padding: var(--padding-simple-organism);
-    }
-
 
     @media (width < 45rem) {
         max-height: none;

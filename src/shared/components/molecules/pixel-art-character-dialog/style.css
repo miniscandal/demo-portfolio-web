@@ -1,11 +1,9 @@
 .pixel-art-character-dialog {
-    > .pixel-art {
-        padding-top: 1rem;
-    }
+    display: flex;
 
-    &.regular {
-        width: 20rem;
-        height: 20rem;
-        background-color: yellow;
+    flex-direction: column;
+
+    > .manga-dialog {
+        margin-right: auto;
     }
 }

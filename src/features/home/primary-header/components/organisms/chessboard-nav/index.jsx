@@ -3,7 +3,7 @@ import { UnorderedList } from '@shared-molecules/unordered-list';
 import { SquareShapeAnchorTag } from '../../molecules/square-shaped-anchor-tag';
 
 import { WORK_EXPERIENCE } from '@shared-constants/anchor-id';
-import { EXPERIENCE_EDUCATIONAL_BACKGROUND } from '@shared-constants/anchor-id';
+import { TECHNICAL_COMPETENCIES_AND_EXPERTISE } from '@shared-constants/anchor-id';
 import { PERSONAL_PROJECTS } from '@shared-constants/anchor-id';
 import { ABOUT_ME } from '@shared-constants/anchor-id';
 
@@ -21,9 +21,9 @@ function ChessboardNav() {
         },
         {
             id: 'portfolio',
-            text: 'BACKGROUND',
+            text: 'TECHNICAL EXPERTISE',
             symbol: '02',
-            idAnchor: EXPERIENCE_EDUCATIONAL_BACKGROUND
+            idAnchor: TECHNICAL_COMPETENCIES_AND_EXPERTISE
         },
         {
             id: 'whatIdDo',

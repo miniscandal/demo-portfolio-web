@@ -11,11 +11,11 @@
             "@assets-images/*": [
                 "assets/images/*"
             ],
-            "@feat-home-performance-and-results-organisms/*": [
-                "features/home/performance-and-results/components/organisms/*"
+            "@feat-home-work-experience-history-organisms/*": [
+                "features/home/work-experience-history/components/organisms/*"
             ],
-            "@feat-home-performance-and-results-pages/*": [
-                "features/home/performance-and-results/components/pages/*"
+            "@feat-home-work-experience-history-pages/*": [
+                "features/home/work-experience-history/components/pages/*"
             ],
             "@feat-home-personal-software-projects-pages/*": [
                 "features/home/personal-software-projects/components/pages/*"

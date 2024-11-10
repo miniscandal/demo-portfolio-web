@@ -1,24 +1,25 @@
- main {
-     > div {
-         padding: var(--padding-container);
+main {
+    > scroll-page {
+        display: block;
+        padding: var(--padding-container) var(--padding-simple-organism);
 
-         .performance-and-results,
-         .professional-profile,
-         .personal-software-projects {
-             max-width: 80rem;
-             margin: auto;
-         }
-     }
+        .work-experience-history,
+        .professional-profile,
+        .personal-software-projects {
+            max-width: 70rem;
+            margin: auto;
+        }
+    }
 
-     > div:nth-child(1) {
-         background-color: var(--color-light-silver);
-     }
+    > scroll-page:nth-child(1) {
+        background-color: var(--color-light-silver);
+    }
 
-     > div:nth-child(2) {
-         background-color: #fee2cb;
-     }
+    > scroll-page:nth-child(2) {
+        background-color: #fee2cb;
+    }
 
-     > div:nth-child(3) {
-         background-color: var(--color-light-silver);
-     }
- }
+    > scroll-page:nth-child(3) {
+        background-color: var(--color-light-silver);
+    }
+}
