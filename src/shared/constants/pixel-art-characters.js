@@ -1,10 +1,10 @@
-const PIXEL_ART_HAMTARO_SMALL = 'hamtaro small';
-const PIXEL_ART_ANIME_UMI_REGULAR = 'anime-umi regular';
-const PIXEL_ART_ANIME_RINTARO_REGULAR = 'anime-rintaro regular';
+const PIXEL_ART_HAMTARO = 'hamtaro';
+const PIXEL_ART_ANIME_UMI = 'anime-umi';
+const PIXEL_ART_ANIME_RINTARO = 'anime-rintaro';
 
 
 export {
-    PIXEL_ART_HAMTARO_SMALL,
-    PIXEL_ART_ANIME_UMI_REGULAR,
-    PIXEL_ART_ANIME_RINTARO_REGULAR
+    PIXEL_ART_HAMTARO,
+    PIXEL_ART_ANIME_UMI,
+    PIXEL_ART_ANIME_RINTARO
 };

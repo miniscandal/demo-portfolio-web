@@ -4,13 +4,15 @@ import { MangaPanel } from '@feat-home-personal-software-projects-templates/mang
 import { UnorderedList } from '@shared-molecules/unordered-list';
 import { IconButton } from '@shared-molecules/icon-button';
 import { ArrowBack } from '@shared-atoms/icon-font-svg/variants';
-import { MiniatureProjectDescription } from '@feat-home-personal-software-projects-molecules/miniature-project-description';
+import { MangaPanelProjectDescription } from '@feat-home-personal-software-projects-molecules/manga-panel-project-description';
 import { MiniatureProjectPreview } from '@feat-home-personal-software-projects-molecules/miniature-project-preview';
+import { MangaPanelAppliedConcepts } from '@feat-home-personal-software-projects-molecules/manga-panel-applied-concepts';
+import { MangaPanelProjectPlanning } from '@feat-home-personal-software-projects-molecules/manga-panel-project-planning';
 
 import './style.css';
 
 
-function Manga() {
+function MangaPageMain() {
     const [idSelected, setIdSelected] = useState('');
 
     const handleClick = (liElement) => {
@@ -22,17 +24,17 @@ function Manga() {
         {
             id: 'panel-one',
             text: 'Ep 01',
-            ChildrenComponent: MiniatureProjectDescription
+            ChildrenComponent: MangaPanelProjectDescription
         },
         {
             id: 'panel-two',
             text: 'Ep 02',
-            ChildrenComponent: MiniatureProjectDescription
+            ChildrenComponent: MangaPanelProjectPlanning
         },
         {
             id: 'panel-three',
             text: 'Ep 03',
-            ChildrenComponent: MiniatureProjectDescription
+            ChildrenComponent: MangaPanelAppliedConcepts
         },
         {
             id: 'panel-for',
@@ -52,7 +54,7 @@ function Manga() {
     };
 
     return (
-        <section className='manga'>
+        <section className='manga-page-main'>
             <UnorderedList {...unorderedList} />
             {idSelected !== ''
                 ? <IconButton {...iconButton} />
@@ -62,4 +64,4 @@ function Manga() {
     );
 }
 
-export { Manga };
+export { MangaPageMain };

@@ -2,7 +2,6 @@ import { Title } from '@shared-atoms/title';
 import { ButtonLinkDownloader } from '@shared-molecules/button-link-downloader';
 import { ProfessionalContactMethods } from '@shared-organisms/professional-contact-methods';
 
-
 import cvFile from '@assets-documents/cv-oscar-gonzalez.pdf';
 
 import './style.css';
@@ -15,7 +14,7 @@ function ProfessionalContact() {
         type: 'h1'
     };
     const titleH2 = {
-        text: 'Computer Systems Engineering',
+        text: 'Computer Systems Engineer',
         color: 'light-silver',
         type: 'h2'
     };

@@ -5,6 +5,8 @@ import { ProfessionalContact } from '@shared-organisms/professional-contact';
 
 import srcPhoto from '@assets-images/photo-me/main-3.jpg';
 
+import { PIXEL_ART_ANIME_UMI } from '@shared-constants/pixel-art-characters';
+
 import './style.css';
 
 
@@ -15,7 +17,8 @@ function PrimaryHeader() {
         objectFit: 'cover'
     };
     const pixelArtCharacterDialog = {
-        text: 'Hello World!'
+        text: 'Hello World!',
+        character: PIXEL_ART_ANIME_UMI
     };
 
     return (

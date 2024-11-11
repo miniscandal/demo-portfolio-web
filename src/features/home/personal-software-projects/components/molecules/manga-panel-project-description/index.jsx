@@ -2,12 +2,12 @@ import { Title } from '@shared-atoms/title';
 import { Paragraph } from '@shared-atoms/paragraph';
 import { PixelArtCharacter } from '@shared-molecules/pixel-art-character';
 
-import { PIXEL_ART_ANIME_RINTARO_REGULAR } from '@shared-constants/pixel-art-characters';
+import { PIXEL_ART_ANIME_RINTARO } from '@shared-constants/pixel-art-characters';
 
 import './style.css';
 
 
-function MiniatureProjectDescription() {
+function MangaPanelProjectDescription() {
     const title = {
         text: 'Sensor Monitoring',
         color: 'smoky-purple',
@@ -18,12 +18,12 @@ function MiniatureProjectDescription() {
         color: 'charcoal-grey'
     };
     const pixelArtCharacter = {
-        character: PIXEL_ART_ANIME_RINTARO_REGULAR,
+        character: PIXEL_ART_ANIME_RINTARO,
         showContainer: false
     }
 
     return (
-        <section className='miniature-project-description'>
+        <section className='manga-panel-project-description'>
             <Title {...title} />
             <Paragraph {...paragraph} />
             <PixelArtCharacter {...pixelArtCharacter} />
@@ -31,4 +31,4 @@ function MiniatureProjectDescription() {
     );
 }
 
-export { MiniatureProjectDescription };
+export { MangaPanelProjectDescription };

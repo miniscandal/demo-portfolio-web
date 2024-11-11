@@ -1,6 +1,6 @@
 import { PixelArtCharacter } from '@shared-molecules/pixel-art-character';
 
-import { PIXEL_ART_HAMTARO_SMALL } from '@shared-constants/pixel-art-characters';
+import { PIXEL_ART_HAMTARO } from '@shared-constants/pixel-art-characters';
 
 import './style.css';
 
@@ -11,7 +11,7 @@ function KnowledgeInformation({
 }) {
     const pixelArtCharacter = {
         size: 'small',
-        character: PIXEL_ART_HAMTARO_SMALL,
+        character: PIXEL_ART_HAMTARO,
         showContainer: false
     };
 

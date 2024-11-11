@@ -1,21 +1,21 @@
 import { MangaDialog } from '@shared-molecules/manga-dialog';
 import { PixelArtCharacter } from '@shared-molecules/pixel-art-character';
 
-import { PIXEL_ART_ANIME_UMI_REGULAR } from '@shared-constants/pixel-art-characters';
+import { PIXEL_ART_ANIME_UMI } from '@shared-constants/pixel-art-characters';
 
 import './style.css';
 
 
 function PixelArtCharacterDialog({
     text = 'Pixel art character dialog',
-    character = PIXEL_ART_ANIME_UMI_REGULAR
+    character = PIXEL_ART_ANIME_UMI
 }) {
     const mangaDialog = {
         text
     };
     const pixelArtCharacter = {
         character,
-        showContainer: false
+        size: 'small'
     };
 
     return (

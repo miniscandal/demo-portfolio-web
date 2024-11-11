@@ -1,7 +1,7 @@
 main {
     > scroll-page {
         display: block;
-        padding: var(--padding-container) var(--padding-simple-organism);
+        padding: var(--padding-container) var(--padding-molecule);
 
         .work-experience-history,
         .professional-profile,
@@ -16,10 +16,14 @@ main {
     }
 
     > scroll-page:nth-child(2) {
-        background-color: #fee2cb;
+        background-color: var(--color-name-undefined-e);
     }
 
     > scroll-page:nth-child(3) {
+        background-image: url('@assets-images/textures/squared-paper-texture.jpg');
+        background-size: contain;
+        background-position: center;
         background-color: var(--color-light-silver);
+        background-blend-mode: multiply;
     }
 }

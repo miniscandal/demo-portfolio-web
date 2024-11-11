@@ -29,6 +29,9 @@
             "@feat-home-personal-software-projects-molecules/*": [
                 "features/home/personal-software-projects/components/molecules/*"
             ],
+            "@feat-home-personal-software-projects-constants/*": [
+                "features/home/personal-software-projects/constants/*"
+            ],
             "@feat-home-primary-header-molecules/*": [
                 "features/home/primary-header/components/molecules/*"
             ],

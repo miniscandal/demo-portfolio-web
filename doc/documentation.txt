@@ -60,3 +60,12 @@ Resumen: Una descripción general sin profundizar en aspectos específicos.
 Perspectiva estratégica: Enfoque en los objetivos y planes a largo plazo sin entrar en las particularidades.
 Enfoque conceptual: Más centrado en las ideas y conceptos que en las aplicaciones o implementaciones específicas.
 Visión de alto nivel: Similar a un resumen, donde se prioriza la visión general sobre los aspectos técnicos detallados.
+
+
+
+
+resources: 
+
+texture notebook
+
+https://www.freepik.com/free-photo/squared-paper-texture_932591.htm

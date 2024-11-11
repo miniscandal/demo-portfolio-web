@@ -1,6 +1,11 @@
 @font-face {
     font-family: 'Figtree';
-    src: url('@assets-fonts/figtree/variable.ttf');
+    src: url('@assets-fonts/figtree/Figtree-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Yoruka';
+    src: url('@assets-fonts/yoruka-font/Yoruka-1j9rL.ttf');
 }
 
 :root {
@@ -33,6 +38,7 @@
     --color-name-undefined-b: #808080;
     --color-name-undefined-c: #f5cdac;
     --color-name-undefined-d: #ecd7bb;
+    --color-name-undefined-e: #ffe1b4;
 
 
     --padding-uniform: 1.5rem;
@@ -67,7 +73,7 @@
 
     --hover-brightness: brightness(1.5);
 
-    --box-shadow-inset: inset 0 0 0.25rem #ffffff80;
+    --box-shadow-inset: inset 0 0 0.25rem var(--color-cool-sky);
 
     --animation-fade-out: fade-out 3.5s 1;
     --animation-blink-character: blink-character 2s infinite;

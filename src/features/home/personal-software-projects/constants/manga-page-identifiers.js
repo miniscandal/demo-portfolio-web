@@ -1,0 +1,7 @@
+const MANGA_PAGE_MAIN_ID = Symbol(0);
+const MANGA_PAGE_SECONDARY_ID = Symbol(1);
+
+export {
+    MANGA_PAGE_MAIN_ID,
+    MANGA_PAGE_SECONDARY_ID
+};

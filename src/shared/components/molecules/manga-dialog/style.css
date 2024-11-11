@@ -1,4 +1,6 @@
 .manga-dialog {
+    font-family: 'Yoruka';
+
     > div:first-child {
         padding: 0.25rem;
         border-radius: 50%;

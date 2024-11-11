@@ -19,19 +19,13 @@ function RootHome() {
                 <PrimaryHeader />
                 <main>
                     <scroll-page id={WORK_EXPERIENCE}>
-                        <div>
-                            <WorkExperienceHistory />
-                        </div>
+                        <WorkExperienceHistory />
                     </scroll-page>
                     <scroll-page id={TECHNICAL_COMPETENCIES_AND_EXPERTISE}>
-                        <div>
-                            <ProfessionalProfile />
-                        </div>
+                        <ProfessionalProfile />
                     </scroll-page>
                     <scroll-page id={PERSONAL_PROJECTS}>
-                        <div>
-                            <PersonalSoftwareProjects />
-                        </div>
+                        <PersonalSoftwareProjects />
                     </scroll-page>
                 </main>
                 <PrimaryFooter />

@@ -3,10 +3,11 @@ import { Paragraph } from '@shared-atoms/paragraph';
 import './style.css';
 
 
-function MangaDialog({ text, color, bgColor }) {
+function MangaDialog({ text }) {
     const paragraph = {
         text,
-        color: 'charcoal-grey'
+        color: 'charcoal-grey',
+        cursorAnimation: true
     };
 
     return (
@@ -16,7 +17,6 @@ function MangaDialog({ text, color, bgColor }) {
             </div>
             <div>
                 <div>
-
                 </div>
             </div>
         </div>
