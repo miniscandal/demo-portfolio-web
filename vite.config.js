@@ -40,7 +40,8 @@ export default defineConfig({
             '@feat-home-personal-software-projects-pages': '/src/features/home/personal-software-projects/components/pages/',
             '@feat-home-personal-software-projects-organisms': '/src/features/home/personal-software-projects/components/organisms/',
             '@feat-home-personal-software-projects-molecules': '/src/features/home/personal-software-projects/components/molecules/',
-            '@feat-home-personal-software-projects-constants': '/src/features/home/personal-software-projects/constants/'
+            '@feat-home-personal-software-projects-constants': '/src/features/home/personal-software-projects/constants/',
+            '@feat-home-personal-software-projects-contexts': '/src/features/home/personal-software-projects/contexts/'
         }
     }
 });

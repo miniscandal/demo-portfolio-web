@@ -5,7 +5,7 @@ import imageProject from '@assets-images/personal-projects/sensor-monitoring/dem
 import './style.css';
 
 
-function MiniatureProjectPreview({ panelActive }) {
+function MangaPanelProjectPreview({ panelActive }) {
     const image = {
         src: imageProject,
         size: 'adaptive',
@@ -14,10 +14,10 @@ function MiniatureProjectPreview({ panelActive }) {
     const classPanelActive = panelActive ? 'panel-active' : '';
 
     return (
-        <section className={`miniature-project-preview ${classPanelActive}`}>
+        <section className={`manga-panel-project-preview ${classPanelActive}`}>
             <Image {...image} />
         </section>
     );
 }
 
-export { MiniatureProjectPreview };
+export { MangaPanelProjectPreview };

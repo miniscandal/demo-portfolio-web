@@ -1,3 +1,6 @@
+import { useContext } from 'react';
+import { MangaContext } from '@feat-home-personal-software-projects-contexts/manga-context';
+
 import { Title } from '@shared-atoms/title';
 import { Paragraph } from '@shared-atoms/paragraph';
 import { PixelArtCharacter } from '@shared-molecules/pixel-art-character';
@@ -8,13 +11,14 @@ import './style.css';
 
 
 function MangaPanelProjectDescription() {
+    const { projectData: { name, descriptionEnglish } } = useContext(MangaContext);
     const title = {
-        text: 'Sensor Monitoring',
+        text: name,
         color: 'smoky-purple',
         type: 'h3'
     };
     const paragraph = {
-        text: 'Real-time display of temperature and humidity information transmitted by sensors for precise and detailed control of the environment.',
+        text: descriptionEnglish,
         color: 'charcoal-grey'
     };
     const pixelArtCharacter = {

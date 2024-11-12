@@ -7,7 +7,7 @@ import { PIXEL_ART_ANIME_RINTARO } from '@shared-constants/pixel-art-characters'
 import './style.css';
 
 
-function MangaPanelAppliedConcepts() {
+function MangaPanelProjectAppliedConcepts() {
     const title = {
         text: 'Applied Concepts',
         color: 'smoky-purple',
@@ -21,4 +21,4 @@ function MangaPanelAppliedConcepts() {
     );
 }
 
-export { MangaPanelAppliedConcepts };
+export { MangaPanelProjectAppliedConcepts };

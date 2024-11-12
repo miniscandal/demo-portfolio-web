@@ -5,7 +5,7 @@ import './style.css';
 
 
 function UnorderedList({
-    idSelected = undefined,
+    selectListItem = undefined,
     Component = Paragraph,
     items = [
         {
@@ -21,28 +21,28 @@ function UnorderedList({
     handleClick = (liElement) => { console.log(liElement); }
 }) {
     const internalHandleClick = (event) => {
-        const liElement = event.target.closest('li');
+        const listItem = event.target.closest('li');
 
-        if (!liElement) {
+        if (!listItem) {
             return;
         };
 
-        handleClick(liElement);
+        handleClick(listItem);
     };
 
     const liElements = items.map((value, index) => {
         const { id, ChildrenComponent, ...properties } = value;
-        const panelActive = id === idSelected;
+        const isSelected = id === selectListItem;
 
         return (
             <li
                 key={`${id}-${index}`}
                 data-id={id}
-                className={panelActive ? 'panel-active' : ''}
+                className={isSelected ? 'panel-active' : ''}
             >
                 <Component {...properties}>
                     {
-                        ChildrenComponent && <ChildrenComponent panelActive={panelActive} />
+                        ChildrenComponent && <ChildrenComponent isSelected={isSelected} />
                     }
                 </Component>
             </li>

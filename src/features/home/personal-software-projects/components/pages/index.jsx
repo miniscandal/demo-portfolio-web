@@ -1,5 +1,5 @@
 import { Title } from '@shared-atoms/title';
-import { MangaPageMain } from '@feat-home-personal-software-projects-templates/manga-page-main';
+import { MangaPageMain } from '@feat-home-personal-software-projects-organisms/manga-page-main';
 
 import './style.css';
 
