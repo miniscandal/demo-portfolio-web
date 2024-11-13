@@ -7,8 +7,8 @@ const MPP_DESCRIPTION_ID = 'mpp-description_id';
 const MPP_PLANNING_ID = 'mpp-planning_id';
 const MPP_TECH_ECOSYSTEM_ID = 'mpp-tech-ecosystem_id';
 const MPP_PREVIEW_ID = 'mpp-preview_id';
-const MP_SP_MAIN_ID = 'mp-sp-1-id';
-const MP_SP_SECONDARY_ID = 'mp-sp-2-id';
+const MP_SP_MAIN_ID = 'mp-sp-main-id';
+const MP_SP_SECONDARY_ID = 'mp-sp-secondary-id';
 
 export {
     MPP_DESCRIPTION_ID,

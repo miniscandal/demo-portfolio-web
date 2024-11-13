@@ -46,7 +46,7 @@ function MangaPageMain() {
 
     return (
         <section className='manga-page-main'>
-            <UnorderedList {...unorderedList} items={items} />
+            <UnorderedList {...unorderedList} items={items} id='manga-page-main' />
         </section>
     );
 }

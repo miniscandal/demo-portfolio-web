@@ -18,7 +18,8 @@ function UnorderedList({
             text: 'item two'
         },
     ],
-    handleClick = (liElement) => { console.log(liElement); }
+    handleClick = (liElement) => { console.log(liElement); },
+    id = null
 }) {
     const internalHandleClick = (event) => {
         const listItem = event.target.closest('li');
@@ -27,7 +28,7 @@ function UnorderedList({
             return;
         };
 
-        handleClick(listItem);
+        handleClick(listItem, listItem.closest('ul').dataset.id);
     };
 
     const liElements = items.map((value, index) => {
@@ -50,7 +51,7 @@ function UnorderedList({
     });
 
     return (
-        <ul className='unordered-list' onClick={internalHandleClick}>
+        <ul className='unordered-list' onClick={internalHandleClick} data-id={id}>
             {liElements}
         </ul>
     );

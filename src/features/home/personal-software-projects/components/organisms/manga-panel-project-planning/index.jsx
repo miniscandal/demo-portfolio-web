@@ -6,7 +6,7 @@ import { Title } from '@shared-atoms/title';
 import { Paragraph } from '@shared-atoms/paragraph';
 import { PixelArtCharacter } from '@shared-molecules/pixel-art-character';
 
-import { PIXEL_ART_ANIME_RINTARO } from '@shared-constants/pixel-art-characters';
+import { PIXEL_ART_ANIME_HINATA } from '@shared-constants/pixel-art-characters';
 
 import './style.css';
 
@@ -19,10 +19,15 @@ function MangaPanelProjectPlanning() {
         color: 'smoky-purple',
         type: 'h4'
     };
+    const pixelArtCharacter = {
+        character: PIXEL_ART_ANIME_HINATA,
+        showContainer: !false
+    };
 
     return (
         <section>
             <Title {...title} />
+            <PixelArtCharacter {...pixelArtCharacter} />
         </section>
     );
 }

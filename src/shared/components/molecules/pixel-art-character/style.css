@@ -50,4 +50,27 @@
             }
         }
     }
+
+    &.art-anime-todoroki {
+        &.regular {
+            width: 5.4rem;
+            height: 9rem;
+
+            > div {
+                transform: scale(0.38);
+            }
+        }
+    }
+
+
+    &.art-anime-hinata {
+        &.regular {
+            width: 6.5rem;
+            height: 9rem;
+
+            > div {
+                transform: scale(1);
+            }
+        }
+    }
 }

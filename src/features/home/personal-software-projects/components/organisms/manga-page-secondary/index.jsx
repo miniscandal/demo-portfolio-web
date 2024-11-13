@@ -27,6 +27,7 @@ function MangaPageSecondary({
         ChildrenComponent: secondaryPanelChildren
     };
 
+
     const items = [
         mainPanel,
         mainPanel,
@@ -35,7 +36,7 @@ function MangaPageSecondary({
 
     return (
         <section className='manga-page-secondary'>
-            <UnorderedList {...unorderedList} items={items} />
+            <UnorderedList {...unorderedList} items={items} id='manga-page-secondary' />
         </section>
     );
 }

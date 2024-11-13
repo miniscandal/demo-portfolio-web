@@ -8,14 +8,14 @@ import { MangaPageSecondary } from '@feat-home-personal-software-projects-organi
 import { MangaPanelProjectAppliedConcepts } from '@feat-home-personal-software-projects-organisms/manga-panel-project-applied-concepts';
 import { MangaPanelProjectPreview } from '@feat-home-personal-software-projects-organisms/manga-panel-project-preview';
 import { MangaPanelProjectPlanning } from '@feat-home-personal-software-projects-organisms/manga-panel-project-planning';
+import { MangaPanelObjectives } from '@feat-home-personal-software-projects-organisms/manga-panel-objectives';
 
-import { MPP_DESCRIPTION_ID } from '@feat-home-personal-software-projects-constants/manga-panel-identifiers';
+import { MP_SP_MAIN_ID, MPP_DESCRIPTION_ID } from '@feat-home-personal-software-projects-constants/manga-panel-identifiers';
 import { MPP_PLANNING_ID } from '@feat-home-personal-software-projects-constants/manga-panel-identifiers';
 import { MPP_TECH_ECOSYSTEM_ID } from '@feat-home-personal-software-projects-constants/manga-panel-identifiers';
 import { MPP_PREVIEW_ID } from '@feat-home-personal-software-projects-constants/manga-panel-identifiers';
 
 import './style.css';
-import { MangaPanelObjectives } from '@feat-home-personal-software-projects-organisms/manga-panel-objectives';
 
 
 function Manga() {
@@ -39,14 +39,18 @@ function Manga() {
         [MPP_PREVIEW_ID]: {
             mainPanelChildren: MangaPanelProjectPreview,
             secondaryPanelChildren: null
+        },
+        [MP_SP_MAIN_ID]: {
+            mainPanelChildren: MangaPanelProjectPreview,
+            secondaryPanelChildren: null
         }
     };
-    const mangaPanel = mangaPageSecondary[selectMangaPanel];
+    const mangaPanel = mangaPageSecondary[selectMangaPanel.mainId];
 
     return (
         <section className='manga'>
             {
-                !selectMangaPanel
+                !selectMangaPanel.mainId
                     ? <MangaPageMain />
                     : <MangaPageSecondary {...mangaPanel} />
             }

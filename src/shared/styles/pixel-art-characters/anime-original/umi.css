@@ -1,9 +1,9 @@
 .anime-umi {
-    animation: anime-creation-one 2s infinite;
+    animation: anime-creation-umi 2s infinite;
     transform: scale(0.1);
 }
 
-@keyframes anime-creation-one {
+@keyframes anime-creation-umi {
 
     0%,
     50% {

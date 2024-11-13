@@ -11,12 +11,19 @@ import './App.css';
 
 
 function App() {
-    const [selectMangaPanel, setSelectMangaPanel] = useState(null);
+    const [selectMangaPanel, setSelectMangaPanel] = useState({
+        mainId: null,
+        secondaryId: null
+    });
 
-    const handleClick = (listItem) => {
+    const handleClick = (listItem, ulId) => {
         const id = listItem.dataset.id;
+        const { mainId, secondaryId } = selectMangaPanel;
 
-        setSelectMangaPanel(id);
+        setSelectMangaPanel({
+            mainId: ulId === 'manga-page-main' ? id : mainId,
+            secondaryId: ulId === 'manga-page-secondary' ? id : secondaryId
+        });
     };
 
     const unorderedList = {
