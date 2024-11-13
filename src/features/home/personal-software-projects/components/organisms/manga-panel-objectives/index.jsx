@@ -10,24 +10,24 @@ import { PIXEL_ART_ANIME_RINTARO } from '@shared-constants/pixel-art-characters'
 import './style.css';
 
 
-function MangaPanelProjectDescription() {
-    const { projectData: { name, description } } = useContext(MangaContext);
+function MangaPanelObjectives() {
+    const { projectData: { objectives } } = useContext(MangaContext)
     const title = {
-        text: name,
+        text: 'Project Objectives',
         color: 'smoky-purple',
         type: 'h3'
     };
     const paragraph = {
-        text: description,
+        text: objectives.technical,
         color: 'charcoal-grey'
     };
     const pixelArtCharacter = {
         character: PIXEL_ART_ANIME_RINTARO,
         showContainer: false
-    };
+    }
 
     return (
-        <section className='manga-panel-project-description'>
+        <section>
             <Title {...title} />
             <PixelArtCharacter {...pixelArtCharacter} />
             <Paragraph {...paragraph} />
@@ -35,4 +35,4 @@ function MangaPanelProjectDescription() {
     );
 }
 
-export { MangaPanelProjectDescription };
+export { MangaPanelObjectives };

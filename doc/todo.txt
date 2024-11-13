@@ -1,3 +1,6 @@
+cSpell: disable
+
+
 panel one: 
 
 description / por que el desarrollo de este proyecto
@@ -5,19 +8,16 @@ description / por que el desarrollo de este proyecto
 
 panel two
 
-
 conceptos (por que se eligio) / tecnologias (por que se eligio)
 
 
-
-pnael three
+panel three
 
 
 planeacion del proyecto (ideas , recursos, documetatoin) / code (structure, main files)
 
 
-
-panel for
+panel four
 
 demo (galery / video) / code (main files, scripts)
 
@@ -25,13 +25,20 @@ demo (galery / video) / code (main files, scripts)
 
 
 
-panel lateral: return , github, deploy = si existe?, coffe level dificutlte range :
+lateral panel items:
+
+return , github, deploy = si existe?, coffe level as range dificulted
 
 level: rango del 1 al 6, explicar que por que nunca el 6 o por que nunca el uno
 
+Nivel: Rango del 1 al 6
 
-1: simpre habra al go mas facil ademas todo tiene su dificultad
-2:aplique tennologias y conceptos conocidos y utilizado acctulmente
-3: aplique tencologias y conocidas conocidos pero no utilizado sactualmente
-4:apliquye tencilogias y conceopts nuevas
-5: simpre habra algo mas dificil y herramientas y  con ceptos que aprnder
+Nunca el 6: El nivel 6 nunca se alcanza porque siempre hay un área de mejora. Incluso si se tiene un buen dominio de la habilidad, siempre hay algo que aprender, mejorar o ajustar. El conocimiento y las habilidades son un proceso continuo, por lo que el nivel 6 representa un ideal inalcanzable.
+
+Nunca el 1: El nivel 1 nunca es alcanzado porque siempre existe una base mínima de conocimiento o habilidad. Incluso los novatos tienen una comprensión básica que les permite avanzar en el aprendizaje. El nivel 1 sería el punto de partida, pero no representa la total falta de conocimiento o habilidad.
+
+1. Siempre habrá algo más fácil, además todo tiene su dificultad.
+2. Apliqué tecnologías y conceptos conocidos y utilizados actualmente.
+3. Apliqué tecnologías y conceptos conocidos, pero no utilizados actualmente.
+4. Apliqué tecnologías y conceptos nuevos.
+5. Siempre habrá algo más difícil, herramientas y conceptos que aprender.

@@ -1,10 +1,15 @@
 import { createContext } from 'react';
 
+import { sensorMonitoring } from '@shared-resources-data/personal-projects/sensor-monitoring.json';
+
 const MangaContext = createContext(null);
 
+const { en: { name, description, objectives } } = sensorMonitoring;
+
 const ProviderProjectSensorMonitoring = {
-    name: 'Sensor Monitoring',
-    descriptionEnglish: 'Real-time display of temperature and humidity information transmitted by sensors for precise and detailed control of the environment.',
+    name,
+    description,
+    objectives
 };
 
 export {

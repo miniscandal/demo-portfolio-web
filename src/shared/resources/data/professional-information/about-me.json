@@ -1,5 +1,7 @@
 {
-    "about": {
-        "text": "Software developer dedicated to high-quality\nexecution and solution optimization.\n\nFocused on developing both technical and interpersonal skills\nthat enhance my effectiveness in computer systems engineering\nand enrich key areas of my personal and professional life."
+    "aboutMe": {
+        "en": {
+            "description": "Software developer dedicated to high-quality execution and solution optimization. Focused on developing both technical and interpersonal skills that enhance my effectiveness in computer systems engineering and enrich key areas of my personal and professional life."
+        }
     }
 }

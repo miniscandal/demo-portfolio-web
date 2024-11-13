@@ -1,0 +1,20 @@
+.manga {
+
+    > .manga-page-main,
+    .manga-page-secondary {
+        display: flex;
+        gap: var(--gap-molecule);
+
+        > .unordered-list {
+            display: grid;
+            gap: 0 var(--gap-molecule);
+            padding: var(--padding-molecule);
+            background-color: var(--color-light);
+
+            > li {
+                padding: var(--padding-simple-atom);
+                background-color: var(--color-coffee-brown);
+            }
+        }
+    }
+}

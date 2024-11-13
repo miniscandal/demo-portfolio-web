@@ -1,7 +1,7 @@
 import { Title } from '@shared-atoms/title';
 import { Paragraph } from '@shared-atoms/paragraph';
 
-import { about } from '@shared-resources-data/professional-information/about-me.json';
+import { aboutMe } from '@shared-resources-data/professional-information/about-me.json';
 
 import './style.css';
 
@@ -13,7 +13,7 @@ function AboutMe() {
         type: 'h4'
     };
     const paragraphAboutMe = {
-        text: about.text,
+        text: aboutMe.description,
         color: 'light',
     };
 

@@ -1,7 +1,7 @@
 import { SkillsImplementedWork } from '@shared-organisms/skills-implemented-work';
 import { InterpersonalCompetencyInformation } from '@shared-molecules/interpersonal-competency-information';
 
-import interpersonalCompetenciesData from '@shared-resources-data/my-work-history/interpersonal-competencies.json';
+import interpersonalCompetenciesData from '@shared-resources-data/glossaries/social-emotional-competencies.json';
 
 import './style.css';
 

@@ -1,7 +1,7 @@
 import { SkillsImplementedWork } from '@shared-organisms/skills-implemented-work';
 import { ToolInformation } from '@shared-molecules/tool-information';
 
-import technologiesToolsData from '@shared-resources-data/my-work-history/technological-tools.json';
+import technologiesToolsData from '@shared-resources-data/glossaries/technological-tools.json';
 
 import './style.css';
 

@@ -6,7 +6,7 @@ import { Terminal } from '@shared-atoms/icon-font-svg/variants';
 import { EditNote } from '@shared-atoms/icon-font-svg/variants';
 import { Database } from '@shared-atoms/icon-font-svg/variants';
 
-import { competencies } from '@shared-resources-data/professional-information/profile.json';
+import { competencies } from '@shared-resources-data/professional-information/technical-competencies-expertise.json';
 
 import './style.css';
 

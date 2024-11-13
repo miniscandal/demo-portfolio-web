@@ -1,15 +1,8 @@
 .manga-page-secondary {
-    display: flex;
-    gap: var(--gap-molecule);
 
     > .unordered-list {
-        display: grid;
         grid-template-columns: repeat(2, calc(18rem + var(--gap-molecule)));
         grid-template-rows: 30rem 12rem;
-        gap: 0 var(--gap-molecule);
-        padding: var(--padding-molecule);
-        background-color: var(--color-light);
-
 
         > li:nth-child(1) {
             grid-column: 1 / 3;
@@ -30,9 +23,6 @@
         }
 
         > li {
-            padding: var(--padding-simple-atom);
-            background-color: var(--color-coffee-brown);
-
             &.panel-active {
                 grid-column: 1 / -1;
                 grid-row: 1 / -1;
