@@ -5,7 +5,7 @@ import './style.css';
 
 
 function UnorderedList({
-    selectListItem = undefined,
+    selectListItemId = undefined,
     Component = Paragraph,
     items = [
         {
@@ -33,7 +33,8 @@ function UnorderedList({
 
     const liElements = items.map((value, index) => {
         const { id, ChildrenComponent, ...properties } = value;
-        const isSelected = id === selectListItem;
+
+        const isSelected = id === selectListItemId;
 
         return (
             <li

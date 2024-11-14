@@ -23,7 +23,7 @@ function Manga() {
 
     const [selectMangaPanel] = useStates.mangaPanel;
 
-    const mangaPageSecondary = {
+    const mangaPageSecondaryViews = {
         [MPP_DESCRIPTION_ID]: {
             mainPanelChildren: MangaPanelProjectDescription,
             secondaryPanelChildren: MangaPanelObjectives
@@ -45,14 +45,14 @@ function Manga() {
             secondaryPanelChildren: null
         }
     };
-    const mangaPanel = mangaPageSecondary[selectMangaPanel.mainId];
+    const mangaPageSecondary = mangaPageSecondaryViews[selectMangaPanel.mainId];
 
     return (
         <section className='manga'>
             {
                 !selectMangaPanel.mainId
                     ? <MangaPageMain />
-                    : <MangaPageSecondary {...mangaPanel} />
+                    : <MangaPageSecondary {...mangaPageSecondary} />
             }
 
         </section>

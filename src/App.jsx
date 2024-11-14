@@ -13,7 +13,8 @@ import './App.css';
 function App() {
     const [selectMangaPanel, setSelectMangaPanel] = useState({
         mainId: null,
-        secondaryId: null
+        secondaryId: null,
+        selectListItemId: null
     });
 
     const handleClick = (listItem, ulId) => {
@@ -22,16 +23,15 @@ function App() {
 
         setSelectMangaPanel({
             mainId: ulId === 'manga-page-main' ? id : mainId,
-            secondaryId: ulId === 'manga-page-secondary' ? id : secondaryId
+            secondaryId: ulId === 'manga-page-secondary' ? id : secondaryId,
+            selectListItemId: id
         });
     };
-
     const unorderedList = {
-        selectListItem: selectMangaPanel,
+        selectListItemId: selectMangaPanel.selectListItemId,
         Component: MangaPanel,
         handleClick
     };
-
     const provider = {
         projectData: ProviderProjectSensorMonitoring,
         useStates: {

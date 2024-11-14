@@ -22,12 +22,24 @@
             clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 100%);
         }
 
-        > li {
+        > li:nth-child(2),
+        > li:nth-child(3) {
+            .title {
+                padding-top: var(--padding-simple-molecule);
+            }
+
             &.panel-active {
-                grid-column: 1 / -1;
-                grid-row: 1 / -1;
-                clip-path: none;
-                z-index: 10;
+                position: relative;
+
+                &::after {
+                    content: '';
+                    display: block;
+                    inset: 0;
+                    position: absolute;
+                    background-color: var(--color-coral-orange);
+                    filter: opacity(0.3);
+                    cursor: no-drop;
+                }
             }
         }
     }

@@ -15,7 +15,7 @@ function MangaPageSecondary({
     secondaryPanelChildren = () => null
 }) {
     const { elements: { unorderedList }, useStates: { mangaPanel } } = useContext(MangaContext);
-    const [selectMangaPanel] = mangaPanel;
+    const [{ secondaryId }] = mangaPanel;
 
     const mainPanel = {
         id: MP_SP_MAIN_ID,
@@ -28,7 +28,7 @@ function MangaPageSecondary({
         ChildrenComponent: secondaryPanelChildren
     };
 
-    const items = (selectMangaPanel.secondaryId === MP_SP_SECONDARY_ID)
+    const items = secondaryId === MP_SP_SECONDARY_ID
         ? [
             secondaryPanel,
             mainPanel,
@@ -39,9 +39,16 @@ function MangaPageSecondary({
             secondaryPanel
         ];
 
+    const selectListItemId = secondaryId ? unorderedList.selectListItemId : MP_SP_MAIN_ID;
+
     return (
         <section className='manga-page-secondary'>
-            <UnorderedList {...unorderedList} items={items} id='manga-page-secondary' />
+            <UnorderedList
+                {...unorderedList}
+                selectListItemId={selectListItemId}
+                items={items}
+                id='manga-page-secondary'
+            />
         </section>
     );
 }
