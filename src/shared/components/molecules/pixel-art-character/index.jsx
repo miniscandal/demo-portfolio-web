@@ -6,11 +6,11 @@ import './style.css';
 function PixelArtCharacter({
     character = PIXEL_ART_ANIME_UMI,
     size = 'regular',
-    showContainer = false
+    showBox = false
 }) {
     const classList = [
         `art-${character}`,
-        showContainer ? 'show-container' : '',
+        showBox ? 'show-box' : '',
         size,
     ];
 

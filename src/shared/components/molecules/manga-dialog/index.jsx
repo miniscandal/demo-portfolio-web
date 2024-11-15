@@ -16,8 +16,6 @@ function MangaDialog({ text }) {
                 <Paragraph {...paragraph} />
             </div>
             <div>
-                <div>
-                </div>
             </div>
         </div>
     );

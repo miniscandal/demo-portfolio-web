@@ -1,9 +1,0 @@
-.pixel-art-character-dialog {
-    display: flex;
-
-    flex-direction: column;
-
-    > .manga-dialog {
-        margin-right: auto;
-    }
-}

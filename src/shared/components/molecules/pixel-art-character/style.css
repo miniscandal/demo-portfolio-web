@@ -5,7 +5,7 @@
         justify-content: center;
     }
 
-    &.show-container {
+    &.show-box {
         background-color: var(--color-steel-grey);
     }
 
@@ -47,6 +47,15 @@
 
             > div {
                 transform: scale(0.5);
+            }
+        }
+
+        &.small {
+            width: 8.5rem;
+            height: 13.2rem;
+
+            > div {
+                transform: scale(0.8);
             }
         }
     }
