@@ -7,6 +7,7 @@ const PIXEL_ART_ITEM_DESK = 'item-desk';
 const PIXEL_ART_ITEM_WHITEBOARD = 'item-whiteboard';
 const PIXEL_ART_ANIME_KURISU = 'anime-kurisu';
 const PIXEL_ART_ANIME_KANAO = 'anime-kanao';
+const PIXEL_ART_ANIME_KOMI = 'anime-komi';
 
 export {
     PIXEL_ART_HAMTARO,
@@ -17,5 +18,6 @@ export {
     PIXEL_ART_ITEM_DESK,
     PIXEL_ART_ITEM_WHITEBOARD,
     PIXEL_ART_ANIME_KURISU,
-    PIXEL_ART_ANIME_KANAO
+    PIXEL_ART_ANIME_KANAO,
+    PIXEL_ART_ANIME_KOMI
 };

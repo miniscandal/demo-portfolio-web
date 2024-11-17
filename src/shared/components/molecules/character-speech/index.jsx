@@ -16,7 +16,8 @@ function CharacterSpeech({
     };
     const pixelArtCharacter = {
         character,
-        size: 'small'
+        size: 'small',
+        showBox: true
     };
 
     return (

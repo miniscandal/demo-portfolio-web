@@ -20,6 +20,26 @@
         }
     }
 
+    &.art-anime-komi {
+        &.regular {
+            width: 8.3rem;
+            height: 12.5rem;
+
+            > div {
+                transform: scale(0.6);
+            }
+        }
+
+        &.small {
+            width: 8.6rem;
+            height: 14.8rem;
+
+            > div {
+                transform: scale(0.9);
+            }
+        }
+    }
+
     &.art-anime-umi {
         &.regular {
             width: 9.5rem;
@@ -51,11 +71,11 @@
         }
 
         &.small {
-            width: 7.6rem;
-            height: 11.7rem;
+            width: 8.5rem;
+            height: 13.5rem;
 
             > div {
-                transform: scale(0.7);
+                transform: scale(0.8);
             }
         }
     }
@@ -63,11 +83,11 @@
 
     &.art-anime-kurisu {
         &.regular {
-            width: 8.5rem;
+            width: 9rem;
             height: 13rem;
 
             > div {
-                transform: scale(0.6);
+                transform: scale(1.3);
             }
         }
 
@@ -84,11 +104,11 @@
 
     &.art-anime-kanao {
         &.regular {
-            width: 8.5rem;
-            height: 13rem;
+            width: 9rem;
+            height: 15rem;
 
             > div {
-                transform: scale(0.6);
+                transform: scale(1.3);
             }
         }
 
