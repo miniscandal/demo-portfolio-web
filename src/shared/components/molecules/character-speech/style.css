@@ -1,9 +1,8 @@
 .character-speech {
     > div {
-
         &:first-child {
-            padding-bottom: var(--padding-molecule);
-            max-width: 23rem;
+            max-width: 20rem;
+            margin-bottom: var(--padding-organism);
         }
     }
 }

@@ -2,7 +2,7 @@
 
     > .unordered-list {
         grid-template-columns: repeat(4, 9rem);
-        grid-template-rows: 10rem 10rem 1rem 1rem 10rem 10rem;
+        grid-template-rows: 11rem 11rem 1rem 1rem 11rem 11rem;
 
         > li:nth-child(1) {
             grid-column: 1 / 3;
@@ -31,10 +31,5 @@
                 background-color: var(--color-name-undefined-d);
             }
         }
-    }
-
-    @media(width < 42rem) {
-        display: none;
-        background-color: yellow;
     }
 }

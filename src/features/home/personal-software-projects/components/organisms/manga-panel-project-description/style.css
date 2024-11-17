@@ -1,1 +1,15 @@
-.manga-panel-project-description {}
+.manga-panel-project-description {
+
+    > .title {
+        padding-bottom: var(--padding-organism);
+    }
+
+    > div:last-child {
+        display: flex;
+        gap: var(--gap-organism);
+
+        .pixel-art-character {
+            align-self: flex-end;
+        }
+    }
+}

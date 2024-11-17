@@ -5,7 +5,8 @@ import { Title } from '@shared-atoms/title';
 import { Paragraph } from '@shared-atoms/paragraph';
 import { PixelArtCharacter } from '@shared-molecules/pixel-art-character';
 
-import { PIXEL_ART_ANIME_TODOROKI } from '@shared-constants/pixel-art-characters';
+import { PIXEL_ART_ANIME_KURISU } from '@shared-constants/pixel-art-characters';
+import { PIXEL_ART_ITEM_WHITEBOARD } from '@shared-constants/pixel-art-characters';
 
 import './style.css';
 
@@ -22,13 +23,17 @@ function MangaPanelObjectives() {
         color: 'charcoal-grey'
     };
     const pixelArtCharacter = {
-        character: PIXEL_ART_ANIME_TODOROKI,
-        showContainer: !false
-    }
+        character: PIXEL_ART_ANIME_KURISU,
+    };
+    const pixelArtItem = {
+        character: PIXEL_ART_ITEM_WHITEBOARD,
+        showBox: true
+    };
 
     return (
         <section>
             <Title {...title} />
+            <PixelArtCharacter {...pixelArtItem} />
             <PixelArtCharacter {...pixelArtCharacter} />
             <Paragraph {...paragraph} />
         </section>

@@ -51,11 +51,53 @@
         }
 
         &.small {
-            width: 8.5rem;
-            height: 13.2rem;
+            width: 7.6rem;
+            height: 11.7rem;
 
             > div {
-                transform: scale(0.8);
+                transform: scale(0.7);
+            }
+        }
+    }
+
+
+    &.art-anime-kurisu {
+        &.regular {
+            width: 8.5rem;
+            height: 13rem;
+
+            > div {
+                transform: scale(0.6);
+            }
+        }
+
+        &.small {
+            width: 17.6rem;
+            height: 31.7rem;
+
+            > div {
+                transform: scale(0.7);
+            }
+        }
+    }
+
+
+    &.art-anime-kanao {
+        &.regular {
+            width: 8.5rem;
+            height: 13rem;
+
+            > div {
+                transform: scale(0.6);
+            }
+        }
+
+        &.small {
+            width: 17.6rem;
+            height: 31.7rem;
+
+            > div {
+                transform: scale(0.7);
             }
         }
     }
@@ -79,6 +121,47 @@
 
             > div {
                 transform: scale(1);
+            }
+        }
+    }
+
+    &.art-item-desk {
+        &.regular {
+            width: 16.3rem;
+            height: 16.5rem;
+
+            > div {
+                transform: scale(0.60);
+            }
+        }
+
+        &.small {
+            width: 16.3rem;
+            height: 16.5rem;
+
+            > div {
+                transform: scale(0.60);
+            }
+        }
+    }
+
+
+    &.art-item-whiteboard {
+        &.regular {
+            width: 18.9rem;
+            height: 24rem;
+
+            > div {
+                transform: scale(0.9);
+            }
+        }
+
+        &.small {
+            width: 16.3rem;
+            height: 16.5rem;
+
+            > div {
+                transform: scale(0.60);
             }
         }
     }

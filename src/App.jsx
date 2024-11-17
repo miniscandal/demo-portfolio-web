@@ -8,8 +8,8 @@ import { RootHome } from '@feat-home-root/index';
 import { Manga } from '@feat-home-personal-software-projects-organisms/manga';
 
 import './App.css';
-import { MangaDialog } from '@shared-molecules/manga-dialog';
-import { CharacterSpeech } from '@shared-molecules/character-speech';
+import { MangaPanelProjectDescription } from '@feat-home-personal-software-projects-organisms/manga-panel-project-description';
+import { PixelArtCharacter } from '@shared-molecules/pixel-art-character';
 
 
 function App() {
@@ -46,10 +46,9 @@ function App() {
 
     return (
         <>
-            <CharacterSpeech />
-            {/* <MangaContext.Provider value={provider}> */}
-            {/* <Manga /> */}
-            {/* </MangaContext.Provider> */}
+            <MangaContext.Provider value={provider}>
+                <Manga />
+            </MangaContext.Provider>
             {/* <RootHome /> */}
         </>
     );

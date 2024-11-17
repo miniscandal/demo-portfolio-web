@@ -2,7 +2,7 @@
 
     > .unordered-list {
         grid-template-columns: repeat(2, calc(18rem + var(--gap-molecule)));
-        grid-template-rows: 30rem 12rem;
+        grid-template-rows: 36rem 10rem;
 
         > li:nth-child(1) {
             grid-column: 1 / 3;
@@ -30,9 +30,6 @@
 
             &.panel-active {
                 position: relative;
-                /* grid-column: 1/ -1; */
-                /* grid-row: 1/ -1; */
-                /* z-index: 10; */
 
                 &::after {
                     content: '';
