@@ -3,9 +3,9 @@ import { MangaContext } from '@feat-home-personal-software-projects-contexts/man
 
 import { Title } from '@shared-atoms/title';
 import { Paragraph } from '@shared-atoms/paragraph';
-import { PixelArtCharacter } from '@shared-molecules/pixel-art-character';
+import { PixelArt } from '@shared-molecules/pixel-art';
 
-import { PIXEL_ART_ANIME_KURISU } from '@shared-constants/pixel-art-characters';
+import { PIXEL_ART_ANIME_KURISU } from '@shared-molecules/pixel-art/variants';
 
 import './style.css';
 
@@ -21,7 +21,7 @@ function MangaPanelObjectives() {
         text: objectives.technical,
         color: 'charcoal-grey'
     };
-    const pixelArtCharacter = {
+    const pixelArt = {
         character: PIXEL_ART_ANIME_KURISU,
         showBox: true
     };
@@ -29,7 +29,7 @@ function MangaPanelObjectives() {
     return (
         <section>
             <Title {...title} />
-            <PixelArtCharacter {...pixelArtCharacter} />
+            <PixelArt {...pixelArt} />
             <Paragraph {...paragraph} />
         </section>
     );

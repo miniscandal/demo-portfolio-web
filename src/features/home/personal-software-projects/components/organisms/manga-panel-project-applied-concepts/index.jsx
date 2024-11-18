@@ -1,8 +1,8 @@
 import { Title } from '@shared-atoms/title';
 import { Paragraph } from '@shared-atoms/paragraph';
-import { PixelArtCharacter } from '@shared-molecules/pixel-art-character';
+import { PixelArt } from '@shared-molecules/pixel-art';
 
-import { PIXEL_ART_ANIME_KOMI } from '@shared-constants/pixel-art-characters';
+import { PIXEL_ART_ANIME_KOMI } from '@shared-molecules/pixel-art/variants';
 
 
 import './style.css';
@@ -22,7 +22,7 @@ function MangaPanelProjectAppliedConcepts() {
     return (
         <section>
             <Title {...title} />
-            <PixelArtCharacter {...pixelArt} />
+            <PixelArt {...pixelArt} />
         </section>
     );
 }

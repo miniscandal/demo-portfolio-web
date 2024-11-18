@@ -9,7 +9,7 @@ import { Manga } from '@feat-home-personal-software-projects-organisms/manga';
 
 import './App.css';
 import { MangaPanelProjectDescription } from '@feat-home-personal-software-projects-organisms/manga-panel-project-description';
-import { PixelArtCharacter } from '@shared-molecules/pixel-art-character';
+import { PixelArt } from '@shared-molecules/pixel-art';
 
 
 function App() {

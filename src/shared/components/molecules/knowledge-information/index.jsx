@@ -1,6 +1,6 @@
-import { PixelArtCharacter } from '@shared-molecules/pixel-art-character';
+import { PixelArt } from '@shared-molecules/pixel-art';
 
-import { PIXEL_ART_HAMTARO } from '@shared-constants/pixel-art-characters';
+import { PIXEL_ART_HAMTARO } from '@shared-molecules/pixel-art/variants';
 
 import './style.css';
 
@@ -9,7 +9,7 @@ function KnowledgeInformation({
     name: text = 'Knowledge Information',
     color: bgColor = 'lightpink',
 }) {
-    const pixelArtCharacter = {
+    const pixelArt = {
         size: 'small',
         character: PIXEL_ART_HAMTARO,
         showContainer: false
@@ -19,7 +19,7 @@ function KnowledgeInformation({
         <a className='knowledge-information' style={{ backgroundColor: bgColor }}>
             {text}
             <div>
-                <PixelArtCharacter {...pixelArtCharacter} />
+                <PixelArt {...pixelArt} />
             </div>
         </a>
     );

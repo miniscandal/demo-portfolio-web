@@ -1,8 +1,8 @@
 import { MangaDialog } from '@shared-molecules/manga-dialog';
 
-import { PixelArtCharacter } from '@shared-molecules/pixel-art-character';
+import { PixelArt } from '@shared-molecules/pixel-art';
 
-import { PIXEL_ART_ANIME_UMI } from '@shared-constants/pixel-art-characters';
+import { PIXEL_ART_ANIME_UMI } from '@shared-molecules/pixel-art/variants';
 
 import './style.css';
 
@@ -14,7 +14,7 @@ function CharacterSpeech({
     const mangaDialog = {
         text
     };
-    const pixelArtCharacter = {
+    const pixelArt = {
         character,
         size: 'small',
         showBox: true
@@ -25,7 +25,7 @@ function CharacterSpeech({
             <div>
                 <MangaDialog {...mangaDialog} />
             </div>
-            <PixelArtCharacter {...pixelArtCharacter} />
+            <PixelArt {...pixelArt} />
         </section>
     );
 }

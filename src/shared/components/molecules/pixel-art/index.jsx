@@ -1,9 +1,9 @@
-import { PIXEL_ART_ANIME_UMI } from '@shared-constants/pixel-art-characters';
+import { PIXEL_ART_ANIME_UMI } from "./variants";
 
 import './style.css';
 
 
-function PixelArtCharacter({
+function PixelArt({
     character = PIXEL_ART_ANIME_UMI,
     size = 'regular',
     showBox = false
@@ -15,10 +15,10 @@ function PixelArtCharacter({
     ];
 
     return (
-        <div className={`pixel-art-character ${classList.join(' ')}`}>
+        <div className={`pixel-art ${classList.join(' ')}`}>
             <div className={character}></div>
         </div>
     );
 }
 
-export { PixelArtCharacter };
+export { PixelArt };

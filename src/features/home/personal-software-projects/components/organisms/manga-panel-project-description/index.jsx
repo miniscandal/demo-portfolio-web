@@ -5,10 +5,10 @@ import { MangaContext } from '@feat-home-personal-software-projects-contexts/man
 import { Title } from '@shared-atoms/title';
 
 import { CharacterSpeech } from '@shared-molecules/character-speech';
-import { PixelArtCharacter } from '@shared-molecules/pixel-art-character';
+import { PixelArt } from '@shared-molecules/pixel-art';
 
-import { PIXEL_ART_ANIME_RINTARO } from '@shared-constants/pixel-art-characters';
-import { PIXEL_ART_ITEM_DESK } from '@shared-constants/pixel-art-characters';
+import { PIXEL_ART_ANIME_RINTARO } from '@shared-molecules/pixel-art/variants';
+import { PIXEL_ART_ITEM_DESK } from '@shared-molecules/pixel-art/variants';
 
 import './style.css';
 
@@ -24,7 +24,7 @@ function MangaPanelProjectDescription() {
         text: description,
         character: PIXEL_ART_ANIME_RINTARO
     };
-    const pixelArtItem = {
+    const pixelArt = {
         character: PIXEL_ART_ITEM_DESK
     };
 
@@ -32,7 +32,7 @@ function MangaPanelProjectDescription() {
         <section className='manga-panel-project-description'>
             <Title {...title} />
             <div>
-                <PixelArtCharacter {...pixelArtItem} />
+                <PixelArt {...pixelArt} />
                 <CharacterSpeech {...characterSpeech} />
             </div>
         </section>

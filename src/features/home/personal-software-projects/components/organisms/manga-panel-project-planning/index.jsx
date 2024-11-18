@@ -3,10 +3,10 @@ import { useContext } from 'react';
 import { MangaContext } from '@feat-home-personal-software-projects-contexts/manga-context';
 
 import { Title } from '@shared-atoms/title';
-import { PixelArtCharacter } from '@shared-molecules/pixel-art-character';
+import { PixelArt } from '@shared-molecules/pixel-art';
 
-import { PIXEL_ART_ANIME_KANAO } from '@shared-constants/pixel-art-characters';
-import { PIXEL_ART_ITEM_WHITEBOARD } from '@shared-constants/pixel-art-characters';
+import { PIXEL_ART_ANIME_KANAO } from '@shared-molecules/pixel-art/variants';
+import { PIXEL_ART_ITEM_WHITEBOARD } from '@shared-molecules/pixel-art/variants';
 
 import './style.css';
 
@@ -31,8 +31,8 @@ function MangaPanelProjectPlanning() {
     return (
         <section>
             <Title {...title} />
-            <PixelArtCharacter {...pixelArtItem} />
-            <PixelArtCharacter {...pixelArtCharacter} />
+            <PixelArt {...pixelArtItem} />
+            <PixelArt {...pixelArtCharacter} />
         </section>
     );
 }

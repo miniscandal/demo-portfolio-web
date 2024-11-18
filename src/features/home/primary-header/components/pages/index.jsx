@@ -5,7 +5,7 @@ import { ProfessionalContact } from '@shared-organisms/professional-contact';
 
 import srcPhoto from '@assets-images/photo-me/main-3.jpg';
 
-import { PIXEL_ART_ANIME_UMI } from '@shared-constants/pixel-art-characters';
+import { PIXEL_ART_ANIME_UMI } from '@shared-molecules/pixel-art/variants';
 
 import './style.css';
 
