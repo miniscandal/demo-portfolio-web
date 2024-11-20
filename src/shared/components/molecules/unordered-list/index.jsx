@@ -5,6 +5,7 @@ import './style.css';
 
 
 function UnorderedList({
+    id = null,
     selectListItemId = undefined,
     Component = Paragraph,
     items = [
@@ -18,8 +19,7 @@ function UnorderedList({
             text: 'item two'
         },
     ],
-    handleClick = (liElement) => { console.log(liElement); },
-    id = null
+    handleClick = (liElement) => { console.log(liElement); }
 }) {
     const internalHandleClick = (event) => {
         const listItem = event.target.closest('li');

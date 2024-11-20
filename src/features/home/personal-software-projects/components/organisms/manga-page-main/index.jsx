@@ -1,25 +1,21 @@
-import { useContext } from 'react';
-
-import { MangaContext } from '@feat-home-personal-software-projects-contexts/manga-context';
-
 import { MangaPanelProjectDescription } from '@feat-home-personal-software-projects-organisms/manga-panel-project-description';
 import { MangaPanelProjectPreview } from '@feat-home-personal-software-projects-organisms/manga-panel-project-preview';
 import { MangaPanelProjectAppliedConcepts } from '@feat-home-personal-software-projects-organisms/manga-panel-project-applied-concepts';
 import { MangaPanelProjectPlanning } from '@feat-home-personal-software-projects-organisms/manga-panel-project-planning';
-
-import { UnorderedList } from '@shared-molecules/unordered-list';
+import { MangaPanel } from '@feat-home-personal-software-projects-organisms/manga-panel';
 
 import { MPP_DESCRIPTION_ID } from '@feat-home-personal-software-projects-constants/manga-panel-identifiers';
 import { MPP_PLANNING_ID } from '@feat-home-personal-software-projects-constants/manga-panel-identifiers';
 import { MPP_TECH_ECOSYSTEM_ID } from '@feat-home-personal-software-projects-constants/manga-panel-identifiers';
 import { MPP_PREVIEW_ID } from '@feat-home-personal-software-projects-constants/manga-panel-identifiers';
 
+import { UnorderedList } from '@shared-molecules/unordered-list';
 
 import './style.css';
 
 
-function MangaPageMain() {
-    const { elements: { unorderedList } } = useContext(MangaContext);
+function MangaPageMain({ state }) {
+    const { setReadMangaPanelId } = state;
 
     const items = [
         {
@@ -44,9 +40,21 @@ function MangaPageMain() {
         },
     ];
 
+    const unorderedList = {
+        id: 'manga-page-main',
+        selectListItemId: null,
+        Component: MangaPanel,
+        items,
+        handleClick: (listItem) => {
+            const id = listItem.dataset.id;
+
+            setReadMangaPanelId(id);
+        }
+    };
+
     return (
         <section className='manga-page-main'>
-            <UnorderedList {...unorderedList} items={items} id='manga-page-main' />
+            <UnorderedList {...unorderedList} />
         </section>
     );
 }

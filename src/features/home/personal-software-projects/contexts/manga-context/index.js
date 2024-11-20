@@ -1,14 +1,14 @@
 import { createContext } from 'react';
 
-import { sensorMonitoring } from '@shared-resources-data/personal-projects/sensor-monitoring.json';
+import { en as sensorMonitoring } from '@shared-resources-data/personal-projects/sensor-monitoring.json';
 
 const MangaContext = createContext(null);
 
-const { en: { name, description, objectives } } = sensorMonitoring;
+const { name, descriptions, objectives } = sensorMonitoring;
 
 const ProviderProjectSensorMonitoring = {
     name,
-    description,
+    descriptions,
     objectives
 };
 

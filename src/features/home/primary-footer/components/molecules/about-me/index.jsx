@@ -1,19 +1,20 @@
 import { Title } from '@shared-atoms/title';
 import { Paragraph } from '@shared-atoms/paragraph';
 
-import { aboutMe } from '@shared-resources-data/professional-information/about-me.json';
+import { en as aboutMe } from '@shared-resources-data/professional-information/about-me.json';
 
 import './style.css';
 
 
 function AboutMe() {
+    const { description } = aboutMe;
     const title = {
         text: 'ABOUT ME',
         color: 'light',
         type: 'h4'
     };
     const paragraphAboutMe = {
-        text: aboutMe.description,
+        text: description,
         color: 'light',
     };
 

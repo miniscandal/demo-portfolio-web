@@ -6,11 +6,10 @@
     position: relative;
     background-color: var(--color-light);
 
-
     > .span {
         position: absolute;
-        top: 1rem;
-        right: 0.5rem;
+        top: var(--padding-molecule);
+        right: var(--padding-molecule);
         padding: var(--padding-atom);
         background-color: var(--color-warm-silver);
     }

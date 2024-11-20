@@ -1,3 +1,13 @@
+@import url('./characters/anime-original/hamtaro.css');
+@import url('./characters/anime-original/komi.css');
+@import url('./characters/anime-original/kurisu.css');
+@import url('./characters/anime-original/rintaro.css');
+@import url('./characters/anime-original/todoroki.css');
+@import url('./characters/anime-original/umi.css');
+
+@import url('./items/desk.css');
+@import url('./items/whiteboard.css');
+
 .pixel-art {
     > div {
         display: flex;
@@ -8,6 +18,60 @@
     &.show-box {
         background-color: var(--color-steel-grey);
     }
+
+    &.art-anime-umi {
+        &.regular {
+            width: 8rem;
+            height: 13.2rem;
+
+            > div {
+                transform: scale(0.8);
+            }
+        }
+    }
+
+    &.art-anime-rintaro {
+        &.regular {
+            width: 8.5rem;
+            height: 13.2rem;
+
+            > div {
+                transform: scale(0.8);
+            }
+        }
+    }
+
+    &.art-item-desk {
+        &.regular {
+            width: 19.5rem;
+            height: 17rem;
+
+            > div {
+                transform: scale(1.5);
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     &.art-hamtaro {
         &.small {
@@ -40,45 +104,7 @@
         }
     }
 
-    &.art-anime-umi {
-        &.regular {
-            width: 9.5rem;
-            height: 16.5rem;
 
-            > div {
-                transform: scale(1);
-            }
-        }
-
-        &.small {
-            width: 8.6rem;
-            height: 14.8rem;
-
-            > div {
-                transform: scale(0.9);
-            }
-        }
-    }
-
-    &.art-anime-rintaro {
-        &.regular {
-            width: 5.3rem;
-            height: 8.5rem;
-
-            > div {
-                transform: scale(0.5);
-            }
-        }
-
-        &.small {
-            width: 8.5rem;
-            height: 13.5rem;
-
-            > div {
-                transform: scale(0.8);
-            }
-        }
-    }
 
 
     &.art-anime-kurisu {
@@ -145,25 +171,6 @@
         }
     }
 
-    &.art-item-desk {
-        &.regular {
-            width: 16.3rem;
-            height: 16.5rem;
-
-            > div {
-                transform: scale(0.60);
-            }
-        }
-
-        &.small {
-            width: 16.3rem;
-            height: 16.5rem;
-
-            > div {
-                transform: scale(0.60);
-            }
-        }
-    }
 
 
     &.art-item-whiteboard {

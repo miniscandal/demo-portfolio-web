@@ -20,10 +20,10 @@ function ProfessionalProfile() {
     };
 
     const {
-        computerSystemEngineering,
-        internetOfThings, softwareDeveloper,
-        functionalAnalyst,
-        databaseAdministration
+        en: { computerSystemEngineering,
+            internetOfThings, softwareDeveloper,
+            functionalAnalyst,
+            databaseAdministration }
     } = competencies;
 
     const competenciesData = [

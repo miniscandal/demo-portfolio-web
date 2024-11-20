@@ -1,8 +1,0 @@
-.character-speech {
-    > div {
-        &:first-child {
-            max-width: 20rem;
-            margin-bottom: var(--padding-organism);
-        }
-    }
-}

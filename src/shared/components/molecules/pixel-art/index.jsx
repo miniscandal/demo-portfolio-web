@@ -1,4 +1,4 @@
-import { PIXEL_ART_ANIME_UMI } from "./variants";
+import { PIXEL_ART_ANIME_UMI } from './variants';
 
 import './style.css';
 

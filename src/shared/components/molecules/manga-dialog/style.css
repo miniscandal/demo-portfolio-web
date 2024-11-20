@@ -2,13 +2,15 @@
     font-family: 'Yoruka';
 
     > div {
-
         &:first-child {
             padding: 0.25rem;
             border-radius: 50%;
             background-color: var(--color-dark);
 
             > .paragraph {
+                display: flex;
+                justify-content: center;
+                align-items: center;
                 border-radius: 50%;
                 background-color: var(--color-light);
                 padding: 2rem;
@@ -35,5 +37,13 @@
                 border-right: solid 0.25rem var(--color-dark);
             }
         }
+    }
+
+    &.regular {
+        .paragraph {
+            max-width: 20rem;
+            height: 12rem;
+        }
+
     }
 }

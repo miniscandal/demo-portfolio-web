@@ -1,90 +1,92 @@
 {
-    "sensorMonitoring": {
-        "en": {
-            "name": "Sensor Monitoring",
-            "description": "Real-time display of temperature and humidity information transmitted by sensors for precise and detailed control of the environment.",
-            "objectives": {
-                "technical": [
-                    "Implement relevant concepts within IoT, such as real-time communication or the best communication protocols for this purpose.",
-                    "Use tools like Python to test or simulate embedded devices for cases like this where real devices are not available during this development phase.",
-                    "Take advantage of libraries like React.js to build single-page web applications and assess the efficiency and development experience when managing state, compared to using only vanilla JavaScript.",
-                    "Better understand how to choose software architecture and development methodologies like atomic design for user interfaces."
+    "en": {
+        "name": "Sensor Monitoring",
+        "descriptions": [
+            "Real-time sensor monitoring and control.",
+            "Real-time monitoring and control of temperature and humidity sensors.",
+            "Real-time display of temperature and humidity information transmitted by sensors for precise and detailed control of the environment."
+        ],
+        "objectives": {
+            "technical": [
+                "Implement relevant concepts within IoT, such as real-time communication or the best communication protocols for this purpose.",
+                "Use tools like Python to test or simulate embedded devices for cases like this where real devices are not available during this development phase.",
+                "Take advantage of libraries like React.js to build single-page web applications and assess the efficiency and development experience when managing state, compared to using only vanilla JavaScript.",
+                "Better understand how to choose software architecture and development methodologies like atomic design for user interfaces."
+            ]
+        },
+        "technicalTools": [
+            "javaScript",
+            "html",
+            "css",
+            "mqttJs",
+            "mosquitto",
+            "react",
+            "python"
+        ],
+        "technicalKnowledge": [
+            "internetOfThings",
+            "observerPattern",
+            "atomicWebDesign",
+            "bemMethodology",
+            "mqtt",
+            "realTimeApplication",
+            "eventDelegation",
+            "testing"
+        ],
+        "techToolsChoiceJustification": [
+            "JavaScript and React.js were chosen for their ability to create interactive, real-time web applications efficiently.",
+            "Python was selected for simulating and testing embedded devices in the absence of physical hardware during development.",
+            "MQTT protocol and Mosquitto were used to facilitate lightweight, real-time messaging between devices and the application."
+        ],
+        "techKnowledgeChoiceJustification": [
+            "Knowledge of IoT is critical to managing real-time sensor data and ensuring communication between devices.",
+            "The observer pattern is essential for managing state changes in real-time systems like this.",
+            "Understanding of the BEM methodology is necessary for maintaining scalable and maintainable frontend architecture."
+        ],
+        "projectPlanning": [
+            "The project will be broken down into phases: first, sensor communication setup, followed by frontend development using React.js, and finally, testing the integration with real-world devices using Python.",
+            "Initial planning focuses on choosing the best communication protocol, followed by the design of the user interface using atomic design principles."
+        ],
+        "demonstration": {
+            "media": {
+                "images": [
+                    "https://example.com/images/sensor-monitoring-dashboard.png",
+                    "https://example.com/images/sensor-setup.jpg"
+                ],
+                "videos": [
+                    "https://example.com/videos/sensor-communication-demo.mp4",
+                    "https://example.com/videos/frontend-development-process.mp4"
+                ],
+                "documents": [
+                    "https://example.com/docs/IoT-sensor-communication.pdf",
+                    "https://example.com/docs/React-frontend-guide.pdf"
+                ],
+                "sourceCode": [
+                    "https://github.com/user/sensor-monitoring/tree/main/frontend",
+                    "https://github.com/user/sensor-monitoring/tree/main/backend"
                 ]
-            },
-            "technicalTools": [
-                "javaScript",
-                "html",
-                "css",
-                "mqttJs",
-                "mosquitto",
-                "react",
-                "python"
-            ],
-            "technicalKnowledge": [
-                "internetOfThings",
-                "observerPattern",
-                "atomicWebDesign",
-                "bemMethodology",
-                "mqtt",
-                "realTimeApplication",
-                "eventDelegation",
-                "testing"
-            ],
-            "techToolsChoiceJustification": [
-                "JavaScript and React.js were chosen for their ability to create interactive, real-time web applications efficiently.",
-                "Python was selected for simulating and testing embedded devices in the absence of physical hardware during development.",
-                "MQTT protocol and Mosquitto were used to facilitate lightweight, real-time messaging between devices and the application."
-            ],
-            "techKnowledgeChoiceJustification": [
-                "Knowledge of IoT is critical to managing real-time sensor data and ensuring communication between devices.",
-                "The observer pattern is essential for managing state changes in real-time systems like this.",
-                "Understanding of the BEM methodology is necessary for maintaining scalable and maintainable frontend architecture."
-            ],
-            "projectPlanning": [
-                "The project will be broken down into phases: first, sensor communication setup, followed by frontend development using React.js, and finally, testing the integration with real-world devices using Python.",
-                "Initial planning focuses on choosing the best communication protocol, followed by the design of the user interface using atomic design principles."
-            ],
-            "demonstration": {
-                "media": {
-                    "images": [
-                        "https://example.com/images/sensor-monitoring-dashboard.png",
-                        "https://example.com/images/sensor-setup.jpg"
-                    ],
-                    "videos": [
-                        "https://example.com/videos/sensor-communication-demo.mp4",
-                        "https://example.com/videos/frontend-development-process.mp4"
-                    ],
-                    "documents": [
-                        "https://example.com/docs/IoT-sensor-communication.pdf",
-                        "https://example.com/docs/React-frontend-guide.pdf"
-                    ],
-                    "sourceCode": [
-                        "https://github.com/user/sensor-monitoring/tree/main/frontend",
-                        "https://github.com/user/sensor-monitoring/tree/main/backend"
-                    ]
-                }
-            },
-            "repository": {
-                "url": "https://github.com/user/sensor-monitoring"
-            },
-            "deploy": {
-                "url": "https://sensor-monitoring.example.com",
-                "platform": "Heroku",
-                "status": "live",
-                "documentation": "https://example.com/deploy-docs"
             }
         },
-        "es": {
-            "name": "Sensor Monitoring",
-            "description": "Real-time display of temperature and humidity information transmitted by sensors for precise and detailed control of the environment.",
-            "objectives": {
-                "technical": [
-                    "Implementar conceptos relevantes dentro del IoT, como la comunicación en tiempo real o protocolos de comunicación óptimos para este propósito.",
-                    "Utilizar herramientas como Python para realizar pruebas o emular dispositivos embebidos para casos como este donde no se dispone de dispositivos reales para esta fase de desarrollo.",
-                    "Aprovechar bibliotecas como React.js para desarrollar aplicaciones web de una sola página y evaluar la eficiencia y la experiencia de desarrollo en el manejo del estado, en comparación con el uso exclusivo de vanilla JavaScript.",
-                    "Comprender mejor cómo elegir la arquitectura de software y las metodologías de desarrollo como atomic design para las interfaces de usuario."
-                ]
-            }
+        "repository": {
+            "url": "https://github.com/user/sensor-monitoring"
+        },
+        "deploy": {
+            "url": "https://sensor-monitoring.example.com",
+            "platform": "Heroku",
+            "status": "live",
+            "documentation": "https://example.com/deploy-docs"
+        }
+    },
+    "es": {
+        "name": "Sensor Monitoring",
+        "descriptions": "Real-time display of temperature and humidity information transmitted by sensors for precise and detailed control of the environment.",
+        "objectives": {
+            "technical": [
+                "Implementar conceptos relevantes dentro del IoT, como la comunicación en tiempo real o protocolos de comunicación óptimos para este propósito.",
+                "Utilizar herramientas como Python para realizar pruebas o emular dispositivos embebidos para casos como este donde no se dispone de dispositivos reales para esta fase de desarrollo.",
+                "Aprovechar bibliotecas como React.js para desarrollar aplicaciones web de una sola página y evaluar la eficiencia y la experiencia de desarrollo en el manejo del estado, en comparación con el uso exclusivo de vanilla JavaScript.",
+                "Comprender mejor cómo elegir la arquitectura de software y las metodologías de desarrollo como atomic design para las interfaces de usuario."
+            ]
         }
     }
 }

@@ -16,15 +16,12 @@ function CharacterSpeech({
     };
     const pixelArt = {
         character,
-        size: 'small',
-        showBox: true
+        size: 'regular'
     };
 
     return (
         <section className='character-speech'>
-            <div>
-                <MangaDialog {...mangaDialog} />
-            </div>
+            <MangaDialog {...mangaDialog} />
             <PixelArt {...pixelArt} />
         </section>
     );

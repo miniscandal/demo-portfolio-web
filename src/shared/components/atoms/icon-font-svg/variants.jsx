@@ -54,6 +54,10 @@ const ArrowBack = (
     <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="currentColor"><path d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z" /></svg>
 );
 
+const ArrowDown = (
+    <svg viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M10 8L14 8V10L8 16L2 10V8H6V0L10 4.76995e-08V8Z" fill="currentColor"></path> </g></svg>
+);
+
 
 export {
     Star,
@@ -69,5 +73,6 @@ export {
     NestRemoteControlSensor,
     Edit,
     KidStar,
-    ArrowBack
+    ArrowBack,
+    ArrowDown
 };

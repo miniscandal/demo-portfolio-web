@@ -1,15 +1,38 @@
 .manga-panel-project-description {
+    height: 100%;
 
     > .title {
-        padding-bottom: var(--padding-organism);
+        padding-bottom: var(--padding-simple-organism);
     }
 
-    > div:last-child {
-        display: flex;
-        gap: var(--gap-organism);
+    &.reading-mode {
+        > section {
+            position: relative;
+            height: 100%;
 
-        .pixel-art-character {
-            align-self: flex-end;
+            > .icon-font-svg__div {
+                position: absolute;
+                top: 35%;
+                right: 30%;
+                z-index: 10;
+            }
+
+            > .icon-button__div {
+                position: absolute;
+                right: 0;
+            }
+
+            > .pixel-art__div {
+                position: absolute;
+                top: 25%;
+                right: 0;
+            }
+
+            > .character-speech__div {
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
         }
     }
 }

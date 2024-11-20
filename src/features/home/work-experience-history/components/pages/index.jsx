@@ -14,10 +14,11 @@ function WorkExperienceHistory() {
         type: 'h2',
         decorated: true
     };
-    const { interpersonalCompetencies } = ebookDevelopment;
+    const { en: { socialEmotionalCompetencies } } = ebookDevelopment;
+
     const workExperience = {
         ...ebookDevelopment,
-        interpersonalCompetencies: alternatingWordOrder(interpersonalCompetencies)
+        interpersonalCompetencies: alternatingWordOrder(socialEmotionalCompetencies)
     };
 
 
