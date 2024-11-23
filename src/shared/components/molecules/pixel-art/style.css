@@ -7,6 +7,7 @@
 
 @import url('./items/desk.css');
 @import url('./items/whiteboard.css');
+@import url('./items/microwave-steins-gate.css');
 
 .pixel-art {
     > div {
@@ -52,7 +53,16 @@
         }
     }
 
+    &.art-item-microwave-steins-gate {
+        &.regular {
+            width: 7rem;
+            height: 6rem;
 
+            > div {
+                transform: scale(0.5);
+            }
+        }
+    }
 
 
 
