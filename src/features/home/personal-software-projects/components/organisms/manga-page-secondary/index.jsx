@@ -1,12 +1,5 @@
 import { useState } from 'react';
 
-import { MP_SP_MAIN_ID } from '@feat-home-personal-software-projects-constants/manga-panel-identifiers';
-import { MP_SP_SECONDARY_ID } from '@feat-home-personal-software-projects-constants/manga-panel-identifiers';
-import { MPP_DESCRIPTION_ID } from '@feat-home-personal-software-projects-constants/manga-panel-identifiers';
-import { MPP_PLANNING_ID } from '@feat-home-personal-software-projects-constants/manga-panel-identifiers';
-import { MPP_TECH_ECOSYSTEM_ID } from '@feat-home-personal-software-projects-constants/manga-panel-identifiers';
-import { MPP_PREVIEW_ID } from '@feat-home-personal-software-projects-constants/manga-panel-identifiers';
-
 import { MangaPanelProjectDescription } from '@feat-home-personal-software-projects-organisms/manga-panel-project-description';
 import { MangaPanelObjectives } from '@feat-home-personal-software-projects-organisms/manga-panel-objectives';
 import { MangaPanelProjectPlanning } from '@feat-home-personal-software-projects-organisms/manga-panel-project-planning';
@@ -15,6 +8,13 @@ import { MangaPanelProjectPreview } from '@feat-home-personal-software-projects-
 import { MangaPanel } from '@feat-home-personal-software-projects-organisms/manga-panel';
 
 import { UnorderedList } from '@shared-molecules/unordered-list';
+
+import { MP_SP_MAIN_ID } from '@feat-home-personal-software-projects-constants/manga-panel-identifiers';
+import { MP_SP_SECONDARY_ID } from '@feat-home-personal-software-projects-constants/manga-panel-identifiers';
+import { MPP_DESCRIPTION_ID } from '@feat-home-personal-software-projects-constants/manga-panel-identifiers';
+import { MPP_PLANNING_ID } from '@feat-home-personal-software-projects-constants/manga-panel-identifiers';
+import { MPP_TECH_ECOSYSTEM_ID } from '@feat-home-personal-software-projects-constants/manga-panel-identifiers';
+import { MPP_PREVIEW_ID } from '@feat-home-personal-software-projects-constants/manga-panel-identifiers';
 
 import './style.css';
 
@@ -31,19 +31,19 @@ function MangaPageSecondary({ state }) {
         },
         [MPP_PLANNING_ID]: {
             mainPanelChildren: MangaPanelProjectPlanning,
-            secondaryPanelChildren: null
+            secondaryPanelChildren: () => { }
         },
         [MPP_TECH_ECOSYSTEM_ID]: {
             mainPanelChildren: MangaPanelProjectAppliedConcepts,
-            secondaryPanelChildren: null
+            secondaryPanelChildren: () => { }
         },
         [MPP_PREVIEW_ID]: {
             mainPanelChildren: MangaPanelProjectPreview,
-            secondaryPanelChildren: null
+            secondaryPanelChildren: () => { }
         },
         [MP_SP_MAIN_ID]: {
             mainPanelChildren: MangaPanelProjectPreview,
-            secondaryPanelChildren: null
+            secondaryPanelChildren: () => { }
         }
     };
     const { mainPanelChildren, secondaryPanelChildren } = mangaPageSecondaryViews[readMangaPanelId];
@@ -60,7 +60,11 @@ function MangaPageSecondary({ state }) {
 
     let items = [
         mainPanel,
-        mainPanel,
+        {
+            id: MP_SP_MAIN_ID,
+            text: 'Sc 01',
+            ChildrenComponent: () => mainPanelChildren({ readingMode: false })
+        },
         secondaryPanel
     ];
 
@@ -68,7 +72,11 @@ function MangaPageSecondary({ state }) {
         items = [
             secondaryPanel,
             mainPanel,
-            secondaryPanel
+            {
+                id: MP_SP_SECONDARY_ID,
+                text: 'Sc 02',
+                ChildrenComponent: () => secondaryPanelChildren({ readingMode: false })
+            }
         ];
     }
 

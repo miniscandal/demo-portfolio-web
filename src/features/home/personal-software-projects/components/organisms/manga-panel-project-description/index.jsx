@@ -3,15 +3,14 @@ import { useState, useContext } from 'react';
 import { MangaContext } from '@feat-home-personal-software-projects-contexts/manga-context';
 
 import { Title } from '@shared-atoms/title';
-
+import { NextStepButton } from '@shared-molecules/next-step-button';
 import { CharacterSpeech } from '@shared-molecules/character-speech';
 import { PixelArt } from '@shared-molecules/pixel-art';
-import { IconButton } from '@shared-molecules/icon-button';
-import { IconFontSvg } from '@shared-atoms/icon-font-svg';
-import { ArrowDown } from '@shared-atoms/icon-font-svg/variants';
+import { BoxButton } from '@shared-molecules/box-button';
 
 import { PIXEL_ART_ANIME_RINTARO } from '@shared-molecules/pixel-art/variants';
 import { PIXEL_ART_ITEM_DESK } from '@shared-molecules/pixel-art/variants';
+import { PIXEL_ART_ITEM_MICROWAVE_STEINS_GATE } from '@shared-molecules/pixel-art/variants';
 
 import './style.css';
 
@@ -35,13 +34,11 @@ function MangaPanelProjectDescription({ readingMode = false }) {
     const pixelArt = {
         character: PIXEL_ART_ITEM_DESK
     };
-    const iconFontSvg = {
-        svg: ArrowDown,
-        color: 'olive-green',
-        size: 'small'
+    const pixelArtItem = {
+        character: PIXEL_ART_ITEM_MICROWAVE_STEINS_GATE
     };
-    const iconButton = {
-        handleClick: () => {
+    const boxButton = {
+        onClickCallback: () => {
             setDescriptionIndex(descriptionIndex + 1);
         }
     };
@@ -54,16 +51,16 @@ function MangaPanelProjectDescription({ readingMode = false }) {
                     readingMode
                     &&
                     <>
-                        <div className='icon-font-svg__div'>
-                            <IconFontSvg {...iconFontSvg} />
+                        <div className='next-step-button__div'>
+                            <NextStepButton />
                         </div>
-
-                        <div className='icon-button__div'>
-                            <IconButton {...iconButton} />
-                        </div>
-
                         <div className='pixel-art__div'>
                             <PixelArt {...pixelArt} />
+                        </div>
+                        <div className='pixel-art__div--item'>
+                            <BoxButton {...boxButton}>
+                                <PixelArt {...pixelArtItem} />
+                            </BoxButton>
                         </div>
                     </>
                 }

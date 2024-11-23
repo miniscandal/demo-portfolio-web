@@ -1,5 +1,4 @@
 import { Title } from '@shared-atoms/title';
-import { MangaPageMain } from '@feat-home-personal-software-projects-organisms/manga-page-main';
 
 import './style.css';
 
@@ -16,7 +15,6 @@ function PersonalSoftwareProjects() {
         <article className='personal-software-projects'>
             <Title {...title} />
             <section>
-                <MangaPageMain />
             </section>
         </article>
     );

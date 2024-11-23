@@ -10,16 +10,11 @@
             position: relative;
             height: 100%;
 
-            > .icon-font-svg__div {
+            > .next-step-button__div {
                 position: absolute;
-                top: 35%;
-                right: 30%;
+                top: 45%;
+                left: 25%;
                 z-index: 10;
-            }
-
-            > .icon-button__div {
-                position: absolute;
-                right: 0;
             }
 
             > .pixel-art__div {
@@ -32,6 +27,18 @@
                 position: absolute;
                 top: 0;
                 left: 0;
+            }
+
+            > .pixel-art__div--item {
+                position: absolute;
+                top: 60%;
+                left: 25%;
+                z-index: 10;
+            }
+
+            > .button__div {
+                position: absolute;
+                z-index: 20;
             }
         }
     }

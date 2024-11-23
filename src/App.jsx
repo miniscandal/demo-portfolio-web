@@ -6,6 +6,7 @@ import { Manga } from '@feat-home-personal-software-projects-organisms/manga';
 
 import './App.css';
 
+
 function App() {
     const provider = {
         projectData: ProviderProjectSensorMonitoring,
