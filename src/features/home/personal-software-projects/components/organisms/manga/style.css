@@ -1,19 +1,20 @@
 .manga {
+    display: flex;
+    gap: var(--gap-molecule);
 
-    > .manga-page-main,
-    .manga-page-secondary {
-        display: flex;
-        gap: var(--gap-molecule);
+    .manga__div {
 
-        > .unordered-list {
-            display: grid;
-            gap: 0 var(--gap-molecule);
-            padding: var(--padding-molecule);
-            background-color: var(--color-light);
+        > .manga-page-main,
+        .manga-page-secondary {
+            > .unordered-list {
+                display: grid;
+                gap: 0 var(--gap-molecule);
+                background-color: var(--color-light);
 
-            > li {
-                padding: var(--padding-simple-atom);
-                background-color: var(--color-coffee-brown);
+                > li {
+                    padding: var(--padding-simple-atom);
+                    background-color: var(--color-coffee-brown);
+                }
             }
         }
     }

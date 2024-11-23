@@ -2,6 +2,7 @@ import { useState } from 'react';
 
 import { MangaPageMain } from '@feat-home-personal-software-projects-organisms/manga-page-main';
 import { MangaPageSecondary } from '@feat-home-personal-software-projects-organisms/manga-page-secondary';
+import { MangaPrimarySideBar } from '@feat-home-personal-software-projects-organisms/manga-primary-side-bar';
 
 import './style.css';
 
@@ -14,14 +15,22 @@ function Manga() {
             setReadMangaPanelId
         }
     };
+    const primarySideBar = {
+        state: {
+            setReadMangaPanelId
+        }
+    };
 
     return (
         <section className='manga'>
-            {
-                !readMangaPanelId
-                    ? <MangaPageMain {...mangaPage} />
-                    : <MangaPageSecondary  {...mangaPage} />
-            }
+            <div className='manga__div'>
+                {
+                    !readMangaPanelId
+                        ? <MangaPageMain {...mangaPage} />
+                        : <MangaPageSecondary  {...mangaPage} />
+                }
+            </div>
+            <MangaPrimarySideBar {...primarySideBar} />
         </section>
     );
 }
