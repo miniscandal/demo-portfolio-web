@@ -1,0 +1,41 @@
+.next-step-button {
+    overflow: hidden;
+
+    > div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: var(--gap-simple-molecule);
+
+        > .paragraph__div {
+            background-color: var(--color-olive-green);
+            border-radius: var(--border-radius-atom);
+            padding: var(--padding-simple-atom);
+            padding-left: var(--padding-simple-molecule);
+            padding-right: var(--padding-simple-molecule);
+        }
+
+        > .icon-font-svg__div {
+
+            transition: background-color 0.3s ease;
+            animation: pulse 1.5s ease-in-out infinite;
+        }
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        opacity: 0.8;
+    }
+
+    50% {
+        transform: scale(1.1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 0.8;
+    }
+}
