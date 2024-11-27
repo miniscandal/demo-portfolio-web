@@ -30,7 +30,7 @@ function MangaDialog({
 
             const elapsed = timestamp - lastUpdateTime.current;
 
-            if (elapsed >= 100) {
+            if (elapsed >= 60) {
                 lastUpdateTime.current = timestamp;
                 setDisplayedText((prev) => prev + text[currentIndex.current]);
                 currentIndex.current += 1;
