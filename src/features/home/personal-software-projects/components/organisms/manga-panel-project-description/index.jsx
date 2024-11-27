@@ -16,7 +16,7 @@ import './style.css';
 
 
 function MangaPanelProjectDescription({ readingMode = false }) {
-    const [descriptionIndex, setDescriptionIndex] = useState(0);
+    const [descriptionIndex, setDescriptionIndex] = useState(2);
     const { projectData: { name, descriptions } } = useContext(MangaContext);
     const classList = [
         'manga-panel-project-description',
@@ -29,7 +29,8 @@ function MangaPanelProjectDescription({ readingMode = false }) {
     };
     const characterSpeech = {
         text: descriptions[descriptionIndex],
-        character: PIXEL_ART_ANIME_RINTARO
+        character: PIXEL_ART_ANIME_RINTARO,
+        animateText: true
     };
     const pixelArt = {
         character: PIXEL_ART_ITEM_DESK
@@ -39,7 +40,11 @@ function MangaPanelProjectDescription({ readingMode = false }) {
     };
     const boxButton = {
         onClickCallback: () => {
-            setDescriptionIndex(descriptionIndex + 1);
+            if (descriptionIndex < descriptions.length - 1) {
+                setDescriptionIndex(descriptionIndex + 1);
+            } else {
+                setDescriptionIndex(0);
+            }
         }
     };
 

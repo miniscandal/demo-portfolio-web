@@ -40,10 +40,17 @@
     }
 
     &.regular {
-        .paragraph {
-            max-width: 20rem;
-            height: 12rem;
-        }
+        width: 20rem;
+        height: 12rem;
 
+        > div:first-child {
+            width: 100%;
+            height: 100%;
+
+            > .paragraph {
+                width: 100%;
+                height: 100%;
+            }
+        }
     }
 }

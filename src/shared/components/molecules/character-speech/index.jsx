@@ -9,10 +9,12 @@ import './style.css';
 
 function CharacterSpeech({
     text = 'Character Speech',
-    character = PIXEL_ART_ANIME_UMI
+    character = PIXEL_ART_ANIME_UMI,
+    animateText = false
 }) {
     const mangaDialog = {
-        text
+        text,
+        animateText
     };
     const pixelArt = {
         character,
