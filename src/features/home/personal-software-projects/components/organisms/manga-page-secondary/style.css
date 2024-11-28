@@ -36,7 +36,7 @@
                     display: block;
                     inset: 0;
                     position: absolute;
-                    background-color: var(--color-coral-orange);
+                    background-color: var(--color-deep-ocean);
                     filter: opacity(0.3);
                     cursor: no-drop;
                 }
