@@ -4,6 +4,7 @@
 @import url('./characters/anime-original/rintaro.css');
 @import url('./characters/anime-original/todoroki.css');
 @import url('./characters/anime-original/umi.css');
+@import url('./characters/anime-original/kanao.css');
 
 @import url('./items/desk.css');
 @import url('./items/whiteboard.css');
@@ -76,6 +77,44 @@
         }
     }
 
+    &.art-anime-kanao {
+        &.regular {
+            width: 9rem;
+            height: 13.5rem;
+
+            > div {
+                transform: scale(1.3);
+            }
+        }
+
+        &.small {
+            width: 17.6rem;
+            height: 31.7rem;
+
+            > div {
+                transform: scale(0.7);
+            }
+        }
+    }
+
+    &.art-item-whiteboard {
+        &.regular {
+            width: 19.5rem;
+            height: 25rem;
+
+            > div {
+                transform: scale(1.9);
+            }
+        }
+    }
+
+
+
+
+
+
+
+
 
 
 
@@ -144,27 +183,6 @@
         }
     }
 
-
-    &.art-anime-kanao {
-        &.regular {
-            width: 9rem;
-            height: 15rem;
-
-            > div {
-                transform: scale(1.3);
-            }
-        }
-
-        &.small {
-            width: 17.6rem;
-            height: 31.7rem;
-
-            > div {
-                transform: scale(0.7);
-            }
-        }
-    }
-
     &.art-anime-todoroki {
         &.regular {
             width: 5.4rem;
@@ -184,28 +202,6 @@
 
             > div {
                 transform: scale(1);
-            }
-        }
-    }
-
-
-
-    &.art-item-whiteboard {
-        &.regular {
-            width: 18.9rem;
-            height: 24rem;
-
-            > div {
-                transform: scale(0.9);
-            }
-        }
-
-        &.small {
-            width: 16.3rem;
-            height: 16.5rem;
-
-            > div {
-                transform: scale(0.60);
             }
         }
     }

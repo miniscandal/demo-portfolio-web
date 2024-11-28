@@ -18,8 +18,8 @@ import './style.css';
 function MangaPanelProjectDescription({ readingMode = false }) {
     const [descriptionIndex, setDescriptionIndex] = useState(0);
     const { projectData: { name, descriptions } } = useContext(MangaContext);
+
     const classList = [
-        'manga-panel-project-description',
         readingMode ? 'reading-mode' : ''
     ];
     const title = {
@@ -49,7 +49,7 @@ function MangaPanelProjectDescription({ readingMode = false }) {
     };
 
     return (
-        <section className={classList.join(' ')}>
+        <section className={`manga-panel-project-description ${classList.join(' ')}`}>
             <Title {...title} />
             <section>
                 {
