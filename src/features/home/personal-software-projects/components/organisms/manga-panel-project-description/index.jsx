@@ -30,7 +30,7 @@ function MangaPanelProjectDescription({ readingMode = false }) {
     const characterSpeech = {
         text: descriptions[descriptionIndex],
         character: PIXEL_ART_ANIME_RINTARO,
-        animateText: true
+        animateText: readingMode
     };
     const pixelArt = {
         character: PIXEL_ART_ITEM_DESK

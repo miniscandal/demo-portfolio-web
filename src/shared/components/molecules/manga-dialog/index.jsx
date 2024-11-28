@@ -17,11 +17,15 @@ function MangaDialog({
     const lastUpdateTime = useRef(null);
 
     useEffect(() => {
+        setDisplayedText('');
+        currentIndex.current = -1;
+
         if (!animateText) {
             setDisplayedText(text);
 
             return;
         }
+
 
         function updateText(timestamp) {
             if (!lastUpdateTime.current) {
@@ -32,8 +36,8 @@ function MangaDialog({
 
             if (elapsed >= 60) {
                 lastUpdateTime.current = timestamp;
-                setDisplayedText((prev) => prev + text[currentIndex.current]);
                 currentIndex.current += 1;
+                setDisplayedText((prev) => prev + text[currentIndex.current]);
             }
 
             if (currentIndex.current < text.length - 1) {

@@ -2,12 +2,9 @@ import { MangaContext } from '@feat-home-personal-software-projects-contexts/man
 import { ProviderProjectSensorMonitoring } from '@feat-home-personal-software-projects-contexts/manga-context';
 import { Manga } from '@feat-home-personal-software-projects-organisms/manga';
 
-// import { RootHome } from '@feat-home-root/index';
+import { RootHome } from '@feat-home-root/index';
 
 import './App.css';
-import { MangaPrimarySideBar } from '@feat-home-personal-software-projects-organisms/manga-primary-side-bar';
-import { MangaDialog } from '@shared-molecules/manga-dialog';
-import { CharacterSpeech } from '@shared-molecules/character-speech';
 
 
 function App() {
@@ -18,8 +15,8 @@ function App() {
     return (
         <>
             <MangaContext.Provider value={provider}>
-                {/* <MangaDialog /> */}
                 <Manga />
+                {/* <RootHome /> */}
             </MangaContext.Provider>
         </>
     );

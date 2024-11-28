@@ -55,7 +55,7 @@ function MangaPageSecondary({ state }) {
     const secondaryPanel = {
         id: MP_SP_SECONDARY_ID,
         text: 'Sc 02',
-        ChildrenComponent: () => secondaryPanelChildren({ readingMode: !selectSecondaryPanel })
+        ChildrenComponent: () => secondaryPanelChildren({ readingMode: selectSecondaryPanel })
     };
 
     let items = [

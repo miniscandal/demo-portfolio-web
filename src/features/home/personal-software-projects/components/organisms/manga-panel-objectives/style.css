@@ -1,0 +1,21 @@
+.manga-panel-objectives {
+    height: 100%;
+
+    > .title {
+        padding-bottom: var(--padding-simple-organism);
+    }
+
+    &.reading-mode {
+        > section {
+            display: flex;
+            height: 100%;
+            flex-direction: row-reverse;
+
+            > .character-speech__div {
+                margin-top: 10%;
+                margin-right: 10%;
+                z-index: 10;
+            }
+        }
+    }
+}

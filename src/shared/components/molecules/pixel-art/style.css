@@ -8,6 +8,7 @@
 @import url('./items/desk.css');
 @import url('./items/whiteboard.css');
 @import url('./items/microwave-steins-gate.css');
+@import url('./items/computers-steins-gate.css');
 
 .pixel-art {
     > div {
@@ -64,7 +65,16 @@
         }
     }
 
+    &.art-item-computers-steins-gate {
+        &.regular {
+            width: 20rem;
+            height: 23rem;
 
+            > div {
+                transform: scale(0.9);
+            }
+        }
+    }
 
 
 
@@ -113,9 +123,6 @@
             }
         }
     }
-
-
-
 
     &.art-anime-kurisu {
         &.regular {
