@@ -4,12 +4,14 @@ import { en as sensorMonitoring } from '@shared-resources-data/personal-projects
 
 const MangaContext = createContext(null);
 
-const { name, descriptions, objectives } = sensorMonitoring;
+const { name, descriptions, objectives, expectedResults, planning } = sensorMonitoring;
 
 const ProviderProjectSensorMonitoring = {
     name,
     descriptions,
-    objectives
+    objectives,
+    expectedResults,
+    planning
 };
 
 export {

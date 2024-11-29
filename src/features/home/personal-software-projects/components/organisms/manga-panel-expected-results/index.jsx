@@ -12,19 +12,18 @@ import { PixelArt } from '@shared-molecules/pixel-art';
 import './style.css';
 
 
-function MangaPanelObjectives({ readingMode = false }) {
-    const { projectData: { objectives } } = useContext(MangaContext);
+function MangaPanelExpectedResults({ readingMode = false }) {
+    const { projectData: { expectedResults } } = useContext(MangaContext);
     const classList = [
-        'manga-panel-objectives',
         readingMode ? 'reading-mode' : ''
     ];
     const title = {
-        text: 'Project Objectives',
+        text: 'Expected Results',
         color: 'smoky-purple',
         type: 'h3'
     };
     const characterSpeech = {
-        text: objectives.technical[0],
+        text: expectedResults[0],
         character: PIXEL_ART_ANIME_KURISU,
         animateText: readingMode
     };
@@ -33,7 +32,7 @@ function MangaPanelObjectives({ readingMode = false }) {
     };
 
     return (
-        <section className={classList.join(' ')}>
+        <section className={`manga-panel-expected-results ${classList.join(' ')}`}>
             <Title {...title} />
             <section>
                 {
@@ -52,4 +51,4 @@ function MangaPanelObjectives({ readingMode = false }) {
     );
 }
 
-export { MangaPanelObjectives };
+export { MangaPanelExpectedResults };

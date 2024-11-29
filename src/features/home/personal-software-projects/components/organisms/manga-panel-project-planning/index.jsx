@@ -13,7 +13,7 @@ import './style.css';
 
 
 function MangaPanelProjectPlanning({ readingMode = false }) {
-    const { name, descriptionEnglish } = useContext(MangaContext);
+    const { projectData: { planning: { ideas } } } = useContext(MangaContext);
 
     const classList = [
         readingMode ? 'reading-mode' : ''
@@ -27,6 +27,7 @@ function MangaPanelProjectPlanning({ readingMode = false }) {
         character: PIXEL_ART_ITEM_WHITEBOARD
     };
     const characterSpeech = {
+        text: ideas[0],
         character: PIXEL_ART_ANIME_KANAO,
         animateText: readingMode
     };

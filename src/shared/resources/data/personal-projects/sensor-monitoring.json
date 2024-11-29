@@ -6,14 +6,16 @@
             "Real-time monitoring and control of temperature and humidity sensors.",
             "Real-time display of temperature and humidity information transmitted by sensors for precise and detailed control of the environment."
         ],
-        "objectives": {
-            "technical": [
-                "Implement relevant concepts within IoT, such as real-time communication or the best communication protocols for this purpose.",
-                "Use tools like Python to test or simulate embedded devices for cases like this where real devices are not available during this development phase.",
-                "Take advantage of libraries like React.js to build single-page web applications and assess the efficiency and development experience when managing state, compared to using only vanilla JavaScript.",
-                "Better understand how to choose software architecture and development methodologies like atomic design for user interfaces."
-            ]
-        },
+        "objectives": [
+            "Implement and acquire relevant IoT concepts, such as real-time communication, communication protocols, and data consistency.",
+            "Leverage tools to build dynamic web applications that enhance user experience and optimize development time.",
+            "Gain a better understanding of how to select software architectures and methodologies for planning and coding."
+        ],
+        "expectedResults": [
+            "The main idea of the project is to monitor parameters from various sensors and primarily control their state.",
+            "Perform actions in a wireless and real-time connection environment.",
+            "Actions should be instantly reflected on a control panel, ensuring immediate visualization of data and sensor status."
+        ],
         "technicalTools": [
             "javaScript",
             "html",
@@ -33,20 +35,59 @@
             "eventDelegation",
             "testing"
         ],
-        "techToolsChoiceJustification": [
-            "JavaScript and React.js were chosen for their ability to create interactive, real-time web applications efficiently.",
-            "Python was selected for simulating and testing embedded devices in the absence of physical hardware during development.",
-            "MQTT protocol and Mosquitto were used to facilitate lightweight, real-time messaging between devices and the application."
-        ],
-        "techKnowledgeChoiceJustification": [
-            "Knowledge of IoT is critical to managing real-time sensor data and ensuring communication between devices.",
-            "The observer pattern is essential for managing state changes in real-time systems like this.",
-            "Understanding of the BEM methodology is necessary for maintaining scalable and maintainable frontend architecture."
-        ],
-        "projectPlanning": [
-            "The project will be broken down into phases: first, sensor communication setup, followed by frontend development using React.js, and finally, testing the integration with real-world devices using Python.",
-            "Initial planning focuses on choosing the best communication protocol, followed by the design of the user interface using atomic design principles."
-        ],
+        "planning": {
+            "ideas": [
+                "Implemetar una comunicación e interaccion constante entre el sistemas de control y los sensores",
+                "Tener una comunicacion bidireccional que permita recibir información actualizada sobre el estado y asi poder tener representacion visual real en teimpo real.",
+                "Dado que se trata de un entorno en tiempo real con interacción entre múltiples sensores, es fundamental implementar una identificación precisa para cada dispositivo.",
+                "The project will be broken down into phases: first, sensor communication setup, followed by frontend development using React.js, and finally, testing the integration with real-world devices using Python.",
+                "Initial planning focuses on choosing the best communication protocol, followed by the design of the user interface using atomic design principles."
+            ],
+            "criteria": [
+                "Knowledge of IoT is critical to managing real-time sensor data and ensuring communication between devices.",
+                "The observer pattern is essential for managing state changes in real-time systems like this.",
+                "Understanding of the BEM methodology is necessary for maintaining scalable and maintainable frontend architecture.",
+                "for their ability to create interactive, real-time web applications efficiently.",
+                "for simulating and testing embedded devices in the absence of physical hardware during development."
+            ],
+            "resources": [
+                {
+                    "name": "Color Palette",
+                    "description": "A predefined set of colors for the UI design.",
+                    "files": [
+                        "palette.json",
+                        "colors.svg"
+                    ],
+                    "url": "https://example.com/color-palette"
+                }
+            ],
+            "diagrams": [
+                {
+                    "name": "Use Case Diagram",
+                    "description": "Diagram illustrating the main use cases of the system.",
+                    "documents": [
+                        "use-case.svg",
+                        "use-case-description.pdf"
+                    ]
+                }
+            ],
+            "architectures": [
+                {
+                    "name": "Microservices Architecture",
+                    "description": "The project will adopt a microservices architecture to ensure scalability and flexibility."
+                },
+                {
+                    "name": "Monolithic Architecture",
+                    "description": "A more traditional monolithic architecture will be used for some parts of the application to maintain simplicity and reduce overhead."
+                }
+            ],
+            "methodologies": [
+                {
+                    "name": "Agile",
+                    "description": "The project will follow an Agile methodology with Scrum for iterative development."
+                }
+            ]
+        },
         "demonstration": {
             "media": {
                 "images": [

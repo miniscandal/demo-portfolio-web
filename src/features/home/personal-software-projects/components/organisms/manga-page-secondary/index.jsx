@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 import { MangaPanelProjectDescription } from '@feat-home-personal-software-projects-organisms/manga-panel-project-description';
-import { MangaPanelObjectives } from '@feat-home-personal-software-projects-organisms/manga-panel-objectives';
+import { MangaPanelExpectedResults } from '@feat-home-personal-software-projects-organisms/manga-panel-expected-results';
 import { MangaPanelProjectPlanning } from '@feat-home-personal-software-projects-organisms/manga-panel-project-planning';
 import { MangaPanelProjectAppliedConcepts } from '@feat-home-personal-software-projects-organisms/manga-panel-project-applied-concepts';
 import { MangaPanelProjectPreview } from '@feat-home-personal-software-projects-organisms/manga-panel-project-preview';
@@ -27,7 +27,7 @@ function MangaPageSecondary({ state }) {
     const mangaPageSecondaryViews = {
         [MPP_DESCRIPTION_ID]: {
             mainPanelChildren: MangaPanelProjectDescription,
-            secondaryPanelChildren: MangaPanelObjectives
+            secondaryPanelChildren: MangaPanelExpectedResults
         },
         [MPP_PLANNING_ID]: {
             mainPanelChildren: MangaPanelProjectPlanning,

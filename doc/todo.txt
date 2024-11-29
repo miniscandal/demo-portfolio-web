@@ -3,18 +3,17 @@ cSpell: disable
 
 panel one: 
 
-description / por que el desarrollo de este proyecto
+description / expected results
 
 
 panel two
 
-conceptos (por que se eligio) / tecnologias (por que se eligio)
+planeacion del proyecto (ideas, criteria, recursos, diagrams) / code (structure, main files)
 
 
 panel three
 
-
-planeacion del proyecto (ideas , recursos, documetatoin) / code (structure, main files)
+conceptos (por que se eligio) / tecnologias (por que se eligio)
 
 
 panel four
