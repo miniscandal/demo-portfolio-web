@@ -9,6 +9,30 @@
         position: relative;
         height: 100%;
 
+        > .pixel-art__section {
+            width: fit-content;
+            position: relative;
+
+            > .pixel-art__div--group {
+
+                > div {
+                    position: absolute;
+                    top: 0.5rem;
+
+
+                    &:first-child {
+                        left: 0.5rem;
+                    }
+
+                    &:last-child {
+                        right: 0.8rem;
+                        display: flex;
+                        gap: var(--gap-simple-molecule);
+                    }
+                }
+            }
+        }
+
         > .character-speech__div {
             position: absolute;
             top: 10%;
