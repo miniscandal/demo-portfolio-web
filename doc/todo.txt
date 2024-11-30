@@ -9,7 +9,7 @@ description / expected results
 panel two
 
 planeacion del proyecto (ideas, criteria, recursos, diagrams) / code (structure, main files)
-
+librero de documentacion
 
 panel three
 
