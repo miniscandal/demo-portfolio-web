@@ -1,10 +1,11 @@
-import { useContext } from 'react';
+import { useState, useContext } from 'react';
 
 import { MangaContext } from '@feat-home-personal-software-projects-contexts/manga-context';
 
 import { Title } from '@shared-atoms/title';
 import { PixelArt } from '@shared-molecules/pixel-art';
 import { CharacterSpeech } from '@shared-molecules/character-speech';
+import { HitBoxButton } from '@shared-molecules/hit-box-button';
 
 import { PIXEL_ART_ANIME_KANAO } from '@shared-molecules/pixel-art/variants';
 import { PIXEL_ART_ITEM_STICKY_NOTE_SINGLE } from '@shared-molecules/pixel-art/variants';
@@ -15,6 +16,8 @@ import './style.css';
 
 
 function MangaPanelProjectPlanning({ readingMode = false }) {
+    const [ideaIndex, setIdeaIndex] = useState(0);
+
     const { projectData: { planning: { ideas } } } = useContext(MangaContext);
 
     const classList = [
@@ -39,9 +42,16 @@ function MangaPanelProjectPlanning({ readingMode = false }) {
         showBox: !true
     };
     const characterSpeech = {
-        text: ideas[0],
+        text: ideas[ideaIndex],
         character: PIXEL_ART_ANIME_KANAO,
         animateText: readingMode
+    };
+    const hitBoxButton = {
+        onClickCallback: (event) => {
+            const button = event.target.closest('button');
+
+            setIdeaIndex(Number(button.dataset.index));
+        }
     };
 
     return (
@@ -54,11 +64,18 @@ function MangaPanelProjectPlanning({ readingMode = false }) {
                     </div>
                     <div className='pixel-art__div--group'>
                         <div>
-                            <PixelArt {...pixelArtItemStickyNoteGroup} />
+                            <HitBoxButton {...hitBoxButton} dataSet={{ index: 1 }}>
+                                <PixelArt {...pixelArtItemStickyNoteGroup} />
+                            </HitBoxButton>
                         </div>
                         <div>
-                            <PixelArt {...pixelArtItemStickyNoteSingle} />
-                            <PixelArt {...pixelArtItemStickyNoteSingle} />
+                            <HitBoxButton {...hitBoxButton} dataSet={{ index: 2 }}>
+                                <PixelArt {...pixelArtItemStickyNoteSingle} />
+                            </HitBoxButton>
+
+                            <HitBoxButton {...hitBoxButton} dataSet={{ index: 0 }}>
+                                <PixelArt {...pixelArtItemStickyNoteSingle} />
+                            </HitBoxButton>
                         </div>
                     </div>
                 </section>
