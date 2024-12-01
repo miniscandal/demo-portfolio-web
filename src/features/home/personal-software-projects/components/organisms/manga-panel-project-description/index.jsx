@@ -45,7 +45,8 @@ function MangaPanelProjectDescription({ readingMode = false }) {
             } else {
                 setDescriptionIndex(0);
             }
-        }
+        },
+        readingMode
     };
 
     return (

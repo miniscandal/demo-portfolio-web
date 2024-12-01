@@ -16,7 +16,6 @@ function App() {
     return (
         <>
             <MangaContext.Provider value={provider}>
-                <MangaPanelProjectPlanning readingMode={true} />
                 <Manga />
                 {/* <RootHome /> */}
             </MangaContext.Provider>

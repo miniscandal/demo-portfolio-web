@@ -51,7 +51,8 @@ function MangaPanelProjectPlanning({ readingMode = false }) {
             const button = event.target.closest('button');
 
             setIdeaIndex(Number(button.dataset.index));
-        }
+        },
+        readingMode
     };
 
     return (
