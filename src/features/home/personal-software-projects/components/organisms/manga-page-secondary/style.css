@@ -3,6 +3,10 @@
         grid-template-columns: repeat(2, calc(18rem + var(--gap-molecule)));
         grid-template-rows: 36rem 1rem 1rem 10rem;
 
+        > li {
+            cursor: auto;
+        }
+
         > li:nth-child(1) {
             grid-column: 1 / 3;
             grid-row: 1 / 3;
