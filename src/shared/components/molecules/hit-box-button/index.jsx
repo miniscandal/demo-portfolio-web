@@ -1,11 +1,14 @@
 import './style.css';
 
 
-function HitBoxButton({ children, onClickCallback, dataSet = { index: null } }) {
+function HitBoxButton({ children, onClickCallback, readingMode = false, dataSet = { index: null } }) {
+    const classList = [
+        readingMode ? 'reading-mode' : ''
+    ];
     const { index } = dataSet;
 
     return (
-        <button className='hit-box-button' onClick={onClickCallback} data-index={index}>
+        <button className={`hit-box-button ${classList.join(' ')}`} onClick={onClickCallback} data-index={index}>
             {children}
         </button>
     );

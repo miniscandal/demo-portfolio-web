@@ -1,3 +1,33 @@
 .hit-box-button {
     all: unset;
+
+    &.reading-mode {
+        position: relative;
+        cursor: pointer;
+
+        &::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            border-radius: var(--border-radius-atom);
+            animation: shadow-animation 2s ease-out infinite alternate;
+        }
+    }
+}
+
+@keyframes shadow-animation {
+    0% {
+        box-shadow: 0 0 0 0 #ffffff00;
+    }
+
+    50% {
+        box-shadow: 0 0 1em 0.2em #9856be;
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 #ffffff00;
+    }
 }
