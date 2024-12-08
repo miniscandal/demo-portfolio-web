@@ -1,6 +1,6 @@
 {
-    "ebookDevelopment": {
-        "en": {
+    "en": {
+        "ebookDevelopment": {
             "name": "E-Book Development",
             "employmentDuration": {
                 "start": {
@@ -12,7 +12,7 @@
                     "month": 9
                 }
             },
-            "description": "I collaborated as a programmer and designer of electronic schematics in a project for the development of an educational digital book of electronic modules.\n\nThe objective of the project was to explain the operation of these components, together with their integration with the Arduino development board, to facilitate the learning of Embedded Systems to engineering students and electronic enthusiasts.",
+            "description": "I collaborated as a programmer and designer of electronic schematics in a project for the development of an educational digital book of electronic modules. The objective of the project was to explain the operation of these components, together with their integration with the Arduino development board, to facilitate the learning of Embedded Systems to engineering students and electronic enthusiasts.",
             "technologicalTools": [
                 "arduino",
                 "c"

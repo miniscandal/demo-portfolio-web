@@ -19,10 +19,10 @@ function WorkExperience({
             month: 9
         }
     },
-    descriptionEnglish,
-    technologiesTools,
-    knowledge,
-    interpersonalCompetencies
+    description,
+    technologicalTools,
+    technologicalKnowledge,
+    socialEmotionalCompetencies
 }) {
     const title = {
         text: name,
@@ -34,13 +34,13 @@ function WorkExperience({
         color: 'deep-ocean'
     };
     const paragraph = {
-        text: descriptionEnglish,
+        text: description,
         size: 'regular',
         color: 'charcoal-grey'
     };
     const technicalSkills = {
-        technologiesTools,
-        knowledge
+        technologicalTools,
+        technologicalKnowledge
     };
 
     return (
@@ -52,7 +52,7 @@ function WorkExperience({
             <section>
                 <Paragraph {...paragraph} />
                 <TechnicalSkills {...technicalSkills} />
-                <InterpersonalSkills interpersonalCompetencies={interpersonalCompetencies} />
+                <InterpersonalSkills interpersonalCompetencies={socialEmotionalCompetencies} />
             </section>
         </section>
     );

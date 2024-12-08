@@ -5,7 +5,6 @@ import { Manga } from '@feat-home-personal-software-projects-organisms/manga';
 import { RootHome } from '@feat-home-root/index';
 
 import './App.css';
-import { MangaPanelProjectPlanning } from '@feat-home-personal-software-projects-organisms/manga-panel-project-planning';
 
 
 function App() {
@@ -16,8 +15,7 @@ function App() {
     return (
         <>
             <MangaContext.Provider value={provider}>
-                <Manga />
-                {/* <RootHome /> */}
+                <RootHome />
             </MangaContext.Provider>
         </>
     );

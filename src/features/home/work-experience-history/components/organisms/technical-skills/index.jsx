@@ -8,10 +8,10 @@ import knowledgeData from '@shared-resources-data/glossaries/technological-knowl
 import './style.css';
 
 
-function TechnicalSkills({ technologiesTools, knowledge }) {
+function TechnicalSkills({ technologicalTools, technologicalKnowledge }) {
     const skillsImplementedWorkSkills = {
         textTitle: 'Some tech tools I used',
-        skills: technologiesTools,
+        skills: technologicalTools,
         skillsInformation: technologiesToolsData,
         Component: ToolInformation,
         columns: '2',
@@ -19,7 +19,7 @@ function TechnicalSkills({ technologiesTools, knowledge }) {
     };
     const skillsImplementedWorkKnowledge = {
         textTitle: 'Some knowledge that I applied',
-        skills: knowledge,
+        skills: technologicalKnowledge,
         skillsInformation: knowledgeData,
         Component: KnowledgeInformation,
         columns: '1',

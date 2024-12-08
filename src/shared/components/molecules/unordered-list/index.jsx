@@ -19,7 +19,7 @@ function UnorderedList({
             text: 'item two'
         },
     ],
-    handleClick = (liElement) => { console.log(liElement); }
+    handleClick = () => { }
 }) {
     const internalHandleClick = (event) => {
         const listItem = event.target.closest('li');

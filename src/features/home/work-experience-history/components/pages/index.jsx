@@ -2,7 +2,7 @@ import { Title } from '@shared-atoms/title';
 import { WorkExperience } from '@feat-home-work-experience-history-organisms/work-experience';
 
 import { alternatingWordOrder } from '@shared-utils/alternating-word-order';
-import { ebookDevelopment } from '@shared-resources-data/work-experience/experiences.json';
+import { en } from '@shared-resources-data/work-experience/experiences.json';
 
 import './style.css';
 
@@ -14,11 +14,12 @@ function WorkExperienceHistory() {
         type: 'h2',
         decorated: true
     };
-    const { en: { socialEmotionalCompetencies } } = ebookDevelopment;
+    const { ebookDevelopment } = en;
+    const { socialEmotionalCompetencies } = ebookDevelopment;
 
     const workExperience = {
         ...ebookDevelopment,
-        interpersonalCompetencies: alternatingWordOrder(socialEmotionalCompetencies)
+        socialEmotionalCompetencies: alternatingWordOrder(socialEmotionalCompetencies)
     };
 
 
