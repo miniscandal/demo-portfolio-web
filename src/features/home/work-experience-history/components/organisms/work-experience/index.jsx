@@ -1,31 +1,22 @@
+import { useContext } from 'react';
+
+import { WorkExperienceContext } from '@feat-home-work-experience-history-contexts/work-experience-context';
+
+import { InterpersonalSkills } from '@feat-home-work-experience-history-organisms/interpersonal-skills';
+import { TechnicalSkills } from '@feat-home-work-experience-history-organisms/technical-skills';
+
 import { Title } from '@shared-atoms/title';
 import { WorkDateRange } from '@shared-molecules/work-date-range';
 import { Paragraph } from '@shared-atoms/paragraph';
-import { InterpersonalSkills } from '@feat-home-work-experience-history-organisms/interpersonal-skills';
-import { TechnicalSkills } from '@feat-home-work-experience-history-organisms/technical-skills';
 
 import './style.css';
 
 
 // rename components
 
-function WorkExperience({
-    name,
-    employmentDuration = {
-        start: {
-            year: 1590,
-            month: 2
-        },
-        end: {
-            year: 3503,
-            month: 9
-        }
-    },
-    description,
-    technologicalTools,
-    technologicalKnowledge,
-    socialEmotionalCompetencies
-}) {
+function WorkExperience() {
+    const { workExperienceData: { name, description, employmentDuration } } = useContext(WorkExperienceContext);
+
     const title = {
         text: name,
         color: 'royal-blue',
@@ -40,10 +31,6 @@ function WorkExperience({
         size: 'regular',
         color: 'charcoal-grey'
     };
-    const technicalSkills = {
-        technologicalTools,
-        technologicalKnowledge
-    };
 
     return (
         <section className='work-experience'>
@@ -53,8 +40,8 @@ function WorkExperience({
             </header>
             <section>
                 <Paragraph {...paragraph} />
-                <TechnicalSkills {...technicalSkills} />
-                <InterpersonalSkills interpersonalCompetencies={socialEmotionalCompetencies} />
+                <TechnicalSkills />
+                <InterpersonalSkills />
             </section>
         </section>
     );

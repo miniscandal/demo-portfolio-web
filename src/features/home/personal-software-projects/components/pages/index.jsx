@@ -1,9 +1,9 @@
-import { Title } from '@shared-atoms/title';
+import { MangaContext } from '@feat-home-personal-software-projects-contexts/manga-context';
+import { ProviderProjectSensorMonitoring } from '@feat-home-personal-software-projects-contexts/manga-context';
+
 import { Manga } from '@feat-home-personal-software-projects-organisms/manga';
 
-import { MangaContext } from '@feat-home-personal-software-projects-contexts/manga-context';
-
-import { ProviderProjectSensorMonitoring } from '@feat-home-personal-software-projects-contexts/manga-context';
+import { Title } from '@shared-atoms/title';
 
 import './style.css';
 

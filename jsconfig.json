@@ -17,6 +17,9 @@
             "@feat-home-work-experience-history-pages/*": [
                 "features/home/work-experience-history/components/pages/*"
             ],
+            "@feat-home-work-experience-history-contexts/*": [
+                "features/home/work-experience-history/contexts/*"
+            ],
             "@feat-home-personal-software-projects-pages/*": [
                 "features/home/personal-software-projects/components/pages/*"
             ],

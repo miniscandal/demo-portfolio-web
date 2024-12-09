@@ -1,3 +1,7 @@
+import { useContext } from 'react';
+
+import { WorkExperienceContext } from '@feat-home-work-experience-history-contexts/work-experience-context';
+
 import { SkillsImplementedWork } from '@shared-organisms/skills-implemented-work';
 import { InterpersonalCompetencyInformation } from '@shared-molecules/interpersonal-competency-information';
 
@@ -6,10 +10,14 @@ import interpersonalCompetenciesData from '@shared-resources-data/glossaries/soc
 import './style.css';
 
 
-function InterpersonalSkills({ interpersonalCompetencies }) {
+function InterpersonalSkills() {
+    const { workExperienceData: { socialEmotionalCompetencies } } = useContext(WorkExperienceContext);
+
+    console.log(socialEmotionalCompetencies);
+
     const skillsImplementedWork = {
         textTitle: 'Some concepts that I applied',
-        skills: interpersonalCompetencies,
+        skills: socialEmotionalCompetencies,
         skillsInformation: interpersonalCompetenciesData,
         Component: InterpersonalCompetencyInformation,
         columns: 0,

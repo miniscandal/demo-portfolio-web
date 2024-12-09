@@ -1,26 +1,23 @@
-import { Title } from '@shared-atoms/title';
+import { WorkExperienceContext } from '@feat-home-work-experience-history-contexts/work-experience-context';
+import { ProviderExperienceEbookDevelopment } from '@feat-home-work-experience-history-contexts/work-experience-context';
+
 import { WorkExperience } from '@feat-home-work-experience-history-organisms/work-experience';
 
-import { alternatingWordOrder } from '@shared-utils/alternating-word-order';
+import { Title } from '@shared-atoms/title';
 
-import { en } from '@shared-resources-data/work-experience/experiences.json';
 
 import './style.css';
 
 
 function WorkExperienceHistory() {
+    const provider = {
+        workExperienceData: ProviderExperienceEbookDevelopment
+    };
     const title = {
         text: 'WORK EXPERIENCE',
         color: 'charcoal-grey',
         type: 'h2',
         decorated: true
-    };
-    const { ebookDevelopment } = en;
-    const { socialEmotionalCompetencies } = ebookDevelopment;
-
-    const workExperience = {
-        ...ebookDevelopment,
-        socialEmotionalCompetencies: alternatingWordOrder(socialEmotionalCompetencies)
     };
 
 
@@ -28,7 +25,9 @@ function WorkExperienceHistory() {
         <article className='work-experience-history'>
             <Title {...title} />
             <section>
-                <WorkExperience  {...workExperience} />
+                <WorkExperienceContext.Provider value={provider}>
+                    <WorkExperience />
+                </WorkExperienceContext.Provider>
             </section>
         </article>
     );
