@@ -6,7 +6,7 @@ import { Terminal } from '@shared-atoms/icon-font-svg/variants';
 import { EditNote } from '@shared-atoms/icon-font-svg/variants';
 import { Database } from '@shared-atoms/icon-font-svg/variants';
 
-import { competencies } from '@shared-resources-data/professional-information/technical-competencies-expertise.json';
+import { en as competencies } from '@shared-resources-data/professional-information/technical-competencies-expertise.json';
 
 import './style.css';
 
@@ -20,10 +20,10 @@ function ProfessionalProfile() {
     };
 
     const {
-        en: { computerSystemEngineering,
-            internetOfThings, softwareDeveloper,
-            functionalAnalyst,
-            databaseAdministration }
+        computerSystemEngineering,
+        internetOfThings, softwareDeveloper,
+        functionalAnalyst,
+        databaseAdministration
     } = competencies;
 
     const competenciesData = [

@@ -7,6 +7,8 @@ import { TechnicalSkills } from '@feat-home-work-experience-history-organisms/te
 import './style.css';
 
 
+// rename components
+
 function WorkExperience({
     name,
     employmentDuration = {

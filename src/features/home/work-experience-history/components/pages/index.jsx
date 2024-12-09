@@ -2,6 +2,7 @@ import { Title } from '@shared-atoms/title';
 import { WorkExperience } from '@feat-home-work-experience-history-organisms/work-experience';
 
 import { alternatingWordOrder } from '@shared-utils/alternating-word-order';
+
 import { en } from '@shared-resources-data/work-experience/experiences.json';
 
 import './style.css';

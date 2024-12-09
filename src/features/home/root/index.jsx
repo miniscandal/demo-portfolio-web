@@ -22,7 +22,7 @@ function RootHome() {
                         <WorkExperienceHistory />
                     </scroll-page>
                     <scroll-page id={TECHNICAL_COMPETENCIES_AND_EXPERTISE}>
-                        <ProfessionalProfile />
+                        {/* <ProfessionalProfile /> */}
                     </scroll-page>
                     <scroll-page id={PERSONAL_PROJECTS}>
                         <PersonalSoftwareProjects />
