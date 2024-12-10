@@ -6,6 +6,7 @@ import './style.css';
 
 
 function ButtonLinkDownloader({
+    name = 'file.txt',
     description = 'File',
     href = '#',
     file = new Blob([], { type: 'text/plain' })
@@ -16,8 +17,8 @@ function ButtonLinkDownloader({
     }
     const handleClick = () => {
         const a = document.createElement('a');
-        a.href = file;
-        a.download = 'cv-oscar-gonzález.pdf';
+        a.href = href === '#' ? href : file;
+        a.download = name;
         a.click();
     };
 
