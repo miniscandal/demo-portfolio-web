@@ -44,8 +44,8 @@
             "@feat-home-primary-header-organisms/*": [
                 "features/home/primary-header/components/organisms/*"
             ],
-            "@feat-home-primary-header-pages/*": [
-                "features/home/primary-header/components/pages/*"
+            "@feat-home-primary-header-templates/*": [
+                "features/home/primary-header/components/templates/*"
             ],
             "@feat-home-primary-footer-molecules/*": [
                 "features/home/primary-footer/components/molecules/*"

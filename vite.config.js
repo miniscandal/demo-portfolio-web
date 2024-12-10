@@ -24,7 +24,7 @@ export default defineConfig({
 
             '@feat-home-primary-header-molecules': '/src/features/home/primary-header/components/molecules/',
             '@feat-home-primary-header-organisms': '/src/features/home/primary-header/components/organisms/',
-            '@feat-home-primary-header-pages': '/src/features/home/primary-header/components/pages/',
+            '@feat-home-primary-header-templates': '/src/features/home/primary-header/components/templates/',
 
             '@feat-home-work-experience-history-organisms': '/src/features/home/work-experience-history/components/organisms/',
             '@feat-home-work-experience-history-pages': '/src/features/home/work-experience-history/components/pages/',

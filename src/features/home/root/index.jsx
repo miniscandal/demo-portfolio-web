@@ -1,4 +1,4 @@
-import { PrimaryHeader } from '@feat-home-primary-header-pages/index';
+import { PrimaryHeader } from '@feat-home-primary-header-templates/primary-header';
 import { WorkExperienceHistory } from '@feat-home-work-experience-history-pages/index';
 import { PrimaryFooter } from '@feat-home-primary-footer-pages/index';
 import { ProfessionalProfile } from '@feat-home-professional-profile-pages/index';
