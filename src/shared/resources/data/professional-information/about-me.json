@@ -1,12 +1,8 @@
 {
     "en": {
-        "aboutMe": {
-            "description": "Software developer dedicated to high-quality execution and solution optimization. Focused on developing both technical and interpersonal skills that enhance my effectiveness in computer systems engineering and enrich key areas of my personal and professional life."
-        }
+        "description": "Software developer dedicated to high-quality execution and solution optimization. Focused on developing both technical and interpersonal skills that enhance my effectiveness in computer systems engineering and enrich key areas of my personal and professional life."
     },
     "es": {
-        "aboutMe": {
-            "description": "Desarrollador de software dedicado a la ejecución de alta calidad y la optimización de soluciones. Enfocado en desarrollar tanto habilidades técnicas como interpersonales que mejoren mi efectividad en la ingeniería de sistemas informáticos y enriquezcan áreas clave de mi vida personal y profesional."
-        }
+        "description": "Desarrollador de software dedicado a la ejecución de alta calidad y la optimización de soluciones. Enfocado en desarrollar tanto habilidades técnicas como interpersonales que mejoren mi efectividad en la ingeniería de sistemas informáticos y enriquezcan áreas clave de mi vida personal y profesional."
     }
 }

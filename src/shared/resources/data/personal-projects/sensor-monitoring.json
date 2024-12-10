@@ -118,16 +118,5 @@
             "documentation": "https://example.com/deploy-docs"
         }
     },
-    "es": {
-        "name": "Sensor Monitoring",
-        "descriptions": "Real-time display of temperature and humidity information transmitted by sensors for precise and detailed control of the environment.",
-        "objectives": {
-            "technical": [
-                "Implementar conceptos relevantes dentro del IoT, como la comunicación en tiempo real o protocolos de comunicación óptimos para este propósito.",
-                "Utilizar herramientas como Python para realizar pruebas o emular dispositivos embebidos para casos como este donde no se dispone de dispositivos reales para esta fase de desarrollo.",
-                "Aprovechar bibliotecas como React.js para desarrollar aplicaciones web de una sola página y evaluar la eficiencia y la experiencia de desarrollo en el manejo del estado, en comparación con el uso exclusivo de vanilla JavaScript.",
-                "Comprender mejor cómo elegir la arquitectura de software y las metodologías de desarrollo como atomic design para las interfaces de usuario."
-            ]
-        }
-    }
+    "es": {}
 }

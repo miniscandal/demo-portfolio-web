@@ -12,8 +12,6 @@ import { Paragraph } from '@shared-atoms/paragraph';
 import './style.css';
 
 
-// rename components
-
 function WorkExperience() {
     const { workExperienceData: { name, description, employmentDuration } } = useContext(WorkExperienceContext);
 

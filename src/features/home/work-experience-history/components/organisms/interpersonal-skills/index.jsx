@@ -13,8 +13,6 @@ import './style.css';
 function InterpersonalSkills() {
     const { workExperienceData: { socialEmotionalCompetencies } } = useContext(WorkExperienceContext);
 
-    console.log(socialEmotionalCompetencies);
-
     const skillsImplementedWork = {
         textTitle: 'Some concepts that I applied',
         skills: socialEmotionalCompetencies,
