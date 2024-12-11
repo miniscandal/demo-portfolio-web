@@ -1,3 +1,7 @@
+import { useContext } from 'react';
+
+import { ProfessionalContactContext } from '@shared-contexts/professional-contact';
+
 import { Title } from '@shared-atoms/title';
 import { ButtonLinkDownloader } from '@shared-molecules/button-link-downloader';
 import { ProfessionalContactMethods } from '@shared-organisms/professional-contact-methods';
@@ -5,12 +9,9 @@ import { ProfessionalContactMethods } from '@shared-organisms/professional-conta
 import './style.css';
 
 
-function ProfessionalContact({
-    name = 'Name',
-    discipline = 'Discipline - Job Title',
-    fileHref = '',
-    fileName = 'file',
-}) {
+function ProfessionalContact() {
+    const { name, discipline, fileName, fileHref } = useContext(ProfessionalContactContext);
+
     const titleH1 = {
         text: name,
         color: 'light-silver',

@@ -13,13 +13,14 @@ import './style.css';
  * 
  */
 
-function CopyEmailClipboard() {
+function CopyEmailClipboard({
+    email = 'email@email.com'
+}) {
     const [copied, setCopied] = useState(false);
     const classList = [
         copied ? 'copied-clipboard' : ''
     ];
     const handleClick = () => {
-        const email = 'oscar01dev@gmail.com';
         navigator.clipboard.writeText(email);
         setCopied(true);
         setTimeout(() => {

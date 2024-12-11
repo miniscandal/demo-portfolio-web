@@ -1,48 +1,41 @@
-import { RootHome } from '@feat-home-root/index';
+import { PrimaryHeader } from '@feat-primary-header-templates/primary-header';
 
-import { PrimaryHeader } from '@feat-home-primary-header-templates/primary-header';
+import { ProfessionalContactProvider } from '@shared-contexts/professional-contact';
 
-
-import srcPhoto from '@assets-images/photo-me/main-3.jpg';
-
-import { PIXEL_ART_ANIME_UMI } from '@shared-molecules/pixel-art/variants';
-import cvFile from '@assets-documents/cv-oscar-gonzalez.pdf';
-
+import { message } from '@shared-resources-contact/mailto-template.json';
+import { socialNetworks } from '@shared-resources-contact/social-networks.json';
 
 import './App.css';
 
 
 function App() {
-    // const image = {
-    //     src: srcPhoto,
-    //     size: 'default',
-    //     objectFit: 'cover'
+    // const { linkedin, github } = socialNetworks;
+    // const hyperlinkIconLinkedin = {
+    //     href: linkedin.url,
+    //     iconSrc: linkedinIcon
     // };
-    // const characterSpeech = {
-    //     text: 'Hello World!',
-    //     character: PIXEL_ART_ANIME_UMI
+    // const hyperlinkIconGithub = {
+    //     href: github.url,
+    //     iconSrc: githubIcon
+    // };
+    // const hyperlinkIconEmail = {
+    //     href: message.url,
+    //     iconSrc: emailIcon
     // };
 
+    // 'oscar01dev@gmail.com'
 
-    // const titleH1 = {
-    //     text: 'Oscar González',
-    //     color: 'light-silver',
-    //     type: 'h1'
-    // };
-    // const titleH2 = {
-    //     text: 'Computer Systems Engineer',
-    //     color: 'light-silver',
-    //     type: 'h2'
-    // };
-    // const buttonLinkDownloader = {
-    //     description: 'Resume',
-    //     href: cvFile
-    // };
 
 
     return (
         <>
-            <PrimaryHeader />
+            <scroll-container>
+                <ProfessionalContactProvider>
+                    <PrimaryHeader />
+                </ProfessionalContactProvider>
+                <main>
+                </main>
+            </scroll-container>
             {/* <RootHome /> */}
         </>
     );

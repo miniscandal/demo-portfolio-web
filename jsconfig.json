@@ -11,59 +11,56 @@
             "@assets-images/*": [
                 "assets/images/*"
             ],
-            "@feat-home-work-experience-history-organisms/*": [
-                "features/home/work-experience-history/components/organisms/*"
+            "@feat-work-experience-history-organisms/*": [
+                "features/work-experience-history/components/organisms/*"
             ],
-            "@feat-home-work-experience-history-pages/*": [
-                "features/home/work-experience-history/components/pages/*"
+            "@feat-work-experience-history-pages/*": [
+                "features/work-experience-history/components/pages/*"
             ],
-            "@feat-home-work-experience-history-contexts/*": [
-                "features/home/work-experience-history/contexts/*"
+            "@feat-work-experience-history-contexts/*": [
+                "features/work-experience-history/contexts/*"
             ],
-            "@feat-home-personal-software-projects-pages/*": [
-                "features/home/personal-software-projects/components/pages/*"
+            "@feat-personal-software-projects-pages/*": [
+                "features/personal-software-projects/components/pages/*"
             ],
-            "@feat-home-personal-software-projects-templates/*": [
-                "features/home/personal-software-projects/components/templates/*"
+            "@feat-personal-software-projects-templates/*": [
+                "features/personal-software-projects/components/templates/*"
             ],
-            "@feat-home-personal-software-projects-organisms/*": [
-                "features/home/personal-software-projects/components/organisms/*"
+            "@feat-personal-software-projects-organisms/*": [
+                "features/personal-software-projects/components/organisms/*"
             ],
-            "@feat-home-personal-software-projects-molecules/*": [
-                "features/home/personal-software-projects/components/molecules/*"
+            "@feat-personal-software-projects-molecules/*": [
+                "features/personal-software-projects/components/molecules/*"
             ],
-            "@feat-home-personal-software-projects-constants/*": [
-                "features/home/personal-software-projects/constants/*"
+            "@feat-personal-software-projects-constants/*": [
+                "features/personal-software-projects/constants/*"
             ],
-            "@feat-home-personal-software-projects-contexts/*": [
-                "features/home/personal-software-projects/contexts/*"
+            "@feat-personal-software-projects-contexts/*": [
+                "features/personal-software-projects/contexts/*"
             ],
-            "@feat-home-primary-header-molecules/*": [
-                "features/home/primary-header/components/molecules/*"
+            "@feat-primary-header-molecules/*": [
+                "features/primary-header/components/molecules/*"
             ],
-            "@feat-home-primary-header-organisms/*": [
-                "features/home/primary-header/components/organisms/*"
+            "@feat-primary-header-organisms/*": [
+                "features/primary-header/components/organisms/*"
             ],
-            "@feat-home-primary-header-templates/*": [
-                "features/home/primary-header/components/templates/*"
+            "@feat-primary-header-templates/*": [
+                "features/primary-header/components/templates/*"
             ],
-            "@feat-home-primary-footer-molecules/*": [
-                "features/home/primary-footer/components/molecules/*"
+            "@feat-primary-footer-molecules/*": [
+                "features/primary-footer/components/molecules/*"
             ],
-            "@feat-home-primary-footer-organisms/*": [
-                "features/home/primary-footer/components/organisms/*"
+            "@feat-primary-footer-organisms/*": [
+                "features/primary-footer/components/organisms/*"
             ],
-            "@feat-home-primary-footer-pages/*": [
-                "features/home/primary-footer/components/pages/*"
+            "@feat-primary-footer-pages/*": [
+                "features/primary-footer/components/pages/*"
             ],
-            "@feat-home-professional-profile-organisms/*": [
-                "features/home/professional-profile/components/organisms/*"
+            "@feat-professional-profile-organisms/*": [
+                "features/professional-profile/components/organisms/*"
             ],
-            "@feat-home-professional-profile-pages/*": [
-                "features/home/professional-profile/components/pages/*"
-            ],
-            "@feat-home-root/*": [
-                "features/home/root/*"
+            "@feat-professional-profile-pages/*": [
+                "features/professional-profile/components/pages/*"
             ],
             "@shared-atoms/*": [
                 "shared/components/atoms/*"
@@ -76,6 +73,9 @@
             ],
             "@shared-constants/*": [
                 "shared/constants/*"
+            ],
+            "@shared-contexts/*": [
+                "shared/contexts/*"
             ],
             "@shared-mocks/*": [
                 "shared/mocks/*"
