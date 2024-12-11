@@ -1,7 +1,7 @@
-import { ProfessionalContactProvider } from '@shared-contexts/professional-contact';
-
 import { AboutMe } from '@feat-primary-footer-molecules/about-me';
 import { SpecializationTechnologicalSkills } from '@feat-primary-footer-organisms/specialization-technological-skills';
+
+import { ProfessionalContactProvider } from '@shared-contexts/professional-contact';
 
 import { Paragraph } from '@shared-atoms/paragraph';
 import { ProfessionalContact } from '@shared-organisms/professional-contact';
