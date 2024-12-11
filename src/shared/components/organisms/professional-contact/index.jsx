@@ -2,38 +2,39 @@ import { useContext } from 'react';
 
 import { ProfessionalContactContext } from '@shared-contexts/professional-contact';
 
-import { Title } from '@shared-atoms/title';
-import { ButtonLinkDownloader } from '@shared-molecules/button-link-downloader';
-import { ProfessionalContactMethods } from '@shared-organisms/professional-contact-methods';
+import { SocialNetworks } from '@shared-molecules/social-networks';
+import { CopyEmailClipboard } from '@shared-molecules/copy-email-clipboard';
+import { HyperlinkIcon } from '@shared-molecules/hyperlink-icon';
+
+import emailIcon from '@assets-images/svg/email.svg';
+
 
 import './style.css';
 
 
-function ProfessionalContact() {
-    const { name, discipline, fileName, fileHref } = useContext(ProfessionalContactContext);
+function ProfessionalContact({
+    reverse = false
+}) {
+    const { email, emailFormat, github, linkedin } = useContext(ProfessionalContactContext);
 
-    const titleH1 = {
-        text: name,
-        color: 'light-silver',
-        type: 'h1'
+    const socialNetworks = {
+        githubUrl: github.url,
+        linkedinUrl: linkedin.url
     };
-    const titleH2 = {
-        text: discipline,
-        color: 'light-silver',
-        type: 'h2'
+    const hyperlinkIcon = {
+        href: emailFormat,
+        iconSrc: emailIcon
     };
-    const buttonLinkDownloader = {
-        name: `${fileName}.pdf`,
-        description: 'Resume',
-        href: fileHref,
+    const copyEmailClipBoard = {
+        email
     };
+
 
     return (
-        <section className="professional-contact">
-            <Title {...titleH1} />
-            <Title {...titleH2} />
-            <ButtonLinkDownloader {...buttonLinkDownloader} />
-            <ProfessionalContactMethods />
+        <section className={`professional-contact ${reverse ? 'reverse' : ''}`}>
+            <SocialNetworks {...socialNetworks} />
+            <HyperlinkIcon {...hyperlinkIcon} />
+            <CopyEmailClipboard {...copyEmailClipBoard} />
         </section>
     );
 }

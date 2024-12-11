@@ -1,7 +1,7 @@
 import { ChessboardNav } from '@feat-primary-header-organisms/chessboard-nav';
 import { Image } from '@shared-atoms/image';
 import { CharacterSpeech } from '@shared-molecules/character-speech';
-import { ProfessionalContact } from '@shared-organisms/professional-contact';
+import { ProfessionalContact } from '@shared-organisms/professional-information';
 
 import srcPhoto from '@assets-images/photo-me/main-3.jpg';
 

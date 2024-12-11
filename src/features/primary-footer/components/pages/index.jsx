@@ -1,8 +1,10 @@
+import { ProfessionalContactProvider } from '@shared-contexts/professional-contact';
+
 import { AboutMe } from '@feat-primary-footer-molecules/about-me';
 import { SpecializationTechnologicalSkills } from '@feat-primary-footer-organisms/specialization-technological-skills';
 
 import { Paragraph } from '@shared-atoms/paragraph';
-import { ProfessionalContactMethods } from '@shared-organisms/professional-contact-methods';
+import { ProfessionalContact } from '@shared-organisms/professional-contact';
 
 import { ABOUT_ME } from '@shared-constants/anchor-id';
 
@@ -34,7 +36,9 @@ function PrimaryFooter() {
                         <Paragraph {...paragraphInspiredQuote} />
                         <Paragraph {...paragraphAuthor} />
                     </div>
-                    <ProfessionalContactMethods {...professionalContactMethods} />
+                    <ProfessionalContactProvider>
+                        <ProfessionalContact {...professionalContactMethods} />
+                    </ProfessionalContactProvider>
                 </section>
             </div>
         </footer>

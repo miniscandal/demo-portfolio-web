@@ -1,13 +1,18 @@
 .professional-contact {
-    > .title {
-        &.h1 {
-            padding-bottom: var(--padding-molecule);
-        }
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--padding-molecule);
+
+    > .copy-email-clipboard {
+        align-self: flex-end;
     }
 
-    > .button-link-downloader {
-        margin-top: var(--padding-simple-organism);
-        margin-bottom: var(--padding-simple-organism);
-        width: fit-content;
+    &.reverse {
+        flex-direction: row-reverse;
+
+
+        > .social-networks {
+            margin-top: auto;
+        }
     }
 }

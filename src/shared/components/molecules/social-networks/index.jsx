@@ -7,8 +7,8 @@ import './style.css';
 
 
 function SocialNetworks({
-    linkedinUrl = '#',
-    githubUrl = '#'
+    githubUrl = '#',
+    linkedinUrl = '#'
 }) {
     const hyperlinkIconLinkedin = {
         href: linkedinUrl,
