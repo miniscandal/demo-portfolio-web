@@ -1,5 +1,6 @@
 import { PrimaryHeader } from '@feat-primary-header-templates/primary-header';
 import { PrimaryFooter } from '@feat-primary-footer-pages/index';
+import { WorkExperienceHistory } from '@feat-work-experience-history-templates/work-experience-history/index';
 
 import './App.css';
 
@@ -11,6 +12,11 @@ function App() {
             <scroll-container>
                 <PrimaryHeader />
                 <main>
+                    <scroll-page>
+                        <WorkExperienceHistory />
+                    </scroll-page>
+                    <scroll-page></scroll-page>
+                    <scroll-page></scroll-page>
                 </main>
                 <PrimaryFooter />
             </scroll-container>

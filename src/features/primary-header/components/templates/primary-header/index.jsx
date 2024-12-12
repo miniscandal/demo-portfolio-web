@@ -14,10 +14,11 @@ import './style.css';
 
 import srcPhoto from '@assets-images/photo-me/main-3.jpg';
 
+
 function PrimaryHeader() {
     const image = {
         src: srcPhoto,
-        size: 'default',
+        size: 'adaptive',
         objectFit: 'cover'
     };
     const characterSpeech = {
@@ -27,8 +28,10 @@ function PrimaryHeader() {
 
     return (
         <header className='primary-header'>
-            <Image {...image} />
-            <div className='primary-header-navigation__div'>
+            <div className='primary-header__div--image'>
+                <Image {...image} />
+            </div>
+            <div className='primary-header__div--professional-data'>
                 <CharacterSpeech {...characterSpeech} />
                 <ProfessionalInformationProvider>
                     <ProfessionalInformation />
@@ -37,7 +40,9 @@ function PrimaryHeader() {
                     <ProfessionalContact />
                 </ProfessionalContactProvider>
             </div>
-            <ChessboardNav />
+            <div className='primary-header__div--nav'>
+                <ChessboardNav />
+            </div>
         </header>
     );
 }

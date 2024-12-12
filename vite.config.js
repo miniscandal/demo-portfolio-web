@@ -26,7 +26,7 @@ export default defineConfig({
             '@feat-primary-header-templates': '/src/features/primary-header/components/templates/',
 
             '@feat-work-experience-history-organisms': '/src/features/work-experience-history/components/organisms/',
-            '@feat-work-experience-history-pages': '/src/features/work-experience-history/components/pages/',
+            '@feat-work-experience-history-templates': '/src/features/work-experience-history/components/templates/',
             '@feat-work-experience-history-contexts': '/src/features/work-experience-history/contexts/',
 
             '@feat-primary-footer-molecules': '/src/features/primary-footer/components/molecules/',

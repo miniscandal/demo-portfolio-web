@@ -1,9 +1,6 @@
 import { useContext } from 'react';
 
-import { WorkExperienceContext } from '@feat-work-experience-history-contexts/work-experience-context';
-
-import { InterpersonalSkills } from '@feat-work-experience-history-organisms/interpersonal-skills';
-import { TechnicalSkills } from '@feat-work-experience-history-organisms/technical-skills';
+import { WorkExperienceContext } from '@feat-work-experience-history-contexts/work-experience';
 
 import { Title } from '@shared-atoms/title';
 import { WorkDateRange } from '@shared-molecules/work-date-range';
@@ -12,8 +9,8 @@ import { Paragraph } from '@shared-atoms/paragraph';
 import './style.css';
 
 
-function WorkExperience() {
-    const { workExperienceData: { name, description, employmentDuration } } = useContext(WorkExperienceContext);
+function WorkExperienceDetails() {
+    const { name, employmentDuration, description } = useContext(WorkExperienceContext);
 
     const title = {
         text: name,
@@ -31,18 +28,16 @@ function WorkExperience() {
     };
 
     return (
-        <section className='work-experience'>
+        <section className='work-experience-details'>
             <header>
                 <Title {...title} />
                 <WorkDateRange {...workDateRange} />
             </header>
             <section>
-                <Paragraph {...paragraph} />
-                <TechnicalSkills />
-                <InterpersonalSkills />
+                <Paragraph  {...paragraph} />
             </section>
         </section>
     );
 }
 
-export { WorkExperience };
+export { WorkExperienceDetails };

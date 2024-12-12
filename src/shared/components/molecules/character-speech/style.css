@@ -1,1 +1,5 @@
-.character-speech {}
+.character-speech {
+    > div {
+        padding-bottom: var(--padding-molecule);
+    }
+}

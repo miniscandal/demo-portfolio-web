@@ -8,7 +8,6 @@ import { HyperlinkIcon } from '@shared-molecules/hyperlink-icon';
 
 import emailIcon from '@assets-images/svg/email.svg';
 
-
 import './style.css';
 
 
@@ -32,9 +31,13 @@ function ProfessionalContact({
 
     return (
         <section className={`professional-contact ${reverse ? 'reverse' : ''}`}>
-            <SocialNetworks {...socialNetworks} />
-            <HyperlinkIcon {...hyperlinkIcon} />
-            <CopyEmailClipboard {...copyEmailClipBoard} />
+            <div className='professional-contact__div--social-network'>
+                <SocialNetworks {...socialNetworks} />
+                <HyperlinkIcon {...hyperlinkIcon} />
+            </div>
+            <div className='professional-contact__div--email'>
+                <CopyEmailClipboard {...copyEmailClipBoard} />
+            </div>
         </section>
     );
 }

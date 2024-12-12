@@ -14,8 +14,8 @@
             "@feat-work-experience-history-organisms/*": [
                 "features/work-experience-history/components/organisms/*"
             ],
-            "@feat-work-experience-history-pages/*": [
-                "features/work-experience-history/components/pages/*"
+            "@feat-work-experience-history-templates/*": [
+                "features/work-experience-history/components/templates/*"
             ],
             "@feat-work-experience-history-contexts/*": [
                 "features/work-experience-history/contexts/*"

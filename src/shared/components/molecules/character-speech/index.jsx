@@ -23,7 +23,9 @@ function CharacterSpeech({
 
     return (
         <section className='character-speech'>
-            <MangaDialog {...mangaDialog} />
+            <div>
+                <MangaDialog {...mangaDialog} />
+            </div>
             <PixelArt {...pixelArt} />
         </section>
     );

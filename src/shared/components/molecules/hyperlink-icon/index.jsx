@@ -3,7 +3,7 @@ import { Icon } from '@shared-atoms/icon';
 import './style.css';
 
 
-function HyperlinkIcon({ href, iconSrc, size = 'regular' }) {
+function HyperlinkIcon({ href, iconSrc }) {
     const icon = {
         src: iconSrc,
         color: 'light',

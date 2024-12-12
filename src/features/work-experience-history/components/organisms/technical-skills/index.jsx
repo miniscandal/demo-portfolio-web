@@ -1,19 +1,19 @@
 import { useContext } from 'react';
 
-import { WorkExperienceContext } from '@feat-work-experience-history-contexts/work-experience-context';
+import { WorkExperienceContext } from '@feat-work-experience-history-contexts/work-experience';
 
 import { SkillsImplementedWork } from '@shared-organisms/skills-implemented-work';
 import { ToolInformation } from '@shared-molecules/tool-information';
 import { KnowledgeInformation } from '@shared-molecules/knowledge-information';
 
-import technologiesToolsData from '@shared-resources-data/glossaries/technological-tools.json';
-import knowledgeData from '@shared-resources-data/glossaries/technological-knowledge.json';
+import { en as technologiesToolsData } from '@shared-resources-data/glossaries/technological-tools.json';
+import { en as knowledgeData } from '@shared-resources-data/glossaries/technological-knowledge.json';
 
 import './style.css';
 
 
 function TechnicalSkills() {
-    const { workExperienceData: { technologicalTools, technologicalKnowledge } } = useContext(WorkExperienceContext);
+    const { technologicalTools, technologicalKnowledge } = useContext(WorkExperienceContext);
 
     const skillsImplementedWorkSkills = {
         textTitle: 'Some tech tools I used',

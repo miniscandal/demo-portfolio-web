@@ -2,7 +2,7 @@
     position: relative;
     overflow: hidden;
 
-    > .image {
+    > .primary-header__div--image {
         height: 90vh;
         position: relative;
 
@@ -17,22 +17,22 @@
         }
 
         @media (width < 95rem) {
-            height: 40rem;
+            height: 50rem;
         }
 
         @media (width < 45rem) {
-            height: 15rem;
+            height: 20rem;
         }
     }
 
-    > .primary-header-navigation__div {
+    > .primary-header__div--professional-data {
         position: absolute;
         bottom: 0;
         left: 0;
         padding: var(--padding-simple-organism);
     }
 
-    > .chessboard-nav {
+    > .primary-header__div--nav {
         position: absolute;
         top: 0;
         right: 0;
@@ -42,18 +42,27 @@
         .paragraph {
             transform: rotate(-45deg);
         }
+
+        @media (width < 95rem) {
+            right: -5%;
+        }
+
+
+        @media (width < 65rem) {
+            right: -10%;
+        }
     }
 
     @media (width < 45rem) {
         max-height: none;
 
-        > .chessboard-nav {
-            right: -2rem;
-        }
-
-        > .primary-header-navigation__div {
+        > .primary-header__div--professional-data {
             position: static;
             background-color: var(--color-charcoal-grey);
+        }
+
+        > .primary-header__div--nav {
+            right: -5%;
         }
     }
 }
