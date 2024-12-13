@@ -1,9 +1,5 @@
 import { WorkExperienceProvider } from '@feat-work-experience-history-contexts/work-experience';
-
-import { WorkExperienceDetails } from '@feat-work-experience-history-organisms/work-experience-details';
-
-import { InterpersonalSkills } from '@feat-work-experience-history-organisms/interpersonal-skills';
-import { TechnicalSkills } from '@feat-work-experience-history-organisms/technical-skills';
+import { EmploymentSummary } from '@feat-work-experience-history-organisms/employment-summary';
 
 import { Title } from '@shared-atoms/title';
 
@@ -24,9 +20,7 @@ function WorkExperienceHistory() {
             <Title {...title} />
             <section>
                 <WorkExperienceProvider>
-                    <WorkExperienceDetails />
-                    <TechnicalSkills />
-                    <InterpersonalSkills />
+                    <EmploymentSummary />
                 </WorkExperienceProvider>
             </section>
         </article>

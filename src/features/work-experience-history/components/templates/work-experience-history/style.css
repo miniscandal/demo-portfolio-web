@@ -4,16 +4,14 @@
     }
 
     > section {
-        > .work-experience {
-            max-width: 45rem;
-            margin: auto;
-            border-left: dotted var(--color-warm-silver) 0.1rem;
-            border-right: dotted var(--color-warm-silver) 0.1rem;
-            padding: 0 var(--padding-organism);
+        max-width: 40rem;
+        margin: auto;
+        border-left: dotted var(--color-warm-silver) 0.1rem;
+        border-right: dotted var(--color-warm-silver) 0.1rem;
+        padding: 0 var(--padding-organism);
 
-            @media (width < 30rem) {
-                padding: 0 var(--padding-molecule);
-            }
+        @media (width < 30rem) {
+            padding: 0 var(--padding-molecule);
         }
     }
 }

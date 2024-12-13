@@ -1,0 +1,7 @@
+.employment-summary {
+    > div {
+        &:first-child {
+            padding-bottom: var(--padding-simple-organism);
+        }
+    }
+}

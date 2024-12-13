@@ -9,7 +9,7 @@ import { Paragraph } from '@shared-atoms/paragraph';
 import './style.css';
 
 
-function WorkExperienceDetails() {
+function JobExperienceDetails() {
     const { name, employmentDuration, description } = useContext(WorkExperienceContext);
 
     const title = {
@@ -28,16 +28,16 @@ function WorkExperienceDetails() {
     };
 
     return (
-        <section className='work-experience-details'>
-            <header>
+        <section className='job-experience-details'>
+            <div>
                 <Title {...title} />
                 <WorkDateRange {...workDateRange} />
-            </header>
-            <section>
+            </div>
+            <div>
                 <Paragraph  {...paragraph} />
-            </section>
+            </div>
         </section>
     );
 }
 
-export { WorkExperienceDetails };
+export { JobExperienceDetails };

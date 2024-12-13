@@ -5,15 +5,17 @@ import { WorkExperienceContext } from '@feat-work-experience-history-contexts/wo
 import { SkillsImplementedWork } from '@shared-organisms/skills-implemented-work';
 import { ToolInformation } from '@shared-molecules/tool-information';
 import { KnowledgeInformation } from '@shared-molecules/knowledge-information';
+import { InterpersonalCompetencyInformation } from '@shared-molecules/interpersonal-competency-information';
 
 import { en as technologiesToolsData } from '@shared-resources-data/glossaries/technological-tools.json';
 import { en as knowledgeData } from '@shared-resources-data/glossaries/technological-knowledge.json';
+import { en as interpersonalCompetenciesData } from '@shared-resources-data/glossaries/social-emotional-competencies.json';
 
 import './style.css';
 
 
-function TechnicalSkills() {
-    const { technologicalTools, technologicalKnowledge } = useContext(WorkExperienceContext);
+function RelevantSkillsExperience() {
+    const { technologicalTools, technologicalKnowledge, socialEmotionalCompetencies } = useContext(WorkExperienceContext);
 
     const skillsImplementedWorkSkills = {
         textTitle: 'Some tech tools I used',
@@ -32,12 +34,24 @@ function TechnicalSkills() {
         color: 'royal-blue'
     };
 
+    const skillsImplementedWork = {
+        textTitle: 'Some concepts that I applied',
+        skills: socialEmotionalCompetencies,
+        skillsInformation: interpersonalCompetenciesData,
+        Component: InterpersonalCompetencyInformation,
+        columns: 0,
+        color: 'royal-blue'
+    };
+
     return (
-        <section className='technical-skills'>
-            <SkillsImplementedWork {...skillsImplementedWorkSkills} />
-            <SkillsImplementedWork {...skillsImplementedWorkKnowledge} />
+        <section className='relevant-skills-experience'>
+            <div>
+                <SkillsImplementedWork {...skillsImplementedWorkSkills} />
+                <SkillsImplementedWork {...skillsImplementedWorkKnowledge} />
+            </div>
+            <SkillsImplementedWork {...skillsImplementedWork} />
         </section>
     );
 }
 
-export { TechnicalSkills };
+export { RelevantSkillsExperience };
