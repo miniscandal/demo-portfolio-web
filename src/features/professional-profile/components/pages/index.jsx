@@ -1,4 +1,5 @@
 import { CompetencyDescription } from '@feat-professional-profile-organisms/competency-description';
+
 import { Title } from '@shared-atoms/title';
 import { Computer } from '@shared-atoms/icon-font-svg/variants';
 import { BroadcastOnHome } from '@shared-atoms/icon-font-svg/variants';

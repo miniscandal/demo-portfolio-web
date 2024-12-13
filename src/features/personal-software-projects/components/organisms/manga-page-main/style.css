@@ -28,7 +28,7 @@
             clip-path: polygon(0 calc(0% + 2rem), 100% 0, 100% 100%, 0 100%);
 
             > .manga-panel {
-                background-color: var(--color-name-undefined-d);
+                background-color: var(--color-cream-light);
             }
         }
     }

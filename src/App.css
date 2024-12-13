@@ -13,18 +13,14 @@ main {
     }
 
     > scroll-page:nth-child(1) {
-        background-color: var(--color-light-silver);
+        background-color: var(--color-rose-water);
     }
 
     > scroll-page:nth-child(2) {
-        background-color: var(--color-name-undefined-e);
+        background-color: var(--color-light-silver);
     }
 
     > scroll-page:nth-child(3) {
-        background-image: url('@assets-images/textures/squared-paper-texture.jpg');
-        background-size: contain;
-        background-position: center;
-        background-color: var(--color-light-silver);
-        background-blend-mode: multiply;
+        background-color: var(--color-dune-sand);
     }
 }
