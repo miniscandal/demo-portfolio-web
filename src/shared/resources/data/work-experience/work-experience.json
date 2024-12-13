@@ -1,7 +1,7 @@
 {
     "en": {
         "ebookDevelopment": {
-            "name": "E-Book Development",
+            "name": "E-Book Educational Content Developer",
             "employmentDuration": {
                 "start": {
                     "year": 2020,
@@ -12,7 +12,14 @@
                     "month": 9
                 }
             },
-            "description": "I collaborated as a programmer and designer of electronic schematics in a project for the development of an educational digital book of electronic modules. The objective of the project was to explain the operation of these components, together with their integration with the Arduino development board, to facilitate the learning of Embedded Systems to engineering students and electronic enthusiasts.",
+            "descriptions": [
+                "Development of an educational digital book focused on explaining electronic modules and their integration with Arduino to facilitate learning in Embedded Systems for engineering students and electronics enthusiasts."
+            ],
+            "contributions": [
+                "I contributed as a programmer and electronic schematic designer to a project developing an educational digital book on electronic modules.",
+                "The book aimed to explain the components' operation and their integration with Arduino boards.",
+                "This initiative was designed to make Embedded Systems learning more accessible for engineering students and electronics enthusiasts."
+            ],
             "technologicalTools": [
                 "arduino",
                 "c"

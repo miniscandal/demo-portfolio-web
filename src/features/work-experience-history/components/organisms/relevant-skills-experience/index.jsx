@@ -18,7 +18,7 @@ function RelevantSkillsExperience() {
     const { technologicalTools, technologicalKnowledge, socialEmotionalCompetencies } = useContext(WorkExperienceContext);
 
     const skillsImplementedWorkSkills = {
-        textTitle: 'Some tech tools I used',
+        textTitle: 'Relevant Tech Tools Applied',
         skills: technologicalTools,
         skillsInformation: technologiesToolsData,
         Component: ToolInformation,
@@ -26,7 +26,7 @@ function RelevantSkillsExperience() {
         color: 'royal-blue'
     };
     const skillsImplementedWorkKnowledge = {
-        textTitle: 'Some knowledge that I applied',
+        textTitle: 'Relevant Tech Knowledge Applied',
         skills: technologicalKnowledge,
         skillsInformation: knowledgeData,
         Component: KnowledgeInformation,
@@ -35,7 +35,7 @@ function RelevantSkillsExperience() {
     };
 
     const skillsImplementedWork = {
-        textTitle: 'Some concepts that I applied',
+        textTitle: 'Relevant Interpersonal Aptitudes Applied',
         skills: socialEmotionalCompetencies,
         skillsInformation: interpersonalCompetenciesData,
         Component: InterpersonalCompetencyInformation,

@@ -10,7 +10,7 @@ import './style.css';
 
 
 function JobExperienceDetails() {
-    const { name, employmentDuration, description } = useContext(WorkExperienceContext);
+    const { name, employmentDuration, contributions } = useContext(WorkExperienceContext);
 
     const title = {
         text: name,
@@ -22,7 +22,7 @@ function JobExperienceDetails() {
         color: 'deep-ocean'
     };
     const paragraph = {
-        text: description,
+        text: contributions.join('\n\n'),
         size: 'regular',
         color: 'charcoal-grey'
     };
