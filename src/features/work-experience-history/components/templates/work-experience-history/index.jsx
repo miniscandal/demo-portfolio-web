@@ -21,6 +21,7 @@ function WorkExperienceHistory() {
             <section>
                 <WorkExperienceProvider>
                     <EmploymentSummary />
+                    <EmploymentSummary />
                 </WorkExperienceProvider>
             </section>
         </article>

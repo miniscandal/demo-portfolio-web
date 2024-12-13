@@ -56,7 +56,7 @@
     --gap-molecule: 1rem;
     --gap-simple-organism: 1.5rem;
     --gap-organism: 2rem;
-    --gap-double-organism: 4rem;
+    --gap-simple-container: 4rem;
     --gap-container: 8rem;
 
     --border-radius-uniform: 1rem;

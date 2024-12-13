@@ -13,7 +13,7 @@
 
         > section {
             display: flex;
-            gap: var(--gap-double-organism);
+            gap: var(--gap-simple-container);
 
 
             @media (width < 60rem) {

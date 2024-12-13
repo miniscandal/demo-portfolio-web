@@ -1,2 +1,30 @@
 @import url('./shared/components/atoms/colors/style.css');
 @import url('./shared/styles/main.css');
+
+main {
+    > scroll-page {
+        display: block;
+        padding: var(--padding-container) var(--padding-molecule);
+
+        > div {
+            max-width: 70rem;
+            margin: auto;
+        }
+    }
+
+    > scroll-page:nth-child(1) {
+        background-color: var(--color-light-silver);
+    }
+
+    > scroll-page:nth-child(2) {
+        background-color: var(--color-name-undefined-e);
+    }
+
+    > scroll-page:nth-child(3) {
+        background-image: url('@assets-images/textures/squared-paper-texture.jpg');
+        background-size: contain;
+        background-position: center;
+        background-color: var(--color-light-silver);
+        background-blend-mode: multiply;
+    }
+}

@@ -13,7 +13,9 @@ function App() {
                 <PrimaryHeader />
                 <main>
                     <scroll-page>
-                        <WorkExperienceHistory />
+                        <div>
+                            <WorkExperienceHistory />
+                        </div>
                     </scroll-page>
                     <scroll-page></scroll-page>
                     <scroll-page></scroll-page>

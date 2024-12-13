@@ -8,7 +8,7 @@
         margin: auto;
         display: flex;
         flex-wrap: wrap;
-        gap: var(--gap-double-organism);
+        gap: var(--gap-simple-container);
 
         > .competency-description {
             max-width: 30rem;
