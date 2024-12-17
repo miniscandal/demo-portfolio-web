@@ -1,10 +1,21 @@
-@import url('./characters/anime-original/hamtaro.css');
 @import url('./characters/anime-original/komi.css');
 @import url('./characters/anime-original/kurisu.css');
 @import url('./characters/anime-original/rintaro.css');
 @import url('./characters/anime-original/todoroki.css');
 @import url('./characters/anime-original/umi.css');
 @import url('./characters/anime-original/kanao.css');
+
+@import url('./characters/anime-original/itsuki-nakano-card.css');
+@import url('./characters/anime-original/miku-nakano-card.css');
+@import url('./characters/anime-original/yotsuba-nakano-card.css');
+@import url('./characters/anime-original/nino-nakano-card.css');
+@import url('./characters/anime-original/ichika-nakano-card.css');
+
+@import url('./characters/anime-original/itsuki-nakano.css');
+@import url('./characters/anime-original/miku-nakano.css');
+@import url('./characters/anime-original/yotsuba-nakano.css');
+@import url('./characters/anime-original/nino-nakano.css');
+@import url('./characters/anime-original/ichika-nakano.css');
 
 @import url('./items/desk.css');
 @import url('./items/whiteboard.css');
@@ -99,6 +110,61 @@
         }
     }
 
+    &.art-anime-itsuki-nakano-card {
+        &.regular {
+            width: 13rem;
+            height: 14.5rem;
+
+            > div {
+                transform: scale(1.2);
+            }
+        }
+    }
+
+    &.art-anime-miku-nakano-card {
+        &.regular {
+            width: 13rem;
+            height: 14.5rem;
+
+            > div {
+                transform: scale(1.2);
+            }
+        }
+    }
+
+    &.art-anime-yotsuba-nakano-card {
+        &.regular {
+            width: 13rem;
+            height: 14.5rem;
+
+            > div {
+                transform: scale(1.2);
+            }
+        }
+    }
+
+    &.art-anime-ichika-nakano-card {
+        &.regular {
+            width: 13rem;
+            height: 14.5rem;
+
+            > div {
+                transform: scale(1.2);
+            }
+        }
+    }
+
+    &.art-anime-nino-nakano-card {
+        &.regular {
+            width: 13rem;
+            height: 14.5rem;
+
+            > div {
+                transform: scale(1.2);
+            }
+        }
+    }
+
     &.art-item-whiteboard {
         &.regular {
             width: 22.5rem;
@@ -153,16 +219,6 @@
 
 
 
-    &.art-hamtaro {
-        &.small {
-            width: 1.9rem;
-            height: 1.9rem;
-
-            > div {
-                transform: scale(0.1);
-            }
-        }
-    }
 
     &.art-anime-komi {
         &.regular {
@@ -223,6 +279,22 @@
 
             > div {
                 transform: scale(1);
+            }
+        }
+    }
+
+
+    &.art-anime-itsuki-nakano,
+    &.art-anime-miku-nakano,
+    &.art-anime-yotsuba-nakano,
+    &.art-anime-nino-nakano,
+    &.art-anime-ichika-nakano {
+        &.regular {
+            width: 13rem;
+            height: 14.5rem;
+
+            > div {
+                transform: scale(1.2);
             }
         }
     }

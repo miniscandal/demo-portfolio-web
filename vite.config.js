@@ -34,7 +34,8 @@ export default defineConfig({
             '@feat-primary-footer-pages': '/src/features/primary-footer/components/pages/',
 
             '@feat-professional-profile-organisms': '/src/features/professional-profile/components/organisms/',
-            '@feat-professional-profile-pages': '/src/features/professional-profile/components/pages/',
+            '@feat-professional-profile-templates': '/src/features/professional-profile/components/templates/',
+            '@feat-professional-profile-contexts': '/src/features/professional-profile/contexts/',
 
             '@feat-personal-software-projects-molecules': '/src/features/personal-software-projects/components/molecules/',
             '@feat-personal-software-projects-organisms': '/src/features/personal-software-projects/components/organisms/',

@@ -1,0 +1,5 @@
+.professional-profile {
+    > .title {
+        padding-bottom: var(--padding-container);
+    }
+}

@@ -14,9 +14,9 @@ function IconFontSvg({
     ];
 
     return (
-        <div className={`icon-font-svg ${classList.join(' ')}`} >
+        <div className={`icon-font-svg ${classList.join(' ')}`}>
             {svg}
-        </div >
+        </div>
     );
 }
 

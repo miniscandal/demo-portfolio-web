@@ -1,0 +1,10 @@
+.acquired-competencies {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: var(--gap-container);
+
+    > div {
+        max-width: 30rem;
+    }
+}

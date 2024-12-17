@@ -1,10 +1,10 @@
-import mock from '@shared-mocks/dom-components/paragraph.json';
+import { paragraph } from '@shared-mocks/dom-components/data.json';
 
 import './style.css';
 
 
 function Paragraph({
-    text = mock.text,
+    text = paragraph,
     size = 'regular',
     color = 'light',
     cursorAnimation = false,

@@ -1,21 +1,26 @@
 import { Title } from '@shared-atoms/title';
 import { Paragraph } from '@shared-atoms/paragraph';
 import { IconFontSvg } from '@shared-atoms/icon-font-svg';
-
-import { Database } from '@shared-atoms/icon-font-svg/variants';
-import { text } from '@shared-mocks/dom-components/professional-competency.json';
+import { PixelArt } from '@shared-molecules/pixel-art';
+import { PIXEL_ART_ANIME_ITSUKI_NAKANO_CARD } from '@shared-molecules/pixel-art/variants';
 
 import './style.css';
 
 
 function CompetencyDescription({
-    iconFontSvg = Database,
-    name = 'Competency Description',
-    description = text
+    name = 'competency description',
+    description = undefined,
+    iconFontSvg = undefined,
+    pixelArtCharacter = PIXEL_ART_ANIME_ITSUKI_NAKANO_CARD
 }) {
+    const pixelArt = {
+        character: pixelArtCharacter,
+        showBox: false
+    };
     const iconSvgFont = {
         svg: iconFontSvg,
-        color: 'olive-green'
+        color: 'olive-green',
+        size: 'regular'
     };
     const title = {
         text: name,
@@ -33,7 +38,10 @@ function CompetencyDescription({
                 <IconFontSvg {...iconSvgFont} />
                 <Title {...title} />
             </div>
-            <Paragraph {...paragraph} />
+            <div>
+                <PixelArt {...pixelArt} />
+                <Paragraph {...paragraph} />
+            </div>
         </section>
     );
 }

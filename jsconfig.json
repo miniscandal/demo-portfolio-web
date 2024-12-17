@@ -59,8 +59,11 @@
             "@feat-professional-profile-organisms/*": [
                 "features/professional-profile/components/organisms/*"
             ],
-            "@feat-professional-profile-pages/*": [
-                "features/professional-profile/components/pages/*"
+            "@feat-professional-profile-templates/*": [
+                "features/professional-profile/components/templates/*"
+            ],
+            "@feat-professional-profile-contexts/*": [
+                "features/professional-profile/contexts/*"
             ],
             "@shared-atoms/*": [
                 "shared/components/atoms/*"

@@ -1,6 +1,6 @@
 import { PixelArt } from '@shared-molecules/pixel-art';
 
-import { PIXEL_ART_HAMTARO } from '@shared-molecules/pixel-art/variants';
+import { PIXEL_ART_ANIME_UMI } from '@shared-molecules/pixel-art/variants';
 
 import './style.css';
 
@@ -11,7 +11,7 @@ function KnowledgeInformation({
 }) {
     const pixelArt = {
         size: 'small',
-        character: PIXEL_ART_HAMTARO,
+        character: PIXEL_ART_ANIME_UMI,
         showContainer: false
     };
 
