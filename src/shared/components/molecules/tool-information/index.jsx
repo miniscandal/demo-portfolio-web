@@ -1,26 +1,34 @@
-import { IconBackground } from '@shared-molecules/icon-background';
-import svgTool from '@assets-images/svg/tool.svg';
+import { Paragraph } from '@shared-atoms/paragraph';
+import { Icon } from '@shared-atoms/icon';
 
 import './style.css';
 
 
 function ToolInformation({
     name: text = 'Tool',
-    iconSrc: src = svgTool,
+    iconSrc = undefined,
     color: bgColor = 'lightpink'
 }) {
-    const iconBackground = {
-        src,
-        size: 'regular'
+    const icon = {
+        src: iconSrc,
+        size: 'small'
+    };
+    const paragraph = {
+        text
     };
 
     return (
-        <a className='tool-information'>
-            <IconBackground {...iconBackground} />
+        <div className='tool-information'>
             <div style={{ backgroundColor: bgColor }}>
-                {text}
+                <Paragraph {...paragraph} />
             </div>
-        </a >
+            <div>
+                <Paragraph text={'_'} />
+                <div>
+                    <Icon {...icon} />
+                </div>
+            </div>
+        </div>
     );
 }
 
