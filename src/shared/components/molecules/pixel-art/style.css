@@ -201,23 +201,25 @@
     }
 
     &.art-item-book {
+
         &.small {
-            width: 2rem;
-            height: 1.5rem;
+            width: 2.9rem;
+            height: 2.4rem;
 
             > div {
-                transform: scale(0.06);
+                transform: scale(0.1);
             }
         }
     }
 
     &.art-item-books {
+
         &.small {
-            width: 2rem;
-            height: 1.5rem;
+            width: 3rem;
+            height: 2.2rem;
 
             > div {
-                transform: scale(0.1);
+                transform: scale(0.16);
             }
         }
     }
