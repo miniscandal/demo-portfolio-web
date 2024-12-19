@@ -25,7 +25,6 @@
         }
     }
 
-
     &.columns-3 {
         > div {
             grid-template-columns: repeat(3, 1fr);

@@ -1,6 +1,7 @@
  .tool-information {
      display: flex;
      flex-direction: column-reverse;
+     min-width: 8rem;
 
      > div {
          padding: var(--padding-simple-molecule);

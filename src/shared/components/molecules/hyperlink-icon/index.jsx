@@ -6,8 +6,7 @@ import './style.css';
 function HyperlinkIcon({ href, iconSrc }) {
     const icon = {
         src: iconSrc,
-        color: 'light',
-        size: 'medium'
+        color: 'light'
     };
 
     return (

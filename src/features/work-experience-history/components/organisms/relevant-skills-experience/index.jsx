@@ -17,7 +17,7 @@ import './style.css';
 function RelevantSkillsExperience() {
     const { technologicalTools, technologicalKnowledge, socialEmotionalCompetencies } = useContext(WorkExperienceContext);
 
-    const skillsImplementedWorkSkills = {
+    const skillsImplementedWorkTechTools = {
         textTitle: 'Relevant Tech Tools Applied',
         skills: technologicalTools,
         skillsInformation: technologiesToolsData,
@@ -25,7 +25,7 @@ function RelevantSkillsExperience() {
         columns: '2',
         color: 'royal-blue'
     };
-    const skillsImplementedWorkKnowledge = {
+    const skillsImplementedWorkTechKnowledge = {
         textTitle: 'Relevant Tech Knowledge Applied',
         skills: technologicalKnowledge,
         skillsInformation: knowledgeData,
@@ -33,8 +33,7 @@ function RelevantSkillsExperience() {
         columns: '1',
         color: 'royal-blue'
     };
-
-    const skillsImplementedWork = {
+    const skillsImplementedWorkSocialCompetencies = {
         textTitle: 'Relevant Interpersonal Aptitudes Applied',
         skills: socialEmotionalCompetencies,
         skillsInformation: interpersonalCompetenciesData,
@@ -46,10 +45,10 @@ function RelevantSkillsExperience() {
     return (
         <section className='relevant-skills-experience'>
             <div>
-                <SkillsImplementedWork {...skillsImplementedWorkSkills} />
-                <SkillsImplementedWork {...skillsImplementedWorkKnowledge} />
+                <SkillsImplementedWork {...skillsImplementedWorkTechTools} />
+                <SkillsImplementedWork {...skillsImplementedWorkTechKnowledge} />
             </div>
-            <SkillsImplementedWork {...skillsImplementedWork} />
+            <SkillsImplementedWork {...skillsImplementedWorkSocialCompetencies} />
         </section>
     );
 }
