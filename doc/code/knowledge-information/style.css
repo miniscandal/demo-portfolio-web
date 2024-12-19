@@ -1,9 +1,0 @@
-.knowledge-information {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    min-width: 12rem;
-    text-align: center;
-    padding: var(--padding-simple-molecule);
-    border-radius: var(--border-radius-atom);
-}
