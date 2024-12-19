@@ -1,34 +1,9 @@
 .knowledge-information {
-    min-width: 10rem;
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 12rem;
+    text-align: center;
     padding: var(--padding-simple-molecule);
-    padding-right: 3rem;
     border-radius: var(--border-radius-atom);
-    position: relative;
-    color: var(--color-light);
-
-    > div {
-        position: absolute;
-        right: 0;
-        bottom: 0;
-        display: flex;
-        align-items: end;
-    }
-
-    &::after {
-        content: '';
-        position: absolute;
-        top: 0;
-        right: 0;
-        width: 40%;
-        height: 100%;
-        background-color: var(--color-window-glass);
-        clip-path: polygon(0% 100%, 100% 0%, 100% 100%);
-    }
-
-    &:hover {
-        > div {
-            animation: var(--animation-shake);
-        }
-    }
 }
