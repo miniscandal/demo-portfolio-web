@@ -23,6 +23,8 @@
 @import url('./items/computers-steins-gate.css');
 @import url('./items/sticky-note-single.css');
 @import url('./items/sticky-note-group.css');
+@import url('./items/book.css');
+@import url('./items/books.css');
 
 .pixel-art {
     > div {
@@ -190,7 +192,7 @@
     &.art-item-sticky-note-group {
         &.regular {
             width: 3rem;
-            height: 2.5rem;
+            height: 2rem;
 
             > div {
                 transform: scale(0.3);
@@ -198,7 +200,27 @@
         }
     }
 
+    &.art-item-book {
+        &.small {
+            width: 2rem;
+            height: 1.5rem;
 
+            > div {
+                transform: scale(0.06);
+            }
+        }
+    }
+
+    &.art-item-books {
+        &.small {
+            width: 2rem;
+            height: 1.5rem;
+
+            > div {
+                transform: scale(0.1);
+            }
+        }
+    }
 
 
 

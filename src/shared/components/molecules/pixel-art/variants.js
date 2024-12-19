@@ -25,6 +25,8 @@ const PIXEL_ART_ITEM_COMPUTERS_STEINS_GATE = 'item-computers-steins-gate';
 const PIXEL_ART_ITEM_MICROWAVE_STEINS_GATE = 'item-microwave-steins-gate';
 const PIXEL_ART_ITEM_STICKY_NOTE_SINGLE = 'item-sticky-note-single';
 const PIXEL_ART_ITEM_STICKY_NOTE_GROUP = 'item-sticky-note-group';
+const PIXEL_ART_ITEM_BOOK = 'item-book';
+const PIXEL_ART_ITEM_BOOKS = 'item-books';
 
 export {
     PIXEL_ART_ANIME_UMI,
@@ -53,5 +55,7 @@ export {
     PIXEL_ART_ITEM_COMPUTERS_STEINS_GATE,
     PIXEL_ART_ITEM_MICROWAVE_STEINS_GATE,
     PIXEL_ART_ITEM_STICKY_NOTE_SINGLE,
-    PIXEL_ART_ITEM_STICKY_NOTE_GROUP
+    PIXEL_ART_ITEM_STICKY_NOTE_GROUP,
+    PIXEL_ART_ITEM_BOOK,
+    PIXEL_ART_ITEM_BOOKS
 };
