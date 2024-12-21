@@ -53,8 +53,8 @@
             "@feat-primary-footer-organisms/*": [
                 "features/primary-footer/components/organisms/*"
             ],
-            "@feat-primary-footer-pages/*": [
-                "features/primary-footer/components/pages/*"
+            "@feat-primary-footer-templates/*": [
+                "features/primary-footer/components/templates/*"
             ],
             "@feat-professional-profile-organisms/*": [
                 "features/professional-profile/components/organisms/*"
@@ -64,6 +64,15 @@
             ],
             "@feat-professional-profile-contexts/*": [
                 "features/professional-profile/contexts/*"
+            ],
+            "@feat-about-me-organisms/*": [
+                "features/about-me/components/organisms/*"
+            ],
+            "@feat-about-me-templates/*": [
+                "features/about-me/components/templates/*"
+            ],
+            "@feat-about-me-contexts/*": [
+                "features/about-me/contexts/*"
             ],
             "@shared-atoms/*": [
                 "shared/components/atoms/*"
