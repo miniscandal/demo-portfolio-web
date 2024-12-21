@@ -1,0 +1,43 @@
+.about-me {
+    > .title {
+        padding-bottom: var(--padding-container);
+    }
+
+    > section {
+        > .about-me__div--photo {
+            position: relative;
+            max-width: 33rem;
+            height: 38rem;
+            display: flex;
+            background-color: var(--color-blush-petal);
+            border-bottom: solid var(--border-radius-atom) var(--color-dark);
+            border-left: solid var(--border-radius-atom) var(--color-dark);
+
+            > .about-me__div--photo-background {
+                display: grid;
+                grid-template-columns: repeat(5, 1fr);
+                grid-template-rows: repeat(6, 1fr);
+                position: absolute;
+                inset: 0;
+
+                > div {
+                    border-top: solid var(--border-radius-atom) var(--color-dark);
+                    border-right: solid var(--border-radius-atom) var(--color-dark);
+                }
+            }
+
+            > .about-me__div--photo-image {
+                margin-top: auto;
+                overflow: hidden;
+
+                user-select: none;
+                filter: brightness(0.6) drop-shadow(0px 0px 4px var(--color-dark));
+
+                &:hover {
+                    filter: brightness(0) drop-shadow(0px 0px 4px var(--color-slate-gray));
+                }
+
+            }
+        }
+    }
+}
