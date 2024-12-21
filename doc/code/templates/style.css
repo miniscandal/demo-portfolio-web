@@ -1,0 +1,77 @@
+.about-me {
+    > .title {
+        padding-bottom: var(--padding-container);
+    }
+
+    > section {
+        position: relative;
+        display: flex;
+
+
+        > .about-me__div--photo {
+            position: relative;
+            width: 35rem;
+            height: 40rem;
+            /* aspect-ratio: 1 / 1; */
+            display: flex;
+            background-color: var(--color-blush-petal);
+            background-blend-mode: multiply;
+            border-bottom: solid var(--border-radius-atom) var(--color-dark);
+            border-left: solid var(--border-radius-atom) var(--color-dark);
+
+            position: relative;
+
+            &::after {
+                content: '';
+                position: absolute;
+                inset: 0;
+
+                background-color: var(--color-vintage-rose);
+                filter: opacity(0.2);
+            }
+
+            > .about-me__div--photo-background {
+                display: grid;
+                grid-template-columns: repeat(5, 1fr);
+                grid-template-rows: repeat(6, 1fr);
+                position: absolute;
+                inset: 0;
+
+                > div {
+                    border-top: solid var(--border-radius-atom) var(--color-dark);
+                    border-right: solid var(--border-radius-atom) var(--color-dark);
+                }
+
+            }
+
+            > .about-me__div--photo-image {
+                margin-top: auto;
+                user-select: none;
+                filter: brightness(0.6) drop-shadow(0px 0px 4px var(--color-dark));
+
+                &:hover {
+                    filter: brightness(0) drop-shadow(0px 0px 4px var(--color-slate-gray));
+                }
+            }
+        }
+
+        > .about-me__div--photo-title {
+            /* position: absolute; */
+            /* left: -2rem; */
+            z-index: 10;
+
+            position: relative;
+
+            > h3 {
+                /* position: absolute; */
+                left: -1rem;
+                background-color: #ffffff;
+                color: rgb(128, 41, 123);
+                writing-mode: vertical-lr;
+                text-orientation: upright;
+                font-size: 3rem;
+                line-break: strict;
+            }
+        }
+    }
+}
