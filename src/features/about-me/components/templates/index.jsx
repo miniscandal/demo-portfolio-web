@@ -2,6 +2,7 @@ import { Title } from '@shared-atoms/title';
 import { Image } from '@shared-atoms/image';
 
 import photo from '@assets-images/photo-me/my-photo-01.png';
+
 import './style.css';
 
 
@@ -24,43 +25,62 @@ function AboutMe() {
         <article className='about-me'>
             <Title {...titleH2} />
             <section>
-                <div className='about-me__div--photo'>
-                    <div className='about-me__div--photo-background'>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
+                <section>
+                    <div className='about-me__title'>
+                        <h3>
+                            MINI-CODE
+                        </h3>
                     </div>
-                    <div className='about-me__div--photo-image'>
+
+                    <div className='about-me__image'>
                         <Image {...image} />
                     </div>
-                </div>
+                </section>
+
+                <section>
+                    <div className='item'></div>
+                    <div className='item'></div>
+                    <div className='item'></div>
+                    <div className='item'></div>
+                    <div className='item'></div>
+                    <div className='item'></div>
+
+                    <div className='item'></div>
+                    <div className='item'></div>
+                    <div className='item'></div>
+                    <div className='item'></div>
+                    <div className='item'></div>
+                    <div className='item'></div>
+
+                    <div className='item'></div>
+                    <div className='item'></div>
+                    <div className='item'></div>
+                    <div className='item'></div>
+                    <div className='item'></div>
+                    <div className='item'></div>
+
+                    <div className='item'></div>
+                    <div className='item'></div>
+                    <div className='item'></div>
+                    <div className='item'></div>
+                    <div className='item'></div>
+                    <div className='item'></div>
+
+                    <div className='item'></div>
+                    <div className='item'></div>
+                    <div className='item'></div>
+                    <div className='item'></div>
+                    <div className='item'></div>
+                    <div className='item'></div>
+
+                    <div className='item'></div>
+                    <div className='item'></div>
+                    <div className='item'></div>
+                    <div className='item'></div>
+                    <div className='item'></div>
+                    <div className='item'></div>
+                </section>
+
             </section>
         </article>
     );
