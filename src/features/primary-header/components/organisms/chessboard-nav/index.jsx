@@ -27,7 +27,7 @@ function ChessboardNav() {
         },
         {
             id: 'whatIdDo',
-            text: 'PROJECTS PERSONAL',
+            text: 'PERSONAL PROJECTS',
             symbol: '03',
             idAnchor: PERSONAL_PROJECTS
         },
