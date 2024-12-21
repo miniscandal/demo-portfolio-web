@@ -26,6 +26,10 @@
         }
     }
 
+    &.my-photo {
+        max-width: 26rem;
+    }
+
     &.contain {
         > img {
             object-fit: contain;
