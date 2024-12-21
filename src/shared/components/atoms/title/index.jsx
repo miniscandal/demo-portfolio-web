@@ -1,7 +1,12 @@
 import './style.css';
 
 
-function Title({ text = 'I am a title', color = 'light', type = 'h1', decorated = false }) {
+function Title({
+    text = 'I am a title',
+    color = 'light',
+    type = 'h1',
+    decorated = false
+}) {
     const classList = [
         color,
         type === 'h2' && decorated ? 'decorated' : ''
