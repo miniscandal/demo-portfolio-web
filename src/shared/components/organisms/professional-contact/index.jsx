@@ -30,7 +30,7 @@ function ProfessionalContact({
 
 
     return (
-        <section className={`professional-contact ${reverse ? 'reverse' : ''}`}>
+        <aside className={`professional-contact ${reverse ? 'reverse' : ''}`}>
             <div className='professional-contact__div--social-network'>
                 <SocialNetworks {...socialNetworks} />
                 <HyperlinkIcon {...hyperlinkIcon} />
@@ -38,7 +38,7 @@ function ProfessionalContact({
             <div className='professional-contact__div--email'>
                 <CopyEmailClipboard {...copyEmailClipBoard} />
             </div>
-        </section>
+        </aside>
     );
 }
 

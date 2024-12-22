@@ -1,0 +1,41 @@
+.descriptive-card {
+    position: relative;
+    width: 36rem;
+    height: 36rem;
+
+    > .descriptive-card__div--content {
+        position: relative;
+        height: 100%;
+        display: flex;
+        z-index: 10;
+        border: solid var(--border-radius-atom) transparent;
+
+        > .descriptive-card__div--sing {
+            align-self: center;
+        }
+
+        > .descriptive-card__div--image {
+            align-self: flex-end;
+            filter: brightness(0) drop-shadow(0px 0px 4px var(--color-dark));
+        }
+    }
+
+    > .descriptive-card__div--background {
+        position: absolute;
+        inset: 0;
+    }
+
+    &:hover {
+        .descriptive-card__div--image {
+            filter: brightness(0.8) drop-shadow(0px 0px 4px var(--color-dark));
+        }
+    }
+
+    &::after {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background-color: var(--color-vintage-rose);
+        filter: opacity(0.2);
+    }
+}

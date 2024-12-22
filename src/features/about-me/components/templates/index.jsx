@@ -1,44 +1,23 @@
-import { GridOverlay } from '@feat-about-me-molecules/grid-overlay';
+import { DescriptiveCard } from '@feat-about-me-organisms/descriptive-card';
 
 import { Title } from '@shared-atoms/title';
-import { Image } from '@shared-atoms/image';
-
-import photo from '@assets-images/photo-me/my-photo-01.png';
 
 import './style.css';
 
 
 function AboutMe() {
-    const titleH2 = {
+    const title = {
         text: 'ABOUT ME',
         type: 'h2',
         decorated: true
     };
-    const image = {
-        src: photo,
-        size: 'my-photo'
-    };
+
 
     return (
         <article className='about-me'>
-            <Title {...titleH2} />
+            <Title {...title} />
             <section>
-                <section className='descriptive-card'>
-                    <div className='descriptive-card__div--data'>
-                        <div className='descriptive-card__div--title'>
-                            <h3>
-                                MINI-CODE
-                            </h3>
-                        </div>
-                        <div className='descriptive-card__div--image'>
-                            <Image {...image} />
-                        </div>
-                    </div>
-
-                    <div className='descriptive-card__div--grid'>
-                        <GridOverlay />
-                    </div>
-                </section>
+                <DescriptiveCard />
             </section>
         </article>
     );

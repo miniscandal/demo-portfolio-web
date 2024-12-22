@@ -37,7 +37,6 @@ function App() {
                     </scroll-page>
                 </main>
                 <PrimaryFooter />
-                <PrimaryFooter />
             </scroll-container>
         </>
     );

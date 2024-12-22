@@ -1,0 +1,12 @@
+.sing {
+    background-color: var(--color-light);
+    text-orientation: upright;
+
+    > .paragraph {
+        color: var(--color-vintage-rose);
+    }
+
+    &.writing-vertical {
+        writing-mode: vertical-lr;
+    }
+}

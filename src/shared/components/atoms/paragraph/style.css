@@ -8,6 +8,10 @@
         font-size: 1rem;
     }
 
+    &.medium {
+        font-size: 3rem;
+    }
+
     &.animation_cursor::after {
         content: '_';
         animation: var(--animation-blink-character);
