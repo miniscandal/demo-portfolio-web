@@ -1,0 +1,22 @@
+.grid-overlay {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    background-color: var(--color-blush-petal);
+    pointer-events: none;
+
+    > div {
+        border-top: solid var(--border-radius-atom) var(--color-light);
+        border-right: solid var(--border-radius-atom) var(--color-light);
+
+        &:nth-child(6n + 1) {
+            border-left: solid var(--border-radius-atom) var(--color-light);
+        }
+
+        &:nth-last-child(-n + 6) {
+            border-bottom: solid var(--border-radius-atom) var(--color-light);
+        }
+    }
+}

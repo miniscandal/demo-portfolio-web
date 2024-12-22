@@ -65,6 +65,9 @@
             "@feat-professional-profile-contexts/*": [
                 "features/professional-profile/contexts/*"
             ],
+            "@feat-about-me-molecules/*": [
+                "features/about-me/components/molecules/*"
+            ],
             "@feat-about-me-organisms/*": [
                 "features/about-me/components/organisms/*"
             ],

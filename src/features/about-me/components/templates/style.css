@@ -4,21 +4,20 @@
     }
 
     > section {
-        width: 36rem;
-        height: 36rem;
-        position: relative;
+        > .descriptive-card {
+            position: relative;
+            width: 36rem;
+            height: 36rem;
 
-        > section {
-            &:first-child {
+            > .descriptive-card__div--data {
                 position: absolute;
                 display: flex;
                 inset: 0;
                 border-bottom: solid var(--border-radius-atom) transparent;
 
-                > .about-me__title {
-                    position: relative;
-                    z-index: 100;
+                > .descriptive-card__div--title {
                     align-self: center;
+                    z-index: 10;
 
                     > h3 {
                         background-color: var(--color-light);
@@ -30,48 +29,28 @@
                     }
                 }
 
-                > .about-me__image {
+                > .descriptive-card__div--image {
                     margin-top: auto;
                     filter: brightness(0) drop-shadow(0px 0px 4px var(--color-dark));
-                    transition: filter 0.5s linear;
-                }
-
-                &:hover {
-                    > .about-me__image {
-                        filter: brightness(0.8) drop-shadow(0px 0px 4px var(--color-slate-gray));
-                    }
                 }
             }
 
-            &:last-child {
-                width: 100%;
+            > .descriptive-card__div--grid {
                 height: 100%;
-                display: grid;
-                grid-template-columns: repeat(6, 1fr);
-                grid-template-rows: repeat(6, 1fr);
-                background-color: var(--color-blush-petal);
-                pointer-events: none;
+            }
 
-                > div {
-                    border-top: solid var(--border-radius-atom) var(--color-light);
-                    border-right: solid var(--border-radius-atom) var(--color-light);
-
-                    &:nth-child(6n + 1) {
-                        border-left: solid var(--border-radius-atom) var(--color-light);
-                    }
-
-                    &:nth-last-child(-n + 6) {
-                        border-bottom: solid var(--border-radius-atom) var(--color-light);
-                    }
+            &:hover {
+                .descriptive-card__div--image {
+                    filter: brightness(0.8) drop-shadow(0px 0px 4px var(--color-dark));
                 }
+            }
 
-                &::after {
-                    content: '';
-                    position: absolute;
-                    inset: 0;
-                    background-color: var(--color-vintage-rose);
-                    filter: opacity(0.2);
-                }
+            &::after {
+                content: '';
+                position: absolute;
+                inset: 0;
+                background-color: var(--color-vintage-rose);
+                filter: opacity(0.2);
             }
         }
     }

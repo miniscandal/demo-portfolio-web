@@ -25,49 +25,62 @@ function AboutMe() {
         <article className='about-me'>
             <Title {...titleH2} />
             <section>
-                <div className='about-me__div--photo-title'>
-                    <h3>
-                        MINI-CODE
-                        {/* SOFTWARE DEVELOPER */}
-                    </h3>
-                </div>
-                <div className='about-me__div--photo'>
-                    <div className='about-me__div--photo-background'>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
+                <section>
+                    <div className='about-me__title'>
+                        <h3>
+                            MINI-CODE
+                        </h3>
                     </div>
-                    <div className='about-me__div--photo-image'>
+
+                    <div className='about-me__image'>
                         <Image {...image} />
                     </div>
-                </div>
+                </section>
+
+                <section>
+                    <div className='item'></div>
+                    <div className='item'></div>
+                    <div className='item'></div>
+                    <div className='item'></div>
+                    <div className='item'></div>
+                    <div className='item'></div>
+
+                    <div className='item'></div>
+                    <div className='item'></div>
+                    <div className='item'></div>
+                    <div className='item'></div>
+                    <div className='item'></div>
+                    <div className='item'></div>
+
+                    <div className='item'></div>
+                    <div className='item'></div>
+                    <div className='item'></div>
+                    <div className='item'></div>
+                    <div className='item'></div>
+                    <div className='item'></div>
+
+                    <div className='item'></div>
+                    <div className='item'></div>
+                    <div className='item'></div>
+                    <div className='item'></div>
+                    <div className='item'></div>
+                    <div className='item'></div>
+
+                    <div className='item'></div>
+                    <div className='item'></div>
+                    <div className='item'></div>
+                    <div className='item'></div>
+                    <div className='item'></div>
+                    <div className='item'></div>
+
+                    <div className='item'></div>
+                    <div className='item'></div>
+                    <div className='item'></div>
+                    <div className='item'></div>
+                    <div className='item'></div>
+                    <div className='item'></div>
+                </section>
+
             </section>
         </article>
     );

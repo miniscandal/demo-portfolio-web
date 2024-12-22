@@ -1,3 +1,5 @@
+import { GridOverlay } from '@feat-about-me-molecules/grid-overlay';
+
 import { Title } from '@shared-atoms/title';
 import { Image } from '@shared-atoms/image';
 
@@ -16,71 +18,27 @@ function AboutMe() {
         src: photo,
         size: 'my-photo'
     };
-    const titleH3 = {
-        text: 'Software Developer',
-        type: 'h3'
-    };
 
     return (
         <article className='about-me'>
             <Title {...titleH2} />
             <section>
-                <section>
-                    <div className='about-me__title'>
-                        <h3>
-                            MINI-CODE
-                        </h3>
+                <section className='descriptive-card'>
+                    <div className='descriptive-card__div--data'>
+                        <div className='descriptive-card__div--title'>
+                            <h3>
+                                MINI-CODE
+                            </h3>
+                        </div>
+                        <div className='descriptive-card__div--image'>
+                            <Image {...image} />
+                        </div>
                     </div>
 
-                    <div className='about-me__image'>
-                        <Image {...image} />
+                    <div className='descriptive-card__div--grid'>
+                        <GridOverlay />
                     </div>
                 </section>
-
-                <section>
-                    <div className='item'></div>
-                    <div className='item'></div>
-                    <div className='item'></div>
-                    <div className='item'></div>
-                    <div className='item'></div>
-                    <div className='item'></div>
-
-                    <div className='item'></div>
-                    <div className='item'></div>
-                    <div className='item'></div>
-                    <div className='item'></div>
-                    <div className='item'></div>
-                    <div className='item'></div>
-
-                    <div className='item'></div>
-                    <div className='item'></div>
-                    <div className='item'></div>
-                    <div className='item'></div>
-                    <div className='item'></div>
-                    <div className='item'></div>
-
-                    <div className='item'></div>
-                    <div className='item'></div>
-                    <div className='item'></div>
-                    <div className='item'></div>
-                    <div className='item'></div>
-                    <div className='item'></div>
-
-                    <div className='item'></div>
-                    <div className='item'></div>
-                    <div className='item'></div>
-                    <div className='item'></div>
-                    <div className='item'></div>
-                    <div className='item'></div>
-
-                    <div className='item'></div>
-                    <div className='item'></div>
-                    <div className='item'></div>
-                    <div className='item'></div>
-                    <div className='item'></div>
-                    <div className='item'></div>
-                </section>
-
             </section>
         </article>
     );
