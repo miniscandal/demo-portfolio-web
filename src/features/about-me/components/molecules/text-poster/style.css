@@ -3,6 +3,7 @@
     text-orientation: upright;
 
     > .paragraph {
+        font-family: 'Yoruka';
         color: var(--color-vintage-rose);
     }
 

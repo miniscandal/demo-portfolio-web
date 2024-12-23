@@ -21,6 +21,8 @@
                 transform: translate(-50%, -50%) rotate(-5deg);
 
                 > .paragraph {
+                    font-family: 'Yoruka';
+
                     &:last-child {
                         background-color: var(--color-vintage-rose);
                     }
