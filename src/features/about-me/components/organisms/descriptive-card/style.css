@@ -1,43 +1,51 @@
 .descriptive-card {
-    position: relative;
-    width: 36rem;
-    height: 36rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 36rem;
+    margin: auto;
 
-    > .descriptive-card__div--content {
+    .descriptive-card__section {
         position: relative;
-        height: 100%;
-        display: flex;
-        z-index: 10;
-        border-top: solid var(--border-radius-atom) transparent;
-        border-bottom: solid var(--border-radius-atom) transparent;
+        height: 36rem;
 
-        > .descriptive-card__div--text-poster {
-            align-self: center;
+        > .descriptive-card__div--content {
+            position: relative;
+            height: 100%;
+            display: flex;
+            z-index: 10;
+            border-top: solid var(--border-radius-atom) transparent;
+            border-bottom: solid var(--border-radius-atom) transparent;
+
+            > .descriptive-card__div--text-poster {
+                align-self: center;
+                z-index: 100;
+            }
+
+            > .descriptive-card__div--image {
+                user-select: none;
+                align-self: flex-end;
+                filter: brightness(0) drop-shadow(0px 0px 4px var(--color-dark));
+            }
         }
 
-        > .descriptive-card__div--image {
-            user-select: none;
-            align-self: flex-end;
-            filter: brightness(0) drop-shadow(0px 0px 4px var(--color-dark));
+        > .descriptive-card__div--background {
+            position: absolute;
+            inset: 0;
         }
-    }
 
-    > .descriptive-card__div--background {
-        position: absolute;
-        inset: 0;
-    }
-
-    &:hover {
-        .descriptive-card__div--image {
-            filter: brightness(0.8) drop-shadow(0px 0px 4px var(--color-dark));
+        &:hover {
+            .descriptive-card__div--image {
+                filter: brightness(0.8) drop-shadow(0px 0px 4px var(--color-dark));
+            }
         }
-    }
 
-    &::after {
-        content: '';
-        position: absolute;
-        inset: 0;
-        background-color: var(--color-vintage-rose);
-        filter: opacity(0.2);
+        &::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background-color: var(--color-vintage-rose);
+            filter: opacity(0.2);
+        }
     }
 }

@@ -4,10 +4,15 @@ import './style.css';
 
 
 function RotatedTextPoster({
-    text = 'ROTATE TEXT POSTER'
+    firstWord = 'ROTATE',
+    secondWord = 'TEXT POSTER'
 }) {
-    const paragraph = {
-        text,
+    const paragraphFirstWord = {
+        text: firstWord,
+        size: 'medium'
+    };
+    const paragraphSecondWord = {
+        text: secondWord,
         size: 'medium'
     };
 
@@ -18,7 +23,8 @@ function RotatedTextPoster({
             <div className='rotated-text-poster__div'>
             </div>
             <div>
-                <Paragraph {...paragraph} />
+                <Paragraph {...paragraphFirstWord} />
+                <Paragraph {...paragraphSecondWord} />
             </div>
         </div >
     );
