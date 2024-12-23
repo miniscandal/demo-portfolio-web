@@ -8,13 +8,15 @@
         height: 100%;
         display: flex;
         z-index: 10;
-        border: solid var(--border-radius-atom) transparent;
+        border-top: solid var(--border-radius-atom) transparent;
+        border-bottom: solid var(--border-radius-atom) transparent;
 
-        > .descriptive-card__div--sing {
+        > .descriptive-card__div--text-poster {
             align-self: center;
         }
 
         > .descriptive-card__div--image {
+            user-select: none;
             align-self: flex-end;
             filter: brightness(0) drop-shadow(0px 0px 4px var(--color-dark));
         }

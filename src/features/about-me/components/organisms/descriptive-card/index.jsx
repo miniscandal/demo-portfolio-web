@@ -1,6 +1,6 @@
 import { GridOverlay } from '@feat-about-me-molecules/grid-overlay';
 
-import { Sing } from '@feat-about-me-molecules/sing';
+import { TextPoster } from '@feat-about-me-molecules/text-poster';
 import { Image } from '@shared-atoms/image';
 
 import photo from '@assets-images/photo-me/my-photo-01.png';
@@ -13,19 +13,16 @@ function DescriptiveCard() {
         src: photo,
         size: 'my-photo'
     };
-    const singOne = {
+    const textPoster = {
         text: 'MINI-CODE',
         writingVertical: true
-    };
-    const singTwo = {
-        text: 'SOFTWARE DEVELOPER'
     };
 
     return (
         <section className='descriptive-card'>
             <div className='descriptive-card__div--content'>
-                <div className='descriptive-card__div--sing'>
-                    <Sing {...singOne} />
+                <div className='descriptive-card__div--text-poster'>
+                    <TextPoster {...textPoster} />
                 </div>
                 <div className='descriptive-card__div--image'>
                     <Image {...image} />

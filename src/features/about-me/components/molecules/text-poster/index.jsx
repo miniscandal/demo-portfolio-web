@@ -3,8 +3,8 @@ import { Paragraph } from '@shared-atoms/paragraph';
 import './style.css';
 
 
-function Sing({
-    text = 'SING',
+function TextPoster({
+    text = 'TEXT POSTER',
     writingVertical = false
 }) {
     const classList = [
@@ -16,10 +16,10 @@ function Sing({
     };
 
     return (
-        <div className={`sing ${classList.join(' ')}`}>
+        <div className={`text-poster ${classList.join(' ')}`}>
             <Paragraph {...paragraph} />
         </div>
     );
 }
 
-export { Sing };
+export { TextPoster };

@@ -1,0 +1,29 @@
+.rotated-text-poster {
+    display: flex;
+    justify-content: space-between;
+    height: 12rem;
+    position: relative;
+    background-color: var(--color-smoky-purple);
+
+    > .rotated-text-poster__div {
+        width: 5%;
+        height: 100%;
+        z-index: 10;
+        background-color: var(--color-smoky-purple);
+    }
+
+    > div {
+        &:last-child {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 95%;
+            background-color: var(--color-vintage-rose);
+            transform: translate(-50%, -50%) rotate(-5deg);
+
+            > .paragraph {
+                text-align: center;
+            }
+        }
+    }
+}
