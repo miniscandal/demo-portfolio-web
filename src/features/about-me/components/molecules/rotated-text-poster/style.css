@@ -1,36 +1,29 @@
 .rotated-text-poster {
-    display: flex;
-    justify-content: space-between;
-    height: 12rem;
-    position: relative;
+    > .div-main {
+        height: 13rem;
+        padding-right: 2rem;
+        padding-left: 2rem;
 
-    > .rotated-text-poster__div {
-        width: 5%;
-        height: 100%;
-        z-index: 10;
-        background-color: var(--color-smoky-purple);
+        > .div-secondary {
+            overflow: hidden;
+            position: relative;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
 
-    }
-
-    > div {
-        &:last-child {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            width: 95%;
-            transform: translate(-50%, -50%) rotate(-5deg);
-
-            > .paragraph {
+            > .div-content {
+                width: 105%;
+                position: absolute;
+                top: 50%;
+                left: 50%;
                 text-align: center;
-            }
+                transform: translate(-50%, -50%) rotate(-5deg);
 
-
-            > .paragraph {
-                padding-right: 2rem;
-                padding-left: 2rem;
-
-                &:last-child {
-                    background-color: var(--color-vintage-rose);
+                > .paragraph {
+                    &:last-child {
+                        background-color: var(--color-vintage-rose);
+                    }
                 }
             }
         }

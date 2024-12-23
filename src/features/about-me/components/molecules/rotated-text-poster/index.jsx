@@ -18,15 +18,15 @@ function RotatedTextPoster({
 
     return (
         <div className='rotated-text-poster'>
-            <div className='rotated-text-poster__div'>
+            <div className='div-main'>
+                <div className='div-secondary'>
+                    <div className='div-content'>
+                        <Paragraph {...paragraphFirstWord} />
+                        <Paragraph {...paragraphSecondWord} />
+                    </div>
+                </div>
             </div>
-            <div className='rotated-text-poster__div'>
-            </div>
-            <div>
-                <Paragraph {...paragraphFirstWord} />
-                <Paragraph {...paragraphSecondWord} />
-            </div>
-        </div >
+        </div>
     );
 }
 
