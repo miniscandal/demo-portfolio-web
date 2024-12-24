@@ -8,11 +8,14 @@ const PERSONAL_PROJECTS = 'personal-projects';
 
 const ABOUT_ME = 'about-me';
 
+const PRIMARY_FOOTER = 'primary-footer';
+
 
 export {
     PROFESSIONAL_CONTACT,
     WORK_EXPERIENCE,
     TECHNICAL_COMPETENCIES_AND_EXPERTISE,
     PERSONAL_PROJECTS,
-    ABOUT_ME
+    ABOUT_ME,
+    PRIMARY_FOOTER
 };

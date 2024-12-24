@@ -2,7 +2,7 @@
     "en": {
         "javaScript": {
             "name": "JavaScript",
-            "color": "#ee9b01e6",
+            "color": "#d4b830e6",
             "iconSrc": "/images/svg/js.svg"
         },
         "python": {
@@ -12,13 +12,13 @@
         },
         "html": {
             "name": "HTML",
-            "color": "#e34f26e6",
+            "color": "#f16529e6",
             "iconSrc": "/images/svg/html.svg"
         },
         "css": {
             "name": "CSS",
-            "color": "#9463ffe6",
-            "iconSrc": "/images/svg/css.svg"
+            "color": "#663399e6",
+            "iconSrc": "/images/svg/css-new.svg"
         },
         "mosquitto": {
             "name": "Mosquitto",
@@ -27,7 +27,7 @@
         },
         "react": {
             "name": "React",
-            "color": "#3c99dc",
+            "color": "#3c99dce6",
             "iconSrc": "/images/svg/react.svg"
         },
         "json": {
@@ -42,43 +42,63 @@
         },
         "insomnia": {
             "name": "Insomnia",
-            "color": "#4b2d9f",
+            "color": "#4b2d9fe6",
             "iconSrc": "/images/svg/react.svg"
         },
         "bigChat": {
             "name": "AI Bing Chat",
-            "color": "#427ac1",
+            "color": "#427ac1e6",
             "iconSrc": "/images/svg/react.svg"
         },
         "arduino": {
             "name": "Arduino",
-            "color": "#008184",
+            "color": "#008184e6",
             "iconSrc": "/images/svg/arduino.svg"
         },
         "c": {
             "name": "C",
-            "color": "#2196f3",
+            "color": "#2196f3e6",
             "iconSrc": "/images/svg/c.svg"
         },
         "cpp": {
             "name": "C++",
-            "color": "#1465bb",
+            "color": "#1465bbe6",
             "iconSrc": "/images/svg/c++.svg"
         },
         "pdf": {
             "name": "PDF",
-            "color": "#f27b57",
+            "color": "#f27b57e6",
             "iconSrc": "/images/svg/pdf.svg"
         },
         "java": {
             "name": "Java",
-            "color": "#5382a1",
+            "color": "#5382a1e6",
             "iconSrc": "/images/svg/java.svg"
         },
         "springBoot": {
             "name": "Spring Boot",
-            "color": "#6db33f",
+            "color": "#6db33fe6",
             "iconSrc": "/images/svg/spring-boot.svg"
+        },
+        "mySQL": {
+            "name": "My SQL",
+            "color": "#00758be6",
+            "iconSrc": "/images/svg/my-sql.svg"
+        },
+        "laravel": {
+            "name": "laravel",
+            "color": "#ff2d20e6",
+            "iconSrc": "/images/svg/laravel.svg"
+        },
+        "angular": {
+            "name": "angular",
+            "color": "#f42db1e6",
+            "iconSrc": "/images/svg/angular.svg"
+        },
+        "linux": {
+            "name": "Linux",
+            "color": "#4c4c4ce6",
+            "iconSrc": "/images/svg/linux.svg"
         }
     }
 }

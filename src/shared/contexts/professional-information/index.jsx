@@ -6,7 +6,7 @@ const ProfessionalInformationContext = createContext(null);
 
 const Provider = {
     name: 'Oscar González',
-    discipline: 'Computer System Engineer',
+    discipline: 'Computer Systems Engineering',
     fileHref: cvFile,
     fileName: 'cv-oscar-gonzalez'
 };

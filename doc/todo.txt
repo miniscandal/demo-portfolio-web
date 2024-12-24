@@ -1,6 +1,5 @@
 cSpell: disable
 
-
 panel one: 
 
 description / expected results
@@ -20,6 +19,22 @@ panel four
 
 demo (galery / video) / code (main files, scripts)
 
+
+
+rename constantas in shared constants  archor-id.js
+
+
+add
+
+My Technological Tools
+
+current specialization
+
+professional experience
+
+active learning interest
+
+development environment
 
 
 
