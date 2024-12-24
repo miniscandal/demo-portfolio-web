@@ -39,13 +39,6 @@ function GridOverlay() {
             <div className='item'></div>
             <div className='item'></div>
             <div className='item'></div>
-
-            <div className='item'></div>
-            <div className='item'></div>
-            <div className='item'></div>
-            <div className='item'></div>
-            <div className='item'></div>
-            <div className='item'></div>
         </div>
     );
 }

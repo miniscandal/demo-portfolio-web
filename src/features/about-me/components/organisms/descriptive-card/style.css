@@ -1,18 +1,19 @@
 .descriptive-card {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    max-width: 38rem;
-    margin: auto;
+    max-width: 35rem;
 
     > header {
-        transform: translateY(2rem);
         z-index: 10;
+
+        > .rotated-text-poster {
+            transform: translateY(2rem);
+        }
     }
 
     .descriptive-card__section {
         position: relative;
-        height: 38rem;
+        height: 41rem;
 
         > .descriptive-card__div--content {
             position: relative;
