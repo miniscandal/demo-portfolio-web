@@ -4,24 +4,19 @@
     }
 
     > section {
-        display: flex;
-        flex-direction: column;
-        gap: var(--gap-container);
-
-        > .descriptive-card {
-            margin: auto;
-        }
-
-        > .about-summary {
+        > .about-me__div {
             display: flex;
-            gap: var(--gap-container);
+            gap: var(--gap-simple-container);
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding-bottom: var(--padding-container);
 
-            > .specialization-technological-skills {
-                flex: 1;
-            }
-
-            > .about-summary {
-                flex: 1;
+            > div {
+                display: flex;
+                flex-direction: column;
+                gap: var(--gap-organism);
+                align-self: flex-end;
+                max-width: 30rem;
             }
         }
     }
