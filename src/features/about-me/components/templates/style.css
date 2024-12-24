@@ -3,5 +3,26 @@
         padding-bottom: var(--padding-container);
     }
 
-    > section {}
+    > section {
+        display: flex;
+        flex-direction: column;
+        gap: var(--gap-container);
+
+        > .descriptive-card {
+            margin: auto;
+        }
+
+        > .about-summary {
+            display: flex;
+            gap: var(--gap-container);
+
+            > .specialization-technological-skills {
+                flex: 1;
+            }
+
+            > .about-summary {
+                flex: 1;
+            }
+        }
+    }
 }

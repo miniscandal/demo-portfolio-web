@@ -1,0 +1,5 @@
+.about-summary {
+    > .title {
+        padding-bottom: var(--padding-organism);
+    }
+}
