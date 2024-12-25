@@ -27,9 +27,7 @@ function AboutMe() {
                         <AboutSummary />
                     </div>
                 </div>
-                <div>
-                    <TechnologicalTools />
-                </div>
+                <TechnologicalTools />
             </section>
         </article>
     );

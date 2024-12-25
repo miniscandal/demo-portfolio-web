@@ -1,0 +1,23 @@
+.technological-tools {
+    > .title {
+        text-align: center;
+        padding-bottom: var(--padding-simple-container);
+    }
+
+    > .technological-tools__div {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: var(--gap-simple-container);
+
+        @media (width < 70rem) {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        @media (width < 46rem) {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}

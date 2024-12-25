@@ -6,9 +6,9 @@
     > section {
         > .about-me__div {
             display: flex;
-            gap: var(--gap-simple-container);
+            gap: var(--gap-container);
             flex-wrap: wrap;
-            justify-content: space-between;
+            justify-content: center;
             padding-bottom: var(--padding-container);
 
             > div {

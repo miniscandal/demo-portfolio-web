@@ -1,11 +1,8 @@
 .primary-footer {
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     background-color: var(--color-coffee-brown);
-    gap: var(--gap-organism);
-
-    > div {
-        max-width: 80rem;
-        margin: auto;
-        padding: var(--padding-organism) 0;
-    }
+    gap: var(--gap-container);
+    padding: var(--padding-container) var(--padding-molecule);
 }
