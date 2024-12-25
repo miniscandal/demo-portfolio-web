@@ -1,7 +1,6 @@
 .technological-tools {
     > .title {
-        text-align: center;
-        padding-bottom: var(--padding-simple-container);
+        padding-bottom: var(--padding-organism);
     }
 
     > .technological-tools__div {

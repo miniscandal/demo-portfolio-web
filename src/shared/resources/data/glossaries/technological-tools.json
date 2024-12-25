@@ -81,7 +81,7 @@
             "iconSrc": "/images/svg/spring-boot.svg"
         },
         "mySQL": {
-            "name": "My SQL",
+            "name": "MySQL",
             "color": "#00758be6",
             "iconSrc": "/images/svg/my-sql.svg"
         },
@@ -91,12 +91,12 @@
             "iconSrc": "/images/svg/laravel.svg"
         },
         "angular": {
-            "name": "angular",
+            "name": "Angular",
             "color": "#f42db1e6",
             "iconSrc": "/images/svg/angular.svg"
         },
         "typeScript": {
-            "name": "Type Script",
+            "name": "TypeScript",
             "color": "#3178c6e6",
             "iconSrc": "/images/svg/type-script.svg"
         },

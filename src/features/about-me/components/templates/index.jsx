@@ -1,6 +1,7 @@
 import { DescriptiveCard } from '@feat-about-me-organisms/descriptive-card';
 import { AboutSummary } from '@feat-about-me-molecules/about-summary';
 import { TechnologicalTools } from '@feat-about-me-organisms/technological-tools';
+import { ProfessionalApproach } from '@feat-about-me-organisms/professional-approach';
 
 import { Title } from '@shared-atoms/title';
 
@@ -28,6 +29,7 @@ function AboutMe() {
                     </div>
                 </div>
                 <TechnologicalTools />
+                <ProfessionalApproach />
             </section>
         </article>
     );

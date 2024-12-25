@@ -4,7 +4,7 @@ import { TextPoster } from '@feat-about-me-molecules/text-poster';
 import { RotatedTextPoster } from '@feat-about-me-molecules/rotated-text-poster';
 import { Image } from '@shared-atoms/image';
 
-import photo from '@assets-images/photo-me/my-photo-01.png';
+import photo from '@assets-images/photo-me/my-photo-03.png';
 
 import './style.css';
 

@@ -4,12 +4,15 @@
     }
 
     > section {
+        display: flex;
+        flex-direction: column;
+        gap: var(--gap-container);
+
         > .about-me__div {
             display: flex;
-            gap: var(--gap-container);
+            gap: var(--gap-simple-container);
             flex-wrap: wrap;
-            justify-content: center;
-            padding-bottom: var(--padding-container);
+            justify-content: space-between;
 
             > div {
                 display: flex;
