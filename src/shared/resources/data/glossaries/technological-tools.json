@@ -95,6 +95,16 @@
             "color": "#f42db1e6",
             "iconSrc": "/images/svg/angular.svg"
         },
+        "typeScript": {
+            "name": "Type Script",
+            "color": "#3178c6e6",
+            "iconSrc": "/images/svg/type-script.svg"
+        },
+        "git": {
+            "name": "Git",
+            "color": "#f03c2ee6",
+            "iconSrc": "/images/svg/git.svg"
+        },
         "linux": {
             "name": "Linux",
             "color": "#4c4c4ce6",

@@ -24,21 +24,6 @@ demo (galery / video) / code (main files, scripts)
 rename constantas in shared constants  archor-id.js
 
 
-add
-
-My Technological Tools
-
-current specialization
-
-professional experience
-
-active learning interest
-
-development environment
-
-
-
-
 lateral panel items:
 
 return , github, deploy = si existe?, coffe level as range dificulted

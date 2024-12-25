@@ -21,7 +21,7 @@ function TechnologicalTools() {
     };
     const developmentEnvironmentTools = {
         textTitle: 'Development Environment',
-        skills: ['linux', 'windows', 'python', 'git'],
+        skills: ['linux', 'python', 'git'],
         skillsInformation: technologiesToolsData,
         Component: ToolInformation,
         columns: 2
