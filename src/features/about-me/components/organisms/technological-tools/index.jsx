@@ -13,21 +13,21 @@ function TechnologicalTools() {
         type: 'h3'
     };
     const currentSpecializationTools = {
-        textTitle: 'Technological Skills Specialization',
+        textTitle: 'Current Specialization',
         skills: ['java', 'springBoot', 'mySQL', 'javaScript', 'html', 'css'],
         skillsInformation: technologiesToolsData,
         Component: ToolInformation,
         columns: 2
     };
     const developmentEnvironmentTools = {
-        textTitle: 'Technological Skills Specialization',
+        textTitle: 'Development Environment',
         skills: ['linux', 'windows', 'python', 'git'],
         skillsInformation: technologiesToolsData,
         Component: ToolInformation,
         columns: 2
     };
     const activeInterestLearningTools = {
-        textTitle: 'Technological Skills Specialization',
+        textTitle: 'Active Learning Interest',
         skills: ['angular', 'react', 'typeScript'],
         skillsInformation: technologiesToolsData,
         Component: ToolInformation,
