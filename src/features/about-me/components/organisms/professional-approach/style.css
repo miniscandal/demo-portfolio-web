@@ -1,0 +1,25 @@
+.professional-approach {
+    > .title {
+        padding-bottom: var(--padding-organism);
+    }
+
+    > .professional-approach__div {
+        display: flex;
+        gap: var(--padding-organism);
+
+        justify-content: center;
+
+        > div {
+            align-self: flex-end;
+
+            > .paragraph {
+                max-width: 30rem;
+
+                &:first-child {
+                    padding-bottom: var(--padding-simple-organism);
+                }
+            }
+
+        }
+    }
+}
