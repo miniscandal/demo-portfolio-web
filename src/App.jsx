@@ -12,6 +12,7 @@ function App() {
 
     return (
         <>
+            {/*
             <scroll-container>
                 <PrimaryHeader />
                 <main>
@@ -38,6 +39,7 @@ function App() {
                 </main>
                 <PrimaryFooter />
             </scroll-container>
+            */}
         </>
     );
 }

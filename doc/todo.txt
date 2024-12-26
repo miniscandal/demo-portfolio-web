@@ -1,43 +1,31 @@
 cSpell: disable
 
-panel one: 
 
+⚝ Rename constantas in shared constants  archor-id.js
+
+⚝ Manga development
+
+panel one:
 description / expected results
 
+panel two:
+planeacion del proyecto (ideas, criteria, recursos, diagrams) / code (structure, main files) librero de documentacion
 
-panel two
-
-planeacion del proyecto (ideas, criteria, recursos, diagrams) / code (structure, main files)
-librero de documentacion
-
-panel three
-
+panel three:
 conceptos (por que se eligio) / tecnologias (por que se eligio)
 
-
-panel four
-
+panel four:
 demo (galery / video) / code (main files, scripts)
 
-
-
-rename constantas in shared constants  archor-id.js
-
-
 lateral panel items:
+return , github, deploy si existe?, coffe level as range dificulted level
 
-return , github, deploy = si existe?, coffe level as range dificulted
+dificultad level:
+rango del 1 al 6, explicar que por que nunca el 6 o por que nunca el uno
 
-level: rango del 1 al 6, explicar que por que nunca el 6 o por que nunca el uno
-
-Nivel: Rango del 1 al 6
-
-Nunca el 6: El nivel 6 nunca se alcanza porque siempre hay un área de mejora. Incluso si se tiene un buen dominio de la habilidad, siempre hay algo que aprender, mejorar o ajustar. El conocimiento y las habilidades son un proceso continuo, por lo que el nivel 6 representa un ideal inalcanzable.
-
-Nunca el 1: El nivel 1 nunca es alcanzado porque siempre existe una base mínima de conocimiento o habilidad. Incluso los novatos tienen una comprensión básica que les permite avanzar en el aprendizaje. El nivel 1 sería el punto de partida, pero no representa la total falta de conocimiento o habilidad.
-
-1. Siempre habrá algo más fácil, además todo tiene su dificultad.
+Nivel: Rango del 1 al 5:
+1. Siempre habrá algo más fácil, además todo tiene su dificultad, no representa la total falta de conocimiento o habilidad..
 2. Apliqué tecnologías y conceptos conocidos y utilizados actualmente.
 3. Apliqué tecnologías y conceptos conocidos, pero no utilizados actualmente.
 4. Apliqué tecnologías y conceptos nuevos.
-5. Siempre habrá algo más difícil, herramientas y conceptos que aprender.
+5. Siempre habrá algo más difícil, herramientas y conceptos que aprender, El conocimiento y las habilidades son un proceso continuo.
