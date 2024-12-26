@@ -12,6 +12,7 @@ function App() {
 
     return (
         <>
+            <PrimaryHeader />
             {/*
             <scroll-container>
                 <PrimaryHeader />

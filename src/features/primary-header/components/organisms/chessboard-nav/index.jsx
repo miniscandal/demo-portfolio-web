@@ -46,7 +46,7 @@ function ChessboardNav() {
     ];
     const squareShapeAnchorLinks = {
         Component: (({ idAnchor, ...values }) => (
-            <a href={`#${idAnchor}`}>
+            <a href={`#${idAnchor}`} tabIndex={idAnchor ? undefined : -1}>
                 <SquareShapeAnchorTag {...values} size='auto' />
             </a>
         )),
