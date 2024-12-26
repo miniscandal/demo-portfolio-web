@@ -30,6 +30,7 @@ const PIXEL_ART_ITEM_STICKY_NOTE_SINGLE = 'item-sticky-note-single';
 const PIXEL_ART_ITEM_STICKY_NOTE_GROUP = 'item-sticky-note-group';
 const PIXEL_ART_ITEM_BOOK = 'item-book';
 const PIXEL_ART_ITEM_BOOKS = 'item-books';
+const PIXEL_ART_ITEM_DIALOG = 'item-dialog';
 
 export {
     PIXEL_ART_ANIME_UMI,
@@ -62,5 +63,6 @@ export {
     PIXEL_ART_ITEM_STICKY_NOTE_SINGLE,
     PIXEL_ART_ITEM_STICKY_NOTE_GROUP,
     PIXEL_ART_ITEM_BOOK,
-    PIXEL_ART_ITEM_BOOKS
+    PIXEL_ART_ITEM_BOOKS,
+    PIXEL_ART_ITEM_DIALOG
 };

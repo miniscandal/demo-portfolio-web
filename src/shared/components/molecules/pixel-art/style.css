@@ -28,6 +28,8 @@
 @import url('./items/sticky-note-group.css');
 @import url('./items/book.css');
 @import url('./items/books.css');
+@import url('./items/dialog.css');
+
 
 .pixel-art {
     > div {
@@ -245,7 +247,17 @@
         }
     }
 
+    &.art-item-dialog {
 
+        &.regular {
+            width: 36.5rem;
+            height: 24.5rem;
+
+            > div {
+                transform: scale(1.6);
+            }
+        }
+    }
 
 
 
