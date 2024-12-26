@@ -18,6 +18,9 @@ const PIXEL_ART_ANIME_YOTSUBA_NAKANO = 'anime-yotsuba-nakano';
 const PIXEL_ART_ANIME_NINO_NAKANO = 'anime-nino-nakano';
 const PIXEL_ART_ANIME_ICHIKA_NAKANO = 'anime-ichika-nakano';
 
+const PIXEL_ART_ANIME_MINICODE_ANIMATION_V1 = 'anime-minicode-animation-v1';
+const PIXEL_ART_ANIME_MINICODE_ANIMATION_V2 = 'anime-minicode-animation-v2';
+
 
 const PIXEL_ART_ITEM_DESK = 'item-desk';
 const PIXEL_ART_ITEM_WHITEBOARD = 'item-whiteboard';
@@ -49,6 +52,8 @@ export {
     PIXEL_ART_ANIME_NINO_NAKANO,
     PIXEL_ART_ANIME_ICHIKA_NAKANO,
 
+    PIXEL_ART_ANIME_MINICODE_ANIMATION_V1,
+    PIXEL_ART_ANIME_MINICODE_ANIMATION_V2,
 
     PIXEL_ART_ITEM_DESK,
     PIXEL_ART_ITEM_WHITEBOARD,

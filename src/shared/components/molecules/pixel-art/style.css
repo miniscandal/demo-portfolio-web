@@ -17,6 +17,9 @@
 @import url('./characters/anime-original/nino-nakano.css');
 @import url('./characters/anime-original/ichika-nakano.css');
 
+@import url('./characters/anime-original/minicode-animation-v1.css');
+@import url('./characters/anime-original/minicode-animation-v2.css');
+
 @import url('./items/desk.css');
 @import url('./items/whiteboard.css');
 @import url('./items/microwave-steins-gate.css');
@@ -166,6 +169,30 @@
             }
         }
     }
+
+    &.art-anime-minicode-animation-v1 {
+        &.regular {
+            width: 12rem;
+            height: 12.5rem;
+
+            > div {
+                transform: scale(1.2);
+            }
+        }
+    }
+
+    &.art-anime-minicode-animation-v2 {
+        &.regular {
+            width: 12rem;
+            height: 12.5rem;
+
+            > div {
+                transform: scale(1.2);
+            }
+        }
+    }
+
+
 
     &.art-item-whiteboard {
         &.regular {
