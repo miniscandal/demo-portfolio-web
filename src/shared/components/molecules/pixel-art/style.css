@@ -170,27 +170,21 @@
         }
     }
 
-    &.art-anime-minicode-animation-v1 {
-        &.regular {
-            width: 12rem;
-            height: 12.5rem;
-
-            > div {
-                transform: scale(1.2);
-            }
-        }
-    }
-
     &.art-anime-minicode-animation-v2 {
         &.regular {
-            width: 12rem;
-            height: 12.5rem;
+            width: 19.7rem;
+            height: 20.9rem;
 
             > div {
-                transform: scale(1.2);
+                transform: scale(2);
             }
         }
     }
+
+
+
+
+
 
 
 
@@ -330,6 +324,18 @@
 
             > div {
                 transform: scale(1);
+            }
+        }
+    }
+
+
+    &.art-anime-minicode-animation-v1 {
+        &.regular {
+            width: 19.7rem;
+            height: 20.9rem;
+
+            > div {
+                transform: scale(2);
             }
         }
     }

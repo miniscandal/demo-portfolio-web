@@ -2,7 +2,6 @@ import { Title } from '@shared-atoms/title';
 import { PixelArt } from '@shared-molecules/pixel-art';
 import { Paragraph } from '@shared-atoms/paragraph';
 
-import { PIXEL_ART_ANIME_MINICODE_ANIMATION_V1 } from '@shared-molecules/pixel-art/variants';
 import { PIXEL_ART_ANIME_MINICODE_ANIMATION_V2 } from '@shared-molecules/pixel-art/variants';
 
 import './style.css';
