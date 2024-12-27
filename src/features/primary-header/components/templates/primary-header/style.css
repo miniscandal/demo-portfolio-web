@@ -2,9 +2,10 @@
     position: relative;
     overflow: hidden;
 
-    > .primary-header__div--image {
+    > .primary-header__div--background {
         height: 90vh;
-        position: relative;
+
+        /* position: relative;
 
         &::after {
             content: '';
@@ -21,9 +22,15 @@
 
         @media (width < 45rem) {
             height: 20rem;
-        }
+        } */
     }
 
+    > .primary-header__div--content {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /* 
     > .primary-header__div--professional-data {
         position: absolute;
         bottom: 0;
@@ -64,4 +71,6 @@
             right: -5%;
         }
     }
+    */
+
 }
