@@ -7,6 +7,8 @@ import { AboutMe } from '@feat-about-me-templates/index';
 
 import { HeaderContent } from '@feat-primary-header-organisms/header-content';
 
+import { ChessboardNav } from '@feat-primary-header-organisms/chessboard-nav';
+
 import './App.css';
 
 
@@ -14,12 +16,10 @@ function App() {
 
     return (
         <>
-            <PrimaryHeader />
-            {/*
             <scroll-container>
                 <PrimaryHeader />
                 <main>
-                    <scroll-page>
+                    {/* <scroll-page>
                         <div>
                             <WorkExperienceHistory />
                         </div>
@@ -38,11 +38,10 @@ function App() {
                         <div>
                             <AboutMe />
                         </div>
-                    </scroll-page>
+                    </scroll-page> */}
                 </main>
-                <PrimaryFooter />
+                {/* <PrimaryFooter /> */}
             </scroll-container>
-            */}
         </>
     );
 }

@@ -1,7 +1,6 @@
+import { SquareShapeAnchorTag } from '@feat-primary-header-molecules/square-shaped-anchor-tag';
+
 import { UnorderedList } from '@shared-molecules/unordered-list';
-
-import { SquareShapeAnchorTag } from '../../molecules/square-shaped-anchor-tag';
-
 import { WORK_EXPERIENCE } from '@shared-constants/anchor-id';
 import { TECHNICAL_COMPETENCIES_AND_EXPERTISE } from '@shared-constants/anchor-id';
 import { PERSONAL_PROJECTS } from '@shared-constants/anchor-id';

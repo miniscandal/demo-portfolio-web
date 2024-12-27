@@ -4,27 +4,23 @@
     flex-wrap: wrap;
 
     > .header-content__nav {
-        overflow: hidden;
 
         > .chessboard-nav {
-            transform: rotate(25deg) translateX(4rem);
+
+            .paragraph {
+                transform: rotate(-45deg);
+            }
         }
     }
 
     > .header-content__section {
         display: flex;
         flex-direction: column;
-        align-self: flex-end;
         margin-right: auto;
+        align-self: flex-end;
 
         > .character-speech {
             order: -1;
-        }
-    }
-
-    @media (width < 60rem) {
-        > .header-content__nav {
-            aspect-ratio: 1 / 0.9;
         }
     }
 }
