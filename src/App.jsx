@@ -14,7 +14,7 @@ function App() {
 
     return (
         <>
-            <HeaderContent />
+            <PrimaryHeader />
             {/*
             <scroll-container>
                 <PrimaryHeader />

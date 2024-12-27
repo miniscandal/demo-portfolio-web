@@ -5,8 +5,6 @@
 
     > .header-content__nav {
         overflow: hidden;
-        user-select: none;
-        aspect-ratio: 1 / 0.85;
 
         > .chessboard-nav {
             transform: rotate(25deg) translateX(4rem);
@@ -18,10 +16,15 @@
         flex-direction: column;
         align-self: flex-end;
         margin-right: auto;
-        gap: var(--gap-organism);
 
         > .character-speech {
             order: -1;
+        }
+    }
+
+    @media (width < 60rem) {
+        > .header-content__nav {
+            aspect-ratio: 1 / 0.9;
         }
     }
 }
