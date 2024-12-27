@@ -47,6 +47,9 @@
             "@feat-primary-header-templates/*": [
                 "features/primary-header/components/templates/*"
             ],
+            "@feat-primary-header-contexts/*": [
+                "features/primary-header/contexts/*"
+            ],
             "@feat-primary-footer-molecules/*": [
                 "features/primary-footer/components/molecules/*"
             ],
