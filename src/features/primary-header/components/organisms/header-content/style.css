@@ -1,0 +1,27 @@
+.header-content {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+
+    > .header-content__nav {
+        overflow: hidden;
+        user-select: none;
+        aspect-ratio: 1 / 0.85;
+
+        > .chessboard-nav {
+            transform: rotate(25deg) translateX(4rem);
+        }
+    }
+
+    > .header-content__section {
+        display: flex;
+        flex-direction: column;
+        align-self: flex-end;
+        margin-right: auto;
+        gap: var(--gap-organism);
+
+        > .character-speech {
+            order: -1;
+        }
+    }
+}
