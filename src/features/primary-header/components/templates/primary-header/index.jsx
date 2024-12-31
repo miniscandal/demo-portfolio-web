@@ -1,9 +1,6 @@
-import { Image } from '@shared-atoms/image';
-
 import { HeaderContent } from '@feat-primary-header-organisms/header-content';
-
+import { Image } from '@shared-atoms/image';
 import srcPhoto from '@assets-images/photo-me/main-3.jpg';
-
 import './style.css';
 
 

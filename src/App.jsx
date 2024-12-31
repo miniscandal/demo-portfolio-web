@@ -5,10 +5,6 @@ import { PersonalSoftwareProjects } from '@feat-personal-software-projects-pages
 import { ProfessionalProfile } from '@feat-professional-profile-templates/index';
 import { AboutMe } from '@feat-about-me-templates/index';
 
-import { HeaderContent } from '@feat-primary-header-organisms/header-content';
-
-import { ChessboardNav } from '@feat-primary-header-organisms/chessboard-nav';
-
 import './App.css';
 
 
@@ -19,7 +15,7 @@ function App() {
             <scroll-container>
                 <PrimaryHeader />
                 <main>
-                    {/* <scroll-page>
+                    <scroll-page>
                         <div>
                             <WorkExperienceHistory />
                         </div>
@@ -38,9 +34,9 @@ function App() {
                         <div>
                             <AboutMe />
                         </div>
-                    </scroll-page> */}
+                    </scroll-page>
                 </main>
-                {/* <PrimaryFooter /> */}
+                <PrimaryFooter />
             </scroll-container>
         </>
     );

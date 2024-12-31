@@ -1,14 +1,10 @@
 import { ChessboardNav } from '@feat-primary-header-organisms/chessboard-nav';
-
-import { ProfessionalInformationProvider } from '@feat-primary-header-contexts/professional-information';
-
-import { ProfessionalContactProvider } from '@shared-contexts/professional-contact';
-
-import { CharacterSpeech } from '@shared-molecules/character-speech';
 import { ProfessionalInformation } from '@feat-primary-header-organisms/professional-information';
+import { ProfessionalInformationProvider } from '@feat-primary-header-contexts/professional-information';
+import { ProfessionalContactProvider } from '@shared-contexts/professional-contact';
+import { CharacterSpeech } from '@shared-molecules/character-speech';
 import { ProfessionalContact } from '@shared-organisms/professional-contact';
-
-import { PIXEL_ART_ANIME_UMI } from '@shared-molecules/pixel-art/variants';
+import { PIXEL_ART_ANIME_MINICODE_ANIMATION_V3 } from '@shared-molecules/pixel-art/variants';
 
 import './style.css';
 
@@ -16,7 +12,7 @@ import './style.css';
 function HeaderContent() {
     const characterSpeech = {
         text: 'Hello World!',
-        character: PIXEL_ART_ANIME_UMI
+        character: PIXEL_ART_ANIME_MINICODE_ANIMATION_V3
     };
 
 
