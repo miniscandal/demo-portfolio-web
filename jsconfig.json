@@ -22,7 +22,7 @@
             ],
             "@feat-work-experience-history-helpers/*": [
                 "features/work-experience-history/helpers/*"
-            ]
+            ],
             "@feat-personal-software-projects-pages/*": [
                 "features/personal-software-projects/components/pages/*"
             ],
