@@ -19,7 +19,6 @@ export default defineConfig({
             '@shared-resources-data': '/src/shared/resources/data/',
             '@shared-resources-contact': '/src/shared/resources/contact/',
             '@shared-styles': '/src/shared/styles/',
-            '@shared-utils': '/src/shared/utils/',
 
             '@feat-primary-header-molecules': '/src/features/primary-header/components/molecules/',
             '@feat-primary-header-organisms': '/src/features/primary-header/components/organisms/',
@@ -29,6 +28,7 @@ export default defineConfig({
             '@feat-work-experience-history-organisms': '/src/features/work-experience-history/components/organisms/',
             '@feat-work-experience-history-templates': '/src/features/work-experience-history/components/templates/',
             '@feat-work-experience-history-contexts': '/src/features/work-experience-history/contexts/',
+            '@feat-work-experience-history-helpers': '/src/features/work-experience-history/helpers/',
 
             '@feat-primary-footer-molecules': '/src/features/primary-footer/components/molecules/',
             '@feat-primary-footer-organisms': '/src/features/primary-footer/components/organisms/',

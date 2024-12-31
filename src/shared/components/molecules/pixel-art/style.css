@@ -237,18 +237,6 @@
         }
     }
 
-    &.art-item-book {
-
-        &.small {
-            width: 2.9rem;
-            height: 2.4rem;
-
-            > div {
-                transform: scale(0.1);
-            }
-        }
-    }
-
     &.art-item-books {
 
         &.small {
@@ -392,7 +380,17 @@
         }
     }
 
+    &.art-item-book {
 
+        &.small {
+            width: 2.9rem;
+            height: 2.4rem;
+
+            > div {
+                transform: scale(0.1);
+            }
+        }
+    }
 
     &.art-item-sealed-parchment {
 
