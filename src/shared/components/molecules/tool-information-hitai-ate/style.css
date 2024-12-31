@@ -1,0 +1,32 @@
+.tool-information-hitai-ate {
+    width: fit-content;
+    margin: auto;
+
+    > div {
+        &:first-child {
+            width: fit-content;
+            margin: auto;
+        }
+
+        &:last-child {
+            position: relative;
+
+            > .tool-information-hitai-ate__div {
+                position: absolute;
+                top: 50%;
+                right: 3.3%;
+                transform: translateY(-50%);
+                width: 82%;
+                border-top: solid var(--color-charcoal-shadow) 0.3em;
+                border-bottom: solid var(--color-charcoal-shadow) 0.3em;
+                padding: var(--padding-simple-molecule);
+                filter: sepia(0.4);
+
+                > .paragraph {
+                    font-family: Yoruka;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
