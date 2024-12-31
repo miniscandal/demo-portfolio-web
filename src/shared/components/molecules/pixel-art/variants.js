@@ -20,6 +20,7 @@ const PIXEL_ART_ANIME_ICHIKA_NAKANO = 'anime-ichika-nakano';
 
 const PIXEL_ART_ANIME_MINICODE_ANIMATION_V1 = 'anime-minicode-animation-v1';
 const PIXEL_ART_ANIME_MINICODE_ANIMATION_V2 = 'anime-minicode-animation-v2';
+const PIXEL_ART_ANIME_MINICODE_ANIMATION_V3 = 'anime-minicode-animation-v3';
 
 
 const PIXEL_ART_ITEM_DESK = 'item-desk';
@@ -31,6 +32,9 @@ const PIXEL_ART_ITEM_STICKY_NOTE_GROUP = 'item-sticky-note-group';
 const PIXEL_ART_ITEM_BOOK = 'item-book';
 const PIXEL_ART_ITEM_BOOKS = 'item-books';
 const PIXEL_ART_ITEM_DIALOG = 'item-dialog';
+const PIXEL_ART_ITEM_HITAI_ATE = 'item-hitai-ate';
+const PIXEL_ART_ITEM_PARCHMENT = 'item-parchment';
+const PIXEL_ART_ITEM_SEALED_PARCHMENT = 'item-sealed-parchment';
 
 export {
     PIXEL_ART_ANIME_UMI,
@@ -55,6 +59,7 @@ export {
 
     PIXEL_ART_ANIME_MINICODE_ANIMATION_V1,
     PIXEL_ART_ANIME_MINICODE_ANIMATION_V2,
+    PIXEL_ART_ANIME_MINICODE_ANIMATION_V3,
 
     PIXEL_ART_ITEM_DESK,
     PIXEL_ART_ITEM_WHITEBOARD,
@@ -64,5 +69,8 @@ export {
     PIXEL_ART_ITEM_STICKY_NOTE_GROUP,
     PIXEL_ART_ITEM_BOOK,
     PIXEL_ART_ITEM_BOOKS,
-    PIXEL_ART_ITEM_DIALOG
+    PIXEL_ART_ITEM_DIALOG,
+    PIXEL_ART_ITEM_HITAI_ATE,
+    PIXEL_ART_ITEM_PARCHMENT,
+    PIXEL_ART_ITEM_SEALED_PARCHMENT
 };

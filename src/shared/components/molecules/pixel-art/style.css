@@ -19,6 +19,7 @@
 
 @import url('./characters/anime-original/minicode-animation-v1.css');
 @import url('./characters/anime-original/minicode-animation-v2.css');
+@import url('./characters/anime-original/minicode-animation-v3.css');
 
 @import url('./items/desk.css');
 @import url('./items/whiteboard.css');
@@ -29,6 +30,8 @@
 @import url('./items/book.css');
 @import url('./items/books.css');
 @import url('./items/dialog.css');
+@import url('./items/hitai-ate.css');
+@import url('./items/parchment.css');
 
 
 .pixel-art {
@@ -183,6 +186,17 @@
         }
     }
 
+    &.art-anime-minicode-animation-v3 {
+        &.regular {
+            width: 9.5rem;
+            height: 18.5rem;
+
+            > div {
+                transform: scale(1.8);
+            }
+        }
+    }
+
 
 
 
@@ -258,6 +272,32 @@
             }
         }
     }
+
+    &.art-item-hitai-ate {
+
+        &.regular {
+            width: 13.5rem;
+            height: 5rem;
+
+            > div {
+                transform: scale(1);
+            }
+        }
+    }
+
+    &.art-item-parchment {
+
+        &.regular {
+            width: 15.8rem;
+            height: 7.3rem;
+
+            > div {
+                transform: scale(0.75);
+            }
+        }
+    }
+
+
 
 
 
@@ -352,6 +392,19 @@
         }
     }
 
+
+
+    &.art-item-sealed-parchment {
+
+        &.regular {
+            width: 16.8rem;
+            height: 5.9rem;
+
+            > div {
+                transform: scale(1.2);
+            }
+        }
+    }
 
     &.art-anime-itsuki-nakano,
     &.art-anime-miku-nakano,
