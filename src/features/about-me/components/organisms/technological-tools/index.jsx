@@ -1,5 +1,5 @@
 import { Title } from '@shared-atoms/title';
-import { ToolInformation } from '@shared-molecules/tool-information';
+import { ToolInformationHitaiAte } from '@shared-molecules/tool-information-hitai-ate';
 import { SkillsImplementedWork } from '@shared-organisms/skills-implemented-work';
 
 import { en as technologiesToolsData } from '@shared-resources-data/glossaries/technological-tools.json';
@@ -14,24 +14,24 @@ function TechnologicalTools() {
     };
     const currentSpecializationTools = {
         textTitle: 'Current Specialization',
-        skills: ['java', 'springBoot', 'mySQL', 'javaScript', 'html', 'css'],
+        skills: ['java', 'springBoot', 'mySQL'],
         skillsInformation: technologiesToolsData,
-        Component: ToolInformation,
-        columns: 2
+        Component: ToolInformationHitaiAte,
+        columns: 0
     };
     const developmentEnvironmentTools = {
         textTitle: 'Development Environment',
         skills: ['linux', 'python', 'git'],
         skillsInformation: technologiesToolsData,
-        Component: ToolInformation,
-        columns: 2
+        Component: ToolInformationHitaiAte,
+        columns: 3
     };
     const activeInterestLearningTools = {
         textTitle: 'Active Learning Interest',
-        skills: ['angular', 'react', 'typeScript'],
+        skills: ['javaScript', 'html', 'css', 'angular', 'react', 'typeScript'],
         skillsInformation: technologiesToolsData,
-        Component: ToolInformation,
-        columns: 2
+        Component: ToolInformationHitaiAte,
+        columns: 3
     };
 
     return (
