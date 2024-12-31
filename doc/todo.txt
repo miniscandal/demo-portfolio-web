@@ -5,6 +5,8 @@ cSpell: disable
 
 ⚝ Manga development
 
+⚝ Update descriptive names to semantic names
+
 panel one:
 description / expected results
 
