@@ -1,0 +1,8 @@
+.time {
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+
+    &.regular {
+        font-size: 1em;
+    }
+}

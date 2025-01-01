@@ -1,0 +1,432 @@
+@import url('./characters/anime-original/komi.css');
+@import url('./characters/anime-original/kurisu.css');
+@import url('./characters/anime-original/rintaro.css');
+@import url('./characters/anime-original/todoroki.css');
+@import url('./characters/anime-original/umi.css');
+@import url('./characters/anime-original/kanao.css');
+
+@import url('./characters/anime-original/itsuki-nakano-card.css');
+@import url('./characters/anime-original/miku-nakano-card.css');
+@import url('./characters/anime-original/yotsuba-nakano-card.css');
+@import url('./characters/anime-original/nino-nakano-card.css');
+@import url('./characters/anime-original/ichika-nakano-card.css');
+
+@import url('./characters/anime-original/itsuki-nakano.css');
+@import url('./characters/anime-original/miku-nakano.css');
+@import url('./characters/anime-original/yotsuba-nakano.css');
+@import url('./characters/anime-original/nino-nakano.css');
+@import url('./characters/anime-original/ichika-nakano.css');
+
+@import url('./characters/anime-original/itsuki-nakano-animation.css');
+@import url('./characters/anime-original/miku-nakano-animation.css');
+@import url('./characters/anime-original/yotsuba-nakano-animation.css');
+@import url('./characters/anime-original/nino-nakano-animation.css');
+@import url('./characters/anime-original/ichika-nakano-animation.css');
+
+@import url('./characters/anime-original/minicode-animation-v1.css');
+@import url('./characters/anime-original/minicode-animation-v2.css');
+@import url('./characters/anime-original/minicode-animation-v3.css');
+
+@import url('./items/desk.css');
+@import url('./items/whiteboard.css');
+@import url('./items/microwave-steins-gate.css');
+@import url('./items/computers-steins-gate.css');
+@import url('./items/sticky-note-single.css');
+@import url('./items/sticky-note-group.css');
+@import url('./items/book.css');
+@import url('./items/books.css');
+@import url('./items/dialog.css');
+@import url('./items/hitai-ate.css');
+@import url('./items/parchment.css');
+
+
+.pixel-art {
+    > div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &.show-box {
+        background-color: var(--color-steel-grey);
+    }
+
+    &.art-anime-umi {
+        &.regular {
+            width: 8rem;
+            height: 13.2rem;
+
+            > div {
+                transform: scale(0.8);
+            }
+        }
+    }
+
+    &.art-anime-rintaro {
+        &.regular {
+            width: 8.5rem;
+            height: 13.2rem;
+
+            > div {
+                transform: scale(0.8);
+            }
+        }
+    }
+
+    &.art-item-desk {
+        &.regular {
+            width: 19.5rem;
+            height: 17rem;
+
+            > div {
+                transform: scale(1.5);
+            }
+        }
+    }
+
+    &.art-item-microwave-steins-gate {
+        &.regular {
+            width: 7rem;
+            height: 6rem;
+
+            > div {
+                transform: scale(0.5);
+            }
+        }
+    }
+
+    &.art-item-computers-steins-gate {
+        &.regular {
+            width: 20rem;
+            height: 23rem;
+
+            > div {
+                transform: scale(0.9);
+            }
+        }
+    }
+
+    &.art-anime-kanao {
+        &.regular {
+            width: 9rem;
+            height: 13.5rem;
+
+            > div {
+                transform: scale(1.3);
+            }
+        }
+
+        &.small {
+            width: 17.6rem;
+            height: 31.7rem;
+
+            > div {
+                transform: scale(0.7);
+            }
+        }
+    }
+
+    &.art-anime-itsuki-nakano-card {
+        &.regular {
+            width: 13rem;
+            height: 14.5rem;
+
+            > div {
+                transform: scale(1.2);
+            }
+        }
+    }
+
+    &.art-anime-miku-nakano-card {
+        &.regular {
+            width: 13rem;
+            height: 14.5rem;
+
+            > div {
+                transform: scale(1.2);
+            }
+        }
+    }
+
+    &.art-anime-yotsuba-nakano-card {
+        &.regular {
+            width: 13rem;
+            height: 14.5rem;
+
+            > div {
+                transform: scale(1.2);
+            }
+        }
+    }
+
+    &.art-anime-ichika-nakano-card {
+        &.regular {
+            width: 13rem;
+            height: 14.5rem;
+
+            > div {
+                transform: scale(1.2);
+            }
+        }
+    }
+
+    &.art-anime-nino-nakano-card {
+        &.regular {
+            width: 13rem;
+            height: 14.5rem;
+
+            > div {
+                transform: scale(1.2);
+            }
+        }
+    }
+
+    &.art-anime-minicode-animation-v2 {
+        &.regular {
+            width: 19.7rem;
+            height: 20.9rem;
+
+            > div {
+                transform: scale(2);
+            }
+        }
+    }
+
+    &.art-anime-minicode-animation-v3 {
+        &.regular {
+            width: 9.5rem;
+            height: 18.5rem;
+
+            > div {
+                transform: scale(1.8);
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+    &.art-item-whiteboard {
+        &.regular {
+            width: 22.5rem;
+            height: 28.5rem;
+
+            > div {
+                transform: scale(2.2);
+            }
+        }
+    }
+
+    &.art-item-sticky-note-single {
+        &.regular {
+            width: 2.4rem;
+            height: 2.5rem;
+
+            > div {
+                transform: scale(0.3);
+            }
+        }
+    }
+
+    &.art-item-sticky-note-group {
+        &.regular {
+            width: 3rem;
+            height: 2rem;
+
+            > div {
+                transform: scale(0.3);
+            }
+        }
+    }
+
+    &.art-item-books {
+
+        &.small {
+            width: 3rem;
+            height: 2.2rem;
+
+            > div {
+                transform: scale(0.16);
+            }
+        }
+    }
+
+    &.art-item-dialog {
+
+        &.regular {
+            width: 36.5rem;
+            height: 24.5rem;
+
+            > div {
+                transform: scale(1.6);
+            }
+        }
+    }
+
+    &.art-item-hitai-ate {
+
+        &.regular {
+            width: 13.5rem;
+            height: 5rem;
+
+            > div {
+                transform: scale(1);
+            }
+        }
+    }
+
+    &.art-item-parchment {
+
+        &.regular {
+            width: 15.8rem;
+            height: 7.3rem;
+
+            > div {
+                transform: scale(0.75);
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    &.art-anime-komi {
+        &.regular {
+            width: 8.3rem;
+            height: 12.5rem;
+
+            > div {
+                transform: scale(0.6);
+            }
+        }
+
+        &.small {
+            width: 8.6rem;
+            height: 14.8rem;
+
+            > div {
+                transform: scale(0.9);
+            }
+        }
+    }
+
+    &.art-anime-kurisu {
+        &.regular {
+            width: 9rem;
+            height: 13rem;
+
+            > div {
+                transform: scale(1.3);
+            }
+        }
+
+        &.small {
+            width: 17.6rem;
+            height: 31.7rem;
+
+            > div {
+                transform: scale(0.7);
+            }
+        }
+    }
+
+    &.art-anime-todoroki {
+        &.regular {
+            width: 5.4rem;
+            height: 9rem;
+
+            > div {
+                transform: scale(0.38);
+            }
+        }
+    }
+
+
+    &.art-anime-hinata {
+        &.regular {
+            width: 6.5rem;
+            height: 9rem;
+
+            > div {
+                transform: scale(1);
+            }
+        }
+    }
+
+
+    &.art-anime-minicode-animation-v1 {
+        &.regular {
+            width: 19.7rem;
+            height: 20.9rem;
+
+            > div {
+                transform: scale(2);
+            }
+        }
+    }
+
+    &.art-item-book {
+
+        &.small {
+            width: 2.9rem;
+            height: 2.4rem;
+
+            > div {
+                transform: scale(0.1);
+            }
+        }
+    }
+
+    &.art-item-sealed-parchment {
+
+        &.regular {
+            width: 16.8rem;
+            height: 5.9rem;
+
+            > div {
+                transform: scale(1.2);
+            }
+        }
+    }
+
+    &.art-anime-itsuki-nakano,
+    &.art-anime-miku-nakano,
+    &.art-anime-yotsuba-nakano,
+    &.art-anime-nino-nakano,
+    &.art-anime-ichika-nakano,
+    &.art-anime-itsuki-nakano-animation,
+    &.art-anime-miku-nakano-animation,
+    &.art-anime-yotsuba-nakano-animation,
+    &.art-anime-nino-nakano-animation,
+    &.art-anime-ichika-nakano-animation {
+        &.regular {
+            width: 10.6rem;
+            height: 15.3rem;
+
+            > div {
+                transform: scale(1);
+            }
+        }
+    }
+}

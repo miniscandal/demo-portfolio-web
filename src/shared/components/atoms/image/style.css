@@ -20,14 +20,14 @@
         height: auto;
     }
 
+    &.my-photo {
+        max-width: 26rem;
+    }
+
     &.cover {
         > img {
             object-fit: cover;
         }
-    }
-
-    &.my-photo {
-        max-width: 26rem;
     }
 
     &.contain {
