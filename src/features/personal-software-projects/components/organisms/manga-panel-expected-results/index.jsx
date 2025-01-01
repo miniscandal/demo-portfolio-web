@@ -5,9 +5,9 @@ import { MangaContext } from '@feat-personal-software-projects-contexts/manga-co
 import { Title } from '@shared-atoms/title';
 import { CharacterSpeech } from '@shared-molecules/character-speech';
 
-import { PIXEL_ART_ANIME_KURISU } from '@shared-molecules/pixel-art/variants';
-import { PIXEL_ART_ITEM_COMPUTERS_STEINS_GATE } from '@shared-molecules/pixel-art/variants';
-import { PixelArt } from '@shared-molecules/pixel-art';
+import { PIXEL_ART_ANIME_KURISU } from '@shared-atoms/pixel-art/variants';
+import { PIXEL_ART_ITEM_COMPUTERS_STEINS_GATE } from '@shared-atoms/pixel-art/variants';
+import { PixelArt } from '@shared-atoms/pixel-art';
 
 import './style.css';
 

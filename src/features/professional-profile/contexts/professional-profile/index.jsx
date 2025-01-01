@@ -8,11 +8,11 @@ import { Terminal } from '@shared-atoms/icon-font-svg/variants';
 import { EditNote } from '@shared-atoms/icon-font-svg/variants';
 import { Database } from '@shared-atoms/icon-font-svg/variants';
 
-import { PIXEL_ART_ANIME_MIKU_NAKANO_CARD } from '@shared-molecules/pixel-art/variants';
-import { PIXEL_ART_ANIME_ITSUKI_NAKANO_CARD } from '@shared-molecules/pixel-art/variants';
-import { PIXEL_ART_ANIME_YOTSUBA_NAKANO_CARD } from '@shared-molecules/pixel-art/variants';
-import { PIXEL_ART_ANIME_ICHIKA_NAKANO_CARD } from '@shared-molecules/pixel-art/variants';
-import { PIXEL_ART_ANIME_NINO_NAKANO_CARD } from '@shared-molecules/pixel-art/variants';
+import { PIXEL_ART_ANIME_MIKU_NAKANO_CARD } from '@shared-atoms/pixel-art/variants';
+import { PIXEL_ART_ANIME_ITSUKI_NAKANO_CARD } from '@shared-atoms/pixel-art/variants';
+import { PIXEL_ART_ANIME_YOTSUBA_NAKANO_CARD } from '@shared-atoms/pixel-art/variants';
+import { PIXEL_ART_ANIME_ICHIKA_NAKANO_CARD } from '@shared-atoms/pixel-art/variants';
+import { PIXEL_ART_ANIME_NINO_NAKANO_CARD } from '@shared-atoms/pixel-art/variants';
 
 const {
     computerSystemEngineering,

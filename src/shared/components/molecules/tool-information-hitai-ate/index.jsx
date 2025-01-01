@@ -1,8 +1,8 @@
 import { Paragraph } from '@shared-atoms/paragraph';
 import { HitaiAte } from '@shared-molecules/hitai-ate';
-import { PixelArt } from '@shared-molecules/pixel-art';
+import { PixelArt } from '@shared-atoms/pixel-art';
 
-import { PIXEL_ART_ITEM_PARCHMENT } from '@shared-molecules/pixel-art/variants';
+import { PIXEL_ART_ITEM_PARCHMENT } from '@shared-atoms/pixel-art/variants';
 
 import './style.css';
 

@@ -1,7 +1,7 @@
 import { Title } from '@shared-atoms/title';
 import { PixelArtDialog8Bit } from '@feat-about-me-molecules/pixel-art-dialog-8-bit';
 
-import { PIXEL_ART_ANIME_MINICODE_ANIMATION_V2 } from '@shared-molecules/pixel-art/variants';
+import { PIXEL_ART_ANIME_MINICODE_ANIMATION_V2 } from '@shared-atoms/pixel-art/variants';
 
 import './style.css';
 

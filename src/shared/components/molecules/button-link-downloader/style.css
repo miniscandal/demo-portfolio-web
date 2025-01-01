@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     gap: var(--gap-molecule);
-    text-align: center;
+    width: fit-content;
     text-decoration: none;
     font-size: 1rem;
     color: var(--color-light);
@@ -12,8 +12,4 @@
     padding: var(--padding-molecule);
     border-radius: var(--border-radius-molecule);
     background-color: var(--color-olive-green);
-
-    &.olive-green {
-        background-color: var(--color-olive-green);
-    }
 }

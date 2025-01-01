@@ -1,8 +1,8 @@
-import { PixelArt } from '@shared-molecules/pixel-art';
+import { PixelArt } from '@shared-atoms/pixel-art';
 import { Paragraph } from '@shared-atoms/paragraph';
 
-import { PIXEL_ART_ITEM_DIALOG } from '@shared-molecules/pixel-art/variants';
-import { PIXEL_ART_ANIME_UMI } from '@shared-molecules/pixel-art/variants';
+import { PIXEL_ART_ITEM_DIALOG } from '@shared-atoms/pixel-art/variants';
+import { PIXEL_ART_ANIME_UMI } from '@shared-atoms/pixel-art/variants';
 
 import './style.css';
 

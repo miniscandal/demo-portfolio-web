@@ -7,11 +7,15 @@ import { AboutMe } from '@feat-about-me-templates/index';
 
 import './App.css';
 
+import { ButtonLinkDownloader } from '@shared-molecules/button-link-downloader';
+import { CharacterSpeech } from '@shared-molecules/character-speech';
+
 
 function App() {
 
     return (
         <>
+            <CharacterSpeech />
             <scroll-container>
                 {/* <main>
                     <scroll-page>

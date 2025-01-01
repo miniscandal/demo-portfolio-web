@@ -1,8 +1,8 @@
 import { Title } from '@shared-atoms/title';
 import { Paragraph } from '@shared-atoms/paragraph';
 import { IconFontSvg } from '@shared-atoms/icon-font-svg';
-import { PixelArt } from '@shared-molecules/pixel-art';
-import { PIXEL_ART_ANIME_ITSUKI_NAKANO_CARD } from '@shared-molecules/pixel-art/variants';
+import { PixelArt } from '@shared-atoms/pixel-art';
+import { PIXEL_ART_ANIME_ITSUKI_NAKANO_CARD } from '@shared-atoms/pixel-art/variants';
 
 import './style.css';
 

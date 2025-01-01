@@ -4,7 +4,7 @@ import { ProfessionalInformationProvider } from '@feat-primary-header-contexts/p
 import { ProfessionalContactProvider } from '@shared-contexts/professional-contact';
 import { CharacterSpeech } from '@shared-molecules/character-speech';
 import { ProfessionalContact } from '@shared-organisms/professional-contact';
-import { PIXEL_ART_ANIME_MINICODE_ANIMATION_V3 } from '@shared-molecules/pixel-art/variants';
+import { PIXEL_ART_ANIME_MINICODE_ANIMATION_V3 } from '@shared-atoms/pixel-art/variants';
 
 import './style.css';
 

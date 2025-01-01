@@ -1,8 +1,8 @@
 import { MangaDialog } from '@shared-molecules/manga-dialog';
 
-import { PixelArt } from '@shared-molecules/pixel-art';
+import { PixelArt } from '@shared-atoms/pixel-art';
 
-import { PIXEL_ART_ANIME_UMI } from '@shared-molecules/pixel-art/variants';
+import { PIXEL_ART_ANIME_UMI } from '@shared-atoms/pixel-art/variants';
 
 import './style.css';
 

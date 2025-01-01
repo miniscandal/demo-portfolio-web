@@ -3,14 +3,14 @@ import { useState, useContext } from 'react';
 import { MangaContext } from '@feat-personal-software-projects-contexts/manga-context';
 
 import { Title } from '@shared-atoms/title';
-import { PixelArt } from '@shared-molecules/pixel-art';
+import { PixelArt } from '@shared-atoms/pixel-art';
 import { CharacterSpeech } from '@shared-molecules/character-speech';
 import { HitBoxButton } from '@shared-molecules/hit-box-button';
 
-import { PIXEL_ART_ANIME_KANAO } from '@shared-molecules/pixel-art/variants';
-import { PIXEL_ART_ITEM_STICKY_NOTE_SINGLE } from '@shared-molecules/pixel-art/variants';
-import { PIXEL_ART_ITEM_STICKY_NOTE_GROUP } from '@shared-molecules/pixel-art/variants';
-import { PIXEL_ART_ITEM_WHITEBOARD } from '@shared-molecules/pixel-art/variants';
+import { PIXEL_ART_ANIME_KANAO } from '@shared-atoms/pixel-art/variants';
+import { PIXEL_ART_ITEM_STICKY_NOTE_SINGLE } from '@shared-atoms/pixel-art/variants';
+import { PIXEL_ART_ITEM_STICKY_NOTE_GROUP } from '@shared-atoms/pixel-art/variants';
+import { PIXEL_ART_ITEM_WHITEBOARD } from '@shared-atoms/pixel-art/variants';
 
 import './style.css';
 

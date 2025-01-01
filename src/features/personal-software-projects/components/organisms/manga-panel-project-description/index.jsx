@@ -5,12 +5,12 @@ import { MangaContext } from '@feat-personal-software-projects-contexts/manga-co
 import { Title } from '@shared-atoms/title';
 import { NextStepButton } from '@shared-molecules/next-step-button';
 import { CharacterSpeech } from '@shared-molecules/character-speech';
-import { PixelArt } from '@shared-molecules/pixel-art';
+import { PixelArt } from '@shared-atoms/pixel-art';
 import { HitBoxButton } from '@shared-molecules/hit-box-button';
 
-import { PIXEL_ART_ANIME_RINTARO } from '@shared-molecules/pixel-art/variants';
-import { PIXEL_ART_ITEM_DESK } from '@shared-molecules/pixel-art/variants';
-import { PIXEL_ART_ITEM_MICROWAVE_STEINS_GATE } from '@shared-molecules/pixel-art/variants';
+import { PIXEL_ART_ANIME_RINTARO } from '@shared-atoms/pixel-art/variants';
+import { PIXEL_ART_ITEM_DESK } from '@shared-atoms/pixel-art/variants';
+import { PIXEL_ART_ITEM_MICROWAVE_STEINS_GATE } from '@shared-atoms/pixel-art/variants';
 
 import './style.css';
 

@@ -1,7 +1,7 @@
-import { PixelArt } from '@shared-molecules/pixel-art';
+import { PixelArt } from '@shared-atoms/pixel-art';
 import { Paragraph } from '@shared-atoms/paragraph';
 
-import { PIXEL_ART_ITEM_BOOKS } from '@shared-molecules/pixel-art/variants';
+import { PIXEL_ART_ITEM_BOOKS } from '@shared-atoms/pixel-art/variants';
 
 import './style.css';
 

@@ -1,7 +1,7 @@
 import { Icon } from '@shared-atoms/icon';
-import { PixelArt } from '@shared-molecules/pixel-art';
+import { PixelArt } from '@shared-atoms/pixel-art';
 
-import { PIXEL_ART_ITEM_HITAI_ATE } from '@shared-molecules/pixel-art/variants';
+import { PIXEL_ART_ITEM_HITAI_ATE } from '@shared-atoms/pixel-art/variants';
 
 import './style.css';
 
