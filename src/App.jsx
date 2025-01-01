@@ -9,13 +9,14 @@ import './App.css';
 
 import { ButtonLinkDownloader } from '@shared-molecules/button-link-downloader';
 import { CharacterSpeech } from '@shared-molecules/character-speech';
+import { MangaDialog } from '@shared-molecules/manga-dialog';
 
 
 function App() {
 
     return (
         <>
-            <CharacterSpeech />
+            <MangaDialog />
             <scroll-container>
                 {/* <main>
                     <scroll-page>

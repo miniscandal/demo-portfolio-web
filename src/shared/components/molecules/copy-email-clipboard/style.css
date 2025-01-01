@@ -44,7 +44,7 @@
 
     &:hover {
         &::before {
-            opacity: 1;
+            filter: opacity(1);
             width: 100%;
             height: 100%;
         }

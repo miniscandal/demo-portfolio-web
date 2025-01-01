@@ -61,9 +61,9 @@ function MangaDialog({
     return (
         <div className={`manga-dialog ${size}`}>
             <div className='manga-dialog__div'>
-                <div>
-                    <Paragraph {...paragraph} />
-                </div>
+                <Paragraph {...paragraph} />
+            </div>
+            <div>
             </div>
         </div>
     );
