@@ -11,8 +11,8 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            padding: var(--padding-molecule);
             border-radius: 50%;
+            padding: var(--padding-molecule);
             background-color: var(--color-light);
         }
     }
