@@ -7,13 +7,13 @@ import { AboutMe } from '@feat-about-me-templates/index';
 
 import './App.css';
 
+
 function App() {
 
     return (
         <>
             <scroll-container>
-                <PrimaryHeader />
-                <main>
+                {/* <main>
                     <scroll-page>
                         <div>
                             <WorkExperienceHistory />
@@ -35,7 +35,7 @@ function App() {
                         </div>
                     </scroll-page>
                 </main>
-                <PrimaryFooter />
+                <PrimaryFooter /> */}
             </scroll-container>
         </>
     );

@@ -1,4 +1,4 @@
-import { SquareShapeAnchorTag } from '@feat-primary-header-molecules/square-shaped-anchor-tag';
+import { TextBoxOverlay } from '@feat-primary-header-molecules/text-box-overlay';
 
 import { UnorderedList } from '@shared-molecules/unordered-list';
 import { WORK_EXPERIENCE } from '@shared-constants/anchor-id';
@@ -46,7 +46,7 @@ function ChessboardNav() {
     const squareShapeAnchorLinks = {
         Component: (({ idAnchor, ...values }) => (
             <a href={`#${idAnchor}`} tabIndex={idAnchor ? undefined : -1}>
-                <SquareShapeAnchorTag {...values} size='auto' />
+                <TextBoxOverlay {...values} size='auto' />
             </a>
         )),
         items

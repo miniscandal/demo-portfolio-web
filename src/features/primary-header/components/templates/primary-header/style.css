@@ -11,12 +11,12 @@
                 position: absolute;
                 inset: 0;
                 background-color: var(--color-slate-gray);
-                filter: opacity(0.65);
+                filter: opacity(0.5);
             }
         }
     }
 
-    > .header-content {
+    > .primary-header__div--content {
         position: relative;
         padding-left: var(--padding-molecule);
         padding-bottom: var(--padding-molecule);

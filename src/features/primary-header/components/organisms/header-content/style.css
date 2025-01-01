@@ -3,16 +3,6 @@
     flex-direction: row-reverse;
     flex-wrap: wrap;
 
-    > .header-content__nav {
-
-        > .chessboard-nav {
-
-            .paragraph {
-                transform: rotate(-45deg);
-            }
-        }
-    }
-
     > .header-content__section {
         display: flex;
         flex-direction: column;

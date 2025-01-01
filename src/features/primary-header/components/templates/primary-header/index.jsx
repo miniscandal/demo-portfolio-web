@@ -1,6 +1,9 @@
 import { HeaderContent } from '@feat-primary-header-organisms/header-content';
+
 import { Image } from '@shared-atoms/image';
+
 import srcPhoto from '@assets-images/photo-me/main-3.jpg';
+
 import './style.css';
 
 
@@ -17,7 +20,9 @@ function PrimaryHeader() {
             <div className='primary-header__div--background'>
                 <Image {...image} />
             </div>
-            <HeaderContent />
+            <div className='primary-header__div--content'>
+                <HeaderContent />
+            </div>
         </header>
     );
 }
