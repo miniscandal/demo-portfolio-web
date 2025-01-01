@@ -17,6 +17,12 @@
 @import url('./characters/anime-original/nino-nakano.css');
 @import url('./characters/anime-original/ichika-nakano.css');
 
+@import url('./characters/anime-original/itsuki-nakano-animation.css');
+@import url('./characters/anime-original/miku-nakano-animation.css');
+@import url('./characters/anime-original/yotsuba-nakano-animation.css');
+@import url('./characters/anime-original/nino-nakano-animation.css');
+@import url('./characters/anime-original/ichika-nakano-animation.css');
+
 @import url('./characters/anime-original/minicode-animation-v1.css');
 @import url('./characters/anime-original/minicode-animation-v2.css');
 @import url('./characters/anime-original/minicode-animation-v3.css');
@@ -408,13 +414,18 @@
     &.art-anime-miku-nakano,
     &.art-anime-yotsuba-nakano,
     &.art-anime-nino-nakano,
-    &.art-anime-ichika-nakano {
+    &.art-anime-ichika-nakano,
+    &.art-anime-itsuki-nakano-animation,
+    &.art-anime-miku-nakano-animation,
+    &.art-anime-yotsuba-nakano-animation,
+    &.art-anime-nino-nakano-animation,
+    &.art-anime-ichika-nakano-animation {
         &.regular {
-            width: 13rem;
-            height: 14.5rem;
+            width: 10.6rem;
+            height: 15.3rem;
 
             > div {
-                transform: scale(1.2);
+                transform: scale(1);
             }
         }
     }
