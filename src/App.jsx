@@ -7,9 +7,6 @@ import { AboutMe } from '@feat-about-me-templates/index';
 
 import './App.css';
 
-import { TextBoxOverlay } from '@feat-primary-header-molecules/text-box-overlay';
-import { ChessboardNav } from '@feat-primary-header-organisms/chessboard-nav';
-
 
 function App() {
 
