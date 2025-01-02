@@ -7,16 +7,13 @@ import { AboutMe } from '@feat-about-me-templates/index';
 
 import './App.css';
 
-import { ButtonLinkDownloader } from '@shared-molecules/button-link-downloader';
-import { CharacterSpeech } from '@shared-molecules/character-speech';
-import { MangaDialog } from '@shared-molecules/manga-dialog';
-
+import { CopyEmailClipboard } from '@shared-molecules/copy-email-clipboard';
 
 function App() {
 
     return (
         <>
-            <MangaDialog />
+            <CopyEmailClipboard />
             <scroll-container>
                 {/* <main>
                     <scroll-page>
