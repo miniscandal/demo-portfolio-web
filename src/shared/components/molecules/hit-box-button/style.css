@@ -20,14 +20,14 @@
 
 @keyframes shadow-animation {
     0% {
-        box-shadow: 0 0 0 0 #ffffff00;
+        box-shadow: 0 0 0 0 transparent;
     }
 
     50% {
-        box-shadow: 0 0 1em 0.2em #9856be;
+        box-shadow: 0 0 1em 0.2em var(--color-violet-dusk);
     }
 
     100% {
-        box-shadow: 0 0 0 0 #ffffff00;
+        box-shadow: 0 0 0 0 transparent;
     }
 }

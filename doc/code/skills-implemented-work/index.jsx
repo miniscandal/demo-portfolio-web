@@ -35,10 +35,8 @@ function SkillsImplementedWork({
 
     return (
         <section className={`skills-implemented-work ${classList.join(' ')}`}>
-            <div className='skills-implemented-work__div'>
-                <Title {...title} />
-            </div>
-            <div className='skills-implemented-work__div--skills'>
+            <Title {...title} />
+            <div>
                 {components}
             </div>
         </section>

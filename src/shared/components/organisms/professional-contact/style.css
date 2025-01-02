@@ -1,19 +1,20 @@
 .professional-contact {
+    width: fit-content;
     display: flex;
     flex-wrap: wrap;
     gap: var(--gap-molecule);
 
-    > .professional-contact__div--social-network {
-        display: flex;
-        gap: var(--gap-molecule);
-    }
+    > .professional-contact__div {
+        &:first-child {
+            display: flex;
+            gap: var(--gap-molecule);
+            align-self: flex-end;
+        }
 
-    > .professional-contact__div--email {
-        align-self: flex-end;
-    }
+        &:last-child {
 
-    > .professional-contact__div--social-network {
-        align-self: flex-end;
+            align-self: flex-end;
+        }
     }
 
     &.reverse {

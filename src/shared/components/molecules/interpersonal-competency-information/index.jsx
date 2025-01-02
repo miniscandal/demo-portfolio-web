@@ -4,7 +4,7 @@ import './style.css';
 
 
 function InterpersonalCompetencyInformation({
-    name: text = 'interpersonal competency'
+    name: text = 'Interpersonal Competency'
 }) {
     const paragraph = {
         text

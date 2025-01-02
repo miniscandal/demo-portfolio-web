@@ -7,11 +7,14 @@ import { PIXEL_ART_ITEM_PARCHMENT } from '@shared-atoms/pixel-art/variants';
 import './style.css';
 
 
-function ToolInformationHitaiAte({
+function KonohaKit({
     name: text = 'Tool',
     iconSrc = undefined,
     color: bgColor = 'lightpink'
 }) {
+    const styles = {
+        backgroundColor: bgColor
+    };
     const pixelArt = {
         character: PIXEL_ART_ITEM_PARCHMENT
     };
@@ -25,13 +28,13 @@ function ToolInformationHitaiAte({
     };
 
     return (
-        <div className='tool-information-hitai-ate'>
-            <div>
+        <div className='konoha-kit'>
+            <div className='konoha-kit__div'>
                 <HitaiAte {...hitaiAte} />
             </div>
-            <div>
+            <div className='konoha-kit__div'>
                 <PixelArt{...pixelArt} />
-                <div className='tool-information-hitai-ate__div' style={{ backgroundColor: bgColor }}>
+                <div className='konoha-kit__div--tech-tool' style={styles}>
                     <Paragraph {...paragraph} />
                 </div>
             </div>
@@ -41,4 +44,4 @@ function ToolInformationHitaiAte({
 }
 
 
-export { ToolInformationHitaiAte };
+export { KonohaKit };

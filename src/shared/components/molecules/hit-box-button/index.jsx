@@ -1,7 +1,14 @@
 import './style.css';
 
 
-function HitBoxButton({ children, onClickCallback, readingMode = false, dataSet = { index: null } }) {
+function HitBoxButton({
+    children,
+    onClickCallback,
+    readingMode = false,
+    dataSet = {
+        index: null
+    }
+}) {
     const classList = [
         readingMode ? 'reading-mode' : ''
     ];

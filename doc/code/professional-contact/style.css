@@ -1,0 +1,22 @@
+.professional-contact {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--gap-molecule);
+
+    > .professional-contact__div--social-network {
+        display: flex;
+        gap: var(--gap-molecule);
+    }
+
+    > .professional-contact__div--email {
+        align-self: flex-end;
+    }
+
+    > .professional-contact__div--social-network {
+        align-self: flex-end;
+    }
+
+    &.reverse {
+        flex-direction: row-reverse;
+    }
+}

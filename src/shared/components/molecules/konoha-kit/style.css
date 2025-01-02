@@ -1,8 +1,7 @@
-.tool-information-hitai-ate {
+.konoha-kit {
     width: fit-content;
-    margin: auto;
 
-    > div {
+    > .konoha-kit__div {
         &:first-child {
             width: fit-content;
             margin: auto;
@@ -11,14 +10,14 @@
         &:last-child {
             position: relative;
 
-            > .tool-information-hitai-ate__div {
+            > .konoha-kit__div--tech-tool {
                 position: absolute;
                 top: 50%;
                 right: 3.3%;
                 transform: translateY(-50%);
                 width: 82%;
-                border-top: solid var(--color-charcoal-shadow) 0.3em;
-                border-bottom: solid var(--color-charcoal-shadow) 0.3em;
+                border: solid var(--color-charcoal-shadow);
+                border-width: 0 var(--border-regular-width);
                 padding: var(--padding-simple-molecule);
                 filter: sepia(0.4);
 

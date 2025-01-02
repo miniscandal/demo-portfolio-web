@@ -10,6 +10,9 @@ function KnowledgeInformation({
     name: text = 'Knowledge Information',
     color: bgColor = 'lightpink',
 }) {
+    const styles = {
+        backgroundColor: bgColor
+    };
     const pixelArtBook = {
         size: 'small',
         character: PIXEL_ART_ITEM_BOOKS
@@ -19,11 +22,9 @@ function KnowledgeInformation({
     };
 
     return (
-        <div className='knowledge-information' style={{ backgroundColor: bgColor }}>
+        <div className='knowledge-information' style={styles}>
             <Paragraph {...paragraph} />
-            <div>
-                <PixelArt {...pixelArtBook} />
-            </div>
+            <PixelArt {...pixelArtBook} />
         </div>
     );
 }

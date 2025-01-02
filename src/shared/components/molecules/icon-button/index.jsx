@@ -1,15 +1,16 @@
 import { IconFontSvg } from '@shared-atoms/icon-font-svg';
 
-import { Terminal } from '@shared-atoms/icon-font-svg/variants';
-
 import './style.css';
 
 
 function IconButton({
     size = 'regular',
-    svg = Terminal,
+    svg,
     handleClick = () => { }
 }) {
+    const classList = [
+        size
+    ];
     const iconFontSvg = {
         svg,
         color: 'charcoal-grey',
@@ -17,7 +18,7 @@ function IconButton({
     };
 
     return (
-        <button className={`icon-button ${size}`} onClick={handleClick}>
+        <button className={`icon-button ${classList.join(' ')}`} onClick={handleClick}>
             <IconFontSvg {...iconFontSvg} />
         </button>
     );

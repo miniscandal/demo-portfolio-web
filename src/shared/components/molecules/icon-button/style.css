@@ -1,12 +1,11 @@
 .icon-button {
     cursor: pointer;
-    background: none;
-    border: none;
-    border-radius: var(--border-radius-molecule);
+    background: transparent;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: dashed var(--color-charcoal-grey) 1px;
+    border-radius: var(--border-radius-molecule);
+    border: dashed var(--color-charcoal-grey) var(--border-regular-width);
 
     .icon-font-svg {
         transition: var(--transition-transform);
@@ -18,6 +17,6 @@
     }
 
     &:hover {
-        box-shadow: 0 0 0.5rem;
+        box-shadow: 0 0 0.5em;
     }
 }

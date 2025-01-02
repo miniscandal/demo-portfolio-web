@@ -9,6 +9,9 @@ function NextStepButton({
     text = 'Next Step',
     size = 'regular'
 }) {
+    const classList = [
+        size
+    ];
     const paragraph = {
         text,
         color: 'light'
@@ -20,14 +23,12 @@ function NextStepButton({
     };
 
     return (
-        <div className={`next-step-button ${size}`}>
-            <div>
-                <div className='paragraph__div'>
-                    <Paragraph {...paragraph} />
-                </div>
-                <div className='icon-font-svg__div'>
-                    <IconFontSvg {...iconFontSvg} />
-                </div>
+        <div className={`next-step-button ${classList.join(' ')}`}>
+            <div className='next-step-button__div'>
+                <Paragraph {...paragraph} />
+            </div>
+            <div className='next-step-button__div'>
+                <IconFontSvg {...iconFontSvg} />
             </div>
         </div>
     );

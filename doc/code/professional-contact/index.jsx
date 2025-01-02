@@ -34,11 +34,11 @@ function ProfessionalContact({
 
     return (
         <aside className={`professional-contact ${classList.join(' ')}`}>
-            <div className='professional-contact__div'>
+            <div className='professional-contact__div--social-network'>
                 <SocialNetworks {...socialNetworks} />
                 <HyperlinkIcon {...hyperlinkIcon} />
             </div>
-            <div className='professional-contact__div'>
+            <div className='professional-contact__div--email'>
                 <CopyEmailClipboard {...copyEmailClipBoard} />
             </div>
         </aside>

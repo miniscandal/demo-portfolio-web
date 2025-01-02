@@ -9,6 +9,9 @@ function ToolInformation({
     iconSrc = undefined,
     color: bgColor = 'lightpink'
 }) {
+    const styles = {
+        backgroundColor: bgColor
+    };
     const icon = {
         src: iconSrc,
         size: 'small'
@@ -19,14 +22,11 @@ function ToolInformation({
 
     return (
         <div className='tool-information'>
-            <div style={{ backgroundColor: bgColor }}>
+            <div className='tool-information__div' style={styles}>
                 <Paragraph {...paragraph} />
             </div>
-            <div>
-                <Paragraph text={'_'} />
-                <div>
-                    <Icon {...icon} />
-                </div>
+            <div className='tool-information__div'>
+                <Icon {...icon} />
             </div>
         </div>
     );

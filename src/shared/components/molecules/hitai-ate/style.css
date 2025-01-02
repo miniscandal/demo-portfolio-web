@@ -8,15 +8,15 @@
         left: 50%;
         transform: translate(-50%, -50%);
 
-        padding: 0.4rem;
+        padding: var(--padding-atom);
         background-color: var(--color-misty-gray);
         border-radius: var(--border-radius-simple-molecule);
-        box-shadow: 0 0 5px 2px var(--color-charcoal-shadow) inset;
+        box-shadow: 0 0 0.25em 0.15em var(--color-charcoal-shadow) inset;
 
         > div {
-            padding: 0.2rem;
+            padding: var(--padding-simple-atom);
             background-color: var(--color-soft-moss);
-            box-shadow: 0 0 5px 2px var(--color-charcoal-shadow);
+            box-shadow: 0 0 0.25em 0.15em var(--color-charcoal-shadow);
             border-radius: var(--border-radius-atom);
         }
     }

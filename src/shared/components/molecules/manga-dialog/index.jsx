@@ -13,8 +13,11 @@ function MangaDialog({
     const [displayedText, setDisplayedText] = useState('');
     const currentIndex = useRef(0);
     const animationFrame = useRef(null);
-
     const lastUpdateTime = useRef(null);
+
+    const classList = [
+        size
+    ];
 
     useEffect(() => {
         setDisplayedText('');
@@ -59,7 +62,7 @@ function MangaDialog({
     };
 
     return (
-        <div className={`manga-dialog ${size}`}>
+        <div className={`manga-dialog ${classList.join(' ')}`}>
             <div className='manga-dialog__div'>
                 <div>
                     <Paragraph {...paragraph} />

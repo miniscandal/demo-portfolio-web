@@ -1,9 +1,9 @@
 .skills-implemented-work {
-    > .skills-implemented-work__div {
+    .title {
         padding-bottom: var(--padding-organism);
     }
 
-    > .skills-implemented-work__div--skills {
+    > div {
         display: grid;
         gap: var(--gap-organism);
     }
@@ -15,7 +15,7 @@
     }
 
     &.columns-2 {
-        > .skills-implemented-work__div--skills {
+        > div {
             grid-template-columns: repeat(2, 1fr);
 
             @media (width < 25rem) {
@@ -26,13 +26,13 @@
     }
 
     &.columns-3 {
-        > .skills-implemented-work__div--skills {
+        > div {
             grid-template-columns: repeat(3, 1fr);
         }
     }
 
     &.columns-0 {
-        > .skills-implemented-work__div--skills {
+        > div {
             display: flex;
             flex-wrap: wrap;
         }

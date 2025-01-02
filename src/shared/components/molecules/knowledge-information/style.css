@@ -1,17 +1,8 @@
 .knowledge-information {
+    width: fit-content;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    min-width: 12rem;
-    position: relative;
-    text-align: center;
     padding: var(--padding-simple-molecule);
-    border-radius: var(--border-radius-atom);
-
-    > div {
-        position: absolute;
-        top: 50%;
-        right: 0;
-        transform: translateY(-50%);
-    }
+    border-radius: var(--border-radius-molecule);
+    gap: var(--gap-molecule);
 }

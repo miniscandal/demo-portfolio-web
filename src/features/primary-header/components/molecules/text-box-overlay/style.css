@@ -20,8 +20,7 @@
 
     &:hover {
         &::before {
-            transform: var(--scale3d);
-            transform-origin: center center;
+            transform: scale3d(1.15, 1.15, 1.15);
         }
     }
 

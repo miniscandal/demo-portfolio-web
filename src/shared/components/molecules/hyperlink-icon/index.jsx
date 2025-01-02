@@ -3,10 +3,12 @@ import { Icon } from '@shared-atoms/icon';
 import './style.css';
 
 
-function HyperlinkIcon({ href, iconSrc }) {
+function HyperlinkIcon({
+    href,
+    iconSrc
+}) {
     const icon = {
-        src: iconSrc,
-        color: 'light'
+        src: iconSrc
     };
 
     return (

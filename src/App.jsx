@@ -7,15 +7,17 @@ import { AboutMe } from '@feat-about-me-templates/index';
 
 import './App.css';
 
-import { CopyEmailClipboard } from '@shared-molecules/copy-email-clipboard';
+import { TextBoxOverlay } from '@feat-primary-header-molecules/text-box-overlay';
+import { ChessboardNav } from '@feat-primary-header-organisms/chessboard-nav';
+
 
 function App() {
 
     return (
         <>
-            <CopyEmailClipboard />
             <scroll-container>
-                {/* <main>
+                <PrimaryHeader />
+                <main>
                     <scroll-page>
                         <div>
                             <WorkExperienceHistory />
@@ -37,7 +39,7 @@ function App() {
                         </div>
                     </scroll-page>
                 </main>
-                <PrimaryFooter /> */}
+                <PrimaryFooter />
             </scroll-container>
         </>
     );
