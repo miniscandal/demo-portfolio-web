@@ -1,7 +1,7 @@
 .hyperlink-icon {
-    width: fit-content;
     display: block;
     padding: var(--padding-atom);
+    width: fit-content;
     border: solid var(--border-regular-width) var(--color-light-silver);
     border-radius: var(--border-radius-atom);
     cursor: pointer;

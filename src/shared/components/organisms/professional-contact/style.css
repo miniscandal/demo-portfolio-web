@@ -1,5 +1,4 @@
 .professional-contact {
-    width: fit-content;
     display: flex;
     flex-wrap: wrap;
     gap: var(--gap-molecule);

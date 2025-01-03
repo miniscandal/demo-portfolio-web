@@ -258,11 +258,11 @@
     &.art-item-dialog {
 
         &.regular {
-            width: 36.5rem;
-            height: 24.5rem;
+            width: 34rem;
+            height: 24rem;
 
             > div {
-                transform: scale(1.6);
+                transform: scale(3);
             }
         }
     }

@@ -1,6 +1,6 @@
 .knowledge-information {
-    width: fit-content;
     display: flex;
+    justify-content: center;
     align-items: center;
     padding: var(--padding-simple-molecule);
     border-radius: var(--border-radius-molecule);

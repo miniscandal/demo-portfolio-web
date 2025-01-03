@@ -1,10 +1,9 @@
 .professional-approach {
-    > .title {
-        padding-bottom: var(--padding-organism);
-    }
 
-    > div {
-        width: fit-content;
-        margin: auto;
+    > .professional-approach__div {
+        &:first-child {
+            padding-bottom: var(--padding-organism);
+        }
+
     }
 }

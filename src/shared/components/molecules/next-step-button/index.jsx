@@ -24,9 +24,7 @@ function NextStepButton({
 
     return (
         <div className={`next-step-button ${classList.join(' ')}`}>
-            <div className='next-step-button__div'>
-                <Paragraph {...paragraph} />
-            </div>
+            <Paragraph {...paragraph} />
             <div className='next-step-button__div'>
                 <IconFontSvg {...iconFontSvg} />
             </div>

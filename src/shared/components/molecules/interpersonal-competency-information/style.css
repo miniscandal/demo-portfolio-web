@@ -1,5 +1,4 @@
 .interpersonal-competency-information {
-    width: fit-content;
     position: relative;
     padding: var(--padding-simple-molecule);
     border-radius: var(--border-radius-molecule);
@@ -7,6 +6,7 @@
     cursor: pointer;
 
     > .paragraph {
+        text-align: center;
         padding: 0 var(--padding-simple-molecule);
     }
 

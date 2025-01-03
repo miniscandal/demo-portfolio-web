@@ -1,4 +1,7 @@
 .professional-information {
+    display: flex;
+    flex-direction: column;
+
     > .title {
         &.h1 {
             padding-bottom: var(--padding-molecule);
@@ -6,8 +9,8 @@
     }
 
     > .button-link-downloader {
+        margin-right: auto;
         margin-top: var(--padding-simple-organism);
         margin-bottom: var(--padding-simple-organism);
-        width: fit-content;
     }
 }

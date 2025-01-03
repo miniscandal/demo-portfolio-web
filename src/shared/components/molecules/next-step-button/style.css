@@ -1,15 +1,11 @@
 .next-step-button {
     display: flex;
+    align-items: center;
     flex-direction: column;
-    width: fit-content;
     gap: var(--gap-simple-molecule);
 
     > .next-step-button__div {
-        align-self: center;
-
-        &:last-child {
-            animation: press-button 0.5s infinite alternate linear;
-        }
+        animation: press-button 0.5s infinite alternate linear;
     }
 }
 

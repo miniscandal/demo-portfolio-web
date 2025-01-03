@@ -7,16 +7,18 @@ import { PIXEL_ART_ANIME_UMI } from '@shared-atoms/pixel-art/variants';
 import './style.css';
 
 
-function PixelArtDialog8Bit({
-    textMain = 'pixel art dialog 8 bit',
-    textSecondary = 'pixel art dialog 8 bit',
+function PixelArtDialog({
+    textMain = 'Pixel Art Dialog Main',
+    textSecondary = 'Pixel Art Dialog Secondary',
     character = PIXEL_ART_ANIME_UMI
 }) {
     const paragraphOne = {
-        text: textMain
+        text: textMain,
+        color: 'dark'
     };
     const paragraphTwo = {
-        text: textSecondary
+        text: textSecondary,
+        color: 'dark'
     };
     const pixelArtCharacter = {
         character
@@ -27,19 +29,18 @@ function PixelArtDialog8Bit({
 
 
     return (
-        <section className='pixel-art-dialog-8-bit'>
-            <div className='pixel-art-dialog-8-bit__div'>
-                <PixelArt {...pixelArtCharacter} />
-            </div>
-            <div className='pixel-art-dialog-8-bit__div'>
+        <section className='pixel-art-dialog'>
+            <div className='pixel-art-dialog__div'>
                 <PixelArt {...pixelArtItem} />
-                <div className='pixel-art-dialog-8-bit__div--paragraph'>
+                <div className='pixel-art-dialog__div--texts'>
                     <Paragraph {...paragraphOne} />
+                    <Paragraph text={'\n'} />
                     <Paragraph {...paragraphTwo} />
                 </div>
             </div>
+            <PixelArt {...pixelArtCharacter} />
         </section>
     );
 }
 
-export { PixelArtDialog8Bit };
+export { PixelArtDialog };

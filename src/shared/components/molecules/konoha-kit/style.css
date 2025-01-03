@@ -1,10 +1,10 @@
 .konoha-kit {
-    width: fit-content;
+    inline-size: max-content;
 
     > .konoha-kit__div {
         &:first-child {
-            width: fit-content;
-            margin: auto;
+            inline-size: max-content;
+            margin-inline: auto;
         }
 
         &:last-child {

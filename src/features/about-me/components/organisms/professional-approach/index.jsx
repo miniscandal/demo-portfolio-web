@@ -1,5 +1,5 @@
 import { Title } from '@shared-atoms/title';
-import { PixelArtDialog8Bit } from '@feat-about-me-molecules/pixel-art-dialog-8-bit';
+import { PixelArtDialog } from '@feat-about-me-molecules/pixel-art-dialog';
 
 import { PIXEL_ART_ANIME_MINICODE_ANIMATION_V2 } from '@shared-atoms/pixel-art/variants';
 
@@ -12,18 +12,20 @@ function ProfessionalApproach() {
         type: 'h3'
     };
 
-    const pixelArtDialog8Bit = {
-        textMain: `Enfocado en didicar tiempo significativo a mi aprendizaje profesional y desarrollo personal con el objetivo de alcanzar las habilidades de un ingeniero principal de software.`,
-        textSecondary: `Aspiro a guiar e inspirar a futuros ingenieros en formación. Creo firmemente que al apoyar a mis compañeros, avanzaré en mi carrera profesional y enriqueceré aspectos importantes de mi vida.`,
+    const pixelArtDialog = {
+        textMain: 'I am committed to spending meaningful time on professional growth and personal development, aiming to become a skilled principal software engineer.',
+        textSecondary: 'My goal is to inspire and guide future engineers. I strongly believe that supporting my peers will help me grow professionally and enrich my life.',
         character: PIXEL_ART_ANIME_MINICODE_ANIMATION_V2
     };
 
 
     return (
         <section className='professional-approach'>
-            <Title {...title} />
             <div className='professional-approach__div'>
-                <PixelArtDialog8Bit {...pixelArtDialog8Bit} />
+                <Title {...title} />
+            </div>
+            <div className='professional-approach__div'>
+                <PixelArtDialog {...pixelArtDialog} />
             </div>
         </section>
     );

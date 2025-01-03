@@ -1,0 +1,20 @@
+.pixel-art-dialog {
+    display: flex;
+    flex-direction: column;
+
+    > .pixel-art-dialog__div {
+        position: relative;
+        margin-left: auto;
+
+        > .pixel-art-dialog__div--texts {
+            position: absolute;
+            top: 14%;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 85%;
+            font-family: 'Courier New';
+            font-weight: bold;
+            text-align: center;
+        }
+    }
+}

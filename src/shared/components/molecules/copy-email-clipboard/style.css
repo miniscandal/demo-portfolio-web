@@ -1,10 +1,10 @@
 .copy-email-clipboard {
     position: relative;
-    width: fit-content;
     border: solid var(--color-light-silver);
     border-width: 0 var(--border-regular-width);
     padding: 0 var(--padding-simple-molecule);
     user-select: none;
+    text-align: center;
     cursor: pointer;
 
     &.copied-clipboard {

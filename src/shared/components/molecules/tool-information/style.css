@@ -1,5 +1,4 @@
 .tool-information {
-    width: 8rem;
     display: flex;
     flex-direction: column-reverse;
     gap: var(--gap-simple-molecule);
@@ -24,7 +23,7 @@
         }
 
         &:last-child {
-            width: fit-content;
+            margin-right: auto;
             transition: var(--transition-transform), var(--transition-box-shadow);
         }
     }
