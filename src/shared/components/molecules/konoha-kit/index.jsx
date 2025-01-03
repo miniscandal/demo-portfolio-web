@@ -1,30 +1,20 @@
-import { Paragraph } from '@shared-atoms/paragraph';
 import { HitaiAte } from '@shared-molecules/hitai-ate';
-import { PixelArt } from '@shared-atoms/pixel-art';
-
-import { PIXEL_ART_ITEM_PARCHMENT } from '@shared-atoms/pixel-art/variants';
+import { ParchmentName } from '@shared-molecules/parchment-name';
 
 import './style.css';
 
 
 function KonohaKit({
-    name: text = 'Tool',
+    name: text = undefined,
     iconSrc = undefined,
-    color: bgColor = 'lightpink'
+    color: bgColor = undefined
 }) {
-    const styles = {
-        backgroundColor: bgColor
-    };
-    const pixelArt = {
-        character: PIXEL_ART_ITEM_PARCHMENT
+    const parchmentName = {
+        text,
+        bgColor
     };
     const hitaiAte = {
         src: iconSrc
-    };
-    const paragraph = {
-        text,
-        color: '.dark',
-        size: 'semi-regular'
     };
 
     return (
@@ -33,12 +23,8 @@ function KonohaKit({
                 <HitaiAte {...hitaiAte} />
             </div>
             <div className='konoha-kit__div'>
-                <PixelArt{...pixelArt} />
-                <div className='konoha-kit__div--tech-tool' style={styles}>
-                    <Paragraph {...paragraph} />
-                </div>
+                <ParchmentName {...parchmentName} />
             </div>
-
         </div>
     );
 }

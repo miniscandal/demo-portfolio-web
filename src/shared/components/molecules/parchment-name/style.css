@@ -1,0 +1,18 @@
+.parchment-name {
+    position: relative;
+    inline-size: max-content;
+
+    > .parchment-name__div {
+        position: absolute;
+        top: 50%;
+        right: 3.3%;
+        transform: translateY(-50%);
+        width: 82%;
+        height: 42.5%;
+        filter: sepia(0.2);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: Yoruka;
+    }
+}

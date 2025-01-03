@@ -1,31 +1,21 @@
 .konoha-kit {
-    inline-size: max-content;
+    width: fit-content;
+    height: 11rem;
+    position: relative;
+    display: flex;
 
     > .konoha-kit__div {
+
         &:first-child {
-            inline-size: max-content;
-            margin-inline: auto;
+            position: absolute;
+            top: 1rem;
+            right: 0.1rem;
+            transform: rotate(10deg);
+            z-index: 10;
         }
 
         &:last-child {
-            position: relative;
-
-            > .konoha-kit__div--tech-tool {
-                position: absolute;
-                top: 50%;
-                right: 3.3%;
-                transform: translateY(-50%);
-                width: 82%;
-                border: solid var(--color-charcoal-shadow);
-                border-width: 0 var(--border-regular-width);
-                padding: var(--padding-simple-molecule);
-                filter: sepia(0.4);
-
-                > .paragraph {
-                    font-family: Yoruka;
-                    text-align: center;
-                }
-            }
+            margin-top: auto;
         }
     }
 }
