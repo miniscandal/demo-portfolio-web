@@ -5,5 +5,10 @@
             padding-bottom: var(--padding-organism);
         }
 
+        &:last-child {
+            max-width: 45rem;
+            margin: auto;
+        }
+
     }
 }

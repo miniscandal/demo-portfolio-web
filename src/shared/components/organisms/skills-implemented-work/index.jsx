@@ -18,9 +18,6 @@ function SkillsImplementedWork({
     columns = 2,
     color = 'light'
 }) {
-    const classList = [
-        `columns-${columns}`
-    ];
     const title = {
         text: textTitle,
         color,
@@ -34,11 +31,11 @@ function SkillsImplementedWork({
     ));
 
     return (
-        <section className={`skills-implemented-work ${classList.join(' ')}`}>
+        <section className='skills-implemented-work'>
             <div className='skills-implemented-work__div'>
                 <Title {...title} />
             </div>
-            <div className='skills-implemented-work__div--skills'>
+            <div className='skills-implemented-work__div' data-columns={columns}>
                 {components}
             </div>
         </section>
