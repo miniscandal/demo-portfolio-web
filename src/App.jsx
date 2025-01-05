@@ -7,15 +7,16 @@ import { AboutMe } from '@feat-about-me-templates/index';
 
 import './App.css';
 import { ChessboardNav } from '@feat-primary-header-organisms/chessboard-nav';
+import { TextBoxOverlay } from '@feat-primary-header-molecules/text-box-overlay';
 
 
 function App() {
 
     return (
         <>
-            <ChessboardNav />
+            {/* <ChessboardNav /> */}
             <scroll-container>
-                {/* <PrimaryHeader /> */}
+                <PrimaryHeader />
                 <main>
                     <scroll-page>
                         <div>

@@ -20,6 +20,9 @@ function HeaderContent() {
 
     return (
         <div className='header-content'>
+            <nav>
+                <ChessboardNav />
+            </nav>
             <section className='header-content__section'>
                 <ProfessionalInformationProvider>
                     <ProfessionalInformation />
@@ -31,9 +34,6 @@ function HeaderContent() {
                     <CharacterSpeech {...characterSpeech} />
                 </div>
             </section>
-            <nav>
-                <ChessboardNav />
-            </nav>
         </div>
     );
 }

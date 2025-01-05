@@ -6,6 +6,10 @@
 
     > .text-box-overlay__div {
         transform: rotate(-45deg);
+
+        @media (width < 70rem) {
+            text-align: center;
+        }
     }
 
     &.regular {

@@ -16,12 +16,6 @@
         }
     }
 
-    > .primary-header__div--content {
-        position: relative;
-        padding-left: var(--padding-molecule);
-        padding-bottom: var(--padding-molecule);
-    }
-
     @media (width < 60rem) {
         background-color: var(--color-charcoal-grey);
 

@@ -6,10 +6,10 @@ meet the CEO's design requirements.
 
 .header-content {
     display: flex;
-    flex-wrap: wrap-reverse;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
 
     > nav {
-        margin-left: auto;
         padding-bottom: var(--padding-organism);
     }
 
@@ -18,9 +18,6 @@ meet the CEO's design requirements.
         flex-direction: column;
         margin-right: auto;
         align-self: flex-end;
-        z-index: 10;
-        padding-left: var(--padding-viewport);
-        padding-bottom: var(--padding-viewport);
 
         > .header-content__section--div {
             order: -1;

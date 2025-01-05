@@ -1,10 +1,9 @@
 .chessboard-nav {
     > ul {
         display: grid;
-        grid-template-columns: repeat(6, minmax(5rem, 9vw));
-        grid-template-rows: repeat(4, minmax(5rem, 9vw));
+        grid-template-columns: repeat(6, minmax(3.8rem, 9vw));
+        grid-template-rows: repeat(4, minmax(3.8rem, 9vw));
         list-style: none;
-        padding: 1.5rem;
 
         > li {
             > a {
@@ -35,11 +34,6 @@
         > li:nth-child(5) {
             grid-column: 5 / 7;
             grid-row: 3 / 5;
-        }
-
-        @media (width < 40rem) {
-            grid-template-columns: repeat(6, 4rem);
-            grid-template-rows: repeat(4, 4rem);
         }
     }
 }
