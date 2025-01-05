@@ -38,7 +38,7 @@ function RelevantSkillsExperience() {
         skills: socialEmotionalCompetencies,
         skillsInformation: socialEmotionalCompetenciesData,
         Component: InterpersonalCompetencyInformation,
-        columns: 3,
+        columns: 0,
         color: 'royal-blue'
     };
 

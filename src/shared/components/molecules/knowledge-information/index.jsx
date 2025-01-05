@@ -13,7 +13,7 @@ function KnowledgeInformation({
     const styles = {
         backgroundColor: bgColor
     };
-    const pixelArtBook = {
+    const pixelArt = {
         size: 'small',
         character: PIXEL_ART_ITEM_BOOKS
     };
@@ -24,7 +24,9 @@ function KnowledgeInformation({
     return (
         <div className='knowledge-information' style={styles}>
             <Paragraph {...paragraph} />
-            <PixelArt {...pixelArtBook} />
+            <div className='knowledge-information__div'>
+                <PixelArt {...pixelArt} />
+            </div>
         </div>
     );
 }

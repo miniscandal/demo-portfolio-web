@@ -20,4 +20,8 @@
         content: '_';
         animation: var(--animation-blink-character);
     }
+
+    &.nowrap {
+        white-space: nowrap;
+    }
 }

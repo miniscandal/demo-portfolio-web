@@ -1,1 +1,13 @@
-.technological-tools {}
+.technological-tools {
+    > .technological-tools__div {
+        &:first-child {
+            padding-bottom: var(--padding-organism);
+        }
+
+        &:last-child {
+            display: flex;
+            flex-direction: column;
+            gap: var(--gap-organism);
+        }
+    }
+}

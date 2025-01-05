@@ -246,11 +246,11 @@
     &.art-item-books {
 
         &.small {
-            width: 3rem;
-            height: 2.2rem;
+            width: 3.7rem;
+            height: 2.7rem;
 
             > div {
-                transform: scale(0.16);
+                transform: scale(0.2);
             }
         }
     }

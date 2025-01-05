@@ -45,7 +45,7 @@
 
     --padding-uniform: 1.5rem;
     --padding-simple-atom: 0.2rem;
-    --padding-atom: 0.4rem;
+    --padding-atom: 0.5rem;
     --padding-simple-molecule: 0.5rem;
     --padding-molecule: 1rem;
     --padding-simple-organism: 1.5rem;
@@ -64,7 +64,7 @@
     --border-radius-uniform: 1rem;
     --border-radius-atom: 0.25rem;
     --border-radius-simple-molecule: 0.25rem;
-    --border-radius-molecule: 0.5rem;
+    --border-radius-molecule: 0.4rem;
     --border-radius-organism: 2rem;
     --border-radius-container: 2.5rem;
 

@@ -7,7 +7,8 @@ function InterpersonalCompetencyInformation({
     name: text = 'Interpersonal Competency'
 }) {
     const paragraph = {
-        text
+        text,
+        nowrap: true
     };
 
     return (

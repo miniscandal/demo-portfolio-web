@@ -7,18 +7,6 @@
 
         &:first-child {
             text-align: center;
-
-            &:hover {
-                cursor: pointer;
-
-                + .tool-information__div {
-                    .tool-information__div--logo {
-                        transform: translateX(0.5em);
-                        box-shadow:
-                            calc(var(--box-shadow-offset) * -1) var(--box-shadow-offset) var(--box-shadow-blur) var(--box-shadow-spread) var(--box-shadow-color);
-                    }
-                }
-            }
         }
 
         &:last-child {
@@ -26,14 +14,26 @@
 
             > .tool-information__div--logo {
                 position: absolute;
-                top: 0;
                 left: 0;
-                padding: var(--padding-atom);
+                bottom: 0;
+                padding: 0.5rem;
                 background-color: var(--color-light-silver);
                 transition: var(--transition-transform), var(--transition-box-shadow);
 
                 &:hover {
-                    transform: translateX(0.5em);
+                    transform: translateX(0.25em);
+                    box-shadow:
+                        calc(var(--box-shadow-offset) * -1) var(--box-shadow-offset) var(--box-shadow-blur) var(--box-shadow-spread) var(--box-shadow-color);
+                }
+            }
+        }
+
+        &:hover {
+            cursor: pointer;
+
+            + .tool-information__div {
+                .tool-information__div--logo {
+                    transform: translateX(0.25em);
                     box-shadow:
                         calc(var(--box-shadow-offset) * -1) var(--box-shadow-offset) var(--box-shadow-blur) var(--box-shadow-spread) var(--box-shadow-color);
                 }

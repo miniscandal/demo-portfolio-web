@@ -7,13 +7,17 @@ import { AboutMe } from '@feat-about-me-templates/index';
 
 import './App.css';
 
+import { InterpersonalCompetencyInformation } from '@shared-molecules/interpersonal-competency-information';
+import { KnowledgeInformation } from '@shared-molecules/knowledge-information';
+
 
 function App() {
 
     return (
         <>
+            <KnowledgeInformation />
             <scroll-container>
-                <PrimaryHeader />
+                {/* <PrimaryHeader /> */}
                 <main>
                     <scroll-page>
                         <div>
@@ -22,7 +26,7 @@ function App() {
                     </scroll-page>
                     <scroll-page>
                         <div>
-                            <PersonalSoftwareProjects />
+                            {/* <PersonalSoftwareProjects /> */}
                         </div>
                     </scroll-page>
                     <scroll-page>
@@ -32,7 +36,7 @@ function App() {
                     </scroll-page>
                     <scroll-page>
                         <div>
-                            <AboutMe />
+                            {/* <AboutMe /> */}
                         </div>
                     </scroll-page>
                 </main>

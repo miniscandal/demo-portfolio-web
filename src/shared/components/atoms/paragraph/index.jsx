@@ -8,12 +8,14 @@ function Paragraph({
     size = 'regular',
     color = 'light',
     cursorAnimation = false,
-    children
+    children,
+    nowrap = false
 }) {
     const classList = [
         size,
         color,
-        cursorAnimation ? 'animation_cursor' : ''
+        cursorAnimation ? 'animation_cursor' : '',
+        nowrap ? 'nowrap' : ''
     ];
 
     return (

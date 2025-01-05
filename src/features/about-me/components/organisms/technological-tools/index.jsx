@@ -17,26 +17,31 @@ function TechnologicalTools() {
         skills: ['java', 'springBoot', 'mySQL'],
         skillsInformation: technologiesToolsData,
         Component: KonohaKit,
-        columns: 0
+        columns: 3,
+        itemsCenter: !true
     };
     const developmentEnvironmentTools = {
         textTitle: 'Development Environment',
         skills: ['linux', 'python', 'git'],
         skillsInformation: technologiesToolsData,
         Component: KonohaKit,
-        columns: 3
+        columns: 3,
+        itemsCenter: true
     };
     const activeInterestLearningTools = {
         textTitle: 'Active Learning Interest',
         skills: ['javaScript', 'html', 'css', 'angular', 'react', 'typeScript'],
         skillsInformation: technologiesToolsData,
         Component: KonohaKit,
-        columns: 3
+        columns: 3,
+        itemsCenter: true
     };
 
     return (
         <section className='technological-tools'>
-            <Title {...title} />
+            <div className='technological-tools__div'>
+                <Title {...title} />
+            </div>
             <div className='technological-tools__div'>
                 <SkillsImplementedWork {...currentSpecializationTools} />
                 <SkillsImplementedWork {...developmentEnvironmentTools} />

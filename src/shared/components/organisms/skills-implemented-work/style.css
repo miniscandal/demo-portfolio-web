@@ -17,8 +17,9 @@
                 grid-template-columns: repeat(2, 1fr);
             }
 
-            &[data-columns='3'] {
-                grid-template-columns: repeat(3, auto);
+            &[data-columns='0'] {
+                display: flex;
+                flex-wrap: wrap;
             }
         }
     }

@@ -17,14 +17,22 @@ function WorkDateRange({
     },
     color = 'light'
 }) {
+    const { start, end } = employmentDuration;
     const paragraph = {
         color
     };
-    const { start, end } = employmentDuration;
+    const timeStart = {
+        color,
+        start
+    };
+    const timeEnd = {
+        color,
+        end
+    };
 
     return (
         <Paragraph {...paragraph}>
-            <Time {...start} /> {'\u00a0'} - {'\u00a0'} <Time {...end} />
+            <Time {...timeStart} /> {'\u00a0'} - {'\u00a0'} <Time {...timeEnd} />
         </Paragraph>
     );
 }
