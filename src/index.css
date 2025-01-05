@@ -47,7 +47,7 @@
     --padding-simple-atom: 0.2rem;
     --padding-atom: 0.5rem;
     --padding-simple-molecule: 0.5rem;
-    --padding-molecule: 1rem;
+    --padding-molecule: 0.75rem;
     --padding-simple-organism: 1.5rem;
     --padding-organism: 4rem;
     --padding-simple-container: 6rem;
@@ -55,7 +55,7 @@
 
     --gap-uniform: 1.5rem;
     --gap-simple-molecule: 0.5rem;
-    --gap-molecule: 1rem;
+    --gap-molecule: 0.75rem;
     --gap-simple-organism: 1.5rem;
     --gap-organism: 2rem;
     --gap-simple-container: 4rem;

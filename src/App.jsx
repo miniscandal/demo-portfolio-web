@@ -6,22 +6,20 @@ import { ProfessionalProfile } from '@feat-professional-profile-templates/index'
 import { AboutMe } from '@feat-about-me-templates/index';
 
 import './App.css';
-
-import { InterpersonalCompetencyInformation } from '@shared-molecules/interpersonal-competency-information';
-import { KnowledgeInformation } from '@shared-molecules/knowledge-information';
+import { ChessboardNav } from '@feat-primary-header-organisms/chessboard-nav';
 
 
 function App() {
 
     return (
         <>
-            <KnowledgeInformation />
+            <ChessboardNav />
             <scroll-container>
                 {/* <PrimaryHeader /> */}
                 <main>
                     <scroll-page>
                         <div>
-                            <WorkExperienceHistory />
+                            {/* <WorkExperienceHistory /> */}
                         </div>
                     </scroll-page>
                     <scroll-page>
@@ -31,7 +29,7 @@ function App() {
                     </scroll-page>
                     <scroll-page>
                         <div>
-                            <ProfessionalProfile />
+                            {/* <ProfessionalProfile /> */}
                         </div>
                     </scroll-page>
                     <scroll-page>

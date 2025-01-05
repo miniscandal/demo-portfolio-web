@@ -18,7 +18,8 @@ function KnowledgeInformation({
         character: PIXEL_ART_ITEM_BOOKS
     };
     const paragraph = {
-        text
+        text,
+        nowrap: true
     };
 
     return (
