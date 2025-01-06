@@ -15,7 +15,7 @@
     &::after {
         content: '';
         position: absolute;
-        inset: calc(var(--padding-molecule) / 2);
+        inset: var(--padding-simple-molecule);
         border: dashed var(--border-regular-width) var(--color-misty-gray);
         transition: inset var(--transition-seconds) linear;
     }

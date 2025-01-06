@@ -1,5 +1,5 @@
 import { HitaiAte } from '@shared-molecules/hitai-ate';
-import { ParchmentName } from '@shared-molecules/parchment-name';
+import { ParchmentToolName } from '@shared-molecules/parchment-tool-name';
 
 import './style.css';
 
@@ -9,7 +9,7 @@ function KonohaKit({
     iconSrc = undefined,
     color: bgColor = undefined
 }) {
-    const parchmentName = {
+    const parchmentToolName = {
         text,
         bgColor
     };
@@ -23,7 +23,7 @@ function KonohaKit({
                 <HitaiAte {...hitaiAte} />
             </div>
             <div className='konoha-kit__div'>
-                <ParchmentName {...parchmentName} />
+                <ParchmentToolName {...parchmentToolName} />
             </div>
         </div>
     );

@@ -1,21 +1,15 @@
 .konoha-kit {
     width: fit-content;
-    height: 11rem;
+    aspect-ratio: 1 / 0.8;
     position: relative;
-    display: flex;
+    align-content: end;
 
     > .konoha-kit__div {
 
         &:first-child {
             position: absolute;
-            top: 1rem;
-            right: 0.1rem;
-            transform: rotate(10deg);
-            z-index: 10;
-        }
-
-        &:last-child {
-            margin-top: auto;
+            top: 0;
+            right: 0;
         }
     }
 }

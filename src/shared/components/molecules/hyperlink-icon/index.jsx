@@ -5,14 +5,18 @@ import './style.css';
 
 function HyperlinkIcon({
     href,
-    iconSrc
+    iconSrc,
+    size = 'regular'
 }) {
+    const classList = [
+        size
+    ];
     const icon = {
         src: iconSrc
     };
 
     return (
-        <a className='hyperlink-icon' href={href} target='_blank'>
+        <a className={`hyperlink-icon ${classList.join(' ')}`} href={href} target='_blank'>
             <Icon {...icon} />
         </a>
     );

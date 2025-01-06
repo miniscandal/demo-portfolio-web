@@ -7,7 +7,7 @@ import './style.css';
 function ToolInformation({
     name: text = 'Tool',
     iconSrc = undefined,
-    color: bgColor = 'lightpink'
+    color: bgColor = '#ffffff'
 }) {
     const styles = {
         backgroundColor: bgColor

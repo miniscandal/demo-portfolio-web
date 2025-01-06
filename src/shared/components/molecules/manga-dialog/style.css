@@ -1,20 +1,16 @@
 .manga-dialog {
-    font-family: 'Yoruka';
-
     > .manga-dialog__div {
         height: 100%;
         border-radius: 50%;
-        border: solid var(--border-radius-atom) var(--color-dark);
+        border: solid var(--border-regular-width) var(--color-dark);
 
         > div {
             height: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            align-content: center;
             border-radius: 50%;
             text-align: center;
-            padding: var(--padding-molecule);
             background-color: var(--color-light);
+            font-family: 'Yoruka';
         }
     }
 
@@ -25,8 +21,8 @@
         height: 1.5rem;
         margin: auto;
         transform: translateY(-1em) rotate(45deg);
-        border-right: solid var(--border-radius-atom) var(--color-dark);
-        border-bottom: solid var(--border-radius-atom) var(--color-dark);
+        border-right: solid var(--border-regular-width) var(--color-dark);
+        border-bottom: solid var(--border-regular-width) var(--color-dark);
         background-color: var(--color-light);
     }
 

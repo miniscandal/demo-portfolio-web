@@ -6,7 +6,7 @@ import './style.css';
 function Paragraph({
     text = paragraph,
     size = 'regular',
-    color = 'light',
+    color = 'dark',
     cursorAnimation = false,
     children,
     nowrap = false

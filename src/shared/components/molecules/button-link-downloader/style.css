@@ -1,9 +1,8 @@
 .button-link-downloader {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
     align-items: center;
-    justify-content: center;
-    gap: var(--gap-molecule);
     text-decoration: none;
     font-size: 1rem;
     color: var(--color-light);

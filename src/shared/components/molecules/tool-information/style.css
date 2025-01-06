@@ -1,4 +1,5 @@
 .tool-information {
+    margin: 10rem;
     display: flex;
     flex-direction: column-reverse;
 
@@ -13,7 +14,7 @@
 
                 + .tool-information__div {
                     .tool-information__div--logo {
-                        transform: translateX(0.5em);
+                        transform: translateX(var(--padding-atom));
                         box-shadow:
                             calc(var(--box-shadow-offset) * -1) var(--box-shadow-offset) var(--box-shadow-blur) var(--box-shadow-spread) var(--box-shadow-color);
                     }
@@ -33,7 +34,7 @@
                 transition: var(--transition-transform), var(--transition-box-shadow);
 
                 &:hover {
-                    transform: translateX(0.5em);
+                    transform: translateX(var(--padding-atom));
                     box-shadow:
                         calc(var(--box-shadow-offset) * -1) var(--box-shadow-offset) var(--box-shadow-blur) var(--box-shadow-spread) var(--box-shadow-color);
                 }

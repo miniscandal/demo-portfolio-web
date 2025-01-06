@@ -1,22 +1,13 @@
 .icon-button {
-    cursor: pointer;
-    background: transparent;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: block;
+    justify-items: center;
+    background-color: transparent;
+    border: dashed var(--border-regular-width) var(--color-charcoal-grey);
     border-radius: var(--border-radius-molecule);
-    border: dashed var(--color-charcoal-grey) var(--border-regular-width);
-
-    .icon-font-svg {
-        transition: var(--transition-transform);
-    }
+    cursor: pointer;
 
     &.regular {
         width: 4rem;
         height: 4rem;
-    }
-
-    &:hover {
-        box-shadow: 0 0 0.5em;
     }
 }

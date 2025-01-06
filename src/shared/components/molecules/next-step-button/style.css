@@ -1,17 +1,15 @@
 .next-step-button {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    gap: var(--gap-simple-molecule);
+    justify-items: center;
 
     > .next-step-button__div {
+        padding-top: var(--padding-simple-molecule);
         animation: press-button 0.5s infinite alternate linear;
     }
 }
 
 @keyframes press-button {
     from {
-        transform: translateY(calc(var(--gap-simple-molecule) * -1));
+        transform: translateY(calc(var(--padding-simple-molecule) * -1));
         filter: opacity(0.6);
         opacity: 0.6;
     }

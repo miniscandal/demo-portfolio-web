@@ -6,8 +6,8 @@ import { PIXEL_ART_ITEM_PARCHMENT } from '@shared-atoms/pixel-art/variants';
 import './style.css';
 
 
-function ParchmentName({
-    text = 'Parchment Name',
+function ParchmentToolName({
+    text = 'Parchment Tool Name',
     bgColor = 'lightpink'
 }) {
     const styles = {
@@ -17,20 +17,18 @@ function ParchmentName({
         character: PIXEL_ART_ITEM_PARCHMENT
     };
     const paragraph = {
-        text,
-        color: '.dark',
-        size: 'semi-regular'
+        text
     };
 
 
     return (
-        <div className='parchment-name'>
+        <div className='parchment-tool-name'>
             <PixelArt{...pixelArt} />
-            <div className='parchment-name__div' style={styles}>
+            <div className='parchment-tool-name__div' style={styles}>
                 <Paragraph {...paragraph} />
             </div>
         </div>
     );
 }
 
-export { ParchmentName };
+export { ParchmentToolName };

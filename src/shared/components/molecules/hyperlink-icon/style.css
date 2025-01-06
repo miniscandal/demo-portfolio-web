@@ -1,12 +1,13 @@
 .hyperlink-icon {
     display: block;
-    padding: var(--padding-atom);
-    width: fit-content;
+    justify-items: center;
+    align-content: center;
     border: solid var(--border-regular-width) var(--color-light-silver);
-    border-radius: var(--border-radius-atom);
+    border-radius: var(--border-radius-molecule);
     cursor: pointer;
 
-    &:hover {
-        box-shadow: var(--box-shadow-inset);
+    &.regular {
+        width: 4rem;
+        height: 4rem;
     }
 }
