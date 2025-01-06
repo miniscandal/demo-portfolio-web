@@ -19,6 +19,7 @@ function KnowledgeInformation({
     };
     const paragraph = {
         text,
+        color: 'light',
         nowrap: true
     };
 

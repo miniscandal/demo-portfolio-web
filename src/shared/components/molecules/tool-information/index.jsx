@@ -7,7 +7,7 @@ import './style.css';
 function ToolInformation({
     name: text = 'Tool',
     iconSrc = undefined,
-    color: bgColor = '#ffffff'
+    color: bgColor = '#494949'
 }) {
     const styles = {
         backgroundColor: bgColor
@@ -17,7 +17,8 @@ function ToolInformation({
         size: 'small'
     };
     const paragraph = {
-        text
+        text,
+        color: 'light'
     };
 
     return (

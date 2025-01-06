@@ -23,7 +23,6 @@ function JobExperienceDetails() {
     };
     const paragraph = {
         text: contributions.join('\n\n'),
-        size: 'regular',
         color: 'charcoal-grey'
     };
 

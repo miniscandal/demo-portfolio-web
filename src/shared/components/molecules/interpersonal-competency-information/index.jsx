@@ -8,6 +8,7 @@ function InterpersonalCompetencyInformation({
 }) {
     const paragraph = {
         text,
+        color: 'light',
         nowrap: true
     };
 
