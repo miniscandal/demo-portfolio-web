@@ -22,7 +22,7 @@ function HitaiAte({
         <div className='hitai-ate'>
             <PixelArt {...pixelArt} />
             <div className='hitai-ate__div'>
-                <div>
+                <div className='hitai-ate__div-symbol'>
                     <Icon {...icon} />
                 </div>
             </div>

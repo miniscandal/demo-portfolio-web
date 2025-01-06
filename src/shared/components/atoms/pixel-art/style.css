@@ -269,11 +269,11 @@
     &.art-item-hitai-ate {
 
         &.regular {
-            width: 13.5rem;
-            height: 5rem;
+            width: 14.8rem;
+            height: 5.5rem;
 
             > div {
-                transform: scale(1);
+                transform: scale(1.1);
             }
         }
     }

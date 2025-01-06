@@ -44,24 +44,39 @@
     --color-white: #ffffff;
 
 
+
     --padding-viewport: 0.5rem;
-    --padding-uniform: 1.5rem;
-    --padding-simple-atom: 0.2rem;
-    --padding-atom: 0.5rem;
+
+    --padding-atom: 0.25rem;
+
     --padding-simple-molecule: 0.5rem;
-    --padding-molecule: 0.75rem;
-    --padding-simple-organism: 1.5rem;
+    --padding-molecule: 1rem;
+
+    --padding-simple-organism: 2rem;
     --padding-organism: 4rem;
+
     --padding-simple-container: 6rem;
     --padding-container: 8rem;
 
-    --gap-uniform: 1.5rem;
+
+
     --gap-simple-molecule: 0.5rem;
-    --gap-molecule: 0.75rem;
-    --gap-simple-organism: 1.5rem;
-    --gap-organism: 2rem;
-    --gap-simple-container: 4rem;
+    --gap-molecule: 1rem;
+
+    --gap-simple-organism: 2rem;
+    --gap-organism: 4rem;
+
+    --gap-simple-container: 6rem;
     --gap-container: 8rem;
+
+
+
+
+    /* 
+
+    --gap-uniform: 1.5rem;
+
+    */
 
     --border-radius-uniform: 1rem;
     --border-radius-atom: 0.25rem;
