@@ -13,11 +13,11 @@ main {
     }
 
     > scroll-page:nth-child(1) {
-        background-color: var(--color-rose-water);
+        background-color: var(--color-light-silver);
     }
 
     > scroll-page:nth-child(2) {
-        background-color: var(--color-light-silver);
+        background-color: var(--color-rose-water);
     }
 
     > scroll-page:nth-child(3) {

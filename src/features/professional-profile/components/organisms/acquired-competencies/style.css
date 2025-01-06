@@ -1,10 +1,6 @@
 .acquired-competencies {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: var(--gap-container);
-
-    > div {
-        max-width: 30rem;
-    }
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr));
+    justify-items: center;
+    gap: var(--gap-organism);
 }

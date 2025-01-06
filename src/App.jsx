@@ -6,36 +6,33 @@ import { ProfessionalProfile } from '@feat-professional-profile-templates/index'
 import { AboutMe } from '@feat-about-me-templates/index';
 
 import './App.css';
-import { ChessboardNav } from '@feat-primary-header-organisms/chessboard-nav';
-import { TextBoxOverlay } from '@feat-primary-header-molecules/text-box-overlay';
 
 
 function App() {
 
     return (
         <>
-            {/* <ChessboardNav /> */}
             <scroll-container>
                 <PrimaryHeader />
                 <main>
                     <scroll-page>
                         <div>
-                            {/* <WorkExperienceHistory /> */}
+                            <WorkExperienceHistory />
                         </div>
                     </scroll-page>
                     <scroll-page>
                         <div>
-                            {/* <PersonalSoftwareProjects /> */}
+                            <PersonalSoftwareProjects />
                         </div>
                     </scroll-page>
                     <scroll-page>
                         <div>
-                            {/* <ProfessionalProfile /> */}
+                            <ProfessionalProfile />
                         </div>
                     </scroll-page>
                     <scroll-page>
                         <div>
-                            {/* <AboutMe /> */}
+                            <AboutMe />
                         </div>
                     </scroll-page>
                 </main>

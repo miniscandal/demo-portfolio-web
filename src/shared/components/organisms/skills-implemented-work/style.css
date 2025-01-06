@@ -7,7 +7,7 @@
 
         &:last-child {
             display: grid;
-            gap: var(--gap-organism);
+            gap: var(--gap-molecule);
 
             &[data-columns='2'] {
                 grid-template-columns: repeat(2, 1fr);
