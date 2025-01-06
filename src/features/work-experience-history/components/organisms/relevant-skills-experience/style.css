@@ -1,11 +1,10 @@
 .relevant-skills-experience {
-    > div {
-        &:first-child {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            gap: var(--gap-simple-organism);
-            padding-bottom: var(--padding-simple-organism);
-        }
+
+    > .relevant-skills-experience__div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: var(--gap-simple-organism);
+        padding-bottom: var(--padding-simple-organism);
     }
 }

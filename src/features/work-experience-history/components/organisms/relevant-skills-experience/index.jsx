@@ -42,9 +42,10 @@ function RelevantSkillsExperience() {
         color: 'royal-blue'
     };
 
+
     return (
         <section className='relevant-skills-experience'>
-            <div>
+            <div className='relevant-skills-experience__div'>
                 <SkillsImplementedWork {...skillsImplementedWorkTechTools} />
                 <SkillsImplementedWork {...skillsImplementedWorkTechKnowledge} />
             </div>

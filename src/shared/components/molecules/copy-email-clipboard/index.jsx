@@ -20,7 +20,8 @@ function CopyEmailClipboard({
         }, 3500);
     };
     const paragraph = {
-        text: 'copy email to clipboard'
+        text: 'copy email to clipboard',
+        color: 'light'
     };
 
     return (

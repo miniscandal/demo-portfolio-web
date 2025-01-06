@@ -8,9 +8,13 @@ const { ebookDevelopment } = en;
 
 const { socialEmotionalCompetencies, ...skills } = ebookDevelopment
 
-const WorkExperienceContext = createContext(null);
+const Provider = {
+    ...skills,
+    socialEmotionalCompetencies: alternatingWordOrder(socialEmotionalCompetencies)
+};
 
-const Provider = { ...skills, socialEmotionalCompetencies: alternatingWordOrder(socialEmotionalCompetencies) };
+const WorkExperienceContext = createContext(Provider);
+
 
 
 function WorkExperienceProvider({ children }) {

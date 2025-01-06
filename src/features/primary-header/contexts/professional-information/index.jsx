@@ -2,14 +2,15 @@ import { createContext } from 'react';
 
 import cvFile from '@assets-documents/cv-oscar-gonzalez.pdf';
 
-const ProfessionalInformationContext = createContext(null);
-
 const Provider = {
     name: 'Oscar González',
     discipline: 'Computer Systems Engineering',
     fileHref: cvFile,
     fileName: 'cv-oscar-gonzalez'
 };
+
+const ProfessionalInformationContext = createContext(Provider);
+
 
 
 function ProfessionalInformationProvider({ children }) {

@@ -1,8 +1,11 @@
 .manga-dialog {
+    padding-bottom: calc(1rem + var(--border-large-width) - 0.40rem);
+    position: relative;
+
     > .manga-dialog__div {
         height: 100%;
         border-radius: 50%;
-        border: solid var(--border-regular-width) var(--color-dark);
+        border: solid var(--border-large-width) var(--color-dark);
 
         > div {
             height: 100%;
@@ -17,17 +20,18 @@
     &::after {
         content: '';
         display: block;
-        width: 1.5rem;
-        height: 1.5rem;
-        margin: auto;
-        transform: translateY(-1em) rotate(45deg);
-        border-right: solid var(--border-regular-width) var(--color-dark);
-        border-bottom: solid var(--border-regular-width) var(--color-dark);
+        position: absolute;
+        width: 1rem;
+        height: 1rem;
+        left: 50%;
+        transform: translate(-50%, calc(-0.45rem - var(--border-large-width))) rotate(45deg);
+        border-right: solid var(--border-large-width) var(--color-dark);
+        border-bottom: solid var(--border-large-width) var(--color-dark);
         background-color: var(--color-light);
     }
 
     &.regular {
         max-width: 20rem;
-        aspect-ratio: 1 / 0.6;
+        aspect-ratio: 1 / 0.65;
     }
 }
