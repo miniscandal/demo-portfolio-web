@@ -18,7 +18,7 @@ import './style.css';
 function MangaPanelProjectPlanning({ readingMode = false }) {
     const [ideaIndex, setIdeaIndex] = useState(0);
 
-    const { projectData: { planning: { ideas } } } = useContext(MangaContext);
+    const { planning: { ideas } } = useContext(MangaContext);
 
     const classList = [
         readingMode ? 'reading-mode' : ''

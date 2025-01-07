@@ -1,5 +1,4 @@
 @import url('./shared/components/atoms/colors/style.css');
-@import url('./shared/styles/main.css');
 
 main {
     > scroll-page {

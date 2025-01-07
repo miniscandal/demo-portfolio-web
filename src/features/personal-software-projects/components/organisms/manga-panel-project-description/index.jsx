@@ -17,7 +17,7 @@ import './style.css';
 
 function MangaPanelProjectDescription({ readingMode = false }) {
     const [descriptionIndex, setDescriptionIndex] = useState(0);
-    const { projectData: { name, descriptions } } = useContext(MangaContext);
+    const { name, descriptions } = useContext(MangaContext);
 
     const classList = [
         readingMode ? 'reading-mode' : ''

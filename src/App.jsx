@@ -5,6 +5,8 @@ import { PersonalSoftwareProjects } from '@feat-personal-software-projects-pages
 import { ProfessionalProfile } from '@feat-professional-profile-templates/index';
 import { AboutMe } from '@feat-about-me-templates/index';
 
+import { Manga } from '@feat-personal-software-projects-organisms/manga';
+
 import './App.css';
 
 
@@ -12,7 +14,9 @@ function App() {
 
     return (
         <>
-            <scroll-container>
+            <Manga />
+
+            {/* <scroll-container>
                 <PrimaryHeader />
                 <main>
                     <scroll-page>
@@ -37,7 +41,8 @@ function App() {
                     </scroll-page>
                 </main>
                 <PrimaryFooter />
-            </scroll-container>
+            </scroll-container> */}
+
         </>
     );
 }

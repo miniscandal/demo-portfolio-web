@@ -1,5 +1,5 @@
-import { MangaContext } from '@feat-personal-software-projects-contexts/manga-context';
-import { ProviderProjectSensorMonitoring } from '@feat-personal-software-projects-contexts/manga-context';
+import { MangaContextProvider } from '@feat-personal-software-projects-contexts/manga-context';
+import { SensorMonitoringProvider } from '@feat-personal-software-projects-contexts/manga-context';
 
 import { Manga } from '@feat-personal-software-projects-organisms/manga';
 
@@ -9,10 +9,6 @@ import './style.css';
 
 
 function PersonalSoftwareProjects() {
-    const provider = {
-        projectData: ProviderProjectSensorMonitoring
-    };
-
     const title = {
         text: 'PERSONAL PROJECTS',
         color: 'charcoal-grey',
@@ -24,9 +20,9 @@ function PersonalSoftwareProjects() {
         <article className='personal-software-projects'>
             <Title {...title} />
             <section>
-                <MangaContext.Provider value={provider}>
+                <MangaContextProvider provider={SensorMonitoringProvider}>
                     <Manga />
-                </MangaContext.Provider>
+                </MangaContextProvider>
             </section>
         </article>
     );
