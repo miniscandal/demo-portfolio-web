@@ -14,10 +14,24 @@
 
     &.animation_cursor::after {
         content: '_';
-        animation: var(--animation-blink-character);
+        animation: blink-character 2s infinite;
     }
 
     &.nowrap {
         white-space: nowrap;
+    }
+}
+
+@keyframes blink-character {
+
+    0%,
+    50%,
+    100% {
+        filter: opacity(100%)
+    }
+
+    25%,
+    75% {
+        filter: opacity(0%)
     }
 }

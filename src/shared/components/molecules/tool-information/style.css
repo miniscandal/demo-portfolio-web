@@ -4,10 +4,7 @@
 
     > .tool-information__div {
         padding: var(--padding-molecule);
-
-        &:first-child {
-            text-align: center;
-        }
+        text-align: center;
 
         &:last-child {
             position: relative;
@@ -40,36 +37,36 @@
         transform: scale(1);
         opacity: 1;
         background-color: var(--color-white);
-        box-shadow: 0 0 10px var(--color-icy-white),
-            0 0 20px var(--color-lavender-fog),
-            0 0 30px var(--color-soft-lavender);
+        box-shadow: 0 0 0.625rem var(--color-icy-white),
+            0 0 1.25rem var(--color-lavender-fog),
+            0 0 1.875rem var(--color-soft-lavender);
     }
 
     20% {
         transform: scale(0.6);
         opacity: 0.8;
         background-color: var(--color-pure-lavender);
-        box-shadow: 0 0 5px var(--color-frosted-white),
-            0 0 15px var(--color-muted-lavender),
-            0 0 25px var(--color-deep-lavender);
+        box-shadow: 0 0 0.3125rem var(--color-frosted-white),
+            0 0 0.9375rem var(--color-muted-lavender),
+            0 0 1.5625rem var(--color-deep-lavender);
     }
 
     50% {
         transform: scale(2);
         opacity: 1;
         background-color: var(--color-citrus-orange);
-        box-shadow: 0 0 50px var(--color-golden-haze),
-            0 0 100px var(--color-coral-blush),
-            0 0 200px var(--color-pure-pink);
+        box-shadow: 0 0 3.125rem var(--color-golden-haze),
+            0 0 6.25rem var(--color-coral-blush),
+            0 0 12.5rem var(--color-pure-pink);
     }
 
     80% {
         transform: scale(4);
         opacity: 0.5;
         background-color: var(--color-deep-cherry);
-        box-shadow: 0 0 100px var(--color-dusk-rose),
-            0 0 200px var(--color-dark-pink),
-            0 0 300px var(--color-crimson-dark);
+        box-shadow: 0 0 6.25rem var(--color-dusk-rose),
+            0 0 12.5rem var(--color-dark-pink),
+            0 0 18.75rem var(--color-crimson-dark);
     }
 
     100% {

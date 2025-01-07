@@ -18,7 +18,7 @@
             transform: translateX(-50%);
             padding: var(--padding-simple-molecule);
             border-radius: var(--border-radius-simple-molecule);
-            animation: var(--animation-fade-out);
+            animation: fade-out 3.5s 1;
         }
     }
 
@@ -31,7 +31,7 @@
             transform: translate(-50%, -50%);
             border: solid var(--color-light-silver);
             border-width: var(--border-regular-width) 0;
-            animation: border-box var(--animation-duration) forwards;
+            animation: border-box 0.3s forwards;
         }
     }
 }
@@ -45,5 +45,15 @@
     to {
         width: 100%;
         height: 100%;
+    }
+}
+
+@keyframes fade-out {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
     }
 }

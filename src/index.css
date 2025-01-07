@@ -105,13 +105,12 @@
 
 
 
+    --transition-regular-seconds: 0.3s;
 
 
+    /* Not implemented */
 
-    --transition-seconds: 0.3s;
-    --transition-transform: transform 0.3s linear;
     --transition-box-shadow: box-shadow 0.3s linear;
-
     --hover-brightness: brightness(1.5);
 
     --box-shadow-inset: inset 0 0 0.25rem var(--color-cool-sky);
@@ -120,11 +119,6 @@
     --box-shadow-blur: 0.25em;
     --box-shadow-spread: 0.25em;
     --box-shadow-color: var(--color-charcoal-grey);
-
-    --animation-duration: 0.3s;
-    --animation-fade-out: fade-out 3.5s 1;
-    --animation-blink-character: blink-character 2s infinite;
-    --animation-shake: shake 0.3s infinite;
 }
 
 * {

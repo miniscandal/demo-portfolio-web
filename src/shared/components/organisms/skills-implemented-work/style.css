@@ -2,7 +2,7 @@
     > .skills-implemented-work__div {
 
         &:first-child {
-            padding-bottom: var(--padding-organism);
+            padding-bottom: var(--padding-simple-organism);
         }
 
         &:last-child {

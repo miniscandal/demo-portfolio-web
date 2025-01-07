@@ -7,14 +7,11 @@ import { AboutMe } from '@feat-about-me-templates/index';
 
 import './App.css';
 
-import { ToolInformation } from '@shared-molecules/tool-information';
-
 
 function App() {
 
     return (
         <>
-            <ToolInformation />
             <scroll-container>
                 <PrimaryHeader />
                 <main>
