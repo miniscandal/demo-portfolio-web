@@ -20,9 +20,7 @@ function PrimaryHeader() {
             <div className='primary-header__div--background'>
                 <Image {...image} />
             </div>
-            <div className='primary-header__div--content'>
-                <HeaderContent />
-            </div>
+            <HeaderContent />
         </header>
     );
 }

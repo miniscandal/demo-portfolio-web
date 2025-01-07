@@ -1,0 +1,9 @@
+.professional-information {
+    > .professional-information__div--subtitle {
+        padding-bottom: var(--padding-molecule);
+    }
+
+    > .professional-information__div {
+        justify-items: left;
+    }
+}

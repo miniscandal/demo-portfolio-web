@@ -1,8 +1,9 @@
-import { ChessboardNav } from '@feat-primary-header-organisms/chessboard-nav';
-import { ProfessionalInformation } from '@feat-primary-header-organisms/professional-information';
 import { ProfessionalInformationProvider } from '@feat-primary-header-contexts/professional-information';
-
 import { ProfessionalContactProvider } from '@shared-contexts/professional-contact';
+
+import { ProfessionalInformation } from '@feat-primary-header-molecules/professional-information';
+import { ChessboardNav } from '@feat-primary-header-organisms/chessboard-nav';
+
 import { CharacterSpeech } from '@shared-molecules/character-speech';
 import { ProfessionalContact } from '@shared-organisms/professional-contact';
 

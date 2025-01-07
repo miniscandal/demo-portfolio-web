@@ -1,7 +1,7 @@
 .button-link-downloader {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     text-decoration: none;
     font-size: 1rem;

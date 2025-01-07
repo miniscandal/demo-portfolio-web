@@ -30,8 +30,12 @@ function ProfessionalInformation() {
     return (
         <section className='professional-information'>
             <Title {...titleH1} />
-            <Title {...titleH2} />
-            <ButtonLinkDownloader {...buttonLinkDownloader} />
+            <div className='professional-information__div--subtitle'>
+                <Title {...titleH2} />
+            </div>
+            <div className='professional-information__div'>
+                <ButtonLinkDownloader {...buttonLinkDownloader} />
+            </div>
         </section>
     );
 }

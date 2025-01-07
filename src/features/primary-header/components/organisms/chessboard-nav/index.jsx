@@ -54,7 +54,7 @@ function ChessboardNav() {
 
     return (
         <div className={`chessboard-nav ${classList.join(' ')}`}>
-            {<UnorderedList {...squareShapeAnchorLinks} />}
+            <UnorderedList {...squareShapeAnchorLinks} />
         </div>
     );
 }

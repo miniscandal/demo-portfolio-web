@@ -5,14 +5,12 @@
         position: absolute;
         inset: 0;
 
-        > .image {
-            &::after {
-                content: '';
-                position: absolute;
-                inset: 0;
-                background-color: var(--color-slate-gray);
-                filter: opacity(0.5);
-            }
+        &::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background-color: var(--color-slate-gray);
+            filter: opacity(0.5);
         }
     }
 

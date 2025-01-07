@@ -8,11 +8,6 @@ meet the CEO's design requirements.
     display: flex;
     flex-wrap: wrap-reverse;
 
-    > nav {
-        margin-left: auto;
-        padding-bottom: var(--padding-organism);
-    }
-
     > .header-content__section {
         display: flex;
         flex-direction: column;
@@ -25,5 +20,10 @@ meet the CEO's design requirements.
         > .header-content__section--div {
             order: -1;
         }
+    }
+
+    > nav {
+        margin-left: auto;
+        padding-bottom: var(--padding-organism);
     }
 }
