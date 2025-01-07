@@ -1,6 +1,6 @@
 .professional-information {
     > .professional-information__div--subtitle {
-        padding-bottom: var(--padding-molecule);
+        padding: var(--padding-molecule) 0;
     }
 
     > .professional-information__div {

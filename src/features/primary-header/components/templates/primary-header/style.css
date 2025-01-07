@@ -14,12 +14,11 @@
         }
     }
 
-    @media (width < 60rem) {
+    @media (width < 70rem) {
         background-color: var(--color-charcoal-grey);
 
         > .primary-header__div--background {
-            inset: 0;
-            height: 25rem;
+            aspect-ratio: 1 / 0.65;
         }
     }
 }

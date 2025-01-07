@@ -11,11 +11,11 @@ meet the CEO's design requirements.
     > .header-content__section {
         display: flex;
         flex-direction: column;
-        margin-right: auto;
-        align-self: flex-end;
-        z-index: 10;
+        gap: var(--padding-simple-organism);
+        margin-top: auto;
         padding-left: var(--padding-viewport);
         padding-bottom: var(--padding-viewport);
+        z-index: 10;
 
         > .header-content__section--div {
             order: -1;
@@ -24,6 +24,6 @@ meet the CEO's design requirements.
 
     > nav {
         margin-left: auto;
-        padding-bottom: var(--padding-organism);
+        padding-bottom: var(--padding-simple-organism);
     }
 }
