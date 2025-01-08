@@ -22,8 +22,6 @@ const {
     databaseAdministration
 } = en;
 
-const ProfessionalProfileContext = createContext(null);
-
 const Provider = [
     {
         name: computerSystemEngineering.name,
@@ -60,6 +58,8 @@ const Provider = [
         pixelArtCharacter: PIXEL_ART_ANIME_NINO_NAKANO_CARD
     },
 ];
+
+const ProfessionalProfileContext = createContext(Provider);
 
 
 function ProfessionalProfileProvider({ children }) {

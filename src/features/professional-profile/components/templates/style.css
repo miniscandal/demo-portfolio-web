@@ -1,5 +1,5 @@
 .professional-profile {
-    > .title {
+    > .professional-profile__div {
         padding-bottom: var(--padding-container);
     }
 }

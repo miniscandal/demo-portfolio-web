@@ -14,8 +14,7 @@ function CompetencyDescription({
     pixelArtCharacter = PIXEL_ART_ANIME_ITSUKI_NAKANO_CARD
 }) {
     const pixelArt = {
-        character: pixelArtCharacter,
-        showBox: false
+        character: pixelArtCharacter
     };
     const iconSvgFont = {
         svg: iconFontSvg,
@@ -34,13 +33,19 @@ function CompetencyDescription({
 
     return (
         <section className='competency-description'>
-            <div>
+            <div className='competency-description__div'>
                 <IconFontSvg {...iconSvgFont} />
-                <Title {...title} />
+                <div className='competency-description__div--title'>
+                    <Title {...title} />
+                </div>
             </div>
-            <div>
-                <PixelArt {...pixelArt} />
-                <Paragraph {...paragraph} />
+            <div className='competency-description__div'>
+                <div className='competency-description__div--pixel-art'>
+                    <PixelArt {...pixelArt} />
+                </div>
+                <div className='competency-description__div--text'>
+                    <Paragraph {...paragraph} />
+                </div>
             </div>
         </section>
     );

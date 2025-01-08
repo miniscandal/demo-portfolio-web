@@ -1,22 +1,16 @@
 .competency-description {
-    > div {
+    > .competency-description__div {
         &:first-child {
-            > .title {
-                padding-top: var(--padding-molecule);
+            > .competency-description__div--title {
+                padding-top: var(--padding-simple-organism);
             }
         }
 
         &:last-child {
-            padding-top: var(--padding-molecule);
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+            padding-top: var(--padding-simple-organism);
+            justify-items: center;
 
-            > .pixel-art {
-                transform: translateY(1.5rem);
-            }
-
-            > .paragraph {
+            > .competency-description__div--text {
                 padding: var(--padding-molecule);
                 background-color: var(--color-blush-petal);
                 border-radius: var(--border-radius-molecule);

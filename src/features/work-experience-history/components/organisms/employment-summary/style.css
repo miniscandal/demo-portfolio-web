@@ -1,5 +1,5 @@
 .employment-summary {
-    > div {
+    > .employment-summary__div {
         &:first-child {
             padding-bottom: var(--padding-simple-organism);
         }

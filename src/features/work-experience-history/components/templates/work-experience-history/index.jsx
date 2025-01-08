@@ -17,7 +17,9 @@ function WorkExperienceHistory() {
 
     return (
         <article className='work-experience-history'>
-            <Title {...title} />
+            <div className='work-experience-history__div'>
+                <Title {...title} />
+            </div>
             <section>
                 <WorkExperienceProvider>
                     <EmploymentSummary />

@@ -8,7 +8,7 @@ function EmploymentSummary() {
 
     return (
         <section className='employment-summary'>
-            <div>
+            <div className='employment-summary__div'>
                 <JobExperienceDetails />
             </div>
             <RelevantSkillsExperience />

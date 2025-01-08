@@ -16,7 +16,9 @@ function ProfessionalProfile() {
 
     return (
         <section className='professional-profile'>
-            <Title {...title} />
+            <div className='professional-profile__div'>
+                <Title {...title} />
+            </div>
             <ProfessionalProfileProvider>
                 <AcquiredCompetencies />
             </ProfessionalProfileProvider>

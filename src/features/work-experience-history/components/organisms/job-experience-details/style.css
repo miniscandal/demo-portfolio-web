@@ -1,10 +1,9 @@
 .job-experience-details {
-    > div {
-        &:first-child {
-            display: flex;
-            flex-direction: column;
-            gap: var(--gap-simple-molecule);
-            padding-bottom: var(--padding-simple-organism);
+    > .job-experience-details__div {
+        > .job-experience-details__div--title {
+            padding-bottom: var(--padding-molecule);
         }
+
+        padding-bottom: var(--padding-simple-organism);
     }
 }

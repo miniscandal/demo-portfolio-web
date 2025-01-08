@@ -1,5 +1,5 @@
 .work-experience-history {
-    > .title {
+    > .work-experience-history__div {
         padding-bottom: var(--padding-container);
     }
 
@@ -9,12 +9,12 @@
         gap: var(--gap-simple-container);
         max-width: 46rem;
         margin: auto;
-        border-left: dotted var(--color-warm-silver) 0.1rem;
-        border-right: dotted var(--color-warm-silver) 0.1rem;
+        border-left: dotted var(--color-warm-silver) var(--border-large-width);
+        border-right: dotted var(--color-warm-silver) var(--border-large-width);
         padding: 0 var(--padding-organism);
 
         @media (width < 30rem) {
-            padding: 0 var(--padding-molecule);
+            padding: 0 var(--padding-viewport);
         }
     }
 }

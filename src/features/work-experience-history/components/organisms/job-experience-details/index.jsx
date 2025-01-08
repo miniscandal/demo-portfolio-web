@@ -28,13 +28,13 @@ function JobExperienceDetails() {
 
     return (
         <section className='job-experience-details'>
-            <div>
-                <Title {...title} />
+            <div className='job-experience-details__div'>
+                <div className='job-experience-details__div--title'>
+                    <Title {...title} />
+                </div>
                 <WorkDateRange {...workDateRange} />
             </div>
-            <div>
-                <Paragraph  {...paragraph} />
-            </div>
+            <Paragraph  {...paragraph} />
         </section>
     );
 }
