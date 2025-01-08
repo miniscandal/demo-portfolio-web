@@ -1,5 +1,5 @@
-import { Icon } from '@shared-atoms/icon';
 import { PixelArt } from '@shared-atoms/pixel-art';
+import { ToolBadge } from '@shared-molecules/tool-badge';
 
 import { PIXEL_ART_ITEM_HITAI_ATE } from '@shared-atoms/pixel-art/variants';
 
@@ -12,9 +12,8 @@ function HitaiAte({
     const pixelArt = {
         character: PIXEL_ART_ITEM_HITAI_ATE
     };
-    const icon = {
-        src,
-        size: 'semi-regular'
+    const toolBadge = {
+        iconSrc: src
     };
 
 
@@ -22,9 +21,7 @@ function HitaiAte({
         <div className='hitai-ate'>
             <PixelArt {...pixelArt} />
             <div className='hitai-ate__div'>
-                <div className='hitai-ate__div-symbol'>
-                    <Icon {...icon} />
-                </div>
+                <ToolBadge {...toolBadge} />
             </div>
         </div>
     );

@@ -3,24 +3,25 @@ import { AboutSummary } from '@feat-about-me-molecules/about-summary';
 import { TechnologicalTools } from '@feat-about-me-organisms/technological-tools';
 import { ProfessionalApproach } from '@feat-about-me-organisms/professional-approach';
 
-import { Title } from '@shared-atoms/title';
+import { DecoratedTitle } from '@shared-molecules/decorated-title';
 
 import './style.css';
 
 
 function AboutMe() {
-    const title = {
+    const decoratedTitle = {
         text: 'ABOUT ME',
-        type: 'h2',
-        decorated: true
+        color: 'light'
     };
 
 
     return (
         <article className='about-me'>
-            <Title {...title} />
+            <div className='about-me__div'>
+                <DecoratedTitle {...decoratedTitle} />
+            </div>
             <section>
-                <div className='about-me__div'>
+                <div className='about-me__section'>
                     <DescriptiveCard />
                     <div>
                         <AboutSummary />

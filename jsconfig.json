@@ -62,6 +62,9 @@
             "@feat-primary-footer-templates/*": [
                 "features/primary-footer/components/templates/*"
             ],
+            "@feat-professional-profile-molecules/*": [
+                "features/professional-profile/components/molecules/*"
+            ],
             "@feat-professional-profile-organisms/*": [
                 "features/professional-profile/components/organisms/*"
             ],

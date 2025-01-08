@@ -1,5 +1,5 @@
 .personal-software-projects {
-    > .title {
+    > .personal-software-projects__div {
         padding-bottom: var(--padding-container);
     }
 

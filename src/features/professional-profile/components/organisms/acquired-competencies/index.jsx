@@ -2,7 +2,7 @@ import { useContext } from 'react';
 
 import { ProfessionalProfileContext } from '@feat-professional-profile-contexts/professional-profile';
 
-import { CompetencyDescription } from '@feat-professional-profile-organisms/competency-description';
+import { CompetencyProfessional } from '@feat-professional-profile-organisms/competency-professional';
 
 import './style.css';
 
@@ -15,7 +15,7 @@ function AcquiredCompetencies() {
 
         return (
             <div key={`${index}-${name}`}>
-                <CompetencyDescription {...value} />
+                <CompetencyProfessional {...value} />
             </div>
         );
     });

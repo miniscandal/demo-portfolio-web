@@ -4,12 +4,10 @@ import './style.css';
 function Title({
     text = 'I am a title',
     color = 'light',
-    type = 'h1',
-    decorated = false
+    type = 'h1'
 }) {
     const classList = [
-        color,
-        type === 'h2' && decorated ? 'decorated' : ''
+        color
     ].join(' ');
     const types = {
         h1: <h1 className={`title h1 ${classList}`}>{text}</h1>,

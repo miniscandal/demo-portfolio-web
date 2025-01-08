@@ -1,0 +1,5 @@
+.competency-name {
+    > .competency-name__div {
+        padding-top: var(--padding-simple-molecule);
+    }
+}

@@ -1,24 +1,22 @@
 import { WorkExperienceProvider } from '@feat-work-experience-history-contexts/work-experience';
 import { EmploymentSummary } from '@feat-work-experience-history-organisms/employment-summary';
 
-import { Title } from '@shared-atoms/title';
+import { DecoratedTitle } from '@shared-molecules/decorated-title';
 
 import './style.css';
 
 
 function WorkExperienceHistory() {
-    const title = {
+    const decoratedTitle = {
         text: 'WORK EXPERIENCE',
-        color: 'charcoal-grey',
-        type: 'h2',
-        decorated: true
+        color: 'charcoal-grey'
     };
 
 
     return (
         <article className='work-experience-history'>
             <div className='work-experience-history__div'>
-                <Title {...title} />
+                <DecoratedTitle {...decoratedTitle} />
             </div>
             <section>
                 <WorkExperienceProvider>

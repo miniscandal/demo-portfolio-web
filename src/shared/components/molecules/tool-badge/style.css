@@ -1,0 +1,12 @@
+.tool-badge {
+    border-radius: var(--border-radius-molecule);
+    box-shadow: 0 0 0.15em var(--color-charcoal-shadow);
+
+    > .tool-badge__div {
+        width: fit-content;
+        padding: var(--padding-simple-molecule);
+        background-color: var(--color-soft-moss);
+        border-radius: var(--border-radius-simple-molecule);
+        box-shadow: inset 0 0 0.25em 0.15em var(--color-charcoal-shadow);
+    }
+}

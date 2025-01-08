@@ -1,5 +1,5 @@
 .about-me {
-    > .title {
+    > .about-me__div {
         padding-bottom: var(--padding-container);
     }
 
@@ -8,7 +8,7 @@
         flex-direction: column;
         gap: var(--gap-container);
 
-        > .about-me__div {
+        > .about-me__section {
             display: flex;
             gap: var(--gap-simple-container);
             flex-wrap: wrap;

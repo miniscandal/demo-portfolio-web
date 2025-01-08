@@ -1,7 +1,7 @@
 .professional-contact {
     display: flex;
     flex-wrap: wrap;
-    gap: var(--gap-molecule);
+    gap: var(--gap-simple-organism);
 
     > .professional-contact__div {
         &:first-child {
@@ -11,7 +11,6 @@
         }
 
         &:last-child {
-
             align-self: flex-end;
         }
     }

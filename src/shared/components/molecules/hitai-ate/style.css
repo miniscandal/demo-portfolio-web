@@ -7,17 +7,5 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-
-        padding: var(--padding-simple-molecule);
-        background-color: var(--color-misty-gray);
-        border-radius: var(--border-radius-simple-molecule);
-        box-shadow: 0 0 0.25em 0.15em var(--color-charcoal-shadow) inset;
-
-        > .hitai-ate__div-symbol {
-            padding: var(--padding-atom);
-            background-color: var(--color-soft-moss);
-            box-shadow: 0 0 0.25em 0.15em var(--color-charcoal-shadow);
-            border-radius: var(--border-radius-atom);
-        }
     }
 }

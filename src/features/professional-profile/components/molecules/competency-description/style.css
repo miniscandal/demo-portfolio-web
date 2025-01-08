@@ -1,0 +1,17 @@
+.competency-description {
+    justify-items: center;
+
+    > .competency-description__div {
+        &:first-child {
+            > div {
+                transform: translateY(1rem);
+            }
+        }
+
+        &:last-child {
+            padding: var(--padding-molecule);
+            background-color: var(--color-blush-petal);
+            border-radius: var(--border-radius-molecule);
+        }
+    }
+}
