@@ -1,0 +1,6 @@
+.vertical-poster {
+    font-family: 'Yoruka';
+    text-orientation: upright;
+    writing-mode: vertical-lr;
+    background-color: var(--color-light);
+}

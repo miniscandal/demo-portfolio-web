@@ -5,10 +5,7 @@
 
     > header {
         z-index: 10;
-
-        > .rotated-text-poster {
-            transform: translateY(2rem);
-        }
+        transform: translateY(15%);
     }
 
     .descriptive-card__section {
@@ -23,7 +20,7 @@
             border-top: solid var(--border-radius-atom) transparent;
             border-bottom: solid var(--border-radius-atom) transparent;
 
-            > .descriptive-card__div--text-poster {
+            > .descriptive-card__div--vertical-poster {
                 align-self: center;
                 z-index: 100;
             }

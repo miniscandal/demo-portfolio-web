@@ -5,40 +5,40 @@ function GridOverlay() {
 
     return (
         <div className='grid-overlay'>
-            <div className='item'></div>
-            <div className='item'></div>
-            <div className='item'></div>
-            <div className='item'></div>
-            <div className='item'></div>
-            <div className='item'></div>
+            <div className='grid-overlay__div'></div>
+            <div className='grid-overlay__div'></div>
+            <div className='grid-overlay__div'></div>
+            <div className='grid-overlay__div'></div>
+            <div className='grid-overlay__div'></div>
+            <div className='grid-overlay__div'></div>
 
-            <div className='item'></div>
-            <div className='item'></div>
-            <div className='item'></div>
-            <div className='item'></div>
-            <div className='item'></div>
-            <div className='item'></div>
+            <div className='grid-overlay__div'></div>
+            <div className='grid-overlay__div'></div>
+            <div className='grid-overlay__div'></div>
+            <div className='grid-overlay__div'></div>
+            <div className='grid-overlay__div'></div>
+            <div className='grid-overlay__div'></div>
 
-            <div className='item'></div>
-            <div className='item'></div>
-            <div className='item'></div>
-            <div className='item'></div>
-            <div className='item'></div>
-            <div className='item'></div>
+            <div className='grid-overlay__div'></div>
+            <div className='grid-overlay__div'></div>
+            <div className='grid-overlay__div'></div>
+            <div className='grid-overlay__div'></div>
+            <div className='grid-overlay__div'></div>
+            <div className='grid-overlay__div'></div>
 
-            <div className='item'></div>
-            <div className='item'></div>
-            <div className='item'></div>
-            <div className='item'></div>
-            <div className='item'></div>
-            <div className='item'></div>
+            <div className='grid-overlay__div'></div>
+            <div className='grid-overlay__div'></div>
+            <div className='grid-overlay__div'></div>
+            <div className='grid-overlay__div'></div>
+            <div className='grid-overlay__div'></div>
+            <div className='grid-overlay__div'></div>
 
-            <div className='item'></div>
-            <div className='item'></div>
-            <div className='item'></div>
-            <div className='item'></div>
-            <div className='item'></div>
-            <div className='item'></div>
+            <div className='grid-overlay__div'></div>
+            <div className='grid-overlay__div'></div>
+            <div className='grid-overlay__div'></div>
+            <div className='grid-overlay__div'></div>
+            <div className='grid-overlay__div'></div>
+            <div className='grid-overlay__div'></div>
         </div>
     );
 }

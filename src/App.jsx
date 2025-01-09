@@ -7,14 +7,12 @@ import { AboutMe } from '@feat-about-me-templates/index';
 
 import './App.css';
 
-import { AboutSummary } from '@feat-about-me-molecules/about-summary';
-
 
 function App() {
 
     return (
         <>
-            <AboutSummary />
+            <AboutMe />
             {/* 
             <scroll-container>
                 <PrimaryHeader />

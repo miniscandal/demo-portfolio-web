@@ -1,5 +1,5 @@
 .about-summary {
-    > .title {
-        padding-bottom: var(--padding-organism);
+    > .about-summary__div {
+        padding-bottom: var(--padding-molecule);
     }
 }

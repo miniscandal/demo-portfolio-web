@@ -6,7 +6,7 @@
     background-color: var(--color-blush-petal);
     pointer-events: none;
 
-    > div {
+    > .grid-overlay__div {
         border-top: solid var(--border-radius-atom) var(--color-light);
         border-right: solid var(--border-radius-atom) var(--color-light);
 

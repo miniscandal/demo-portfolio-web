@@ -20,7 +20,9 @@ function AboutSummary() {
 
     return (
         <section className='about-summary'>
-            <Title {...title} />
+            <div className='about-summary__div'>
+                <Title {...title} />
+            </div>
             <Paragraph {...paragraph} />
         </section>
     )
