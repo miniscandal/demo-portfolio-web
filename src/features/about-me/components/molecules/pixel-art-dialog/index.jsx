@@ -34,7 +34,7 @@ function PixelArtDialog({
                 <PixelArt {...pixelArtItem} />
                 <div className='pixel-art-dialog__div--texts'>
                     <Paragraph {...paragraphOne} />
-                    <Paragraph text={'\n'} />
+                    <br />
                     <Paragraph {...paragraphTwo} />
                 </div>
             </div>

@@ -1,8 +1,7 @@
 .pixel-art-dialog {
-    display: flex;
-    flex-direction: column;
 
     > .pixel-art-dialog__div {
+        width: fit-content;
         position: relative;
         margin-left: auto;
 

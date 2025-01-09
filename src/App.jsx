@@ -7,12 +7,15 @@ import { AboutMe } from '@feat-about-me-templates/index';
 
 import './App.css';
 
+import { DescriptiveCard } from '@feat-about-me-organisms/descriptive-card';
+import { ProfessionalApproach } from '@feat-about-me-organisms/professional-approach';
+import { TechnologicalTools } from '@feat-about-me-organisms/technological-tools';
 
 function App() {
 
     return (
         <>
-            <AboutMe />
+            <TechnologicalTools />
             {/* 
             <scroll-container>
                 <PrimaryHeader />

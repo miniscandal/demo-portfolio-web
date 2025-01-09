@@ -3,7 +3,7 @@ import './style.css';
 
 function Title({
     text = 'I am a title',
-    color = 'light',
+    color = 'dark',
     type = 'h1'
 }) {
     const classList = [

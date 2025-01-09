@@ -1,5 +1,5 @@
-import { Title } from '@shared-atoms/title';
 import { PixelArtDialog } from '@feat-about-me-molecules/pixel-art-dialog';
+import { Title } from '@shared-atoms/title';
 
 import { PIXEL_ART_ANIME_MINICODE_ANIMATION_V2 } from '@shared-atoms/pixel-art/variants';
 

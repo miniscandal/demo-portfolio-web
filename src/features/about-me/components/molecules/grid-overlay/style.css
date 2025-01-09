@@ -7,15 +7,16 @@
     pointer-events: none;
 
     > .grid-overlay__div {
-        border-top: solid var(--border-radius-atom) var(--color-light);
-        border-right: solid var(--border-radius-atom) var(--color-light);
+        border-top: solid var(--color-light);
+        border-right: solid var(--color-light);
+        border-width: var(--border-regular-width);
 
         &:nth-child(5n + 1) {
-            border-left: solid var(--border-radius-atom) var(--color-light);
+            border-left: solid var(--color-light) var(--border-regular-width);
         }
 
         &:nth-last-child(-n + 5) {
-            border-bottom: solid var(--border-radius-atom) var(--color-light);
+            border-bottom: solid var(--color-light) var(--border-regular-width);
         }
     }
 }

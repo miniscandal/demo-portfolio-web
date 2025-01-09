@@ -10,13 +10,14 @@ function AboutSummary() {
     const { description } = aboutMe;
     const title = {
         text: 'About Summary',
-        color: 'light',
-        type: 'h4'
+        type: 'h4',
+        color: 'light'
     };
     const paragraph = {
         text: description,
-        color: 'light',
+        color: 'light'
     };
+
 
     return (
         <section className='about-summary'>
