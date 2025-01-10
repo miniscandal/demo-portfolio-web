@@ -1,7 +1,7 @@
 import { DescriptiveCard } from '@feat-about-me-organisms/descriptive-card';
-import { AboutSummary } from '@feat-about-me-molecules/about-summary';
 import { TechnologicalTools } from '@feat-about-me-organisms/technological-tools';
 import { ProfessionalApproach } from '@feat-about-me-organisms/professional-approach';
+import { ProfessionalProfileOverview } from '@feat-about-me-organisms/professional-profile-overview';
 
 import { DecoratedTitle } from '@shared-molecules/decorated-title';
 
@@ -20,13 +20,11 @@ function AboutMe() {
             <div className='about-me__div'>
                 <DecoratedTitle {...decoratedTitle} />
             </div>
-            <section>
-                <div className='about-me__section'>
+            <section className='about-me__section'>
+                <div className='about-me-section__div'>
                     <DescriptiveCard />
-                    <div>
-                        <AboutSummary />
-                        <AboutSummary />
-                        <AboutSummary />
+                    <div className='about-me-section__div--texts'>
+                        <ProfessionalProfileOverview />
                     </div>
                 </div>
                 <TechnologicalTools />

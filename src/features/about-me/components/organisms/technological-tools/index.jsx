@@ -10,31 +10,29 @@ import './style.css';
 function TechnologicalTools() {
     const title = {
         text: 'My Technological Tools',
-        type: 'h3'
+        type: 'h3',
+        color: 'light'
     };
     const currentSpecializationTools = {
         textTitle: 'Current Specialization',
         skills: ['java', 'springBoot', 'mySQL'],
         skillsInformation: technologiesToolsData,
         Component: KonohaKit,
-        columns: 3,
-        itemsCenter: !true
+        columns: 'auto'
     };
     const developmentEnvironmentTools = {
         textTitle: 'Development Environment',
         skills: ['linux', 'python', 'git'],
         skillsInformation: technologiesToolsData,
         Component: KonohaKit,
-        columns: 3,
-        itemsCenter: true
+        columns: 'auto'
     };
     const activeInterestLearningTools = {
         textTitle: 'Active Learning Interest',
         skills: ['javaScript', 'html', 'css', 'angular', 'react', 'typeScript'],
         skillsInformation: technologiesToolsData,
         Component: KonohaKit,
-        columns: 3,
-        itemsCenter: true
+        columns: 'auto'
     };
 
     return (

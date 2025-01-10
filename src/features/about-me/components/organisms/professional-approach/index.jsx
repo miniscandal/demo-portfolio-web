@@ -9,7 +9,8 @@ import './style.css';
 function ProfessionalApproach() {
     const title = {
         text: 'My Professional Approach',
-        type: 'h3'
+        type: 'h3',
+        color: 'light'
     };
 
     const pixelArtDialog = {

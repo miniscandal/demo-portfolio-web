@@ -17,6 +17,12 @@
                 display: flex;
                 flex-wrap: wrap;
             }
+
+            &[data-columns='auto'] {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+                justify-items: center;
+            }
         }
     }
 }

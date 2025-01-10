@@ -3,23 +3,19 @@
         padding-bottom: var(--padding-container);
     }
 
-    > section {
+    > .about-me__section {
         display: flex;
         flex-direction: column;
         gap: var(--gap-container);
 
-        > .about-me__section {
+        > .about-me-section__div {
             display: flex;
-            gap: var(--gap-simple-container);
             flex-wrap: wrap;
-            justify-content: space-between;
+            justify-content: center;
+            gap: var(--gap-simple-container);
 
-            > div {
-                display: flex;
-                flex-direction: column;
-                gap: var(--gap-organism);
+            > .about-me-section__div--texts {
                 align-self: flex-end;
-                max-width: 30rem;
             }
         }
     }
