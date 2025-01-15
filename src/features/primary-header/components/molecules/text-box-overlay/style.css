@@ -33,6 +33,6 @@
         position: absolute;
         inset: 0;
         border: solid var(--border-regular-width) var(--color-light-silver);
-        transition: inset var(--transition-regular-seconds) linear;
+        transition: inset var(--transition-fast-seconds) linear;
     }
 }

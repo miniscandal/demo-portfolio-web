@@ -39,6 +39,7 @@ export default defineConfig({
             '@feat-professional-profile-templates': '/src/features/professional-profile/components/templates/',
             '@feat-professional-profile-contexts': '/src/features/professional-profile/contexts/',
 
+            '@feat-about-me-atoms': '/src/features/about-me/components/atoms/',
             '@feat-about-me-molecules': '/src/features/about-me/components/molecules/',
             '@feat-about-me-organisms': '/src/features/about-me/components/organisms/',
             '@feat-about-me-templates': '/src/features/about-me/components/templates/',

@@ -48,7 +48,7 @@
     }
 
     &.show-box {
-        background-color: var(--color-steel-grey);
+        border: solid #5e3f6e 5px;
     }
 
     &.art-anime-umi {
@@ -257,11 +257,31 @@
     &.art-item-dialog {
 
         &.regular {
-            width: 34rem;
+            width: 34.5rem;
             height: 24rem;
 
             > div {
                 transform: scale(3);
+            }
+
+            @media (width < 40rem) {
+                margin: 1rem;
+                width: 25.5rem;
+                height: 23.5rem;
+
+                > div {
+                    transform: scale(2.6);
+                }
+            }
+
+            @media (width < 30rem) {
+                margin: 1rem;
+                width: 21.5rem;
+                height: 20rem;
+
+                > div {
+                    transform: scale(2.2);
+                }
             }
         }
     }

@@ -1,0 +1,4 @@
+.slider-control {
+    display: flex;
+    gap: var(--gap-molecule);
+}

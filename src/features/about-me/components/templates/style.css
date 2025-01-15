@@ -1,4 +1,5 @@
 .about-me {
+
     > .about-me__div {
         padding-bottom: var(--padding-container);
     }

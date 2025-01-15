@@ -74,6 +74,9 @@
             "@feat-professional-profile-contexts/*": [
                 "features/professional-profile/contexts/*"
             ],
+            "@feat-about-me-atoms/*": [
+                "features/about-me/components/atoms/*"
+            ],
             "@feat-about-me-molecules/*": [
                 "features/about-me/components/molecules/*"
             ],

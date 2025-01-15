@@ -28,7 +28,7 @@ function TechnologicalTools() {
         columns: 'auto'
     };
     const activeInterestLearningTools = {
-        textTitle: 'Active Learning Interest',
+        textTitle: 'Active Learning With Practical Focus',
         skills: ['javaScript', 'html', 'css', 'angular', 'react', 'typeScript'],
         skillsInformation: technologiesToolsData,
         Component: KonohaKit,

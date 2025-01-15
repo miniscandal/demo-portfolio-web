@@ -102,8 +102,8 @@
     --border-large-width: 0.2rem;
 
 
-
-    --transition-regular-seconds: 0.3s;
+    --transition-fast-seconds: 0.3s;
+    --transition-slow-seconds: 1.5s;
 
 
 
@@ -130,7 +130,7 @@
 
 html {
     scroll-behavior: smooth;
-    overflow-x: hidden;
+    background-color: white;
 }
 
 body {
