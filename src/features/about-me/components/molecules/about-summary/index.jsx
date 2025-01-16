@@ -1,15 +1,15 @@
 import { Title } from '@shared-atoms/title';
 import { Paragraph } from '@shared-atoms/paragraph';
 
-import { en as aboutMe } from '@shared-resources-data/professional-information/about-me.json';
-
 import './style.css';
 
 
-function AboutSummary() {
-    const { description } = aboutMe;
+function AboutSummary({
+    title: titleText = 'About Summary',
+    description = undefined
+}) {
     const title = {
-        text: 'About Summary',
+        text: titleText,
         type: 'h4',
         color: 'light'
     };

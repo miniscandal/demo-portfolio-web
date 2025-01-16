@@ -1,3 +1,7 @@
+import { useContext } from 'react';
+
+import { MiniGameContext } from '@feat-about-me-contexts/mini-game';
+
 import { HorizontalPoster } from '@feat-about-me-molecules/horizontal-poster';
 import { VerticalPoster } from '@feat-about-me-molecules/vertical-poster';
 import { PhotoEnigma } from '@feat-about-me-molecules/photo-enigma';
@@ -7,6 +11,9 @@ import './style.css';
 
 
 function DescriptiveCard() {
+    const { stateGame } = useContext(MiniGameContext);
+    console.log('card', stateGame);
+
     const horizontalPoster = {
         firstWord: 'SOFTWARE',
         secondWord: 'DEVELOPER'

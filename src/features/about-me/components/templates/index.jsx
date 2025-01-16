@@ -1,3 +1,5 @@
+import { MiniGameProvider } from '@feat-about-me-contexts/mini-game';
+
 import { DescriptiveCard } from '@feat-about-me-organisms/descriptive-card';
 import { TechnologicalTools } from '@feat-about-me-organisms/technological-tools';
 import { ProfessionalApproach } from '@feat-about-me-organisms/professional-approach';
@@ -22,10 +24,12 @@ function AboutMe() {
             </div>
             <section className='about-me__section'>
                 <div className='about-me-section__div'>
-                    <DescriptiveCard />
-                    <div className='about-me-section__div--texts'>
-                        <ProfessionalProfileOverview />
-                    </div>
+                    <MiniGameProvider>
+                        <DescriptiveCard />
+                        <div className='about-me-section__div--texts'>
+                            <ProfessionalProfileOverview />
+                        </div>
+                    </MiniGameProvider>
                 </div>
                 <TechnologicalTools />
                 <ProfessionalApproach />
