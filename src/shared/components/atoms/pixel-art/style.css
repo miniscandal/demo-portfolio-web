@@ -38,6 +38,9 @@
 @import url('./items/dialog.css');
 @import url('./items/hitai-ate.css');
 @import url('./items/parchment.css');
+@import url('./items/blue-step.css');
+@import url('./items/red-step.css');
+@import url('./items/center-step.css');
 
 
 .pixel-art {
@@ -310,6 +313,19 @@
         }
     }
 
+    &.art-item-blue-step,
+    &.art-item-red-step,
+    &.art-item-center-step {
+
+        &.regular {
+            width: 5.8rem;
+            height: 5.8rem;
+
+            > div {
+                transform: scale(0.25);
+            }
+        }
+    }
 
 
 

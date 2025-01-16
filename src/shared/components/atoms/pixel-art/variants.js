@@ -41,6 +41,9 @@ const PIXEL_ART_ITEM_DIALOG = 'item-dialog';
 const PIXEL_ART_ITEM_HITAI_ATE = 'item-hitai-ate';
 const PIXEL_ART_ITEM_PARCHMENT = 'item-parchment';
 const PIXEL_ART_ITEM_SEALED_PARCHMENT = 'item-sealed-parchment';
+const PIXEL_ART_ITEM_BLUE_STEP = 'item-blue-step';
+const PIXEL_ART_ITEM_RED_STEP = 'item-red-step';
+const PIXEL_ART_ITEM_CENTER_STEP = 'item-center-step';
 
 export {
     PIXEL_ART_ANIME_UMI,
@@ -84,5 +87,8 @@ export {
     PIXEL_ART_ITEM_DIALOG,
     PIXEL_ART_ITEM_HITAI_ATE,
     PIXEL_ART_ITEM_PARCHMENT,
-    PIXEL_ART_ITEM_SEALED_PARCHMENT
+    PIXEL_ART_ITEM_SEALED_PARCHMENT,
+    PIXEL_ART_ITEM_BLUE_STEP,
+    PIXEL_ART_ITEM_RED_STEP,
+    PIXEL_ART_ITEM_CENTER_STEP
 };
