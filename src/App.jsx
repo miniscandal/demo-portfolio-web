@@ -22,7 +22,7 @@ function App() {
                     </scroll-page>
                     <scroll-page>
                         <div>
-                            {/* <PersonalSoftwareProjects /> */}
+                            <PersonalSoftwareProjects />
                         </div>
                     </scroll-page>
                     <scroll-page>

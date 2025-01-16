@@ -12,7 +12,6 @@ const Provider = {
 const ProfessionalInformationContext = createContext(Provider);
 
 
-
 function ProfessionalInformationProvider({ children }) {
 
     return (
