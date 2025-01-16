@@ -1,0 +1,19 @@
+.step-player {
+    width: fit-content;
+
+    &.type-item-blue-step {
+        transform: rotate(-90deg);
+
+
+        &.orientation-left {
+            transform: rotate(180deg);
+        }
+    }
+
+    &.type-item-red-step {
+
+        &.orientation-left {
+            transform: rotate(90deg);
+        }
+    }
+}
