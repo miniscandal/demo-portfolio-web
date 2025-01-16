@@ -6,10 +6,10 @@ import { en } from '@shared-resources-data/work-experience/work-experience.json'
 
 const { ebookDevelopment } = en;
 
-const { socialEmotionalCompetencies, ...skills } = ebookDevelopment
+const { socialEmotionalCompetencies } = ebookDevelopment;
 
 const Provider = {
-    ...skills,
+    ...ebookDevelopment,
     socialEmotionalCompetencies: alternatingWordOrder(socialEmotionalCompetencies)
 };
 

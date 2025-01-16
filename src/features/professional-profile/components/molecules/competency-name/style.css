@@ -1,5 +1,17 @@
 .competency-name {
     > .competency-name__div {
-        padding-top: var(--padding-simple-molecule);
+        padding: var(--padding-simple-molecule) 0;
+
+        &:first-child {
+            justify-items: center;
+
+            border: transparent;
+            border-top: var(--color-muted-lavender);
+            border-style: dotted;
+        }
+
+        &:last-child {
+            text-align: center;
+        }
     }
 }

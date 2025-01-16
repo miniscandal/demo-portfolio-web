@@ -23,11 +23,11 @@ function WorkDateRange({
     };
     const timeStart = {
         color,
-        start
+        ...start
     };
     const timeEnd = {
         color,
-        end
+        ...end
     };
 
     return (

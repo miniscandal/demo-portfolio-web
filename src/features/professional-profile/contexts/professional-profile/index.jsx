@@ -25,30 +25,26 @@ const {
 const Provider = [
     {
         name: computerSystemEngineering.name,
-        // description: computerSystemEngineering.description,
+        description: computerSystemEngineering.description,
         iconFontSvg: Computer,
-        description: databaseAdministration.description,
         pixelArtCharacter: PIXEL_ART_ANIME_ITSUKI_NAKANO_CARD
     },
     {
         name: internetOfThings.name,
-        // description: internetOfThings.description,
+        description: internetOfThings.description,
         iconFontSvg: BroadcastOnHome,
-        description: databaseAdministration.description,
         pixelArtCharacter: PIXEL_ART_ANIME_MIKU_NAKANO_CARD
     },
     {
         name: softwareDeveloper.name,
-        // description: softwareDeveloper.description,
+        description: softwareDeveloper.description,
         iconFontSvg: Terminal,
-        description: databaseAdministration.description,
         pixelArtCharacter: PIXEL_ART_ANIME_YOTSUBA_NAKANO_CARD
     },
     {
         name: functionalAnalyst.name,
-        // description: functionalAnalyst.description,
+        description: functionalAnalyst.description,
         iconFontSvg: EditNote,
-        description: databaseAdministration.description,
         pixelArtCharacter: PIXEL_ART_ANIME_ICHIKA_NAKANO_CARD
     },
     {

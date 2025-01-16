@@ -22,7 +22,9 @@ function CompetencyName({
 
     return (
         <div className='competency-name'>
-            <IconFontSvg {...iconSvgFont} />
+            <div className='competency-name__div'>
+                <IconFontSvg {...iconSvgFont} />
+            </div>
             <div className='competency-name__div'>
                 <Title {...title} />
             </div>
