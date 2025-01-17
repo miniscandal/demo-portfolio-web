@@ -1,0 +1,4 @@
+.step-platform {
+    display: flex;
+    gap: var(--gap-simple-molecule);
+}
