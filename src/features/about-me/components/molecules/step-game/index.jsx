@@ -13,7 +13,6 @@ function StepPlayer({
         `type-${type}`,
         orientationLeft ? 'orientation-left' : ''
     ];
-
     const pixelArt = {
         character: type
     };

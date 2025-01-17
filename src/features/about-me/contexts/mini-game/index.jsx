@@ -1,27 +1,48 @@
 import { createContext } from 'react';
 import { useState } from 'react';
 
+import { STEP_PLAYER_CENTER_STEP } from '@feat-about-me-molecules/step-game/variants';
+import { STEP_PLAYER_RED_STEP } from '@feat-about-me-molecules/step-game/variants';
+import { STEP_PLAYER_BLUE_STEP } from '@feat-about-me-molecules/step-game/variants';
 
-const MiniGameContext = createContext(null);
+
+const MiniGameContext = createContext({
+    stateEndGame: {},
+    stateSequenceGame: {}
+});
 
 
 function MiniGameProvider({ children }) {
     const [endGame, setEndGame] = useState(false);
-    const centralStep = 0;
-    const blueStepA = 1;
-    const blueStepB = 2;
-    const redStepA = 3;
-    const redStepB = 4;
-    const sequence = [blueStepA, centralStep, redStepB, redStepA, blueStepB];
-    const playerSteps = [];
-
+    const [sequenceGame, setSequenceGame] = useState([
+        {
+            type: STEP_PLAYER_RED_STEP, orientationLeft: true
+        },
+        {
+            type: STEP_PLAYER_CENTER_STEP
+        },
+        {
+            type: STEP_PLAYER_BLUE_STEP, orientationLeft: true
+        },
+        {
+            type: STEP_PLAYER_RED_STEP
+        },
+        {
+            type: STEP_PLAYER_CENTER_STEP
+        },
+        {
+            type: STEP_PLAYER_BLUE_STEP
+        }
+    ]);
     const provider = {
-        stateGame: {
+        stateEndGame: {
             endGame,
             setEndGame
         },
-        sequenceGame: sequence,
-        playerSteps
+        stateSequenceGame: {
+            sequenceGame,
+            setSequenceGame
+        }
     };
 
 

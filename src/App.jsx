@@ -6,13 +6,20 @@ import { ProfessionalProfile } from '@feat-professional-profile-templates/index'
 import { AboutMe } from '@feat-about-me-templates/index';
 
 import './App.css';
+import { MainSection } from '@feat-about-me-organisms/main-section';
+import { DescriptiveCard } from '@feat-about-me-organisms/descriptive-card';
+import { MainSectionRightSide } from '@feat-about-me-organisms/main-section-right-side';
+import { ProfessionalProfileOverview } from '@feat-about-me-organisms/professional-profile-overview';
+import { StepPlatform } from '@feat-about-me-molecules/step-platform';
 
 
 function App() {
 
     return (
         <>
-            <scroll-container>
+            <MainSectionRightSide />
+            {/*
+             <scroll-container>
                 <PrimaryHeader />
                 <main>
                     <scroll-page>
@@ -38,6 +45,7 @@ function App() {
                 </main>
                 <PrimaryFooter />
             </scroll-container>
+             */}
         </>
     );
 }

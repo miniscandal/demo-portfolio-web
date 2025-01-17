@@ -1,19 +1,17 @@
 .step-player {
-    width: fit-content;
 
     &.type-item-blue-step {
-        transform: rotate(-90deg);
-
+        transform: scaleY(-1);
 
         &.orientation-left {
-            transform: rotate(180deg);
+            transform: scale(-1);
         }
     }
 
     &.type-item-red-step {
 
         &.orientation-left {
-            transform: rotate(90deg);
+            transform: scaleX(-1);
         }
     }
 }
