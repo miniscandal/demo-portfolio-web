@@ -1,0 +1,23 @@
+{
+    "en": {
+        "specialization": [
+            "java",
+            "springBoot",
+            "mySQL"
+        ],
+        "developmentEnvironment": [
+            "linux",
+            "python",
+            "git"
+        ],
+        "interestLearningPractical": [
+            "javaScript",
+            "html",
+            "css",
+            "angular",
+            "react",
+            "typeScript"
+        ]
+    },
+    "es": {}
+}
