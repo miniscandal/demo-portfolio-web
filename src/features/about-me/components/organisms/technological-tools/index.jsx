@@ -7,7 +7,11 @@ import { en as technologiesToolsData } from '@shared-resources-data/glossaries/t
 import './style.css';
 
 
-function TechnologicalTools() {
+function TechnologicalTools({
+    specialization = [''],
+    developmentEnvironment = [''],
+    interestLearningPractical = ['']
+}) {
     const title = {
         text: 'My Technological Tools',
         type: 'h3',
@@ -15,21 +19,21 @@ function TechnologicalTools() {
     };
     const currentSpecializationTools = {
         textTitle: 'Current Specialization',
-        skills: ['java', 'springBoot', 'mySQL'],
+        skills: specialization,
         skillsInformation: technologiesToolsData,
         Component: KonohaKit,
         columns: 'auto'
     };
     const developmentEnvironmentTools = {
         textTitle: 'Development Environment',
-        skills: ['linux', 'python', 'git'],
+        skills: developmentEnvironment,
         skillsInformation: technologiesToolsData,
         Component: KonohaKit,
         columns: 'auto'
     };
     const activeInterestLearningTools = {
         textTitle: 'Active Learning With Practical Focus',
-        skills: ['javaScript', 'html', 'css', 'angular', 'react', 'typeScript'],
+        skills: interestLearningPractical,
         skillsInformation: technologiesToolsData,
         Component: KonohaKit,
         columns: 'auto'
