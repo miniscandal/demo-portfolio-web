@@ -9,7 +9,8 @@
         }
 
         &:last-child {
-            height: 14rem;
+            max-height: 14rem;
+            min-height: 8rem;
             padding: var(--padding-molecule);
             background-color: var(--color-blush-petal);
             border-radius: var(--border-radius-molecule);
