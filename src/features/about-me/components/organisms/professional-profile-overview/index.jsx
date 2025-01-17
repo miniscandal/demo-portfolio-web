@@ -12,7 +12,7 @@ function ProfessionalProfileOverview({
         description: descriptionMain
     };
     const aboutSummarySecondary = {
-        title: 'Professional Presentation',
+        title: 'Personal Presentation',
         description: descriptionSecondary
     };
 
