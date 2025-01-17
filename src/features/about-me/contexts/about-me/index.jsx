@@ -10,7 +10,6 @@ const AboutMeContext = createContext(Provider);
 
 function AboutMeProvider({ children }) {
 
-
     return (
         <AboutMeContext.Provider value={Provider}>
             {children}
