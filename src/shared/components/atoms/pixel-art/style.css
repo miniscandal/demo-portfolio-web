@@ -51,7 +51,7 @@
     }
 
     &.show-box {
-        border: solid #5e3f6e 5px;
+        border: solid #5e3f6e 1px;
     }
 
     &.art-anime-umi {
@@ -318,14 +318,15 @@
     &.art-item-center-step {
 
         &.regular {
-            width: 5.8rem;
-            height: 5.8rem;
+            width: 4.3rem;
+            height: 4.3rem;
 
             > div {
-                transform: scale(0.25);
+                transform: scale(0.2);
             }
         }
     }
+
 
 
 
