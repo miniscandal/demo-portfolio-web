@@ -1,0 +1,11 @@
+@keyframes pressed-red-left {
+    from {
+        filter: opacity(1);
+        transform: translateY(0) scaleX(-1);
+    }
+
+    to {
+        filter: opacity(0);
+        transform: translateY(-2rem) scaleX(-1);
+    }
+}

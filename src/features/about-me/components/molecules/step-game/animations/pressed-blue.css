@@ -1,0 +1,11 @@
+@keyframes pressed-blue {
+    from {
+        filter: opacity(1);
+        transform: translateY(0) scaleY(-1);
+    }
+
+    to {
+        filter: opacity(0);
+        transform: translateY(-2rem) scaleY(-1);
+    }
+}
