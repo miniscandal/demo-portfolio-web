@@ -1,6 +1,6 @@
 import { createContext } from 'react';
 
-import { alternatingWordOrder } from '@feat-work-experience-history-helpers/alternating-word-order';
+import { alternatingWordOrder } from '@feat-work-experience-history-utils/alternating-word-order';
 
 import { en } from '@shared-resources-data/work-experience/work-experience.json';
 

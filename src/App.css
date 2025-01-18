@@ -6,7 +6,7 @@ main {
         padding: var(--padding-container) var(--padding-molecule);
 
         > div {
-            max-width: 70rem;
+            max-width: 80rem;
             margin: auto;
         }
     }

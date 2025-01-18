@@ -1,0 +1,5 @@
+.competency-professional {
+    border: transparent;
+    border-top: var(--color-muted-lavender);
+    border-style: dotted;
+}

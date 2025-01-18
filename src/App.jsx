@@ -7,7 +7,6 @@ import { AboutMe } from '@feat-about-me-templates/index';
 
 import './App.css';
 
-
 function App() {
 
     return (

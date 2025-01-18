@@ -4,6 +4,7 @@
         overflow: hidden;
         box-shadow: 0 0 1.5rem var(--color-dark);
         transform: rotate(8deg);
+        -webkit-user-select: none;
         user-select: none;
 
         &::after {

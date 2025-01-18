@@ -58,6 +58,14 @@
     --color-dusk-rose: #ff643266;
     --color-dark-pink: #ff32004d;
     --color-crimson-dark: #64000033;
+    --color-bright-yellow: #ffff00;
+    --color-deep-blue: #3d3dd1;
+    --color-light-pink: #ffb6c1;
+    --color-dark-maroon: #382e31;
+    --color-slate-black: #515055;
+    --color-vivid-blue: #1788ce;
+    --color-night-shadow: #2f2e32;
+    --color-crimson-red: #e32223;
 
 
 
@@ -100,6 +108,7 @@
 
     --border-regular-width: 0.05rem;
     --border-large-width: 0.2rem;
+
 
 
     --transition-fast-seconds: 0.3s;

@@ -4,10 +4,6 @@
 
         &:first-child {
             justify-items: center;
-
-            border: transparent;
-            border-top: var(--color-muted-lavender);
-            border-style: dotted;
         }
 
         &:last-child {

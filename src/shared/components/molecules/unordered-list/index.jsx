@@ -5,7 +5,7 @@ import './style.css';
 
 
 function UnorderedList({
-    id = null,
+    id = 'unorderedListId',
     selectListItemId = undefined,
     Component = Paragraph,
     items = [
@@ -16,7 +16,8 @@ function UnorderedList({
         },
         {
             id: 'two',
-            text: 'item two'
+            text: 'item two',
+            ChildrenComponent: (({ text }) => (<Span text={text} />))
         },
     ],
     handleClick = () => { }
@@ -36,13 +37,14 @@ function UnorderedList({
 
         const isSelected = id === selectListItemId;
 
+
         return (
             <li
                 key={`${id}-${index}`}
                 data-id={id}
-                className={isSelected ? 'panel-active' : ''}
+                className={isSelected ? 'selected-item-list' : ''}
             >
-                <Component {...properties}>
+                <Component {...properties} isSelected={isSelected}>
                     {
                         ChildrenComponent && <ChildrenComponent isSelected={isSelected} />
                     }
