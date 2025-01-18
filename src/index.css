@@ -17,23 +17,16 @@
     --color-slate-gray: #554d74;
     --color-coffee-brown: #453c41;
     --color-charcoal-grey: #48494a;
-    --color-steel-grey: #7b7c81;
     --color-smoky-purple: #7b586b;
     --color-light-silver: #d4dbe2;
     --color-warm-silver: #b0bbbf;
     --color-olive-green: #9dac38;
-    --color-teal-green: #358282;
     --color-deep-ocean: #586c91;
     --color-royal-blue: #2f70af;
     --color-sky-blue: #4886af;
-    --color-bright-orange: #d33f0f;
-    --color-coral-orange: #f5704a;
-    --color-cool-sky: #d1e2f3;
-    --color-window-glass: #ffffff59;
     --color-misty-gray: #d4dbe266;
     --color-heather-mist: #a0849d;
     --color-cream-light: #ecd7bb;
-    --color-dune-sand: #f5f5dc;
     --color-rose-water: #fbeefb;
     --color-blush-petal: #ffc1cc;
     --color-vintage-rose: #6e315a;
@@ -79,7 +72,6 @@
     --padding-simple-organism: 2rem;
     --padding-organism: 4rem;
 
-    --padding-simple-container: 6rem;
     --padding-container: 8rem;
 
 
@@ -101,10 +93,6 @@
     --border-radius-molecule: 0.75rem;
 
 
-    --border-radius-organism: 1.5rem;
-
-    --border-radius-container: 3rem;
-
 
     --border-regular-width: 0.05rem;
     --border-large-width: 0.2rem;
@@ -113,21 +101,6 @@
 
     --transition-fast-seconds: 0.3s;
     --transition-slow-seconds: 1.5s;
-
-
-
-
-    /* Not implemented */
-
-    --transition-box-shadow: box-shadow 0.3s linear;
-    --hover-brightness: brightness(1.5);
-
-    --box-shadow-inset: inset 0 0 0.25rem var(--color-cool-sky);
-
-    --box-shadow-offset: 0.25em;
-    --box-shadow-blur: 0.25em;
-    --box-shadow-spread: 0.25em;
-    --box-shadow-color: var(--color-charcoal-grey);
 }
 
 *,
@@ -144,12 +117,10 @@
 
 html {
     scroll-behavior: smooth;
-    background-color: white;
 }
 
 body {
     font-family: Figtree, helvetica;
-    background-color: gray;
     overflow-x: hidden;
 }
 
