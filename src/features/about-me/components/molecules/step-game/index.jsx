@@ -1,17 +1,19 @@
 import { PixelArt } from '@shared-atoms/pixel-art';
 
-import { STEP_PLAYER_CENTER_STEP } from './variants';
+import { STEP_GAME_CENTER_STEP } from './variants';
 
 import './style.css';
 
 
-function StepPlayer({
-    type = STEP_PLAYER_CENTER_STEP,
-    orientationLeft = false
+function StepGame({
+    type = STEP_GAME_CENTER_STEP,
+    orientationLeft = false,
+    isSelected = false
 }) {
     const classList = [
         `type-${type}`,
-        orientationLeft ? 'orientation-left' : ''
+        orientationLeft ? 'orientation-left' : '',
+        isSelected ? 'selected' : ''
     ];
     const pixelArt = {
         character: type
@@ -19,10 +21,10 @@ function StepPlayer({
 
 
     return (
-        <div className={`step-player ${classList.join(' ')}`}>
+        <div className={`step-game ${classList.join(' ')}`}>
             <PixelArt {...pixelArt} />
         </div>
     );
 }
 
-export { StepPlayer };
+export { StepGame };

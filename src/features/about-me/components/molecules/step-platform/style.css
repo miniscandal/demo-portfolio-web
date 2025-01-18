@@ -1,4 +1,8 @@
 .step-platform {
     display: flex;
-    gap: var(--gap-simple-molecule);
+
+    > .unordered-list {
+        display: flex;
+        gap: var(--gap-simple-molecule);
+    }
 }

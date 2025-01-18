@@ -1,23 +1,28 @@
-import { StepPlayer } from '@feat-about-me-molecules/step-game';
+import { StepGame } from '@feat-about-me-molecules/step-game';
+import { UnorderedList } from '@shared-molecules/unordered-list';
 
 import './style.css';
 
 
 function StepPlatform({
-    sequenceGame = [{}]
+    sequenceGame = [
+        { id: '0' },
+        { id: '1' },
+        { id: '2' }
+    ],
+    handleClick = () => { }
 }) {
-    const steps = sequenceGame.map((step, index) => {
-        const { type } = step;
-
-
-        return (
-            <StepPlayer key={`${type}-${index}`} {...step} />
-        );
-    });
+    const unorderedList = {
+        id: 'step-platform',
+        selectListItemId: sequenceGame[0]?.id,
+        Component: StepGame,
+        items: sequenceGame,
+        handleClick
+    };
 
     return (
         <div className='step-platform'>
-            {steps}
+            <UnorderedList {...unorderedList} />
         </div>
     );
 }

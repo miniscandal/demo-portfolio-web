@@ -5,7 +5,12 @@ import photo from '@assets-images/photo-me/my-photo-03.png';
 import './style.css';
 
 
-function PhotoEnigma() {
+function PhotoEnigma({
+    hidden = true
+}) {
+    const classList = [
+        hidden ? 'hidden' : ''
+    ];
     const image = {
         src: photo,
         size: 'my-photo'
@@ -13,7 +18,7 @@ function PhotoEnigma() {
 
 
     return (
-        <div className='photo-enigma'>
+        <div className={`photo-enigma ${classList.join(' ')}`}>
             <Image {...image} />
         </div>
     );

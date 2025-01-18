@@ -11,8 +11,7 @@ import './style.css';
 
 
 function DescriptiveCard() {
-    const { stateGame } = useContext(MiniGameContext);
-    console.log('card', stateGame);
+    const { gameState: { endGame } } = useContext(MiniGameContext);
 
     const horizontalPoster = {
         firstWord: 'SOFTWARE',
@@ -20,6 +19,9 @@ function DescriptiveCard() {
     };
     const verticalPoster = {
         text: 'MINI-CODE'
+    };
+    const photoEnigma = {
+        hidden: !endGame
     };
 
 
@@ -33,7 +35,7 @@ function DescriptiveCard() {
                     <VerticalPoster {...verticalPoster} />
                 </div>
                 <div className='descriptive-card__div--photo'>
-                    <PhotoEnigma />
+                    <PhotoEnigma {...photoEnigma} />
                 </div>
                 <div className='descriptive-card__div--background'>
                     <GridOverlay />
