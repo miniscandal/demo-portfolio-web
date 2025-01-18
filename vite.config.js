@@ -28,7 +28,7 @@ export default defineConfig({
             '@feat-work-experience-history-organisms': '/src/features/work-experience-history/components/organisms/',
             '@feat-work-experience-history-templates': '/src/features/work-experience-history/components/templates/',
             '@feat-work-experience-history-contexts': '/src/features/work-experience-history/contexts/',
-            '@feat-work-experience-history-helpers': '/src/features/work-experience-history/helpers/',
+            '@feat-work-experience-history-utils': '/src/features/work-experience-history/utils/',
 
             '@feat-primary-footer-molecules': '/src/features/primary-footer/components/molecules/',
             '@feat-primary-footer-organisms': '/src/features/primary-footer/components/organisms/',
@@ -44,6 +44,7 @@ export default defineConfig({
             '@feat-about-me-organisms': '/src/features/about-me/components/organisms/',
             '@feat-about-me-templates': '/src/features/about-me/components/templates/',
             '@feat-about-me-contexts': '/src/features/about-me/contexts/',
+            '@feat-about-me-helpers': '/src/features/about-me/helpers/',
 
             '@feat-personal-software-projects-molecules': '/src/features/personal-software-projects/components/molecules/',
             '@feat-personal-software-projects-organisms': '/src/features/personal-software-projects/components/organisms/',

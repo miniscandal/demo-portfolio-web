@@ -20,8 +20,8 @@
             "@feat-work-experience-history-contexts/*": [
                 "features/work-experience-history/contexts/*"
             ],
-            "@feat-work-experience-history-helpers/*": [
-                "features/work-experience-history/helpers/*"
+            "@feat-work-experience-history-utils/*": [
+                "features/work-experience-history/utils/*"
             ],
             "@feat-personal-software-projects-pages/*": [
                 "features/personal-software-projects/components/pages/*"
@@ -88,6 +88,9 @@
             ],
             "@feat-about-me-contexts/*": [
                 "features/about-me/contexts/*"
+            ],
+            "@feat-about-me-helpers/*": [
+                "features/about-me/helpers/*"
             ],
             "@shared-atoms/*": [
                 "shared/components/atoms/*"
