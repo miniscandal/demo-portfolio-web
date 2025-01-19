@@ -1,21 +1,13 @@
-const PROFESSIONAL_CONTACT = 'professional-contact';
-
-const WORK_EXPERIENCE = 'work-experience';
-
-const TECHNICAL_COMPETENCIES_AND_EXPERTISE = 'technical-competencies-and-expertise';
-
-const PERSONAL_PROJECTS = 'personal-projects';
-
-const ABOUT_ME = 'about-me';
-
-const PRIMARY_FOOTER = 'primary-footer';
-
+const SCROLL_PAGE_WORK_EXPERIENCE_HISTORY = 'work-experience-history';
+const SCROLL_PAGE_PERSONAL_SOFTWARE_PROJECTS = 'personal-software-projects';
+const SCROLL_PAGE_PROFESSIONAL_PROFILE = 'professional-profile';
+const SCROLL_PAGE_ABOUT_ME = 'about-me';
+const SCROLL_PAGE_PRIMARY_FOOTER = 'primary-footer';
 
 export {
-    PROFESSIONAL_CONTACT,
-    WORK_EXPERIENCE,
-    TECHNICAL_COMPETENCIES_AND_EXPERTISE,
-    PERSONAL_PROJECTS,
-    ABOUT_ME,
-    PRIMARY_FOOTER
+    SCROLL_PAGE_WORK_EXPERIENCE_HISTORY,
+    SCROLL_PAGE_PERSONAL_SOFTWARE_PROJECTS,
+    SCROLL_PAGE_PROFESSIONAL_PROFILE,
+    SCROLL_PAGE_ABOUT_ME,
+    SCROLL_PAGE_PRIMARY_FOOTER
 };
