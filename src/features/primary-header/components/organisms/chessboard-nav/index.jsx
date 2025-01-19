@@ -1,10 +1,12 @@
 import { TextBoxOverlay } from '@feat-primary-header-molecules/text-box-overlay';
 
 import { UnorderedList } from '@shared-molecules/unordered-list';
-import { WORK_EXPERIENCE } from '@shared-constants/anchor-id';
-import { TECHNICAL_COMPETENCIES_AND_EXPERTISE } from '@shared-constants/anchor-id';
-import { PERSONAL_PROJECTS } from '@shared-constants/anchor-id';
-import { ABOUT_ME } from '@shared-constants/anchor-id';
+
+import { SCROLL_PAGE_WORK_EXPERIENCE_HISTORY } from '@shared-constants/anchor-id';
+import { SCROLL_PAGE_PERSONAL_SOFTWARE_PROJECTS } from '@shared-constants/anchor-id';
+import { SCROLL_PAGE_PROFESSIONAL_PROFILE } from '@shared-constants/anchor-id';
+import { SCROLL_PAGE_ABOUT_ME } from '@shared-constants/anchor-id';
+import { SCROLL_PAGE_PRIMARY_FOOTER } from '@shared-constants/anchor-id';
 
 import './style.css';
 
@@ -13,34 +15,34 @@ function ChessboardNav() {
     const classList = [];
     const items = [
         {
-            id: 'experience',
+            id: 'work-experience-history',
             text: 'WORK EXPERIENCE',
             symbol: '01',
-            idAnchor: WORK_EXPERIENCE
+            idAnchor: SCROLL_PAGE_WORK_EXPERIENCE_HISTORY
         },
         {
-            id: 'portfolio',
-            text: 'TECHNICAL EXPERTISE',
+            id: 'personal-software-projects',
+            text: 'PERSONAL_PROJECTS',
             symbol: '02',
-            idAnchor: TECHNICAL_COMPETENCIES_AND_EXPERTISE
+            idAnchor: SCROLL_PAGE_PERSONAL_SOFTWARE_PROJECTS
         },
         {
-            id: 'whatIdDo',
-            text: 'PERSONAL PROJECTS',
+            id: 'professional-profile',
+            text: 'PROFESSIONAL PROFILE',
             symbol: '03',
-            idAnchor: PERSONAL_PROJECTS
+            idAnchor: SCROLL_PAGE_PROFESSIONAL_PROFILE
         },
         {
-            id: 'contact',
+            id: 'about-me',
             text: 'ABOUT ME',
             symbol: '04',
-            idAnchor: ABOUT_ME
+            idAnchor: SCROLL_PAGE_ABOUT_ME
         },
         {
-            id: '',
-            text: '',
-            symbol: '',
-            idAnchor: undefined
+            id: 'primary-footer',
+            text: 'ADDITIONAL INFORMATION',
+            symbol: '05',
+            idAnchor: SCROLL_PAGE_PRIMARY_FOOTER
         },
     ];
     const squareShapeAnchorLinks = {
