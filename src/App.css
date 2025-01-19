@@ -1,29 +1,34 @@
 @import url('./shared/components/atoms/colors/style.css');
 
-main {
-    > scroll-page {
-        display: block;
-        padding: var(--padding-container) var(--padding-molecule);
 
-        > div {
+scroll-container {
+    scroll-page {
+        display: block;
+        padding: var(--padding-container) var(--padding-viewport);
+
+        > .main__div {
             max-width: 80rem;
             margin: auto;
         }
-    }
 
-    > scroll-page:nth-child(1) {
-        background-color: var(--color-light-silver);
-    }
+        &#work-experience-history {
+            background-color: var(--color-light-silver);
+        }
 
-    > scroll-page:nth-child(2) {
-        background-color: var(--color-rose-water);
-    }
+        &#personal-software-projects {
+            background-color: var(--color-rose-water);
+        }
 
-    > scroll-page:nth-child(3) {
-        background-color: var(--color-rose-water);
-    }
+        &#professional-profile {
+            background-color: var(--color-rose-water);
+        }
 
-    > scroll-page:nth-child(4) {
-        background-color: var(--color-smoky-purple);
+        &#about-me {
+            background-color: var(--color-smoky-purple);
+        }
+
+        &#primary-footer {
+            background-color: var(--color-coffee-brown);
+        }
     }
 }
