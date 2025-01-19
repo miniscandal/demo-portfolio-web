@@ -7,7 +7,6 @@
         &:first-child {
             display: flex;
             gap: var(--gap-molecule);
-            align-self: flex-end;
         }
 
         &:last-child {

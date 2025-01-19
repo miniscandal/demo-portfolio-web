@@ -62,7 +62,7 @@
 
 
 
-    --padding-viewport: 0.5rem;
+    --padding-viewport: 1rem;
 
     --padding-atom: 0.25rem;
 
@@ -72,6 +72,7 @@
     --padding-simple-organism: 2rem;
     --padding-organism: 4rem;
 
+    --padding-simple-container: 6rem;
     --padding-container: 8rem;
 
 
@@ -122,6 +123,7 @@ html {
 body {
     font-family: Figtree, helvetica;
     overflow-x: hidden;
+    background-color: gray;
 }
 
 html,
