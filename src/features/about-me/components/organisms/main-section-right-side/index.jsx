@@ -20,7 +20,7 @@ function MainSectionRightSide() {
     return (
         <div className='main-section-right-side'>
             <div className='main-section-right-side__div'>
-                {/* <MiniGame /> */}
+                <MiniGame />
             </div>
             <ProfessionalProfileOverview {...professionalProfileOverview} />
         </div>

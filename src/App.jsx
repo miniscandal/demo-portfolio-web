@@ -13,13 +13,6 @@ import { SCROLL_PAGE_PRIMARY_FOOTER } from '@shared-constants/anchor-id';
 
 import './App.css';
 
-import { MainSection } from '@feat-about-me-organisms/main-section';
-import { DescriptiveCard } from '@feat-about-me-organisms/descriptive-card';
-import { Header } from '@feat-about-me-organisms/header';
-import { MainSectionRightSide } from '@feat-about-me-organisms/main-section-right-side';
-import { AboutMeProvider } from '@feat-about-me-contexts/about-me';
-import { MiniGameProvider } from '@feat-about-me-contexts/mini-game';
-import { MiniGame } from '@feat-about-me-organisms/mini-game';
 
 function App() {
 

@@ -22,7 +22,7 @@ function ChessboardNav() {
         },
         {
             id: 'personal-software-projects',
-            text: 'PERSONAL_PROJECTS',
+            text: 'PERSONAL PROJECTS',
             symbol: '02',
             idAnchor: SCROLL_PAGE_PERSONAL_SOFTWARE_PROJECTS
         },

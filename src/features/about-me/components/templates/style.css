@@ -1,7 +1,4 @@
 .about-me {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 
     > .about-me__div {
         &:first-child {

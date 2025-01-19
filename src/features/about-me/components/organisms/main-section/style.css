@@ -4,6 +4,6 @@
     gap: var(--gap-simple-container);
 
     > .main-section__div {
-        margin-top: auto;
+        align-self: flex-end;
     }
 }

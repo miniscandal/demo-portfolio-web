@@ -3,18 +3,15 @@
 meet the CEO's design requirements.
 */
 
-
 .header-content {
     display: flex;
     flex-wrap: wrap-reverse;
+    overflow: hidden;
 
     > .header-content__section {
         display: flex;
         flex-direction: column;
         gap: var(--padding-simple-organism);
-        margin-top: auto;
-        padding-left: var(--padding-viewport);
-        padding-bottom: var(--padding-viewport);
         z-index: 10;
 
         > .header-content__section--div {

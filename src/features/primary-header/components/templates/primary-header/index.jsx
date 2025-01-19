@@ -17,7 +17,7 @@ function PrimaryHeader() {
 
     return (
         <header className='primary-header'>
-            <div className='primary-header__div--background'>
+            <div className='primary-header__div'>
                 <Image {...image} />
             </div>
             <HeaderContent />
