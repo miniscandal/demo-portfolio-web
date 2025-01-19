@@ -3,8 +3,6 @@ import { ProfessionalContactProvider } from '@shared-contexts/professional-conta
 import { Paragraph } from '@shared-atoms/paragraph';
 import { ProfessionalContact } from '@shared-organisms/professional-contact';
 
-import { PRIMARY_FOOTER } from '@shared-constants/anchor-id';
-
 import './style.css';
 
 
@@ -22,7 +20,7 @@ function PrimaryFooter() {
     };
 
     return (
-        <footer id={PRIMARY_FOOTER} className='primary-footer'>
+        <footer className='primary-footer'>
             <div>
                 <Paragraph {...paragraphInspiredQuote} />
                 <Paragraph {...paragraphAuthor} />
