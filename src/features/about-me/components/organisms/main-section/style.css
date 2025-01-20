@@ -5,5 +5,9 @@
 
     > .main-section__div {
         align-self: flex-end;
+
+        > .main-section__div--mini-game {
+            padding-bottom: var(--padding-organism);
+        }
     }
 }

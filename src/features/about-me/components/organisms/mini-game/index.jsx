@@ -10,8 +10,7 @@ import { Paragraph } from '@shared-atoms/paragraph';
 
 import { playBitSoundMiss } from '@feat-about-me-helpers/play-bit-sound/variants';
 import { playBitSoundPerfect } from '@feat-about-me-helpers/play-bit-sound/variants';
-import playBitSound from '@feat-about-me-helpers/play-bit-sound';
-
+import { playBitSound } from '@feat-about-me-helpers/play-bit-sound';
 
 import { STEP_GAME_PRESSED_CSS_CLASS } from '@feat-about-me-molecules/step-game/variants';
 

@@ -14,4 +14,4 @@ function playBitSound(sound) {
     oscillator.stop(audioCtx.currentTime + 0.1);
 };
 
-export default playBitSound;
+export { playBitSound };
