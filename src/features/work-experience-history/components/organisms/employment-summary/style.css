@@ -1,7 +1,15 @@
 .employment-summary {
+    border-left: dotted var(--color-warm-silver) var(--border-large-width);
+    border-right: dotted var(--color-warm-silver) var(--border-large-width);
+    padding: 0 var(--padding-organism);
+
     > .employment-summary__div {
         &:first-child {
             padding-bottom: var(--padding-simple-organism);
         }
+    }
+
+    @media (width < 30rem) {
+        padding: 0 var(--padding-viewport);
     }
 }

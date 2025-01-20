@@ -15,9 +15,9 @@ function WorkExperienceHistory() {
 
     return (
         <article className='work-experience-history'>
-            <div className='work-experience-history__div'>
+            <header>
                 <DecoratedTitle {...decoratedTitle} />
-            </div>
+            </header>
             <section>
                 <WorkExperienceProvider>
                     <EmploymentSummary />
