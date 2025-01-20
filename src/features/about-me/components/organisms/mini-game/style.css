@@ -1,6 +1,16 @@
 .mini-game {
-    > .mini-game__div {
+
+    > .mini-game__div--end-game {
         justify-items: start;
-        padding: var(--padding-molecule) 0;
+
+        > .mini-game__div--indicator {
+            padding-bottom: var(--padding-simple-molecule);
+        }
+    }
+
+    > .mini-game__div--start-game {
+        font-family: var(--font-family-manga);
+        justify-items: start;
+        padding-bottom: var(--padding-molecule);
     }
 }

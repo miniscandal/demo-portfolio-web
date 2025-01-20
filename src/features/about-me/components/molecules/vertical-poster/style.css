@@ -1,5 +1,5 @@
 .vertical-poster {
-    font-family: 'Yoruka';
+    font-family: var(--font-family-manga);
     text-orientation: upright;
     writing-mode: vertical-lr;
     background-color: var(--color-light);

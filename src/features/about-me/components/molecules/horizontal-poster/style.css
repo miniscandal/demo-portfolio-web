@@ -14,7 +14,7 @@
             transform: translate(-50%, -50%) rotate(-5deg);
             width: 105%;
             text-align: center;
-            font-family: 'Yoruka';
+            font-family: var(--font-family-manga);
 
             > .horizontal-poster__div--text {
                 background-color: var(--color-vintage-rose);
