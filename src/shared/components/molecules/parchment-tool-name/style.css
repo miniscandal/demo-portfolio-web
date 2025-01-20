@@ -12,6 +12,6 @@
         filter: sepia(0.2);
         justify-items: center;
         align-content: center;
-        font-family: Yoruka;
+        font-family: var(--font-family-manga);
     }
 }

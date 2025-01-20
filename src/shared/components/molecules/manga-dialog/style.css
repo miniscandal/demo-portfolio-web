@@ -13,7 +13,7 @@
             border-radius: 50%;
             text-align: center;
             background-color: var(--color-light);
-            font-family: 'Yoruka';
+            font-family: var(--font-family-manga);
         }
     }
 

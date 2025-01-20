@@ -59,6 +59,7 @@
     --color-vivid-blue: #1788ce;
     --color-night-shadow: #2f2e32;
     --color-crimson-red: #e32223;
+    --color-pink-pastel: #faa9df;
 
 
 
@@ -102,6 +103,12 @@
 
     --transition-fast-seconds: 0.3s;
     --transition-slow-seconds: 1.5s;
+
+
+
+    --font-family-pixel-art: 'Courier New';
+    --font-family-impact: Impact;
+    --font-family-manga: Yoruka;
 }
 
 *,

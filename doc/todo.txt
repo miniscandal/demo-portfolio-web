@@ -7,6 +7,8 @@ cSpell: disable
 
 ⚝ Update descriptive names to semantic names
 
+⚝ Update unused colors defined in atoms
+
 panel one:
 description / expected results
 
