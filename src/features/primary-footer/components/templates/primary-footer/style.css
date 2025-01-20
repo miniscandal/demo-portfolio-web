@@ -4,6 +4,6 @@
     gap: var(--gap-simple-container);
 
     > div {
-        /* margin: auto; */
+        margin: auto;
     }
 }
