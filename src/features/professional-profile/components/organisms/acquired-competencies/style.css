@@ -1,6 +1,5 @@
 .acquired-competencies {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr));
-    justify-items: center;
     gap: var(--gap-organism);
 }

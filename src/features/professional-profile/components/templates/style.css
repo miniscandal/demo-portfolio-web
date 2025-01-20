@@ -1,5 +1,11 @@
 .professional-profile {
-    > .professional-profile__div {
+
+    > header {
         padding-bottom: var(--padding-container);
+    }
+
+    > section {
+        max-width: 70rem;
+        margin: auto;
     }
 }

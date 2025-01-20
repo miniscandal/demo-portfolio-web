@@ -15,12 +15,14 @@ function ProfessionalProfile() {
 
     return (
         <section className='professional-profile'>
-            <div className='professional-profile__div'>
+            <header>
                 <DecoratedTitle {...decoratedTitle} />
-            </div>
-            <ProfessionalProfileProvider>
-                <AcquiredCompetencies />
-            </ProfessionalProfileProvider>
+            </header>
+            <section>
+                <ProfessionalProfileProvider>
+                    <AcquiredCompetencies />
+                </ProfessionalProfileProvider>
+            </section>
         </section>
     );
 }
