@@ -6,6 +6,6 @@
 
     to {
         filter: opacity(0);
-        transform: translateY(-2rem) scaleX(-1);
+        transform: translateY(var(--animation-translate-y-final-state)) scaleX(-1);
     }
 }

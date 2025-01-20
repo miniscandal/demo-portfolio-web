@@ -6,6 +6,9 @@
 @import url('./animations/pressed-center.css');
 
 .step-game {
+    --animation-translate-y-final-state: -2rem;
+    --animation-seconds: 0.5s;
+
     padding: var(--padding-simple-molecule);
     -webkit-user-select: none;
     user-select: none;
@@ -14,7 +17,7 @@
         background: linear-gradient(to bottom, var(--color-dark-maroon), var(--color-slate-black));
 
         &.pressed {
-            animation: pressed-center 1s ease infinite;
+            animation: pressed-center var(--animation-seconds) ease infinite;
         }
     }
 
@@ -23,14 +26,14 @@
         background: linear-gradient(to bottom, var(--color-vivid-blue), var(--color-night-shadow));
 
         &.pressed {
-            animation: pressed-blue 1s ease infinite;
+            animation: pressed-blue var(--animation-seconds) ease infinite;
         }
 
         &.orientation-left {
             transform: scale(-1);
 
             &.pressed {
-                animation: pressed-blue-left 1s ease infinite;
+                animation: pressed-blue-left var(--animation-seconds) ease infinite;
             }
         }
     }
@@ -39,14 +42,14 @@
         background: linear-gradient(to bottom, var(--color-crimson-red), var(--color-night-shadow));
 
         &.pressed {
-            animation: pressed-red 1s ease infinite;
+            animation: pressed-red var(--animation-seconds) ease infinite;
         }
 
         &.orientation-left {
             transform: scaleX(-1);
 
             &.pressed {
-                animation: pressed-red-left 1s ease infinite;
+                animation: pressed-red-left var(--animation-seconds) ease infinite;
             }
         }
     }

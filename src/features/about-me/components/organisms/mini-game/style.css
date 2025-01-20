@@ -1,3 +1,6 @@
 .mini-game {
-    overflow-x: hidden;
+    > .mini-game__div {
+        justify-items: start;
+        padding: var(--padding-molecule) 0;
+    }
 }

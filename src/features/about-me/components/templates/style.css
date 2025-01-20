@@ -1,15 +1,18 @@
 .about-me {
 
-    > .about-me__div {
-        &:first-child {
-            padding-bottom: var(--padding-container);
-        }
+    > header {
+        padding-bottom: var(--padding-container);
+    }
 
-        &:last-child {
-            display: flex;
-            flex-direction: column;
-            gap: var(--gap-simple-container);
-            margin: 0 auto;
+    > section {
+        display: flex;
+        flex-direction: column;
+        gap: var(--gap-simple-container);
+
+        > .about-me__div--main-section {
+            > .main-section {
+                justify-content: center;
+            }
         }
     }
 }

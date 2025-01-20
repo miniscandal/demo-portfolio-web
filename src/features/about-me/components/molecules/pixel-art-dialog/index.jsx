@@ -39,7 +39,7 @@ function PixelArtDialog({
 
     return (
         <section className='pixel-art-dialog'>
-            <div className='pixel-art-dialog__div'>
+            <div className='pixel-art-dialog__div--dialog'>
                 <div className='pixel-art-dialog__div--control'>
                     <SliderControl {...sliderControl} />
                 </div>

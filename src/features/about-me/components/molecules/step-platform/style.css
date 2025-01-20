@@ -1,8 +1,9 @@
 .step-platform {
-    display: flex;
+    max-width: 20rem;
 
     > .unordered-list {
         display: flex;
         gap: var(--gap-simple-molecule);
+        overflow-x: hidden;
     }
 }

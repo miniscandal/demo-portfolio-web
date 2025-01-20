@@ -3,10 +3,11 @@ import { useContext } from 'react';
 import { MiniGameContext } from '@feat-about-me-contexts/mini-game';
 
 import { StepPlatform } from '@feat-about-me-molecules/step-platform';
+import { NextStepButton } from '@shared-molecules/next-step-button';
 
-import playBitSound from '@feat-about-me-helpers/play-bit-sound';
 import { playBitSoundMiss } from '@feat-about-me-helpers/play-bit-sound/variants';
 import { playBitSoundPerfect } from '@feat-about-me-helpers/play-bit-sound/variants';
+import playBitSound from '@feat-about-me-helpers/play-bit-sound';
 
 import { STEP_GAME_PRESSED_CSS_CLASS } from '@feat-about-me-molecules/step-game/variants';
 
@@ -15,7 +16,7 @@ import './style.css';
 
 function MiniGame() {
     const { gameState, setGameState } = useContext(MiniGameContext);
-    const { sequenceGame } = gameState;
+    const { sequenceGame, endGame } = gameState;
 
     const updateGameState = () => {
         setGameState(prevState => {
@@ -49,8 +50,12 @@ function MiniGame() {
         }
     };
 
+
     return (
         <div className='mini-game'>
+            <div className='mini-game__div'>
+                {endGame || <NextStepButton />}
+            </div>
             <StepPlatform {...stepPlatform} />
         </div>
     );

@@ -1,5 +1,6 @@
 .pixel-art-dialog {
-    > .pixel-art-dialog__div {
+
+    > .pixel-art-dialog__div--dialog {
         display: flex;
         flex-direction: column-reverse;
         position: relative;

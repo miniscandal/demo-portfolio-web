@@ -26,14 +26,16 @@ function AboutMe() {
 
     return (
         <article className='about-me'>
-            <div className='about-me__div'>
+            <header>
                 <DecoratedTitle {...decoratedTitle} />
-            </div>
-            <div className='about-me__div'>
-                <MainSection />
+            </header>
+            <section>
+                <div className='about-me__div--main-section'>
+                    <MainSection />
+                </div>
                 <TechnologicalTools {...technologicalTools} />
                 <ProfessionalApproach />
-            </div>
+            </section>
         </article >
     );
 }
