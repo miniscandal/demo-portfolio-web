@@ -1,10 +1,10 @@
 .personal-software-projects {
-    > .personal-software-projects__div {
+
+    > header {
         padding-bottom: var(--padding-container);
     }
 
     > section {
-        /* display: flex; */
-        /* justify-content: center; */
+        justify-items: center;
     }
 }

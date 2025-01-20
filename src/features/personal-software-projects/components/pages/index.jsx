@@ -15,9 +15,9 @@ function PersonalSoftwareProjects() {
 
     return (
         <article className='personal-software-projects'>
-            <div className='personal-software-projects__div'>
+            <header>
                 <DecoratedTitle {...decorateTitle} />
-            </div>
+            </header>
             <section>
                 <MangaContextProvider provider={SensorMonitoringProvider}>
                     <Manga />
