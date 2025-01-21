@@ -1,0 +1,7 @@
+.radio-selection-option {
+    cursor: pointer;
+
+    > input {
+        display: none;
+    }
+}
