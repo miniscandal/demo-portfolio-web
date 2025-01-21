@@ -30,10 +30,17 @@ function PixelArtDialog({
     };
     const sliderControl = {
         sliderOptions: [
-            'paragraph-main',
-            'paragraph-secondary'
+            {
+                id: 'paragraph-main',
+                name: ''
+            },
+            {
+                id: 'paragraph-secondary',
+                name: ''
+            }
         ],
-        selectDefault: 'paragraph-main'
+        selectDefault: 'paragraph-main',
+        itemWithCheckBoxOnly: true
     };
 
 

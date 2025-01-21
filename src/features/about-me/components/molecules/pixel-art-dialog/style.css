@@ -16,7 +16,7 @@
 
                 display: block;
 
-                &:has(input[type="radio"][id="paragraph-main"]:checked) {
+                &:has(input[type='radio'][id='paragraph-main']:checked) {
 
                     + .pixel-art-dialog__div--content {
 
@@ -29,7 +29,7 @@
                     }
                 }
 
-                &:has(input[type="radio"][id="paragraph-secondary"]:checked) {
+                &:has(input[type='radio'][id='paragraph-secondary']:checked) {
 
                     + .pixel-art-dialog__div--content {
 

@@ -1,28 +1,28 @@
 import { useState } from 'react';
 
-import { SliderOption } from '@feat-about-me-atoms/slider-button';
+import { RadioSelectionOption } from '@feat-about-me-molecules/radio-selection-option';
 
 import './style.css';
 
 
 function SliderControl({
-    sliderOptions = ['slider-option'],
-    selectDefault = 'slider-option'
+    selectionOptions = [{
+        htmlFor: 'option-01'
+    }],
+    defaultSelectionOption = 'option-01',
+    Component = RadioSelectionOption
 }) {
-    const [selectOption, setSelectOption] = useState(selectDefault);
+    const [selectOption, setSelectOption] = useState(defaultSelectionOption);
 
-    const componentsSliderOption = sliderOptions.map((option, index) => {
+    const componentsSliderOption = selectionOptions.map((option, index) => {
+        const { htmlFor } = option;
         const props = {
-            id: option,
-            checked: selectOption === option,
+            ...option,
+            checked: selectOption === htmlFor,
             onChange: setSelectOption
         };
 
-        return (
-            <div key={`id-${index}`} className='slider-control__div'>
-                <SliderOption {...props} />
-            </div>
-        );
+        return <Component key={`id-${index}`} {...props} />;
     });
 
 

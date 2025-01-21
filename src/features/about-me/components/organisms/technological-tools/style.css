@@ -1,13 +1,46 @@
 .technological-tools {
-    > .technological-tools__div {
-        &:first-child {
-            padding-bottom: var(--padding-organism);
+    .technological-tools__div--title {
+        padding-bottom: var(--padding-organism);
+    }
+
+    .technological-tools__div--slider-control {
+        padding-bottom: var(--padding-organism);
+
+        &:has(input[type='radio'][id='01']:checked) {
+            + .technological-tools__div--content {
+                > .skills-implemented-work {
+                    &:nth-child(1) {
+                        display: block;
+                    }
+                }
+            }
         }
 
-        &:last-child {
-            display: flex;
-            flex-direction: column;
-            gap: var(--gap-organism);
+        &:has(input[type='radio'][id='02']:checked) {
+            + .technological-tools__div--content {
+                > .skills-implemented-work {
+                    &:nth-child(2) {
+                        display: block;
+                    }
+                }
+            }
+        }
+
+        &:has(input[type='radio'][id='03']:checked) {
+            + .technological-tools__div--content {
+                > .skills-implemented-work {
+                    &:nth-child(3) {
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+
+    .technological-tools__div--content {
+
+        > .skills-implemented-work {
+            display: none;
         }
     }
 }
