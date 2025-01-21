@@ -7,8 +7,8 @@
         padding-bottom: var(--padding-organism);
 
         &:has(input[type='radio'][id='01']:checked) {
-            + .technological-tools__div--content {
-                > .skills-implemented-work {
+            + .technological-tools__div--knowledge {
+                > .knowledge-implementation {
                     &:nth-child(1) {
                         display: block;
                     }
@@ -17,8 +17,8 @@
         }
 
         &:has(input[type='radio'][id='02']:checked) {
-            + .technological-tools__div--content {
-                > .skills-implemented-work {
+            + .technological-tools__div--knowledge {
+                > .knowledge-implementation {
                     &:nth-child(2) {
                         display: block;
                     }
@@ -27,8 +27,8 @@
         }
 
         &:has(input[type='radio'][id='03']:checked) {
-            + .technological-tools__div--content {
-                > .skills-implemented-work {
+            + .technological-tools__div--knowledge {
+                > .knowledge-implementation {
                     &:nth-child(3) {
                         display: block;
                     }
@@ -37,10 +37,11 @@
         }
     }
 
-    .technological-tools__div--content {
+    .technological-tools__div--knowledge {
 
-        > .skills-implemented-work {
+        > .knowledge-implementation {
             display: none;
+            justify-items: center;
         }
     }
 }

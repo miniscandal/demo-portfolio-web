@@ -2,9 +2,9 @@ import { useContext } from 'react';
 
 import { WorkExperienceContext } from '@feat-work-experience-history-contexts/work-experience';
 
-import { SkillsImplementedWork } from '@shared-organisms/skills-implemented-work';
 import { ToolInformation } from '@shared-molecules/tool-information';
 import { KnowledgeInformation } from '@shared-molecules/knowledge-information';
+import { KnowledgeImplementation } from '@shared-organisms/knowledge-implementation';
 import { InterpersonalCompetencyInformation } from '@shared-molecules/interpersonal-competency-information';
 
 import { en as technologicalToolsData } from '@shared-resources-data/glossaries/technological-tools.json';
@@ -17,39 +17,40 @@ import './style.css';
 function RelevantSkillsExperience() {
     const { technologicalTools, technologicalKnowledge, socialEmotionalCompetencies } = useContext(WorkExperienceContext);
 
-    const skillsImplementedWorkTechTools = {
+    const knowledgeImplementationTechTools = {
         textTitle: 'Relevant Tech Tools Applied',
         skills: technologicalTools,
         skillsInformation: technologicalToolsData,
         Component: ToolInformation,
+        layoutGrid: true,
         columns: '2',
-        color: 'royal-blue'
+        titleColor: 'royal-blue'
     };
-    const skillsImplementedWorkTechKnowledge = {
+    const knowledgeImplementationTechKnowledge = {
         textTitle: 'Relevant Tech Knowledge Applied',
         skills: technologicalKnowledge,
         skillsInformation: technologicalKnowledgeData,
         Component: KnowledgeInformation,
         columns: '1',
-        color: 'royal-blue'
+        layoutGrid: true,
+        titleColor: 'royal-blue'
     };
-    const skillsImplementedWorkSocialCompetencies = {
+    const knowledgeImplementationSocialCompetencies = {
         textTitle: 'Relevant Interpersonal Aptitudes Applied',
         skills: socialEmotionalCompetencies,
         skillsInformation: socialEmotionalCompetenciesData,
         Component: InterpersonalCompetencyInformation,
-        columns: 0,
-        color: 'royal-blue'
+        titleColor: 'royal-blue'
     };
 
 
     return (
         <section className='relevant-skills-experience'>
             <div className='relevant-skills-experience__div'>
-                <SkillsImplementedWork {...skillsImplementedWorkTechTools} />
-                <SkillsImplementedWork {...skillsImplementedWorkTechKnowledge} />
+                <KnowledgeImplementation {...knowledgeImplementationTechTools} />
+                <KnowledgeImplementation {...knowledgeImplementationTechKnowledge} />
             </div>
-            <SkillsImplementedWork {...skillsImplementedWorkSocialCompetencies} />
+            <KnowledgeImplementation {...knowledgeImplementationSocialCompetencies} />
         </section>
     );
 }

@@ -4,8 +4,7 @@ import { RadioSelectionOptionBox } from '@feat-about-me-molecules/radio-selectio
 
 import { Title } from '@shared-atoms/title';
 import { KonohaKit } from '@shared-molecules/konoha-kit';
-import { SkillsImplementedWork } from '@shared-organisms/skills-implemented-work';
-
+import { KnowledgeImplementation } from '@shared-organisms/knowledge-implementation';
 
 import './style.css';
 
@@ -21,40 +20,43 @@ function TechnologicalTools({
         type: 'h3',
         color: 'light'
     };
-    const currentSpecializationTools = {
+    const knowledgeImplementationSpecialization = {
         textTitle: 'Current Specialization',
         skills: specialization,
         skillsInformation: toolsData,
         Component: KonohaKit,
+        layoutGrid: true,
         columns: '3'
     };
-    const developmentEnvironmentTools = {
+    const knowledgeImplementationEnvironment = {
         textTitle: 'Development Environment',
         skills: developmentEnvironment,
         skillsInformation: toolsData,
         Component: KonohaKit,
+        layoutGrid: true,
         columns: '3'
     };
-    const activeInterestLearningTools = {
+    const knowledgeImplementationInterest = {
         textTitle: 'Active Learning With Practical Focus',
         skills: interestLearningPractical,
         skillsInformation: toolsData,
         Component: KonohaKit,
+        layoutGrid: true,
         columns: '3'
     };
     const sliderControl = {
         selectionOptions: [
             {
                 htmlFor: '01',
-                text: 'Current Specialization'
+                text: 'Current specialization'
             },
             {
                 htmlFor: '02',
-                text: 'Development Environment'
+                text: 'Development environment'
             },
             {
                 htmlFor: '03',
-                text: 'Active Learning With Practical Focus'
+                text: 'Active learning with practical focus'
             }
         ],
         defaultSelectionOption: '01',
@@ -69,10 +71,10 @@ function TechnologicalTools({
             <div className='technological-tools__div--slider-control'>
                 <SliderControl {...sliderControl} />
             </div>
-            <div className='technological-tools__div--content'>
-                <SkillsImplementedWork {...currentSpecializationTools} />
-                <SkillsImplementedWork {...developmentEnvironmentTools} />
-                <SkillsImplementedWork {...activeInterestLearningTools} />
+            <div className='technological-tools__div--knowledge'>
+                <KnowledgeImplementation {...knowledgeImplementationSpecialization} />
+                <KnowledgeImplementation {...knowledgeImplementationEnvironment} />
+                <KnowledgeImplementation {...knowledgeImplementationInterest} />
             </div>
         </section>
     );
