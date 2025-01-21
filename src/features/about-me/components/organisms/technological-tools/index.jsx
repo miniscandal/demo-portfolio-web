@@ -6,7 +6,6 @@ import { Title } from '@shared-atoms/title';
 import { KonohaKit } from '@shared-molecules/konoha-kit';
 import { SkillsImplementedWork } from '@shared-organisms/skills-implemented-work';
 
-import { en as technologiesToolsData } from '@shared-resources-data/glossaries/technological-tools.json';
 
 import './style.css';
 
@@ -14,7 +13,8 @@ import './style.css';
 function TechnologicalTools({
     specialization = ['', '', ''],
     developmentEnvironment = ['', '', ''],
-    interestLearningPractical = ['', '', '']
+    interestLearningPractical = ['', '', ''],
+    toolsData
 }) {
     const title = {
         text: 'My Technological Tools',
@@ -24,21 +24,21 @@ function TechnologicalTools({
     const currentSpecializationTools = {
         textTitle: 'Current Specialization',
         skills: specialization,
-        skillsInformation: technologiesToolsData,
+        skillsInformation: toolsData,
         Component: KonohaKit,
         columns: '3'
     };
     const developmentEnvironmentTools = {
         textTitle: 'Development Environment',
         skills: developmentEnvironment,
-        skillsInformation: technologiesToolsData,
+        skillsInformation: toolsData,
         Component: KonohaKit,
         columns: '3'
     };
     const activeInterestLearningTools = {
         textTitle: 'Active Learning With Practical Focus',
         skills: interestLearningPractical,
-        skillsInformation: technologiesToolsData,
+        skillsInformation: toolsData,
         Component: KonohaKit,
         columns: '3'
     };

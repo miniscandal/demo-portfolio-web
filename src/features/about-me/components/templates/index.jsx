@@ -12,16 +12,15 @@ import './style.css';
 
 
 function AboutMe() {
-    const { specialization, developmentEnvironment, interestLearningPractical } = useContext(CurrentTechnologicalToolsContext);
+    const { usedTools, toolsData } = useContext(CurrentTechnologicalToolsContext);
 
     const decoratedTitle = {
         text: 'ABOUT ME',
         color: 'light'
     };
     const technologicalTools = {
-        specialization,
-        developmentEnvironment,
-        interestLearningPractical
+        ...usedTools,
+        toolsData
     };
 
     return (

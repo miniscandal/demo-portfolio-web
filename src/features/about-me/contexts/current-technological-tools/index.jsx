@@ -1,9 +1,13 @@
 import { createContext } from 'react';
 
-import { en } from '@shared-resources-data/my-technological-tools/current.json';
+import { en as usedTools } from '@shared-resources-data/my-technological-tools/current.json';
+import { en as toolsData } from '@shared-resources-data/glossaries/technological-tools.json';
 
 
-const Provider = en;
+const Provider = {
+    usedTools,
+    toolsData
+};
 
 const CurrentTechnologicalToolsContext = createContext(Provider);
 
