@@ -1,7 +1,6 @@
 .paragraph {
     text-wrap: pretty;
-    line-height: 1.5;
-    letter-spacing: 0.05rem;
+    line-height: 1.6em;
     white-space: pre-line;
 
     &.regular {
