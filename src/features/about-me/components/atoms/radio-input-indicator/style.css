@@ -1,0 +1,12 @@
+.radio-input-indicator {
+    display: block;
+    width: 1.5rem;
+    height: 1.5rem;
+    overflow: hidden;
+    border: solid var(--color-light);
+    border-radius: var(--border-radius-atom);
+
+    &.checked {
+        background-color: var(--color-light);
+    }
+}
