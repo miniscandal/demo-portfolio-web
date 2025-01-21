@@ -3,20 +3,20 @@
         "specialization": [
             "java",
             "springBoot",
-            "mySQL"
+            "mySQL",
+            "angular"
         ],
         "developmentEnvironment": [
             "linux",
             "python",
-            "git"
+            "git",
+            "docker"
         ],
         "interestLearningPractical": [
-            "javaScript",
             "html",
             "css",
-            "angular",
             "react",
-            "typeScript"
+            "laravel"
         ]
     },
     "es": {}

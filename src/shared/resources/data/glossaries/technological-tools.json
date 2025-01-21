@@ -109,6 +109,21 @@
             "name": "Linux",
             "color": "#4c4c4ce6",
             "iconSrc": "/images/svg/linux.svg"
+        },
+        "windows": {
+            "name": "Windows",
+            "color": "#0078d4",
+            "iconSrc": "/images/svg/windows.svg"
+        },
+        "docker": {
+            "name": "Docker",
+            "color": "#2496ed",
+            "iconSrc": "/images/svg/docker.svg"
+        },
+        "bash": {
+            "name": "Bash",
+            "color": "#4eaa25",
+            "iconSrc": "/images/svg/bash.svg"
         }
     }
 }
