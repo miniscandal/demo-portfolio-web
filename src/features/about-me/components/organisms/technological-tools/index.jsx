@@ -16,7 +16,7 @@ function TechnologicalTools({
     toolsData
 }) {
     const title = {
-        text: 'MY TECHNOLOGICAL TOOLS',
+        text: 'My Technological Tools',
         type: 'h3',
         color: 'light'
     };
