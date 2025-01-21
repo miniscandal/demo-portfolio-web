@@ -5,7 +5,7 @@ import './style.css';
 
 
 function KnowledgeImplementation({
-    textTitle = 'Knowledge Implementation Grid',
+    textTitle = undefined,
     skills = ['skill', 'skill', 'skill'],
     skillsInformation = {
         'skill': {
@@ -15,12 +15,12 @@ function KnowledgeImplementation({
         }
     },
     Component = ToolInformation,
-    layoutGrid = false,
+    layoutType = 'block',
     columns = 2,
     titleColor: color = 'light'
 }) {
     const classList = [
-        layoutGrid ? 'grid' : 'flex'
+        layoutType === 'grid' ? 'grid' : layoutType === 'flex' ? 'flex' : layoutType
     ];
     const title = {
         text: textTitle,
@@ -36,9 +36,15 @@ function KnowledgeImplementation({
 
     return (
         <section className={`knowledge-implementation ${classList.join(' ')}`}>
-            <div className='knowledge-implementation__div--title'>
-                <Title {...title} />
-            </div>
+            {
+                textTitle
+
+                &&
+
+                <div className='knowledge-implementation__div--title'>
+                    <Title {...title} />
+                </div>
+            }
             <div className='knowledge-implementation__div--items' data-columns={columns}>
                 {components}
             </div>

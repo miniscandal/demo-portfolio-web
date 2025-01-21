@@ -16,47 +16,47 @@ function TechnologicalTools({
     toolsData
 }) {
     const title = {
-        text: 'My Technological Tools',
+        text: 'MY TECHNOLOGICAL TOOLS',
         type: 'h3',
         color: 'light'
     };
     const knowledgeImplementationSpecialization = {
-        textTitle: 'Current Specialization',
+        textTitle: '',
         skills: specialization,
         skillsInformation: toolsData,
         Component: KonohaKit,
-        layoutGrid: true,
+        layoutType: 'grid',
         columns: '3'
     };
     const knowledgeImplementationEnvironment = {
-        textTitle: 'Development Environment',
+        textTitle: '',
         skills: developmentEnvironment,
         skillsInformation: toolsData,
         Component: KonohaKit,
-        layoutGrid: true,
+        layoutType: 'grid',
         columns: '3'
     };
     const knowledgeImplementationInterest = {
-        textTitle: 'Active Learning With Practical Focus',
+        textTitle: '',
         skills: interestLearningPractical,
         skillsInformation: toolsData,
         Component: KonohaKit,
-        layoutGrid: true,
+        layoutType: 'grid',
         columns: '3'
     };
     const sliderControl = {
         selectionOptions: [
             {
                 htmlFor: '01',
-                text: 'Current specialization'
+                text: 'Current Specialization'
             },
             {
                 htmlFor: '02',
-                text: 'Development environment'
+                text: 'Development Environment'
             },
             {
                 htmlFor: '03',
-                text: 'Active learning with practical focus'
+                text: 'Active Practical Approach'
             }
         ],
         defaultSelectionOption: '01',
@@ -65,16 +65,18 @@ function TechnologicalTools({
 
     return (
         <section className='technological-tools'>
-            <div className='technological-tools__div--title'>
+            <div className='technological-tools__div'>
                 <Title {...title} />
             </div>
-            <div className='technological-tools__div--slider-control'>
-                <SliderControl {...sliderControl} />
-            </div>
-            <div className='technological-tools__div--knowledge'>
-                <KnowledgeImplementation {...knowledgeImplementationSpecialization} />
-                <KnowledgeImplementation {...knowledgeImplementationEnvironment} />
-                <KnowledgeImplementation {...knowledgeImplementationInterest} />
+            <div className='technological-tools__div'>
+                <div className='technological-tools__div--slider-control'>
+                    <SliderControl {...sliderControl} />
+                </div>
+                <div className='technological-tools__div--knowledge'>
+                    <KnowledgeImplementation {...knowledgeImplementationSpecialization} />
+                    <KnowledgeImplementation {...knowledgeImplementationEnvironment} />
+                    <KnowledgeImplementation {...knowledgeImplementationInterest} />
+                </div>
             </div>
         </section>
     );

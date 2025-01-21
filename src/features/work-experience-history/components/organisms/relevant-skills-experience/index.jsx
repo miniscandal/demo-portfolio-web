@@ -22,7 +22,7 @@ function RelevantSkillsExperience() {
         skills: technologicalTools,
         skillsInformation: technologicalToolsData,
         Component: ToolInformation,
-        layoutGrid: true,
+        layoutType: 'grid',
         columns: '2',
         titleColor: 'royal-blue'
     };
@@ -31,8 +31,6 @@ function RelevantSkillsExperience() {
         skills: technologicalKnowledge,
         skillsInformation: technologicalKnowledgeData,
         Component: KnowledgeInformation,
-        columns: '1',
-        layoutGrid: true,
         titleColor: 'royal-blue'
     };
     const knowledgeImplementationSocialCompetencies = {
@@ -40,6 +38,7 @@ function RelevantSkillsExperience() {
         skills: socialEmotionalCompetencies,
         skillsInformation: socialEmotionalCompetenciesData,
         Component: InterpersonalCompetencyInformation,
+        layoutType: 'flex',
         titleColor: 'royal-blue'
     };
 

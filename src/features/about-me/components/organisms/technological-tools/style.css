@@ -1,47 +1,66 @@
 .technological-tools {
-    .technological-tools__div--title {
-        padding-bottom: var(--padding-organism);
-    }
 
-    .technological-tools__div--slider-control {
-        padding-bottom: var(--padding-organism);
+    .technological-tools__div {
 
-        &:has(input[type='radio'][id='01']:checked) {
-            + .technological-tools__div--knowledge {
-                > .knowledge-implementation {
-                    &:nth-child(1) {
-                        display: block;
+        &:first-child {
+            padding-bottom: var(--padding-organism);
+        }
+
+        &:last-child {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: var(--gap-simple-organism);
+
+            > .technological-tools__div--slider-control {
+
+                > .slider-control {
+
+                    @media (width > 80rem) {
+                        flex-direction: column;
+                    }
+                }
+
+                &:has(input[type='radio'][id='01']:checked) {
+                    + .technological-tools__div--knowledge {
+                        > .knowledge-implementation {
+                            &:nth-child(1) {
+                                display: block;
+                            }
+                        }
+                    }
+                }
+
+                &:has(input[type='radio'][id='02']:checked) {
+                    + .technological-tools__div--knowledge {
+                        > .knowledge-implementation {
+                            &:nth-child(2) {
+                                display: block;
+                            }
+                        }
+                    }
+                }
+
+                &:has(input[type='radio'][id='03']:checked) {
+                    + .technological-tools__div--knowledge {
+                        > .knowledge-implementation {
+                            &:nth-child(3) {
+                                display: block;
+                            }
+                        }
                     }
                 }
             }
-        }
 
-        &:has(input[type='radio'][id='02']:checked) {
-            + .technological-tools__div--knowledge {
+            > .technological-tools__div--knowledge {
+                background-color: var(--color-muted-purple);
+                border-radius: var(--border-radius-simple-organism);
+                padding: var(--padding-simple-organism);
+
                 > .knowledge-implementation {
-                    &:nth-child(2) {
-                        display: block;
-                    }
+                    display: none;
                 }
             }
-        }
-
-        &:has(input[type='radio'][id='03']:checked) {
-            + .technological-tools__div--knowledge {
-                > .knowledge-implementation {
-                    &:nth-child(3) {
-                        display: block;
-                    }
-                }
-            }
-        }
-    }
-
-    .technological-tools__div--knowledge {
-
-        > .knowledge-implementation {
-            display: none;
-            justify-items: center;
         }
     }
 }

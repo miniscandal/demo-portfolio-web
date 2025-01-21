@@ -1,6 +1,6 @@
 .knowledge-implementation {
     > .knowledge-implementation__div--title {
-        padding-bottom: var(--padding-organism);
+        padding-bottom: var(--padding-simple-organism);
     }
 
     &.grid {
@@ -19,6 +19,12 @@
 
             &[data-columns='3'] {
                 grid-template-columns: repeat(3, 1fr);
+
+                @media (width < 50rem) {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                }
             }
         }
     }
@@ -28,6 +34,14 @@
         > .knowledge-implementation__div--items {
             display: flex;
             flex-wrap: wrap;
+            gap: var(--gap-molecule);
+        }
+    }
+
+    &.block {
+        > .knowledge-implementation__div--items {
+            display: flex;
+            flex-direction: column;
             gap: var(--gap-molecule);
         }
     }

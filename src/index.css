@@ -60,6 +60,8 @@
     --color-night-shadow: #2f2e32;
     --color-crimson-red: #e32223;
     --color-pink-pastel: #faa9df;
+    --color-muted-purple: #584b58;
+
 
 
 
@@ -93,6 +95,8 @@
 
     --border-radius-simple-molecule: 0.5rem;
     --border-radius-molecule: 0.75rem;
+
+    --border-radius-simple-organism: 0.85rem;
 
 
 

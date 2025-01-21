@@ -9,7 +9,7 @@ import './style.css';
 
 function ProfessionalApproach() {
     const title = {
-        text: 'My Professional Approach',
+        text: 'MY PROFESSIONAL APPROACH',
         type: 'h3',
         color: 'light'
     };
