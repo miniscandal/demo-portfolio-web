@@ -2,15 +2,22 @@
     > .skills-implemented-work__div {
 
         &:first-child {
-            padding-bottom: var(--padding-simple-organism);
+            padding-bottom: var(--padding-organism);
         }
 
         &:last-child {
             display: grid;
             gap: var(--gap-molecule);
+            justify-items: center;
+            max-width: 60rem;
+            margin: 0 auto;
 
             &[data-columns='2'] {
                 grid-template-columns: repeat(2, 1fr);
+            }
+
+            &[data-columns='3'] {
+                grid-template-columns: repeat(3, 1fr);
             }
 
             &[data-columns='0'] {
