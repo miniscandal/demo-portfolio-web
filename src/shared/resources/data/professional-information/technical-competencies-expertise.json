@@ -2,45 +2,45 @@
     "en": {
         "computerSystemEngineering": {
             "name": "Computer System Engineering",
-            "description": "Mi acercamiento académico dentro de esta ingeniería me ha dado la confianza para poder enfrentar situaciones y desafíos al haber adquirido habilidades importantes para poder identificar e implementar soluciones digitales con herramientas de software o hardware."
+            "description": "My academic background in this field has provided me with the necessary skills to confidently tackle various challenges, enabling me to identify and implement effective digital solutions using both software and hardware tools."
         },
         "softwareDeveloper": {
             "name": "Software Developer",
-            "description": "Planifico y desarrollo soluciones tecnológicas utilizando las herramientas más adecuadas para garantizar que el software cumpla con los requisitos establecidos, asegurando funcionalidad, eficiencia y calidad en cada etapa del desarrollo."
+            "description": "I am responsible for planning, designing, and developing technological solutions, using the most appropriate tools to ensure the software meets the established requirements, guaranteeing its functionality, performance, and quality."
         },
         "databaseAdministration": {
             "name": "Database Administration",
-            "description": "Optimizo la gestión de los datos generados por un organismo, identificando las características clave de las entidades participantes para eliminar redundancias y lograr la consistencia óptima, transformando los datos en información confiable."
+            "description": "I specialize in optimizing data management within an organization, identifying the key properties of the entities involved, reducing redundancies, and improving integrity to achieve ideal consistency, thus transforming data into reliable information."
         },
         "internetOfThings": {
             "name": "Internet Of Things",
-            "description": "Elaboro soluciones que permiten a los dispositivos conectarse a internet, facilitando el monitoreo de variables de interés, el control remoto de sistemas de hardware y el acceso a datos en tiempo real, lo que mejora la toma de decisiones oportunas."
+            "description": "I develop solutions that enable the connection of devices to the Internet, facilitating the monitoring of relevant variables, remote control of hardware systems, and access to real-time data, which optimizes quick decision-making."
         },
         "functionalAnalyst": {
             "name": "Functional Analyst",
-            "description": "Identifico los requisitos funcionales de una solución, alineándolos con las necesidades del usuario. Aseguro que el desarrollo de software cubra tanto los aspectos técnicos como las expectativas del usuario, garantizando un sistema óptimo."
+            "description": "I am responsible for defining the functional requirements of a solution, aligning them with user needs. I ensure that software development addresses both technical aspects and user expectations, guaranteeing system efficiency."
         }
     },
     "es": {
         "computerSystemEngineering": {
             "name": "Computer System Engineering",
-            "description": "Mi acercamiento académico dentro de esta ingeniería me ha dado la confianza para poder enfrentar situaciones y desafíos al haber adquirido habilidades importantes para poder identificar e implementar soluciones digitales con herramientas de software o hardware."
+            "description": "Mi formación académica en esta disciplina me ha proporcionado las habilidades necesarias para abordar con confianza diversos desafíos, permitiéndome identificar e implementar soluciones digitales efectivas mediante el uso de herramientas tanto de software como de hardware."
         },
         "softwareDeveloper": {
             "name": "Software Developer",
-            "description": "Planifico y desarrollo soluciones tecnológicas utilizando las herramientas más adecuadas para garantizar que el software cumpla con los requisitos establecidos, asegurando funcionalidad, eficiencia y calidad en cada etapa del desarrollo."
+            "description": "Me encargo de planificar, diseñar y desarrollar soluciones tecnológicas, utilizando las herramientas más adecuadas para asegurar que el software cumpla con los requisitos establecidos, garantizando su funcionalidad, rendimiento y calidad."
         },
         "databaseAdministration": {
             "name": "Database Administration",
-            "description": "Optimizo la gestión de los datos generados por un organismo, identificando las características clave de las entidades participantes para eliminar redundancias y lograr la consistencia óptima, transformando los datos en información confiable."
+            "description": "Me especializo en optimizar la gestión de los datos dentro de una organización, identificando las propiedades clave de las entidades involucradas, reduciendo redundancias y mejorando la integridad para lograr una coherencia ideal, transformando así los datos en información confiable."
         },
         "internetOfThings": {
             "name": "Internet Of Things",
-            "description": "Elaboro soluciones que permiten a los dispositivos conectarse a internet, facilitando el monitoreo de variables de interés, el control remoto de sistemas de hardware y el acceso a datos en tiempo real, lo que mejora la toma de decisiones oportunas."
+            "description": "Desarrollo soluciones que permiten la conexión de dispositivos a Internet, facilitando el monitoreo de variables relevantes, el control remoto de sistemas de hardware y el acceso a datos en tiempo real, lo que optimiza la toma de decisiones ágiles."
         },
         "functionalAnalyst": {
             "name": "Functional Analyst",
-            "description": "Identifico los requisitos funcionales de una solución, alineándolos con las necesidades del usuario. Aseguro que el desarrollo de software cubra tanto los aspectos técnicos como las expectativas del usuario, garantizando un sistema óptimo."
+            "description": "Me encargo de definir los requisitos funcionales de una solución, alineándolos con las necesidades del usuario. Aseguro que el desarrollo de software aborde tanto los aspectos técnicos como las expectativas del usuario, garantizando la eficiencia del sistema."
         }
     }
 }

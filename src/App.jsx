@@ -12,16 +12,14 @@ import { SCROLL_PAGE_ABOUT_ME } from '@shared-constants/anchor-id';
 import { SCROLL_PAGE_PRIMARY_FOOTER } from '@shared-constants/anchor-id';
 
 import './App.css';
-import { SliderTechnologicalTools } from '@feat-about-me-organisms/slider-technological-tools';
 
 
 function App() {
 
     return (
         <>
-            <SliderTechnologicalTools />
-            {/* <PrimaryHeader />
-            <scroll-container>  
+            <PrimaryHeader />
+            <scroll-container>
                 <main>
                     <scroll-page id={SCROLL_PAGE_WORK_EXPERIENCE_HISTORY}>
                         <div className='main__div'>
@@ -49,7 +47,7 @@ function App() {
                         <PrimaryFooter />
                     </div>
                 </scroll-page>
-            </scroll-container> */}
+            </scroll-container>
         </>
     );
 }

@@ -86,7 +86,7 @@
             "iconSrc": "/images/svg/my-sql.svg"
         },
         "laravel": {
-            "name": "laravel",
+            "name": "Laravel",
             "color": "#ff2d20e6",
             "iconSrc": "/images/svg/laravel.svg"
         },
