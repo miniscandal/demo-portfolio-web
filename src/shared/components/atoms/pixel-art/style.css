@@ -267,23 +267,12 @@
                 transform: scale(3);
             }
 
-            @media (width < 40rem) {
-                margin: 1rem;
-                width: 25.5rem;
-                height: 23.5rem;
+            @media (width < 45rem) {
+                width: 24.6rem;
+                height: 23rem;
 
                 > div {
                     transform: scale(2.6);
-                }
-            }
-
-            @media (width < 30rem) {
-                margin: 1rem;
-                width: 21.5rem;
-                height: 20rem;
-
-                > div {
-                    transform: scale(2.2);
                 }
             }
         }
