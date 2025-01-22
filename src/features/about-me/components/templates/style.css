@@ -8,11 +8,7 @@
         display: flex;
         flex-direction: column;
         gap: var(--gap-simple-container);
-
-        > .about-me__div--main-section {
-            > .main-section {
-                justify-content: center;
-            }
-        }
+        max-width: 80rem;
+        margin: 0 auto;
     }
 }

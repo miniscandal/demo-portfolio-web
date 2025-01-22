@@ -6,8 +6,8 @@
         }
 
         &:last-child {
-            max-width: 45rem;
-            margin: auto;
+            max-width: 50rem;
+            margin: 0 auto;
         }
     }
 }

@@ -6,7 +6,7 @@ import { StepPlatform } from '@feat-about-me-molecules/step-platform';
 import { CongratulationSignMiniGame } from '@feat-about-me-molecules/congratulation-sign';
 
 import { NextStepButton } from '@shared-molecules/next-step-button';
-import { Paragraph } from '@shared-atoms/paragraph';
+import { Title } from '@shared-atoms/title';
 
 import { playBitSoundMiss } from '@feat-about-me-helpers/play-bit-sound/variants';
 import { playBitSoundPerfect } from '@feat-about-me-helpers/play-bit-sound/variants';
@@ -52,10 +52,10 @@ function MiniGame() {
             }, 500);
         }
     };
-    const paragraph = {
+    const title = {
         text: 'Oscar González',
-        size: 'medium',
-        color: 'light'
+        color: 'light',
+        type: 'h3'
     };
 
 
@@ -68,7 +68,7 @@ function MiniGame() {
                         <div className='mini-game__div--indicator'>
                             <CongratulationSignMiniGame />
                         </div>
-                        <Paragraph {...paragraph} />
+                        <Title {...title} />
                     </div>
                     :
                     <div className='mini-game__div--start-game'>

@@ -1,4 +1,4 @@
-import { PixelArtDialog } from '@feat-about-me-molecules/pixel-art-dialog';
+import { PixelArtDialog } from '@feat-about-me-organisms/pixel-art-dialog';
 
 import { Title } from '@shared-atoms/title';
 
