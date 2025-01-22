@@ -5,12 +5,15 @@
     gap: var(--gap-simple-organism);
 
     > .slider-technological-tools__div {
-        margin: 0 auto;
 
         &:first-child {
 
             > .slider-control {
                 flex-direction: column;
+            }
+
+            @media (width < 60rem) {
+                justify-items: start;
             }
         }
 
@@ -21,8 +24,21 @@
 
             > .knowledge-implementation {
                 display: none;
+
+                > .knowledge-implementation__div--items {
+                    @media (width < 60rem) {
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: space-around;
+                    }
+                }
             }
         }
+    }
+
+    @media (width < 60rem) {
+        display: flex;
+        flex-direction: column-reverse;
     }
 }
 
