@@ -3,7 +3,6 @@ import { useContext } from 'react';
 import { MiniGameContext } from '@feat-about-me-contexts/mini-game';
 
 import { StepPlatform } from '@feat-about-me-molecules/step-platform';
-import { CongratulationSignMiniGame } from '@feat-about-me-molecules/congratulation-sign';
 
 import { NextStepButton } from '@shared-molecules/next-step-button';
 import { Title } from '@shared-atoms/title';
@@ -64,12 +63,7 @@ function MiniGame() {
 
             {
                 endGame ?
-                    <div className='mini-game__div--end-game'>
-                        <div className='mini-game__div--indicator'>
-                            <CongratulationSignMiniGame />
-                        </div>
-                        <Title {...title} />
-                    </div>
+                    <Title {...title} />
                     :
                     <div className='mini-game__div--start-game'>
                         <NextStepButton />
