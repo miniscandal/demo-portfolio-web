@@ -1,0 +1,57 @@
+.slider-technological-tools {
+    display: flex;
+    flex-wrap: wrap;
+    border: none;
+    gap: var(--gap-simple-organism);
+
+    > .slider-technological-tools__div {
+        margin: 0 auto;
+
+        &:first-child {
+
+            > .slider-control {
+                flex-direction: column;
+            }
+        }
+
+        &:last-child {
+            background-color: var(--color-muted-purple);
+            border-radius: var(--border-radius-simple-organism);
+            padding: var(--padding-simple-organism);
+
+            > .knowledge-implementation {
+                display: none;
+            }
+        }
+    }
+}
+
+
+.slider-technological-tools {
+    > .slider-technological-tools__div {
+
+        &:first-child {
+
+            &:has(input[type='radio'][id='01']:checked) + .slider-technological-tools__div {
+
+                > .knowledge-implementation:nth-child(1) {
+                    display: block;
+                }
+            }
+
+            &:has(input[type='radio'][id='02']:checked) + .slider-technological-tools__div {
+
+                > .knowledge-implementation:nth-child(2) {
+                    display: block;
+                }
+            }
+
+            &:has(input[type='radio'][id='03']:checked) + .slider-technological-tools__div {
+
+                > .knowledge-implementation:nth-child(3) {
+                    display: block;
+                }
+            }
+        }
+    }
+}

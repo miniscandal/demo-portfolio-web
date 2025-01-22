@@ -1,0 +1,12 @@
+.pixel-art-dialog {
+    max-width: 50rem;
+
+    > .pixel-art-dialog__div {
+        justify-items: end;
+        padding-bottom: var(--padding-simple-organism);
+    }
+
+    @media (width < 45rem) {
+        justify-items: center;
+    }
+}
