@@ -5,7 +5,7 @@
     > .parchment-tool-name__div {
         position: absolute;
         top: 50%;
-        right: 3.3%;
+        right: 3.2%;
         transform: translateY(-50%);
         width: 82%;
         height: 42.5%;
@@ -13,5 +13,20 @@
         justify-items: center;
         align-content: center;
         font-family: var(--font-family-manga);
+
+
+        > .parchment-tool-name__div--name {
+            padding-left: var(--padding-molecule);
+            transform: rotate(-4deg);
+        }
+    }
+
+    &.with-icon {
+
+        > .parchment-tool-name__div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
     }
 }

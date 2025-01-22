@@ -7,13 +7,15 @@ import './style.css';
 
 
 function HitaiAte({
-    src = undefined
+    src = undefined,
+    type = 'hitai-ate'
 }) {
     const pixelArt = {
         character: PIXEL_ART_ITEM_HITAI_ATE
     };
     const toolBadge = {
-        iconSrc: src
+        iconSrc: src,
+        type
     };
 
 

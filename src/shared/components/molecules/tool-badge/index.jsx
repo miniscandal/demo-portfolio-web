@@ -4,8 +4,12 @@ import './style.css';
 
 
 function ToolBadge({
-    iconSrc
+    iconSrc,
+    type = 'hitai-ate'
 }) {
+    const classList = [
+        type
+    ];
     const icon = {
         src: iconSrc,
         size: 'semi-regular'
@@ -13,7 +17,7 @@ function ToolBadge({
 
 
     return (
-        <div className='tool-badge'>
+        <div className={`tool-badge ${classList.join(' ')}`}>
             <div className='tool-badge__div'>
                 <Icon {...icon} />
             </div>

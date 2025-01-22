@@ -1,29 +1,34 @@
-import { HitaiAte } from '@shared-molecules/hitai-ate';
 import { ParchmentToolName } from '@shared-molecules/parchment-tool-name';
+
+import { HitaiAte } from '@shared-molecules/hitai-ate';
 
 import './style.css';
 
 
 function KonohaKit({
-    name: text = undefined,
+    name = undefined,
     iconSrc = undefined,
-    color: bgColor = undefined
+    bgColor = undefined
 }) {
     const parchmentToolName = {
-        text,
-        bgColor
+        name,
+        bgColor,
     };
     const hitaiAte = {
         src: iconSrc
     };
+
 
     return (
         <div className='konoha-kit'>
             <div className='konoha-kit__div'>
                 <HitaiAte {...hitaiAte} />
             </div>
-            <div className='konoha-kit__div'>
+            <div className='konoha-kit__div--desktop'>
                 <ParchmentToolName {...parchmentToolName} />
+            </div>
+            <div className='konoha-kit__div--mobile'>
+                <ParchmentToolName {...parchmentToolName} iconSrc={iconSrc} />
             </div>
         </div>
     );

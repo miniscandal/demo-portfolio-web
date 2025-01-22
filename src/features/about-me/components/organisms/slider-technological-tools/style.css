@@ -11,10 +11,6 @@
             > .slider-control {
                 flex-direction: column;
             }
-
-            @media (width < 60rem) {
-                justify-items: start;
-            }
         }
 
         &:last-child {
@@ -26,19 +22,35 @@
                 display: none;
 
                 > .knowledge-implementation__div--items {
-                    @media (width < 60rem) {
+
+                    .konoha-kit {
+                        > .konoha-kit__div--mobile {
+                            display: none;
+                        }
+
+                        @media (width < 40rem) {
+                            > .konoha-kit__div {
+                                display: none;
+                            }
+
+                            > .konoha-kit__div--desktop {
+                                display: none;
+                            }
+
+                            > .konoha-kit__div--mobile {
+                                display: block;
+                            }
+                        }
+                    }
+
+                    @media (width < 40rem) {
                         display: flex;
                         flex-wrap: wrap;
-                        justify-content: space-around;
+                        justify-content: center;
                     }
                 }
             }
         }
-    }
-
-    @media (width < 60rem) {
-        display: flex;
-        flex-direction: column-reverse;
     }
 }
 
@@ -51,21 +63,21 @@
             &:has(input[type='radio'][id='01']:checked) + .slider-technological-tools__div {
 
                 > .knowledge-implementation:nth-child(1) {
-                    display: block;
+                    display: flex;
                 }
             }
 
             &:has(input[type='radio'][id='02']:checked) + .slider-technological-tools__div {
 
                 > .knowledge-implementation:nth-child(2) {
-                    display: block;
+                    display: flex;
                 }
             }
 
             &:has(input[type='radio'][id='03']:checked) + .slider-technological-tools__div {
 
                 > .knowledge-implementation:nth-child(3) {
-                    display: block;
+                    display: flex;
                 }
             }
         }

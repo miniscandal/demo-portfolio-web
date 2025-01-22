@@ -300,6 +300,15 @@
                 transform: scale(0.75);
             }
         }
+
+        &.medium {
+            width: 18.9rem;
+            height: 8.8rem;
+
+            > div {
+                transform: scale(0.9);
+            }
+        }
     }
 
     &.art-item-blue-step,
