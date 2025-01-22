@@ -113,6 +113,9 @@
     --font-family-pixel-art: 'Courier New';
     --font-family-impact: Impact;
     --font-family-manga: Yoruka;
+
+
+    --paragraph-gap: 1.5rem;
 }
 
 *,

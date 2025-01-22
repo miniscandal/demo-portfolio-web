@@ -57,3 +57,10 @@ Me tomo el tiempo para pensar en soluciones creativas y eficientes
 Me interesa la resolucion de problemas y el reto de idear las soluciones adecuadas
 Nivel de autoconciencia, tiempo a solas, tranquilidad para hacerlo de la mejor manera posible
 Me gusta trabajar en el fondo no en el centro de atencion
+
+
+ @media (width < 40rem) {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                }

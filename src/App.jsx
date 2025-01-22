@@ -29,8 +29,8 @@ function App() {
                     <scroll-page id={SCROLL_PAGE_PERSONAL_SOFTWARE_PROJECTS}>
                         <div className='main__div'>
                             {/* <PersonalSoftwareProjects /> */}
-                        </div>
-                    </scroll-page>
+                        </div >
+                    </scroll-page >
                     <scroll-page id={SCROLL_PAGE_PROFESSIONAL_PROFILE}>
                         <div className='main__div'>
                             <ProfessionalProfile />
@@ -41,7 +41,7 @@ function App() {
                             <AboutMe />
                         </div>
                     </scroll-page>
-                </main>
+                </main >
                 <scroll-page id={SCROLL_PAGE_PRIMARY_FOOTER}>
                     <div className='main__div'>
                         <PrimaryFooter />

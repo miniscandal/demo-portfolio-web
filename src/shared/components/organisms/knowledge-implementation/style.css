@@ -16,16 +16,6 @@
             &[data-columns='2'] {
                 grid-template-columns: repeat(2, 1fr);
             }
-
-            &[data-columns='3'] {
-                grid-template-columns: repeat(3, 1fr);
-
-                @media (width < 50rem) {
-                    display: flex;
-                    flex-wrap: wrap;
-                    justify-content: center;
-                }
-            }
         }
     }
 
