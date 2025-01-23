@@ -1,0 +1,91 @@
+.slider-technological-tools {
+    display: flex;
+    flex-wrap: wrap;
+    border: none;
+    gap: var(--gap-simple-organism);
+
+    > .slider-technological-tools__div {
+
+        &:first-child {
+
+            > .slider-control {
+                flex-direction: column;
+            }
+        }
+
+        &:last-child {
+            background-color: var(--color-muted-purple);
+            border-radius: var(--border-radius-simple-organism);
+            padding: var(--padding-simple-organism);
+
+            > .knowledge-implementation {
+                display: none;
+
+                transition: filter var(--transition-extended-seconds) ease;
+
+                @starting-style {
+                    filter: opacity(0);
+                }
+
+                > .knowledge-implementation__div--items {
+
+                    .konoha-kit {
+                        > .konoha-kit__div--mobile {
+                            display: none;
+                        }
+
+                        @media (width < 40rem) {
+                            > .konoha-kit__div {
+                                display: none;
+                            }
+
+                            > .konoha-kit__div--desktop {
+                                display: none;
+                            }
+
+                            > .konoha-kit__div--mobile {
+                                display: block;
+                            }
+                        }
+                    }
+
+                    /* @media (width < 40rem) {
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: center;
+                    } */
+                }
+            }
+        }
+    }
+}
+
+
+.slider-technological-tools {
+    > .slider-technological-tools__div {
+
+        &:first-child {
+
+            &:has(input[type='radio'][id='01']:checked) + .slider-technological-tools__div {
+
+                > .knowledge-implementation:nth-child(1) {
+                    display: flex;
+                }
+            }
+
+            &:has(input[type='radio'][id='02']:checked) + .slider-technological-tools__div {
+
+                > .knowledge-implementation:nth-child(2) {
+                    display: flex;
+                }
+            }
+
+            &:has(input[type='radio'][id='03']:checked) + .slider-technological-tools__div {
+
+                > .knowledge-implementation:nth-child(3) {
+                    display: flex;
+                }
+            }
+        }
+    }
+}
