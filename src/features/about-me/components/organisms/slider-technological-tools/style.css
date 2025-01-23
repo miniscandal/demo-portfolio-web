@@ -20,7 +20,6 @@
 
             > .knowledge-implementation {
                 display: none;
-
                 transition: filter var(--transition-extended-seconds) ease;
 
                 @starting-style {
@@ -35,7 +34,7 @@
                         }
 
                         @media (width < 40rem) {
-                            > .konoha-kit__div {
+                            > .konoha-kit__div--hitai-ate {
                                 display: none;
                             }
 

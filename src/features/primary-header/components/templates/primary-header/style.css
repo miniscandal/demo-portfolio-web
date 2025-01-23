@@ -4,7 +4,6 @@
     padding-bottom: var(--padding-viewport);
 
     > .primary-header__div {
-
         position: absolute;
         inset: 0;
 
@@ -13,14 +12,14 @@
             position: absolute;
             inset: 0;
             background-color: var(--color-slate-gray);
-            filter: opacity(0.5);
+            filter: opacity(0.6);
         }
     }
 
-    @media (width < 70rem) {
+    @media (width < 60rem) {
         background-color: var(--color-charcoal-grey);
 
-        > .primary-header__div--background {
+        > .primary-header__div {
             aspect-ratio: 1 / 0.65;
         }
     }
