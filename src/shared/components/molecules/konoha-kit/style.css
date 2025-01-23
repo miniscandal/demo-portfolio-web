@@ -1,3 +1,9 @@
 .konoha-kit {
-    width: fit-content;
+
+    > .konoha-kit__div {
+        justify-items: center;
+        height: 3.5rem;
+        position: relative;
+        z-index: 10;
+    }
 }
