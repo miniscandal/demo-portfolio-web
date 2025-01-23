@@ -2,7 +2,6 @@
     position: relative;
     background-color: var(--color-heather-mist);
     padding: var(--padding-molecule);
-    cursor: pointer;
     text-align: center;
 
     &:hover {

@@ -12,14 +12,12 @@ import { SCROLL_PAGE_ABOUT_ME } from '@shared-constants/anchor-id';
 import { SCROLL_PAGE_PRIMARY_FOOTER } from '@shared-constants/anchor-id';
 
 import './App.css';
-import { KonohaKit } from '@shared-molecules/konoha-kit';
 
 
 function App() {
 
     return (
         <>
-            <KonohaKit />
             <PrimaryHeader />
             <scroll-container>
                 <main>

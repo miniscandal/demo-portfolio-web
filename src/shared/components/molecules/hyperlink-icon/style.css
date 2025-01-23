@@ -4,7 +4,6 @@
     align-content: center;
     border: solid var(--border-regular-width) var(--color-light-silver);
     border-radius: var(--border-radius-molecule);
-    cursor: pointer;
 
     &.regular {
         width: 4rem;

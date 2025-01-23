@@ -3,7 +3,6 @@
 
     &.reading-mode {
         position: relative;
-        cursor: pointer;
 
         &::before {
             content: '';

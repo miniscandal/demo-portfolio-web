@@ -21,9 +21,7 @@ function KonohaKit({
 
     return (
         <div className='konoha-kit'>
-            <div className='konoha-kit__div'>
-                <HitaiAte {...hitaiAte} />
-            </div>
+            <HitaiAte {...hitaiAte} />
             <div className='konoha-kit__div--desktop'>
                 <ParchmentToolName {...parchmentToolName} />
             </div>
