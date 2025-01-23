@@ -16,7 +16,6 @@
 
 
         > .parchment-tool-name__div--name {
-            padding-left: var(--padding-molecule);
             transform: rotate(-4deg);
         }
     }
@@ -27,6 +26,11 @@
             display: flex;
             justify-content: center;
             align-items: center;
+
+            > .parchment-tool-name__div--name {
+                transform: unset;
+                padding-left: var(--padding-molecule);
+            }
         }
     }
 }

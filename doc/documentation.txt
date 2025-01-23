@@ -67,3 +67,9 @@ Organism:
 Do not directly use the names of child classes within a component
 
 ⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝
+
+God Practicals
+
+Los componentes de tipo organismo son los que controlan:
+
+justify-content

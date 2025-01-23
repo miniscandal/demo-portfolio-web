@@ -1,18 +1,26 @@
 .competency-description {
-    justify-items: center;
 
     > .competency-description__div {
+
         &:first-child {
-            > div {
-                transform: translateY(1rem);
+            height: calc(14.5rem - 1.5rem);
+
+            > .competency-description__div--pixel-art {
+                justify-items: center;
             }
         }
 
         &:last-child {
-            height: 16rem;
+            height: 15rem;
+            align-content: center;
+            text-align: center;
             padding: var(--padding-molecule);
             background-color: var(--color-blush-petal);
             border-radius: var(--border-radius-molecule);
+
+            @media (width < 40rem) {
+                height: 12rem;
+            }
         }
     }
 }

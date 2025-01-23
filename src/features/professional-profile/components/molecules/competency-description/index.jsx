@@ -21,7 +21,7 @@ function CompetencyDescription({
     return (
         <div className='competency-description'>
             <div className='competency-description__div'>
-                <div>
+                <div className='competency-description__div--pixel-art'>
                     <PixelArt {...pixelArt} />
                 </div>
             </div>

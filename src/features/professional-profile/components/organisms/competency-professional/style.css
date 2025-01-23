@@ -2,8 +2,4 @@
     border: transparent;
     border-top: var(--color-muted-lavender);
     border-style: dotted;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }

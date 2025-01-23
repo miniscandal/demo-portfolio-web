@@ -7,7 +7,7 @@ scroll-container {
         padding: var(--padding-container) var(--padding-viewport);
 
         > .main__div {
-            max-width: 80rem;
+            max-width: 90rem;
             margin: auto;
         }
 

@@ -1,5 +1,16 @@
 .acquired-competencies {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr));
-    gap: var(--gap-organism);
+    gap: var(--gap-simple-organism);
+    grid-auto-rows: 1fr;
+
+    > .acquired-competencies__div {
+        display: flex;
+
+        > .competency-professional {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+    }
 }

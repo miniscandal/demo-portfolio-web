@@ -14,7 +14,7 @@ function AcquiredCompetencies() {
         const { name } = value;
 
         return (
-            <div key={`${index}-${name}`}>
+            <div className='acquired-competencies__div' key={`${index}-${name}`}>
                 <CompetencyProfessional {...value} />
             </div>
         );
