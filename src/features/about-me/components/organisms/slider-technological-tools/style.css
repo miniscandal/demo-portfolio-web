@@ -21,6 +21,12 @@
             > .knowledge-implementation {
                 display: none;
 
+                transition: filter var(--transition-extended-seconds) ease;
+
+                @starting-style {
+                    filter: opacity(0);
+                }
+
                 > .knowledge-implementation__div--items {
 
                     .konoha-kit {
