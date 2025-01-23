@@ -18,7 +18,7 @@
         "css": {
             "name": "CSS",
             "color": "#663399e6",
-            "iconSrc": "/images/svg/css-new.svg"
+            "iconSrc": "/images/svg/css.svg"
         },
         "mosquitto": {
             "name": "Mosquitto",
@@ -124,6 +124,11 @@
             "name": "Bash",
             "color": "#4eaa25",
             "iconSrc": "/images/svg/bash.svg"
+        },
+        "tinkercad": {
+            "name": "Tinkercad",
+            "color": "#f4b400",
+            "iconSrc": "/images/svg/tinkercad.svg"
         }
     }
 }
