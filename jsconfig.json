@@ -11,6 +11,15 @@
             "@assets-images/*": [
                 "assets/images/*"
             ],
+            "@core-services-data/*": [
+                "core/services/data/*"
+            ],
+            "@core-services-interceptors/*": [
+                "core/services/interceptors/*"
+            ],
+            "@core-services-api-rest-endpoints/*": [
+                "core/services/api-rest-endpoints/*"
+            ],
             "@feat-work-experience-history-organisms/*": [
                 "features/work-experience-history/components/organisms/*"
             ],
@@ -107,8 +116,14 @@
             "@shared-contexts/*": [
                 "shared/contexts/*"
             ],
+            "@shared-custom-hooks/*": [
+                "shared/custom-hooks/*"
+            ],
             "@shared-mocks/*": [
                 "shared/mocks/*"
+            ],
+            "@shared-react-components/*": [
+                "shared/react-components/*"
             ],
             "@shared-resources-data/*": [
                 "shared/resources/data/*"
@@ -116,8 +131,8 @@
             "@shared-resources-contact/*": [
                 "shared/resources/contact/*"
             ],
-            "@shared-styles/*": [
-                "shared/styles/*"
+            "@shared-services/*": [
+                "shared/services/*"
             ]
         }
     }
