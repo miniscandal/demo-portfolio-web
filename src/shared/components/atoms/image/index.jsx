@@ -1,5 +1,3 @@
-/* eslint-disable react/no-unknown-property */
-
 import './style.css';
 
 
@@ -7,7 +5,7 @@ function Image({
     src = undefined,
     size = 'regular',
     objectFit = 'none',
-    alt = 'image description'
+    alt = 'Image description',
 }) {
     const classList = [
         size,
@@ -17,7 +15,9 @@ function Image({
 
     return (
         <div className={`image ${classList.join(' ')}`}>
-            <img src={src} alt={alt} fetchpriority='high' />
+            {
+                src && <img src={src} alt={alt} />
+            }
         </div>
     );
 }

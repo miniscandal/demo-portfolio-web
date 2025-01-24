@@ -1,5 +1,4 @@
 .image {
-
     img {
         width: 100%;
         height: 100%;
@@ -22,8 +21,7 @@
     }
 
     &.my-photo {
-        width: 26rem;
-        transition: filter var(--transition-slow-seconds) ease;
+        max-width: 26rem;
     }
 
     &.cover {
@@ -36,9 +34,5 @@
         > img {
             object-fit: contain;
         }
-    }
-
-    @starting-style {
-        filter: opacity(0);
     }
 }
