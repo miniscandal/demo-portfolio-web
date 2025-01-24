@@ -1,4 +1,4 @@
-import { Image } from '@shared-atoms/image';
+import { Picture } from '@shared-atoms/picture';
 
 import imageProject from '@assets-images/personal-projects/sensor-monitoring/demo-2.jpg';
 
@@ -15,7 +15,7 @@ function MangaPanelProjectPreview({ panelActive }) {
 
     return (
         <section className={`manga-panel-project-preview ${classPanelActive}`}>
-            <Image {...image} />
+            <Picture {...image} />
         </section>
     );
 }

@@ -1,4 +1,4 @@
-import { Image } from '@shared-atoms/image';
+import { Picture } from '@shared-atoms/picture';
 
 import { SuspenseRenderComponent } from '@shared-react-components/suspense-render-component';
 
@@ -20,7 +20,7 @@ function PhotoEnigma({
         };
 
         return (
-            <Image {...image} />
+            <Picture {...image} />
         );
     };
     const renderLoadedComponent = ({ data }) => {
@@ -33,7 +33,7 @@ function PhotoEnigma({
         };
 
         return (
-            <Image {...image} />
+            <Picture {...image} />
         );
     };
     const suspenseRenderComponent = {
