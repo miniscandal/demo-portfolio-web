@@ -1,4 +1,4 @@
-.image {
+.picture {
 
     img {
         width: 100%;
@@ -24,6 +24,10 @@
     &.my-photo {
         width: 26rem;
         transition: filter var(--transition-slow-seconds) ease;
+
+        @media (width < 40rem) {
+            display: none;
+        }
     }
 
     &.cover {

@@ -1,11 +1,11 @@
 import './style.css';
 
 
-function Image({
+function Picture({
     src = undefined,
     size = 'regular',
     objectFit = 'none',
-    alt = 'Image description',
+    alt = 'Picture description',
 }) {
     const classList = [
         size,
@@ -14,7 +14,7 @@ function Image({
 
 
     return (
-        <div className={`image ${classList.join(' ')}`}>
+        <div className={`picture ${classList.join(' ')}`}>
             {
                 src && <img src={src} alt={alt} />
             }
@@ -22,4 +22,4 @@ function Image({
     );
 }
 
-export { Image };
+export { Picture };
