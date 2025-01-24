@@ -1,15 +1,23 @@
+/* eslint-disable react/no-unknown-property */
+
 import './style.css';
 
 
 function Image({
     src = undefined,
     size = 'regular',
-    objectFit = 'none'
+    objectFit = 'none',
+    alt = 'image description'
 }) {
+    const classList = [
+        size,
+        objectFit
+    ];
+
 
     return (
-        <div className={`image ${size} ${objectFit}`}>
-            <img src={src} />
+        <div className={`image ${classList.join(' ')}`}>
+            <img src={src} alt={alt} fetchpriority='high' />
         </div>
     );
 }

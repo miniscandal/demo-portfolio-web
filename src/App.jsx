@@ -12,8 +12,6 @@ import { SCROLL_PAGE_ABOUT_ME } from '@shared-constants/anchor-id';
 import { SCROLL_PAGE_PRIMARY_FOOTER } from '@shared-constants/anchor-id';
 
 import './App.css';
-import { ToolInformation } from '@shared-molecules/tool-information';
-import iconSrc from '@assets-images/svg/tinkercad.svg';
 
 
 function App() {
