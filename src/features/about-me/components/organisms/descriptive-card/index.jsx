@@ -4,7 +4,7 @@ import { MiniGameContext } from '@feat-about-me-contexts/mini-game';
 
 import { HorizontalPoster } from '@feat-about-me-molecules/horizontal-poster';
 import { VerticalPoster } from '@feat-about-me-molecules/vertical-poster';
-import { PhotoEnigma } from '@feat-about-me-molecules/photo-enigma';
+import { PhotoEnigma } from '@feat-about-me-organisms/photo-enigma';
 import { GridOverlay } from '@feat-about-me-molecules/grid-overlay';
 
 import './style.css';
