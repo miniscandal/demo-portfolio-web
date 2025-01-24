@@ -9,6 +9,12 @@ cSpell: disable
 
 ⚝ Update unused colors defined in atoms
 
+⚝ Update image my photo, responsive
+
+⚝ Update icons tools in parchment when is responsive
+
+
+
 panel one:
 description / expected results
 
