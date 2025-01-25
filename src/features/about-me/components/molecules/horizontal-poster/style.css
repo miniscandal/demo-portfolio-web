@@ -1,15 +1,25 @@
 .horizontal-poster {
-    overflow: hidden;
-    clip-path: polygon(0 35%, 100% 0, 100% 65%, 0 100%);
+    font-family: var(--font-family-manga);
 
     > .horizontal-poster__div {
-        font-family: var(--font-family-manga);
-        text-align: center;
-        transform: rotate(-4.5deg);
-    }
 
-    &.background-color {
-        padding: var(--padding-molecule);
-        background-color: var(--color-vintage-rose);
+        > .paragraph {
+            text-align: center;
+            transform: rotate(-5deg);
+        }
+
+
+        &:first-child {
+
+            > .paragraph {
+                line-height: 1;
+            }
+        }
+
+        &:last-child {
+            background-color: var(--color-vintage-rose);
+            padding: var(--padding-molecule);
+            clip-path: polygon(0 35%, 100% 0, 100% 65%, 0 100%);
+        }
     }
 }

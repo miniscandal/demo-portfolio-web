@@ -4,8 +4,15 @@
     width: min(100%, 32rem);
 
     > header {
+        width: 80%;
+        margin: auto;
         transform: translateY(15%);
         z-index: 10;
+
+        @media (width < 40rem) {
+            width: 95%;
+            transform: translateY(10%);
+        }
     }
 
     > .descriptive-card__section {

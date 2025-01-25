@@ -4,14 +4,20 @@ import './style.css';
 
 
 function HorizontalPoster({
-    text = 'POSTER ',
+    textMain = 'HORIZONTAL',
+    textSecondary = 'POSTER ',
     backgroundColor = true
 }) {
     const classList = [
         backgroundColor ? 'background-color' : ''
     ];
-    const paragraph = {
-        text,
+    const paragraphMain = {
+        text: textMain,
+        size: 'medium',
+        color: 'light'
+    };
+    const paragraphSecondary = {
+        text: textSecondary,
         size: 'medium',
         color: 'light'
     };
@@ -19,7 +25,10 @@ function HorizontalPoster({
     return (
         <div className={`horizontal-poster ${classList.join(' ')}`}>
             <div className='horizontal-poster__div'>
-                <Paragraph {...paragraph} />
+                <Paragraph {...paragraphMain} />
+            </div>
+            <div className='horizontal-poster__div'>
+                <Paragraph {...paragraphSecondary} />
             </div>
         </div>
     );

@@ -12,8 +12,6 @@ import { SCROLL_PAGE_ABOUT_ME } from '@shared-constants/anchor-id';
 import { SCROLL_PAGE_PRIMARY_FOOTER } from '@shared-constants/anchor-id';
 
 import './App.css';
-import { HorizontalPoster } from '@feat-about-me-molecules/horizontal-poster';
-import { DescriptiveCard } from '@feat-about-me-organisms/descriptive-card';
 
 
 function App() {
