@@ -1,24 +1,15 @@
 .horizontal-poster {
-    height: 12rem;
-    padding: 0 10%;
+    overflow: hidden;
+    clip-path: polygon(0 35%, 100% 0, 100% 65%, 0 100%);
 
-    > .horizontal-poster__div--box {
-        position: relative;
-        height: 100%;
-        overflow: hidden;
+    > .horizontal-poster__div {
+        font-family: var(--font-family-manga);
+        text-align: center;
+        transform: rotate(-4.5deg);
+    }
 
-        > .horizontal-poster__div--content {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%) rotate(-5deg);
-            width: 105%;
-            text-align: center;
-            font-family: var(--font-family-manga);
-
-            > .horizontal-poster__div--text {
-                background-color: var(--color-vintage-rose);
-            }
-        }
+    &.background-color {
+        padding: var(--padding-molecule);
+        background-color: var(--color-vintage-rose);
     }
 }

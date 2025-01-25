@@ -13,9 +13,12 @@ import './style.css';
 function DescriptiveCard() {
     const { gameState: { endGame } } = useContext(MiniGameContext);
 
-    const horizontalPoster = {
-        firstWord: 'SOFTWARE',
-        secondWord: 'DEVELOPER'
+    const horizontalPosterMain = {
+        text: 'SOFTWARE',
+        backgroundColor: false
+    };
+    const horizontalPosterSecondary = {
+        text: 'DEVELOPER',
     };
     const verticalPoster = {
         text: 'MINI-CODE'
@@ -28,7 +31,8 @@ function DescriptiveCard() {
     return (
         <section className='descriptive-card'>
             <header>
-                <HorizontalPoster {...horizontalPoster} />
+                <HorizontalPoster {...horizontalPosterMain} />
+                <HorizontalPoster {...horizontalPosterSecondary} />
             </header>
             <section className='descriptive-card__section'>
                 <div className='descriptive-card__div--poster'>

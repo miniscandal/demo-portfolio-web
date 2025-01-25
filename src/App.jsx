@@ -12,6 +12,8 @@ import { SCROLL_PAGE_ABOUT_ME } from '@shared-constants/anchor-id';
 import { SCROLL_PAGE_PRIMARY_FOOTER } from '@shared-constants/anchor-id';
 
 import './App.css';
+import { HorizontalPoster } from '@feat-about-me-molecules/horizontal-poster';
+import { DescriptiveCard } from '@feat-about-me-organisms/descriptive-card';
 
 
 function App() {
@@ -29,7 +31,7 @@ function App() {
                     <scroll-page id={SCROLL_PAGE_PERSONAL_SOFTWARE_PROJECTS}>
                         <div className='main__div'>
                             <PersonalSoftwareProjects />
-                        </div >
+                        </div>
                     </scroll-page >
                     <scroll-page id={SCROLL_PAGE_PROFESSIONAL_PROFILE}>
                         <div className='main__div'>

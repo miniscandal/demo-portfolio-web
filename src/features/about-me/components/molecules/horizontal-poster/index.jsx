@@ -4,29 +4,22 @@ import './style.css';
 
 
 function HorizontalPoster({
-    firstWord = 'HORIZONTAL',
-    secondWord = 'POSTER'
+    text = 'POSTER ',
+    backgroundColor = true
 }) {
-    const paragraphFirstWord = {
-        text: firstWord,
-        size: 'medium',
-        color: 'light'
-    };
-    const paragraphSecondWord = {
-        text: secondWord,
+    const classList = [
+        backgroundColor ? 'background-color' : ''
+    ];
+    const paragraph = {
+        text,
         size: 'medium',
         color: 'light'
     };
 
     return (
-        <div className='horizontal-poster'>
-            <div className='horizontal-poster__div--box'>
-                <div className='horizontal-poster__div--content'>
-                    <Paragraph {...paragraphFirstWord} />
-                    <div className='horizontal-poster__div--text'>
-                        <Paragraph {...paragraphSecondWord} />
-                    </div>
-                </div>
+        <div className={`horizontal-poster ${classList.join(' ')}`}>
+            <div className='horizontal-poster__div'>
+                <Paragraph {...paragraph} />
             </div>
         </div>
     );
