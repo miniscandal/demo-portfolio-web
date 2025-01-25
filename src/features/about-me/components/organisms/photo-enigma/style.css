@@ -1,4 +1,6 @@
 .photo-enigma {
+    overflow: hidden;
+
     -webkit-user-select: none;
     user-select: none;
 
@@ -6,5 +8,13 @@
 
     &.hidden {
         filter: brightness(0) drop-shadow(0px 0px 4px var(--color-dark));
+    }
+
+    .picture {
+        transition: filter var(--transition-slow-seconds) ease;
+
+        @starting-style {
+            filter: opacity(0);
+        }
     }
 }

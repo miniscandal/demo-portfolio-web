@@ -21,7 +21,7 @@ function PhotoEnigma({
 
         <Picture
             src={url}
-            size='my-photo'
+            size='auto'
             alt='My photo with casual style'
         />
     );

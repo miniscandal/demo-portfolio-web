@@ -1,7 +1,7 @@
 .descriptive-card {
     display: flex;
     flex-direction: column;
-    max-width: 32rem;
+    width: min(100%, 32rem);
 
     > header {
         transform: translateY(15%);
@@ -12,11 +12,14 @@
         position: relative;
         height: 38rem;
         display: flex;
+        align-items: center;
+
+        @media (width < 40rem) {
+            height: auto;
+        }
 
         > .descriptive-card__div--poster {
-            position: relative;
             z-index: 30;
-            align-self: center;
         }
 
         > .descriptive-card__div--photo {

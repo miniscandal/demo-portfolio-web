@@ -1,6 +1,6 @@
 .picture {
 
-    img {
+    > img {
         width: 100%;
         height: 100%;
         vertical-align: bottom;
@@ -21,15 +21,6 @@
         height: auto;
     }
 
-    &.my-photo {
-        width: 26rem;
-        transition: filter var(--transition-slow-seconds) ease;
-
-        @media (width < 40rem) {
-            width: auto;
-        }
-    }
-
     &.cover {
         > img {
             object-fit: cover;
@@ -40,9 +31,5 @@
         > img {
             object-fit: contain;
         }
-    }
-
-    @starting-style {
-        filter: opacity(0);
     }
 }
