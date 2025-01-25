@@ -13,29 +13,18 @@ function PhotoEnigma({
     const classList = [
         hidden ? 'hidden' : ''
     ];
-    const renderLoadingComponent = () => {
-        const image = {
-            size: 'my-photo',
-            alt: 'My photo with casual style'
-        };
+    const renderLoadingComponent = () => (
 
-        return (
-            <Picture {...image} />
-        );
-    };
-    const renderLoadedComponent = ({ data }) => {
-        const { url } = data;
-        const image = {
-            src: url,
-            size: 'my-photo',
-            alt: 'My photo with casual style',
-            useSuspense: true
-        };
+        <Picture size='my-photo' />
+    );
+    const renderLoadedComponent = ({ data: { url } }) => (
 
-        return (
-            <Picture {...image} />
-        );
-    };
+        <Picture
+            src={url}
+            size='my-photo'
+            alt='My photo with casual style'
+        />
+    );
     const suspenseRenderComponent = {
         renderLoadedComponent,
         renderLoadingComponent,
