@@ -10,13 +10,15 @@
             "linux",
             "python",
             "git",
-            "docker"
+            "docker",
+            "ollama"
         ],
         "interestLearningPractical": [
-            "html",
             "css",
             "react",
-            "laravel"
+            "laravel",
+            "nodejs",
+            "arangoDB"
         ]
     },
     "es": {}

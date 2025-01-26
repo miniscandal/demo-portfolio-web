@@ -129,6 +129,21 @@
             "name": "Tinkercad",
             "color": "#f4b400",
             "iconSrc": "/images/svg/tinkercad.svg"
+        },
+        "ollama": {
+            "name": "Ollama",
+            "color": "#ffffff",
+            "iconSrc": "/images/svg/ollama.svg"
+        },
+        "nodejs": {
+            "name": "Node.js",
+            "color": "#689f63",
+            "iconSrc": "/images/svg/nodejs.svg"
+        },
+        "arangoDB": {
+            "name": "ArangoDB",
+            "color": "#dddf72",
+            "iconSrc": "/images/svg/arangodb.svg"
         }
     }
 }
