@@ -7,15 +7,15 @@ import { ChessboardNav } from '@feat-primary-header-organisms/chessboard-nav';
 import { CharacterSpeech } from '@shared-molecules/character-speech';
 import { ProfessionalContact } from '@shared-organisms/professional-contact';
 
-import { PIXEL_ART_ANIME_MINICODE_ANIMATION_V3 } from '@shared-atoms/pixel-art/variants';
+import { PIXEL_ART_ANIME_MINICODE_ANIMATION_V1 } from '@shared-atoms/pixel-art/variants';
 
 import './style.css';
 
 
 function HeaderContent() {
     const characterSpeech = {
-        text: 'Hello World!',
-        character: PIXEL_ART_ANIME_MINICODE_ANIMATION_V3
+        texts: ['...........', 'Hello World!', 'mmmmmmmmmmm', 'Korean Heart!'],
+        character: PIXEL_ART_ANIME_MINICODE_ANIMATION_V1
     };
 
 

@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect } from 'react';
 
 import { Paragraph } from '@shared-atoms/paragraph';
 
@@ -6,56 +6,58 @@ import './style.css';
 
 
 function MangaDialog({
-    text = 'Manga Dialog',
+    texts = ['Manga', 'Dialog'],
     size = 'regular',
-    animateText = false
+    speed = 200,
+    pauseDuration = 100
 }) {
     const [displayedText, setDisplayedText] = useState('');
-    const currentIndex = useRef(0);
-    const animationFrame = useRef(null);
-    const lastUpdateTime = useRef(null);
+    const [index, setIndex] = useState(0);
+    const [indexText, setIndexText] = useState(0);
+    const [isPause, setIsPause] = useState(false);
+
+    useEffect(() => {
+        const loopDisplayText = ({
+            index,
+            setIndex,
+            setDisplayedText,
+            texts, indexText,
+            setIndexText
+        }) => {
+            if (isPause) {
+                return;
+            }
+
+            setIndex((prevState) => prevState += 1);
+            setDisplayedText((prevState) => prevState += texts[indexText][index]);
+
+            if (index >= texts[indexText].length - 1) {
+                setIndex(0);
+                setIsPause(true);
+
+                setTimeout(() => {
+                    setIsPause(false);
+                    setDisplayedText('');
+
+                    if (indexText < texts.length - 1) {
+                        setIndexText((prevState) => prevState += 1);
+                    } else {
+                        setIndexText(0);
+                    }
+                }, pauseDuration);
+            }
+        };
+
+        const parameters = { index, setIndex, setDisplayedText, texts, indexText, setIndexText };
+        const intervalId = setInterval(loopDisplayText, speed, parameters);
+
+        return () => clearInterval(intervalId);
+
+    }, [texts, index, speed, indexText, isPause, pauseDuration]);
 
     const classList = [
         size
     ];
-
-    useEffect(() => {
-        setDisplayedText('');
-        currentIndex.current = -1;
-
-        if (!animateText) {
-            setDisplayedText(text);
-
-            return;
-        }
-
-
-        const updateText = (timestamp) => {
-            if (!lastUpdateTime.current) {
-                lastUpdateTime.current = timestamp;
-            }
-
-            const elapsed = timestamp - lastUpdateTime.current;
-
-            if (elapsed >= 60) {
-                lastUpdateTime.current = timestamp;
-                currentIndex.current += 1;
-                setDisplayedText((prev) => prev + text[currentIndex.current]);
-            }
-
-            if (currentIndex.current < text.length - 1) {
-                animationFrame.current = requestAnimationFrame(updateText);
-            }
-        };
-
-        animationFrame.current = requestAnimationFrame(updateText);
-
-
-        return () => {
-            cancelAnimationFrame(animationFrame.current);
-        };
-    }, [text, animateText]);
-
     const paragraph = {
         text: displayedText,
         color: 'charcoal-grey'

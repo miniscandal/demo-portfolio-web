@@ -8,13 +8,13 @@ import './style.css';
 
 
 function CharacterSpeech({
-    text = 'Character Speech',
+    texts = ['Main Character Speech', 'mmmmm', 'Secondary Character'],
     character = PIXEL_ART_ANIME_UMI,
-    animateText = false
 }) {
     const mangaDialog = {
-        text,
-        animateText
+        texts,
+        speed: 200,
+        pauseDuration: 1500,
     };
     const pixelArt = {
         character,
