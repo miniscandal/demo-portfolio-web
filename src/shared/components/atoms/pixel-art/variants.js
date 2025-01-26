@@ -26,7 +26,6 @@ const PIXEL_ART_ANIME_ICHIKA_NAKANO_ANIMATION = 'anime-ichika-nakano-animation';
 
 const PIXEL_ART_ANIME_MINICODE_ANIMATION_V1 = 'anime-minicode-animation-v1';
 const PIXEL_ART_ANIME_MINICODE_ANIMATION_V2 = 'anime-minicode-animation-v2';
-const PIXEL_ART_ANIME_MINICODE_ANIMATION_V3 = 'anime-minicode-animation-v3';
 
 
 const PIXEL_ART_ITEM_DESK = 'item-desk';
@@ -74,7 +73,6 @@ export {
 
     PIXEL_ART_ANIME_MINICODE_ANIMATION_V1,
     PIXEL_ART_ANIME_MINICODE_ANIMATION_V2,
-    PIXEL_ART_ANIME_MINICODE_ANIMATION_V3,
 
     PIXEL_ART_ITEM_DESK,
     PIXEL_ART_ITEM_WHITEBOARD,

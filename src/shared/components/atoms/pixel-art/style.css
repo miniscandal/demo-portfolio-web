@@ -25,7 +25,6 @@
 
 @import url('./characters/anime-original/minicode-animation-v1.css');
 @import url('./characters/anime-original/minicode-animation-v2.css');
-@import url('./characters/anime-original/minicode-animation-v3.css');
 
 @import url('./items/desk.css');
 @import url('./items/whiteboard.css');
@@ -184,6 +183,17 @@
         }
     }
 
+    &.art-anime-minicode-animation-v1 {
+        &.regular {
+            width: 19.7rem;
+            height: 20.9rem;
+
+            > div {
+                transform: scale(2);
+            }
+        }
+    }
+
     &.art-anime-minicode-animation-v2 {
         &.regular {
             width: 19.7rem;
@@ -195,16 +205,6 @@
         }
     }
 
-    &.art-anime-minicode-animation-v3 {
-        &.regular {
-            width: 9.5rem;
-            height: 18.5rem;
-
-            > div {
-                transform: scale(1.8);
-            }
-        }
-    }
 
 
 
@@ -405,18 +405,6 @@
 
             > div {
                 transform: scale(1);
-            }
-        }
-    }
-
-
-    &.art-anime-minicode-animation-v1 {
-        &.regular {
-            width: 19.7rem;
-            height: 20.9rem;
-
-            > div {
-                transform: scale(2);
             }
         }
     }
