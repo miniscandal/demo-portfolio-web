@@ -13,7 +13,6 @@ import { SCROLL_PAGE_PRIMARY_FOOTER } from '@shared-constants/anchor-id';
 
 import './App.css';
 
-
 function App() {
 
     return (
@@ -26,19 +25,19 @@ function App() {
                             <WorkExperienceHistory />
                         </div>
                     </scroll-page>
+                    <scroll-page id={SCROLL_PAGE_ABOUT_ME}>
+                        <div className='main__div'>
+                            <AboutMe />
+                        </div>
+                    </scroll-page>
                     <scroll-page id={SCROLL_PAGE_PERSONAL_SOFTWARE_PROJECTS}>
                         <div className='main__div'>
-                            <PersonalSoftwareProjects />
+                            {/* <PersonalSoftwareProjects /> */}
                         </div>
                     </scroll-page >
                     <scroll-page id={SCROLL_PAGE_PROFESSIONAL_PROFILE}>
                         <div className='main__div'>
                             <ProfessionalProfile />
-                        </div>
-                    </scroll-page>
-                    <scroll-page id={SCROLL_PAGE_ABOUT_ME}>
-                        <div className='main__div'>
-                            <AboutMe />
                         </div>
                     </scroll-page>
                 </main >

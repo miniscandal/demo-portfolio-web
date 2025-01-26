@@ -12,6 +12,8 @@
 
     .picture {
         transition: filter var(--transition-slow-seconds) ease;
+        mask-image: linear-gradient(var(--color-white) 98%, transparent);
+
 
         @starting-style {
             filter: opacity(0);

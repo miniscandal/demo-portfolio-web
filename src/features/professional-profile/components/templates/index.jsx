@@ -9,7 +9,7 @@ import './style.css';
 
 function ProfessionalProfile() {
     const decoratedTitle = {
-        text: 'TECHNICAL COMPETENCIES AND EXPERTISE',
+        text: 'PROFESSIONAL PROFILE',
         color: 'charcoal-grey'
     };
 

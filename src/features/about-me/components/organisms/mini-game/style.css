@@ -1,4 +1,11 @@
 .mini-game {
+    > .title {
+        transition: filter var(--transition-slow-seconds) ease;
+
+        @starting-style {
+            filter: opacity(0);
+        }
+    }
 
     > .mini-game__div--start-game {
         font-family: var(--font-family-manga);

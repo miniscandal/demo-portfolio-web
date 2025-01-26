@@ -21,22 +21,22 @@ function ChessboardNav() {
             idAnchor: SCROLL_PAGE_WORK_EXPERIENCE_HISTORY
         },
         {
+            id: 'about-me',
+            text: 'ABOUT ME',
+            symbol: '02',
+            idAnchor: SCROLL_PAGE_ABOUT_ME
+        },
+        {
             id: 'personal-software-projects',
             text: 'PERSONAL PROJECTS',
-            symbol: '02',
+            symbol: '03',
             idAnchor: SCROLL_PAGE_PERSONAL_SOFTWARE_PROJECTS
         },
         {
             id: 'professional-profile',
             text: 'PROFESSIONAL PROFILE',
-            symbol: '03',
-            idAnchor: SCROLL_PAGE_PROFESSIONAL_PROFILE
-        },
-        {
-            id: 'about-me',
-            text: 'ABOUT ME',
             symbol: '04',
-            idAnchor: SCROLL_PAGE_ABOUT_ME
+            idAnchor: SCROLL_PAGE_PROFESSIONAL_PROFILE
         },
         {
             id: 'primary-footer',
