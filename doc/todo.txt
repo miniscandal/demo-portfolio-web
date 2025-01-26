@@ -13,6 +13,10 @@ cSpell: disable
 
 ⚝ Update icons tools in parchment when is responsive
 
+⚝ Agregar texto de hello werld y corazon coreano
+
+⚝ Agregar ollama en tools de entorno
+
 
 
 panel one:
@@ -41,25 +45,26 @@ Nivel: Rango del 1 al 5:
 5. Siempre habrá algo más difícil, herramientas y conceptos que aprender, El conocimiento y las habilidades son un proceso continuo.
 
 
-paso desarpersivido
-escuchar en vez de hablar
-observar
-reflexionar, formalar las ideas y pensamientos
-evito el conflicto
-priorizo la comodidad de los demas y evito el enfrentamieto auque esto sea sacrificarme
-preferencia por los desafios intelectuales
-capasidad para ver la profundidad en situaciones aparentemente simples
-Aporto un perspectiva unica y valiosa en diferentes contextos
-Me percato de la causa subyacente y como puede ser resuelta
-Atencion a los detalles y mwticulosidad que me permiten ver mas alla de la superficie
-Comprendo la situlesas de lo no evidente y que los demas pasan por alto comprediendo profundamente las situaciones
-Reflexiono sobre todas la maneras en las cuales se pueden solucionar los problemas de mi entorno por ejemplo la escuela
-Relacinarme con personas nuevas sin alzar la voz
-No encuntro tiempo para organizar mis pensamientos
-Tomo el tiempo necesario para conprender y responder de manera considerada
-Resolver las situaciones a mi manera a traves de la antencion a los detalles y mi enfoque tranquilo y cuidadoso solucione los problemas de manera efectiva hacieno mejoras notables sin necesidad de imponerme o destacar de manera llamativa
-Enfoque sutil y considerado
-Me tomo el tiempo para pensar en soluciones creativas y eficientes
-Me interesa la resolucion de problemas y el reto de idear las soluciones adecuadas
-Nivel de autoconciencia, tiempo a solas, tranquilidad para hacerlo de la mejor manera posible
-Me gusta trabajar en el fondo no en el centro de atencion
+* Paso desarpersivido
+* Escucho en vez de hablar
+* Observo
+* Reflexiono, formulo las ideas, pensamientos y respuestas
+* Evito el conflicto
+* Priorizo la comodidad de los demas y evito el enfrentamieto auque esto sea sacrificarme
+* Prifiero desafios intelectuales
+* Tengo la capasidad para profundizar en situaciones aparentemente simples
+* Aporto un perspectiva unica y valiosa en diferentes contextos
+* Me percato de la causa subyacente y como puede ser resuelta
+* Tengo atencion a los detalles y muticulosidad que me permiten ver mas alla de la superficie
+* Comprendo las situlesas de lo no evidente y que los demas pasan por alto comprediendo profundamente las situaciones
+* Reflexiono sobre todas la maneras en las cuales se pueden solucionar los problemas de mi entorno
+* Me Relaciono con personas nuevas desde un perfil donde promero muestro confinza
+* No encuntro tiempo para organizar mis pensamientos
+* Tomo el tiempo necesario para conprender y responder de manera considerada
+* Resolver las situaciones a mi manera a traves de la antencion a los detalles y mi enfoque tranquilo y cuidadoso
+* Soluciono los problemas de manera efectiva hacieno mejoras notables sin necesidad de imponerme o destacar de manera llamativa
+* Tengo un enfoque sutil y considerado
+* Me tomo el tiempo para pensar en soluciones creativas y eficientes
+* Me interesa la resolucion de problemas y el reto de idear las soluciones adecuadas
+* Doy atencion a mi nivel de autoconciencia, tiempo a solas, tranquilidad para hacerlo de la mejor manera posible
+* Me gusta trabajar en el fondo no en el centro de atencion, apoyando de manera discreta sin requerir alzar la voz
