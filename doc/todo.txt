@@ -1,70 +1,14 @@
 cSpell: disable
 
 
-⚝ Rename constantas in shared constants  archor-id.js
+⚝ Refactor secction personal software projects
 
-⚝ Manga development
-
-⚝ Update descriptive names to semantic names
+⚝ Update descriptive names to semantic names for css code variables
 
 ⚝ Update unused colors defined in atoms
 
-⚝ Update image my photo, responsive
+⚝ Add text "Korean Heart" in pixel art dialog
 
-⚝ Update icons tools in parchment when is responsive
+⚝ Implement dl, dt and dd tags
 
-⚝ Agregar texto de hello werld y corazon coreano
-
-⚝ Agregar ollama en tools de entorno
-
-
-
-panel one:
-description / expected results
-
-panel two:
-planeacion del proyecto (ideas, criteria, recursos, diagrams) / code (structure, main files) librero de documentacion
-
-panel three:
-conceptos (por que se eligio) / tecnologias (por que se eligio)
-
-panel four:
-demo (galery / video) / code (main files, scripts)
-
-lateral panel items:
-return , github, deploy si existe?, coffe level as range dificulted level
-
-dificultad level:
-rango del 1 al 6, explicar que por que nunca el 6 o por que nunca el uno
-
-Nivel: Rango del 1 al 5:
-1. Siempre habrá algo más fácil, además todo tiene su dificultad, no representa la total falta de conocimiento o habilidad..
-2. Apliqué tecnologías y conceptos conocidos y utilizados actualmente.
-3. Apliqué tecnologías y conceptos conocidos, pero no utilizados actualmente.
-4. Apliqué tecnologías y conceptos nuevos.
-5. Siempre habrá algo más difícil, herramientas y conceptos que aprender, El conocimiento y las habilidades son un proceso continuo.
-
-
-* Paso desarpersivido
-* Escucho en vez de hablar
-* Observo
-* Reflexiono, formulo las ideas, pensamientos y respuestas
-* Evito el conflicto
-* Priorizo la comodidad de los demas y evito el enfrentamieto auque esto sea sacrificarme
-* Prifiero desafios intelectuales
-* Tengo la capasidad para profundizar en situaciones aparentemente simples
-* Aporto un perspectiva unica y valiosa en diferentes contextos
-* Me percato de la causa subyacente y como puede ser resuelta
-* Tengo atencion a los detalles y muticulosidad que me permiten ver mas alla de la superficie
-* Comprendo las situlesas de lo no evidente y que los demas pasan por alto comprediendo profundamente las situaciones
-* Reflexiono sobre todas la maneras en las cuales se pueden solucionar los problemas de mi entorno
-* Me Relaciono con personas nuevas desde un perfil donde promero muestro confinza
-* No encuntro tiempo para organizar mis pensamientos
-* Tomo el tiempo necesario para conprender y responder de manera considerada
-* Resolver las situaciones a mi manera a traves de la antencion a los detalles y mi enfoque tranquilo y cuidadoso
-* Soluciono los problemas de manera efectiva hacieno mejoras notables sin necesidad de imponerme o destacar de manera llamativa
-* Tengo un enfoque sutil y considerado
-* Me tomo el tiempo para pensar en soluciones creativas y eficientes
-* Me interesa la resolucion de problemas y el reto de idear las soluciones adecuadas
-* Doy atencion a mi nivel de autoconciencia, tiempo a solas, tranquilidad para hacerlo de la mejor manera posible
-* Me gusta trabajar en el fondo no en el centro de atencion, apoyando de manera discreta sin requerir alzar la voz
+⚝ Implement flex-flow

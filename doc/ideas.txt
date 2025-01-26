@@ -1,0 +1,34 @@
+⚝ Add new features
+
+Panel One:
+
+Description / Expected Results
+Panel Two:
+
+Project planning (ideas, criteria, resources, diagrams)
+Code (structure, main files)
+Documentation library
+Panel Three:
+
+Concepts (why they were chosen)
+Technologies (why they were chosen)
+Panel Four:
+
+Demo (gallery / video)
+Code (main files, scripts)
+Lateral Panel Items:
+
+Return
+GitHub
+Deployment link (if available)
+Coffee level: range-based difficulty indicator
+Difficulty Level:
+
+Scale from 1 to 6, with explanations for why a project is never rated as a 1 or a 6
+Difficulty Levels Explained (Scale from 1 to 5):
+
+There’s always something simpler; every task has its challenges. This doesn’t represent a total lack of knowledge or skill.
+I applied known and currently used technologies and concepts.
+I applied known but outdated or less-used technologies and concepts.
+I applied new technologies and concepts.
+There’s always something more challenging to learn and master. Knowledge and skills are part of a continuous process.
