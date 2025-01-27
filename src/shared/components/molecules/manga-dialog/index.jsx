@@ -60,7 +60,8 @@ function MangaDialog({
     ];
     const paragraph = {
         text: displayedText,
-        color: 'charcoal-grey'
+        color: 'charcoal-grey',
+        cursorAnimation: true
     };
 
     return (
