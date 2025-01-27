@@ -9,4 +9,6 @@ cSpell: disable
 
 ⚝ Implement dl, dt and dd tags
 
+⚝ Implement fetch for json data
+
 ⚝ Implement flex-flow

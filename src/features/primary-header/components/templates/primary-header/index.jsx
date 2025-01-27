@@ -2,14 +2,14 @@ import { HeaderContent } from '@feat-primary-header-organisms/header-content';
 
 import { Picture } from '@shared-atoms/picture';
 
-import srcPhoto from '@assets-images/photo-me/main-3.jpg';
+import backgroundImg from '@assets-images/my-photos/setup/03.jpg';
 
 import './style.css';
 
 
 function PrimaryHeader() {
     const image = {
-        src: srcPhoto,
+        src: backgroundImg,
         size: 'adaptive',
         objectFit: 'cover'
     };

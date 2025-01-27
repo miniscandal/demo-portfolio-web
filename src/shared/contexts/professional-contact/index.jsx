@@ -1,7 +1,7 @@
 import { createContext } from 'react';
 
-import { format } from '@shared-resources-contact/mailto-format.json';
-import { github, linkedin } from '@shared-resources-contact/social-networks.json';
+import { format } from '@shared-mocks/data/contact/mailto-format.json';
+import { github, linkedin } from '@shared-mocks/data/contact/social-networks.json';
 
 
 const Provider = {

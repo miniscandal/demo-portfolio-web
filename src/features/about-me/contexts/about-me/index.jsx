@@ -1,6 +1,6 @@
 import { createContext } from 'react';
 
-import { en } from '@shared-resources-data/about-me/about-me.json';
+import { en } from '@shared-mocks/data/about-me/about-me.json';
 
 
 const Provider = en;

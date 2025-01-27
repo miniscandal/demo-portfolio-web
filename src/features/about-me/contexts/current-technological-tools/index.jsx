@@ -1,7 +1,7 @@
 import { createContext } from 'react';
 
-import { en as usedTools } from '@shared-resources-data/my-technological-tools/current.json';
-import { en as toolsData } from '@shared-resources-data/glossaries/technological-tools.json';
+import { en as usedTools } from '@shared-mocks/data/my-technological-tools/current.json';
+import { en as toolsData } from '@shared-mocks/data/glossaries/technological-tools.json';
 
 
 const Provider = {

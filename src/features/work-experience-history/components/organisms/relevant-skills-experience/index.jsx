@@ -7,9 +7,9 @@ import { KnowledgeInformation } from '@shared-molecules/knowledge-information';
 import { KnowledgeImplementation } from '@shared-organisms/knowledge-implementation';
 import { InterpersonalCompetencyInformation } from '@shared-molecules/interpersonal-competency-information';
 
-import { en as technologicalToolsData } from '@shared-resources-data/glossaries/technological-tools.json';
-import { en as technologicalKnowledgeData } from '@shared-resources-data/glossaries/technological-knowledge.json';
-import { en as socialEmotionalCompetenciesData } from '@shared-resources-data/glossaries/social-emotional-competencies.json';
+import { en as technologicalToolsData } from '@shared-mocks/data/glossaries/technological-tools.json';
+import { en as technologicalKnowledgeData } from '@shared-mocks/data/glossaries/technological-knowledge.json';
+import { en as socialEmotionalCompetenciesData } from '@shared-mocks/data/glossaries/social-emotional-competencies.json';
 
 import './style.css';
 

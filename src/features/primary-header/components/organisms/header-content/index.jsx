@@ -9,7 +9,7 @@ import { ProfessionalContact } from '@shared-organisms/professional-contact';
 
 import { PIXEL_ART_ANIME_MINICODE_ANIMATION_V1 } from '@shared-atoms/pixel-art/variants';
 
-import { es } from '@shared-resources-data/mini-messages/messages.json';
+import { es } from '@shared-mocks/data/mini-messages/messages.json';
 
 import './style.css';
 

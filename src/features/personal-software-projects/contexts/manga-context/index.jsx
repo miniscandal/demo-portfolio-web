@@ -1,6 +1,6 @@
 import { createContext } from 'react';
 
-import { en as sensorMonitoring } from '@shared-resources-data/personal-projects/sensor-monitoring.json';
+import { en as sensorMonitoring } from '@shared-mocks/data/personal-projects/sensor-monitoring.json';
 
 const { name, descriptions, objectives, expectedResults, planning } = sensorMonitoring;
 

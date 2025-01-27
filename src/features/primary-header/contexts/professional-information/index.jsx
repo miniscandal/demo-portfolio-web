@@ -1,6 +1,6 @@
 import { createContext } from 'react';
 
-import cvFile from '@assets-documents/cv-oscar-gonzalez.pdf';
+import cvFile from '@shared-resources-documents/cv-oscar-gonzalez.pdf';
 
 const Provider = {
     name: 'Oscar González',

@@ -1,6 +1,7 @@
 import { use } from 'react';
 
-import { resourcePersonalPhotos } from '@core-services-data/resources-personal-photos';
+import { resourcePersonalPhotos } from '@core-services-api-rest-github-profile/data/resources-personal-photos';
+
 
 
 function useResourcePhoto() {

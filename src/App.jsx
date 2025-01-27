@@ -13,6 +13,7 @@ import { SCROLL_PAGE_PRIMARY_FOOTER } from '@shared-constants/anchor-id';
 
 import './App.css';
 
+
 function App() {
 
     return (
