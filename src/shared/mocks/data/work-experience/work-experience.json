@@ -1,0 +1,80 @@
+{
+    "en": {
+        "ebookDevelopment": {
+            "name": "E-Book Educational Content Developer",
+            "employmentDuration": {
+                "start": {
+                    "year": 2020,
+                    "month": 8
+                },
+                "end": {
+                    "year": 2021,
+                    "month": 9
+                }
+            },
+            "description": "Development of an educational digital book on electronic modules and their integration with the Arduino board, designed to simplify the learning of embedded systems. This resource is aimed at engineering students and electronics enthusiasts, providing accessible and practical technical content.",
+            "contributions": [
+                "I contributed to the development of a digital book on Arduino and electronic modules, collaborating with the team to facilitate the learning of engineering students and electronics enthusiasts.",
+                "I wrote clear technical explanations and provided functional codes for the basic operation of various electronic modules.",
+                "I designed detailed electronic schematics for the integration of modules with Arduino boards, ensuring efficient and practical implementation.",
+                "My focus on writing ensured concise and accessible content, aligned with the goal of simplifying the implementation and use of electronic components."
+            ],
+            "technologicalTools": [
+                "arduino",
+                "c",
+                "tinkercad"
+            ],
+            "technologicalKnowledge": [
+                "embeddedSystem",
+                "dataSheet"
+            ],
+            "socialEmotionalCompetencies": [
+                "empathy",
+                "riskTaking",
+                "collaboration",
+                "teamWork",
+                "assertiveCommunication",
+                "awareness"
+            ]
+        }
+    },
+    "es": {
+        "ebookDevelopment": {
+            "name": "Desarrollador de Contenido Educativo en Libro Electrónico",
+            "employmentDuration": {
+                "start": {
+                    "year": 2020,
+                    "month": 8
+                },
+                "end": {
+                    "year": 2021,
+                    "month": 9
+                }
+            },
+            "description": "Desarrollo de un libro digital educativo sobre módulos electrónicos y su integración con la placa Arduino, diseñado para simplificar el aprendizaje de sistemas embebidos. Este recurso está orientado a estudiantes de ingeniería y entusiastas de la electrónica, proporcionando contenido técnico accesible y práctico.",
+            "contributions": [
+                "Contribuí al desarrollo de un libro digital sobre Arduino y módulos electrónicos, colaborando en equipo para facilitar el aprendizaje de estudiantes de ingeniería y entusiastas de la electrónica.",
+                "Redacté explicaciones técnicas claras y proporcioné códigos funcionales para la operación básica de diversos módulos electrónicos.",
+                "Diseñé esquemas electrónicos detallados para la integración de módulos con placas Arduino, asegurando una implementación eficiente y práctica.",
+                "Mi enfoque en la redacción garantizó contenido conciso y accesible, alineado con el objetivo de simplificar la implementación y el uso de componentes electrónicos."
+            ],
+            "technologicalTools": [
+                "arduino",
+                "c",
+                "tinkercad"
+            ],
+            "technologicalKnowledge": [
+                "embeddedSystem",
+                "dataSheet"
+            ],
+            "socialEmotionalCompetencies": [
+                "empathy",
+                "riskTaking",
+                "collaboration",
+                "teamWork",
+                "assertiveCommunication",
+                "awareness"
+            ]
+        }
+    }
+}

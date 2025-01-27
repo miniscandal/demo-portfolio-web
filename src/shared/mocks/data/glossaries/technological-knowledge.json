@@ -1,0 +1,80 @@
+{
+    "en": {
+        "internetOfThings": {
+            "name": "Internet Of Things",
+            "color": "#4d455d"
+        },
+        "observerPattern": {
+            "name": "Observer Pattern",
+            "color": "#be6600"
+        },
+        "atomicWebDesign": {
+            "name": "Atomic Web Design",
+            "color": "#3c3c7a"
+        },
+        "bemMethodology": {
+            "name": "BEM Methodology",
+            "color": "#a5a800"
+        },
+        "mqtt": {
+            "name": "MQ Telemetry Transport",
+            "color": "#547e27"
+        },
+        "functionalProgramming": {
+            "name": "Functional Programming",
+            "color": "#0649c5"
+        },
+        "eventDelegation": {
+            "name": "Event Delegation",
+            "color": "#cf2a85"
+        },
+        "realTimeApplication": {
+            "name": "Real Time Application",
+            "color": "#ee9b01"
+        },
+        "responsiveWebDesign": {
+            "name": "Responsive Web Design",
+            "color": "#4c8d26"
+        },
+        "apiRestFul": {
+            "name": "API RESTful",
+            "color": "#004f98"
+        },
+        "userExperience": {
+            "name": "User Experience",
+            "color": "#eb7389"
+        },
+        "artificialIntelligenceTechnology": {
+            "name": "AI Technology",
+            "color": "#617373"
+        },
+        "ebook": {
+            "name": "Electronic Book",
+            "color": "#f27b57"
+        },
+        "embeddedSystem": {
+            "name": "Embedded System",
+            "color": "#1465bb"
+        },
+        "testing": {
+            "name": "Code Test",
+            "color": "#a0a50d"
+        },
+        "dataSheet": {
+            "name": "Reading Data Sheets",
+            "color": "#b07265"
+        },
+        "customProperties": {
+            "name": "Custom Properties JS",
+            "color": "#b9848c"
+        },
+        "useDataAttributes": {
+            "name": "Use Data Attributes JS",
+            "color": "#fae4c7"
+        },
+        "taskAutomation": {
+            "name": "Task Automation with Scripting",
+            "color": "#74c7e2"
+        }
+    }
+}

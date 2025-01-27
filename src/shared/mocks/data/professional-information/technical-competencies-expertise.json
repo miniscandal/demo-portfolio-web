@@ -1,0 +1,46 @@
+{
+    "en": {
+        "computerSystemEngineering": {
+            "name": "Computer Systems Engineering",
+            "description": "My academic, professional, and self-taught background enables me to tackle challenges with confidence, collaborate in multidisciplinary teams, and create effective digital solutions by integrating software and hardware."
+        },
+        "softwareDeveloper": {
+            "name": "Software Developer",
+            "description": "I participate in the planning, design, and development of software solutions, using appropriate tools to meet objectives and requirements, optimizing efficiency, functionality, scalability, performance, and quality."
+        },
+        "databaseAdministration": {
+            "name": "Database Administration",
+            "description": "I manage an organization's data by analyzing the context to identify entities and their key properties, reducing redundancies and improving integrity to ensure reliable and consistent information."
+        },
+        "internetOfThings": {
+            "name": "Internet of Things",
+            "description": "I design and plan solutions that connect sensors and actuators to control environments, implementing features such as real-time monitoring, remote hardware control, and data access, preventing anomalies and enabling quick and optimal responses."
+        },
+        "functionalAnalyst": {
+            "name": "Functional Analyst",
+            "description": "I identify and define the functional requirements of a solution, ensuring alignment with user needs. I collaborate with the team to ensure the development meets technical standards and user expectations, resulting in efficient systems."
+        }
+    },
+    "es": {
+        "computerSystemEngineering": {
+            "name": "Ingeniería en Sistemas Computacionales",
+            "description": "Mi formación académica, profesional y autodidacta me permite afrontar desafíos con confianza, colaborar en equipos multidisciplinarios y crear soluciones digitales efectivas, integrando software y hardware."
+        },
+        "softwareDeveloper": {
+            "name": "Desarrollador de Software",
+            "description": "Participo en la planificación, diseño y desarrollo de soluciones de software, utilizando herramientas adecuadas para cumplir con los objetivos y requisitos, optimizando eficiencia, funcionalidad, escalabilidad, rendimiento y calidad."
+        },
+        "databaseAdministration": {
+            "name": "Administración de Bases de Datos",
+            "description": "Gestiono los datos de una organización, analizando el contexto para identificar entidades y sus propiedades clave, reduciendo redundancias y mejorando la integridad para garantizar información confiable y consistente."
+        },
+        "internetOfThings": {
+            "name": "Internet de las Cosas",
+            "description": "Diseño y planifico soluciones que conectan sensores y actuadores para controlar entornos, implementando funciones como monitoreo en tiempo real, control remoto de hardware y acceso a datos, previniendo anomalías y obteniendo respuestas rápidas y óptimas."
+        },
+        "functionalAnalyst": {
+            "name": "Analista Funcional",
+            "description": "Identifico y defino los requisitos funcionales de una solución, asegurando su alineación con las necesidades del usuario. Colaboro con el equipo para garantizar que el desarrollo cumpla con los estándares técnicos y las expectativas del usuario, logrando sistemas eficientes."
+        }
+    }
+}

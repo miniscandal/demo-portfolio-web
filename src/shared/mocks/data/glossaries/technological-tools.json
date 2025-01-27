@@ -1,0 +1,149 @@
+{
+    "en": {
+        "javaScript": {
+            "name": "JavaScript",
+            "color": "#d4b830e6",
+            "iconSrc": "/images/svg/js.svg"
+        },
+        "python": {
+            "name": "Python",
+            "color": "#9657a6e6",
+            "iconSrc": "/images/svg/python.svg"
+        },
+        "html": {
+            "name": "HTML",
+            "color": "#f16529e6",
+            "iconSrc": "/images/svg/html.svg"
+        },
+        "css": {
+            "name": "CSS",
+            "color": "#663399e6",
+            "iconSrc": "/images/svg/css.svg"
+        },
+        "mosquitto": {
+            "name": "Mosquitto",
+            "color": "#3c5280e6",
+            "iconSrc": "/images/svg/mosquitto.svg"
+        },
+        "react": {
+            "name": "React",
+            "color": "#3c99dce6",
+            "iconSrc": "/images/svg/react.svg"
+        },
+        "json": {
+            "name": "JSON",
+            "color": "#8f979ae6",
+            "iconSrc": "/images/svg/json.svg"
+        },
+        "mqttJs": {
+            "name": "MQTT.js",
+            "color": "#6d8c00e6",
+            "iconSrc": "/images/svg/mqttjs.svg"
+        },
+        "insomnia": {
+            "name": "Insomnia",
+            "color": "#4b2d9fe6",
+            "iconSrc": "/images/svg/react.svg"
+        },
+        "bigChat": {
+            "name": "AI Bing Chat",
+            "color": "#427ac1e6",
+            "iconSrc": "/images/svg/react.svg"
+        },
+        "arduino": {
+            "name": "Arduino",
+            "color": "#008184e6",
+            "iconSrc": "/images/svg/arduino.svg"
+        },
+        "c": {
+            "name": "C",
+            "color": "#2196f3e6",
+            "iconSrc": "/images/svg/c.svg"
+        },
+        "cpp": {
+            "name": "C++",
+            "color": "#1465bbe6",
+            "iconSrc": "/images/svg/c++.svg"
+        },
+        "pdf": {
+            "name": "PDF",
+            "color": "#f27b57e6",
+            "iconSrc": "/images/svg/pdf.svg"
+        },
+        "java": {
+            "name": "Java",
+            "color": "#5382a1e6",
+            "iconSrc": "/images/svg/java.svg"
+        },
+        "springBoot": {
+            "name": "Spring Boot",
+            "color": "#6db33fe6",
+            "iconSrc": "/images/svg/spring-boot.svg"
+        },
+        "mySQL": {
+            "name": "MySQL",
+            "color": "#00758be6",
+            "iconSrc": "/images/svg/my-sql.svg"
+        },
+        "laravel": {
+            "name": "Laravel",
+            "color": "#ff2d20e6",
+            "iconSrc": "/images/svg/laravel.svg"
+        },
+        "angular": {
+            "name": "Angular",
+            "color": "#f42db1e6",
+            "iconSrc": "/images/svg/angular.svg"
+        },
+        "typeScript": {
+            "name": "TypeScript",
+            "color": "#3178c6e6",
+            "iconSrc": "/images/svg/type-script.svg"
+        },
+        "git": {
+            "name": "Git",
+            "color": "#f03c2ee6",
+            "iconSrc": "/images/svg/git.svg"
+        },
+        "linux": {
+            "name": "Linux",
+            "color": "#4c4c4ce6",
+            "iconSrc": "/images/svg/linux.svg"
+        },
+        "windows": {
+            "name": "Windows",
+            "color": "#0078d4",
+            "iconSrc": "/images/svg/windows.svg"
+        },
+        "docker": {
+            "name": "Docker",
+            "color": "#2496ed",
+            "iconSrc": "/images/svg/docker.svg"
+        },
+        "bash": {
+            "name": "Bash",
+            "color": "#4eaa25",
+            "iconSrc": "/images/svg/bash.svg"
+        },
+        "tinkercad": {
+            "name": "Tinkercad",
+            "color": "#f4b400",
+            "iconSrc": "/images/svg/tinkercad.svg"
+        },
+        "ollama": {
+            "name": "Ollama",
+            "color": "#ffffff",
+            "iconSrc": "/images/svg/ollama.svg"
+        },
+        "nodejs": {
+            "name": "Node.js",
+            "color": "#689f63",
+            "iconSrc": "/images/svg/nodejs.svg"
+        },
+        "arangoDB": {
+            "name": "ArangoDB",
+            "color": "#dddf72",
+            "iconSrc": "/images/svg/arangodb.svg"
+        }
+    }
+}
