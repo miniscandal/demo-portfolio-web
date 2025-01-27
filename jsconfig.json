@@ -11,14 +11,17 @@
             "@assets-images/*": [
                 "assets/images/*"
             ],
-            "@core-services-data/*": [
-                "core/services/data/*"
+            "@core-http-client/*": [
+                "core/http-client/*"
             ],
-            "@core-services-interceptors/*": [
-                "core/services/interceptors/*"
+            "@core-interceptors/*": [
+                "core/interceptors/*"
             ],
-            "@core-services-api-rest-endpoints/*": [
-                "core/services/api-rest-endpoints/*"
+            "@core-services-api-rest-github-profile/*": [
+                "core/services/api-rest/github-profile/*"
+            ],
+            "@core-validators/*": [
+                "core/validators/*"
             ],
             "@feat-work-experience-history-organisms/*": [
                 "features/work-experience-history/components/organisms/*"
@@ -125,14 +128,11 @@
             "@shared-react-components/*": [
                 "shared/react-components/*"
             ],
-            "@shared-resources-data/*": [
-                "shared/resources/data/*"
+            "@shared-resources-documents/*": [
+                "shared/resources/documents/*"
             ],
             "@shared-resources-contact/*": [
                 "shared/resources/contact/*"
-            ],
-            "@shared-services/*": [
-                "shared/services/*"
             ]
         }
     }

@@ -9,21 +9,11 @@ export default defineConfig({
             '@assets-documents': '/src/assets/documents/',
             '@assets-fonts': '/src/assets/fonts/',
             '@assets-images': '/src/assets/images/',
-            '@core-services-data': '/src/core/services/data/',
-            '@core-services-interceptors': '/src/core/services/interceptors/',
-            '@core-services-api-rest-endpoints': '/src/core/services/api-rest-endpoints/',
 
-            '@shared-atoms': '/src/shared/components/atoms/',
-            '@shared-molecules': '/src/shared/components/molecules/',
-            '@shared-organisms': '/src/shared/components/organisms/',
-            '@shared-constants': '/src/shared/constants/',
-            '@shared-contexts': '/src/shared/contexts/',
-            '@shared-custom-hooks': '/src/shared/custom-hooks/',
-            '@shared-mocks': '/src/shared/mocks/',
-            '@shared-react-components': '/src/shared/react-components/',
-            '@shared-resources-data': '/src/shared/resources/data/',
-            '@shared-resources-contact': '/src/shared/resources/contact/',
-            '@shared-services': '/src/shared/services/',
+            '@core-http-client': '/src/core/http-client/',
+            '@core-interceptors': '/src/core/interceptors/',
+            '@core-services-api-rest-github-profile': '/src/core/services/api-rest/github-profile/',
+            '@core-validators': '/src/core/validators/',
 
             '@feat-primary-header-molecules': '/src/features/primary-header/components/molecules/',
             '@feat-primary-header-organisms': '/src/features/primary-header/components/organisms/',
@@ -57,7 +47,18 @@ export default defineConfig({
             '@feat-personal-software-projects-templates': '/src/features/personal-software-projects/components/templates/',
             '@feat-personal-software-projects-pages': '/src/features/personal-software-projects/components/pages/',
             '@feat-personal-software-projects-constants': '/src/features/personal-software-projects/constants/',
-            '@feat-personal-software-projects-contexts': '/src/features/personal-software-projects/contexts/'
+            '@feat-personal-software-projects-contexts': '/src/features/personal-software-projects/contexts/',
+
+            '@shared-atoms': '/src/shared/components/atoms/',
+            '@shared-molecules': '/src/shared/components/molecules/',
+            '@shared-organisms': '/src/shared/components/organisms/',
+            '@shared-constants': '/src/shared/constants/',
+            '@shared-contexts': '/src/shared/contexts/',
+            '@shared-custom-hooks': '/src/shared/custom-hooks/',
+            '@shared-mocks': '/src/shared/mocks/',
+            '@shared-react-components': '/src/shared/react-components/',
+            '@shared-resources-documents': '/src/shared/resources/documents/',
+            '@shared-resources-contact': '/src/shared/resources/contact/'
         }
     }
 });
