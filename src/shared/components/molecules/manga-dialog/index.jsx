@@ -5,7 +5,21 @@ import { Paragraph } from '@shared-atoms/paragraph';
 import './style.css';
 
 function MangaDialog({
-    texts = ['Manga', 'Dialog', '😊🚀'],
+    messages = [{
+        'kaomoji': '(⌒ω⌒)',
+        'message': '¡No code, no life!',
+        'emoji': '🖥️❤️'
+    },
+    {
+        'kaomoji': '(≧ω≦)',
+        'message': 'No software, no life',
+        'emoji': '💾✨'
+    },
+    {
+        'kaomoji': '(˶˃ ᵕ ˂˶) .ᐟ.ᐟ',
+        'message': 'No firmware, no life',
+        'emoji': '💾✨'
+    }],
     size = 'regular',
     speed = 200,
     pauseDuration = 100
@@ -17,9 +31,12 @@ function MangaDialog({
 
     useEffect(() => {
         const segmenter = new Intl.Segmenter('en', { granularity: 'grapheme' });
-        const splitTexts = texts.map(text =>
-            Array.from(segmenter.segment(text)).map(segment => segment.segment)
-        );
+        const splitTexts = messages.map(item => {
+            const { kaomoji, message, emoji } = item;
+            const text = `${kaomoji}\n${message}\n${emoji}`;
+
+            return Array.from(segmenter.segment(text)).map(segment => segment.segment);
+        });
 
         const loopDisplayText = ({
             index,
@@ -59,7 +76,7 @@ function MangaDialog({
         const intervalId = setInterval(loopDisplayText, speed, parameters);
 
         return () => clearInterval(intervalId);
-    }, [texts, index, speed, indexText, isPause, pauseDuration]);
+    }, [messages, index, speed, indexText, isPause, pauseDuration]);
 
     const classList = [size];
     const paragraph = {

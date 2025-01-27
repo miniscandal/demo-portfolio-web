@@ -8,11 +8,11 @@ import './style.css';
 
 
 function CharacterSpeech({
-    texts = ['Character Speech'],
+    messages = ['Character Speech'],
     character = PIXEL_ART_ANIME_UMI,
 }) {
     const mangaDialog = {
-        texts,
+        texts: messages,
         speed: 100,
         pauseDuration: 2000,
     };
