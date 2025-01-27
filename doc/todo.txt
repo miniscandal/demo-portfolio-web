@@ -1,7 +1,4 @@
-cSpell: disable
-
-
-⚝ Refactor secction personal software projects
+⚝ Refactor section personal software projects
 
 ⚝ Update descriptive names to semantic names for css code variables
 
@@ -12,3 +9,5 @@ cSpell: disable
 ⚝ Implement fetch for json data
 
 ⚝ Implement flex-flow
+
+⚝ Add pixel art in chess nav

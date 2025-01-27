@@ -1,5 +1,3 @@
-import { ProfessionalContactProvider } from '@shared-contexts/professional-contact';
-
 import { Paragraph } from '@shared-atoms/paragraph';
 import { ProfessionalContact } from '@shared-organisms/professional-contact';
 
@@ -26,9 +24,7 @@ function PrimaryFooter() {
                 <Paragraph {...paragraphAuthor} />
             </div>
             <div>
-                <ProfessionalContactProvider>
-                    <ProfessionalContact {...professionalContactMethods} />
-                </ProfessionalContactProvider>
+                <ProfessionalContact {...professionalContactMethods} />
             </div>
         </footer>
     );

@@ -1,5 +1,3 @@
-import { ProfessionalProfileProvider } from '@feat-professional-profile-contexts/professional-profile';
-
 import { DecoratedTitle } from '@shared-molecules/decorated-title';
 
 import { AcquiredCompetencies } from '@feat-professional-profile-organisms/acquired-competencies';
@@ -19,9 +17,7 @@ function ProfessionalProfile() {
                 <DecoratedTitle {...decoratedTitle} />
             </header>
             <section>
-                <ProfessionalProfileProvider>
-                    <AcquiredCompetencies />
-                </ProfessionalProfileProvider>
+                <AcquiredCompetencies />
             </section>
         </section>
     );

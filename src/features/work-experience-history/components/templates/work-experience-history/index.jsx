@@ -1,5 +1,3 @@
-import { WorkExperienceProvider } from '@feat-work-experience-history-contexts/work-experience';
-
 import { DecoratedTitle } from '@shared-molecules/decorated-title';
 
 import { EmploymentSummary } from '@feat-work-experience-history-organisms/employment-summary';
@@ -19,9 +17,7 @@ function WorkExperienceHistory() {
                 <DecoratedTitle {...decoratedTitle} />
             </header>
             <section>
-                <WorkExperienceProvider>
-                    <EmploymentSummary />
-                </WorkExperienceProvider>
+                <EmploymentSummary />
             </section>
         </article>
     );
