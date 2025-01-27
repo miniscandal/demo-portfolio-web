@@ -185,11 +185,11 @@
 
     &.art-anime-minicode-animation-v1 {
         &.regular {
-            width: 19.7rem;
-            height: 20.9rem;
+            width: 17.8rem;
+            height: 18.8rem;
 
             > div {
-                transform: scale(2);
+                transform: scale(1.8);
             }
         }
     }
