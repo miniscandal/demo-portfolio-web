@@ -1,4 +1,6 @@
 .primary-header {
+    --filter-opacity: opacity(0.65);
+
     position: relative;
     padding-left: var(--padding-viewport);
     padding-bottom: var(--padding-viewport);
@@ -12,7 +14,7 @@
             position: absolute;
             inset: 0;
             background-color: var(--color-slate-gray);
-            filter: opacity(0.65);
+            filter: var(--filter-opacity);
         }
     }
 
