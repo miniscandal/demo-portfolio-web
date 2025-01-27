@@ -1,3 +1,7 @@
+import { useContext } from 'react';
+
+import { ProfessionalApproachContext } from '@feat-about-me-contexts/professional-approach';
+
 import { PixelArtDialog } from '@feat-about-me-organisms/pixel-art-dialog';
 
 import { Title } from '@shared-atoms/title';
@@ -8,6 +12,8 @@ import './style.css';
 
 
 function ProfessionalApproach() {
+    const { goals } = useContext(ProfessionalApproachContext);
+
     const title = {
         text: 'My Professional Approach',
         type: 'h3',
@@ -15,8 +21,8 @@ function ProfessionalApproach() {
     };
 
     const pixelArtDialog = {
-        textMain: 'I am committed to spending meaningful time on professional growth and personal development, aiming to become a skilled principal software engineer.',
-        textSecondary: 'My goal is to inspire and guide future engineers. I strongly believe that supporting my peers will help me grow professionally and enrich my life.',
+        textMain: goals[0],
+        textSecondary: goals[1],
         character: PIXEL_ART_ANIME_MINICODE_ANIMATION_V2
     };
 
