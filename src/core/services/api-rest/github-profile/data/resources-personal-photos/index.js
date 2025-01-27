@@ -1,8 +1,9 @@
-import { getDataBlob } from '@core-services-interceptors/api-fetch';
+import { getDataBlob } from '@core-http-client/fetch';
 
-import { photoPersonalUrl } from '@core-services-api-rest-endpoints/professional-data';
+import { photoPersonalUrl } from '@core-services-api-rest-github-profile/end-points';
 
-import { isBlob } from '@shared-services/validate-value-type';
+import { isBlob } from '@core-validators/data-type-validation';
+
 
 let cache = new Map();
 
