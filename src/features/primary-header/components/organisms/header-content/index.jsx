@@ -1,5 +1,6 @@
-import { ProfessionalInformationProvider } from '@feat-primary-header-contexts/professional-information';
-import { ProfessionalContactProvider } from '@shared-contexts/professional-contact';
+import { useContext } from 'react';
+
+import { MiniMessagesContext } from '@feat-primary-header-contexts/mini-messages';
 
 import { ProfessionalInformation } from '@feat-primary-header-molecules/professional-information';
 import { ChessboardNav } from '@feat-primary-header-organisms/chessboard-nav';
@@ -9,14 +10,14 @@ import { ProfessionalContact } from '@shared-organisms/professional-contact';
 
 import { PIXEL_ART_ANIME_MINICODE_ANIMATION_V1 } from '@shared-atoms/pixel-art/variants';
 
-import { es } from '@shared-mocks/data/mini-messages/messages.json';
-
 import './style.css';
 
 
 function HeaderContent() {
+    const { miniMessages } = useContext(MiniMessagesContext);
+
     const characterSpeech = {
-        messages: es,
+        messages: miniMessages,
         character: PIXEL_ART_ANIME_MINICODE_ANIMATION_V1
     };
 
@@ -24,12 +25,8 @@ function HeaderContent() {
     return (
         <div className='header-content'>
             <section className='header-content__section'>
-                <ProfessionalInformationProvider>
-                    <ProfessionalInformation />
-                </ProfessionalInformationProvider>
-                <ProfessionalContactProvider>
-                    <ProfessionalContact />
-                </ProfessionalContactProvider>
+                <ProfessionalInformation />
+                <ProfessionalContact />
                 <div className='header-content__section--div'>
                     <CharacterSpeech {...characterSpeech} />
                 </div>

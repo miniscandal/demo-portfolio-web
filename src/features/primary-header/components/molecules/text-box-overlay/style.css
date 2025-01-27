@@ -4,6 +4,9 @@
     align-items: center;
     position: relative;
 
+    background-color: var(--color-dark);
+    filter: var(--filter-opacity);
+
     > .text-box-overlay__div {
         transform: rotate(-45deg);
 
@@ -34,5 +37,8 @@
         inset: 0;
         border: solid var(--border-regular-width) var(--color-light-silver);
         transition: inset var(--transition-fast-seconds) linear;
+
+        background-color: var(--color-dark);
+        filter: var(--filter-opacity);
     }
 }

@@ -22,7 +22,7 @@ meet the CEO's design requirements.
             position: absolute;
             inset: 0;
             background-color: var(--color-dark);
-            filter: opacity(0.6);
+            filter: var(--filter-opacity);
             border-radius: var(--border-radius-simple-organism);
 
             @media (width < 60rem) {
