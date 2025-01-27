@@ -8,7 +8,28 @@ meet the CEO's design requirements.
     flex-wrap: wrap-reverse;
     overflow: hidden;
 
+
     > .header-content__section {
+        padding: var(--padding-viewport);
+        position: relative;
+
+        > * {
+            z-index: 10;
+        }
+
+        &::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background-color: var(--color-dark);
+            filter: opacity(0.6);
+            border-radius: var(--border-radius-simple-organism);
+
+            @media (width < 60rem) {
+                display: none;
+            }
+        }
+
         display: flex;
         flex-direction: column;
         gap: var(--padding-simple-organism);
