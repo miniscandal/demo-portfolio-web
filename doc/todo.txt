@@ -7,8 +7,6 @@ cSpell: disable
 
 ⚝ Update unused colors defined in atoms
 
-⚝ Add text "Korean Heart" in pixel art dialog
-
 ⚝ Implement dl, dt and dd tags
 
 ⚝ Implement flex-flow
