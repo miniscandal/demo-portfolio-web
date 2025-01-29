@@ -1,10 +1,10 @@
-import { KidStar } from './variants';
+import { Cat } from './variants';
 
 import './style.css';
 
 
 function IconFontSvg({
-    svg = KidStar,
+    svg = Cat,
     color = 'light',
     size = 'regular',
     currentColor = undefined

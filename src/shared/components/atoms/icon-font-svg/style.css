@@ -1,4 +1,5 @@
 .icon-font-svg {
+
     > svg {
         width: 100%;
         height: 100%;
@@ -6,17 +7,22 @@
     }
 
     &.regular {
-        width: 2rem;
-        height: 2rem;
-    }
-
-    &.medium {
         width: 2.5rem;
         height: 2.5rem;
     }
 
+    &.medium {
+        width: 3rem;
+        height: 3rem;
+    }
+
     &.small {
-        width: 1.5rem;
-        height: 1.5rem;
+        width: 2rem;
+        height: 2rem;
+    }
+
+    &.semi-regular {
+        width: 2.25rem;
+        height: 2.25rem;
     }
 }
