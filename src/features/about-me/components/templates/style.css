@@ -10,5 +10,19 @@
         gap: var(--gap-simple-container);
         max-width: 80rem;
         margin: 0 auto;
+
+        > .about-me__div {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: var(--gap-organism);
+
+            > .about-me__div--goals {
+                flex: 1;
+                background-color: var(--color-muted-purple);
+                padding: var(--padding-simple-organism);
+                border-radius: var(--border-radius-simple-organism);
+            }
+        }
     }
 }

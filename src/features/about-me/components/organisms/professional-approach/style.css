@@ -1,13 +1,10 @@
 .professional-approach {
 
     > .professional-approach__div {
+        justify-items: center;
+
         &:first-child {
             padding-bottom: var(--padding-organism);
-        }
-
-        &:last-child {
-            max-width: 50rem;
-            margin: 0 auto;
         }
     }
 }

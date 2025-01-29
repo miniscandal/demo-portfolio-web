@@ -21,7 +21,14 @@ function AboutMe() {
             <section>
                 <MainSection />
                 <TechnologicalTools />
-                <ProfessionalApproach />
+                <div className='about-me__div'>
+                    <div className='about-me__div--goals'>
+                        <ProfessionalApproach />
+                    </div>
+                    <div className='about-me__div--goals'>
+                        <ProfessionalApproach />
+                    </div>
+                </div>
             </section>
         </article >
     );

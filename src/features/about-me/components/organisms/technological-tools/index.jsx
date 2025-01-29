@@ -7,7 +7,7 @@ import './style.css';
 
 function TechnologicalTools() {
     const title = {
-        text: 'My Technological Tools',
+        text: 'Technological Expertise',
         type: 'h3',
         color: 'light'
     };
