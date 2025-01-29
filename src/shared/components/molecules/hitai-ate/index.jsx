@@ -8,14 +8,16 @@ import './style.css';
 
 function HitaiAte({
     src = undefined,
-    type = 'hitai-ate'
+    type = 'hitai-ate',
+    color = 'light'
 }) {
     const pixelArt = {
         character: PIXEL_ART_ITEM_HITAI_ATE
     };
     const toolBadge = {
         iconSrc: src,
-        type
+        type,
+        color
     };
 
 

@@ -8,14 +8,15 @@ import './style.css';
 function KonohaKit({
     name = undefined,
     iconSrc = undefined,
-    bgColor = undefined
+    color: bgColor = undefined
 }) {
     const parchmentToolName = {
         name,
         bgColor,
     };
     const hitaiAte = {
-        src: iconSrc
+        src: iconSrc,
+        color: bgColor
     };
 
 

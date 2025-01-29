@@ -1,11 +1,15 @@
 import { Icon } from '@shared-atoms/icon';
+import { IconFontSvg } from '@shared-atoms/icon-font-svg';
+
+import { Cat } from '@shared-atoms/icon-font-svg/variants';
 
 import './style.css';
 
 
 function ToolBadge({
     iconSrc,
-    type = 'hitai-ate'
+    type = 'hitai-ate',
+    color = undefined
 }) {
     const classList = [
         type
@@ -14,12 +18,18 @@ function ToolBadge({
         src: iconSrc,
         size: 'semi-regular'
     };
+    const iconFontSvg = {
+        svg: Cat,
+        color
+    };
 
 
     return (
         <div className={`tool-badge ${classList.join(' ')}`}>
             <div className='tool-badge__div'>
-                <Icon {...icon} />
+                {
+                    iconSrc ? <Icon {...icon} /> : <IconFontSvg {...iconFontSvg} />
+                }
             </div>
         </div>
     );

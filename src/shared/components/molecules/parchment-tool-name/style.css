@@ -5,15 +5,14 @@
     > .parchment-tool-name__div {
         position: absolute;
         top: 50%;
-        right: 3.2%;
+        right: 2.8%;
         transform: translateY(-50%);
         width: 82%;
-        height: 42.5%;
+        height: 43%;
         filter: sepia(0.2);
         justify-items: center;
         align-content: center;
         font-family: var(--font-family-manga);
-
 
         > .parchment-tool-name__div--name {
             transform: rotate(-4deg);
