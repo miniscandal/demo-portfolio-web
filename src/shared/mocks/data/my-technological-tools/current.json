@@ -19,6 +19,13 @@
             "laravel",
             "nodejs",
             "arangoDB"
+        ],
+        "concepts": [
+            "softwareArchitecture",
+            "sqlDatabase",
+            "softwareDesign",
+            "umlDiagram",
+            "entityRelationshipDiagram"
         ]
     },
     "es": {}
