@@ -7,14 +7,14 @@ import './style.css';
 function KnowledgeImplementation({
     textTitle = undefined,
     skills = ['skill', 'skill', 'skill'],
-    skillsInformation = {
+    skillsData = {
         'skill': {
             'name': 'First Skill',
             'colorTitle': 'lightpink',
             'iconSrc': undefined
         }
     },
-    Component = ToolInformation,
+    Component = ({ value, index, information }) => <ToolInformation key={`${index}-${value}`} {...information} />,
     layoutType = 'block',
     columns = 2,
     titleColor: color = 'light'
@@ -28,11 +28,13 @@ function KnowledgeImplementation({
         type: 'h4'
     };
     const components = skills.map((value, index) => (
-        <Component
-            key={`${index}-${value.text}`}
-            {...skillsInformation[value]} size='auto'
-        />
-    ));
+        Component({
+            value,
+            index,
+            data: skillsData[value],
+        }))
+    );
+
 
     return (
         <section className={`knowledge-implementation ${classList.join(' ')}`}>
