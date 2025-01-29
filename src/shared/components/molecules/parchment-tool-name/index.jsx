@@ -13,7 +13,7 @@ function ParchmentToolName({
     iconSrc = undefined
 }) {
     const classList = [
-        iconSrc ? 'with-icon' : ''
+        iconSrc ? 'with-tool-badge' : ''
     ];
     const styles = {
         backgroundColor: bgColor
@@ -27,8 +27,7 @@ function ParchmentToolName({
         size: 'middle'
     };
     const toolBadge = {
-        iconSrc,
-        type: 'parchment'
+        iconSrc
     };
 
 

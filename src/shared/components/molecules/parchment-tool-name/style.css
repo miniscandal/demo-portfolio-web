@@ -19,7 +19,7 @@
         }
     }
 
-    &.with-icon {
+    &.with-tool-badge {
 
         > .parchment-tool-name__div {
             display: flex;

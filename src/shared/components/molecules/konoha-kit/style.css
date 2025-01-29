@@ -1,3 +1,21 @@
 .konoha-kit {
     justify-items: center;
+
+    > .konoha-kit__div--mobile {
+        display: none;
+    }
+
+    @media (width < 40rem) {
+        > .konoha-kit__div--hitai-ate {
+            display: none;
+        }
+
+        > .konoha-kit__div--desktop {
+            display: none;
+        }
+
+        > .konoha-kit__div--mobile {
+            display: block;
+        }
+    }
 }

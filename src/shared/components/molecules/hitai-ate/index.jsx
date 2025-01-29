@@ -8,7 +8,6 @@ import './style.css';
 
 function HitaiAte({
     src = undefined,
-    type = 'hitai-ate',
     currentColor = undefined
 }) {
     const pixelArt = {
@@ -16,7 +15,6 @@ function HitaiAte({
     };
     const toolBadge = {
         iconSrc: src,
-        type,
         currentColor
     };
 
