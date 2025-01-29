@@ -10,7 +10,8 @@ import './style.css';
 
 
 function JobExperienceDetails() {
-    const { name, employmentDuration, contributions } = useContext(WorkExperienceContext);
+    const { experience } = useContext(WorkExperienceContext);
+    const { name, employmentDuration, contributions } = experience;
 
     const title = {
         text: name,

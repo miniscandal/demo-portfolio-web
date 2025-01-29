@@ -7,21 +7,19 @@ import { KnowledgeInformation } from '@shared-molecules/knowledge-information';
 import { KnowledgeImplementation } from '@shared-organisms/knowledge-implementation';
 import { InterpersonalCompetencyInformation } from '@shared-molecules/interpersonal-competency-information';
 
-import { en as technologicalToolsData } from '@shared-mocks/data/glossaries/technological-tools.json';
-import { en as technologicalKnowledgeData } from '@shared-mocks/data/glossaries/technological-knowledge.json';
-import { en as socialEmotionalCompetenciesData } from '@shared-mocks/data/glossaries/social-emotional-competencies.json';
-
 import './style.css';
 
 
 function RelevantSkillsExperience() {
-    const { technologicalTools, technologicalKnowledge, socialEmotionalCompetencies } = useContext(WorkExperienceContext);
+    const { experience, dataGlossaries } = useContext(WorkExperienceContext);
+    const { technologicalTools, technologicalKnowledge, socialEmotionalCompetencies } = experience;
+    const { technologicalToolsData, technologicalKnowledgeData, socialEmotionalCompetenciesData } = dataGlossaries;
 
     const knowledgeImplementationTechTools = {
         textTitle: 'Relevant Tech Tools Applied',
         skills: technologicalTools,
-        skillsInformation: technologicalToolsData,
-        Component: ToolInformation,
+        skillsData: technologicalToolsData,
+        Component: ({ value, index, data }) => <ToolInformation key={`${index}-${value}`} {...data} />,
         layoutType: 'grid',
         columns: '2',
         titleColor: 'royal-blue'
@@ -29,15 +27,15 @@ function RelevantSkillsExperience() {
     const knowledgeImplementationTechKnowledge = {
         textTitle: 'Relevant Tech Knowledge Applied',
         skills: technologicalKnowledge,
-        skillsInformation: technologicalKnowledgeData,
-        Component: KnowledgeInformation,
+        skillsData: technologicalKnowledgeData,
+        Component: ({ value, index, data }) => <KnowledgeInformation key={`${index}-${value}`} {...data} />,
         titleColor: 'royal-blue'
     };
     const knowledgeImplementationSocialCompetencies = {
         textTitle: 'Relevant Interpersonal Aptitudes Applied',
         skills: socialEmotionalCompetencies,
-        skillsInformation: socialEmotionalCompetenciesData,
-        Component: InterpersonalCompetencyInformation,
+        skillsData: socialEmotionalCompetenciesData,
+        Component: ({ value, index, data }) => <InterpersonalCompetencyInformation key={`${index}-${value}`} {...data} />,
         layoutType: 'flex',
         titleColor: 'royal-blue'
     };
