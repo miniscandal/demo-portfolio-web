@@ -85,6 +85,13 @@
                     display: flex;
                 }
             }
+
+            &:has(input[type='radio'][id='04']:checked) + .slider-technological-tools__div {
+
+                > .knowledge-implementation:nth-child(4) {
+                    display: flex;
+                }
+            }
         }
     }
 }

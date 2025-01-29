@@ -12,32 +12,40 @@ import './style.css';
 
 
 function SliderTechnologicalTools() {
-    const { usedTools, toolsData } = useContext(CurrentTechnologicalToolsContext);
-    const { specialization, developmentEnvironment, interestLearningPractical } = usedTools;
+    const { usedTools, toolsData, knowledgeConceptsData } = useContext(CurrentTechnologicalToolsContext);
+    const { specialization, developmentEnvironment, interestLearningPractical, concepts } = usedTools;
 
     const knowledgeImplementationSpecialization = {
         textTitle: '',
         skills: specialization,
-        skillsInformation: toolsData,
-        Component: KonohaKit,
+        skillsData: toolsData,
+        Component: ({ value, index, data }) => <KonohaKit key={`${index}-${value}`} {...data} />,
         layoutType: 'grid',
-        columns: '2'
+        columns: '3'
     };
     const knowledgeImplementationEnvironment = {
         textTitle: '',
         skills: developmentEnvironment,
-        skillsInformation: toolsData,
-        Component: KonohaKit,
+        skillsData: toolsData,
+        Component: ({ value, index, data }) => <KonohaKit key={`${index}-${value}`} {...data} />,
         layoutType: 'grid',
-        columns: '2'
+        columns: '3'
     };
     const knowledgeImplementationInterest = {
         textTitle: '',
         skills: interestLearningPractical,
-        skillsInformation: toolsData,
-        Component: KonohaKit,
+        skillsData: toolsData,
+        Component: ({ value, index, data }) => <KonohaKit key={`${index}-${value}`} {...data} />,
         layoutType: 'grid',
-        columns: '2'
+        columns: '3'
+    };
+    const knowledgeTechnologicalConcepts = {
+        textTitle: '',
+        skills: concepts,
+        skillsData: knowledgeConceptsData,
+        Component: ({ value, index, data }) => <KonohaKit key={`${index}-${value}`} {...data} />,
+        layoutType: 'grid',
+        columns: '3'
     };
     const sliderControl = {
         selectionOptions: [
@@ -52,6 +60,10 @@ function SliderTechnologicalTools() {
             {
                 htmlFor: '03',
                 text: 'Active Practical Approach'
+            },
+            {
+                htmlFor: '04',
+                text: 'Main Concepts '
             }
         ],
         defaultSelectionOption: '01',
@@ -68,6 +80,7 @@ function SliderTechnologicalTools() {
                 <KnowledgeImplementation {...knowledgeImplementationSpecialization} />
                 <KnowledgeImplementation {...knowledgeImplementationEnvironment} />
                 <KnowledgeImplementation {...knowledgeImplementationInterest} />
+                <KnowledgeImplementation {...knowledgeTechnologicalConcepts} />
             </div>
         </fieldset>
     );
