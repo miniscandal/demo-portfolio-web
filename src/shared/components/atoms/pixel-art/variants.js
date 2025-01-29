@@ -36,7 +36,7 @@ const PIXEL_ART_ITEM_STICKY_NOTE_SINGLE = 'item-sticky-note-single';
 const PIXEL_ART_ITEM_STICKY_NOTE_GROUP = 'item-sticky-note-group';
 const PIXEL_ART_ITEM_BOOK = 'item-book';
 const PIXEL_ART_ITEM_BOOKS = 'item-books';
-const PIXEL_ART_ITEM_DIALOG = 'item-dialog';
+const PIXEL_ART_ITEM_DIALOG_VERTICAL = 'item-dialog-vertical';
 const PIXEL_ART_ITEM_HITAI_ATE = 'item-hitai-ate';
 const PIXEL_ART_ITEM_PARCHMENT = 'item-parchment';
 const PIXEL_ART_ITEM_SEALED_PARCHMENT = 'item-sealed-parchment';
@@ -82,7 +82,7 @@ export {
     PIXEL_ART_ITEM_STICKY_NOTE_GROUP,
     PIXEL_ART_ITEM_BOOK,
     PIXEL_ART_ITEM_BOOKS,
-    PIXEL_ART_ITEM_DIALOG,
+    PIXEL_ART_ITEM_DIALOG_VERTICAL,
     PIXEL_ART_ITEM_HITAI_ATE,
     PIXEL_ART_ITEM_PARCHMENT,
     PIXEL_ART_ITEM_SEALED_PARCHMENT,
