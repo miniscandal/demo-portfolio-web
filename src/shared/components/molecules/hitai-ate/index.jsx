@@ -9,7 +9,7 @@ import './style.css';
 function HitaiAte({
     src = undefined,
     type = 'hitai-ate',
-    color = 'light'
+    currentColor = undefined
 }) {
     const pixelArt = {
         character: PIXEL_ART_ITEM_HITAI_ATE
@@ -17,7 +17,7 @@ function HitaiAte({
     const toolBadge = {
         iconSrc: src,
         type,
-        color
+        currentColor
     };
 
 

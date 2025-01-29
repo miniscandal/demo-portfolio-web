@@ -9,7 +9,7 @@ import './style.css';
 function ToolBadge({
     iconSrc,
     type = 'hitai-ate',
-    color = undefined
+    currentColor = undefined
 }) {
     const classList = [
         type
@@ -20,7 +20,7 @@ function ToolBadge({
     };
     const iconFontSvg = {
         svg: Cat,
-        color
+        currentColor
     };
 
 

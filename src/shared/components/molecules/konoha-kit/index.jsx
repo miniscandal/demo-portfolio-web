@@ -16,7 +16,7 @@ function KonohaKit({
     };
     const hitaiAte = {
         src: iconSrc,
-        color: bgColor
+        currentColor: bgColor
     };
 
 
