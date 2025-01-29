@@ -20,7 +20,7 @@
             > .about-me__div--goals {
                 flex: 1;
                 background-color: var(--color-muted-purple);
-                padding: var(--padding-simple-organism);
+                padding: var(--padding-simple-organism) 0;
                 border-radius: var(--border-radius-simple-organism);
             }
         }
