@@ -26,7 +26,9 @@ function PixelArtDialog({
             <div className='pixel-art-dialog__div'>
                 <SliderDialog {...sliderDialog} />
             </div>
-            <PixelArt {...pixelArtCharacter} />
+            <div className='pixel-art-dialog__div'>
+                <PixelArt {...pixelArtCharacter} />
+            </div>
         </section>
     );
 }
