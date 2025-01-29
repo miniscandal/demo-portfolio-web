@@ -4,7 +4,7 @@ import { SliderControl } from '@feat-about-me-molecules/slider-control';
 
 import { PixelArt } from '@shared-atoms/pixel-art';
 
-import { PIXEL_ART_ITEM_DIALOG } from '@shared-atoms/pixel-art/variants';
+import { PIXEL_ART_ITEM_DIALOG_VERTICAL } from '@shared-atoms/pixel-art/variants';
 
 import './style.css';
 
@@ -23,7 +23,7 @@ function SliderDialog({
     };
 
     const pixelArtItem = {
-        character: PIXEL_ART_ITEM_DIALOG
+        character: PIXEL_ART_ITEM_DIALOG_VERTICAL
     };
     const sliderControl = {
         selectionOptions: [
