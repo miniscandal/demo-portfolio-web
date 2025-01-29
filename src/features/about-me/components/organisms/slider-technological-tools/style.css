@@ -28,27 +28,7 @@
 
                 > .knowledge-implementation__div--items {
 
-                    .konoha-kit {
-                        > .konoha-kit__div--mobile {
-                            display: none;
-                        }
-
-                        @media (width < 40rem) {
-                            > .konoha-kit__div--hitai-ate {
-                                display: none;
-                            }
-
-                            > .konoha-kit__div--desktop {
-                                display: none;
-                            }
-
-                            > .konoha-kit__div--mobile {
-                                display: block;
-                            }
-                        }
-                    }
-
-                    @media (width < 40rem) {
+                    @media (width < 60rem) {
                         display: flex;
                         flex-wrap: wrap;
                         justify-content: center;
