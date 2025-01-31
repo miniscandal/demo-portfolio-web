@@ -17,11 +17,8 @@
             justify-content: center;
             gap: var(--gap-organism);
 
-            > .about-me__div--goals {
+            > .about-me__div--self-description {
                 flex: 1;
-                background-color: var(--color-muted-purple);
-                padding: var(--padding-simple-organism) 0;
-                border-radius: var(--border-radius-simple-organism);
             }
         }
     }

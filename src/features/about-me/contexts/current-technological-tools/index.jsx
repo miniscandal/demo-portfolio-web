@@ -1,6 +1,6 @@
 import { createContext } from 'react';
 
-import { en as usedTools } from '@shared-mocks/data/technological-expertise/current.json';
+import { en as usedTools } from '@shared-mocks/data/tech-tools-concepts-expertise/current.json';
 import { en as toolsData } from '@shared-mocks/data/glossaries/technological-tools.json';
 import { en as knowledgeConceptsData } from '@shared-mocks/data/glossaries/knowledge-technological-concepts.json';
 

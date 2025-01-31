@@ -1,6 +1,6 @@
 import { createContext } from 'react';
 
-import { en } from '@shared-mocks/data/professional-information/technical-competencies-expertise.json';
+import { en } from '@shared-mocks/data/technical-profile/technical-profile.json';
 
 import { Computer } from '@shared-atoms/icon-font-svg/variants';
 import { BroadcastOnHome } from '@shared-atoms/icon-font-svg/variants';

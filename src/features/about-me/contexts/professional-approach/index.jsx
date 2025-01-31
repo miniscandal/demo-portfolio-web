@@ -1,6 +1,6 @@
 import { createContext } from 'react';
 
-import { en } from '@shared-mocks/data/professional-information/goals.json';
+import { en } from '@shared-mocks/data/self-description-life-career/self-description-life-career.json';
 
 
 const { goals } = en;
