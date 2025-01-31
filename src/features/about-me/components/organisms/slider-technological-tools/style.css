@@ -17,6 +17,7 @@
             background-color: var(--color-muted-purple);
             border-radius: var(--border-radius-simple-organism);
             padding: var(--padding-simple-organism);
+            padding: var(--padding-);
 
             > .knowledge-implementation {
                 display: none;

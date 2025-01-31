@@ -1,0 +1,10 @@
+.self-description {
+    background-color: var(--color-muted-purple);
+    padding: var(--padding-simple-organism) var(--padding-viewport);
+    border-radius: var(--border-radius-simple-organism);
+
+    > .self-description__div {
+        justify-items: center;
+        padding-bottom: var(--padding-organism);
+    }
+}

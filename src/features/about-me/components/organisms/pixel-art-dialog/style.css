@@ -1,21 +1,7 @@
 .pixel-art-dialog {
-    width: fit-content;
-
-    max-width: 50rem;
 
     > .pixel-art-dialog__div {
-
-        &:first-child {
-            justify-items: end;
-            padding-bottom: var(--padding-simple-organism);
-        }
-
-        &:last-child {
-            justify-items: center;
-        }
-    }
-
-    @media (width < 45rem) {
         justify-items: center;
+        padding-bottom: var(--padding-simple-organism);
     }
 }
