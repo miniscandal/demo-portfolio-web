@@ -1,4 +1,5 @@
 .knowledge-implementation {
+
     > .knowledge-implementation__div--title {
         padding-bottom: var(--padding-simple-organism);
     }
@@ -8,6 +9,7 @@
         > .knowledge-implementation__div--items {
             display: grid;
             gap: var(--gap-molecule);
+            padding: var(--padding-viewport);
 
             &[data-columns='1'] {
                 grid-template-columns: 1fr;
