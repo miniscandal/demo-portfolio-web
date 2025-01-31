@@ -26,7 +26,8 @@ const PIXEL_ART_ANIME_ICHIKA_NAKANO_ANIMATION = 'anime-ichika-nakano-animation';
 
 const PIXEL_ART_ANIME_MINICODE_ANIMATION_V1 = 'anime-minicode-animation-v1';
 const PIXEL_ART_ANIME_MINICODE_ANIMATION_V2 = 'anime-minicode-animation-v2';
-
+const PIXEL_ART_ANIME_MINICODE_ANIMATION_V3 = 'anime-minicode-animation-v3';
+const PIXEL_ART_ANIME_MINICODE_ANIMATION_V4 = 'anime-minicode-animation-v4';
 
 const PIXEL_ART_ITEM_DESK = 'item-desk';
 const PIXEL_ART_ITEM_WHITEBOARD = 'item-whiteboard';
@@ -43,6 +44,23 @@ const PIXEL_ART_ITEM_SEALED_PARCHMENT = 'item-sealed-parchment';
 const PIXEL_ART_ITEM_BLUE_STEP = 'item-blue-step';
 const PIXEL_ART_ITEM_RED_STEP = 'item-red-step';
 const PIXEL_ART_ITEM_CENTER_STEP = 'item-center-step';
+const PIXEL_ART_ITEM_MORTARBOARD = 'item-mortarboard';
+const PIXEL_ART_ITEM_BOOK_UNIVERSITY = 'item-book-university';
+const PIXEL_ART_ITEM_HOURGLASS = 'item-hourglass';
+const PIXEL_ART_ITEM_DESK_LAMP = 'item-desk-lamp';
+const PIXEL_ART_ITEM_CUP_COFFEE = 'item-cup-coffee';
+const PIXEL_ART_ITEM_PENCIL_BLUE = 'item-pencil-blue';
+const PIXEL_ART_ITEM_PENCIL_RED = 'item-pencil-red';
+const PIXEL_ART_ITEM_PENCIL_YELLOW = 'item-pencil-yellow';
+const PIXEL_ART_ITEM_PENCIL_PINK = 'item-pencil-pink';
+const PIXEL_ART_ITEM_ARCADE = 'item-arcade';
+const PIXEL_ART_ITEM_SOCCER = 'item-soccer';
+const PIXEL_ART_ITEM_DOMO = 'item-domo';
+const PIXEL_ART_ITEM_PUMP_GAME = 'item-pump-game';
+const PIXEL_ART_ITEM_PUMP_GAME_BLUE_STEP = 'item-pump-game-blue-step';
+const PIXEL_ART_ITEM_PUMP_GAME_RED_STEP = 'item-pump-game-red-step';
+const PIXEL_ART_ITEM_PUMP_GAME_CENTER_STEP = 'item-pump-game-center-step';
+
 
 export {
     PIXEL_ART_ANIME_UMI,
@@ -73,6 +91,8 @@ export {
 
     PIXEL_ART_ANIME_MINICODE_ANIMATION_V1,
     PIXEL_ART_ANIME_MINICODE_ANIMATION_V2,
+    PIXEL_ART_ANIME_MINICODE_ANIMATION_V3,
+    PIXEL_ART_ANIME_MINICODE_ANIMATION_V4,
 
     PIXEL_ART_ITEM_DESK,
     PIXEL_ART_ITEM_WHITEBOARD,
@@ -88,5 +108,21 @@ export {
     PIXEL_ART_ITEM_SEALED_PARCHMENT,
     PIXEL_ART_ITEM_BLUE_STEP,
     PIXEL_ART_ITEM_RED_STEP,
-    PIXEL_ART_ITEM_CENTER_STEP
+    PIXEL_ART_ITEM_CENTER_STEP,
+    PIXEL_ART_ITEM_MORTARBOARD,
+    PIXEL_ART_ITEM_BOOK_UNIVERSITY,
+    PIXEL_ART_ITEM_HOURGLASS,
+    PIXEL_ART_ITEM_DESK_LAMP,
+    PIXEL_ART_ITEM_CUP_COFFEE,
+    PIXEL_ART_ITEM_PENCIL_BLUE,
+    PIXEL_ART_ITEM_PENCIL_RED,
+    PIXEL_ART_ITEM_PENCIL_YELLOW,
+    PIXEL_ART_ITEM_PENCIL_PINK,
+    PIXEL_ART_ITEM_ARCADE,
+    PIXEL_ART_ITEM_SOCCER,
+    PIXEL_ART_ITEM_DOMO,
+    PIXEL_ART_ITEM_PUMP_GAME,
+    PIXEL_ART_ITEM_PUMP_GAME_BLUE_STEP,
+    PIXEL_ART_ITEM_PUMP_GAME_RED_STEP,
+    PIXEL_ART_ITEM_PUMP_GAME_CENTER_STEP
 };

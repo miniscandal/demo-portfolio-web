@@ -25,6 +25,8 @@
 
 @import url('./characters/anime-original/minicode-animation-v1.css');
 @import url('./characters/anime-original/minicode-animation-v2.css');
+@import url('./characters/anime-original/minicode-animation-v3.css');
+@import url('./characters/anime-original/minicode-animation-v4.css');
 
 @import url('./items/desk.css');
 @import url('./items/whiteboard.css');
@@ -40,6 +42,22 @@
 @import url('./items/blue-step.css');
 @import url('./items/red-step.css');
 @import url('./items/center-step.css');
+@import url('./items/mortarboard.css');
+@import url('./items/book-university.css');
+@import url('./items/hourglass.css');
+@import url('./items/desk-lamp.css');
+@import url('./items/cup-coffee.css');
+@import url('./items/pencil-blue.css');
+@import url('./items/pencil-red.css');
+@import url('./items/pencil-yellow.css');
+@import url('./items/pencil-pink.css');
+@import url('./items/arcade.css');
+@import url('./items/soccer.css');
+@import url('./items/domo.css');
+@import url('./items/pump-game.css');
+@import url('./items/pump-game-blue-step.css');
+@import url('./items/pump-game-red-step.css');
+@import url('./items/pump-game-center-step.css');
 
 
 .pixel-art {
@@ -50,7 +68,7 @@
     }
 
     &.show-box {
-        border: solid #5e3f6e 1px;
+        border: solid var(--color-light) 1px;
     }
 
     &.art-anime-umi {
@@ -205,13 +223,29 @@
         }
     }
 
+    &.art-anime-minicode-animation-v3 {
 
+        &.regular {
+            width: 11.6rem;
+            height: 21rem;
 
+            > div {
+                transform: scale(1.9);
+            }
+        }
+    }
 
+    &.art-anime-minicode-animation-v4 {
 
+        &.regular {
+            width: 26rem;
+            height: 19.4rem;
 
-
-
+            > div {
+                transform: scale(1.75);
+            }
+        }
+    }
 
     &.art-item-whiteboard {
         &.regular {
@@ -238,7 +272,7 @@
     &.art-item-sticky-note-group {
         &.regular {
             width: 3rem;
-            height: 2rem;
+            height: 2.6rem;
 
             > div {
                 transform: scale(0.3);
@@ -247,6 +281,15 @@
     }
 
     &.art-item-books {
+        &.regular {
+            width: 7.8rem;
+            height: 5.8rem;
+
+            > div {
+                transform: scale(0.45);
+            }
+        }
+
         &.small {
             width: 3.6rem;
             height: 2.75rem;
@@ -277,7 +320,6 @@
             }
         }
     }
-
 
     &.art-item-hitai-ate {
 
@@ -326,25 +368,175 @@
         }
     }
 
+    &.art-item-mortarboard {
 
+        &.regular {
+            width: 9rem;
+            height: 6.6rem;
 
+            > div {
+                transform: scale(1.2);
+            }
+        }
+    }
 
+    &.art-item-book-university {
 
+        &.regular {
+            width: 6rem;
+            height: 7rem;
 
+            > div {
+                transform: scale(0.8);
+            }
+        }
+    }
 
+    &.art-item-hourglass {
 
+        &.regular {
+            width: 3.8rem;
+            height: 5.8rem;
 
+            > div {
+                transform: scale(0.5);
+            }
+        }
+    }
 
+    &.art-item-desk-lamp {
 
+        &.regular {
+            width: 8rem;
+            height: 8.8rem;
 
+            > div {
+                transform: scale(0.4);
+            }
+        }
+    }
 
+    &.art-item-cup-coffee {
 
+        &.regular {
+            width: 5.4rem;
+            height: 6.2rem;
 
+            > div {
+                transform: scale(0.6);
+            }
+        }
+    }
 
+    &.art-item-pencil-blue {
 
+        &.regular {
+            width: 2.2rem;
+            height: 6.4rem;
 
+            > div {
+                transform: scale(0.35);
+            }
+        }
+    }
 
+    &.art-item-pencil-red {
 
+        &.regular {
+            width: 2.2rem;
+            height: 6.4rem;
+
+            > div {
+                transform: scale(0.35);
+            }
+        }
+    }
+
+    &.art-item-pencil-yellow {
+
+        &.regular {
+            width: 2.2rem;
+            height: 6.4rem;
+
+            > div {
+                transform: scale(0.35);
+            }
+        }
+    }
+
+    &.art-item-pencil-pink {
+
+        &.regular {
+            width: 2.2rem;
+            height: 6.4rem;
+
+            > div {
+                transform: scale(0.35);
+            }
+        }
+    }
+
+    &.art-item-arcade {
+
+        &.regular {
+            width: 15.2rem;
+            height: 28.5rem;
+
+            > div {
+                transform: scale(1.45);
+            }
+        }
+    }
+
+    &.art-item-soccer {
+
+        &.regular {
+            width: 6.6rem;
+            height: 6.3rem;
+
+            > div {
+                transform: scale(0.8);
+            }
+        }
+    }
+
+    &.art-item-domo {
+
+        &.regular {
+            width: 8.5rem;
+            height: 9.2rem;
+
+            > div {
+                transform: scale(1.2);
+            }
+        }
+    }
+
+    &.art-item-pump-game {
+
+        &.regular {
+            width: 14rem;
+            height: 5.5rem;
+
+            > div {
+                transform: scale(0.6);
+            }
+        }
+    }
+
+    &.art-item-pump-game-blue-step,
+    &.art-item-pump-game-red-step,
+    &.art-item-pump-game-center-step {
+
+        &.regular {
+            width: 4.2rem;
+            height: 4.2rem;
+
+            > div {
+                transform: scale(0.8);
+            }
+        }
+    }
 
     &.art-anime-komi {
         &.regular {
