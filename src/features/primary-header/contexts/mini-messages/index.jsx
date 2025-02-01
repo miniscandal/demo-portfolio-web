@@ -4,7 +4,7 @@ import { en } from '@shared-mocks/data/mini-messages/mini-messages.json';
 
 
 const Provider = {
-    miniMessages: en.messages
+    miniMessages: en.miniMessages
 };
 
 const MiniMessagesContext = createContext(Provider);
