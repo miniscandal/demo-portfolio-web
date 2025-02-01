@@ -25,7 +25,7 @@ function SelfDescription({
     const title = {
         text: titleText,
         type: 'h3',
-        color: 'light'
+        color: 'dark'
     };
 
     const pixelArtDialog = {

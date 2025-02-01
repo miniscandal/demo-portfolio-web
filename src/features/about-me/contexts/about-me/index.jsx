@@ -3,7 +3,9 @@ import { createContext } from 'react';
 import { en } from '@shared-mocks/data/self-description-life-career/self-description-life-career.json';
 
 
-const Provider = en;
+const Provider = {
+    selfDescriptions: en.selfDescriptions
+};
 
 const AboutMeContext = createContext(Provider);
 

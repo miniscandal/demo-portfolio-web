@@ -3,10 +3,8 @@ import { createContext } from 'react';
 import { en } from '@shared-mocks/data/self-description-life-career/self-description-life-career.json';
 
 
-const { goals } = en;
-
 const Provider = {
-    goals
+    goals: en.goals
 };
 
 const ProfessionalApproachContext = createContext(Provider);
@@ -24,4 +22,4 @@ function ProfessionalApproachProvider({ children }) {
 export {
     ProfessionalApproachContext,
     ProfessionalApproachProvider
-}
+};

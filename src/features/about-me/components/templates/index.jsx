@@ -12,7 +12,7 @@ import { PixelArt } from '@shared-atoms/pixel-art';
 import { ShelfDisplay } from '@shared-molecules/shelf-display';
 
 import { PIXEL_ART_ANIME_MINICODE_ANIMATION_V3 } from '@shared-atoms/pixel-art/variants';
-import { PIXEL_ART_ITEM_DOMO } from '@shared-atoms/pixel-art/variants';
+import { PIXEL_ART_ITEM_DOMO_ANIMATION } from '@shared-atoms/pixel-art/variants';
 import { PIXEL_ART_ITEM_BOOKS } from '@shared-atoms/pixel-art/variants';
 import { PIXEL_ART_ANIME_MINICODE_ANIMATION_V4 } from '@shared-atoms/pixel-art/variants';
 import { PIXEL_ART_ITEM_WHITEBOARD } from '@shared-atoms/pixel-art/variants';
@@ -26,15 +26,15 @@ import './style.css';
 
 
 function AboutMe() {
-    const { goals } = useContext(ProfessionalApproachContext);
+    const { goals: { personal, professional } } = useContext(ProfessionalApproachContext);
 
     const decoratedTitle = {
         text: 'ABOUT ME',
         color: 'light'
     };
     const selfDescriptionMain = {
-        titleText: 'Professional Self Description',
-        dialogTexts: goals,
+        titleText: 'Social goals through my profession',
+        dialogTexts: professional,
         pixelArtCharacter: PIXEL_ART_ANIME_MINICODE_ANIMATION_V3,
         pixelArtObjects: [
             () => <PixelArt character={PIXEL_ART_ITEM_WHITEBOARD} />,
@@ -45,8 +45,8 @@ function AboutMe() {
         type: 'professional-self-description'
     };
     const selfDescriptionSecondary = {
-        titleText: 'Personal Self Description',
-        dialogTexts: goals,
+        titleText: 'Personal goals through key activities  ',
+        dialogTexts: personal,
         pixelArtCharacter: PIXEL_ART_ANIME_MINICODE_ANIMATION_V4,
         pixelArtObjects: [
             () => <PixelArt character={PIXEL_ART_ITEM_ARCADE} />,
@@ -54,7 +54,7 @@ function AboutMe() {
             () => <PixelArt character={PIXEL_ART_ITEM_PENCIL_PINK} />,
             () => (
                 <ShelfDisplay>
-                    <PixelArt character={PIXEL_ART_ITEM_DOMO} />
+                    <PixelArt character={PIXEL_ART_ITEM_DOMO_ANIMATION} />
                 </ShelfDisplay>)
         ],
         type: 'personal-self-description'

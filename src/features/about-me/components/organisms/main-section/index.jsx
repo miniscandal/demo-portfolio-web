@@ -11,11 +11,11 @@ import './style.css';
 
 
 function MainSection() {
-    const { professionalDescription, personalDescription } = useContext(AboutMeContext);
+    const { selfDescriptions: { personal, professional } } = useContext(AboutMeContext);
 
     const professionalProfileOverview = {
-        descriptionMain: professionalDescription,
-        descriptionSecondary: personalDescription
+        descriptionMain: professional,
+        descriptionSecondary: personal
     };
 
 

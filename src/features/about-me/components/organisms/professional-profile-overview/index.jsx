@@ -8,11 +8,11 @@ function ProfessionalProfileOverview({
     descriptionSecondary = undefined
 }) {
     const aboutSummaryMain = {
-        title: 'Professional Presentation',
+        title: 'Technical training and principles',
         description: descriptionMain
     };
     const aboutSummarySecondary = {
-        title: 'Personal Presentation',
+        title: 'Personal growth and ethical values',
         description: descriptionSecondary
     };
 

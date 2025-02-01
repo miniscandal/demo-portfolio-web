@@ -19,6 +19,75 @@
 
             > .about-me__div--self-description {
                 flex: 1;
+
+                &:first-child {
+
+                    > .self-description {
+                        position: relative;
+                        background-color: var(--color-science-lab-background);
+
+                        &::after {
+                            content: "";
+                            display: block;
+                            height: 25%;
+                            width: 100%;
+                            bottom: 0;
+                            background: var(--color-science-lab-floor);
+                            bottom: 0;
+                            left: 50%;
+                            position: absolute;
+                            transform: translateX(-50%);
+                            border-radius: 50% 60% 40% 70%;
+                            box-shadow:
+                                1.875rem 1.25rem 0 0.625rem var(--color-science-lab-shadow-light),
+                                -1.25rem 0.625rem 0 2.9375rem var(--color-science-lab-shadow-medium),
+                                0.625rem -0.3125rem 0 1.25rem var(--color-science-lab-shadow-dark);
+
+                        }
+
+                        > .pixel-art-dialog {
+                            position: relative;
+                            z-index: 10;
+                        }
+
+                        overflow: hidden;
+                    }
+                }
+
+                &:last-child {
+
+
+                    > .self-description {
+                        position: relative;
+                        background-color: var(--color-wooden-room-background);
+
+                        &::after {
+                            content: "";
+                            display: block;
+                            height: 25%;
+                            width: 100%;
+                            bottom: 0;
+                            background: var(--color-wooden-room-floor);
+                            bottom: 0;
+                            left: 50%;
+                            position: absolute;
+                            transform: translateX(-50%);
+                            border-radius: 50% 60% 40% 70%;
+
+                            box-shadow:
+                                1.875rem 1.25rem 0 0.625rem var(--color-wooden-room-shadow-light),
+                                -1.25rem 0.625rem 0 2.9375rem var(--color-wooden-room-shadow-medium),
+                                0.625rem -0.3125rem 0 1.25rem var(--color-wooden-room-shadow-dark);
+                        }
+
+                        > .pixel-art-dialog {
+                            position: relative;
+                            z-index: 10;
+                        }
+
+                        overflow: hidden;
+                    }
+                }
             }
         }
     }
