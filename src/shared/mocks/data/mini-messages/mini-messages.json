@@ -22,18 +22,13 @@
                 "emoji": "🖥️❤️"
             },
             {
+                "kaomoji": "(×_×)",
+                "message": "Game Over...for now!",
+                "emoji": "🎮🔄"
+            },
+            {
                 "kaomoji": "(˶˃ ᵕ ˂˶) .ᐟ.ᐟ",
                 "message": "No firmware, no life",
-                "emoji": "💾✨"
-            },
-            {
-                "kaomoji": "(￣ω￣)",
-                "message": "No hardware, no life",
-                "emoji": "💾✨"
-            },
-            {
-                "kaomoji": "(≧ω≦)",
-                "message": "No software, no life",
                 "emoji": "💾✨"
             },
             {
@@ -42,14 +37,24 @@
                 "emoji": "💪🎶"
             },
             {
+                "kaomoji": "(￣ω￣)",
+                "message": "No hardware, no life",
+                "emoji": "💾✨"
+            },
+            {
+                "kaomoji": "(￣︿￣)",
+                "message": "¡Al rincón a reflexionar sobre tu vida!",
+                "emoji": "🪞🤨"
+            },
+            {
+                "kaomoji": "(≧ω≦)",
+                "message": "No software, no life",
+                "emoji": "💾✨"
+            },
+            {
                 "kaomoji": "(＾ω＾)",
                 "message": "C | C++ | Java | PHP | Python | Assembly | Ruby | JavaScript",
                 "emoji": "💻📚"
-            },
-            {
-                "kaomoji": "(×_×)",
-                "message": "Game Over...for now!",
-                "emoji": "🎮🔄"
             },
             {
                 "kaomoji": "(♡°▽°♡)",
@@ -90,11 +95,6 @@
                 "kaomoji": "(✧ω✧)",
                 "message": "Nightcore para codear, es top",
                 "emoji": "🎧✨"
-            },
-            {
-                "kaomoji": "(￣︿￣)",
-                "message": "¡Al rincón a reflexionar sobre tu vida!",
-                "emoji": "🪞🤨"
             },
             {
                 "kaomoji": "(ง •̀_•́)ง",
