@@ -22,17 +22,8 @@ function KnowledgeImplementation({
     const classList = [
         layoutType === 'grid' ? 'grid' : layoutType === 'flex' ? 'flex' : layoutType
     ];
-    const title = {
-        text: textTitle,
-        color,
-        type: 'h4'
-    };
     const components = skills.map((value, index) => (
-        Component({
-            value,
-            index,
-            data: skillsData[value],
-        }))
+        Component({ value, index, data: skillsData[value] }))
     );
 
 
@@ -44,7 +35,7 @@ function KnowledgeImplementation({
                 &&
 
                 <div className='knowledge-implementation__div--title'>
-                    <Title {...title} />
+                    <Title text={textTitle} color={color} type='h4' />
                 </div>
             }
             <div className='knowledge-implementation__div--items' data-columns={columns}>

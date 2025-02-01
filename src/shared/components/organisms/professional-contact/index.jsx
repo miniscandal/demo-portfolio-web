@@ -19,27 +19,14 @@ function ProfessionalContact({
     ];
     const { email, emailFormat, github, linkedin } = useContext(ProfessionalContactContext);
 
-    const socialNetworks = {
-        githubUrl: github.url,
-        linkedinUrl: linkedin.url
-    };
-    const hyperlinkIcon = {
-        href: emailFormat,
-        iconSrc: emailIcon
-    };
-    const copyEmailClipBoard = {
-        email
-    };
-
-
     return (
         <aside className={`professional-contact ${classList.join(' ')}`}>
             <div className='professional-contact__div'>
-                <SocialNetworks {...socialNetworks} />
-                <HyperlinkIcon {...hyperlinkIcon} />
+                <SocialNetworks githubUrl={github.url} linkedinUrl={linkedin.url} />
+                <HyperlinkIcon href={emailFormat} iconSrc={emailIcon} />
             </div>
             <div className='professional-contact__div'>
-                <CopyEmailClipboard {...copyEmailClipBoard} />
+                <CopyEmailClipboard email={email} />
             </div>
         </aside>
     );
