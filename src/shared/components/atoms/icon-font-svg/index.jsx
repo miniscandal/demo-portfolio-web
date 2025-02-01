@@ -17,7 +17,6 @@ function IconFontSvg({
         color: currentColor || ''
     };
 
-
     return (
         <div className={`icon-font-svg ${classList.join(' ')}`} style={style}>
             {svg}

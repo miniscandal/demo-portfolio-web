@@ -58,6 +58,7 @@
 @import url('./items/pump-game-blue-step.css');
 @import url('./items/pump-game-red-step.css');
 @import url('./items/pump-game-center-step.css');
+@import url('./items/domo-animation.css');
 
 
 .pixel-art {
@@ -503,11 +504,23 @@
     &.art-item-domo {
 
         &.regular {
-            width: 8.5rem;
-            height: 9.2rem;
+            width: 7.2rem;
+            height: 7.8rem;
 
             > div {
-                transform: scale(1.2);
+                transform: scale(1);
+            }
+        }
+    }
+
+    &.art-item-domo-animation {
+
+        &.regular {
+            width: 7.2rem;
+            height: 7.8rem;
+
+            > div {
+                transform: scale(1);
             }
         }
     }

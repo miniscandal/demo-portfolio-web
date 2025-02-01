@@ -1,6 +1,5 @@
 import './style.css';
 
-
 function Picture({
     src = undefined,
     size = 'regular',
@@ -11,7 +10,6 @@ function Picture({
         size,
         objectFit
     ];
-
 
     return (
         <div className={`picture ${classList.join(' ')}`}>

@@ -26,7 +26,6 @@ function Time({
 
     const textDateTime = formatDate(year, month);
 
-
     return (
         <time className={`time ${classList.join(' ')}`} dateTime={dateTime}>
             {textDateTime}

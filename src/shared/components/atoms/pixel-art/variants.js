@@ -56,6 +56,7 @@ const PIXEL_ART_ITEM_PENCIL_PINK = 'item-pencil-pink';
 const PIXEL_ART_ITEM_ARCADE = 'item-arcade';
 const PIXEL_ART_ITEM_SOCCER = 'item-soccer';
 const PIXEL_ART_ITEM_DOMO = 'item-domo';
+const PIXEL_ART_ITEM_DOMO_ANIMATION = 'item-domo-animation';
 const PIXEL_ART_ITEM_PUMP_GAME = 'item-pump-game';
 const PIXEL_ART_ITEM_PUMP_GAME_BLUE_STEP = 'item-pump-game-blue-step';
 const PIXEL_ART_ITEM_PUMP_GAME_RED_STEP = 'item-pump-game-red-step';
@@ -121,6 +122,7 @@ export {
     PIXEL_ART_ITEM_ARCADE,
     PIXEL_ART_ITEM_SOCCER,
     PIXEL_ART_ITEM_DOMO,
+    PIXEL_ART_ITEM_DOMO_ANIMATION,
     PIXEL_ART_ITEM_PUMP_GAME,
     PIXEL_ART_ITEM_PUMP_GAME_BLUE_STEP,
     PIXEL_ART_ITEM_PUMP_GAME_RED_STEP,

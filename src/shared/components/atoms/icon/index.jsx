@@ -1,4 +1,4 @@
-import iconSrc from '@assets-images/svg/kawaii.svg';
+import iconSrc from '@assets-images/svg/github.svg';
 
 import './style.css';
 
