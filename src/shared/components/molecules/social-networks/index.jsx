@@ -10,19 +10,11 @@ function SocialNetworks({
     githubUrl = '#',
     linkedinUrl = '#'
 }) {
-    const hyperlinkIconLinkedin = {
-        href: linkedinUrl,
-        iconSrc: linkedinIcon
-    };
-    const hyperlinkIconGithub = {
-        href: githubUrl,
-        iconSrc: githubIcon
-    };
 
     return (
         <section className='social-networks'>
-            <HyperlinkIcon {...hyperlinkIconLinkedin} />
-            <HyperlinkIcon {...hyperlinkIconGithub} />
+            <HyperlinkIcon href={linkedinUrl} iconSrc={linkedinIcon} />
+            <HyperlinkIcon href={githubUrl} iconSrc={githubIcon} />
         </section>
     );
 }

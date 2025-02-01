@@ -79,17 +79,12 @@ function MangaDialog({
     }, [messages, index, speed, indexText, isPause, pauseDuration]);
 
     const classList = [size];
-    const paragraph = {
-        text: displayedText,
-        color: 'charcoal-grey',
-        cursorAnimation: true
-    };
 
     return (
         <div className={`manga-dialog ${classList.join(' ')}`}>
             <div className='manga-dialog__div'>
                 <div>
-                    <Paragraph {...paragraph} />
+                    <Paragraph text={displayedText} color='charcoal-grey' cursorAnimation={true} />
                 </div>
             </div>
         </div>

@@ -10,26 +10,17 @@ function KonohaKit({
     iconSrc = undefined,
     color: bgColor = undefined
 }) {
-    const parchmentToolName = {
-        name,
-        bgColor,
-    };
-    const hitaiAte = {
-        src: iconSrc,
-        currentColor: bgColor
-    };
-
 
     return (
         <div className='konoha-kit'>
             <div className='konoha-kit__div--hitai-ate'>
-                <HitaiAte {...hitaiAte} />
+                <HitaiAte src={iconSrc} currentColor={bgColor} />
             </div>
             <div className='konoha-kit__div--desktop'>
-                <ParchmentToolName {...parchmentToolName} />
+                <ParchmentToolName name={name} bgColor={bgColor} />
             </div>
             <div className='konoha-kit__div--mobile'>
-                <ParchmentToolName {...parchmentToolName} iconSrc={iconSrc} />
+                <ParchmentToolName name={name} bgColor={bgColor} iconSrc={iconSrc} />
             </div>
         </div>
     );

@@ -6,15 +6,10 @@ import './style.css';
 function InterpersonalCompetencyInformation({
     name: text = 'Interpersonal Competency'
 }) {
-    const paragraph = {
-        text,
-        color: 'light',
-        nowrap: true
-    };
 
     return (
         <div className='interpersonal-competency-information'>
-            <Paragraph {...paragraph} />
+            <Paragraph text={text} color='light' nowrap={true} />
         </div>
     );
 }

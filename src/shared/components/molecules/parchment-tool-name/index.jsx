@@ -22,24 +22,16 @@ function ParchmentToolName({
         character: PIXEL_ART_ITEM_PARCHMENT,
         size: iconSrc ? 'medium' : 'regular'
     };
-    const paragraph = {
-        text,
-        size: 'middle'
-    };
-    const toolBadge = {
-        iconSrc
-    };
-
 
     return (
         <div className={`parchment-tool-name ${classList.join(' ')}`}>
             <PixelArt{...pixelArt} />
             <div className='parchment-tool-name__div' style={styles}>
                 {
-                    iconSrc && <ToolBadge {...toolBadge} />
+                    iconSrc && <ToolBadge iconSrc={iconSrc} />
                 }
                 <div className='parchment-tool-name__div--name'>
-                    <Paragraph {...paragraph} />
+                    <Paragraph text={text} size='middle' />
                 </div>
             </div>
         </div>

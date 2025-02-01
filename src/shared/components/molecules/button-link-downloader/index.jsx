@@ -11,10 +11,6 @@ function ButtonLinkDownloader({
     href = '#',
     file = new Blob([], { type: 'text/plain' })
 }) {
-    const icon = {
-        src: svgFileSave,
-        size: 'regular'
-    }
     const handleClick = () => {
         const a = document.createElement('a');
         a.href = href === '#' ? href : file;
@@ -23,15 +19,10 @@ function ButtonLinkDownloader({
     };
 
     return (
-        <a
-            className='button-link-downloader '
-            href={href}
-            target='_blanck'
-            onClick={handleClick}
-        >
+        <a className='button-link-downloader ' href={href} target='_blanck' onClick={handleClick}>
             Download {description}
-            <Icon {...icon} />
-        </a >
+            <Icon src={svgFileSave} size='regular' />
+        </a>
     );
 }
 

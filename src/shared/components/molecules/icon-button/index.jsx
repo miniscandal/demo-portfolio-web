@@ -11,15 +11,10 @@ function IconButton({
     const classList = [
         size
     ];
-    const iconFontSvg = {
-        svg,
-        color: 'charcoal-grey',
-        size: 'medium'
-    };
 
     return (
         <button className={`icon-button ${classList.join(' ')}`} onClick={handleClick}>
-            <IconFontSvg {...iconFontSvg} />
+            <IconFontSvg svg={svg} color='charcoal-grey' size='medium' />
         </button>
     );
 }

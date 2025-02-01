@@ -11,13 +11,10 @@ function HyperlinkIcon({
     const classList = [
         size
     ];
-    const icon = {
-        src: iconSrc
-    };
 
     return (
         <a className={`hyperlink-icon ${classList.join(' ')}`} href={href} target='_blank'>
-            <Icon {...icon} />
+            <Icon src={iconSrc} />
         </a>
     );
 }

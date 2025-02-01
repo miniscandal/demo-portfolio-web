@@ -12,21 +12,12 @@ function NextStepButton({
     const classList = [
         size
     ];
-    const paragraph = {
-        text,
-        color: 'light'
-    };
-    const iconFontSvg = {
-        svg: ArrowDown,
-        color: 'olive-green',
-        size: 'small'
-    };
 
     return (
         <div className={`next-step-button ${classList.join(' ')}`}>
-            <Paragraph {...paragraph} />
+            <Paragraph text={text} color='light' />
             <div className='next-step-button__div'>
-                <IconFontSvg {...iconFontSvg} />
+                <IconFontSvg svg={ArrowDown} color='olive-green' size='small' />
             </div>
         </div>
     );

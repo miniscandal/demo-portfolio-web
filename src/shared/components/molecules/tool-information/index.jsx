@@ -12,24 +12,16 @@ function ToolInformation({
     const styles = {
         backgroundColor: bgColor
     };
-    const icon = {
-        src: iconSrc,
-        size: 'small'
-    };
-    const paragraph = {
-        text,
-        color: 'light'
-    };
 
     return (
         <div className='tool-information'>
             <div className='tool-information__div' style={styles}>
-                <Paragraph {...paragraph} />
+                <Paragraph text={text} color='light' />
             </div>
             <div className='tool-information__div'>
                 <Paragraph text={'\u00a0'} />
                 <div className='tool-information__div--logo'>
-                    <Icon {...icon} />
+                    <Icon src={iconSrc} size='small' />
                 </div>
             </div>
         </div>

@@ -13,21 +13,12 @@ function KnowledgeInformation({
     const styles = {
         backgroundColor: bgColor
     };
-    const pixelArt = {
-        size: 'small',
-        character: PIXEL_ART_ITEM_BOOKS
-    };
-    const paragraph = {
-        text,
-        color: 'light',
-        nowrap: true
-    };
 
     return (
         <div className='knowledge-information' style={styles}>
-            <Paragraph {...paragraph} />
+            <Paragraph text={text} color='light' nowrap={true} />
             <div className='knowledge-information__div'>
-                <PixelArt {...pixelArt} />
+                <PixelArt size='small' character={PIXEL_ART_ITEM_BOOKS} />
             </div>
         </div>
     );

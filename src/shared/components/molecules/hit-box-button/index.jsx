@@ -12,10 +12,9 @@ function HitBoxButton({
     const classList = [
         readingMode ? 'reading-mode' : ''
     ];
-    const { index } = dataSet;
 
     return (
-        <button className={`hit-box-button ${classList.join(' ')}`} onClick={onClickCallback} data-index={index}>
+        <button className={`hit-box-button ${classList.join(' ')}`} onClick={onClickCallback} data-index={dataSet.index}>
             {children}
         </button>
     );

@@ -10,7 +10,6 @@ import './style.css';
 
 function PumpItUpGamePoster() {
 
-
     return (
         <div className='pump-it-up-game-poster'>
             <div className='pump-it-up-game-poster__div'>

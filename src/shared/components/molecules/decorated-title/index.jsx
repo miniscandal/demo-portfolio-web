@@ -7,15 +7,10 @@ function DecoratedTitle({
     text = 'Decorated Title',
     color = 'dark'
 }) {
-    const title = {
-        text,
-        color,
-        type: 'h2'
-    };
 
     return (
         <div className='decorated-title'>
-            <Title {...title} />
+            <Title text={text} color={color} type='h2' />
         </div>
     );
 }

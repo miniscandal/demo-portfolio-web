@@ -9,6 +9,7 @@ function CopyEmailClipboard({
     email = 'email@email.com'
 }) {
     const [copied, setCopied] = useState(false);
+
     const classList = [
         copied ? 'copied-clipboard' : ''
     ];
@@ -19,16 +20,12 @@ function CopyEmailClipboard({
             setCopied(false);
         }, 3500);
     };
-    const paragraph = {
-        text: 'copy my contact email to clipboard',
-        color: 'light'
-    };
 
     return (
         <div className={`copy-email-clipboard ${classList.join(' ')}`} onClick={handleClick}>
-            <Paragraph {...paragraph} />
+            <Paragraph text='copy my contact email to clipboard' color='light' />
         </div>
-    )
+    );
 }
 
 export { CopyEmailClipboard };

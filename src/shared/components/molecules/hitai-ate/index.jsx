@@ -10,20 +10,12 @@ function HitaiAte({
     src = undefined,
     currentColor = undefined
 }) {
-    const pixelArt = {
-        character: PIXEL_ART_ITEM_HITAI_ATE
-    };
-    const toolBadge = {
-        iconSrc: src,
-        currentColor
-    };
-
 
     return (
         <div className='hitai-ate'>
-            <PixelArt {...pixelArt} />
+            <PixelArt character={PIXEL_ART_ITEM_HITAI_ATE} />
             <div className='hitai-ate__div'>
-                <ToolBadge {...toolBadge} />
+                <ToolBadge iconSrc={src} currentColor={currentColor} />
             </div>
         </div>
     );
