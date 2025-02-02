@@ -11,30 +11,19 @@ import './style.css';
 function ProfessionalInformation() {
     const { name, discipline, fileName, fileHref } = useContext(ProfessionalInformationContext);
 
-    const titleH1 = {
-        text: name,
-        color: 'light-silver',
-        type: 'h1'
-    };
-    const titleH2 = {
-        text: discipline,
-        color: 'light-silver',
-        type: 'h2'
-    };
-    const buttonLinkDownloader = {
-        name: `${fileName}.pdf`,
-        description: 'Resume',
-        href: fileHref,
-    };
 
     return (
         <section className='professional-information'>
-            <Title {...titleH1} />
+            <Title text={name} color='light-silver' type='h1' />
             <div className='professional-information__div--subtitle'>
-                <Title {...titleH2} />
+                <Title text={discipline} color='light-silver' type='h2' />
             </div>
             <div className='professional-information__div'>
-                <ButtonLinkDownloader {...buttonLinkDownloader} />
+                <ButtonLinkDownloader
+                    name={`${fileName}.pdf`}
+                    description='Resume'
+                    href={fileHref}
+                />
             </div>
         </section>
     );

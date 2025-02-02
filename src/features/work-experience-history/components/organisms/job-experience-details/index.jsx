@@ -13,29 +13,19 @@ function JobExperienceDetails() {
     const { experience } = useContext(WorkExperienceContext);
     const { name, employmentDuration, contributions } = experience;
 
-    const title = {
-        text: name,
-        color: 'royal-blue',
-        type: 'h3'
-    };
-    const workDateRange = {
-        employmentDuration,
-        color: 'deep-ocean'
-    };
-    const paragraph = {
-        text: contributions.join('\n\n'),
-        color: 'charcoal-grey'
-    };
 
     return (
         <section className='job-experience-details'>
             <div className='job-experience-details__div'>
                 <div className='job-experience-details__div--title'>
-                    <Title {...title} />
+                    <Title text={name} color='royal-blue' type='h3' />
                 </div>
-                <WorkDateRange {...workDateRange} />
+                <WorkDateRange
+                    employmentDuration={employmentDuration}
+                    color='deep-ocean'
+                />
             </div>
-            <Paragraph  {...paragraph} />
+            <Paragraph text={contributions.join('\n\n')} color='charcoal-grey' />
         </section>
     );
 }

@@ -14,23 +14,13 @@ function PixelArtDialog({
     objects = [],
     type
 }) {
-    const sliderDialog = {
-        textMain,
-        textSecondary,
-    };
-    const leadershipPixelArtObjects = {
-        character,
-        objects,
-        type
-    };
-
 
     return (
         <section className='pixel-art-dialog'>
             <div className='pixel-art-dialog__div'>
-                <SliderDialog {...sliderDialog} />
+                <SliderDialog textMain={textMain} textSecondary={textSecondary} />
             </div>
-            <LeadershipPixelArtObjects {...leadershipPixelArtObjects} />
+            <LeadershipPixelArtObjects character={character} objects={objects} type={type} />
         </section>
     );
 }

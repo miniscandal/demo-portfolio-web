@@ -16,11 +16,6 @@ import './style.css';
 function HeaderContent() {
     const { miniMessages } = useContext(MiniMessagesContext);
 
-    const characterSpeech = {
-        messages: miniMessages,
-        character: PIXEL_ART_ANIME_MINICODE_ANIMATION_V1
-    };
-
 
     return (
         <div className='header-content'>
@@ -28,7 +23,10 @@ function HeaderContent() {
                 <ProfessionalInformation />
                 <ProfessionalContact />
                 <div className='header-content__section--div'>
-                    <CharacterSpeech {...characterSpeech} />
+                    <CharacterSpeech
+                        messages={miniMessages}
+                        character={PIXEL_ART_ANIME_MINICODE_ANIMATION_V1}
+                    />
                 </div>
             </section>
             <nav>

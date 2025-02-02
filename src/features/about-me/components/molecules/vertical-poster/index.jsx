@@ -6,15 +6,10 @@ import './style.css';
 function VerticalPoster({
     text = 'VERTICAL POSTER'
 }) {
-    const paragraph = {
-        text,
-        size: 'medium',
-        color: 'vintage-rose'
-    };
 
     return (
         <div className='vertical-poster'>
-            <Paragraph {...paragraph} />
+            <Paragraph text={text} size='medium' color='vintage-rose' />
         </div>
     );
 }

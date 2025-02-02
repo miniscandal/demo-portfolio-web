@@ -6,17 +6,11 @@ import './style.css';
 
 
 function TechnologicalTools() {
-    const title = {
-        text: 'Technological expertise',
-        type: 'h3',
-        color: 'light'
-    };
-
 
     return (
         <section className='technological-tools'>
             <div className='technological-tools__div'>
-                <Title {...title} />
+                <Title text='TechnologicalTools' type='h3' color='light' />
             </div>
             <div className='technological-tools__div'>
                 <SliderTechnologicalTools />

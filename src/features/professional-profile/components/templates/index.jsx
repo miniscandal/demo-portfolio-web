@@ -6,15 +6,11 @@ import './style.css';
 
 
 function ProfessionalProfile() {
-    const decoratedTitle = {
-        text: 'PROFESSIONAL PROFILE',
-        color: 'charcoal-grey'
-    };
 
     return (
         <section className='professional-profile'>
             <header>
-                <DecoratedTitle {...decoratedTitle} />
+                <DecoratedTitle text='PROFESSIONAL PROFILE' color='charcoal-grey' />
             </header>
             <section>
                 <AcquiredCompetencies />

@@ -13,28 +13,19 @@ function PhotoEnigma({
     const classList = [
         hidden ? 'hidden' : ''
     ];
-    const renderLoadingComponent = () => (
-
-        <Picture size='my-photo' />
-    );
+    const renderLoadingComponent = () => <Picture size='my-photo' />;
     const renderLoadedComponent = ({ data: { url } }) => (
-
-        <Picture
-            src={url}
-            size='auto'
-            alt='My photo with casual style'
-        />
+        <Picture src={url} size='auto' alt='My photo with casual style' />
     );
-    const suspenseRenderComponent = {
-        renderLoadedComponent,
-        renderLoadingComponent,
-        useResource: useResourcePhoto
-    };
 
 
     return (
         <div className={`photo-enigma ${classList.join(' ')}`}>
-            <SuspenseRenderComponent {...suspenseRenderComponent} />
+            <SuspenseRenderComponent
+                renderLoadedComponent={renderLoadedComponent}
+                renderLoadingComponent={renderLoadingComponent}
+                useResource={useResourcePhoto}
+            />
         </div>
     );
 }

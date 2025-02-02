@@ -51,19 +51,14 @@ function MiniGame() {
             }, 500);
         }
     };
-    const title = {
-        text: 'Oscar González',
-        color: 'light',
-        type: 'h3'
-    };
 
 
     return (
         <div className='mini-game'>
-
             {
-                endGame ?
-                    <Title {...title} />
+                endGame
+                    ?
+                    <Title text='Oscar González' color='light' type='h3' />
                     :
                     <div className='mini-game__div--start-game'>
                         <NextStepButton />

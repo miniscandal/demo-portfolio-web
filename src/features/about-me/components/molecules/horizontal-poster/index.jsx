@@ -11,24 +11,15 @@ function HorizontalPoster({
     const classList = [
         backgroundColor ? 'background-color' : ''
     ];
-    const paragraphMain = {
-        text: textMain,
-        size: 'medium',
-        color: 'light'
-    };
-    const paragraphSecondary = {
-        text: textSecondary,
-        size: 'medium',
-        color: 'light'
-    };
+
 
     return (
         <div className={`horizontal-poster ${classList.join(' ')}`}>
             <div className='horizontal-poster__div'>
-                <Paragraph {...paragraphMain} />
+                <Paragraph text={textMain} size='medium' color='light' />
             </div>
             <div className='horizontal-poster__div'>
-                <Paragraph {...paragraphSecondary} />
+                <Paragraph text={textSecondary} size='medium' color='light' />
             </div>
         </div>
     );

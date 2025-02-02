@@ -9,15 +9,11 @@ function RadioSelectionOptionBox({
     checked = false,
     onChange = () => { },
 }) {
-    const radioInputIndicator = {
-        checked
-    };
-
 
     return (
         <label htmlFor={id} className='radio-selection-option-box'>
             <div className='radio-selection-option-box__div'>
-                <RadioInputIndicator {...radioInputIndicator} />
+                <RadioInputIndicator checked={checked} />
             </div>
             {text}
             <input type='radio' id={id} onChange={() => onChange(id)} checked={checked} />

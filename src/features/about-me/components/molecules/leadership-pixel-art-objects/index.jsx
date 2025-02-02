@@ -18,14 +18,12 @@ function LeadershipPixelArtObjects({
             {value()}
         </div>
     ));
-    const pixelArtCharacter = {
-        character
-    };
+
 
     return (
         <div className={`leadership-pixel-art-objects ${classList.join(' ')}`}>
             <div className='leadership-pixel-art-objects__div'>
-                <PixelArt {...pixelArtCharacter} />
+                <PixelArt character={character} />
             </div>
             {components}
         </div>

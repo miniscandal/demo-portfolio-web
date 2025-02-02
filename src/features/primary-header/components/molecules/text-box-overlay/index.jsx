@@ -12,18 +12,12 @@ function TextBoxOverlay({
     const classList = [
         size
     ];
-    const paragraph = {
-        color: 'light'
-    };
-    const span = {
-        text: symbol
-    };
 
     return (
         <div className={`text-box-overlay ${classList.join(' ')}`}>
             <div className='text-box-overlay__div'>
-                <Paragraph {...paragraph}>
-                    <Span {...span} />
+                <Paragraph color='light'>
+                    <Span text={symbol} />
                     {`\u000A ${text}`}
                 </Paragraph>
             </div>

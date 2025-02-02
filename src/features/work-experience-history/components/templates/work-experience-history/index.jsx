@@ -6,15 +6,11 @@ import './style.css';
 
 
 function WorkExperienceHistory() {
-    const decoratedTitle = {
-        text: 'WORK EXPERIENCE',
-        color: 'charcoal-grey'
-    };
 
     return (
         <article className='work-experience-history'>
             <header>
-                <DecoratedTitle {...decoratedTitle} />
+                <DecoratedTitle text='WORK EXPERIENCE' color='charcoal-grey' />
             </header>
             <section>
                 <EmploymentSummary />

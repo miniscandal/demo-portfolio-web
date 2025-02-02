@@ -8,17 +8,11 @@ import './style.css';
 
 
 function PrimaryHeader() {
-    const image = {
-        src: backgroundImg,
-        size: 'adaptive',
-        objectFit: 'cover'
-    };
-
 
     return (
         <header className='primary-header'>
             <div className='primary-header__div'>
-                <Picture {...image} />
+                <Picture src={backgroundImg} size='adaptive' objectFit='cover' />
             </div>
             <HeaderContent />
         </header>

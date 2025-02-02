@@ -45,18 +45,15 @@ function ChessboardNav() {
             idAnchor: SCROLL_PAGE_PRIMARY_FOOTER
         },
     ];
-    const squareShapeAnchorLinks = {
-        Component: (({ idAnchor, ...values }) => (
-            <a href={`#${idAnchor}`} tabIndex={idAnchor ? undefined : -1}>
-                <TextBoxOverlay {...values} size='adaptive' />
-            </a>
-        )),
-        items
-    };
+    const Component = (({ idAnchor, ...values }) => (
+        <a href={`#${idAnchor}`} tabIndex={idAnchor ? undefined : -1}>
+            <TextBoxOverlay {...values} size='adaptive' />
+        </a>
+    ));
 
     return (
         <div className={`chessboard-nav ${classList.join(' ')}`}>
-            <UnorderedList {...squareShapeAnchorLinks} />
+            <UnorderedList items={items} Component={Component} />
         </div>
     );
 }

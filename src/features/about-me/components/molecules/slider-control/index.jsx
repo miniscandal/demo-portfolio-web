@@ -22,6 +22,7 @@ function SliderControl({
             onChange: setSelectOption
         };
 
+
         return <Component key={`id-${index}`} {...props} />;
     });
 

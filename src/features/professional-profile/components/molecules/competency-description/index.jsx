@@ -10,23 +10,16 @@ function CompetencyDescription({
     pixelArtCharacter = PIXEL_ART_ANIME_ITSUKI_NAKANO_CARD,
     text = undefined
 }) {
-    const pixelArt = {
-        character: pixelArtCharacter
-    };
-    const paragraph = {
-        text,
-        color: 'charcoal-grey'
-    };
 
     return (
         <div className='competency-description'>
             <div className='competency-description__div'>
                 <div className='competency-description__div--pixel-art'>
-                    <PixelArt {...pixelArt} />
+                    <PixelArt character={pixelArtCharacter} />
                 </div>
             </div>
             <div className='competency-description__div'>
-                <Paragraph {...paragraph} />
+                <Paragraph text={text} color='charcoal-grey' />
             </div>
         </div>
     );

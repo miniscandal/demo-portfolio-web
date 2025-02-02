@@ -5,26 +5,21 @@ import './style.css';
 
 
 function PrimaryFooter() {
-    const paragraphInspiredQuote = {
-        text: '«No one knows what the future holds, so its potential is endless»',
-        color: 'light'
-    };
-    const paragraphAuthor = {
-        text: '-Rintaro Okabe - Steins;Gate (anime series)',
-        color: 'light'
-    };
-    const professionalContactMethods = {
-        reverse: true
-    };
 
     return (
         <footer className='primary-footer'>
             <div>
-                <Paragraph {...paragraphInspiredQuote} />
-                <Paragraph {...paragraphAuthor} />
+                <Paragraph
+                    text='«No one knows what the future holds, so its potential is endless»'
+                    color='light'
+                />
+                <Paragraph
+                    text='-Rintaro Okabe - Steins;Gate (anime series)'
+                    color='light'
+                />
             </div>
             <div>
-                <ProfessionalContact {...professionalContactMethods} />
+                <ProfessionalContact reverse={true} />
             </div>
         </footer>
     );

@@ -8,25 +8,14 @@ function CompetencyName({
     name = 'Competency Name',
     iconFontSvg = undefined
 }) {
-    const iconSvgFont = {
-        svg: iconFontSvg,
-        color: 'olive-green',
-        size: 'regular'
-    };
-    const title = {
-        text: name,
-        type: 'h3',
-        color: 'sky-blue'
-    };
-
 
     return (
         <div className='competency-name'>
             <div className='competency-name__div'>
-                <IconFontSvg {...iconSvgFont} />
+                <IconFontSvg svg={iconFontSvg} color='olive-green' size='regular' />
             </div>
             <div className='competency-name__div'>
-                <Title {...title} />
+                <Title text={name} type='h3' color='sky-blue' />
             </div>
         </div>
     );

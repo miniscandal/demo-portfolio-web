@@ -22,27 +22,19 @@ function SelfDescription({
     ],
     type = 'rectangular-figure'
 }) {
-    const title = {
-        text: titleText,
-        type: 'h3',
-        color: 'dark'
-    };
-
-    const pixelArtDialog = {
-        textMain: dialogTexts[0],
-        textSecondary: dialogTexts[1],
-        character: pixelArtCharacter,
-        objects: pixelArtObjects,
-        type
-    };
-
 
     return (
         <section className='self-description'>
             <div className='self-description__div'>
-                <Title {...title} />
+                <Title text={titleText} type='h3' color='dark' />
             </div>
-            <PixelArtDialog {...pixelArtDialog} />
+            <PixelArtDialog
+                textMain={dialogTexts[0]}
+                textSecondary={dialogTexts[1]}
+                character={pixelArtCharacter}
+                objects={pixelArtObjects}
+                type={type}
+            />
         </section>
     );
 }

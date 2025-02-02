@@ -28,10 +28,6 @@ import './style.css';
 function AboutMe() {
     const { goals: { personal, professional } } = useContext(ProfessionalApproachContext);
 
-    const decoratedTitle = {
-        text: 'ABOUT ME',
-        color: 'light'
-    };
     const selfDescriptionMain = {
         titleText: 'Social goals through my profession',
         dialogTexts: professional,
@@ -63,7 +59,7 @@ function AboutMe() {
     return (
         <article className='about-me'>
             <header>
-                <DecoratedTitle {...decoratedTitle} />
+                <DecoratedTitle text='ABOUT ME' color='light' />
             </header>
             <section>
                 <MainSection />

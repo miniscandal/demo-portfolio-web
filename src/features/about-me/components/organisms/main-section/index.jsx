@@ -13,11 +13,6 @@ import './style.css';
 function MainSection() {
     const { selfDescriptions: { personal, professional } } = useContext(AboutMeContext);
 
-    const professionalProfileOverview = {
-        descriptionMain: professional,
-        descriptionSecondary: personal
-    };
-
 
     return (
         <section className='main-section'>
@@ -27,7 +22,7 @@ function MainSection() {
                     <div className='main-section__div--mini-game'>
                         <MiniGame />
                     </div>
-                    <ProfessionalProfileOverview {...professionalProfileOverview} />
+                    <ProfessionalProfileOverview descriptionMain={professional} descriptionSecondary={personal} />
                 </div>
             </MiniGameProvider>
         </section>

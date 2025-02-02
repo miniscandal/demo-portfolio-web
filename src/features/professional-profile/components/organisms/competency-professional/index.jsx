@@ -12,20 +12,11 @@ function CompetencyProfessional({
     iconFontSvg = undefined,
     pixelArtCharacter = PIXEL_ART_ANIME_ITSUKI_NAKANO_CARD
 }) {
-    const competenceName = {
-        name,
-        iconFontSvg
-    };
-    const competenceDescription = {
-        pixelArtCharacter,
-        text: description
-    };
-
 
     return (
         <section className='competency-professional'>
-            <CompetencyName {...competenceName} />
-            <CompetencyDescription {...competenceDescription} />
+            <CompetencyName name={name} iconFontSvg={iconFontSvg} />
+            <CompetencyDescription pixelArtCharacter={pixelArtCharacter} text={description} />
         </section>
     );
 }

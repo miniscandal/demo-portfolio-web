@@ -11,3 +11,9 @@
 ⚝ Implement flex-flow
 
 ⚝ Add pixel art in chess nav
+
+⚝ Add personal interest component
+
+⚝ Add professional mission component
+
+⚝ Add recreational interest

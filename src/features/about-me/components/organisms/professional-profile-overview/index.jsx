@@ -7,22 +7,13 @@ function ProfessionalProfileOverview({
     descriptionMain = undefined,
     descriptionSecondary = undefined
 }) {
-    const aboutSummaryMain = {
-        title: 'Technical training and principles',
-        description: descriptionMain
-    };
-    const aboutSummarySecondary = {
-        title: 'Personal growth and ethical values',
-        description: descriptionSecondary
-    };
-
 
     return (
         <div className='professional-profile-overview'>
             <div className='professional-profile-overview__div'>
-                <AboutSummary {...aboutSummaryMain} />
+                <AboutSummary title='Technical training and principles' description={descriptionMain} />
             </div>
-            <AboutSummary {...aboutSummarySecondary} />
+            <AboutSummary title='Personal growth and ethical values' description={descriptionSecondary} />
         </div>
     );
 }

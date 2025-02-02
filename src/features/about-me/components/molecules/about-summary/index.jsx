@@ -8,23 +8,13 @@ function AboutSummary({
     title: titleText = 'About Summary',
     description = undefined
 }) {
-    const title = {
-        text: titleText,
-        type: 'h4',
-        color: 'light'
-    };
-    const paragraph = {
-        text: description,
-        color: 'light'
-    };
-
 
     return (
         <section className='about-summary'>
             <div className='about-summary__div'>
-                <Title {...title} />
+                <Title text={titleText} type='h4' color='light' />
             </div>
-            <Paragraph {...paragraph} />
+            <Paragraph text={description} color='light' />
         </section>
     )
 }

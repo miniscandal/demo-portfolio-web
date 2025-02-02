@@ -15,14 +15,11 @@ function StepGame({
         orientationLeft ? 'orientation-left' : '',
         isSelected ? 'selected' : ''
     ];
-    const pixelArt = {
-        character: type
-    };
 
 
     return (
         <div className={`step-game ${classList.join(' ')}`}>
-            <PixelArt {...pixelArt} />
+            <PixelArt character={type} />
         </div>
     );
 }
