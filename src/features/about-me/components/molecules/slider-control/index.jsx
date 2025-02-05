@@ -14,10 +14,10 @@ function SliderControl({
 }) {
     const [selectOption, setSelectOption] = useState(defaultSelectionOption);
 
-    const componentsSliderOption = selectionOptions.map((option, index) => {
-        const { htmlFor } = option;
+    const componentsSliderOption = selectionOptions.map((value, index) => {
+        const { htmlFor } = value;
         const props = {
-            ...option,
+            ...value,
             checked: selectOption === htmlFor,
             onChange: setSelectOption
         };
