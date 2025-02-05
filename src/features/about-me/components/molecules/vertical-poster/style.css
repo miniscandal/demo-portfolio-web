@@ -3,4 +3,5 @@
     text-orientation: upright;
     writing-mode: vertical-lr;
     background-color: var(--color-light);
+    padding: var(--padding-molecule) 0;
 }

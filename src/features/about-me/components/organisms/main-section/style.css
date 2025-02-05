@@ -5,10 +5,14 @@
     gap: var(--gap-simple-container);
 
     > .main-section__div {
-        align-self: flex-end;
+        width: clamp(20rem, 100%, 35rem);
 
-        > .main-section__div--mini-game {
-            padding-bottom: var(--padding-organism);
+        &:last-child {
+            align-self: flex-end;
+
+            > .main-section__div--mini-game {
+                padding-bottom: var(--padding-organism);
+            }
         }
     }
 }

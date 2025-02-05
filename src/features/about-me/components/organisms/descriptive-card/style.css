@@ -1,32 +1,20 @@
 .descriptive-card {
-    display: flex;
-    flex-direction: column;
-    width: min(100%, 32rem);
 
     > header {
+        position: relative;
         width: 80%;
         margin: auto;
         transform: translateY(15%);
         z-index: 10;
-
-        @media (width < 40rem) {
-            width: 95%;
-            transform: translateY(10%);
-        }
     }
 
     > .descriptive-card__section {
         position: relative;
-        height: 38rem;
         display: flex;
-        align-items: center;
-
-        @media (width < 40rem) {
-            height: auto;
-        }
 
         > .descriptive-card__div--poster {
-            z-index: 30;
+            z-index: 20;
+            align-content: end;
         }
 
         > .descriptive-card__div--photo {
@@ -39,13 +27,13 @@
             inset: 0;
         }
 
-        &::after {
+        &::before {
             content: '';
             position: absolute;
             inset: 0;
             z-index: 20;
-            background-color: var(--color-vintage-rose);
             filter: opacity(0.2);
+            background-color: var(--color-vintage-rose);
         }
     }
 }

@@ -17,12 +17,17 @@ function MainSection() {
     return (
         <section className='main-section'>
             <MiniGameProvider>
-                <DescriptiveCard />
+                <div className='main-section__div'>
+                    <DescriptiveCard />
+                </div>
                 <div className='main-section__div'>
                     <div className='main-section__div--mini-game'>
                         <MiniGame />
                     </div>
-                    <ProfessionalProfileOverview descriptionMain={professional} descriptionSecondary={personal} />
+                    <ProfessionalProfileOverview
+                        descriptionMain={professional}
+                        descriptionSecondary={personal}
+                    />
                 </div>
             </MiniGameProvider>
         </section>
