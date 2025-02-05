@@ -11,9 +11,15 @@ function ProfessionalProfileOverview({
     return (
         <div className='professional-profile-overview'>
             <div className='professional-profile-overview__div'>
-                <AboutSummary title='Technical training and principles' description={descriptionMain} />
+                <AboutSummary
+                    title='Technical training and principles'
+                    description={descriptionMain}
+                />
             </div>
-            <AboutSummary title='Personal growth and ethical values' description={descriptionSecondary} />
+            <AboutSummary
+                title='Personal growth and ethical values'
+                description={descriptionSecondary}
+            />
         </div>
     );
 }
