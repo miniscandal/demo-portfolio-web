@@ -7,9 +7,5 @@
         &:first-child {
             padding-bottom: var(--padding-organism);
         }
-
-        &:last-child {
-            justify-items: center;
-        }
     }
 }

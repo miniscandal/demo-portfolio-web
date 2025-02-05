@@ -12,9 +12,7 @@ function TechnologicalTools() {
             <div className='technological-tools__div'>
                 <Title text='TechnologicalTools' type='h3' color='light' />
             </div>
-            <div className='technological-tools__div'>
-                <SliderTechnologicalTools />
-            </div>
+            <SliderTechnologicalTools />
         </section>
     );
 }
