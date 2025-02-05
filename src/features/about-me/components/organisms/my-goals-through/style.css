@@ -1,0 +1,25 @@
+.my-goals-through {
+    width: min(100%, 36rem);
+    border-radius: var(--border-radius-simple-organism);
+
+    > .my-goals-through__div {
+        justify-items: center;
+        padding: var(--padding-viewport);
+    }
+
+    > .my-goals-through__section {
+
+        > .my-goals-through__section--dialog {
+            justify-items: center;
+            padding-bottom: var(--padding-simple-organism);
+        }
+    }
+
+    &.primary-scene {
+        background-color: var(--color-science-lab-background);
+    }
+
+    &.secondary-scene {
+        background-color: var(--color-wooden-room-background);
+    }
+}
