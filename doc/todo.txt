@@ -17,3 +17,5 @@
 ⚝ Add professional mission component
 
 ⚝ Add recreational interest
+
+⚝ Refactor PixelArtSceneMyGoals Component
