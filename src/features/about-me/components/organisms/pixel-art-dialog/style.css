@@ -1,7 +1,0 @@
-.pixel-art-dialog {
-
-    > .pixel-art-dialog__div {
-        justify-items: center;
-        padding-bottom: var(--padding-simple-organism);
-    }
-}
