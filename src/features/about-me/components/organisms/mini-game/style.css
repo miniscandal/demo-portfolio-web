@@ -7,9 +7,9 @@
         }
     }
 
-    > .mini-game__div--start-game {
+    > .next-step-button {
+        width: fit-content;
         font-family: var(--font-family-manga);
-        justify-items: start;
         padding-bottom: var(--padding-molecule);
     }
 }

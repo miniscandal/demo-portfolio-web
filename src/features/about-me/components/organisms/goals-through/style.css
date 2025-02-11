@@ -1,6 +1,75 @@
 .goals-through {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
-    gap: var(--gap-simple-organism);
+    justify-content: center;
+    gap: var(--gap-organism);
+
+    > .my-goals-through {
+
+        &:first-child {
+
+            .slider-dialog {
+
+                > .slider-dialog__div {
+
+                    &:first-child {
+
+                        &:has(input[type='radio'][for='01-MGS']:checked) + .slider-dialog__div {
+
+                            .paragraph {
+
+                                &:first-child {
+                                    display: block;
+                                }
+                            }
+                        }
+
+                        &:has(input[type='radio'][for='02-MGS']:checked) + .slider-dialog__div {
+
+                            .paragraph {
+
+                                &:last-child {
+                                    display: block;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+
+        &:last-child {
+
+            .slider-dialog {
+
+                > .slider-dialog__div {
+
+                    &:first-child {
+
+                        &:has(input[type='radio'][for='01-MGP']:checked) + .slider-dialog__div {
+
+                            .paragraph {
+
+                                &:first-child {
+                                    display: block;
+                                }
+                            }
+                        }
+
+                        &:has(input[type='radio'][for='02-MGP']:checked) + .slider-dialog__div {
+
+                            .paragraph {
+
+                                &:last-child {
+                                    display: block;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+    }
 }

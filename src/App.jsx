@@ -2,8 +2,8 @@ import { PrimaryHeader } from '@feat-primary-header-templates/primary-header';
 import { PrimaryFooter } from '@feat-primary-footer-templates/primary-footer';
 import { WorkExperienceHistory } from '@feat-work-experience-history-templates/work-experience-history/index';
 import { PersonalSoftwareProjects } from '@feat-personal-software-projects-pages/index';
-import { ProfessionalProfile } from '@feat-professional-profile-templates/index';
-import { AboutMe } from '@feat-about-me-templates/index';
+import { ProfessionalProfile } from '@feat-professional-profile-templates/professional-profile/index';
+import { AboutMe } from '@feat-about-me-templates/about-me/index';
 
 import { SCROLL_PAGE_WORK_EXPERIENCE_HISTORY } from '@shared-constants/anchor-id';
 import { SCROLL_PAGE_PERSONAL_SOFTWARE_PROJECTS } from '@shared-constants/anchor-id';
@@ -22,30 +22,20 @@ function App() {
             <scroll-container>
                 <main>
                     <scroll-page id={SCROLL_PAGE_WORK_EXPERIENCE_HISTORY}>
-                        <div className='main__div'>
-                            <WorkExperienceHistory />
-                        </div>
+                        <WorkExperienceHistory />
                     </scroll-page>
                     <scroll-page id={SCROLL_PAGE_ABOUT_ME}>
-                        <div className='main__div'>
-                            <AboutMe />
-                        </div>
+                        <AboutMe />
                     </scroll-page>
                     <scroll-page id={SCROLL_PAGE_PERSONAL_SOFTWARE_PROJECTS}>
-                        <div className='main__div'>
-                            {/* <PersonalSoftwareProjects /> */}
-                        </div>
+                        <PersonalSoftwareProjects />
                     </scroll-page >
                     <scroll-page id={SCROLL_PAGE_PROFESSIONAL_PROFILE}>
-                        <div className='main__div'>
-                            <ProfessionalProfile />
-                        </div>
+                        <ProfessionalProfile />
                     </scroll-page>
-                </main >
+                </main>
                 <scroll-page id={SCROLL_PAGE_PRIMARY_FOOTER}>
-                    <div className='main__div'>
-                        <PrimaryFooter />
-                    </div>
+                    <PrimaryFooter />
                 </scroll-page>
             </scroll-container>
         </>

@@ -20,6 +20,7 @@ export default defineConfig({
             '@feat-primary-header-templates': '/src/features/primary-header/components/templates/',
             '@feat-primary-header-contexts': '/src/features/primary-header/contexts/',
 
+            '@feat-work-experience-history-molecules': '/src/features/work-experience-history/components/molecules/',
             '@feat-work-experience-history-organisms': '/src/features/work-experience-history/components/organisms/',
             '@feat-work-experience-history-templates': '/src/features/work-experience-history/components/templates/',
             '@feat-work-experience-history-contexts': '/src/features/work-experience-history/contexts/',

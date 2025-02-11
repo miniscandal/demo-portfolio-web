@@ -1,0 +1,12 @@
+.about-me {
+
+    > .decorated-title {
+        padding-bottom: var(--padding-container);
+    }
+
+    > .about-me__div {
+        display: flex;
+        flex-direction: column;
+        gap: var(--gap-simple-container);
+    }
+}

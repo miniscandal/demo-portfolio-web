@@ -1,0 +1,48 @@
+{
+    "en": {
+        "role": "Software Engineer (Backend / Frontend)",
+        "employmentDuration": {
+            "start": {
+                "year": 2019,
+                "month": 2
+            },
+            "end": {
+                "year": 2020,
+                "month": 3
+            }
+        },
+        "description": "Contributed to functional analysis, database management, and software design and architecture for the development of a web service. Proposed a strategic plan for the company to create a specialized software development department to achieve business objectives, improve results, and optimize service performance.",
+        "contributions": [
+            "Aporté en el diseño y arquitectura de software, proponiendo soluciones como la integracion de un framework de desarrollo. Esto permitió cumplir con el objetivo de crear diversos sitios web con una identidad de marca única, pero dentro de la misma rama de servicios, lo que resultó en la reducción de costos.",
+            "Colaboré en el diseño y administración de bases de datos, garantizando su consistencia e integridad al ser una base de datos compartida entre los diferentes servicios.",
+            "Analicé código y esquemas de base de datos legacy, permitiendo la refactorizacion y reutilización de funcionalidades, características y conceptos principales para integrarlos en sistemas en desarrollo con un framework moderno.",
+            "Propuse una estrategia para la creación de un departamento especializado en desarrollo de software, con el fin de mejorar los resultados, alcanzar los objetivos, desarrollar nuevas soluciones, optimizar los sistemas existentes y mejorar el enfoque en el desarrollo de nuevos sistemas y soluciones basadas en tecnología."
+        ],
+        "technologicalTools": [
+            "php",
+            "laravel",
+            "mySQL"
+        ],
+        "technologicalKnowledge": [
+            "softwareArchitecture",
+            "softwareDesign",
+            "sqlDatabase",
+            "databaseManagement",
+            "systemAnalysis"
+        ],
+        "socialEmotionalCompetencies": [
+            "problemSolving",
+            "initiative",
+            "strategicThinking",
+            "communication",
+            "adaptability"
+        ],
+        "company": {
+            "name": "CENCEL",
+            "location": "San Juan del Río, Querétaro",
+            "industry": "Telephone Distributor",
+            "website": ""
+        }
+    },
+    "es": {}
+}

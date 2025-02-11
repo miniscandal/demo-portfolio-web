@@ -4,62 +4,44 @@ import { ProfessionalApproachContext } from '@feat-about-me-contexts/professiona
 
 import { MyGoalsThrough } from '@feat-about-me-organisms/my-goals-through';
 
-import { PixelArt } from '@shared-atoms/pixel-art';
 import { ShelfDisplay } from '@shared-molecules/shelf-display';
+import { PixelArt } from '@shared-atoms/pixel-art';
 
-import { PIXEL_ART_ANIME_MINICODE_ANIMATION_V3 } from '@shared-atoms/pixel-art/variants';
-import { PIXEL_ART_ITEM_DOMO_ANIMATION } from '@shared-atoms/pixel-art/variants';
-import { PIXEL_ART_ITEM_BOOKS } from '@shared-atoms/pixel-art/variants';
-import { PIXEL_ART_ANIME_MINICODE_ANIMATION_V4 } from '@shared-atoms/pixel-art/variants';
 import { PIXEL_ART_ITEM_WHITEBOARD } from '@shared-atoms/pixel-art/variants';
 import { PIXEL_ART_ITEM_HOURGLASS } from '@shared-atoms/pixel-art/variants';
 import { PIXEL_ART_ITEM_MORTARBOARD } from '@shared-atoms/pixel-art/variants';
+import { PIXEL_ART_ITEM_BOOKS } from '@shared-atoms/pixel-art/variants';
 import { PIXEL_ART_ITEM_ARCADE } from '@shared-atoms/pixel-art/variants';
 import { PIXEL_ART_ITEM_SOCCER } from '@shared-atoms/pixel-art/variants';
 import { PIXEL_ART_ITEM_PENCIL_PINK } from '@shared-atoms/pixel-art/variants';
+import { PIXEL_ART_ITEM_DOMO_ANIMATION } from '@shared-atoms/pixel-art/variants';
+
+import { myGoalsThroughMain } from '@feat-about-me-organisms/my-goals-through/variants';
+import { myGoalsThroughSecondary } from '@feat-about-me-organisms/my-goals-through/variants';
 
 import './style.css';
 
 
 function GoalsThrough() {
-    const { goals: { personal, professional } } = useContext(ProfessionalApproachContext);
+    const { goals: { personal, social } } = useContext(ProfessionalApproachContext);
 
-    const selfDescriptionPrimary = {
-        title: 'Social goals through my profession',
-        dialogTexts: professional,
-        character: PIXEL_ART_ANIME_MINICODE_ANIMATION_V3,
-        pixelArtItems: () => (
-            <>
+
+    return (
+        <div className='goals-through'>
+            <MyGoalsThrough {...myGoalsThroughMain} texts={social}>
                 <PixelArt character={PIXEL_ART_ITEM_WHITEBOARD} />
                 <PixelArt character={PIXEL_ART_ITEM_HOURGLASS} />
                 <PixelArt character={PIXEL_ART_ITEM_MORTARBOARD} />
                 <PixelArt character={PIXEL_ART_ITEM_BOOKS} />
-            </>
-        ),
-        type: 'primary-scene'
-    };
-    const selfDescriptionSecondary = {
-        title: 'Personal goals through key activities',
-        dialogTexts: personal,
-        character: PIXEL_ART_ANIME_MINICODE_ANIMATION_V4,
-        pixelArtItems: () => (
-            <>
+            </MyGoalsThrough>
+            <MyGoalsThrough {...myGoalsThroughSecondary} texts={personal}>
                 <PixelArt character={PIXEL_ART_ITEM_ARCADE} />
                 <PixelArt character={PIXEL_ART_ITEM_SOCCER} />
                 <PixelArt character={PIXEL_ART_ITEM_PENCIL_PINK} />
-
                 <ShelfDisplay>
                     <PixelArt character={PIXEL_ART_ITEM_DOMO_ANIMATION} />
                 </ShelfDisplay>
-            </>
-        ),
-        type: 'secondary-scene'
-    };
-
-    return (
-        <div className='goals-through'>
-            <MyGoalsThrough {...selfDescriptionPrimary} />
-            <MyGoalsThrough {...selfDescriptionSecondary} />
+            </MyGoalsThrough>
         </div>
     );
 }

@@ -1,0 +1,53 @@
+.self-presentation-magic-card {
+
+    > .horizontal-poster {
+        position: relative;
+        width: 80%;
+        margin: auto;
+        transform: translateY(15%);
+        z-index: 10;
+
+        @media (width < 30rem) {
+            width: 95%;
+            z-index: 30;
+        }
+    }
+
+    > .self-presentation-magic-card__div {
+        position: relative;
+        display: flex;
+
+        > .vertical-poster {
+            z-index: 20;
+            align-self: flex-end;
+        }
+
+        > .photo-enigma {
+            align-self: flex-end;
+            z-index: 10;
+        }
+
+        > .background-grid-overlay {
+            position: absolute;
+            inset: 0;
+        }
+
+        &::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            z-index: 20;
+            filter: opacity(0.2);
+            background-color: var(--color-vintage-rose);
+        }
+
+        @media (width < 30rem) {
+            overflow: hidden;
+
+            > .photo-enigma {
+                position: absolute;
+                right: -5%;
+            }
+        }
+    }
+}

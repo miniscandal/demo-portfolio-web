@@ -1,26 +1,20 @@
 import { Paragraph } from '@shared-atoms/paragraph';
+import { Span } from '@shared-atoms/span';
 
 import './style.css';
 
 
 function HorizontalPoster({
     textMain = 'HORIZONTAL',
-    textSecondary = 'POSTER ',
-    backgroundColor = true
+    textSecondary = 'POSTER '
 }) {
-    const classList = [
-        backgroundColor ? 'background-color' : ''
-    ];
-
 
     return (
-        <div className={`horizontal-poster ${classList.join(' ')}`}>
-            <div className='horizontal-poster__div'>
-                <Paragraph text={textMain} size='medium' color='light' />
-            </div>
-            <div className='horizontal-poster__div'>
-                <Paragraph text={textSecondary} size='medium' color='light' />
-            </div>
+        <div className='horizontal-poster'>
+            <Paragraph size='medium'>
+                <Span text={textMain} />
+                <Span text={textSecondary} />
+            </Paragraph>
         </div>
     );
 }

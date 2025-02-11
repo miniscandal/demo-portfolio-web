@@ -1,0 +1,60 @@
+@import url('./animations/selected.css');
+@import url('./animations/pressed-blue.css');
+@import url('./animations/pressed-blue-left.css');
+@import url('./animations/pressed-red.css');
+@import url('./animations/pressed-red-left.css');
+@import url('./animations/pressed-center.css');
+
+.step-game {
+    --animation-translate-y-final-state: -2rem;
+    --animation-seconds: 0.5s;
+
+    padding: var(--padding-simple-molecule);
+    -webkit-user-select: none;
+    user-select: none;
+
+    &.type-item-center-step {
+        background: linear-gradient(to bottom, var(--color-dark-maroon), var(--color-slate-black));
+
+        &.pressed {
+            animation: pressed-center var(--animation-seconds) ease forwards;
+        }
+    }
+
+    &.type-item-blue-step {
+        transform: scaleY(-1);
+        background: linear-gradient(to bottom, var(--color-vivid-blue), var(--color-night-shadow));
+
+        &.pressed {
+            animation: pressed-blue var(--animation-seconds) ease forwards;
+        }
+
+        &.orientation-left {
+            transform: scale(-1);
+
+            &.pressed {
+                animation: pressed-blue-left var(--animation-seconds) ease forwards;
+            }
+        }
+    }
+
+    &.type-item-red-step {
+        background: linear-gradient(to bottom, var(--color-crimson-red), var(--color-night-shadow));
+
+        &.pressed {
+            animation: pressed-red var(--animation-seconds) ease forwards;
+        }
+
+        &.orientation-left {
+            transform: scaleX(-1);
+
+            &.pressed {
+                animation: pressed-red-left var(--animation-seconds) ease forwards;
+            }
+        }
+    }
+
+    &.selected {
+        animation: selected 1s ease infinite;
+    }
+}

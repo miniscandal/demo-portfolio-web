@@ -1,9 +1,20 @@
 .job-experience-details {
+
     > .job-experience-details__div {
-        > .job-experience-details__div--title {
-            padding-bottom: var(--padding-molecule);
+
+        &:first-child {
+            padding-bottom: var(--padding-simple-organism);
+
+            > .job-experience-details__div--title {
+                padding-bottom: var(--padding-molecule);
+            }
         }
 
-        padding-bottom: var(--padding-simple-organism);
+        &:last-child {
+            display: flex;
+            flex-direction: column;
+            gap: var(--padding-molecule);
+        }
+
     }
 }

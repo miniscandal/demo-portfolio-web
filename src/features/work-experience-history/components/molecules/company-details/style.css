@@ -1,0 +1,10 @@
+.company-details {
+
+    > .company-details__div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: var(--gap-simple-molecule);
+        padding-top: var(--padding-simple-molecule);
+    }
+}

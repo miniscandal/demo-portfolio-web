@@ -1,25 +1,36 @@
 .horizontal-poster {
+    display: flex;
+    justify-content: center;
+    position: relative;
     font-family: var(--font-family-manga);
 
-    > .horizontal-poster__div {
+    > .paragraph {
+        transform: rotate(-5deg);
+        z-index: 10;
 
-        > .paragraph {
+        > .span {
+            display: block;
             text-align: center;
-            transform: rotate(-5deg);
-        }
 
-
-        &:first-child {
-
-            > .paragraph {
+            &:first-child {
                 line-height: 1;
             }
-        }
 
-        &:last-child {
-            background-color: var(--color-vintage-rose);
-            padding: var(--padding-molecule);
-            clip-path: polygon(0 35%, 100% 0, 100% 65%, 0 100%);
+            &:last-child {
+                padding: 0.5rem;
+                padding-bottom: 1rem;
+            }
         }
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        bottom: 0;
+        height: 75%;
+        margin-top: auto;
+        background-color: var(--color-vintage-rose);
+        clip-path: polygon(0 35%, 100% 0, 100% 65%, 0 100%);
     }
 }

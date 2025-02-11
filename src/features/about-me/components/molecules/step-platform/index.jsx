@@ -1,4 +1,4 @@
-import { StepGame } from '@feat-about-me-molecules/step-game';
+import { StepGame } from '@feat-about-me-atoms/step-game';
 import { UnorderedList } from '@shared-molecules/unordered-list';
 
 import './style.css';

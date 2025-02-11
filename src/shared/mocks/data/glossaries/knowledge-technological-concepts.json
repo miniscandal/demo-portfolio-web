@@ -2,87 +2,95 @@
     "en": {
         "internetOfThings": {
             "name": "Internet Of Things",
-            "color": "#4d455d"
+            "color": "#6E7080"
         },
         "observerPattern": {
             "name": "Observer Pattern",
-            "color": "#be6600"
+            "color": "#CC7847"
         },
         "atomicWebDesign": {
             "name": "Atomic Web Design",
-            "color": "#3c3c7a"
+            "color": "#5C64A8"
         },
         "bemMethodology": {
             "name": "BEM Methodology",
-            "color": "#a5a800"
+            "color": "#A2B94E"
         },
         "mqtt": {
             "name": "MQ Telemetry Transport",
-            "color": "#547e27"
+            "color": "#5D965D"
         },
         "functionalProgramming": {
             "name": "Functional Programming",
-            "color": "#0649c5"
+            "color": "#4A7EB8"
         },
         "realTimeApplication": {
             "name": "Real Time Application",
-            "color": "#ee9b01"
+            "color": "#D69550"
         },
         "responsiveWebDesign": {
             "name": "Responsive Web Design",
-            "color": "#4c8d26"
+            "color": "#6DA567"
         },
         "apiRestFul": {
             "name": "API REST",
-            "color": "#004f98"
+            "color": "#3F7BAA"
         },
         "userExperience": {
             "name": "User Experience",
-            "color": "#eb7389"
+            "color": "#D46A82"
         },
         "artificialIntelligenceTechnology": {
             "name": "AI Technology",
-            "color": "#617373"
+            "color": "#7F9292"
         },
         "embeddedSystem": {
             "name": "Embedded System",
-            "color": "#1465bb"
+            "color": "#5E8CC2"
         },
         "testing": {
             "name": "Code Test",
-            "color": "#a0a50d"
+            "color": "#B1B242"
         },
         "dataSheet": {
             "name": "Reading Data Sheets",
-            "color": "#b07265"
+            "color": "#B56F60"
         },
         "taskAutomation": {
             "name": "Task Automation with Scripting",
-            "color": "#74c7e2"
+            "color": "#5AB7C7"
         },
         "softwareArchitecture": {
             "name": "Software Architecture",
-            "color": "#0d47a1"
+            "color": "#4E78A3"
         },
         "noSQLDatabase": {
             "name": "NoSQL Database",
-            "color": "#e65100"
+            "color": "#C47B4E"
         },
         "sqlDatabase": {
             "name": "SQL Database",
-            "color": "#0277bd"
+            "color": "#4D96B6"
         },
         "umlDiagram": {
             "name": "UML Diagrams",
-            "color": "#512da8"
+            "color": "#8B6BAE"
         },
         "entityRelationshipDiagram": {
             "name": "Entity-Relationship",
-            "color": "#f9a825"
+            "color": "#C0A33A"
         },
         "softwareDesign": {
             "name": "Software Design",
-            "color": "#2e7d32"
+            "color": "#76A376"
+        },
+        "databaseManagement": {
+            "name": "Database Management",
+            "color": "#8764A6"
+        },
+        "systemAnalysis": {
+            "name": "System Analysis",
+            "color": "#4A9CB0"
         }
     }
 }

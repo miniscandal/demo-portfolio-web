@@ -1,0 +1,7 @@
+.select-employment-summary {
+    display: flex;
+    border-radius: var(--border-radius-simple-molecule);
+    padding: var(--padding-molecule);
+    background-color: var(--color-muted-purple);
+    color: var(--color-light);
+}

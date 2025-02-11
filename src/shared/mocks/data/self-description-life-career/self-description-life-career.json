@@ -2,17 +2,27 @@
     "en": {
         "selfDescriptions": {
             "personal": "I am a reflective person who prioritizes listening and observing, focusing on understanding situations in depth. I am interested in problem-solving and finding appropriate solutions, using logic, analysis, and critical thinking. My introverted personality is strengthened by values such as empathy, metacognition, and curiosity, along with principles that guide my way of being. This allows me to relate effectively in various situations and with different personalities, thus improving my ability to support and socialize.",
-            "professional": "I am a software developer with a solid educational background, self-taught and professional in the field of computer systems, which gives me the confidence and experience to work in multidisciplinary teams, providing technological solutions through the appropriate use of software and hardware tools."
+            "professional": "I am a software developer with a strong educational background, self-taught, and professional in the field of computer systems engineering. My experience working with professionals with diverse skills and knowledge gives me the confidence and ability to work in multidisciplinary teams. I conduct research and propose technological solutions by using the appropriate software and hardware tools."
         },
         "goals": {
             "personal": [
-                "I am spending a lot of time getting back into and practicing important activities for my personal and social growth, like drawing, playing competitive fighting games, playing soccer, and most importantly, dancing on the Pump It Up simulator."
+                "I am spending a lot of time getting back into and practicing important activities for my personal and social growth, like drawing, playing competitive fighting games, playing soccer, and most importantly, dancing on the Pump It Up simulator.",
+                "Besides my dedication and interest in the field of computer systems, I also have a particular interest in electronics and embedded systems. I am determined to pursue an engineering degree that will allow me to deepen my knowledge in this area."
             ],
-            "professional": [
+            "social": [
                 "I am committed to spending time on my professional growth and personal development, aiming to become a skilled principal software engineer.",
                 "My goal is to inspire and help future engineers. I believe that supporting my peers will help me grow professionally and improve important aspects of my life."
             ]
         }
     },
-    "es": {}
+    "es": {
+        "selfDescriptions(Accepted)": {
+            "professional": "Soy desarrollador de software con una sólida formación educativa, autodidacta y profesional en el área de la ingeniería de sistemas computacionales. Mi experiencia trabajando con profesionales de diversas habilidades y conocimientos me brinda la confianza y capacidad para trabajar en equipos multidisciplinarios. Realizo investigaciones y propongo soluciones tecnológicas mediante el uso de las herramientas de software y hardware adecuadas."
+        },
+        "goals": {
+            "personal(Accepted)": [
+                "Además de mi dedicación e interés por el área de sistemas computacionales, también tengo un interés particular en la electrónica y los sistemas embebidos. Me propongo cursar una ingeniería que me permita profundizar en esta área."
+            ]
+        }
+    }
 }

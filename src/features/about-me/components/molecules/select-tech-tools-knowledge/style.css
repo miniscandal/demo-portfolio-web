@@ -1,0 +1,17 @@
+.select-tech-tools-knowledge {
+    --box-shadow: 0 0 0.5rem var(--color-light);
+
+    display: flex;
+    border-radius: var(--border-radius-molecule);
+    padding: var(--padding-molecule);
+    background-color: var(--color-muted-purple);
+    color: var(--color-light);
+
+    &.checked {
+        box-shadow: var(--box-shadow)
+    }
+
+    &:hover {
+        box-shadow: var(--box-shadow)
+    }
+}

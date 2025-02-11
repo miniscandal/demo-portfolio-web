@@ -1,9 +1,9 @@
 import { createContext } from 'react';
 import { useState } from 'react';
 
-import { STEP_GAME_CENTER_STEP } from '@feat-about-me-molecules/step-game/variants';
-import { STEP_GAME_RED_STEP } from '@feat-about-me-molecules/step-game/variants';
-import { STEP_GAME_BLUE_STEP } from '@feat-about-me-molecules/step-game/variants';
+import { STEP_GAME_CENTER_STEP } from '@feat-about-me-atoms/step-game/variants';
+import { STEP_GAME_RED_STEP } from '@feat-about-me-atoms/step-game/variants';
+import { STEP_GAME_BLUE_STEP } from '@feat-about-me-atoms/step-game/variants';
 
 
 const MiniGameContext = createContext({

@@ -84,6 +84,26 @@
             "name": "Proactivity",
             "descriptionSpanish": "La proactividad es la capacidad de anticiparse a los acontecimientos y tomar la iniciativa para que las cosas sucedan. La iniciativa es la capacidad de tomar decisiones y actuar sin que se lo pidan o inciten.",
             "descriptionEnglish": "Proactivity is the ability to anticipate events and take the initiative to make things happen. Initiative is the ability to make decisions and act without being asked or prompted."
+        },
+        "problemSolving": {
+            "name": "Problem Solving",
+            "descriptionSpanish": "La resolución de problemas es la habilidad de identificar, analizar y encontrar soluciones efectivas a los desafíos. Implica un enfoque lógico y estructurado para abordar obstáculos y mejorar procesos.",
+            "descriptionEnglish": "Problem solving is the ability to identify, analyze, and find effective solutions to challenges. It involves a logical and structured approach to overcoming obstacles and improving processes."
+        },
+        "initiative": {
+            "name": "Initiative",
+            "descriptionSpanish": "La iniciativa es la habilidad para tomar acción por cuenta propia, sin necesidad de una dirección constante, identificando oportunidades o problemas y actuando proactivamente para abordarlos.",
+            "descriptionEnglish": "Initiative is the ability to take action on one's own, without the need for constant direction, identifying opportunities or problems, and proactively taking steps to address them."
+        },
+        "strategicThinking": {
+            "name": "Strategic Thinking",
+            "descriptionSpanish": "El pensamiento estratégico es la capacidad de analizar, planificar y tomar decisiones con un enfoque a largo plazo, considerando el panorama completo y anticipando posibles desafíos y oportunidades.",
+            "descriptionEnglish": "Strategic thinking is the ability to analyze, plan, and make decisions with a long-term focus, considering the bigger picture and anticipating potential challenges and opportunities."
+        },
+        "communication": {
+            "name": "Communication",
+            "descriptionSpanish": "La comunicación es la habilidad de expresar ideas, información y sentimientos de manera clara y efectiva, tanto de forma verbal como no verbal, y adaptarse a las diferentes audiencias y contextos.",
+            "descriptionEnglish": "Communication is the ability to express ideas, information, and feelings clearly and effectively, both verbally and non-verbally, and to adapt to different audiences and contexts."
         }
     }
 }

@@ -23,6 +23,9 @@
             "@core-validators/*": [
                 "core/validators/*"
             ],
+            "@feat-work-experience-history-molecules/*": [
+                "features/work-experience-history/components/molecules/*"
+            ],
             "@feat-work-experience-history-organisms/*": [
                 "features/work-experience-history/components/organisms/*"
             ],

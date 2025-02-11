@@ -1,11 +1,87 @@
 .technological-tools {
-    display: flex;
-    flex-direction: column;
+    justify-items: center;
 
-    .technological-tools__div {
+    .title {
+        padding-bottom: var(--padding-organism);
+    }
 
-        &:first-child {
-            padding-bottom: var(--padding-organism);
+    > .technological-tools__div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: var(--gap-simple-organism);
+
+
+        > .technological-tools__div--input-control {
+            display: flex;
+            flex-direction: column;
+            gap: var(--gap-molecule);
+            border: none;
+
+            > .slider-control {
+                flex-direction: column;
+            }
+        }
+
+        > .technological-tools__div--slider-items {
+            background-color: var(--color-muted-purple);
+            border-radius: var(--border-radius-simple-organism);
+            padding: var(--padding-viewport);
+
+            > .knowledge-implementation {
+                display: none;
+                transition: filter var(--transition-extended-seconds) ease;
+
+                @starting-style {
+                    filter: opacity(0);
+                }
+
+                > .knowledge-implementation__div--items {
+
+                    @media (width < 60rem) {
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: center;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.technological-tools {
+    > .technological-tools__div {
+
+        > .technological-tools__div--input-control {
+
+            &:has(input[type='radio'][for='01-CS']:checked) + .technological-tools__div--slider-items {
+
+                > .knowledge-implementation:nth-child(1) {
+                    display: flex;
+                }
+            }
+
+            &:has(input[type='radio'][for='02-DE']:checked) + .technological-tools__div--slider-items {
+
+                > .knowledge-implementation:nth-child(2) {
+                    display: flex;
+                }
+            }
+
+            &:has(input[type='radio'][for='03-APA']:checked) + .technological-tools__div--slider-items {
+
+                > .knowledge-implementation:nth-child(3) {
+                    display: flex;
+                }
+            }
+
+            &:has(input[type='radio'][for='04-MC']:checked) + .technological-tools__div--slider-items {
+
+                > .knowledge-implementation:nth-child(4) {
+                    display: flex;
+                }
+            }
         }
     }
 }
