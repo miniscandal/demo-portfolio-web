@@ -24,7 +24,7 @@ function App() {
                     <scroll-page id={SCROLL_PAGE_WORK_EXPERIENCE_HISTORY}>
                         <WorkExperienceHistory />
                     </scroll-page>
-                    <scroll-page id={SCROLL_PAGE_ABOUT_ME}>
+                    {/* <scroll-page id={SCROLL_PAGE_ABOUT_ME}>
                         <AboutMe />
                     </scroll-page>
                     <scroll-page id={SCROLL_PAGE_PERSONAL_SOFTWARE_PROJECTS}>
@@ -32,7 +32,7 @@ function App() {
                     </scroll-page >
                     <scroll-page id={SCROLL_PAGE_PROFESSIONAL_PROFILE}>
                         <ProfessionalProfile />
-                    </scroll-page>
+                    </scroll-page> */}
                 </main>
                 <scroll-page id={SCROLL_PAGE_PRIMARY_FOOTER}>
                     <PrimaryFooter />
