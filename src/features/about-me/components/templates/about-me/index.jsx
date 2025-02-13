@@ -1,4 +1,4 @@
-import { PanelControlSliderProvider } from '@feat-about-me-contexts/panel-control-slider';
+// import { PanelControlSliderProvider } from '@feat-about-me-contexts/panel-control-slider';
 
 import { SelfDescriptionPresentationProfile } from '@feat-about-me-organisms/self-description-presentation-profile';
 import { TechnologicalTools } from '@feat-about-me-organisms/technological-tools';

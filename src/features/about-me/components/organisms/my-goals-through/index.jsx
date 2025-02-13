@@ -1,6 +1,6 @@
 import { Title } from '@shared-atoms/title';
 
-import { PanelControlSliderProvider } from '@feat-about-me-contexts/panel-control-slider';
+// import { PanelControlSliderProvider } from '@feat-about-me-contexts/panel-control-slider';
 
 import { SliderDialog } from '@feat-about-me-organisms/slider-pixel-art-dialog';
 import { PixelArtSceneMyGoals } from '@feat-about-me-molecules/pixel-art-scene-my-goals';
