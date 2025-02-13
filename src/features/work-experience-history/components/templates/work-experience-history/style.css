@@ -1,14 +1,82 @@
 .work-experience-history {
 
-    > header {
+    > .decorated-title {
         padding-bottom: var(--padding-container);
     }
+}
 
-    > section {
-        display: flex;
-        flex-direction: column;
-        gap: var(--gap-simple-container);
+
+/* 
+.work-experience-timeline {
+    --background-color: var(--color-coral-blush);
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--gap-organism);
+
+    > .work-experience-timeline__controls {
+
+        > .details-summary {
+            display: none;
+        }
+
+        > .work-experience-timeline__controls--desktop {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            gap: var(--gap-molecule);
+        }
+
+        @media (width < 75rem) {
+            > .details-summary {
+                display: block;
+            }
+
+            > .work-experience-timeline__controls--desktop {
+                display: none;
+            }
+        }
+    }
+
+    > .work-experience-timeline__summary {
         max-width: 50rem;
-        margin: auto;
+    }
+
+    .employment-summary {
+        display: none;
+        transition: filter var(--transition-extended-seconds) ease;
+
+        @starting-style {
+            filter: opacity(0);
+        }
     }
 }
+
+.work-experience-timeline {
+
+    > .work-experience-timeline__controls {
+
+        &:has(input[type='radio'][for='01-C']:checked) + .work-experience-timeline__summary {
+
+            > .employment-summary:nth-child(1) {
+                display: block;
+            }
+        }
+
+        &:has(input[type='radio'][for='02-B']:checked) + .work-experience-timeline__summary {
+
+            > .employment-summary:nth-child(2) {
+                display: block;
+            }
+        }
+
+
+        &:has(input[type='radio'][for='03-D']:checked) + .work-experience-timeline__summary {
+
+            > .employment-summary:nth-child(3) {
+                display: block;
+            }
+        }
+    }
+} */

@@ -1,7 +1,16 @@
 .select-employment-summary {
     display: flex;
+    flex-direction: column;
     border-radius: var(--border-radius-simple-molecule);
     padding: var(--padding-molecule);
-    background-color: var(--color-muted-purple);
-    color: var(--color-light);
+    background-color: var(--color-coral-blush);
+    color: var(--color-dark);
+
+    > .select-employment-summary__time {
+        padding-top: var(--padding-simple-molecule);
+    }
+
+    &:hover {
+        filter: brightness(0.9);
+    }
 }

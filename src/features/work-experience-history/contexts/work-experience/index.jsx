@@ -37,11 +37,6 @@ const Provider = {
             industry: undefined,
             website: undefined
         }
-    },
-    dataGlossaries: {
-        technologicalToolsData: undefined,
-        technologicalKnowledgeData: undefined,
-        socialEmotionalCompetenciesData: undefined
     }
 };
 

@@ -8,10 +8,13 @@ import { KnowledgeImplementation } from '@shared-organisms/knowledge-implementat
 import { InterpersonalCompetencyInformation } from '@shared-molecules/interpersonal-competency-information';
 
 import './style.css';
+import { WorkExperienceTimelineContext } from '@feat-work-experience-history-contexts/work-experience-timeline';
 
 
 function RelevantSkillsExperience() {
-    const { experience, dataGlossaries } = useContext(WorkExperienceContext);
+    const { dataGlossaries } = useContext(WorkExperienceTimelineContext);
+    const { experience } = useContext(WorkExperienceContext);
+
     const { technologicalTools, technologicalKnowledge, socialEmotionalCompetencies } = experience;
     const { technologicalToolsData, technologicalKnowledgeData, socialEmotionalCompetenciesData } = dataGlossaries;
 
