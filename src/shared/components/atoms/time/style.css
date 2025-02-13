@@ -5,4 +5,8 @@
     &.regular {
         font-size: 1em;
     }
+
+    &.small {
+        font-size: 0.85em;
+    }
 }
