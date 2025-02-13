@@ -1,15 +1,17 @@
-import { useContext, useState } from 'react';
-
-import { PanelControlSliderContext } from '@feat-about-me-contexts/panel-control-slider';
+import { useState } from 'react';
 
 import { RadioInput } from '@shared-atoms/radio-input';
 
 
-function UseControlRadioInput() {
-    const { radioInputsData, selectDefaultHtmlFor, groupName, LabelComponent } = useContext(PanelControlSliderContext);
-    const [selectedRadioInput, setSelectedRadioInput] = useState(selectDefaultHtmlFor || radioInputsData[0].htmlFor);
+function UseControlRadioInput({
+    labelData = [],
+    groupName,
+    selectDefaultHtmlFor,
+    LabelComponent
+}) {
+    const [selectedRadioInput, setSelectedRadioInput] = useState(selectDefaultHtmlFor);
 
-    const radioInputComponents = radioInputsData.map((value, index) => {
+    const radioInputComponents = labelData.map((value, index) => {
         const { htmlFor } = value;
         const checked = selectedRadioInput === htmlFor;
 
