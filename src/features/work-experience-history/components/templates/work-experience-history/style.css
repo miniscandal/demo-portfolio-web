@@ -1,82 +1,76 @@
 .work-experience-history {
+    --background-color: var(--color-coral-blush);
 
     > .decorated-title {
         padding-bottom: var(--padding-container);
     }
-}
 
+    .work-experience-history__content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: var(--gap-organism);
 
-/* 
-.work-experience-timeline {
-    --background-color: var(--color-coral-blush);
+        > .content-visibility-controller {
+            width: 22rem;
 
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: var(--gap-organism);
-
-    > .work-experience-timeline__controls {
-
-        > .details-summary {
-            display: none;
-        }
-
-        > .work-experience-timeline__controls--desktop {
-            display: flex;
-            flex-wrap: wrap;
-            flex-direction: column;
-            gap: var(--gap-molecule);
-        }
-
-        @media (width < 75rem) {
             > .details-summary {
-                display: block;
-            }
-
-            > .work-experience-timeline__controls--desktop {
-                display: none;
+                position: sticky;
+                top: 0;
             }
         }
-    }
 
-    > .work-experience-timeline__summary {
-        max-width: 50rem;
-    }
+        > .work-experience-history__experience-summary {
+            width: min(100%, 50rem);
+        }
 
-    .employment-summary {
-        display: none;
-        transition: filter var(--transition-extended-seconds) ease;
+        .employment-summary {
+            display: none;
+            transition: filter var(--transition-duration-show-content) ease;
 
-        @starting-style {
-            filter: opacity(0);
+            @starting-style {
+                filter: opacity(0);
+            }
+        }
+
+        @media (width < 78rem) {
+            width: min(100%, 50rem);
+            margin: auto;
+
+            > .content-visibility-controller {
+                margin-right: auto;
+            }
         }
     }
 }
 
-.work-experience-timeline {
+.work-experience-history {
 
-    > .work-experience-timeline__controls {
+    > .work-experience-history__content {
 
-        &:has(input[type='radio'][for='01-C']:checked) + .work-experience-timeline__summary {
+        > .content-visibility-controller {
 
-            > .employment-summary:nth-child(1) {
-                display: block;
+            &:has(input[type='radio'][for='01-work-experience-history']:checked) + .work-experience-history__experience-summary {
+
+                > .employment-summary:nth-child(1) {
+                    display: block;
+                }
             }
-        }
 
-        &:has(input[type='radio'][for='02-B']:checked) + .work-experience-timeline__summary {
+            &:has(input[type='radio'][for='02-work-experience-history']:checked) + .work-experience-history__experience-summary {
 
-            > .employment-summary:nth-child(2) {
-                display: block;
+                > .employment-summary:nth-child(2) {
+                    display: block;
+                }
             }
-        }
 
 
-        &:has(input[type='radio'][for='03-D']:checked) + .work-experience-timeline__summary {
+            &:has(input[type='radio'][for='03-work-experience-history']:checked) + .work-experience-history__experience-summary {
 
-            > .employment-summary:nth-child(3) {
-                display: block;
+                > .employment-summary:nth-child(3) {
+                    display: block;
+                }
             }
         }
     }
-} */
+}

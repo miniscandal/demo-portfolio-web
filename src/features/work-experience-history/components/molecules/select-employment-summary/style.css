@@ -13,4 +13,8 @@
     &:hover {
         filter: brightness(0.9);
     }
+
+    &:has(input[type='radio']:checked) {
+        filter: brightness(0.9);
+    }
 }

@@ -1,4 +1,5 @@
 import { Time } from '@shared-atoms/time';
+import { RadioInput } from '@shared-atoms/radio-input';
 
 import './style.css';
 
@@ -6,21 +7,23 @@ import './style.css';
 function SelectEmploymentSummary({
     role = 'Select Employment Summary',
     employmentDuration,
-    checked = false,
-    children
+    htmlFor,
+    groupName,
+    defaultChecked
 }) {
-    const classList = [
-        checked ? 'checked' : ''
-    ];
     const { start, end } = employmentDuration;
 
     return (
-        <label className={`select-employment-summary ${classList.join(' ')}`}>
+        <label className='select-employment-summary'>
             {role}
             <div className='select-employment-summary__time'>
                 <Time color='dark' size='small' {...start} /> - <Time color='dark' size='small' {...end} />
             </div>
-            {children}
+            <RadioInput
+                htmlFor={htmlFor}
+                groupName={groupName}
+                defaultChecked={defaultChecked}
+            />
         </label>
     );
 }
