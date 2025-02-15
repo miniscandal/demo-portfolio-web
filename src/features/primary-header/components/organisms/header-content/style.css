@@ -1,5 +1,5 @@
 /*
-'order: -1' ensures that the title appears as the first child of the section to
+order: -1 ensures that the title appears as the first child of the section to
 meet the CEO's design requirements.
 */
 
@@ -43,5 +43,6 @@ meet the CEO's design requirements.
     > nav {
         margin-left: auto;
         padding-bottom: var(--padding-simple-organism);
+        /* transform: rotate(45deg); */
     }
 }
