@@ -2,21 +2,20 @@ import { createContext } from 'react';
 
 
 const Provider = {
-    radioInputsData: [
+    labelData: [
         {
             htmlFor: 'option-01',
-            properties: {}
+            customProperties: {}
         },
         {
             htmlFor: 'option-02',
-            properties: {}
+            customProperties: {}
         }
     ],
+    groupName: 'option',
     selectDefaultHtmlFor: 'option-01',
-    groupName: 'slider-control',
     detailsSummary: {
-        text: '',
-        open: null
+        text: 'Option List'
     },
     LabelComponent: <label></label>
 };
