@@ -1,33 +1,56 @@
-import { useContext } from 'react';
+import { useContext, useRef } from 'react';
 
 import { ContentVisibilityControllerContext } from '@shared-contexts/content-visibility-controller';
 
-import { UseControlRadioInput } from '@shared-custom-hooks/use-control-radio-input';
-import { UseDetailsSummary } from '@shared-custom-hooks/use-details-summary';
+import { RadioButtonGroup } from '@shared-molecules/radio-button-group';
+
+import { DetailsSummary } from '@shared-molecules/details-summary';
 
 import './style.css';
 
 
 function ContentVisibilityController() {
-    const { labelData, groupName, selectDefaultHtmlFor, LabelComponent } = useContext(ContentVisibilityControllerContext);
-
-    const { radioInputComponents } = UseControlRadioInput({
+    const {
         labelData,
         groupName,
         selectDefaultHtmlFor,
+        ariaLabel,
+        detailsSummary: { text },
         LabelComponent
-    });
+    } = useContext(ContentVisibilityControllerContext);
 
-    const { DetailsSummary } = UseDetailsSummary({
-        items: radioInputComponents
-    });
+    const elementRef = useRef(null);
+
+    const handleClick = (event) => {
+        if (!event.target.closest('li')) {
+            return;
+        }
+
+        /*
+        const a = document.createElement('a');
+        a.href = `#${SCROLL_PAGE_WORK_EXPERIENCE_HISTORY}`;
+        a.click();
+        */
+
+        elementRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    };
+
 
     return (
-        <div className='work-experience-timeline__controls'>
-            {DetailsSummary}
-            <div className='work-experience-timeline__controls--desktop'>
-                {radioInputComponents}
-            </div>
+        <div
+            ref={elementRef}
+            className='content-visibility-controller'
+            onClick={handleClick}
+        >
+            <DetailsSummary text={text}>
+                <RadioButtonGroup
+                    labelData={labelData}
+                    groupName={groupName}
+                    selectDefaultHtmlFor={selectDefaultHtmlFor}
+                    ariaLabel={ariaLabel}
+                    LabelComponent={LabelComponent}
+                />
+            </DetailsSummary>
         </div>
     );
 }

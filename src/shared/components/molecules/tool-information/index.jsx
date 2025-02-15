@@ -1,5 +1,6 @@
 import { Paragraph } from '@shared-atoms/paragraph';
 import { Icon } from '@shared-atoms/icon';
+import { StarScene } from '@shared-molecules/star-scene';
 
 import './style.css';
 
@@ -23,6 +24,7 @@ function ToolInformation({
                 <div className='tool-information__div--logo'>
                     <Icon src={iconSrc} size='small' />
                 </div>
+                <StarScene />
             </div>
         </div>
     );
