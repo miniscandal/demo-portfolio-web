@@ -1,8 +1,8 @@
 import { Title } from '@shared-atoms/title';
 
-// import { PanelControlSliderProvider } from '@feat-about-me-contexts/panel-control-slider';
+import { ContentVisibilityControllerProvider } from '@shared-contexts/content-visibility-controller';
 
-import { SliderDialog } from '@feat-about-me-organisms/slider-pixel-art-dialog';
+import { GoalsDialog } from '@feat-about-me-organisms/goals-dialog';
 import { PixelArtSceneMyGoals } from '@feat-about-me-molecules/pixel-art-scene-my-goals';
 
 import { PixelArt } from '@shared-atoms/pixel-art';
@@ -28,9 +28,9 @@ function MyGoalsThrough({
     return (
         <article className={`my-goals-through ${classList.join(' ')}`}>
             <Title text={title} type='h3' color='vintage-rose' />
-            <PanelControlSliderProvider Provider={Provider}>
-                <SliderDialog texts={texts} />
-            </PanelControlSliderProvider>
+            <ContentVisibilityControllerProvider Provider={Provider}>
+                <GoalsDialog texts={texts} />
+            </ContentVisibilityControllerProvider>
             <PixelArtSceneMyGoals character={character} type={type}>
                 {children}
             </PixelArtSceneMyGoals>

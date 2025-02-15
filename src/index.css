@@ -14,6 +14,7 @@
     --color-dark: #2e2e2e;
     --color-light: #eeeeee;
 
+    --color-muted-purple: #584b58;
     --color-slate-gray: #554d74;
     --color-coffee-brown: #453c41;
     --color-charcoal-grey: #48494a;
@@ -24,33 +25,22 @@
     --color-deep-ocean: #586c91;
     --color-royal-blue: #2f70af;
     --color-sky-blue: #4886af;
-    --color-misty-gray: #d4dbe266;
     --color-heather-mist: #a0849d;
     --color-cream-light: #ecd7bb;
     --color-rose-water: #fbeefb;
     --color-blush-petal: #ffc1cc;
     --color-vintage-rose: #6e315a;
+
+
+    --color-misty-gray: #d4dbe266;
     --color-misty-gray: #b1b0ae;
+
+
     --color-charcoal-shadow: #3b3b3b;
     --color-soft-moss: #d4d4d4;
     --color-violet-dusk: #9856be;
-    --color-white: #ffffff;
-    --color-soft-blue: #c0e6f3;
-    --color-icy-white: #ffffffcc;
-    --color-lavender-fog: #c8c8ff99;
-    --color-soft-lavender: #9696ff66;
-    --color-pure-lavender: #c8c8ff;
-    --color-frosted-white: #ffffff80;
-    --color-muted-lavender: #9696ff66;
-    --color-deep-lavender: #6464ff4d;
-    --color-citrus-orange: #ff9632;
-    --color-golden-haze: #ffc864cc;
-    --color-coral-blush: #ff6432b3;
-    --color-pure-pink: #ff320099;
-    --color-deep-cherry: #963200cc;
-    --color-dusk-rose: #ff643266;
-    --color-dark-pink: #ff32004d;
-    --color-crimson-dark: #64000033;
+    --color-muted-lavender: #9696ff;
+    --color-coral-blush: #ff6432;
     --color-bright-yellow: #ffff00;
     --color-deep-blue: #3d3dd1;
     --color-light-pink: #ffb6c1;
@@ -59,8 +49,6 @@
     --color-vivid-blue: #1788ce;
     --color-night-shadow: #2f2e32;
     --color-crimson-red: #e32223;
-    --color-pink-pastel: #faa9df;
-    --color-muted-purple: #584b58;
 
 
     --color-science-lab-background: #95aab8;
@@ -119,7 +107,7 @@
 
     --transition-fast-seconds: 0.3s;
     --transition-slow-seconds: 1.5s;
-    --transition-extended-seconds: 3s;
+    --transition-duration-show-content: 2s;
 
 
 
@@ -148,10 +136,15 @@ html {
 
 body {
     font-family: Figtree, 'Segoe UI Emoji', helvetica;
+    background-color: gray;
 }
 
 html,
 body {
     max-width: 100svw;
     min-height: 100svh;
+}
+
+li {
+    list-style: none;
 }

@@ -1,19 +1,23 @@
+import { RadioInput } from '@shared-atoms/radio-input';
+
 import './style.css';
 
 
 function SelectTechToolsKnowledge({
     text = 'Label Select View Slider',
-    checked = false,
-    children
+    htmlFor,
+    groupName,
+    defaultChecked
 }) {
-    const classList = [
-        checked ? 'checked' : ''
-    ];
 
     return (
-        <label className={`select-tech-tools-knowledge ${classList.join(' ')}`}>
+        <label className='select-tech-tools-knowledge'>
             {text}
-            {children}
+            <RadioInput
+                htmlFor={htmlFor}
+                groupName={groupName}
+                defaultChecked={defaultChecked}
+            />
         </label>
     );
 }

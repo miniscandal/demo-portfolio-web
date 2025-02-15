@@ -1,18 +1,22 @@
+import { RadioInput } from '@shared-atoms/radio-input';
+
 import './style.css';
 
 
 function SelectGoalDescription({
-    checked = false,
-    children
+    htmlFor,
+    groupName,
+    defaultChecked
 }) {
-    const classList = [
-        checked ? 'checked' : ''
-    ];
 
 
     return (
-        <label className={`select-goal-description ${classList.join(' ')}`}>
-            {children}
+        <label className='select-goal-description'>
+            <RadioInput
+                htmlFor={htmlFor}
+                groupName={groupName}
+                defaultChecked={defaultChecked}
+            />
         </label>
     );
 }

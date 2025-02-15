@@ -1,4 +1,6 @@
 .technological-tools {
+    --background-color: var(--color-coral-blush);
+
     justify-items: center;
 
     .title {
@@ -11,16 +13,10 @@
         justify-content: center;
         gap: var(--gap-simple-organism);
 
-
-        > .technological-tools__div--input-control {
-            display: flex;
-            flex-direction: column;
-            gap: var(--gap-molecule);
-            border: none;
-
-            > .slider-control {
-                flex-direction: column;
-            }
+        > .details-summary {
+            width: 22rem;
+            position: sticky;
+            top: 0;
         }
 
         > .technological-tools__div--slider-items {
@@ -30,7 +26,7 @@
 
             > .knowledge-implementation {
                 display: none;
-                transition: filter var(--transition-extended-seconds) ease;
+                transition: filter var(--transition-duration-show-content) ease;
 
                 @starting-style {
                     filter: opacity(0);
@@ -51,32 +47,33 @@
 
 
 .technological-tools {
+
     > .technological-tools__div {
 
-        > .technological-tools__div--input-control {
+        > .details-summary {
 
-            &:has(input[type='radio'][for='01-CS']:checked) + .technological-tools__div--slider-items {
+            &:has(input[type='radio'][for='01-about-me-cs']:checked) + .technological-tools__div--slider-items {
 
                 > .knowledge-implementation:nth-child(1) {
                     display: flex;
                 }
             }
 
-            &:has(input[type='radio'][for='02-DE']:checked) + .technological-tools__div--slider-items {
+            &:has(input[type='radio'][for='02-about-me-de']:checked) + .technological-tools__div--slider-items {
 
                 > .knowledge-implementation:nth-child(2) {
                     display: flex;
                 }
             }
 
-            &:has(input[type='radio'][for='03-APA']:checked) + .technological-tools__div--slider-items {
+            &:has(input[type='radio'][for='03-about-me-apa']:checked) + .technological-tools__div--slider-items {
 
                 > .knowledge-implementation:nth-child(3) {
                     display: flex;
                 }
             }
 
-            &:has(input[type='radio'][for='04-MC']:checked) + .technological-tools__div--slider-items {
+            &:has(input[type='radio'][for='04-about-me-mc']:checked) + .technological-tools__div--slider-items {
 
                 > .knowledge-implementation:nth-child(4) {
                     display: flex;

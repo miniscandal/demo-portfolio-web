@@ -1,4 +1,4 @@
-// import { PanelControlSliderProvider } from '@feat-about-me-contexts/panel-control-slider';
+import { ContentVisibilityControllerProvider } from '@shared-contexts/content-visibility-controller';
 
 import { SelfDescriptionPresentationProfile } from '@feat-about-me-organisms/self-description-presentation-profile';
 import { TechnologicalTools } from '@feat-about-me-organisms/technological-tools';
@@ -7,33 +7,15 @@ import { SelectTechToolsKnowledge } from '@feat-about-me-molecules/select-tech-t
 
 import { DecoratedTitle } from '@shared-molecules/decorated-title';
 
+import { Provider } from '@shared-contexts/content-visibility-controller/providers/about-me';
+
 import './style.css';
 
 
 function AboutMe() {
-    const Provider = {
-        radioInputsData: [
-            {
-                htmlFor: '01-CS',
-                text: 'Current Specialization'
-            },
-            {
-                htmlFor: '02-DE',
-                text: 'Development Environment'
-            },
-            {
-                htmlFor: '03-APA',
-                text: 'Active Practical Approach'
-            },
-            {
-                htmlFor: '04-MC',
-                text: 'Main Concepts '
-            }
-        ],
-        selectDefaultHtmlFor: '01-CS',
-        groupName: 'about-me',
-        LabelComponent: SelectTechToolsKnowledge
-    };
+    const updatedProvider = structuredClone(Provider);
+
+    updatedProvider.LabelComponent = SelectTechToolsKnowledge;
 
 
     return (
@@ -41,9 +23,9 @@ function AboutMe() {
             <DecoratedTitle text='ABOUT ME' color='light' />
             <div className='about-me__div'>
                 <SelfDescriptionPresentationProfile />
-                <PanelControlSliderProvider Provider={Provider}>
+                <ContentVisibilityControllerProvider Provider={updatedProvider}>
                     <TechnologicalTools />
-                </PanelControlSliderProvider>
+                </ContentVisibilityControllerProvider>
                 <GoalsThrough />
             </div>
         </section>

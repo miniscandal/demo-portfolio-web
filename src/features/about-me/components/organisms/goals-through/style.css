@@ -8,13 +8,13 @@
 
         &:first-child {
 
-            .slider-dialog {
+            .goals-dialog {
 
-                > .slider-dialog__div {
+                > .goals-dialog__div {
 
                     &:first-child {
 
-                        &:has(input[type='radio'][for='01-MGS']:checked) + .slider-dialog__div {
+                        &:has(input[type='radio'][for='01-my-social-goals-through-main']:checked) + .goals-dialog__div {
 
                             .paragraph {
 
@@ -24,7 +24,7 @@
                             }
                         }
 
-                        &:has(input[type='radio'][for='02-MGS']:checked) + .slider-dialog__div {
+                        &:has(input[type='radio'][for='02-my-social-goals-through-secondary']:checked) + .goals-dialog__div {
 
                             .paragraph {
 
@@ -41,13 +41,13 @@
 
         &:last-child {
 
-            .slider-dialog {
+            .goals-dialog {
 
-                > .slider-dialog__div {
+                > .goals-dialog__div {
 
                     &:first-child {
 
-                        &:has(input[type='radio'][for='01-MGP']:checked) + .slider-dialog__div {
+                        &:has(input[type='radio'][for='01-my-personal-goals-through-main']:checked) + .goals-dialog__div {
 
                             .paragraph {
 
@@ -57,7 +57,7 @@
                             }
                         }
 
-                        &:has(input[type='radio'][for='02-MGP']:checked) + .slider-dialog__div {
+                        &:has(input[type='radio'][for='02-my-personal-goals-through-secondary']:checked) + .goals-dialog__div {
 
                             .paragraph {
 
