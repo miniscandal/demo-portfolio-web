@@ -14,9 +14,9 @@ function ProfessionalInformation() {
 
     return (
         <section className='professional-information'>
-            <Title text={name} color='light-silver' type='h1' />
+            <Title text={name} type='h1' />
             <div className='professional-information__div--subtitle'>
-                <Title text={discipline} color='light-silver' type='h2' />
+                <Title text={discipline} type='h2' />
             </div>
             <div className='professional-information__div'>
                 <ButtonLinkDownloader

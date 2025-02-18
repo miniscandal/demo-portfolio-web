@@ -52,9 +52,9 @@ function ChessboardNav() {
     ));
 
     return (
-        <div className={`chessboard-nav ${classList.join(' ')}`}>
+        <nav className={`chessboard-nav ${classList.join(' ')}`}>
             <UnorderedList items={items} Component={Component} />
-        </div>
+        </nav>
     );
 }
 

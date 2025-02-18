@@ -1,0 +1,35 @@
+/*
+order: -1 ensures that the title appears as the first child of the section to
+meet the CEO's design requirements.
+*/
+
+.header-profile-data {
+    display: flex;
+    flex-direction: column;
+    gap: var(--padding-simple-organism);
+    padding: var(--padding-viewport);
+    position: relative;
+
+    > .professional-information,
+    > .professional-contact,
+    > .character-speech {
+        z-index: 10;
+    }
+
+    > .character-speech {
+        order: -1;
+    }
+
+    &::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background-color: var(--filter-overlay-content);
+        filter: var(--filter-overlay-opacity);
+        border-radius: var(--border-radius-simple-organism);
+
+        @media (width < 90rem) {
+            display: none;
+        }
+    }
+}

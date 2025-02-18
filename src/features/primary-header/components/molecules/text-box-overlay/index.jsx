@@ -16,7 +16,7 @@ function TextBoxOverlay({
     return (
         <div className={`text-box-overlay ${classList.join(' ')}`}>
             <div className='text-box-overlay__div'>
-                <Paragraph color='light'>
+                <Paragraph>
                     <Span text={symbol} />
                     {`\u000A ${text}`}
                 </Paragraph>

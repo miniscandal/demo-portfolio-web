@@ -1,11 +1,10 @@
 .primary-header {
-    --filter-opacity: opacity(0.65);
-
+    display: flex;
+    justify-content: space-between;
     position: relative;
-    padding-left: var(--padding-viewport);
-    padding-bottom: var(--padding-viewport);
+    overflow: hidden;
 
-    > .primary-header__div {
+    > .primary-header__background-image {
         position: absolute;
         inset: 0;
 
@@ -13,25 +12,22 @@
             content: '';
             position: absolute;
             inset: 0;
-            background-color: var(--color-slate-gray);
-            filter: var(--filter-opacity);
+            background-color: var(--filter-overlay-art);
+            filter: var(--filter-overlay-opacity);
         }
     }
 
-    > .header-content {
-        padding-top: var(--padding-viewport);
-    }
 
-    @media (width < 60rem) {
-        background-color: var(--color-charcoal-grey);
-        padding: unset;
+    @media (width < 90rem) {
+        flex-direction: column-reverse;
+        background-color: var(--bg-body);
 
-        > .header-content {
-            padding-top: unset;
-        }
-
-        > .primary-header__div {
+        > .primary-header__background-image {
             aspect-ratio: 1 / 0.65;
+        }
+
+        > .chessboard-nav {
+            margin-left: auto;
         }
     }
 }
