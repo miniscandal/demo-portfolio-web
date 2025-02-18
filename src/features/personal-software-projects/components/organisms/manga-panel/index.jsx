@@ -6,7 +6,6 @@ import './style.css';
 function MangaPanel({ children, text }) {
     const span = {
         text,
-        color: 'light',
         size: 'small'
     };
 

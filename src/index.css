@@ -9,10 +9,7 @@
 }
 
 :root {
-    color-scheme: light dark;
-
-    --color-dark: #2e2e2e;
-    --color-light: #eeeeee;
+    /* 
 
     --color-muted-purple: #584b58;
     --color-slate-gray: #554d74;
@@ -61,7 +58,83 @@
     --color-wooden-room-floor: #d7a67a;
     --color-wooden-room-shadow-light: #c38c5c;
     --color-wooden-room-shadow-medium: #b77b52;
-    --color-wooden-room-shadow-dark: #a06a47;
+    --color-wooden-room-shadow-dark: #a06a47; */
+
+
+
+    color-scheme: light dark;
+
+    --filter-overlay-art: #554d74;
+    --filter-overlay-content: #472f47;
+    --filter-overlay-opacity: opacity(0.65);
+
+
+    --transition-filter: filter 0.25s linear;
+    --filter-contrast-default: saturate(1.25);
+    --filter-brightness-base: brightness(1.25);
+    --filter-brightness-hover: brightness(0.95);
+    --filter-contrast-selected: contrast(1.25);
+
+
+    --filter-contrast-base: saturate(1);
+
+
+    --border-light: #d4dbe2;
+    --border-dark: #303030;
+
+
+    --text-color-light-anchor: #dcdcfa;
+
+    --text-title-color-light: #f2f2f2;
+
+
+    --text-color-light: #e6e6e6;
+    --text-color-dark: #2e2e2e;
+
+
+    --bg-light: #f0f0f0;
+
+
+    --bg-btn-download: #ff66b2;
+
+
+    --transition-seconds-show-image: 1.5s;
+
+
+
+
+
+    /* Dynamic color scheme */
+
+    --bg-page-work-experience: #d4dbe2;
+
+    --bg-page-about-me: #7b586b;
+
+
+    --border-btn: #d4dbe2;
+
+
+    --bg-body: #525252;
+    --bg-box-info: #646464;
+
+
+    --text-color: #2e2e2e;
+
+    --text-title-color: #1e1e1e;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -117,6 +190,25 @@
 
 
     --paragraph-gap: 1.5rem;
+
+
+    @media (prefers-color-scheme: dark) {
+        --text-title-color: #e0e0e0;
+        --text-color: #e6e6e6;
+        --bg-page-work-experience: #303030;
+    }
+
+    &:has(input[type='radio'][id='dark-theme']:checked) {
+        --text-title-color: #e0e0e0;
+        --text-color: #e6e6e6;
+        --bg-page-work-experience: #303030;
+    }
+
+    &:has(input[type='radio'][id='light-theme']:checked) {
+        --text-title-color: #1e1e1e;
+        --text-color: #2e2e2e;
+        --bg-page-work-experience: #d4dbe2;
+    }
 }
 
 *,
@@ -136,7 +228,6 @@ html {
 
 body {
     font-family: Figtree, 'Segoe UI Emoji', helvetica;
-    background-color: gray;
 }
 
 html,

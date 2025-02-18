@@ -1,5 +1,3 @@
-/* eslint-disable no-unused-vars */
-
 import { PrimaryHeader } from '@feat-primary-header-templates/primary-header';
 import { PrimaryFooter } from '@feat-primary-footer-templates/primary-footer';
 import { WorkExperienceHistory } from '@feat-work-experience-history-templates/work-experience-history/index';
@@ -13,16 +11,26 @@ import { SCROLL_PAGE_PROFESSIONAL_PROFILE } from '@shared-constants/anchor-id';
 import { SCROLL_PAGE_ABOUT_ME } from '@shared-constants/anchor-id';
 import { SCROLL_PAGE_PRIMARY_FOOTER } from '@shared-constants/anchor-id';
 
-import { StarScene } from '@shared-molecules/star-scene';
 
 import './App.css';
 
 
 function App() {
+    const prefersColorScheme = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
 
     return (
         <>
-            <StarScene />
+            <div className='toggle-theme'>
+                <label htmlFor='dark-theme'>
+                    dark
+                    <input id='dark-theme' type="radio" defaultChecked={prefersColorScheme} name='theme' />
+                </label>
+                <label htmlFor='light-theme'>
+                    light
+                    <input id='light-theme' type="radio" defaultChecked={!prefersColorScheme} name='theme' />
+                </label>
+            </div>
             <PrimaryHeader />
             <scroll-container>
                 <main>

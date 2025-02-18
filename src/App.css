@@ -1,5 +1,16 @@
 @import url('./shared/components/atoms/colors/style.css');
 
+.toggle-theme {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    padding: 1rem;
+    display: flex;
+    gap: 1rem;
+    background-color: rgb(94, 94, 94);
+}
+
 
 scroll-container {
     scroll-page {
@@ -12,7 +23,7 @@ scroll-container {
         }
 
         &#work-experience-history {
-            background-color: var(--color-light-silver);
+            background-color: var(--bg-page-work-experience);
         }
 
         &#personal-software-projects {
@@ -24,7 +35,7 @@ scroll-container {
         }
 
         &#about-me {
-            background-color: var(--color-smoky-purple);
+            background-color: var(--bg-page-about-me);
         }
 
         &#primary-footer {
