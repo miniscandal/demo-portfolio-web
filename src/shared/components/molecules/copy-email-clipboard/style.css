@@ -1,6 +1,6 @@
 .copy-email-clipboard {
     position: relative;
-    border: solid var(--color-light-silver);
+    border: solid var(--border-light);
     border-width: 0 var(--border-regular-width);
     padding: 0 var(--padding-molecule);
     -webkit-user-select: none;
@@ -10,8 +10,7 @@
     &.copied-clipboard {
         &::after {
             content: 'copied';
-            color: var(--color-light-silver);
-            background-color: var(--color-smoky-purple);
+            background-color: var(--bg-box-info);
             position: absolute;
             top: -3rem;
             left: 50%;
@@ -29,7 +28,7 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            border: solid var(--color-light-silver);
+            border: solid var(--border-light);
             border-width: var(--border-regular-width) 0;
             animation: border-box 0.3s forwards;
         }

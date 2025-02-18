@@ -28,7 +28,7 @@ function ParchmentToolName({
             <PixelArt{...pixelArt} />
             <div className='parchment-tool-name__div' style={styles}>
                 {
-                    iconSrc && <ToolBadge iconSrc={iconSrc} />
+                    iconSrc && <ToolBadge iconSrc={iconSrc} color={bgColor} />
                 }
                 <div className='parchment-tool-name__div--name'>
                     <Paragraph text={text} size='middle' />

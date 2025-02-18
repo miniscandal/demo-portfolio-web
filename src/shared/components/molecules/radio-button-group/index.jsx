@@ -5,7 +5,6 @@ function RadioButtonGroup({
     labelData = [],
     groupName,
     selectDefaultHtmlFor,
-    ariaLabel = 'Display Options',
     LabelComponent = <label></label>
 }) {
     const radioButtons = labelData.map((value, index) => {
@@ -29,11 +28,7 @@ function RadioButtonGroup({
     });
 
 
-    return (
-        <div className='radio-button-group' aria-label={ariaLabel}>
-            {radioButtons}
-        </div>
-    );
+    return radioButtons;
 }
 
 export { RadioButtonGroup };

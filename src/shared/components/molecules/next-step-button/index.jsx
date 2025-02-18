@@ -15,9 +15,9 @@ function NextStepButton({
 
     return (
         <div className={`next-step-button ${classList.join(' ')}`}>
-            <Paragraph text={text} color='light' />
+            <Paragraph text={text} />
             <div className='next-step-button__div'>
-                <IconFontSvg svg={ArrowDown} color='olive-green' size='small' />
+                <IconFontSvg svg={ArrowDown} color='#d8d800' size='small' />
             </div>
         </div>
     );

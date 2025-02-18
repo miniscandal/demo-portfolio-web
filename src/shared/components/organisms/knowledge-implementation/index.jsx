@@ -16,8 +16,7 @@ function KnowledgeImplementation({
     },
     Component = ({ value, index, information }) => <ToolInformation key={`${index}-${value}`} {...information} />,
     layoutType = 'block',
-    columns = 2,
-    titleColor: color = 'light'
+    columns = 2
 }) {
     const classList = [
         layoutType === 'grid' ? 'grid' : layoutType === 'flex' ? 'flex' : layoutType
@@ -35,7 +34,7 @@ function KnowledgeImplementation({
                 &&
 
                 <div className='knowledge-implementation__div--title'>
-                    <Title text={textTitle} color={color} type='h4' />
+                    <Title text={textTitle} type='h4' />
                 </div>
             }
             <div className='knowledge-implementation__div--items' data-columns={columns}>

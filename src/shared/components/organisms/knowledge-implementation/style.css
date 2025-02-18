@@ -2,6 +2,7 @@
 
     > .knowledge-implementation__div--title {
         padding-bottom: var(--padding-simple-organism);
+        color: #2f70af;
     }
 
     &.grid {

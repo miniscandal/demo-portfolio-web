@@ -3,14 +3,12 @@ import './style.css';
 
 function Time({
     size = 'regular',
-    color = 'light',
     year = 1603,
     month = 9,
     day = 3
 }) {
     const classList = [
-        size,
-        color
+        size
     ];
     const formattedMonth = String(month).padStart(2, '0');
     const formattedDay = String(day).padStart(2, '0');

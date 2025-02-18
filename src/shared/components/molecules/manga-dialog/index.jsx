@@ -4,6 +4,7 @@ import { Paragraph } from '@shared-atoms/paragraph';
 
 import './style.css';
 
+
 function MangaDialog({
     messages = [{
         'kaomoji': '(⌒ω⌒)',
@@ -84,7 +85,7 @@ function MangaDialog({
         <div className={`manga-dialog ${classList.join(' ')}`}>
             <div className='manga-dialog__div'>
                 <div>
-                    <Paragraph text={displayedText} color='charcoal-grey' cursorAnimation={true} />
+                    <Paragraph text={displayedText} cursorAnimation={true} />
                 </div>
             </div>
         </div>

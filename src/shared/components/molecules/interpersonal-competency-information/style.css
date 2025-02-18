@@ -1,8 +1,9 @@
 .interpersonal-competency-information {
     position: relative;
-    background-color: var(--color-heather-mist);
+    background-color: #4682b4;
     padding: var(--padding-molecule);
     text-align: center;
+    color: var(--text-color-light);
 
     &:hover {
 
@@ -15,7 +16,7 @@
         content: '';
         position: absolute;
         inset: var(--padding-simple-molecule);
-        border: dashed var(--border-regular-width) var(--color-misty-gray);
+        border: dashed var(--border-regular-width) var(--border-light);
         transition: inset var(--transition-fast-seconds) linear;
     }
 }

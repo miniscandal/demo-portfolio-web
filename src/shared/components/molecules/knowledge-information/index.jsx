@@ -16,7 +16,7 @@ function KnowledgeInformation({
 
     return (
         <div className='knowledge-information' style={styles}>
-            <Paragraph text={text} color='light' nowrap={true} />
+            <Paragraph text={text} nowrap={true} />
             <div className='knowledge-information__div'>
                 <PixelArt size='small' character={PIXEL_ART_ITEM_BOOKS} />
             </div>

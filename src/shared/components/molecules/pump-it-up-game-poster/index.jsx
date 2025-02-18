@@ -34,7 +34,7 @@ function PumpItUpGamePoster() {
                 <PixelArt character={PIXEL_ART_ITEM_PUMP_GAME_CENTER_STEP} />
             </div>
         </div>
-    )
+    );
 }
 
 export { PumpItUpGamePoster };

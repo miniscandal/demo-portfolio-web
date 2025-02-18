@@ -6,7 +6,7 @@ import './style.css';
 
 
 function ToolInformation({
-    name: text = 'Tool',
+    name = 'Tool',
     iconSrc = undefined,
     color: bgColor = '#494949'
 }) {
@@ -17,7 +17,7 @@ function ToolInformation({
     return (
         <div className='tool-information'>
             <div className='tool-information__div' style={styles}>
-                <Paragraph text={text} color='light' />
+                <Paragraph text={name} />
             </div>
             <div className='tool-information__div'>
                 <Paragraph text={'\u00a0'} />

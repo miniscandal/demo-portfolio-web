@@ -5,17 +5,16 @@ import './style.css';
 
 function IconFontSvg({
     svg = Cat,
-    color = 'light',
-    size = 'regular',
-    currentColor = undefined
+    color = 'gray',
+    size = 'regular'
 }) {
     const classList = [
-        size,
-        currentColor ? '' : color
+        size
     ];
     const style = {
-        color: currentColor || ''
+        color
     };
+
 
     return (
         <div className={`icon-font-svg ${classList.join(' ')}`} style={style}>

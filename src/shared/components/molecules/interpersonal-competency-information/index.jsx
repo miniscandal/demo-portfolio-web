@@ -4,12 +4,12 @@ import './style.css';
 
 
 function InterpersonalCompetencyInformation({
-    name: text = 'Interpersonal Competency'
+    name = 'Interpersonal Competency'
 }) {
 
     return (
         <div className='interpersonal-competency-information'>
-            <Paragraph text={text} color='light' nowrap={true} />
+            <Paragraph text={name} nowrap={true} />
         </div>
     );
 }

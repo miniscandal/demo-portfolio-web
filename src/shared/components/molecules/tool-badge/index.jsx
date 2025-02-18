@@ -6,14 +6,14 @@ import './style.css';
 
 function ToolBadge({
     iconSrc,
-    currentColor = undefined
+    color = undefined
 }) {
 
     return (
         <div className='tool-badge'>
             <div className='tool-badge__div'>
                 {
-                    iconSrc ? <Icon src={iconSrc} size='semi-regular' /> : <IconFontSvg size='semi-regular' currentColor={currentColor} />
+                    iconSrc ? <Icon src={iconSrc} size='semi-regular' /> : <IconFontSvg size='semi-regular' color={color} />
                 }
             </div>
         </div>

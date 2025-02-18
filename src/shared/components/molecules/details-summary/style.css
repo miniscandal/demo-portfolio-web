@@ -3,18 +3,27 @@
 
     > summary {
         padding: var(--padding-molecule);
-        background-color: var(--background-color);
         border-radius: var(--border-radius-simple-molecule);
-        color: var(--color-dark);
+        filter: var(--filter-contrast-default);
     }
 
     > ol {
+        display: flex;
+        flex-direction: column;
+        gap: var(--gap-molecule);
         padding-top: var(--padding-molecule);
 
-        > .field-set-radio-buttons {
-            display: flex;
-            flex-direction: column;
-            gap: var(--gap-molecule);
+        > li {
+            filter: var(--filter-brightness-base);
+            transition: var(--transition-filter);
+
+            &:hover {
+                filter: var(--filter-brightness-hover);
+            }
+
+            &:has(input[type='radio']:checked) {
+                filter: var(--filter-contrast-selected);
+            }
         }
     }
 

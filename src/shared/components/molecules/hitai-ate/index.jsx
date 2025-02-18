@@ -8,14 +8,14 @@ import './style.css';
 
 function HitaiAte({
     src = undefined,
-    currentColor = undefined
+    color
 }) {
 
     return (
         <div className='hitai-ate'>
             <PixelArt character={PIXEL_ART_ITEM_HITAI_ATE} />
             <div className='hitai-ate__div'>
-                <ToolBadge iconSrc={src} currentColor={currentColor} />
+                <ToolBadge iconSrc={src} color={color} />
             </div>
         </div>
     );

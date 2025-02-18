@@ -14,7 +14,7 @@ function KonohaKit({
     return (
         <div className='konoha-kit'>
             <div className='konoha-kit__div--hitai-ate'>
-                <HitaiAte src={iconSrc} currentColor={bgColor} />
+                <HitaiAte src={iconSrc} color={bgColor} />
             </div>
             <div className='konoha-kit__div--desktop'>
                 <ParchmentToolName name={name} bgColor={bgColor} />

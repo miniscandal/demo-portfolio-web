@@ -1,6 +1,7 @@
 .knowledge-information {
     position: relative;
     padding: var(--padding-molecule);
+    color: var(--text-color-light);
 
     > .knowledge-information__div {
         position: absolute;

@@ -3,7 +3,7 @@
     > .tool-badge__div {
         padding: var(--padding-atom);
         border-radius: var(--border-radius-atom);
-        background-color: var(--color-soft-moss);
-        box-shadow: 0 0 0.10em 0.20em var(--color-charcoal-shadow);
+        background-color: #d4d4d4;
+        box-shadow: 0 0 0.10em 0.20em #3b3b3b;
     }
 }

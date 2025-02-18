@@ -2,7 +2,7 @@
     display: block;
     justify-items: center;
     align-content: center;
-    border: solid var(--border-regular-width) var(--color-light-silver);
+    border: solid var(--border-regular-width) var(--border-btn);
     border-radius: var(--border-radius-molecule);
 
     &.regular {

@@ -1,13 +1,12 @@
 .button-link-downloader {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
     align-items: center;
+    gap: var(--gap-molecule);
     text-decoration: none;
-    font-size: 1rem;
-    color: var(--color-light);
-    cursor: pointer;
+    font-size: 1.2rem;
+    color: var(--text-color-light);
     padding: var(--padding-molecule);
     border-radius: var(--border-radius-molecule);
-    background-color: var(--color-olive-green);
+    background-color: var(--bg-btn-download);
 }

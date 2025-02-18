@@ -14,14 +14,13 @@ function WorkDateRange({
             year: 3503,
             month: 9
         }
-    },
-    color = 'light'
+    }
 }) {
     const { start, end } = employmentDuration;
 
     return (
-        <Paragraph color={color}>
-            <Time color={color} {...start} /> {'\u00a0'} - {'\u00a0'} <Time color={color} {...end} />
+        <Paragraph>
+            <Time {...start} /> {'\u00a0'} - {'\u00a0'} <Time {...end} />
         </Paragraph>
     );
 }

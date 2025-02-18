@@ -4,15 +4,14 @@ import './style.css';
 
 
 function DecoratedTitle({
-    text = 'Decorated Title',
-    color = 'dark'
+    text = 'Decorated Title'
 }) {
 
     return (
         <div className='decorated-title'>
-            <Title text={text} color={color} type='h2' />
+            <Title text={text} type='h2' />
         </div>
     );
 }
 
-export { DecoratedTitle }
+export { DecoratedTitle };

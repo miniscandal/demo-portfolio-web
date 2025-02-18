@@ -1,20 +1,15 @@
 .tool-information {
-    --color-primary: #e1f7ff;
-    --color-primary-glow: #e1f7ff;
-    --color-secondary: #a3fff9;
-    --color-secondary-glow: #a3fff9;
-    --color-background: var(--color-charcoal-grey);
-
     display: flex;
     flex-direction: column-reverse;
 
     > .tool-information__div {
         padding: var(--padding-molecule);
         text-align: center;
+        color: var(--text-color-light);
 
         &:last-child {
             position: relative;
-            background-color: var(--color-background);
+            background-color: #363636;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -23,8 +18,8 @@
                 position: absolute;
                 padding: var(--padding-simple-molecule);
                 border-radius: 50%;
-                background-color: var(--color-primary);
-                box-shadow: 0 0 0.5rem var(--color-primary-glow);
+                background-color: #e1f7ff;
+                box-shadow: 0 0 0.5rem #e1f7ff;
                 z-index: 10;
             }
 
@@ -53,13 +48,13 @@
 @keyframes star-death {
     0% {
         transform: scale(1);
-        background-color: var(--color-primary);
-        box-shadow: 0 0 0.5rem var(--color-primary-glow);
+        background-color: #e1f7ff;
+        box-shadow: 0 0 0.5rem #e1f7ff;
     }
 
     100% {
         transform: scale(0.8);
-        background-color: var(--color-secondary);
-        box-shadow: 0 0 1rem var(--color-secondary-glow);
+        background-color: #a3fff9;
+        box-shadow: 0 0 1rem #a3fff9;
     }
 }

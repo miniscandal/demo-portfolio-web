@@ -3,8 +3,8 @@
     &::after {
         content: '';
         display: block;
-        width: 1.25rem;
+        width: 2rem;
         height: 0.2rem;
-        background-color: var(--color-olive-green);
+        background-color: #e7a86e;
     }
 }
