@@ -1,7 +1,8 @@
 .professional-profile {
 
-    > header {
+    > .decorated-title {
         padding-bottom: var(--padding-container);
+        color: var(--text-title-color);
     }
 
     > section {

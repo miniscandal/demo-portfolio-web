@@ -19,7 +19,7 @@ function CompetencyDescription({
                 </div>
             </div>
             <div className='competency-description__div'>
-                <Paragraph text={text} color='charcoal-grey' />
+                <Paragraph text={text} />
             </div>
         </div>
     );

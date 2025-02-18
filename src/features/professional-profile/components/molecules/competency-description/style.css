@@ -15,8 +15,9 @@
             align-content: center;
             text-align: center;
             padding: var(--padding-molecule);
-            background-color: var(--color-blush-petal);
+            background-color: #ffc1cc;
             border-radius: var(--border-radius-molecule);
+            color: var(--text-color-dark);
 
             @media (width < 40rem) {
                 height: 12rem;

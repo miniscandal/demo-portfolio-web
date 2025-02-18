@@ -12,10 +12,10 @@ function CompetencyName({
     return (
         <div className='competency-name'>
             <div className='competency-name__div'>
-                <IconFontSvg svg={iconFontSvg} color='olive-green' size='regular' />
+                <IconFontSvg svg={iconFontSvg} color='#913e8a' size='regular' />
             </div>
             <div className='competency-name__div'>
-                <Title text={name} type='h3' color='sky-blue' />
+                <Title text={name} type='h3' />
             </div>
         </div>
     );

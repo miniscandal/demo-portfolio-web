@@ -9,12 +9,10 @@ function ProfessionalProfile() {
 
     return (
         <section className='professional-profile'>
-            <header>
-                <DecoratedTitle text='PROFESSIONAL PROFILE' color='charcoal-grey' />
-            </header>
-            <section>
+            <DecoratedTitle text='PROFESSIONAL PROFILE' />
+            <article>
                 <AcquiredCompetencies />
-            </section>
+            </article>
         </section>
     );
 }
