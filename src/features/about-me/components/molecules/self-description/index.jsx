@@ -11,8 +11,8 @@ function SelfDescription({
 
     return (
         <div className='self-description'>
-            <Title text={titleText} type='h4' color='light' />
-            <Paragraph text={description} color='light' />
+            <Title text={titleText} type='h4' />
+            <Paragraph text={description} />
         </div>
     )
 }

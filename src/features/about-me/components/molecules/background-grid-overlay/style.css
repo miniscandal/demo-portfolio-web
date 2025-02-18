@@ -1,22 +1,25 @@
 .background-grid-overlay {
+    --border-color: #ffffff;
+
+
     height: 100%;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(6, 1fr);
-    background-color: var(--color-blush-petal);
+    background-color: #ffc1cc;
     pointer-events: none;
 
     > .background-grid-overlay__div {
-        border-top: solid var(--color-light);
-        border-right: solid var(--color-light);
+        border-top: solid var(--border-color);
+        border-right: solid var(--border-color);
         border-width: var(--border-regular-width);
 
         &:nth-child(5n + 1) {
-            border-left: solid var(--color-light) var(--border-regular-width);
+            border-left: solid var(--border-color) var(--border-regular-width);
         }
 
         &:nth-last-child(-n + 5) {
-            border-bottom: solid var(--color-light) var(--border-regular-width);
+            border-bottom: solid var(--border-color) var(--border-regular-width);
         }
     }
 }

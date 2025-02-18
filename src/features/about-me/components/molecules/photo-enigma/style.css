@@ -1,15 +1,17 @@
 .photo-enigma {
+    --filter-color: #2e2e2e;
+
     -webkit-user-select: none;
     user-select: none;
 
-    filter: brightness(0.8) drop-shadow(0px 0px 4px var(--color-dark));
+    filter: brightness(0.8) drop-shadow(0px 0px 4px var(--filter-color));
 
     &.hidden {
-        filter: brightness(0) drop-shadow(0px 0px 4px var(--color-dark));
+        filter: brightness(0) drop-shadow(0px 0px 4px var(--filter-color));
     }
 
     .picture {
-        transition: filter var(--transition-slow-seconds) ease;
+        transition: filter var(--transition-seconds-show-image) ease;
 
         @starting-style {
             filter: opacity(0);

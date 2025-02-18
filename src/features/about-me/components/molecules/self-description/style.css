@@ -1,5 +1,10 @@
 .self-description {
     > .title {
         padding-bottom: var(--padding-molecule);
+        color: var(--text-title-color);
+    }
+
+    > .paragraph {
+        color: var(--text-paragraph-color);
     }
 }

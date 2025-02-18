@@ -63,7 +63,7 @@ function TechnologicalTools() {
 
     return (
         <article className='technological-tools'>
-            <Title text='Tech Tools and Knowledge' type='h3' color='light' />
+            <Title text='Tech Tools and Knowledge' type='h4' />
             <div className='technological-tools__div'>
                 <DetailsSummary text={text}>
                     <RadioButtonGroup

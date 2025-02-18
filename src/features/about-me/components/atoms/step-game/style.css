@@ -14,7 +14,7 @@
     user-select: none;
 
     &.type-item-center-step {
-        background: linear-gradient(to bottom, var(--color-dark-maroon), var(--color-slate-black));
+        background: linear-gradient(to bottom, #382e31, #515055);
 
         &.pressed {
             animation: pressed-center var(--animation-seconds) ease forwards;
@@ -23,7 +23,7 @@
 
     &.type-item-blue-step {
         transform: scaleY(-1);
-        background: linear-gradient(to bottom, var(--color-vivid-blue), var(--color-night-shadow));
+        background: linear-gradient(to bottom, #1788ce, #2f2e32);
 
         &.pressed {
             animation: pressed-blue var(--animation-seconds) ease forwards;
@@ -39,7 +39,7 @@
     }
 
     &.type-item-red-step {
-        background: linear-gradient(to bottom, var(--color-crimson-red), var(--color-night-shadow));
+        background: linear-gradient(to bottom, #e32223, #2f2e32);
 
         &.pressed {
             animation: pressed-red var(--animation-seconds) ease forwards;

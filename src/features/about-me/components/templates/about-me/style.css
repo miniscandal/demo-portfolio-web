@@ -1,7 +1,12 @@
 .about-me {
+    --text-title-color: #ffb0e5;
+    --text-paragraph-color: #ffe1f5;
+    --bg-color-primary: #633353;
+    --bg-details-summary: #633353;
 
     > .decorated-title {
         padding-bottom: var(--padding-container);
+        color: var(--text-title-color-light);
     }
 
     > .about-me__div {

@@ -1,21 +1,21 @@
 @keyframes selected {
     0% {
-        box-shadow: inset 0 0 0 0.15rem var(--color-bright-yellow);
+        box-shadow: inset 0 0 0 0.15rem #ffff00;
     }
 
     25% {
-        box-shadow: inset 0 0 0 0.15rem var(--color-deep-blue);
+        box-shadow: inset 0 0 0 0.15rem #3d3dd1;
     }
 
     50% {
-        box-shadow: inset 0 0 0 0.15rem var(--color-light-pink);
+        box-shadow: inset 0 0 0 0.15rem #ffb6c1;
     }
 
     75% {
-        box-shadow: inset 0 0 0 0.15rem var(--color-deep-blue);
+        box-shadow: inset 0 0 0 0.15rem #3d3dd1;
     }
 
     100% {
-        box-shadow: inset 0 0 0 0.15rem var(--color-bright-yellow);
+        box-shadow: inset 0 0 0 0.15rem #ffff00;
     }
 }

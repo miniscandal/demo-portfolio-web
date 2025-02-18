@@ -68,7 +68,7 @@ function MiniGame() {
             {
                 endGame
                     ?
-                    <Title text='Oscar González' color='light' type='h3' />
+                    <Title text='Oscar González' type='h3' />
                     :
                     <NextStepButton />
             }

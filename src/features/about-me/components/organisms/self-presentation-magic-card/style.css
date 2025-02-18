@@ -1,5 +1,6 @@
 .self-presentation-magic-card {
 
+
     > .horizontal-poster {
         position: relative;
         width: 80%;
@@ -38,7 +39,7 @@
             inset: 0;
             z-index: 20;
             filter: opacity(0.2);
-            background-color: var(--color-vintage-rose);
+            background-color: var(--bg-color-primary);
         }
 
         @media (width < 30rem) {
