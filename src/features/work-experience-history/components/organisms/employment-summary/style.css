@@ -1,11 +1,23 @@
 .employment-summary {
-    border-left: dotted var(--color-coral-blush) var(--border-large-width);
-    border-right: dotted var(--color-coral-blush) var(--border-large-width);
+    border-left: dotted #e7a86e var(--border-large-width);
+    border-right: dotted #e7a86e var(--border-large-width);
     padding: 0 var(--padding-organism);
 
-    > .employment-summary__div {
-        &:first-child {
-            padding-bottom: var(--padding-simple-organism);
+    > .employment-summary__information {
+        display: flex;
+        flex-direction: column;
+        gap: var(--gap-simple-organism);
+        padding-bottom: var(--padding-simple-organism);
+        color: var(--text-color);
+
+        > .title {
+            color: #2f70af;
+        }
+
+        > .employment-summary__paragraphs {
+            display: flex;
+            flex-direction: column;
+            gap: var(--gap-simple-organism);
         }
     }
 

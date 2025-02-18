@@ -24,23 +24,20 @@ function RelevantSkillsExperience() {
         skillsData: technologicalToolsData,
         Component: ({ value, index, data }) => <ToolInformation key={`${index}-${value}`} {...data} />,
         layoutType: 'grid',
-        columns: '2',
-        titleColor: 'royal-blue'
+        columns: '2'
     };
     const knowledgeImplementationTechKnowledge = {
         textTitle: 'Relevant Tech Knowledge Applied',
         skills: technologicalKnowledge,
         skillsData: technologicalKnowledgeData,
-        Component: ({ value, index, data }) => <KnowledgeInformation key={`${index}-${value}`} {...data} />,
-        titleColor: 'royal-blue'
+        Component: ({ value, index, data }) => <KnowledgeInformation key={`${index}-${value}`} {...data} />
     };
     const knowledgeImplementationSocialCompetencies = {
         textTitle: 'Relevant Interpersonal Aptitudes Applied',
         skills: socialEmotionalCompetencies,
         skillsData: socialEmotionalCompetenciesData,
         Component: ({ value, index, data }) => <InterpersonalCompetencyInformation key={`${index}-${value}`} {...data} />,
-        layoutType: 'flex',
-        titleColor: 'royal-blue'
+        layoutType: 'flex'
     };
 
 

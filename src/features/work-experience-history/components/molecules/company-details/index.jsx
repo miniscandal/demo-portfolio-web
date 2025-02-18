@@ -12,18 +12,16 @@ function CompanyDetails({
     employmentDuration
 }) {
     const text = `${name} - ${industry}`;
-    const color = 'deep-ocean';
 
 
     return (
         <div className='company-details'>
-            <Paragraph size='middle' color={color} text={text} />
+            <Paragraph size='middle' text={text} />
             <div className='company-details__div'>
                 <WorkDateRange
                     employmentDuration={employmentDuration}
-                    color={color}
                 />
-                <Paragraph size='regular' color={color} text={location} />
+                <Paragraph size='regular' text={location} />
             </div>
         </div>
     );

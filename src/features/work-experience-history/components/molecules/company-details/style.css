@@ -1,4 +1,5 @@
 .company-details {
+    color: #586c91;
 
     > .company-details__div {
         display: flex;

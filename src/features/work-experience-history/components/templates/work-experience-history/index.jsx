@@ -30,7 +30,7 @@ function WorkExperienceHistory() {
         }
     }));
 
-    const Components = experienceSummaries.map((value, index) => (
+    const ExperienceSummaries = experienceSummaries.map((value, index) => (
         <WorkExperienceProvider
             key={`work-experience-provider-${index}`}
             Provider={{
@@ -49,7 +49,7 @@ function WorkExperienceHistory() {
                     <ContentVisibilityController />
                 </ContentVisibilityControllerProvider>
                 <div className='work-experience-history__experience-summary'>
-                    {Components}
+                    {ExperienceSummaries}
                 </div>
             </div>
         </section>
