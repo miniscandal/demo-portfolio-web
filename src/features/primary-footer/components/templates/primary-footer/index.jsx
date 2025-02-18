@@ -11,11 +11,9 @@ function PrimaryFooter() {
             <div>
                 <Paragraph
                     text='«No one knows what the future holds, so its potential is endless»'
-                    color='light'
                 />
                 <Paragraph
                     text='-Rintaro Okabe - Steins;Gate (anime series)'
-                    color='light'
                 />
             </div>
             <div>
