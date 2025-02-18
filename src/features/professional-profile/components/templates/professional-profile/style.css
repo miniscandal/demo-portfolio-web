@@ -5,7 +5,7 @@
         color: var(--text-title-color);
     }
 
-    > section {
+    > article {
         max-width: 80rem;
         margin: auto;
     }
