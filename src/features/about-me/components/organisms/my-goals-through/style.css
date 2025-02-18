@@ -10,6 +10,7 @@
     > .title {
         text-align: center;
         padding-top: var(--padding-simple-organism);
+        color: var(--text-color-dark);
     }
 
     &.primary-scene {

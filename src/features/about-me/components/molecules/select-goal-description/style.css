@@ -1,12 +1,70 @@
 .select-goal-description {
     display: block;
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 2rem;
+    height: 2rem;
     overflow: hidden;
-    border: solid var(--color-light);
+    border: solid var(--border-light);
     border-radius: var(--border-radius-atom);
+    position: relative;
+
+    &::after {
+        content: "";
+        color: var(--text-color-light);
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
 
     &:has(input[type='radio']:checked) {
-        background-color: var(--color-light);
+        background-color: #6b6b6b;
+
+        &::after {
+            content: "✓";
+        }
+    }
+
+    &:has(input[type='radio']:not(:checked)) {
+        animation: bounce 1s cubic-bezier(0.25, 0.1, 0.25, 1) infinite;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &:hover {
+            animation: unset;
+            filter: var(--filter-brightness-hover);
+        }
+
+
+        &::after {
+            content: "";
+        }
+    }
+}
+
+@keyframes bounce {
+    0% {
+        transform: rotate(0);
+    }
+
+    20% {
+        transform: rotate(10deg);
+    }
+
+    40% {
+        transform: rotate(-10deg);
+    }
+
+    60% {
+        transform: rotate(10deg);
+    }
+
+    80% {
+        transform: rotate(-10deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
     }
 }

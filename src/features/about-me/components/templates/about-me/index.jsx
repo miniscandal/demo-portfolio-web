@@ -20,7 +20,7 @@ function AboutMe() {
 
     return (
         <section className='about-me'>
-            <DecoratedTitle text='ABOUT ME' color='light' />
+            <DecoratedTitle text='ABOUT ME' />
             <div className='about-me__div'>
                 <SelfDescriptionPresentationProfile />
                 <ContentVisibilityControllerProvider Provider={updatedProvider}>
