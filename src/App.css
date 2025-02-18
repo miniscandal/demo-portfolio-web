@@ -1,16 +1,5 @@
 @import url('./shared/components/atoms/colors/style.css');
 
-.toggle-theme {
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 10;
-    padding: 1rem;
-    display: flex;
-    gap: 1rem;
-    background-color: rgb(94, 94, 94);
-}
-
 
 scroll-container {
     scroll-page {
@@ -31,7 +20,7 @@ scroll-container {
         }
 
         &#professional-profile {
-            background-color: var(--color-rose-water);
+            background-color: var(--bg-page-professional-profile);
         }
 
         &#about-me {
@@ -39,7 +28,7 @@ scroll-container {
         }
 
         &#primary-footer {
-            background-color: var(--color-coffee-brown);
+            background-color: var(--bg-page-primary-footer);
         }
     }
 }

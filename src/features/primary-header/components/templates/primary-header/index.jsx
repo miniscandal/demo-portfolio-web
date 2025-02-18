@@ -4,6 +4,7 @@ import { MiniMessagesContext } from '@feat-primary-header-contexts/mini-messages
 
 import { ChessboardNav } from '@feat-primary-header-organisms/chessboard-nav';
 import { HeaderProfileData } from '@feat-primary-header-organisms/header-profile-data';
+import { ToggleTheme } from '@feat-primary-header-organisms/toggle-theme';
 
 import { Picture } from '@shared-atoms/picture';
 
@@ -15,8 +16,10 @@ import './style.css';
 function PrimaryHeader() {
     const { miniMessages } = useContext(MiniMessagesContext);
 
+
     return (
         <header className='primary-header'>
+            <ToggleTheme />
             <div className='primary-header__background-image'>
                 <Picture src={backgroundImg} size='adaptive' objectFit='cover' />
             </div>
