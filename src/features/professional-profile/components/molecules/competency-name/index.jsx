@@ -12,7 +12,7 @@ function CompetencyName({
     return (
         <div className='competency-name'>
             <div className='competency-name__div'>
-                <IconFontSvg svg={iconFontSvg} color='#913e8a' size='regular' />
+                <IconFontSvg svg={iconFontSvg} size='regular' />
             </div>
             <div className='competency-name__div'>
                 <Title text={name} type='h3' />

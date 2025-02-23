@@ -4,11 +4,12 @@
 
         &:first-child {
             justify-items: center;
+            color: #f482be;
         }
 
         &:last-child {
             text-align: center;
-            color: #4886af;
+            color: #ff909b;
         }
     }
 }

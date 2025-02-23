@@ -1,8 +1,22 @@
+.scheme-theme {
+    color: #f482be;
+    color: #ffbfc1;
+    color: #ff909b;
+
+
+    /* Dynamic color scheme */
+
+    /* Light */
+    color: #f9e5e7;
+    /* Dark */
+    color: #37424e;
+}
+
 .professional-profile {
 
     > .decorated-title {
-        padding-bottom: var(--padding-container);
         color: var(--text-title-color);
+        padding-bottom: var(--padding-container);
     }
 
     > article {
