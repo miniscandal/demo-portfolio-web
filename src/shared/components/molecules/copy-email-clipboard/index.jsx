@@ -23,7 +23,7 @@ function CopyEmailClipboard({
 
     return (
         <div className={`copy-email-clipboard ${classList.join(' ')}`} onClick={handleClick}>
-            <Paragraph text='copy my contact email to clipboard' color='light' />
+            <Paragraph text='copy my contact email to clipboard' />
         </div>
     );
 }

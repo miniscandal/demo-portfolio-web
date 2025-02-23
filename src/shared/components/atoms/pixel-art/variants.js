@@ -6,6 +6,16 @@ const PIXEL_ART_ANIME_KURISU = 'anime-kurisu';
 const PIXEL_ART_ANIME_KANAO = 'anime-kanao';
 const PIXEL_ART_ANIME_KOMI = 'anime-komi';
 
+
+
+
+const PIXEL_ART_ADVENTURE_TIME_JAKE_THE_DOG = 'anime-jake-the-dog';
+const PIXEL_ART_ADVENTURE_TIME_BMO = 'anime-bmo';
+
+
+
+
+
 const PIXEL_ART_ANIME_ITSUKI_NAKANO_CARD = 'anime-itsuki-nakano-card';
 const PIXEL_ART_ANIME_MIKU_NAKANO_CARD = 'anime-miku-nakano-card';
 const PIXEL_ART_ANIME_YOTSUBA_NAKANO_CARD = 'anime-yotsuba-nakano-card';
@@ -61,6 +71,9 @@ const PIXEL_ART_ITEM_PUMP_GAME = 'item-pump-game';
 const PIXEL_ART_ITEM_PUMP_GAME_BLUE_STEP = 'item-pump-game-blue-step';
 const PIXEL_ART_ITEM_PUMP_GAME_RED_STEP = 'item-pump-game-red-step';
 const PIXEL_ART_ITEM_PUMP_GAME_CENTER_STEP = 'item-pump-game-center-step';
+const PIXEL_ART_ITEM_DANGO_BLUE = 'item-dango-blue';
+const PIXEL_ART_ITEM_DANGO_PINK = 'item-dango-pink';
+const PIXEL_ART_ITEM_DANGO_YELLOW = 'item-dango-yellow';
 
 
 export {
@@ -126,5 +139,10 @@ export {
     PIXEL_ART_ITEM_PUMP_GAME,
     PIXEL_ART_ITEM_PUMP_GAME_BLUE_STEP,
     PIXEL_ART_ITEM_PUMP_GAME_RED_STEP,
-    PIXEL_ART_ITEM_PUMP_GAME_CENTER_STEP
+    PIXEL_ART_ITEM_PUMP_GAME_CENTER_STEP,
+    PIXEL_ART_ADVENTURE_TIME_JAKE_THE_DOG,
+    PIXEL_ART_ADVENTURE_TIME_BMO,
+    PIXEL_ART_ITEM_DANGO_BLUE,
+    PIXEL_ART_ITEM_DANGO_PINK,
+    PIXEL_ART_ITEM_DANGO_YELLOW
 };

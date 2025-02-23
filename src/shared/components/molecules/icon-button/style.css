@@ -2,7 +2,7 @@
     display: block;
     justify-items: center;
     background-color: transparent;
-    border: dashed var(--border-regular-width) var(--color-charcoal-grey);
+    border: dashed var(--border-width-regular) var(--color-charcoal-grey);
     border-radius: var(--border-radius-molecule);
     cursor: pointer;
 

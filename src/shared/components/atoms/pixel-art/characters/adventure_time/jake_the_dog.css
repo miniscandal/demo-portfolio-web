@@ -1,9 +1,10 @@
-.jake {
-    animation: jake 3s infinite;
+.anime-jake-the-dog {
+    animation: jake-the-dog 3s infinite;
+
     transform: scale(0.1);
 }
 
-@keyframes jake {
+@keyframes jake-the-dog {
 
     0%,
     25% {

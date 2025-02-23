@@ -4,7 +4,7 @@
     > summary {
         padding: var(--padding-molecule);
         border-radius: var(--border-radius-simple-molecule);
-        filter: var(--filter-contrast-default);
+        filter: var(--filter-saturate-default);
     }
 
     > ol {

@@ -1,11 +1,11 @@
 .manga-dialog {
-    padding-bottom: calc(1rem + var(--border-large-width) - 0.40rem);
+    padding-bottom: calc(1rem + var(--border-width-large) - 0.40rem);
     position: relative;
 
     > .manga-dialog__div {
         height: 100%;
         border-radius: 50%;
-        border: solid var(--border-large-width) var(--border-dark);
+        border: solid var(--border-width-large) var(--border-dark);
 
 
         > div {
@@ -27,9 +27,9 @@
         width: 1rem;
         height: 1rem;
         left: 50%;
-        transform: translate(-50%, calc(-0.40rem - var(--border-large-width))) rotate(45deg);
-        border-right: solid var(--border-large-width) var(--border-dark);
-        border-bottom: solid var(--border-large-width) var(--border-dark);
+        transform: translate(-50%, calc(-0.40rem - var(--border-width-large))) rotate(45deg);
+        border-right: solid var(--border-width-large) var(--border-dark);
+        border-bottom: solid var(--border-width-large) var(--border-dark);
         background-color: var(--bg-light);
     }
 

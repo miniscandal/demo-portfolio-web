@@ -16,7 +16,7 @@
         content: '';
         position: absolute;
         inset: var(--padding-simple-molecule);
-        border: dashed var(--border-regular-width) var(--border-light);
+        border: dashed var(--border-width-regular) var(--border-light);
         transition: inset var(--transition-fast-seconds) linear;
     }
 }

@@ -28,6 +28,16 @@
 @import url('./characters/anime-original/minicode-animation-v3.css');
 @import url('./characters/anime-original/minicode-animation-v4.css');
 
+
+
+
+@import url('./characters/adventure_time/jake_the_dog.css');
+@import url('./characters/adventure_time/bmo.css');
+
+
+
+
+
 @import url('./items/desk.css');
 @import url('./items/whiteboard.css');
 @import url('./items/microwave-steins-gate.css');
@@ -59,6 +69,9 @@
 @import url('./items/pump-game-red-step.css');
 @import url('./items/pump-game-center-step.css');
 @import url('./items/domo-animation.css');
+@import url('./items/dango-blue.css');
+@import url('./items/dango-pink.css');
+@import url('./items/dango-yellow.css');
 
 
 .pixel-art {
@@ -247,6 +260,55 @@
             }
         }
     }
+
+
+
+
+
+
+
+
+
+
+    &.art-anime-jake-the-dog {
+
+        &.regular {
+            width: 13rem;
+            height: 13rem;
+
+            > div {
+                transform: scale(1.2);
+            }
+        }
+    }
+
+    &.art-anime-bmo {
+
+        &.small {
+            width: 3.4rem;
+            height: 3.25rem;
+
+            > div {
+                transform: scale(0.6);
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     &.art-item-whiteboard {
         &.regular {
@@ -550,6 +612,23 @@
             }
         }
     }
+
+    &.art-item-dango-blue,
+    &.art-item-dango-yellow,
+    &.art-item-dango-pink {
+
+        &.regular {
+            width: 3.6rem;
+            height: 3rem;
+
+            > div {
+                transform: scale(0.7);
+            }
+        }
+    }
+
+
+
 
     &.art-anime-komi {
         &.regular {

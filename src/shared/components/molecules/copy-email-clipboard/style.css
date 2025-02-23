@@ -1,7 +1,7 @@
 .copy-email-clipboard {
     position: relative;
     border: solid var(--border-light);
-    border-width: 0 var(--border-regular-width);
+    border-width: 0 var(--border-width-regular);
     padding: 0 var(--padding-molecule);
     -webkit-user-select: none;
     user-select: none;
@@ -29,7 +29,7 @@
             left: 50%;
             transform: translate(-50%, -50%);
             border: solid var(--border-light);
-            border-width: var(--border-regular-width) 0;
+            border-width: var(--border-width-regular) 0;
             animation: border-box 0.3s forwards;
         }
     }
