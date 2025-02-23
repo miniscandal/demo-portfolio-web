@@ -1,6 +1,6 @@
 .employment-summary {
-    border-left: dotted #e7a86e var(--border-large-width);
-    border-right: dotted #e7a86e var(--border-large-width);
+    border-left: dotted #d49c6b var(--border-width-large);
+    border-right: dotted #d49c6b var(--border-width-large);
     padding: 0 var(--padding-organism);
 
     > .employment-summary__information {
@@ -11,7 +11,8 @@
         color: var(--text-color);
 
         > .title {
-            color: #2f70af;
+            color: var(--text-color);
+            color: #d49c6b;
         }
 
         > .employment-summary__paragraphs {

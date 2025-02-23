@@ -2,13 +2,14 @@ import { useContext } from 'react';
 
 import { WorkExperienceContext } from '@feat-work-experience-history-contexts/work-experience';
 
+import { WorkExperienceTimelineContext } from '@feat-work-experience-history-contexts/work-experience-timeline';
+
 import { ToolInformation } from '@shared-molecules/tool-information';
 import { KnowledgeInformation } from '@shared-molecules/knowledge-information';
 import { KnowledgeImplementation } from '@shared-organisms/knowledge-implementation';
 import { InterpersonalCompetencyInformation } from '@shared-molecules/interpersonal-competency-information';
 
 import './style.css';
-import { WorkExperienceTimelineContext } from '@feat-work-experience-history-contexts/work-experience-timeline';
 
 
 function RelevantSkillsExperience() {

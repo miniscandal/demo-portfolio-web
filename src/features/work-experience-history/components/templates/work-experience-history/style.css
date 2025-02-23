@@ -1,5 +1,17 @@
+.scheme-theme {
+    color: #d49c6b;
+
+
+    /* Dynamic color scheme */
+
+    /* Light */
+    color: #d4dbe2;
+    /* Dark */
+    color: #37424e;
+}
+
 .work-experience-history {
-    --bg-details-summary: #ff8952;
+    --bg-secondary: #d49c6b;
 
 
     > .decorated-title {
@@ -23,7 +35,7 @@
                 color: var(--text-color-dark);
 
                 > summary {
-                    background-color: var(--bg-details-summary);
+                    background-color: var(--bg-secondary);
                 }
             }
         }

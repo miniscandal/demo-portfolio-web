@@ -3,7 +3,7 @@
     flex-direction: column;
     border-radius: var(--border-radius-simple-molecule);
     padding: var(--padding-molecule);
-    background-color: var(--bg-details-summary);
+    background-color: var(--bg-secondary);
 
 
     > .select-employment-summary__time {
