@@ -18,7 +18,7 @@
     }
 
     &:has(input[type='radio']:checked) {
-        background-color: #6b6b6b;
+        background-color: #584056;
 
         &::after {
             content: "✓";

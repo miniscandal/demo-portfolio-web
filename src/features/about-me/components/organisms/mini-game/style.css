@@ -1,6 +1,6 @@
 .mini-game {
     > .title {
-        color: var(--text-title-color);
+        color: var(--text-title-color-light);
         transition: filter var(--transition-slow-seconds) ease;
 
         @starting-style {
@@ -12,6 +12,6 @@
         width: fit-content;
         font-family: var(--font-family-manga);
         padding-bottom: var(--padding-molecule);
-        color: #d8d800;
+        color: #ffc509;
     }
 }

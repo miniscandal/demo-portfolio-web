@@ -1,4 +1,17 @@
 .my-goals-through {
+    --color-science-lab-background: #95aab8;
+    --color-science-lab-floor: #b0bec5;
+    --color-science-lab-shadow-light: #90a4ae;
+    --color-science-lab-shadow-medium: #78909c;
+    --color-science-lab-shadow-dark: #607d8b;
+
+    --color-wooden-room-background: #d6bda2;
+    --color-wooden-room-floor: #d7a67a;
+    --color-wooden-room-shadow-light: #c38c5c;
+    --color-wooden-room-shadow-medium: #b77b52;
+    --color-wooden-room-shadow-dark: #a06a47;
+
+
     width: min(100%, 36rem);
     border-radius: var(--border-radius-simple-organism);
     overflow: hidden;

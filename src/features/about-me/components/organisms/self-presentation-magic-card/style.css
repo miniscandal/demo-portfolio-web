@@ -1,12 +1,11 @@
 .self-presentation-magic-card {
 
-
     > .horizontal-poster {
         position: relative;
         width: 80%;
         margin: auto;
         transform: translateY(15%);
-        z-index: 10;
+        z-index: 30;
 
         @media (width < 30rem) {
             width: 95%;
@@ -39,7 +38,7 @@
             inset: 0;
             z-index: 20;
             filter: opacity(0.2);
-            background-color: var(--bg-color-primary);
+            background-color: #ff9bd1;
         }
 
         @media (width < 30rem) {

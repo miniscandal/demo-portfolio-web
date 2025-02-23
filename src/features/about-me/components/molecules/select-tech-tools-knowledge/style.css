@@ -2,5 +2,5 @@
     display: flex;
     border-radius: var(--border-radius-molecule);
     padding: var(--padding-molecule);
-    background-color: var(--bg-details-summary);
+    background-color: var(--bg-secondary);
 }

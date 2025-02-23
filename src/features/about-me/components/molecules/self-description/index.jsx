@@ -14,7 +14,7 @@ function SelfDescription({
             <Title text={titleText} type='h4' />
             <Paragraph text={description} />
         </div>
-    )
+    );
 }
 
 export { SelfDescription };

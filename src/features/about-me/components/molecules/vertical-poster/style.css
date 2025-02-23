@@ -2,7 +2,7 @@
     font-family: var(--font-family-manga);
     text-orientation: upright;
     writing-mode: vertical-lr;
-    background-color: var(--bg-light);
+    background-color: #ffffff;
     padding: var(--padding-molecule) 0;
     color: var(--text-color-dark);
 }

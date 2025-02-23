@@ -1,20 +1,22 @@
+.scheme-theme {
+    color: #500047;
+    color: #ff9bd1;
+    color: #ffc509;
+    color: #523f50;
+    color: #584b56;
+
+
+    /* Dynamic color scheme */
+
+    /* Light */
+    color: #70546d;
+    /* Dark */
+    color: #523f50;
+}
+
 .about-me {
-    --text-title-color: #ffb0e5;
-    --text-paragraph-color: #ffe1f5;
-    --bg-color-primary: #633353;
-    --bg-details-summary: #633353;
-
-    --color-science-lab-background: #95aab8;
-    --color-science-lab-floor: #b0bec5;
-    --color-science-lab-shadow-light: #90a4ae;
-    --color-science-lab-shadow-medium: #78909c;
-    --color-science-lab-shadow-dark: #607d8b;
-
-    --color-wooden-room-background: #d6bda2;
-    --color-wooden-room-floor: #d7a67a;
-    --color-wooden-room-shadow-light: #c38c5c;
-    --color-wooden-room-shadow-medium: #b77b52;
-    --color-wooden-room-shadow-dark: #a06a47;
+    --text-subtitle-color: var(--text-title-color-light);
+    --bg-secondary: #584b56;
 
 
     > .decorated-title {
