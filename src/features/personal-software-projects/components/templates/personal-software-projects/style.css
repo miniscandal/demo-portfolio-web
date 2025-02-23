@@ -1,0 +1,10 @@
+.personal-software-projects {
+
+    > header {
+        padding-bottom: var(--padding-container);
+    }
+
+    > section {
+        justify-items: center;
+    }
+}
