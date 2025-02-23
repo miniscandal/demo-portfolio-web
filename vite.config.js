@@ -15,10 +15,10 @@ export default defineConfig({
             '@core-services-api-rest-github-profile': '/src/core/services/api-rest/github-profile/',
             '@core-validators': '/src/core/validators/',
 
-            '@feat-primary-header-molecules': '/src/features/primary-header/components/molecules/',
-            '@feat-primary-header-organisms': '/src/features/primary-header/components/organisms/',
-            '@feat-primary-header-templates': '/src/features/primary-header/components/templates/',
-            '@feat-primary-header-contexts': '/src/features/primary-header/contexts/',
+            '@feat-main-header-molecules': '/src/features/main-header/components/molecules/',
+            '@feat-main-header-organisms': '/src/features/main-header/components/organisms/',
+            '@feat-main-header-templates': '/src/features/main-header/components/templates/',
+            '@feat-main-header-contexts': '/src/features/main-header/contexts/',
 
             '@feat-work-experience-history-molecules': '/src/features/work-experience-history/components/molecules/',
             '@feat-work-experience-history-organisms': '/src/features/work-experience-history/components/organisms/',
@@ -26,9 +26,9 @@ export default defineConfig({
             '@feat-work-experience-history-contexts': '/src/features/work-experience-history/contexts/',
             '@feat-work-experience-history-utils': '/src/features/work-experience-history/utils/',
 
-            '@feat-primary-footer-molecules': '/src/features/primary-footer/components/molecules/',
-            '@feat-primary-footer-organisms': '/src/features/primary-footer/components/organisms/',
-            '@feat-primary-footer-templates': '/src/features/primary-footer/components/templates/',
+            '@feat-main-footer-molecules': '/src/features/main-footer/components/molecules/',
+            '@feat-main-footer-organisms': '/src/features/main-footer/components/organisms/',
+            '@feat-main-footer-templates': '/src/features/main-footer/components/templates/',
 
             '@feat-professional-profile-molecules': '/src/features/professional-profile/components/molecules/',
             '@feat-professional-profile-organisms': '/src/features/professional-profile/components/organisms/',
