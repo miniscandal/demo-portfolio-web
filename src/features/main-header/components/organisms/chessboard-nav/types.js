@@ -1,0 +1,5 @@
+const VARIANT_ACTIVITY_BAR_CHESSBOARD_NAV = 'activity-bar';
+
+export {
+    VARIANT_ACTIVITY_BAR_CHESSBOARD_NAV
+};

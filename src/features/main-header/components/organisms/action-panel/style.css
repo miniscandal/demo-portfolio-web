@@ -1,0 +1,38 @@
+.action-panel {
+    justify-items: center;
+
+    > .action-panel__controller {
+        filter: opacity(0.95);
+        padding-bottom: var(--padding-simple-molecule);
+    }
+}
+
+.action-panel {
+
+    &.activity-bar {
+        position: fixed;
+        top: 0;
+        width: 100vw;
+        z-index: 40;
+
+        > .action-panel__controller {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            padding: var(--padding-simple-molecule) 0;
+            gap: var(--gap-simple-organism);
+            background-color: var(--bg-body);
+        }
+
+        > .action-panel__nav {
+            display: none;
+        }
+    }
+
+    :has(input[type='checkbox']:checked) {
+
+        + .action-panel__nav {
+            display: block;
+        }
+    }
+}

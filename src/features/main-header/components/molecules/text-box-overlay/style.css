@@ -1,0 +1,49 @@
+.text-box-overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: var(--text-color-light-anchor);
+    background-color: var(--filter-overlay-content);
+    filter: var(--filter-overlay-opacity);
+
+    > .text-box-overlay__div {
+        transform: rotate(-45deg);
+
+        @media (width < 70rem) {
+            text-align: center;
+        }
+    }
+
+    &.regular {
+        width: 12.5rem;
+        height: 12.5rem;
+    }
+
+    &.adaptive {
+        width: 100%;
+        height: 100%;
+    }
+
+    &:hover {
+        &::before {
+            inset: -10%;
+        }
+    }
+
+    &::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        border: solid var(--border-width-regular) var(--border-light);
+        transition: inset var(--transition-fast-seconds) ease-in-out;
+        background-color: var(--filter-overlay-content);
+        filter: var(--filter-overlay-opacity);
+    }
+}
+
+.text-box-overlay {
+    &.activity-bar {
+        filter: opacity(0.9);
+    }
+}

@@ -1,0 +1,48 @@
+/*
+order: -1 ensures that the title appears as the first child of the section to
+meet the CEO's design requirements.
+*/
+
+.header-content {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    overflow: hidden;
+
+
+    > .header-content__section {
+        padding: var(--padding-viewport);
+        position: relative;
+
+        > * {
+            z-index: 10;
+        }
+
+        &::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background-color: var(--color-dark);
+            filter: var(--filter-opacity);
+            border-radius: var(--border-radius-simple-organism);
+
+            @media (width < 60rem) {
+                display: none;
+            }
+        }
+
+        display: flex;
+        flex-direction: column;
+        gap: var(--padding-simple-organism);
+        z-index: 10;
+
+        > .header-content__section--div {
+            order: -1;
+        }
+    }
+
+    > nav {
+        margin-left: auto;
+        padding-bottom: var(--padding-simple-organism);
+        /* transform: rotate(45deg); */
+    }
+}

@@ -1,0 +1,20 @@
+.select-navigation-menu {
+    text-align: center;
+    background-color: #ffc685;
+    padding: var(--padding-simple-molecule);
+    border-radius: var(--border-radius-atom);
+    filter: opacity(0.9);
+    transition:
+        transform var(--transition-fast-seconds) ease,
+        box-shadow var(--transition-fast-seconds) ease;
+
+    &:has(input[type='checkbox']:checked) {
+        filter: unset;
+        box-shadow: var(--box-shadow-selected);
+        transform: var(--transform-translate-selected);
+    }
+
+    &:hover {
+        filter: var(--filter-brightness-hover);
+    }
+}
