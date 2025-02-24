@@ -25,16 +25,16 @@ function ChessboardNav({
             idAnchor: SCROLL_PAGE_WORK_EXPERIENCE_HISTORY
         },
         {
-            id: 'about-me',
-            text: 'ABOUT ME',
-            symbol: '02',
-            idAnchor: SCROLL_PAGE_ABOUT_ME
-        },
-        {
             id: 'personal-software-projects',
             text: 'PERSONAL PROJECTS',
-            symbol: '03',
+            symbol: '02',
             idAnchor: SCROLL_PAGE_PERSONAL_SOFTWARE_PROJECTS
+        },
+        {
+            id: 'about-me',
+            text: 'ABOUT ME',
+            symbol: '03',
+            idAnchor: SCROLL_PAGE_ABOUT_ME
         },
         {
             id: 'professional-profile',

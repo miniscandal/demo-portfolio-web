@@ -2,8 +2,7 @@
     justify-items: center;
 
     > .action-panel__controller {
-        filter: opacity(0.95);
-        padding-bottom: var(--padding-simple-molecule);
+        padding-bottom: var(--padding-molecule);
     }
 }
 
@@ -19,9 +18,10 @@
             width: 100%;
             display: flex;
             justify-content: center;
-            padding: var(--padding-simple-molecule) 0;
+            padding: var(--padding-molecule);
             gap: var(--gap-simple-organism);
-            background-color: var(--bg-body);
+            background-color: color-mix(in srgb, var(--bg-body) 90%, transparent);
+
         }
 
         > .action-panel__nav {

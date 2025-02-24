@@ -1,4 +1,7 @@
 .manga-dialog {
+    --bg-primary: #ffffff;
+
+
     padding-bottom: calc(1rem + var(--border-width-large) - 0.40rem);
     position: relative;
 
@@ -14,7 +17,7 @@
             align-content: center;
             border-radius: 50%;
             text-align: center;
-            background-color: var(--bg-light);
+            background-color: var(--bg-primary);
             font-family: var(--font-family-manga);
             color: var(--text-color-dark);
         }
@@ -30,7 +33,7 @@
         transform: translate(-50%, calc(-0.40rem - var(--border-width-large))) rotate(45deg);
         border-right: solid var(--border-width-large) var(--border-dark);
         border-bottom: solid var(--border-width-large) var(--border-dark);
-        background-color: var(--bg-light);
+        background-color: var(--bg-primary);
     }
 
     &.regular {

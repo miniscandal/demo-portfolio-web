@@ -9,139 +9,7 @@
 }
 
 :root {
-    /* 
-
-    --color-muted-purple: #584b58;
-    --color-slate-gray: #554d74;
-    --color-coffee-brown: #453c41;
-    --color-charcoal-grey: #48494a;
-    --color-smoky-purple: #7b586b;
-    --color-light-silver: #d4dbe2;
-    --color-warm-silver: #b0bbbf;
-    --color-olive-green: #9dac38;
-    --color-deep-ocean: #586c91;
-    --color-royal-blue: #2f70af;
-    --color-sky-blue: #4886af;
-    --color-heather-mist: #a0849d;
-    --color-cream-light: #ecd7bb;
-    --color-rose-water: #fbeefb;
-    --color-blush-petal: #ffc1cc;
-    --color-vintage-rose: #6e315a;
-
-
-    --color-misty-gray: #d4dbe266;
-    --color-misty-gray: #b1b0ae;
-
-
-    --color-charcoal-shadow: #3b3b3b;
-    --color-soft-moss: #d4d4d4;
-    --color-violet-dusk: #9856be;
-    --color-muted-lavender: #9696ff;
-    --color-coral-blush: #ff6432;
-    --color-bright-yellow: #ffff00;
-    --color-deep-blue: #3d3dd1;
-    --color-light-pink: #ffb6c1;
-    --color-dark-maroon: #382e31;
-    --color-slate-black: #515055;
-    --color-vivid-blue: #1788ce;
-    --color-night-shadow: #2f2e32;
-    --color-crimson-red: #e32223;
-
-
-    --color-science-lab-background: #95aab8;
-    --color-science-lab-floor: #b0bec5;
-    --color-science-lab-shadow-light: #90a4ae;
-    --color-science-lab-shadow-medium: #78909c;
-    --color-science-lab-shadow-dark: #607d8b;
-
-    --color-wooden-room-background: #d6bda2;
-    --color-wooden-room-floor: #d7a67a;
-    --color-wooden-room-shadow-light: #c38c5c;
-    --color-wooden-room-shadow-medium: #b77b52;
-    --color-wooden-room-shadow-dark: #a06a47; */
-
-
-
-
     color-scheme: light dark;
-
-    --filter-overlay-art: #554d74;
-    --filter-overlay-content: #472f47;
-    --filter-overlay-opacity: opacity(0.65);
-
-
-    --transition-filter: filter 0.25s linear;
-    --filter-contrast-default: saturate(1.25);
-    --filter-brightness-base: brightness(1.25);
-    --filter-brightness-hover: brightness(0.95);
-    --filter-contrast-selected: contrast(1.25);
-
-
-    --filter-contrast-base: saturate(1);
-
-
-    --border-light: #d4dbe2;
-    --border-dark: #303030;
-
-
-    --text-color-light-anchor: #dcdcfa;
-
-    --text-title-color-light: #f2f2f2;
-
-
-    --text-color-light: #e6e6e6;
-    --text-color-dark: #2e2e2e;
-
-
-    --bg-light: #f0f0f0;
-
-
-    --bg-btn-download: #ff66b2;
-
-
-    --transition-seconds-show-image: 1.5s;
-
-
-
-
-
-    /* Dynamic color scheme */
-
-    --bg-page-work-experience: #d4dbe2;
-
-    --bg-page-about-me: #7b586b;
-
-    --bg-page-professional-profile: #fbeefb;
-
-    --bg-page-primary-footer: #453c41;
-
-
-    --border-btn: #d4dbe2;
-
-
-    --bg-body: #525252;
-    --bg-box-info: #646464;
-
-
-    --text-color: #2e2e2e;
-
-    --text-title-color: #52c724;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     --padding-viewport: 1rem;
 
@@ -153,9 +21,8 @@
     --padding-simple-organism: 2rem;
     --padding-organism: 4rem;
 
-    --padding-simple-container: 6rem;
+    /* --padding-simple-container: 6rem; */
     --padding-container: 8rem;
-
 
 
     --gap-simple-molecule: 0.5rem;
@@ -165,7 +32,7 @@
     --gap-organism: 4rem;
 
     --gap-simple-container: 6rem;
-    --gap-container: 8rem;
+    /* --gap-container: 8rem; */
 
 
 
@@ -177,10 +44,38 @@
     --border-radius-simple-organism: 0.85rem;
 
 
+    --border-width-regular: 0.05rem;
+    --border-width-large: 0.2rem;
 
-    --border-regular-width: 0.05rem;
-    --border-large-width: 0.2rem;
 
+    --filter-saturate-default: saturate(1.25);
+    --filter-brightness-base: brightness(1.25);
+    --filter-brightness-hover: brightness(0.95);
+    --filter-contrast-selected: contrast(1.25);
+
+    --transition-filter: filter 0.25s linear;
+
+    --transition-filter-show-image: filter 1.5s ease;
+
+
+    --border-light: #e0e0e0;
+    --border-dark: #4e4e4e;
+
+
+    --text-title-color-light: #e0e0e0;
+    --text-color-light: #e0e0e0;
+
+    --text-title-color-dark: #4e4e4e;
+    --text-color-dark: #2e2e2e;
+
+    --text-color-light-anchor: #dcdcfa;
+
+
+    --bg-light: #e0e0e0;
+    --bg-dark: #2f3b47;
+
+
+    --bg-btn-download: #ff66b2;
 
 
     --transition-fast-seconds: 0.3s;
@@ -188,43 +83,49 @@
     --transition-duration-show-content: 2s;
 
 
-
     --font-family-pixel-art: 'Courier New', Consolas;
-    --font-family-impact: Impact;
     --font-family-manga: Yoruka;
 
 
-    --paragraph-gap: 1.5rem;
+
+    /* Dynamic color scheme */
+
+    --border-highlight: #d4dbe2;
+
+    --bg-body: #e0e0e0;
+    --bg-box-info: #646464;
+
+    --text-title-color: #4e4e4e;
+    --text-color: #2e2e2e;
+
+    --bg-page-main-header: #554d74;
+    --bg-page-work-experience-history: #d4dbe2;
+    --bg-page-about-me: #70546d;
+    --bg-page-professional-profile: #f9e5e7;
+    --bg-page-main-footer: #555555;
 
 
-    @media (prefers-color-scheme: dark) {
-        --text-title-color: #e0e0e0;
-        --text-color: #e6e6e6;
-        --bg-page-work-experience: #303030;
-    }
+    :has(input[type='radio'][for='dark-theme']:checked) {
+        --bg-body: #2f3b47;
 
-    &:has(input[type='radio'][id='dark-theme']:checked) {
-        --text-title-color: #e0e0e0;
-        --text-color: #e6e6e6;
-        --bg-page-work-experience: #303030;
-    }
+        --text-title-color: #e5e5e5;
+        --text-color: #e0e0e0;
 
-    &:has(input[type='radio'][id='light-theme']:checked) {
-        --text-title-color: #1e1e1e;
-        --text-color: #2e2e2e;
-        --bg-page-work-experience: #d4dbe2;
+        --bg-page-main-header: #37424e;
+        --bg-page-work-experience-history: #37424e;
+        --bg-page-about-me: #523f50;
+        --bg-page-professional-profile: #37424e;
+        --bg-page-main-footer: #4b4b4b;
     }
 }
+
 
 *,
 *::before,
 *::after {
     box-sizing: border-box;
-}
-
-* {
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
 
 html {
@@ -232,6 +133,9 @@ html {
 }
 
 body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+
     font-family: Figtree, 'Segoe UI Emoji', helvetica;
 }
 
@@ -243,4 +147,13 @@ body {
 
 li {
     list-style: none;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
 }

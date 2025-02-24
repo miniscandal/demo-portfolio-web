@@ -14,8 +14,10 @@ function HeaderProfileData({
 
     return (
         <article className='header-profile-data'>
-            <ProfessionalInformation />
-            <ProfessionalContact />
+            <div className='header-profile-data__div'>
+                <ProfessionalInformation />
+                <ProfessionalContact />
+            </div>
             <CharacterSpeech
                 messages={miniMessages}
                 character={PIXEL_ART_ANIME_MINICODE_ANIMATION_V1}

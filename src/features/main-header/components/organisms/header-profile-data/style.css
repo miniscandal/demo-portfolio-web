@@ -10,8 +10,20 @@ meet the CEO's design requirements.
     padding: var(--padding-viewport);
     position: relative;
 
-    > .professional-information,
-    > .professional-contact,
+    > .header-profile-data__div {
+
+        > .professional-information {
+            padding-bottom: var(--padding-simple-organism);
+        }
+
+        @media (width < 90rem) {
+            padding: var(--padding-simple-organism);
+            border-radius: var(--border-radius-simple-organism);
+            background-color: #885488;
+        }
+    }
+
+    > .header-profile-data__div,
     > .character-speech {
         z-index: 10;
     }

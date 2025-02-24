@@ -1,6 +1,5 @@
 @import url('./shared/components/atoms/colors/style.css');
 
-
 scroll-container {
     scroll-page {
         display: block;
@@ -12,7 +11,7 @@ scroll-container {
         }
 
         &#work-experience-history {
-            background-color: var(--bg-page-work-experience);
+            background-color: var(--bg-page-work-experience-history);
         }
 
         &#personal-software-projects {
@@ -28,7 +27,7 @@ scroll-container {
         }
 
         &#primary-footer {
-            background-color: var(--bg-page-primary-footer);
+            background-color: var(--bg-page-main-footer);
         }
     }
 }
