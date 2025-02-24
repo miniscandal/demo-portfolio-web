@@ -101,7 +101,7 @@
     --bg-page-main-header: #554d74;
     --bg-page-work-experience-history: #d4dbe2;
     --bg-page-about-me: #70546d;
-    --bg-page-professional-profile: #f9e5e7;
+    --bg-page-professional-profile: #efeff1;
     --bg-page-main-footer: #555555;
 
 
@@ -114,7 +114,8 @@
         --bg-page-main-header: #37424e;
         --bg-page-work-experience-history: #37424e;
         --bg-page-about-me: #523f50;
-        --bg-page-professional-profile: #37424e;
+        --bg-page-professional-profile: #503b30;
+
         --bg-page-main-footer: #4b4b4b;
     }
 }

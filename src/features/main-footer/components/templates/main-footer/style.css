@@ -1,12 +1,3 @@
-.scheme-theme {
-    /* Dynamic color scheme */
-
-    /* Light */
-    color: #555555;
-    /* Dark */
-    color: #4b4b4b;
-}
-
 .main-footer {
     display: flex;
     flex-wrap: wrap;

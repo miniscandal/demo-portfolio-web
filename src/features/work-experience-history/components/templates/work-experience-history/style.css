@@ -1,15 +1,3 @@
-.scheme-theme {
-    color: #d49c6b;
-
-
-    /* Dynamic color scheme */
-
-    /* Light */
-    color: #d4dbe2;
-    /* Dark */
-    color: #37424e;
-}
-
 .work-experience-history {
     --bg-secondary: #d49c6b;
 

@@ -66,3 +66,28 @@ God Practicals
 Los componentes de tipo organismo son los que controlan:
 
 justify-content
+
+
+⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝
+
+
+Color Scheme
+
+.scheme-theme {
+    color: #500047;
+    color: #ff9bd1;
+    color: #ffc509;
+    color: #523f50;
+    color: #584b56;
+    color: #554d74;
+    color: #37424e;
+    color: #e9e9e9;
+    color: #472f47;
+    color: #ffc685;
+    color: #885488;
+    color: #202020;
+    color: #f482be;
+    color: #ffbfc1;
+    color: #ff909b;
+    color: #d49c6b;
+}
