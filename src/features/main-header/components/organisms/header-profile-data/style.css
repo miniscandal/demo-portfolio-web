@@ -24,11 +24,11 @@ meet the CEO's design requirements.
     }
 
     > .header-profile-data__div,
-    > .character-speech {
+    > .looping-typing-dialogue {
         z-index: 10;
     }
 
-    > .character-speech {
+    > .looping-typing-dialogue {
         order: -1;
     }
 

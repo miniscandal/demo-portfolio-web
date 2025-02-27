@@ -14,7 +14,7 @@ function SelectNavigationMenu({
 
     return (
         <label ref={ref} className='select-navigation-menu'>
-            <PixelArt character={PIXEL_ART_ITEM_DANGO_PINK} showBox={true} />
+            <PixelArt character={PIXEL_ART_ITEM_DANGO_PINK} />
             <span>Nav</span>
             <input type='checkbox' hidden checked={isChecked} onChange={handleChange} />
         </label>
