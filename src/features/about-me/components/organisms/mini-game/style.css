@@ -10,8 +10,7 @@
 
     > .next-step-button {
         width: fit-content;
-        font-family: var(--font-family-manga);
-        padding-bottom: var(--padding-molecule);
         color: #ffc509;
+        padding-bottom: var(--padding-molecule);
     }
 }

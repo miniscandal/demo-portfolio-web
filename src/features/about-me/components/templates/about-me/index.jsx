@@ -21,13 +21,13 @@ function AboutMe() {
     return (
         <section className='about-me'>
             <DecoratedTitle text='ABOUT ME' />
-            <div className='about-me__div'>
+            <article>
                 <SelfDescriptionPresentationProfile />
                 <ContentVisibilityControllerProvider Provider={updatedProvider}>
                     <TechnologicalTools />
                 </ContentVisibilityControllerProvider>
                 <GoalsThrough />
-            </div>
+            </article>
         </section>
     );
 }
