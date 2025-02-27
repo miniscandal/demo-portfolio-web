@@ -1,45 +1,42 @@
 .manga-panel-project-description {
-    height: 100%;
 
     > .title {
+        line-height: 1;
         padding-bottom: var(--padding-simple-organism);
     }
 
-    &.reading-mode {
-        > section {
-            position: relative;
-            height: 100%;
+    &:not(.is-mode-preview) {
+        display: grid;
+        grid-template-columns: repeat(5, 20%);
+        grid-template-rows: repeat(5, 6rem);
 
-            > .next-step-button__div {
-                position: absolute;
-                top: 45%;
-                left: 25%;
-                z-index: 10;
-            }
+        > .title {
+            grid-column: 1 / 5;
+            grid-row: 1;
+        }
 
-            > .pixel-art__div {
-                position: absolute;
-                top: 25%;
-                right: 0;
-            }
+        > .speaking-character {
+            grid-column: 3 / 6;
+            grid-row: 2 / 6;
+            z-index: 10;
+        }
 
-            > .character-speech__div {
-                position: absolute;
-                top: 0;
-                left: 0;
-            }
+        > .pixel-art {
+            grid-column: 1;
+            grid-row: 3;
+        }
 
-            > .pixel-art__div--item {
-                position: absolute;
-                top: 60%;
-                left: 25%;
-                z-index: 10;
-            }
+        > .next-step-button {
+            grid-column: 5;
+            grid-row: 4;
+            color: #fdc200;
+            align-content: center;
+        }
 
-            > .button__div {
-                position: absolute;
-                z-index: 20;
-            }
+        > .hit-box-button {
+            grid-column: 5;
+            grid-row: 5;
+            z-index: 10;
         }
     }
 }

@@ -1,10 +1,7 @@
 .personal-software-projects {
 
-    > header {
+    > .decorated-title {
+        color: var(--text-title-color);
         padding-bottom: var(--padding-container);
-    }
-
-    > section {
-        justify-items: center;
     }
 }

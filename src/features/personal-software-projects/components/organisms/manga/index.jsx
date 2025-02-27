@@ -8,30 +8,18 @@ import './style.css';
 
 
 function Manga() {
-    const [readMangaPanelId, setReadMangaPanelId] = useState(null);
-    const mangaPage = {
-        state: {
-            readMangaPanelId,
-            setReadMangaPanelId
-        }
-    };
-    const primarySideBar = {
-        state: {
-            setReadMangaPanelId
-        }
-    };
+    const [readMangaPageId, setReadMangaPageId] = useState(null);
+
 
     return (
-        <section className='manga'>
-            <div className='manga__div'>
-                {
-                    !readMangaPanelId
-                        ? <MangaPageMain {...mangaPage} />
-                        : <MangaPageSecondary  {...mangaPage} />
-                }
-            </div>
-            <MangaPrimarySideBar {...primarySideBar} />
-        </section>
+        <article className='manga'>
+            {
+                !readMangaPageId
+                    ? <MangaPageMain onSelectPageId={setReadMangaPageId} />
+                    : <MangaPageSecondary readMangaPageId={readMangaPageId} />
+            }
+            <MangaPrimarySideBar setReadMangaPageId={setReadMangaPageId} />
+        </article>
     );
 }
 

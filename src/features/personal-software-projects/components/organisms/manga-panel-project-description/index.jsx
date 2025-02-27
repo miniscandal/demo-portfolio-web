@@ -4,9 +4,9 @@ import { MangaContext } from '@feat-personal-software-projects-contexts/manga-co
 
 import { Title } from '@shared-atoms/title';
 import { NextStepButton } from '@shared-molecules/next-step-button';
-import { CharacterSpeech } from '@shared-molecules/character-speech';
 import { PixelArt } from '@shared-atoms/pixel-art';
 import { HitBoxButton } from '@shared-molecules/hit-box-button';
+import { TypingDialogue } from '@shared-molecules/typing-dialogue';
 
 import { PIXEL_ART_ANIME_RINTARO } from '@shared-atoms/pixel-art/variants';
 import { PIXEL_ART_ITEM_DESK } from '@shared-atoms/pixel-art/variants';
@@ -15,66 +15,36 @@ import { PIXEL_ART_ITEM_MICROWAVE_STEINS_GATE } from '@shared-atoms/pixel-art/va
 import './style.css';
 
 
-function MangaPanelProjectDescription({ readingMode = false }) {
+function MangaPanelProjectDescription({ isModePreview = true }) {
     const [descriptionIndex, setDescriptionIndex] = useState(0);
     const { name, descriptions } = useContext(MangaContext);
 
+    const handleClick = () => setDescriptionIndex(prev => prev < descriptions.length - 1 ? prev + 1 : 0);
+
     const classList = [
-        readingMode ? 'reading-mode' : ''
+        isModePreview ? 'is-mode-preview' : ''
     ];
-    const title = {
-        text: name,
-        color: 'smoky-purple',
-        type: 'h3'
-    };
-    const characterSpeech = {
-        text: descriptions[descriptionIndex],
-        character: PIXEL_ART_ANIME_RINTARO,
-        animateText: readingMode
-    };
-    const pixelArt = {
-        character: PIXEL_ART_ITEM_DESK
-    };
-    const pixelArtItem = {
-        character: PIXEL_ART_ITEM_MICROWAVE_STEINS_GATE
-    };
-    const hitBoxButton = {
-        onClickCallback: () => {
-            if (descriptionIndex < descriptions.length - 1) {
-                setDescriptionIndex(descriptionIndex + 1);
-            } else {
-                setDescriptionIndex(0);
-            }
-        },
-        readingMode
-    };
+
 
     return (
-        <section className={`manga-panel-project-description ${classList.join(' ')}`}>
-            <Title {...title} />
-            <section>
-                {
-                    readingMode
-                    &&
-                    <>
-                        <div className='next-step-button__div'>
-                            <NextStepButton />
-                        </div>
-                        <div className='pixel-art__div'>
-                            <PixelArt {...pixelArt} />
-                        </div>
-                        <div className='pixel-art__div--item'>
-                            <HitBoxButton {...hitBoxButton}>
-                                <PixelArt {...pixelArtItem} />
-                            </HitBoxButton>
-                        </div>
-                    </>
-                }
-                <div className='character-speech__div'>
-                    <CharacterSpeech {...characterSpeech} />
-                </div>
-            </section>
-        </section>
+        <div className={`manga-panel-project-description ${classList.join(' ')}`}>
+            <Title text={name} type='h3' />
+            <TypingDialogue
+                message={descriptions[descriptionIndex]}
+                character={PIXEL_ART_ANIME_RINTARO}
+            />
+            {
+                !isModePreview
+                &&
+                <>
+                    <PixelArt character={PIXEL_ART_ITEM_DESK} />
+                    <NextStepButton />
+                    <HitBoxButton handleClick={handleClick}>
+                        <PixelArt character={PIXEL_ART_ITEM_MICROWAVE_STEINS_GATE} />
+                    </HitBoxButton>
+                </>
+            }
+        </div>
     );
 }
 

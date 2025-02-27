@@ -1,5 +1,4 @@
 import { Title } from '@shared-atoms/title';
-import { Paragraph } from '@shared-atoms/paragraph';
 import { PixelArt } from '@shared-atoms/pixel-art';
 
 import { PIXEL_ART_ANIME_KOMI } from '@shared-atoms/pixel-art/variants';

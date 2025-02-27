@@ -4,7 +4,6 @@ import { MangaContext } from '@feat-personal-software-projects-contexts/manga-co
 
 import { Title } from '@shared-atoms/title';
 import { PixelArt } from '@shared-atoms/pixel-art';
-import { CharacterSpeech } from '@shared-molecules/character-speech';
 import { HitBoxButton } from '@shared-molecules/hit-box-button';
 
 import { PIXEL_ART_ANIME_KANAO } from '@shared-atoms/pixel-art/variants';
@@ -40,11 +39,6 @@ function MangaPanelProjectPlanning({ readingMode = false }) {
     const pixelArtItemStickyNoteGroup = {
         character: PIXEL_ART_ITEM_STICKY_NOTE_GROUP,
         showBox: !true
-    };
-    const characterSpeech = {
-        text: ideas[ideaIndex],
-        character: PIXEL_ART_ANIME_KANAO,
-        animateText: readingMode
     };
     const hitBoxButton = {
         onClickCallback: (event) => {
@@ -84,7 +78,6 @@ function MangaPanelProjectPlanning({ readingMode = false }) {
                     readingMode
                     &&
                     <div className='character-speech__div'>
-                        <CharacterSpeech {...characterSpeech} />
                     </div>
                 }
             </section>

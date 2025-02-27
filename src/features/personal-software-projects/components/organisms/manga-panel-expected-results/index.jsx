@@ -3,7 +3,6 @@ import { useContext } from 'react';
 import { MangaContext } from '@feat-personal-software-projects-contexts/manga-context';
 
 import { Title } from '@shared-atoms/title';
-import { CharacterSpeech } from '@shared-molecules/character-speech';
 
 import { PIXEL_ART_ANIME_KURISU } from '@shared-atoms/pixel-art/variants';
 import { PIXEL_ART_ITEM_COMPUTERS_STEINS_GATE } from '@shared-atoms/pixel-art/variants';
@@ -22,11 +21,6 @@ function MangaPanelExpectedResults({ readingMode = false }) {
         color: 'smoky-purple',
         type: 'h3'
     };
-    const characterSpeech = {
-        text: expectedResults[0],
-        character: PIXEL_ART_ANIME_KURISU,
-        animateText: readingMode
-    };
     const pixelArt = {
         character: PIXEL_ART_ITEM_COMPUTERS_STEINS_GATE
     };
@@ -39,7 +33,6 @@ function MangaPanelExpectedResults({ readingMode = false }) {
                     readingMode
                     &&
                     <div className='character-speech__div'>
-                        <CharacterSpeech {...characterSpeech} />
                     </div>
                 }
 

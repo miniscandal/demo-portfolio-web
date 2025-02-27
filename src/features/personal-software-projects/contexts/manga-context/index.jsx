@@ -12,12 +12,12 @@ const Provider = {
     planning
 };
 
-const SensorMonitoringProvider = Provider;
+const ProviderSensorMonitoring = Provider;
 
 const MangaContext = createContext(Provider);
 
 
-function MangaContextProvider({
+function MangaProvider({
     children,
     provider = Provider
 }) {
@@ -31,6 +31,6 @@ function MangaContextProvider({
 
 export {
     MangaContext,
-    MangaContextProvider,
-    SensorMonitoringProvider
+    MangaProvider,
+    ProviderSensorMonitoring
 };

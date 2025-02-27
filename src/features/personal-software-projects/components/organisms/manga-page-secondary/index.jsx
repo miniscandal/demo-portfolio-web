@@ -5,101 +5,70 @@ import { MangaPanelExpectedResults } from '@feat-personal-software-projects-orga
 import { MangaPanelProjectPlanning } from '@feat-personal-software-projects-organisms/manga-panel-project-planning';
 import { MangaPanelProjectAppliedConcepts } from '@feat-personal-software-projects-organisms/manga-panel-project-applied-concepts';
 import { MangaPanelProjectPreview } from '@feat-personal-software-projects-organisms/manga-panel-project-preview';
-import { MangaPanel } from '@feat-personal-software-projects-organisms/manga-panel';
 
-import { UnorderedList } from '@shared-molecules/unordered-list';
+import { SelectableList } from '@shared-organisms/selectable-list';
 
-import { MP_SP_MAIN_ID } from '@feat-personal-software-projects-constants/manga-panel-identifiers';
-import { MP_SP_SECONDARY_ID } from '@feat-personal-software-projects-constants/manga-panel-identifiers';
-import { MPP_DESCRIPTION_ID } from '@feat-personal-software-projects-constants/manga-panel-identifiers';
-import { MPP_PLANNING_ID } from '@feat-personal-software-projects-constants/manga-panel-identifiers';
-import { MPP_TECH_ECOSYSTEM_ID } from '@feat-personal-software-projects-constants/manga-panel-identifiers';
-import { MPP_PREVIEW_ID } from '@feat-personal-software-projects-constants/manga-panel-identifiers';
+import { createMangaPanel } from '@feat-personal-software-projects-helpers/create-manga-panel';
+
+import {
+    MPS_MAIN_ID,
+    MPS_PRIMARY_ID,
+    MPS_SECONDARY_ID
+} from '@feat-personal-software-projects-constants/manga-panel-id';
+
+import {
+    MPP_DESCRIPTION_ID,
+    MPP_PLANNING_ID,
+    MPP_TECH_ECOSYSTEM_ID,
+    MPP_PREVIEW_ID
+} from '@feat-personal-software-projects-constants/manga-panel-id';
 
 import './style.css';
 
 
-function MangaPageSecondary({ state }) {
-    const [selectSecondaryPanel, setSelectSecondaryPanel] = useState(false);
+const MANGA_PANELS = {
+    [MPP_DESCRIPTION_ID]: [MangaPanelProjectDescription, MangaPanelExpectedResults],
+    [MPP_PLANNING_ID]: [MangaPanelProjectPlanning, () => { }],
+    [MPP_TECH_ECOSYSTEM_ID]: [MangaPanelProjectAppliedConcepts, () => { }],
+    [MPP_PREVIEW_ID]: [MangaPanelProjectPreview, () => { }]
+};
 
-    const { readMangaPanelId } = state;
+function MangaPageSecondary({ readMangaPageId }) {
+    const [readMangaPanelId, setReadMangaPanelId] = useState(MPS_PRIMARY_ID);
 
-    const mangaPageSecondaryViews = {
-        [MPP_DESCRIPTION_ID]: {
-            mainPanelChildren: MangaPanelProjectDescription,
-            secondaryPanelChildren: MangaPanelExpectedResults
-        },
-        [MPP_PLANNING_ID]: {
-            mainPanelChildren: MangaPanelProjectPlanning,
-            secondaryPanelChildren: () => { }
-        },
-        [MPP_TECH_ECOSYSTEM_ID]: {
-            mainPanelChildren: MangaPanelProjectAppliedConcepts,
-            secondaryPanelChildren: () => { }
-        },
-        [MPP_PREVIEW_ID]: {
-            mainPanelChildren: MangaPanelProjectPreview,
-            secondaryPanelChildren: () => { }
-        },
-        [MP_SP_MAIN_ID]: {
-            mainPanelChildren: MangaPanelProjectPreview,
-            secondaryPanelChildren: () => { }
-        }
-    };
-    const { mainPanelChildren, secondaryPanelChildren } = mangaPageSecondaryViews[readMangaPanelId];
-    const mainPanel = {
-        id: MP_SP_MAIN_ID,
-        text: 'Sc 01',
-        ChildrenComponent: () => mainPanelChildren({ readingMode: !selectSecondaryPanel })
+    const primaryPanel = {
+        id: MPS_PRIMARY_ID,
+        Component: createMangaPanel('Sc 01', MANGA_PANELS[readMangaPageId][0]({
+            isModePreview: MPS_PRIMARY_ID === readMangaPageId
+        }))
     };
     const secondaryPanel = {
-        id: MP_SP_SECONDARY_ID,
-        text: 'Sc 02',
-        ChildrenComponent: () => secondaryPanelChildren({ readingMode: selectSecondaryPanel })
+        id: MPS_SECONDARY_ID,
+        Component: createMangaPanel('Sc 02', MANGA_PANELS[readMangaPageId][0]({
+            isModePreview: MPS_SECONDARY_ID === readMangaPageId
+        }))
     };
 
-    let items = [
-        mainPanel,
+    const mainPanel = (readMangaPanelId === MPS_PRIMARY_ID) ? primaryPanel : secondaryPanel;
+
+    const mangaPanels = [
         {
-            id: MP_SP_MAIN_ID,
-            text: 'Sc 01',
-            ChildrenComponent: () => mainPanelChildren({ readingMode: false })
+            ...mainPanel,
+            id: MPS_MAIN_ID
         },
+        primaryPanel,
         secondaryPanel
     ];
 
-    if (selectSecondaryPanel) {
-        items = [
-            secondaryPanel,
-            mainPanel,
-            {
-                id: MP_SP_SECONDARY_ID,
-                text: 'Sc 02',
-                ChildrenComponent: () => secondaryPanelChildren({ readingMode: false })
-            }
-        ];
-    }
-
-    const unorderedList = {
-        id: 'manga-page-secondary',
-        selectListItemId: selectSecondaryPanel ? MP_SP_SECONDARY_ID : MP_SP_MAIN_ID,
-        Component: MangaPanel,
-        items,
-        handleClick: (listItem) => {
-            const id = listItem.dataset.id;
-
-            if (id === MP_SP_SECONDARY_ID) {
-                setSelectSecondaryPanel(true);
-            } else {
-                setSelectSecondaryPanel(false);
-            }
-        }
-    };
 
     return (
-        <section className='manga-page-secondary'>
-            <UnorderedList {...unorderedList} />
-        </section>
+        <div className='manga-page-secondary'>
+            <SelectableList
+                defaultSelectItemId={MPS_PRIMARY_ID}
+                items={mangaPanels}
+                onChange={setReadMangaPanelId}
+            />
+        </div>
     );
 }
 
