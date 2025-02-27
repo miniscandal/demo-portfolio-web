@@ -82,7 +82,7 @@
     }
 
     &.show-box {
-        border: solid var(--color-light) 1px;
+        background-color: var(--bg-dark);
     }
 
     &.art-anime-umi {

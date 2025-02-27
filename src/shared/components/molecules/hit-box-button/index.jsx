@@ -3,18 +3,14 @@ import './style.css';
 
 function HitBoxButton({
     children,
-    onClickCallback,
-    readingMode = false,
-    dataSet = {
-        index: null
-    }
+    handleClick
 }) {
-    const classList = [
-        readingMode ? 'reading-mode' : ''
-    ];
 
     return (
-        <button className={`hit-box-button ${classList.join(' ')}`} onClick={onClickCallback} data-index={dataSet.index}>
+        <button
+            className='hit-box-button'
+            onClick={handleClick}
+        >
             {children}
         </button>
     );

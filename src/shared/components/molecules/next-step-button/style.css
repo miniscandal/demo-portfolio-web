@@ -1,5 +1,6 @@
 .next-step-button {
     justify-items: center;
+    font-family: var(--font-family-manga);
 
     > .next-step-button__div {
         padding-top: var(--padding-simple-molecule);

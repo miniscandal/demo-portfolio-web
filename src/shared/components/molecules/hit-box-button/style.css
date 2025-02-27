@@ -1,19 +1,18 @@
 .hit-box-button {
     all: unset;
+    cursor: pointer;
+    position: relative;
+    width: fit-content;
 
-    &.reading-mode {
-        position: relative;
-
-        &::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            right: 0;
-            bottom: 0;
-            left: 0;
-            border-radius: var(--border-radius-simple-molecule);
-            animation: shadow-animation 2s ease-out infinite alternate;
-        }
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        border-radius: var(--border-radius-simple-molecule);
+        animation: shadow-animation 2s ease-out infinite alternate;
     }
 }
 
@@ -23,7 +22,7 @@
     }
 
     50% {
-        box-shadow: 0 0 1em 0.2em var(--color-violet-dusk);
+        box-shadow: 0 0 1em 0.2em #0c75ff;
     }
 
     100% {
