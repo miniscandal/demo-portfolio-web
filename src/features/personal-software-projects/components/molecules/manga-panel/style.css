@@ -1,0 +1,15 @@
+.manga-panel {
+    height: 100%;
+    position: relative;
+    padding: var(--padding-molecule);
+    background-color: #ffffff;
+    color: var(--text-color-dark);
+
+    > .span {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: var(--padding-atom);
+        background-color: #dfdfdf;
+    }
+}
