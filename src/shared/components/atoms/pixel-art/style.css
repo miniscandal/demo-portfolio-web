@@ -1,3 +1,37 @@
+@import url('./items-url.css');
+@import url('./items-style.css');
+
+@import url('./characters-url.css');
+@import url('./characters-style.css');
+
+/* Accepted */
+
+/* ************************************* */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @import url('./characters/anime-original/komi.css');
 @import url('./characters/anime-original/kurisu.css');
 @import url('./characters/anime-original/rintaro.css');
@@ -32,54 +66,12 @@
 @import url('./characters/anime-original/minicode-basic-v1.css');
 @import url('./characters/anime-original/minicode-basic-v2.css');
 
-
-
-
 @import url('./characters/adventure_time/jake_the_dog.css');
 @import url('./characters/adventure_time/bmo.css');
 
 
-
-
-
-@import url('./items/desk-animation.css');
-@import url('./items/desk-invert-animation.css');
-@import url('./items/whiteboard.css');
-@import url('./items/microwave-steins-gate.css');
-@import url('./items/computers-steins-gate.css');
-@import url('./items/sticky-note-single.css');
-@import url('./items/sticky-note-group.css');
-@import url('./items/book.css');
-@import url('./items/books.css');
-@import url('./items/dialog-vertical.css');
-@import url('./items/hitai-ate.css');
-@import url('./items/parchment.css');
-@import url('./items/blue-step.css');
-@import url('./items/red-step.css');
-@import url('./items/center-step.css');
-@import url('./items/mortarboard.css');
-@import url('./items/book-university.css');
-@import url('./items/hourglass.css');
-@import url('./items/desk-lamp.css');
-@import url('./items/cup-coffee.css');
-@import url('./items/pencil-blue.css');
-@import url('./items/pencil-red.css');
-@import url('./items/pencil-yellow.css');
-@import url('./items/pencil-pink.css');
-@import url('./items/arcade.css');
-@import url('./items/soccer.css');
-@import url('./items/domo.css');
-@import url('./items/pump-game.css');
-@import url('./items/pump-game-blue-step.css');
-@import url('./items/pump-game-red-step.css');
-@import url('./items/pump-game-center-step.css');
-@import url('./items/domo-animation.css');
-@import url('./items/dango-blue.css');
-@import url('./items/dango-pink.css');
-@import url('./items/dango-yellow.css');
-
-
 .pixel-art {
+
     > div {
         display: flex;
         align-items: center;
@@ -87,7 +79,7 @@
     }
 
     &.show-box {
-        background-color: var(--bg-dark);
+        background-color: white;
     }
 
     &.art-anime-umi {
@@ -112,51 +104,6 @@
         }
     }
 
-    &.art-item-desk-animation {
-
-        &.regular {
-            width: 17.6rem;
-            height: 17rem;
-
-            > div {
-                transform: scale(1.5);
-            }
-        }
-    }
-
-    &.art-item-desk-invert-animation {
-
-        &.regular {
-            width: 17.6rem;
-            height: 15.2rem;
-
-            > div {
-                transform: scale(1.5);
-            }
-        }
-    }
-
-    &.art-item-microwave-steins-gate {
-        &.regular {
-            width: 7rem;
-            height: 6rem;
-
-            > div {
-                transform: scale(0.5);
-            }
-        }
-    }
-
-    &.art-item-computers-steins-gate {
-        &.regular {
-            width: 20rem;
-            height: 23rem;
-
-            > div {
-                transform: scale(0.9);
-            }
-        }
-    }
 
     &.art-anime-kanao {
         &.regular {
@@ -370,322 +317,14 @@
 
 
 
-    &.art-item-whiteboard {
-        &.regular {
-            width: 22.5rem;
-            height: 28.5rem;
 
-            > div {
-                transform: scale(2.2);
-            }
-        }
-    }
 
-    &.art-item-sticky-note-single {
-        &.regular {
-            width: 2.4rem;
-            height: 2.5rem;
 
-            > div {
-                transform: scale(0.3);
-            }
-        }
-    }
 
-    &.art-item-sticky-note-group {
-        &.regular {
-            width: 3rem;
-            height: 2.6rem;
 
-            > div {
-                transform: scale(0.3);
-            }
-        }
-    }
 
-    &.art-item-books {
-        &.regular {
-            width: 7.8rem;
-            height: 5.8rem;
 
-            > div {
-                transform: scale(0.45);
-            }
-        }
 
-        &.small {
-            width: 3.6rem;
-            height: 2.75rem;
-
-            > div {
-                transform: scale(0.2);
-            }
-        }
-    }
-
-    &.art-item-dialog-vertical {
-
-        &.regular {
-            width: 28.5rem;
-            height: 26.5rem;
-
-            > div {
-                transform: scale(3);
-            }
-
-            @media (width < 45rem) {
-                width: 22.3rem;
-                height: 21rem;
-
-                > div {
-                    transform: scale(2.35);
-                }
-            }
-        }
-    }
-
-    &.art-item-hitai-ate {
-
-        &.regular {
-            width: 14.8rem;
-            height: 5.5rem;
-
-            > div {
-                transform: scale(1.1);
-            }
-        }
-    }
-
-    &.art-item-parchment {
-
-        &.regular {
-            width: 17.82rem;
-            height: 8.2rem;
-
-            > div {
-                transform: scale(0.85);
-            }
-        }
-
-        &.medium {
-            width: 17.8rem;
-            height: 8.2rem;
-
-            > div {
-                transform: scale(0.85);
-            }
-        }
-    }
-
-    &.art-item-blue-step,
-    &.art-item-red-step,
-    &.art-item-center-step {
-
-        &.regular {
-            width: 4.3rem;
-            height: 4.3rem;
-
-            > div {
-                transform: scale(0.2);
-            }
-        }
-    }
-
-    &.art-item-mortarboard {
-
-        &.regular {
-            width: 9rem;
-            height: 6.6rem;
-
-            > div {
-                transform: scale(1.2);
-            }
-        }
-    }
-
-    &.art-item-book-university {
-
-        &.regular {
-            width: 6rem;
-            height: 7rem;
-
-            > div {
-                transform: scale(0.8);
-            }
-        }
-    }
-
-    &.art-item-hourglass {
-
-        &.regular {
-            width: 3.8rem;
-            height: 5.8rem;
-
-            > div {
-                transform: scale(0.5);
-            }
-        }
-    }
-
-    &.art-item-desk-lamp {
-
-        &.regular {
-            width: 8rem;
-            height: 8.8rem;
-
-            > div {
-                transform: scale(0.4);
-            }
-        }
-    }
-
-    &.art-item-cup-coffee {
-
-        &.regular {
-            width: 5.4rem;
-            height: 6.2rem;
-
-            > div {
-                transform: scale(0.6);
-            }
-        }
-    }
-
-    &.art-item-pencil-blue {
-
-        &.regular {
-            width: 2.2rem;
-            height: 6.4rem;
-
-            > div {
-                transform: scale(0.35);
-            }
-        }
-    }
-
-    &.art-item-pencil-red {
-
-        &.regular {
-            width: 2.2rem;
-            height: 6.4rem;
-
-            > div {
-                transform: scale(0.35);
-            }
-        }
-    }
-
-    &.art-item-pencil-yellow {
-
-        &.regular {
-            width: 2.2rem;
-            height: 6.4rem;
-
-            > div {
-                transform: scale(0.35);
-            }
-        }
-    }
-
-    &.art-item-pencil-pink {
-
-        &.regular {
-            width: 2.2rem;
-            height: 6.4rem;
-
-            > div {
-                transform: scale(0.35);
-            }
-        }
-    }
-
-    &.art-item-arcade {
-
-        &.regular {
-            width: 15.2rem;
-            height: 28.5rem;
-
-            > div {
-                transform: scale(1.45);
-            }
-        }
-    }
-
-    &.art-item-soccer {
-
-        &.regular {
-            width: 6.6rem;
-            height: 6.3rem;
-
-            > div {
-                transform: scale(0.8);
-            }
-        }
-    }
-
-    &.art-item-domo {
-
-        &.regular {
-            width: 7.2rem;
-            height: 7.8rem;
-
-            > div {
-                transform: scale(1);
-            }
-        }
-    }
-
-    &.art-item-domo-animation {
-
-        &.regular {
-            width: 7.2rem;
-            height: 7.8rem;
-
-            > div {
-                transform: scale(1);
-            }
-        }
-    }
-
-    &.art-item-pump-game {
-
-        &.regular {
-            width: 14rem;
-            height: 5.5rem;
-
-            > div {
-                transform: scale(0.6);
-            }
-        }
-    }
-
-    &.art-item-pump-game-blue-step,
-    &.art-item-pump-game-red-step,
-    &.art-item-pump-game-center-step {
-
-        &.regular {
-            width: 4.2rem;
-            height: 4.2rem;
-
-            > div {
-                transform: scale(0.8);
-            }
-        }
-    }
-
-    &.art-item-dango-blue,
-    &.art-item-dango-yellow,
-    &.art-item-dango-pink {
-
-        &.regular {
-            width: 3.6rem;
-            height: 3rem;
-
-            > div {
-                transform: scale(0.7);
-            }
-        }
-    }
 
 
 
@@ -753,50 +392,6 @@
         }
     }
 
-    &.art-item-book {
-
-        &.small {
-            width: 2.9rem;
-            height: 2.4rem;
-
-            > div {
-                transform: scale(0.1);
-            }
-        }
-    }
-
-    &.art-item-sealed-parchment {
-
-        &.regular {
-            width: 16.8rem;
-            height: 5.9rem;
-
-            > div {
-                transform: scale(1.2);
-            }
-        }
-    }
-
-    &.art-item-dialog {
-
-        &.regular {
-            width: 34.5rem;
-            height: 24rem;
-
-            > div {
-                transform: scale(3);
-            }
-
-            @media (width < 45rem) {
-                width: 22.2rem;
-                height: 21rem;
-
-                > div {
-                    transform: scale(2.35);
-                }
-            }
-        }
-    }
 
     &.art-anime-itsuki-nakano,
     &.art-anime-miku-nakano,
