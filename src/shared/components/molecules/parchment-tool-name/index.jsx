@@ -2,7 +2,7 @@ import { Paragraph } from '@shared-atoms/paragraph';
 import { PixelArt } from '@shared-atoms/pixel-art';
 import { ToolBadge } from '@shared-molecules/tool-badge';
 
-import { PIXEL_ART_ITEM_PARCHMENT } from '@shared-atoms/pixel-art/variants';
+import { PIXEL_ART_ITEM_ANIME_PARCHMENT } from '@shared-atoms/pixel-art/variants';
 
 import './style.css';
 
@@ -18,14 +18,11 @@ function ParchmentToolName({
     const styles = {
         backgroundColor: bgColor
     };
-    const pixelArt = {
-        character: PIXEL_ART_ITEM_PARCHMENT,
-        size: iconSrc ? 'medium' : 'regular'
-    };
+
 
     return (
         <div className={`parchment-tool-name ${classList.join(' ')}`}>
-            <PixelArt{...pixelArt} />
+            <PixelArt character={PIXEL_ART_ITEM_ANIME_PARCHMENT} />
             <div className='parchment-tool-name__div' style={styles}>
                 {
                     iconSrc && <ToolBadge iconSrc={iconSrc} color={bgColor} />
