@@ -7,10 +7,14 @@ import { NextStepButton } from '@shared-molecules/next-step-button';
 import { PixelArt } from '@shared-atoms/pixel-art';
 import { HitBoxButton } from '@shared-molecules/hit-box-button';
 import { TypingDialogue } from '@shared-molecules/typing-dialogue';
+import { ShelfDisplay } from '@shared-molecules/shelf-display';
 
-import { PIXEL_ART_ANIME_RINTARO } from '@shared-atoms/pixel-art/variants';
-import { PIXEL_ART_ITEM_DESK } from '@shared-atoms/pixel-art/variants';
-import { PIXEL_ART_ITEM_MICROWAVE_STEINS_GATE } from '@shared-atoms/pixel-art/variants';
+import {
+    PIXEL_ART_ADVENTURE_TIME_BMO,
+    PIXEL_ART_ANIME_RINTARO,
+    PIXEL_ART_ITEM_DESK_ANIMATION,
+    PIXEL_ART_ITEM_MICROWAVE_STEINS_GATE
+} from '@shared-atoms/pixel-art/variants';
 
 import './style.css';
 
@@ -37,7 +41,12 @@ function MangaPanelProjectDescription({ isModePreview = true }) {
                 !isModePreview
                 &&
                 <>
-                    <PixelArt character={PIXEL_ART_ITEM_DESK} />
+                    <div className='manga-panel-project-description__bmo'>
+                        <ShelfDisplay>
+                            <PixelArt character={PIXEL_ART_ADVENTURE_TIME_BMO} />
+                        </ShelfDisplay>
+                    </div>
+                    <PixelArt character={PIXEL_ART_ITEM_DESK_ANIMATION} />
                     <NextStepButton />
                     <HitBoxButton handleClick={handleClick}>
                         <PixelArt character={PIXEL_ART_ITEM_MICROWAVE_STEINS_GATE} />
