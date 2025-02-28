@@ -1,0 +1,361 @@
+.pixel-art {
+
+    &.art-item-anime-dango-blue,
+    &.art-item-anime-dango-yellow,
+    &.art-item-anime-dango-pink {
+
+        &.regular {
+            width: 3.6rem;
+            height: 3rem;
+
+            > div {
+                transform: scale(0.7);
+            }
+        }
+    }
+
+    &.art-item-anime-hitai-ate {
+
+        &.regular {
+            width: 14.8rem;
+            height: 5.5rem;
+
+            > div {
+                transform: scale(1.1);
+            }
+        }
+    }
+
+    &.art-item-anime-parchment {
+
+        &.regular {
+            width: 17.82rem;
+            height: 8.2rem;
+
+            > div {
+                transform: scale(0.85);
+            }
+        }
+    }
+
+    &.art-item-anime-steins-gate-computers {
+
+        &.regular {
+            width: 22rem;
+            height: 25.5rem;
+
+            > div {
+                transform: scale(1);
+            }
+        }
+    }
+
+    &.art-item-anime-steins-gate-microwave {
+        &.regular {
+            width: 7rem;
+            height: 6rem;
+
+            > div {
+                transform: scale(0.5);
+            }
+        }
+    }
+
+    &.art-item-arcade {
+
+        &.regular {
+            width: 15.2rem;
+            height: 28.4rem;
+
+            > div {
+                transform: scale(1.45);
+            }
+        }
+    }
+
+    &.art-item-book-university {
+
+        &.regular {
+            width: 6rem;
+            height: 7rem;
+
+            > div {
+                transform: scale(0.8);
+            }
+        }
+    }
+
+    &.art-item-book {
+
+        &.regular {
+            width: 9.8rem;
+            height: 7.5rem;
+
+            > div {
+                transform: scale(0.4);
+            }
+        }
+    }
+
+    &.art-item-books {
+        &.regular {
+            width: 7.8rem;
+            height: 5.8rem;
+
+            > div {
+                transform: scale(0.45);
+            }
+        }
+
+        &.small {
+            width: 3.6rem;
+            height: 2.75rem;
+
+            > div {
+                transform: scale(0.2);
+            }
+        }
+    }
+
+
+    &.art-item-cup-coffee-animation {
+
+        &.regular {
+            width: 5.4rem;
+            height: 6.2rem;
+
+            > div {
+                transform: scale(0.6);
+            }
+        }
+    }
+
+    &.art-item-desk-animation {
+
+        &.regular {
+            width: 17.6rem;
+            height: 17rem;
+
+            > div {
+                transform: scale(1.5);
+            }
+        }
+    }
+
+    &.art-item-desk-invert-animation {
+
+        &.regular {
+            width: 17.6rem;
+            height: 15.2rem;
+
+            > div {
+                transform: scale(1.5);
+            }
+        }
+    }
+
+    &.art-item-domo-animation {
+
+        &.regular {
+            width: 7.2rem;
+            height: 7.8rem;
+
+            > div {
+                transform: scale(1);
+            }
+        }
+    }
+
+    &.art-item-domo {
+
+        &.regular {
+            width: 7.2rem;
+            height: 7.8rem;
+
+            > div {
+                transform: scale(1);
+            }
+        }
+    }
+
+    &.art-item-hourglass {
+
+        &.regular {
+            width: 3.8rem;
+            height: 5.8rem;
+
+            > div {
+                transform: scale(0.5);
+            }
+        }
+    }
+
+    &.art-item-lamp {
+
+        &.regular {
+            width: 8rem;
+            height: 8.8rem;
+
+            > div {
+                transform: scale(0.4);
+            }
+        }
+    }
+
+    &.art-item-mortarboard {
+
+        &.regular {
+            width: 9rem;
+            height: 6.6rem;
+
+            > div {
+                transform: scale(1.2);
+            }
+        }
+    }
+
+    &.art-item-pencil-blue,
+    &.art-item-pencil-pink,
+    &.art-item-pencil-red,
+    &.art-item-pencil-yellow {
+
+        &.regular {
+            width: 2.1rem;
+            height: 6.3rem;
+
+            > div {
+                transform: scale(0.35);
+            }
+        }
+    }
+
+    &.art-item-pump-game-logo {
+
+        &.regular {
+            width: 18.4rem;
+            height: 7.2rem;
+
+            > div {
+                transform: scale(0.8);
+            }
+        }
+    }
+
+    &.art-item-pump-step-blue-animation,
+    &.art-item-pump-step-red-animation,
+    &.art-item-pump-step-center-animation {
+
+        &.regular {
+            width: 5rem;
+            height: 5rem;
+
+            > div {
+                transform: scale(1);
+            }
+        }
+    }
+
+    &.art-item-pump-step-blue,
+    &.art-item-pump-step-red,
+    &.art-item-pump-step-center {
+
+        &.regular {
+            width: 4.2rem;
+            height: 4.2rem;
+
+            > div {
+                transform: scale(0.2);
+            }
+        }
+    }
+
+    &.art-item-soccer-ball {
+
+        &.regular {
+            width: 6.6rem;
+            height: 6.3rem;
+
+            > div {
+                transform: scale(0.8);
+            }
+        }
+    }
+
+    &.art-item-speech-bubble-bit-v2 {
+
+        &.regular {
+            width: 29.5rem;
+            height: 20.5rem;
+
+            > div {
+                transform: scale(2.6);
+            }
+
+            @media (width < 45rem) {
+                width: 22.2rem;
+                height: 21rem;
+
+                > div {
+                    transform: scale(2.35);
+                }
+            }
+        }
+    }
+
+    &.art-item-speech-bubble-bit {
+
+        &.regular {
+            width: 28.5rem;
+            height: 26.5rem;
+
+            > div {
+                transform: scale(3);
+            }
+
+            @media (width < 45rem) {
+                width: 22.3rem;
+                height: 21rem;
+
+                > div {
+                    transform: scale(2.35);
+                }
+            }
+        }
+    }
+
+    &.art-item-sticky-note-group {
+
+        &.regular {
+            width: 3rem;
+            height: 2.6rem;
+
+            > div {
+                transform: scale(0.3);
+            }
+        }
+    }
+
+    &.art-item-sticky-note {
+
+        &.regular {
+            width: 2.4rem;
+            height: 2.5rem;
+
+            > div {
+                transform: scale(0.3);
+            }
+        }
+    }
+
+    &.art-item-whiteboard {
+
+        &.regular {
+            width: 22.5rem;
+            height: 28.5rem;
+
+            > div {
+                transform: scale(2.2);
+            }
+        }
+    }
+}
