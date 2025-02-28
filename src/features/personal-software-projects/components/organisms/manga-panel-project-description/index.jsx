@@ -13,7 +13,7 @@ import {
     PIXEL_ART_ADVENTURE_TIME_BMO,
     PIXEL_ART_ANIME_RINTARO,
     PIXEL_ART_ITEM_DESK_ANIMATION,
-    PIXEL_ART_ITEM_MICROWAVE_STEINS_GATE
+    PIXEL_ART_ITEM_ANIME_STEINS_GATE_MICROWAVE
 } from '@shared-atoms/pixel-art/variants';
 
 import './style.css';
@@ -49,7 +49,7 @@ function MangaPanelProjectDescription({ isModePreview = true }) {
                     <PixelArt character={PIXEL_ART_ITEM_DESK_ANIMATION} />
                     <NextStepButton />
                     <HitBoxButton handleClick={handleClick}>
-                        <PixelArt character={PIXEL_ART_ITEM_MICROWAVE_STEINS_GATE} />
+                        <PixelArt character={PIXEL_ART_ITEM_ANIME_STEINS_GATE_MICROWAVE} />
                     </HitBoxButton>
                 </>
             }

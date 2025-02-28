@@ -7,7 +7,7 @@ import { PixelArt } from '@shared-atoms/pixel-art';
 import { HitBoxButton } from '@shared-molecules/hit-box-button';
 
 import { PIXEL_ART_ANIME_KANAO } from '@shared-atoms/pixel-art/variants';
-import { PIXEL_ART_ITEM_STICKY_NOTE_SINGLE } from '@shared-atoms/pixel-art/variants';
+import { PIXEL_ART_ITEM_STICKY_NOTE } from '@shared-atoms/pixel-art/variants';
 import { PIXEL_ART_ITEM_STICKY_NOTE_GROUP } from '@shared-atoms/pixel-art/variants';
 import { PIXEL_ART_ITEM_WHITEBOARD } from '@shared-atoms/pixel-art/variants';
 
@@ -32,7 +32,7 @@ function MangaPanelProjectPlanning({ readingMode = false }) {
         showBox: !true
     };
     const pixelArtItemStickyNoteSingle = {
-        character: PIXEL_ART_ITEM_STICKY_NOTE_SINGLE,
+        character: PIXEL_ART_ITEM_STICKY_NOTE,
         showBox: !true
     };
 
