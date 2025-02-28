@@ -2,8 +2,6 @@
 
 ⚝ Update descriptive names to semantic names for css code variables
 
-⚝ Update unused colors defined in atoms
-
 ⚝ Implement dl, dt and dd tags
 
 ⚝ Implement fetch for json data
@@ -17,5 +15,3 @@
 ⚝ Add professional mission component
 
 ⚝ Add recreational interest
-
-⚝ Refactor PixelArtSceneMyGoals Component
