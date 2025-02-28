@@ -1,7 +1,7 @@
 import { PixelArt } from '@shared-atoms/pixel-art';
 import { RadioInput } from '@shared-atoms/radio-input';
 
-import { PIXEL_ART_ITEM_DANGO_BLUE } from '@shared-atoms/pixel-art/variants';
+import { PIXEL_ART_ITEM_ANIME_DANGO_BLUE } from '@shared-atoms/pixel-art/variants';
 
 import './style.css';
 
@@ -11,7 +11,7 @@ function ButtonToggleTheme({
     htmlFor = 'dark-theme',
     groupName = 'button-toggle-theme',
     defaultChecked = false,
-    character = PIXEL_ART_ITEM_DANGO_BLUE,
+    character = PIXEL_ART_ITEM_ANIME_DANGO_BLUE,
     type = 'light'
 }) {
     const classList = [
