@@ -8,10 +8,10 @@ function useTypingEffect({ message = 'use-typing-effect' }) {
     useEffect(() => {
         let index = 0;
         let typingInterval;
-        const interval = 150;
 
         const setIntervalCallback = () => {
             const letter = message.charAt(index);
+
             setDisplayedText(prev => prev + letter);
             index++;
 
@@ -23,14 +23,13 @@ function useTypingEffect({ message = 'use-typing-effect' }) {
         };
 
         const startTyping = setTimeout(() => {
-            typingInterval = setInterval(setIntervalCallback, interval);
+            typingInterval = setInterval(setIntervalCallback, 150);
         }, 500);
 
         return () => {
             clearTimeout(startTyping);
             clearInterval(typingInterval);
             setDisplayedText('');
-            setIsTypingComplete(false);
         };
     }, [message]);
 
