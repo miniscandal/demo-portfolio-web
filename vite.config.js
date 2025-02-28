@@ -60,7 +60,8 @@ export default defineConfig({
             '@shared-mocks': '/src/shared/mocks/',
             '@shared-react-components': '/src/shared/react-components/',
             '@shared-resources-documents': '/src/shared/resources/documents/',
-            '@shared-resources-contact': '/src/shared/resources/contact/'
+            '@shared-resources-contact': '/src/shared/resources/contact/',
+            '@shared-utils': '/src/shared/utils/'
         }
     }
 });
