@@ -27,6 +27,10 @@
 @import url('./characters/anime-original/minicode-animation-v2.css');
 @import url('./characters/anime-original/minicode-animation-v3.css');
 @import url('./characters/anime-original/minicode-animation-v4.css');
+@import url('./characters/anime-original/minicode-animation-v5.css');
+
+@import url('./characters/anime-original/minicode-basic-v1.css');
+@import url('./characters/anime-original/minicode-basic-v2.css');
 
 
 
@@ -38,7 +42,8 @@
 
 
 
-@import url('./items/desk.css');
+@import url('./items/desk-animation.css');
+@import url('./items/desk-invert-animation.css');
 @import url('./items/whiteboard.css');
 @import url('./items/microwave-steins-gate.css');
 @import url('./items/computers-steins-gate.css');
@@ -107,10 +112,23 @@
         }
     }
 
-    &.art-item-desk {
+    &.art-item-desk-animation {
+
         &.regular {
-            width: 19.5rem;
+            width: 17.6rem;
             height: 17rem;
+
+            > div {
+                transform: scale(1.5);
+            }
+        }
+    }
+
+    &.art-item-desk-invert-animation {
+
+        &.regular {
+            width: 17.6rem;
+            height: 15.2rem;
 
             > div {
                 transform: scale(1.5);
@@ -216,6 +234,7 @@
     }
 
     &.art-anime-minicode-animation-v1 {
+
         &.regular {
             width: 17.8rem;
             height: 18.8rem;
@@ -227,12 +246,13 @@
     }
 
     &.art-anime-minicode-animation-v2 {
+
         &.regular {
-            width: 10.3rem;
-            height: 20.2rem;
+            width: 8.4rem;
+            height: 16rem;
 
             > div {
-                transform: scale(2);
+                transform: scale(1.6);
             }
         }
     }
@@ -252,7 +272,19 @@
     &.art-anime-minicode-animation-v4 {
 
         &.regular {
-            width: 26rem;
+            width: 27rem;
+            height: 17.5rem;
+
+            > div {
+                transform: scale(1.75);
+            }
+        }
+    }
+
+    &.art-anime-minicode-animation-v5 {
+
+        &.regular {
+            width: 27rem;
             height: 19.4rem;
 
             > div {
@@ -263,6 +295,34 @@
 
 
 
+
+    &.art-anime-minicode-basic-v1 {
+
+        &.regular {
+            width: 17.5rem;
+            height: 18.2rem;
+
+            > div {
+                transform: scale(1.75);
+            }
+        }
+    }
+
+
+
+
+
+    &.art-anime-minicode-basic-v2 {
+
+        &.regular {
+            width: 17.5rem;
+            height: 18.2rem;
+
+            > div {
+                transform: scale(1.75);
+            }
+        }
+    }
 
 
 
@@ -284,12 +344,12 @@
 
     &.art-anime-bmo {
 
-        &.small {
-            width: 3.4rem;
-            height: 3.25rem;
+        &.regular {
+            width: 5.6rem;
+            height: 5.4rem;
 
             > div {
-                transform: scale(0.6);
+                transform: scale(1);
             }
         }
     }

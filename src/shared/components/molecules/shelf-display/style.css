@@ -1,5 +1,4 @@
 .shelf-display {
-
     justify-items: center;
 
     > .shelf-display__div {
@@ -11,7 +10,7 @@
             width: 150%;
             height: 2rem;
             position: relative;
-            border-top: solid 0.5rem var(--color-wooden-room-shadow-light);
+            border-top: solid 0.5rem #c38c5c;
 
 
             &::before,
@@ -22,7 +21,7 @@
                 width: 1rem;
                 height: 100%;
                 top: 0;
-                background-color: var(--color-wooden-room-shadow-light);
+                background-color: #c38c5c;
                 clip-path: polygon(75% 2%, 22% 0, 50% 100%);
             }
 

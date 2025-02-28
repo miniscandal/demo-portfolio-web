@@ -11,8 +11,8 @@ function MangaDialogue({
 
     return (
         <div className={`manga-dialogue ${classList.join(' ')}`}>
-            <div className='manga-dialogue__message'>
-                <div>
+            <div className='manga-dialogue__element'>
+                <div className='manga-dialogue__element--message'>
                     {children}
                 </div>
             </div>

@@ -6,15 +6,8 @@ const PIXEL_ART_ANIME_KURISU = 'anime-kurisu';
 const PIXEL_ART_ANIME_KANAO = 'anime-kanao';
 const PIXEL_ART_ANIME_KOMI = 'anime-komi';
 
-
-
-
 const PIXEL_ART_ADVENTURE_TIME_JAKE_THE_DOG = 'anime-jake-the-dog';
 const PIXEL_ART_ADVENTURE_TIME_BMO = 'anime-bmo';
-
-
-
-
 
 const PIXEL_ART_ANIME_ITSUKI_NAKANO_CARD = 'anime-itsuki-nakano-card';
 const PIXEL_ART_ANIME_MIKU_NAKANO_CARD = 'anime-miku-nakano-card';
@@ -38,8 +31,13 @@ const PIXEL_ART_ANIME_MINICODE_ANIMATION_V1 = 'anime-minicode-animation-v1';
 const PIXEL_ART_ANIME_MINICODE_ANIMATION_V2 = 'anime-minicode-animation-v2';
 const PIXEL_ART_ANIME_MINICODE_ANIMATION_V3 = 'anime-minicode-animation-v3';
 const PIXEL_ART_ANIME_MINICODE_ANIMATION_V4 = 'anime-minicode-animation-v4';
+const PIXEL_ART_ANIME_MINICODE_ANIMATION_V5 = 'anime-minicode-animation-v5';
 
-const PIXEL_ART_ITEM_DESK = 'item-desk';
+const PIXEL_ART_ANIME_MINICODE_BASIC_V1 = 'anime-minicode-basic-v1';
+const PIXEL_ART_ANIME_MINICODE_BASIC_V2 = 'anime-minicode-basic-v2';
+
+const PIXEL_ART_ITEM_DESK_ANIMATION = 'item-desk-animation';
+const PIXEL_ART_ITEM_DESK_INVERT_ANIMATION = 'item-desk-invert-animation';
 const PIXEL_ART_ITEM_WHITEBOARD = 'item-whiteboard';
 const PIXEL_ART_ITEM_COMPUTERS_STEINS_GATE = 'item-computers-steins-gate';
 const PIXEL_ART_ITEM_MICROWAVE_STEINS_GATE = 'item-microwave-steins-gate';
@@ -107,8 +105,13 @@ export {
     PIXEL_ART_ANIME_MINICODE_ANIMATION_V2,
     PIXEL_ART_ANIME_MINICODE_ANIMATION_V3,
     PIXEL_ART_ANIME_MINICODE_ANIMATION_V4,
+    PIXEL_ART_ANIME_MINICODE_ANIMATION_V5,
 
-    PIXEL_ART_ITEM_DESK,
+    PIXEL_ART_ANIME_MINICODE_BASIC_V1,
+    PIXEL_ART_ANIME_MINICODE_BASIC_V2,
+
+    PIXEL_ART_ITEM_DESK_ANIMATION,
+    PIXEL_ART_ITEM_DESK_INVERT_ANIMATION,
     PIXEL_ART_ITEM_WHITEBOARD,
     PIXEL_ART_ITEM_COMPUTERS_STEINS_GATE,
     PIXEL_ART_ITEM_MICROWAVE_STEINS_GATE,
