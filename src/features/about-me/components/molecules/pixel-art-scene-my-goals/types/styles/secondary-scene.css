@@ -57,12 +57,12 @@
             }
 
             &::after {
-                background: var(--color-wooden-room-floor);
+                background: #d7a67a;
 
                 box-shadow:
-                    1.875rem 1.25rem 0 0.625rem var(--color-wooden-room-shadow-light),
-                    -1.25rem 0.625rem 0 2.9375rem var(--color-wooden-room-shadow-medium),
-                    0.625rem -0.3125rem 0 1.25rem var(--color-wooden-room-shadow-dark);
+                    1.875rem 1.25rem 0 0.625rem #c38c5c,
+                    -1.25rem 0.625rem 0 2.9375rem #b77b52,
+                    0.625rem -0.3125rem 0 1.25rem #a06a47;
             }
         }
     }

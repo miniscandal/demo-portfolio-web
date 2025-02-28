@@ -57,12 +57,12 @@
             }
 
             &::after {
-                background: var(--color-science-lab-floor);
+                background: #b0bec5;
 
                 box-shadow:
-                    1.875rem 1.25rem 0 0.625rem var(--color-science-lab-shadow-light),
-                    -1.25rem 0.625rem 0 2.9375rem var(--color-science-lab-shadow-medium),
-                    0.625rem -0.3125rem 0 1.25rem var(--color-science-lab-shadow-dark);
+                    1.875rem 1.25rem 0 0.625rem #90a4ae,
+                    -1.25rem 0.625rem 0 2.9375rem #78909c,
+                    0.625rem -0.3125rem 0 1.25rem #607d8b;
             }
         }
     }
