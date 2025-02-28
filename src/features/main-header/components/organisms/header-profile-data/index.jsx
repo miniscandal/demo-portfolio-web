@@ -1,9 +1,11 @@
 import { ProfessionalInformation } from '@feat-main-header-molecules/professional-information';
 
+import { PixelArt } from '@shared-atoms/pixel-art';
 import { ProfessionalContact } from '@shared-organisms/professional-contact';
-import { LoopingTypingDialogue } from '@shared-molecules/looping-typing-dialogue';
+import { TypingDialogueSegmentLooping } from '@shared-molecules/typing-dialogue-segment';
 
-import { PIXEL_ART_ANIME_MINICODE_ANIMATION_V1 } from '@shared-atoms/pixel-art/variants';
+import { PIXEL_ART_ANIME_MINICODE_ANIMATION_V2 } from '@shared-atoms/pixel-art/variants';
+import { PIXEL_ART_ITEM_DESK_ANIMATION } from '@shared-atoms/pixel-art/variants';
 
 import './style.css';
 
@@ -18,10 +20,13 @@ function HeaderProfileData({
                 <ProfessionalInformation />
                 <ProfessionalContact />
             </div>
-            <LoopingTypingDialogue
-                messages={miniMessages}
-                character={PIXEL_ART_ANIME_MINICODE_ANIMATION_V1}
-            />
+            <div className='header-profile-data__div'>
+                <TypingDialogueSegmentLooping messages={miniMessages} />
+                <div className='header-profile-data__pixel-art'>
+                    <PixelArt character={PIXEL_ART_ITEM_DESK_ANIMATION} size='regular' />
+                    <PixelArt character={PIXEL_ART_ANIME_MINICODE_ANIMATION_V2} size='regular' />
+                </div>
+            </div>
         </article>
     );
 }

@@ -2,9 +2,11 @@ import { createContext } from 'react';
 
 import { en } from '@shared-mocks/data/mini-messages/mini-messages.json';
 
+import { segmentMiniMessages } from '@shared-utils/segment-mini-messages';
+
 
 const Provider = {
-    miniMessages: en.miniMessages
+    miniMessages: segmentMiniMessages(en.miniMessages)
 };
 
 const MiniMessagesContext = createContext(Provider);
