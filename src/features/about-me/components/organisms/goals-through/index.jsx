@@ -12,7 +12,7 @@ import { PIXEL_ART_ITEM_HOURGLASS } from '@shared-atoms/pixel-art/variants';
 import { PIXEL_ART_ITEM_MORTARBOARD } from '@shared-atoms/pixel-art/variants';
 import { PIXEL_ART_ITEM_BOOKS } from '@shared-atoms/pixel-art/variants';
 import { PIXEL_ART_ITEM_ARCADE } from '@shared-atoms/pixel-art/variants';
-import { PIXEL_ART_ITEM_SOCCER } from '@shared-atoms/pixel-art/variants';
+import { PIXEL_ART_ITEM_SOCCER_BALL } from '@shared-atoms/pixel-art/variants';
 import { PIXEL_ART_ITEM_PENCIL_PINK } from '@shared-atoms/pixel-art/variants';
 import { PIXEL_ART_ITEM_DOMO_ANIMATION } from '@shared-atoms/pixel-art/variants';
 
@@ -36,7 +36,7 @@ function GoalsThrough() {
             </MyGoalsThrough>
             <MyGoalsThrough {...myGoalsThroughSecondary} texts={personal}>
                 <PixelArt character={PIXEL_ART_ITEM_ARCADE} />
-                <PixelArt character={PIXEL_ART_ITEM_SOCCER} />
+                <PixelArt character={PIXEL_ART_ITEM_SOCCER_BALL} />
                 <PixelArt character={PIXEL_ART_ITEM_PENCIL_PINK} />
                 <ShelfDisplay>
                     <PixelArt character={PIXEL_ART_ITEM_DOMO_ANIMATION} />

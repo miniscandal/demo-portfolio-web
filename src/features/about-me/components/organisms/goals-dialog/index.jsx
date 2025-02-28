@@ -6,7 +6,7 @@ import { Paragraph } from '@shared-atoms/paragraph';
 import { PixelArt } from '@shared-atoms/pixel-art';
 import { RadioButtonGroup } from '@shared-molecules/radio-button-group';
 
-import { PIXEL_ART_ITEM_DIALOG_VERTICAL } from '@shared-atoms/pixel-art/variants';
+import { PIXEL_ART_ITEM_SPEECH_BUBBLE_BIT } from '@shared-atoms/pixel-art/variants';
 
 import './style.css';
 
@@ -38,7 +38,7 @@ function GoalsDialog({
                 />
             </div>
             <div className='goals-dialog__div'>
-                <PixelArt character={PIXEL_ART_ITEM_DIALOG_VERTICAL} />
+                <PixelArt character={PIXEL_ART_ITEM_SPEECH_BUBBLE_BIT} />
                 <div className='goals-dialog__div--texts'>
                     <Paragraph text={texts[0]} color='dark' />
                     <Paragraph text={texts[1]} color='dark' />
