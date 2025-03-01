@@ -1,10 +1,10 @@
-import { PIXEL_ART_ANIME_UMI } from './variants';
+import { PIXEL_ART_ANIME_UMI_ANIMATION } from './variants';
 
 import './style.css';
 
 
 function PixelArt({
-    character = PIXEL_ART_ANIME_UMI,
+    character = PIXEL_ART_ANIME_UMI_ANIMATION,
     size = 'regular',
     showBox = false
 }) {
