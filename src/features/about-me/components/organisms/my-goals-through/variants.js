@@ -3,13 +3,13 @@ import { ProviderPersonalGoals } from '@shared-contexts/content-visibility-contr
 
 import { SelectGoalDescription } from '@feat-about-me-molecules/select-goal-description';
 
-import { PIXEL_ART_ANIME_MINICODE_ANIMATION_V3 } from '@shared-atoms/pixel-art/variants';
-import { PIXEL_ART_ANIME_MINICODE_ANIMATION_V4 } from '@shared-atoms/pixel-art/variants';
+import { PIXEL_ART_ANIME_MINIDEV_V3_ANIMATION } from '@shared-atoms/pixel-art/variants';
+import { PIXEL_ART_ANIME_MINIDEV_V4_ANIMATION } from '@shared-atoms/pixel-art/variants';
 
 
 const myGoalsThroughMain = {
     title: 'Social goals through my profession',
-    character: PIXEL_ART_ANIME_MINICODE_ANIMATION_V3,
+    character: PIXEL_ART_ANIME_MINIDEV_V3_ANIMATION,
     type: 'primary-scene',
     Provider: {
         ...ProviderSocialGoals,
@@ -19,7 +19,7 @@ const myGoalsThroughMain = {
 
 const myGoalsThroughSecondary = {
     title: 'Personal goals through key activities',
-    character: PIXEL_ART_ANIME_MINICODE_ANIMATION_V4,
+    character: PIXEL_ART_ANIME_MINIDEV_V4_ANIMATION,
     type: 'secondary-scene',
     Provider: {
         ...ProviderPersonalGoals,
