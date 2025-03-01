@@ -6,7 +6,7 @@ import { Title } from '@shared-atoms/title';
 import { PixelArt } from '@shared-atoms/pixel-art';
 import { HitBoxButton } from '@shared-molecules/hit-box-button';
 
-import { PIXEL_ART_ANIME_KANAO } from '@shared-atoms/pixel-art/variants';
+import { PIXEL_ART_ANIME_KIMETSU_NO_YAIBA_KANAO } from '@shared-atoms/pixel-art/variants';
 import { PIXEL_ART_ITEM_STICKY_NOTE } from '@shared-atoms/pixel-art/variants';
 import { PIXEL_ART_ITEM_STICKY_NOTE_GROUP } from '@shared-atoms/pixel-art/variants';
 import { PIXEL_ART_ITEM_WHITEBOARD } from '@shared-atoms/pixel-art/variants';

@@ -4,7 +4,7 @@ import { MangaContext } from '@feat-personal-software-projects-contexts/manga-co
 
 import { Title } from '@shared-atoms/title';
 
-import { PIXEL_ART_ANIME_KURISU } from '@shared-atoms/pixel-art/variants';
+import { PIXEL_ART_ANIME_STEINS_GATE_KURISU_ANIMATION } from '@shared-atoms/pixel-art/variants';
 import { PIXEL_ART_ITEM_ANIME_STEINS_GATE_COMPUTERS } from '@shared-atoms/pixel-art/variants';
 import { PixelArt } from '@shared-atoms/pixel-art';
 

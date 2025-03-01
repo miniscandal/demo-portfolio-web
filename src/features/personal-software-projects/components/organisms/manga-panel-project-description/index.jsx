@@ -10,8 +10,8 @@ import { TypingDialogue } from '@shared-molecules/typing-dialogue';
 import { ShelfDisplay } from '@shared-molecules/shelf-display';
 
 import {
-    PIXEL_ART_ADVENTURE_TIME_BMO,
-    PIXEL_ART_ANIME_RINTARO,
+    PIXEL_ART_ANIME_ADVENTURE_TIME_BMO_ANIMATION,
+    PIXEL_ART_ANIME_STEINS_GATE_RINTARO_ANIMATION,
     PIXEL_ART_ITEM_DESK_ANIMATION,
     PIXEL_ART_ITEM_ANIME_STEINS_GATE_MICROWAVE
 } from '@shared-atoms/pixel-art/variants';
@@ -35,7 +35,7 @@ function MangaPanelProjectDescription({ isModePreview = true }) {
             <Title text={name} type='h3' />
             <TypingDialogue
                 message={descriptions[descriptionIndex]}
-                character={PIXEL_ART_ANIME_RINTARO}
+                character={PIXEL_ART_ANIME_STEINS_GATE_RINTARO_ANIMATION}
             />
             {
                 !isModePreview
@@ -43,7 +43,7 @@ function MangaPanelProjectDescription({ isModePreview = true }) {
                 <>
                     <div className='manga-panel-project-description__bmo'>
                         <ShelfDisplay>
-                            <PixelArt character={PIXEL_ART_ADVENTURE_TIME_BMO} />
+                            <PixelArt character={PIXEL_ART_ANIME_ADVENTURE_TIME_BMO_ANIMATION} />
                         </ShelfDisplay>
                     </div>
                     <PixelArt character={PIXEL_ART_ITEM_DESK_ANIMATION} />
