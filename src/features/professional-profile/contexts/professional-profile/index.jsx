@@ -8,11 +8,11 @@ import { Terminal } from '@shared-atoms/icon-font-svg/variants';
 import { EditNote } from '@shared-atoms/icon-font-svg/variants';
 import { Database } from '@shared-atoms/icon-font-svg/variants';
 
-import { PIXEL_ART_ANIME_MIKU_NAKANO_CARD } from '@shared-atoms/pixel-art/variants';
-import { PIXEL_ART_ANIME_ITSUKI_NAKANO_CARD } from '@shared-atoms/pixel-art/variants';
-import { PIXEL_ART_ANIME_YOTSUBA_NAKANO_CARD } from '@shared-atoms/pixel-art/variants';
-import { PIXEL_ART_ANIME_ICHIKA_NAKANO_CARD } from '@shared-atoms/pixel-art/variants';
-import { PIXEL_ART_ANIME_NINO_NAKANO_CARD } from '@shared-atoms/pixel-art/variants';
+import { PIXEL_ART_ANIME_NAKANO_MIKU_CARD_ANIMATION } from '@shared-atoms/pixel-art/variants';
+import { PIXEL_ART_ANIME_NAKANO_ITSUKI_CARD_ANIMATION } from '@shared-atoms/pixel-art/variants';
+import { PIXEL_ART_ANIME_NAKANO_YOTSUBA_CARD_ANIMATION } from '@shared-atoms/pixel-art/variants';
+import { PIXEL_ART_ANIME_NAKANO_ICHIKA_CARD_ANIMATION } from '@shared-atoms/pixel-art/variants';
+import { PIXEL_ART_ANIME_NAKANO_NINO_CARD_ANIMATION } from '@shared-atoms/pixel-art/variants';
 
 const {
     computerSystemEngineering,
@@ -27,31 +27,31 @@ const Provider = [
         name: computerSystemEngineering.name,
         description: computerSystemEngineering.description,
         iconFontSvg: Computer,
-        pixelArtCharacter: PIXEL_ART_ANIME_ITSUKI_NAKANO_CARD
+        pixelArtCharacter: PIXEL_ART_ANIME_NAKANO_ITSUKI_CARD_ANIMATION
     },
     {
         name: internetOfThings.name,
         description: internetOfThings.description,
         iconFontSvg: BroadcastOnHome,
-        pixelArtCharacter: PIXEL_ART_ANIME_MIKU_NAKANO_CARD
+        pixelArtCharacter: PIXEL_ART_ANIME_NAKANO_MIKU_CARD_ANIMATION
     },
     {
         name: softwareDeveloper.name,
         description: softwareDeveloper.description,
         iconFontSvg: Terminal,
-        pixelArtCharacter: PIXEL_ART_ANIME_YOTSUBA_NAKANO_CARD
+        pixelArtCharacter: PIXEL_ART_ANIME_NAKANO_YOTSUBA_CARD_ANIMATION
     },
     {
         name: functionalAnalyst.name,
         description: functionalAnalyst.description,
         iconFontSvg: EditNote,
-        pixelArtCharacter: PIXEL_ART_ANIME_ICHIKA_NAKANO_CARD
+        pixelArtCharacter: PIXEL_ART_ANIME_NAKANO_ICHIKA_CARD_ANIMATION
     },
     {
         name: databaseAdministration.name,
         description: databaseAdministration.description,
         iconFontSvg: Database,
-        pixelArtCharacter: PIXEL_ART_ANIME_NINO_NAKANO_CARD
+        pixelArtCharacter: PIXEL_ART_ANIME_NAKANO_NINO_CARD_ANIMATION
     },
 ];
 

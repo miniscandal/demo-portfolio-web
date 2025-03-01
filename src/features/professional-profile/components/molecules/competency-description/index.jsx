@@ -1,13 +1,13 @@
 import { Paragraph } from '@shared-atoms/paragraph';
 import { PixelArt } from '@shared-atoms/pixel-art';
 
-import { PIXEL_ART_ANIME_ITSUKI_NAKANO_CARD } from '@shared-atoms/pixel-art/variants';
+import { PIXEL_ART_ANIME_NAKANO_ITSUKI_CARD_ANIMATION } from '@shared-atoms/pixel-art/variants';
 
 import './style.css';
 
 
 function CompetencyDescription({
-    pixelArtCharacter = PIXEL_ART_ANIME_ITSUKI_NAKANO_CARD,
+    pixelArtCharacter = PIXEL_ART_ANIME_NAKANO_ITSUKI_CARD_ANIMATION,
     text = undefined
 }) {
 
