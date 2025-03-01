@@ -1,74 +1,105 @@
-@import url('./items-url.css');
 @import url('./items-style.css');
-
-@import url('./characters-url.css');
 @import url('./characters-style.css');
 
-/* Accepted */
+
+/* Pixel Art Items */
+
+@import url('./items/anime-dango-blue.css');
+@import url('./items/anime-dango-pink.css');
+@import url('./items/anime-dango-yellow.css');
+
+@import url('./items/anime-hitai-ate.css');
+@import url('./items/anime-parchment.css');
+
+@import url('./items/anime-steins-gate-computers.css');
+@import url('./items/anime-steins-gate-microwave.css');
+
+@import url('./items/arcade.css');
+
+@import url('./items/book-university.css');
+@import url('./items/book.css');
+@import url('./items/books.css');
+
+@import url('./items/cup-coffee-animation.css');
+
+@import url('./items/desk-animation.css');
+@import url('./items/desk-invert-animation.css');
+
+
+@import url('./items/domo-animation.css');
+@import url('./items/domo.css');
+
+@import url('./items/hourglass.css');
+
+@import url('./items/lamp.css');
+
+@import url('./items/mortarboard.css');
+
+@import url('./items/pencil-blue.css');
+@import url('./items/pencil-pink.css');
+@import url('./items/pencil-red.css');
+@import url('./items/pencil-yellow.css');
+
+@import url('./items/pump-game-logo.css');
+@import url('./items/pump-step-blue-animation.css');
+@import url('./items/pump-step-blue.css');
+@import url('./items/pump-step-center-animation.css');
+@import url('./items/pump-step-center.css');
+@import url('./items/pump-step-red-animation.css');
+@import url('./items/pump-step-red.css');
+
+@import url('./items/soccer-ball.css');
+
+@import url('./items/speech-bubble-bit-v2.css');
+@import url('./items/speech-bubble-bit.css');
+
+@import url('./items/sticky-note-group.css');
+@import url('./items/sticky-note.css');
+
+@import url('./items/whiteboard.css');
+
+
+/* ****************************************************** */
+
+
+
+/* Pixel Art Characters */
+
+
+@import url('./characters/anime-original/adventure-time-bmo-animation.css');
+@import url('./characters/anime-original/adventure-time-finn-the-human-animation.css');
+@import url('./characters/anime-original/adventure-time-jake-the-dog-animation.css');
+@import url('./characters/anime-original/adventure-time-marceline-animation.css');
+
+@import url('./characters/anime-original/boku-no-hero-todoroki-animation.css');
+@import url('./characters/anime-original/kimetsu-no-yaiba-kanao.css');
+@import url('./characters/anime-original/komi-san-wa-komyushou-desu-komi.css');
+
+@import url('./characters/anime-original/minidev-v1-animation.css');
+@import url('./characters/anime-original/minidev-v2-animation.css');
+@import url('./characters/anime-original/minidev-v3-animation.css');
+@import url('./characters/anime-original/minidev-v4-animation.css');
+@import url('./characters/anime-original/minidev-v5-animation.css');
+
+@import url('./characters/anime-original/nakano-ichika-animation.css');
+@import url('./characters/anime-original/nakano-ichika-card-animation.css');
+@import url('./characters/anime-original/nakano-itsuki-animation.css');
+@import url('./characters/anime-original/nakano-itsuki-card-animation.css');
+@import url('./characters/anime-original/nakano-miku-animation.css');
+@import url('./characters/anime-original/nakano-miku-card-animation.css');
+@import url('./characters/anime-original/nakano-nino-animation.css');
+@import url('./characters/anime-original/nakano-nino-card-animation.css');
+@import url('./characters/anime-original/nakano-yotsuba-animation.css');
+@import url('./characters/anime-original/nakano-yotsuba-card-animation.css');
+
+@import url('./characters/anime-original/naruto-hinata.css');
+
+@import url('./characters/anime-original/steins-gate-kurisu-animation.css');
+@import url('./characters/anime-original/steins-gate-rintaro-animation.css');
+
+@import url('./characters/anime-original/umi-animation.css');
 
 /* ************************************* */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@import url('./characters/anime-original/komi.css');
-@import url('./characters/anime-original/kurisu.css');
-@import url('./characters/anime-original/rintaro.css');
-@import url('./characters/anime-original/todoroki.css');
-@import url('./characters/anime-original/umi.css');
-@import url('./characters/anime-original/kanao.css');
-
-@import url('./characters/anime-original/itsuki-nakano-card.css');
-@import url('./characters/anime-original/miku-nakano-card.css');
-@import url('./characters/anime-original/yotsuba-nakano-card.css');
-@import url('./characters/anime-original/nino-nakano-card.css');
-@import url('./characters/anime-original/ichika-nakano-card.css');
-
-@import url('./characters/anime-original/itsuki-nakano.css');
-@import url('./characters/anime-original/miku-nakano.css');
-@import url('./characters/anime-original/yotsuba-nakano.css');
-@import url('./characters/anime-original/nino-nakano.css');
-@import url('./characters/anime-original/ichika-nakano.css');
-
-@import url('./characters/anime-original/itsuki-nakano-animation.css');
-@import url('./characters/anime-original/miku-nakano-animation.css');
-@import url('./characters/anime-original/yotsuba-nakano-animation.css');
-@import url('./characters/anime-original/nino-nakano-animation.css');
-@import url('./characters/anime-original/ichika-nakano-animation.css');
-
-@import url('./characters/anime-original/minicode-animation-v1.css');
-@import url('./characters/anime-original/minicode-animation-v2.css');
-@import url('./characters/anime-original/minicode-animation-v3.css');
-@import url('./characters/anime-original/minicode-animation-v4.css');
-@import url('./characters/anime-original/minicode-animation-v5.css');
-
-@import url('./characters/anime-original/minicode-basic-v1.css');
-@import url('./characters/anime-original/minicode-basic-v2.css');
-
-@import url('./characters/adventure_time/jake_the_dog.css');
-@import url('./characters/adventure_time/bmo.css');
-
 
 .pixel-art {
 
@@ -80,336 +111,5 @@
 
     &.show-box {
         background-color: white;
-    }
-
-    &.art-anime-umi {
-        &.regular {
-            width: 8rem;
-            height: 13.2rem;
-
-            > div {
-                transform: scale(0.8);
-            }
-        }
-    }
-
-    &.art-anime-rintaro {
-        &.regular {
-            width: 8.5rem;
-            height: 13.2rem;
-
-            > div {
-                transform: scale(0.8);
-            }
-        }
-    }
-
-
-    &.art-anime-kanao {
-        &.regular {
-            width: 9rem;
-            height: 13.5rem;
-
-            > div {
-                transform: scale(1.3);
-            }
-        }
-
-        &.small {
-            width: 17.6rem;
-            height: 31.7rem;
-
-            > div {
-                transform: scale(0.7);
-            }
-        }
-    }
-
-    &.art-anime-itsuki-nakano-card {
-        &.regular {
-            width: 13rem;
-            height: 14.5rem;
-
-            > div {
-                transform: scale(1.2);
-            }
-        }
-    }
-
-    &.art-anime-miku-nakano-card {
-        &.regular {
-            width: 13rem;
-            height: 14.5rem;
-
-            > div {
-                transform: scale(1.2);
-            }
-        }
-    }
-
-    &.art-anime-yotsuba-nakano-card {
-        &.regular {
-            width: 13rem;
-            height: 14.5rem;
-
-            > div {
-                transform: scale(1.2);
-            }
-        }
-    }
-
-    &.art-anime-ichika-nakano-card {
-        &.regular {
-            width: 13rem;
-            height: 14.5rem;
-
-            > div {
-                transform: scale(1.2);
-            }
-        }
-    }
-
-    &.art-anime-nino-nakano-card {
-        &.regular {
-            width: 13rem;
-            height: 14.5rem;
-
-            > div {
-                transform: scale(1.2);
-            }
-        }
-    }
-
-    &.art-anime-minicode-animation-v1 {
-
-        &.regular {
-            width: 17.8rem;
-            height: 18.8rem;
-
-            > div {
-                transform: scale(1.8);
-            }
-        }
-    }
-
-    &.art-anime-minicode-animation-v2 {
-
-        &.regular {
-            width: 8.4rem;
-            height: 16rem;
-
-            > div {
-                transform: scale(1.6);
-            }
-        }
-    }
-
-    &.art-anime-minicode-animation-v3 {
-
-        &.regular {
-            width: 11.6rem;
-            height: 21rem;
-
-            > div {
-                transform: scale(1.9);
-            }
-        }
-    }
-
-    &.art-anime-minicode-animation-v4 {
-
-        &.regular {
-            width: 27rem;
-            height: 17.5rem;
-
-            > div {
-                transform: scale(1.75);
-            }
-        }
-    }
-
-    &.art-anime-minicode-animation-v5 {
-
-        &.regular {
-            width: 27rem;
-            height: 19.4rem;
-
-            > div {
-                transform: scale(1.75);
-            }
-        }
-    }
-
-
-
-
-    &.art-anime-minicode-basic-v1 {
-
-        &.regular {
-            width: 17.5rem;
-            height: 18.2rem;
-
-            > div {
-                transform: scale(1.75);
-            }
-        }
-    }
-
-
-
-
-
-    &.art-anime-minicode-basic-v2 {
-
-        &.regular {
-            width: 17.5rem;
-            height: 18.2rem;
-
-            > div {
-                transform: scale(1.75);
-            }
-        }
-    }
-
-
-
-
-
-
-
-    &.art-anime-jake-the-dog {
-
-        &.regular {
-            width: 13rem;
-            height: 13rem;
-
-            > div {
-                transform: scale(1.2);
-            }
-        }
-    }
-
-    &.art-anime-bmo {
-
-        &.regular {
-            width: 5.6rem;
-            height: 5.4rem;
-
-            > div {
-                transform: scale(1);
-            }
-        }
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    &.art-anime-komi {
-        &.regular {
-            width: 8.3rem;
-            height: 12.5rem;
-
-            > div {
-                transform: scale(0.6);
-            }
-        }
-
-        &.small {
-            width: 8.6rem;
-            height: 14.8rem;
-
-            > div {
-                transform: scale(0.9);
-            }
-        }
-    }
-
-    &.art-anime-kurisu {
-        &.regular {
-            width: 9rem;
-            height: 13rem;
-
-            > div {
-                transform: scale(1.3);
-            }
-        }
-
-        &.small {
-            width: 17.6rem;
-            height: 31.7rem;
-
-            > div {
-                transform: scale(0.7);
-            }
-        }
-    }
-
-    &.art-anime-todoroki {
-        &.regular {
-            width: 5.4rem;
-            height: 9rem;
-
-            > div {
-                transform: scale(0.38);
-            }
-        }
-    }
-
-
-    &.art-anime-hinata {
-        &.regular {
-            width: 6.5rem;
-            height: 9rem;
-
-            > div {
-                transform: scale(1);
-            }
-        }
-    }
-
-
-    &.art-anime-itsuki-nakano,
-    &.art-anime-miku-nakano,
-    &.art-anime-yotsuba-nakano,
-    &.art-anime-nino-nakano,
-    &.art-anime-ichika-nakano,
-    &.art-anime-itsuki-nakano-animation,
-    &.art-anime-miku-nakano-animation,
-    &.art-anime-yotsuba-nakano-animation,
-    &.art-anime-nino-nakano-animation,
-    &.art-anime-ichika-nakano-animation {
-        &.regular {
-            width: 10.6rem;
-            height: 15.3rem;
-
-            > div {
-                transform: scale(1);
-            }
-        }
     }
 }

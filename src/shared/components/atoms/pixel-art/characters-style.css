@@ -1,0 +1,215 @@
+.pixel-art {
+
+    &.art-anime-adventure-time-bmo-animation {
+
+        &.regular {
+            width: 5.6rem;
+            height: 5.4rem;
+
+            > div {
+                transform: scale(1);
+            }
+        }
+    }
+
+    &.art-anime-adventure-time-finn-the-human-animation {
+
+        &.regular {
+            width: 13.5rem;
+            height: 15rem;
+
+            > div {
+                transform: scale(1.2);
+            }
+        }
+    }
+
+    &.art-anime-adventure-time-jake-the-dog-animation {
+
+        &.regular {
+            width: 13rem;
+            height: 13rem;
+
+            > div {
+                transform: scale(1.2);
+            }
+        }
+    }
+
+    &.art-anime-adventure-time-marceline-animation {
+
+        &.regular {
+            width: 14rem;
+            height: 22.5rem;
+
+            > div {
+                transform: scale(0.9);
+            }
+        }
+    }
+
+    &.art-anime-boku-no-hero-todoroki-animation {
+
+        &.regular {
+            width: 9.4rem;
+            height: 16.4rem;
+
+            > div {
+                transform: scale(0.7);
+            }
+        }
+    }
+
+    &.art-anime-kimetsu-no-yaiba-kanao {
+
+        &.regular {
+            width: 10.8rem;
+            height: 16.2rem;
+
+            > div {
+                transform: scale(1.6);
+            }
+        }
+    }
+
+    &.art-anime-komi-san-wa-komyushou-desu-komi {
+
+        &.regular {
+            width: 10.6rem;
+            height: 16.5rem;
+
+            > div {
+                transform: scale(0.8);
+            }
+        }
+    }
+
+    &.art-anime-minidev-v1-animation {
+
+        &.regular {
+            width: 17.8rem;
+            height: 18.8rem;
+
+            > div {
+                transform: scale(1.8);
+            }
+        }
+    }
+
+    &.art-anime-minidev-v2-animation {
+
+        &.regular {
+            width: 8.4rem;
+            height: 16rem;
+
+            > div {
+                transform: scale(1.6);
+            }
+        }
+    }
+
+    &.art-anime-minidev-v3-animation {
+
+        &.regular {
+            width: 11.6rem;
+            height: 21rem;
+
+            > div {
+                transform: scale(1.9);
+            }
+        }
+    }
+
+    &.art-anime-minidev-v4-animation,
+    &.art-anime-minidev-v5-animation {
+
+        &.regular {
+            width: 27.2rem;
+            height: 19.4rem;
+
+            > div {
+                transform: scale(1.75);
+            }
+        }
+    }
+
+    &.art-anime-nakano-itsuki-animation,
+    &.art-anime-nakano-miku-animation,
+    &.art-anime-nakano-yotsuba-animation,
+    &.art-anime-nakano-nino-animation,
+    &.art-anime-nakano-ichika-animation {
+
+        &.regular {
+            width: 10.6rem;
+            height: 15.2rem;
+
+            > div {
+                transform: scale(1);
+            }
+        }
+    }
+
+    &.art-anime-nakano-itsuki-card-animation,
+    &.art-anime-nakano-miku-card-animation,
+    &.art-anime-nakano-yotsuba-card-animation,
+    &.art-anime-nakano-ichika-card-animation,
+    &.art-anime-nakano-nino-card-animation {
+
+        &.regular {
+            width: 13rem;
+            height: 14.5rem;
+
+            > div {
+                transform: scale(1.2);
+            }
+        }
+    }
+
+    &.art-anime-naruto-hinata-animation {
+
+        &.regular {
+            width: 11.5rem;
+            height: 14.4rem;
+
+            > div {
+                transform: scale(1.8);
+            }
+        }
+    }
+
+    &.art-anime-steins-gate-kurisu-animation {
+
+        &.regular {
+            width: 10.2rem;
+            height: 14.8rem;
+
+            > div {
+                transform: scale(1.5);
+            }
+        }
+    }
+
+    &.art-anime-steins-gate-rintaro-animation {
+
+        &.regular {
+            width: 10.5rem;
+            height: 16.5rem;
+
+            > div {
+                transform: scale(1);
+            }
+        }
+    }
+
+    &.art-anime-umi-animation {
+
+        &.regular {
+            width: 9.5rem;
+            height: 16.5rem;
+
+            > div {
+                transform: scale(1);
+            }
+        }
+    }
+}
