@@ -13,7 +13,7 @@
     -webkit-user-select: none;
     user-select: none;
 
-    &.type-item-center-step {
+    &.type-item-pump-step-center {
         background: linear-gradient(to bottom, #382e31, #515055);
 
         &.pressed {
@@ -21,7 +21,7 @@
         }
     }
 
-    &.type-item-blue-step {
+    &.type-item-pump-step-blue {
         transform: scaleY(-1);
         background: linear-gradient(to bottom, #1788ce, #2f2e32);
 
@@ -38,7 +38,7 @@
         }
     }
 
-    &.type-item-red-step {
+    &.type-item-pump-step-red {
         background: linear-gradient(to bottom, #e32223, #2f2e32);
 
         &.pressed {
