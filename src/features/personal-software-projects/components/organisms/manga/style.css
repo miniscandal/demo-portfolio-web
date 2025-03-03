@@ -1,5 +1,5 @@
 .manga {
-    --unit-rem: 1rem;
+    --unit-rem: 0.5rem;
 
     display: flex;
     justify-content: center;
@@ -7,5 +7,10 @@
     > .manga-page-main,
     > .manga-page-secondary {
         background-color: #2c2c2c;
+
+        > ul {
+            width: 45rem;
+            height: 60rem;
+        }
     }
 }
