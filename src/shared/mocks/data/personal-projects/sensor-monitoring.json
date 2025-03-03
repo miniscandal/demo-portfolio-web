@@ -3,8 +3,8 @@
         "name": "Sensor Monitoring",
         "descriptions": [
             "Real-time sensor monitoring and control.",
-            "Real-time monitoring and control of temperature and humidity sensors.",
-            "Real-time display of temperature and humidity information transmitted by sensors for precise and detailed control of the environment."
+            "Continuous monitoring and regulation of temperature and humidity sensors.",
+            "Detailed display of temperature and humidity data from sensors for precise environmental control."
         ],
         "objectives": [
             "Implement and acquire relevant IoT concepts, such as real-time communication, communication protocols, and data consistency.",
