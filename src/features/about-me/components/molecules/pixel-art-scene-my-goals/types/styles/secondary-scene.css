@@ -6,7 +6,7 @@
             position: relative;
 
             > .pixel-art,
-            > .shelf-display {
+            > .floating-shelves {
                 z-index: 10;
 
                 &:nth-child(1) {
@@ -28,12 +28,13 @@
                     grid-column: 4;
                     grid-row: 3;
                     transform: rotate(105deg);
-                    justify-self: center;
+                    margin: auto;
                 }
 
                 &:nth-child(5) {
                     grid-column: 3;
                     grid-row: 1;
+                    margin: auto;
                 }
 
                 @media (width < 50rem) {
