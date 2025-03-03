@@ -1,0 +1,22 @@
+.next-step-indicator {
+    justify-items: center;
+    font-family: var(--font-family-manga);
+
+    > .next-step-indicator__div {
+        padding-top: var(--padding-simple-molecule);
+        animation: press-indicator 0.5s infinite alternate linear;
+    }
+}
+
+@keyframes press-indicator {
+    from {
+        transform: translateY(calc(var(--padding-simple-molecule) * -1));
+        filter: opacity(0.6);
+        opacity: 0.6;
+    }
+
+    to {
+        transform: translateY(0);
+        filter: opacity(1);
+    }
+}
