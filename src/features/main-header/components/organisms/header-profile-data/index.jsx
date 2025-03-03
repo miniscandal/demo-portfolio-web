@@ -2,7 +2,7 @@ import { ProfessionalInformation } from '@feat-main-header-molecules/professiona
 
 import { PixelArt } from '@shared-atoms/pixel-art';
 import { ProfessionalContact } from '@shared-organisms/professional-contact';
-import { TypingDialogueSegmentLooping } from '@shared-molecules/typing-dialogue-segment';
+import { TypingDialogueSegmentLooping } from '@shared-molecules/typing-dialogue-segment-looping';
 
 import { PIXEL_ART_ANIME_MINIDEV_V2_ANIMATION } from '@shared-atoms/pixel-art/variants';
 import { PIXEL_ART_ITEM_DESK_ANIMATION } from '@shared-atoms/pixel-art/variants';
