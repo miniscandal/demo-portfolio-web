@@ -1,0 +1,32 @@
+.scene-stars-universe {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    perspective: 20rem;
+
+    > .scene-stars-universe__star {
+        width: 0.25rem;
+        height: 0.25rem;
+        position: absolute;
+        background: #fff;
+        border-radius: 100%;
+        box-shadow: 0 0 0.5rem 0.25rem #21c0c9;
+        animation: my-animate 1.5s linear infinite;
+        opacity: 1;
+        transform: translateZ(0rem) scale(0.1);
+    }
+}
+
+
+@keyframes my-animate {
+    0% {
+        opacity: 1;
+        transform: translateZ(0rem) scale(0.1);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateZ(-20rem) scale(1);
+    }
+}
