@@ -10,7 +10,7 @@ import './style.css';
 
 
 function TypingDialogueLooping({
-    messages = ['Cycling', 'Typing', 'Effect'],
+    messages = ['Typing', 'Dialogue', 'Looping'],
     character = undefined
 }) {
     const [indexText, setIndexText] = useState(0);
