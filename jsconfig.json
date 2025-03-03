@@ -56,9 +56,6 @@
             "@feat-personal-software-projects-contexts/*": [
                 "features/personal-software-projects/contexts/*"
             ],
-            "@feat-personal-software-projects-helpers/*": [
-                "features/personal-software-projects/helpers/*"
-            ],
             "@feat-main-header-molecules/*": [
                 "features/main-header/components/molecules/*"
             ],

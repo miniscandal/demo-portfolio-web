@@ -49,7 +49,6 @@ export default defineConfig({
             '@feat-personal-software-projects-pages': '/src/features/personal-software-projects/components/pages/',
             '@feat-personal-software-projects-constants': '/src/features/personal-software-projects/constants/',
             '@feat-personal-software-projects-contexts': '/src/features/personal-software-projects/contexts/',
-            '@feat-personal-software-projects-helpers': '/src/features/personal-software-projects/helpers/',
 
             '@shared-atoms': '/src/shared/components/atoms/',
             '@shared-molecules': '/src/shared/components/molecules/',
