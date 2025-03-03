@@ -8,7 +8,7 @@ import './style.css';
 
 
 function TypingDialogue({
-    message = 'Single Typing Effect',
+    message = 'Typing Dialogue',
     character = undefined
 }) {
     const [displayText] = useTypingEffect({ message });

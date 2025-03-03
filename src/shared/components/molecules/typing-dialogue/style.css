@@ -1,0 +1,6 @@
+.typing-dialogue {
+
+    > .pixel-art {
+        padding-top: var(--padding-molecule);
+    }
+}
