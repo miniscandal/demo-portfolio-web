@@ -7,9 +7,10 @@
 
     > .span {
         position: absolute;
-        top: 0;
-        right: 0;
-        padding: var(--padding-atom);
-        background-color: #dfdfdf;
+        top: var(--padding-molecule);
+        right: var(--padding-simple-molecule);
+        padding: var(--padding-simple-molecule);
+        background-color: #d6d6d6;
+        border-radius: var(--border-radius-atom);
     }
 }

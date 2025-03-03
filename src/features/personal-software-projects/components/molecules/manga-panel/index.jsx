@@ -3,12 +3,12 @@ import { Span } from '@shared-atoms/span';
 import './style.css';
 
 
-function MangaPanel({ children, number }) {
+function MangaPanel({ label, children }) {
 
     return (
         <div className='manga-panel'>
             {children}
-            <Span text={number} size='small' />
+            <Span text={label} size='small' />
         </div>
     );
 }
