@@ -4,7 +4,7 @@ import { ProfessionalApproachContext } from '@feat-about-me-contexts/professiona
 
 import { MyGoalsThrough } from '@feat-about-me-organisms/my-goals-through';
 
-import { ShelfDisplay } from '@shared-molecules/shelf-display';
+import { FloatingShelves } from '@shared-molecules/floating-shelves';
 import { PixelArt } from '@shared-atoms/pixel-art';
 
 import { PIXEL_ART_ITEM_WHITEBOARD } from '@shared-atoms/pixel-art/variants';
@@ -38,9 +38,9 @@ function GoalsThrough() {
                 <PixelArt character={PIXEL_ART_ITEM_ARCADE} />
                 <PixelArt character={PIXEL_ART_ITEM_SOCCER_BALL} />
                 <PixelArt character={PIXEL_ART_ITEM_PENCIL_PINK} />
-                <ShelfDisplay>
+                <FloatingShelves>
                     <PixelArt character={PIXEL_ART_ITEM_DOMO_ANIMATION} />
-                </ShelfDisplay>
+                </FloatingShelves>
             </MyGoalsThrough>
         </div>
     );
