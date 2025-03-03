@@ -2,8 +2,12 @@
 
     > ul {
         display: grid;
-        grid-template-columns: 9rem 9rem var(--unit-rem) 9rem 9rem;
-        grid-template-rows: 11rem 11rem var(--unit-rem) var(--unit-rem) 11rem 11rem;
+        grid-template-columns: 1fr 1fr var(--unit-rem) 1fr 1fr;
+        grid-template-rows: 1fr 1fr var(--unit-rem) var(--unit-rem) 1fr 1fr;
+
+        > li {
+            overflow: hidden;
+        }
 
         > li:nth-child(1) {
             grid-column: 1 / 3;
