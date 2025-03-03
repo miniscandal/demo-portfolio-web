@@ -23,7 +23,7 @@
                 z-index: 10;
             }
 
-            > .star-scene {
+            > .scene-stars-universe {
                 display: none;
                 position: absolute;
             }
@@ -37,7 +37,7 @@
                 animation: star-death 1s forwards;
             }
 
-            > .star-scene {
+            > .scene-stars-universe {
                 display: block;
                 position: absolute;
             }
