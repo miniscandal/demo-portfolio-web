@@ -5,19 +5,14 @@ import { ArrowBack } from '@shared-atoms/icon-font-svg/variants';
 import './style.css';
 
 
-function MangaPrimarySideBar({ setReadMangaPageId }) {
-
-    const iconButton = {
-        svg: ArrowBack,
-        handleClick: () => { setReadMangaPageId(undefined); }
-    };
+function MangaPrimarySideBar({ setSelectedMangaPanelId }) {
 
     return (
 
         <nav className='manga-primary-side-bar'>
             <ul>
                 <li>
-                    <IconButton {...iconButton} />
+                    <IconButton svg={ArrowBack} handleClick={() => setSelectedMangaPanelId(null)} />
                 </li>
             </ul>
         </nav>
