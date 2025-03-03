@@ -1,13 +1,13 @@
-import { useState, useContext } from 'react';
+import { useContext } from 'react';
 
 import { MangaContext } from '@feat-personal-software-projects-contexts/manga-context';
 
 import { Title } from '@shared-atoms/title';
-import { NextStepButton } from '@shared-molecules/next-step-button';
+import { NextStepIndicator } from '@shared-molecules/next-step-indicator';
 import { PixelArt } from '@shared-atoms/pixel-art';
 import { HitBoxButton } from '@shared-molecules/hit-box-button';
 import { TypingDialogue } from '@shared-molecules/typing-dialogue';
-import { ShelfDisplay } from '@shared-molecules/shelf-display';
+import { FloatingShelves } from '@shared-molecules/floating-shelves';
 
 import {
     PIXEL_ART_ANIME_ADVENTURE_TIME_BMO_ANIMATION,
@@ -16,17 +16,19 @@ import {
     PIXEL_ART_ITEM_ANIME_STEINS_GATE_MICROWAVE
 } from '@shared-atoms/pixel-art/variants';
 
+import { useIncreaseIndex } from '@shared-custom-hooks/use-increase-index/use-increase-index';
+
 import './style.css';
 
 
-function MangaPanelProjectDescription({ isModePreview = true }) {
-    const [descriptionIndex, setDescriptionIndex] = useState(0);
+function MangaPanelProjectDescription({ isMiniatureMode = true }) {
     const { name, descriptions } = useContext(MangaContext);
+    const { index, increaseIndex } = useIncreaseIndex({ resetLength: descriptions.length });
 
-    const handleClick = () => setDescriptionIndex(prev => prev < descriptions.length - 1 ? prev + 1 : 0);
+    console.log(index);
 
     const classList = [
-        isModePreview ? 'is-mode-preview' : ''
+        isMiniatureMode ? 'is-miniature-mode' : ''
     ];
 
 
@@ -34,21 +36,19 @@ function MangaPanelProjectDescription({ isModePreview = true }) {
         <div className={`manga-panel-project-description ${classList.join(' ')}`}>
             <Title text={name} type='h3' />
             <TypingDialogue
-                message={descriptions[descriptionIndex]}
+                message={descriptions[index]}
                 character={PIXEL_ART_ANIME_STEINS_GATE_RINTARO_ANIMATION}
             />
             {
-                !isModePreview
+                !isMiniatureMode
                 &&
                 <>
-                    <div className='manga-panel-project-description__bmo'>
-                        <ShelfDisplay>
-                            <PixelArt character={PIXEL_ART_ANIME_ADVENTURE_TIME_BMO_ANIMATION} />
-                        </ShelfDisplay>
-                    </div>
+                    <FloatingShelves>
+                        <PixelArt character={PIXEL_ART_ANIME_ADVENTURE_TIME_BMO_ANIMATION} />
+                    </FloatingShelves>
                     <PixelArt character={PIXEL_ART_ITEM_DESK_ANIMATION} />
-                    <NextStepButton />
-                    <HitBoxButton handleClick={handleClick}>
+                    <NextStepIndicator />
+                    <HitBoxButton handleClick={increaseIndex}>
                         <PixelArt character={PIXEL_ART_ITEM_ANIME_STEINS_GATE_MICROWAVE} />
                     </HitBoxButton>
                 </>
