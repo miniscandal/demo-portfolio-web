@@ -4,7 +4,7 @@ import { MiniGameContext } from '@feat-about-me-contexts/mini-game';
 
 import { StepPlatform } from '@feat-about-me-molecules/step-platform';
 
-import { NextStepButton } from '@shared-molecules/next-step-button';
+import { NextStepIndicator } from '@shared-molecules/next-step-indicator';
 import { Title } from '@shared-atoms/title';
 
 import { playBitSoundMiss } from '@feat-about-me-helpers/play-bit-sound/variants';
@@ -70,7 +70,7 @@ function MiniGame() {
                     ?
                     <Title text='Oscar González' type='h3' />
                     :
-                    <NextStepButton />
+                    <NextStepIndicator />
             }
             <StepPlatform {...stepPlatform} />
         </div>

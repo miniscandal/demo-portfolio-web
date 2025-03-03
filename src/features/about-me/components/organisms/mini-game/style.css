@@ -8,7 +8,7 @@
         }
     }
 
-    > .next-step-button {
+    > .next-step-indicator {
         width: fit-content;
         color: #ffc509;
         padding-bottom: var(--padding-molecule);
