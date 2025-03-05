@@ -1,4 +1,4 @@
-import { RadioInput } from '@shared-atoms/radio-input';
+import { InputControl } from '@shared-atoms/input-control';
 
 import './style.css';
 
@@ -12,7 +12,7 @@ function SelectGoalDescription({
 
     return (
         <label className='select-goal-description'>
-            <RadioInput
+            <InputControl
                 htmlFor={htmlFor}
                 groupName={groupName}
                 defaultChecked={defaultChecked}
