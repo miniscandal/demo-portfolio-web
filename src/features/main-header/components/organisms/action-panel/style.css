@@ -1,37 +1,37 @@
 .action-panel {
-    justify-items: center;
+    display: flex;
+    gap: var(--gap-simple-organism);
 
-    > .action-panel__controller {
-        padding-bottom: var(--padding-molecule);
+    > .button-dango {
+        display: none;
+        background-color: #ffc685;
     }
-}
-
-.action-panel {
 
     &.activity-bar {
+        flex-direction: column;
         position: fixed;
         top: 0;
-        width: 100vw;
-        z-index: 40;
+        right: 0;
 
-        > .action-panel__controller {
-            width: 100%;
-            display: flex;
-            justify-content: center;
-            padding: var(--padding-molecule);
-            gap: var(--gap-simple-organism);
-            background-color: color-mix(in srgb, var(--bg-body) 90%, transparent);
+        padding: var(--padding-molecule);
+        border-radius: var(--border-radius-simple-molecule);
+        background-color: color-mix(in srgb, var(--bg-dark) 60%, transparent 40%);
 
+        > .toggle-theme {
+            flex-direction: column;
         }
 
-        > .action-panel__nav {
-            display: none;
+        > .button-dango {
+            display: block;
         }
     }
 
-    :has(input[type='checkbox']:checked) {
+    @media (width < 80rem) {
+        &.activity-bar {
+            position: static;
+        }
 
-        + .action-panel__nav {
+        > .button-dango {
             display: block;
         }
     }

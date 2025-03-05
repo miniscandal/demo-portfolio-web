@@ -10,36 +10,23 @@ meet the CEO's design requirements.
     padding: var(--padding-viewport);
     position: relative;
 
-    > .header-profile-data__div {
+    .header-profile-data__div {
+        z-index: 10;
 
-        > .professional-information {
+        .professional-information {
             padding-bottom: var(--padding-simple-organism);
         }
 
-        @media (width < 90rem) {
-            padding: var(--padding-simple-organism);
-            border-radius: var(--border-radius-simple-organism);
-            background-color: #885488;
-        }
-    }
-
-    > .header-profile-data__div {
-        z-index: 10;
-    }
-
-    > .header-profile-data__div {
         &:last-child {
             order: -1;
 
-            > .header-profile-data__pixel-art {
+            .header-profile-data__pixel-art {
                 display: flex;
                 align-items: end;
                 perspective: 5rem;
 
-                > .pixel-art {
-                    &:first-child {
-                        transform: translateZ(-0.25rem);
-                    }
+                .pixel-art:first-child {
+                    transform: translateZ(-0.25rem);
                 }
             }
         }
@@ -51,9 +38,21 @@ meet the CEO's design requirements.
         inset: 0;
         background-color: var(--filter-overlay-content);
         filter: var(--filter-overlay-opacity);
+    }
 
-        @media (width < 90rem) {
-            display: none;
+    @media (width < 80rem) {
+
+        .header-profile-data__div {
+
+            &:first-child {
+                background-color: #885488;
+                padding: var(--padding-simple-organism);
+                border-radius: var(--border-radius-simple-organism);
+            }
+
+            &:last-child {
+                margin: auto;
+            }
         }
     }
 }

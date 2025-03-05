@@ -1,16 +1,14 @@
 .main-header {
     --filter-overlay-content: #472f47;
     --filter-overlay-opacity: opacity(0.6);
-    --box-shadow-selected: 0 -0.25rem 0.25rem #202020;
-    --transform-translate-selected: translateY(0.5rem);
+    --box-shadow-selected: 0 0 0.5rem 0.25rem #202020;
 
 
     display: flex;
     justify-content: space-between;
     position: relative;
-    overflow: hidden;
 
-    > .main-header__background-image {
+    .main-header__bg {
         position: absolute;
         inset: 0;
 
@@ -23,20 +21,56 @@
         }
     }
 
+    .main-header__control-panel {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: var(--gap-simple-organism);
+    }
 
-    @media (width < 90rem) {
+    &.activity-bar:has(input[for="nav"]:checked) .chessboard-nav {
+        position: fixed;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 40;
+    }
+
+    @media (width < 80rem) {
         flex-direction: column-reverse;
-        background-color: var(--bg-body);
 
-        > .main-header__background-image {
-            aspect-ratio: 1 / 0.65;
+        .main-header__bg {
+            display: none;
         }
 
-        > .action-panel {
-            margin-left: auto;
+        .main-header__control-panel {
 
-            @media (width < 40rem) {
-                margin: auto;
+            &:has(input[for="nav"]:checked) {
+
+                .action-panel {
+                    z-index: 20;
+                }
+
+                .chessboard-nav {
+                    position: fixed;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    z-index: 40;
+                }
+
+                &::before {
+                    content: "";
+                    position: fixed;
+                    inset: 0;
+                    top: 0;
+                    z-index: 20;
+                    background-color: #000000a9;
+                }
+            }
+
+            &:has(input[for="nav"]:not(:checked)) .chessboard-nav {
+                display: none;
             }
         }
     }

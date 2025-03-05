@@ -1,0 +1,21 @@
+.button-dango {
+    display: block;
+    padding: var(--padding-simple-molecule);
+    border-radius: var(--border-radius-atom);
+    filter: var(--filter-brightness-base);
+
+    > span {
+        display: block;
+        text-align: center;
+        padding-top: var(--padding-simple-molecule);
+    }
+
+    &:hover {
+        filter: var(--filter-brightness-hover);
+    }
+
+    &:has(input:checked) {
+        filter: var(--filter-contrast-selected);
+        box-shadow: var(--box-shadow-selected);
+    }
+}

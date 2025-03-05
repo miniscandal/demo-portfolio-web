@@ -40,10 +40,19 @@
         background-color: var(--filter-overlay-content);
         filter: var(--filter-overlay-opacity);
     }
-}
 
-.text-box-overlay {
     &.activity-bar {
         filter: opacity(0.9);
+    }
+
+    @media (width < 80rem) {
+        filter: opacity(0.9);
+    }
+
+    @media (width < 30rem) {
+
+        > .text-box-overlay__div {
+            transform: rotate(0deg);
+        }
     }
 }

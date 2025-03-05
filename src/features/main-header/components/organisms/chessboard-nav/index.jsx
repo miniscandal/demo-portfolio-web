@@ -12,7 +12,8 @@ import './style.css';
 
 
 function ChessboardNav({
-    type = ''
+    type = '',
+    ref = undefined
 }) {
     const classList = [
         type
@@ -55,8 +56,9 @@ function ChessboardNav({
         </a>
     ));
 
+
     return (
-        <nav className={`chessboard-nav ${classList.join(' ')}`}>
+        <nav ref={ref} className={`chessboard-nav ${classList.join(' ')}`}>
             <UnorderedList items={items} Component={Component} />
         </nav>
     );
