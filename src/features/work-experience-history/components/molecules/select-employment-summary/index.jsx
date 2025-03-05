@@ -1,5 +1,5 @@
 import { Time } from '@shared-atoms/time';
-import { RadioInput } from '@shared-atoms/radio-input';
+import { InputControl } from '@shared-atoms/input-control';
 
 import './style.css';
 
@@ -19,7 +19,7 @@ function SelectEmploymentSummary({
             <div className='select-employment-summary__time'>
                 <Time color='dark' size='small' {...start} /> - <Time color='dark' size='small' {...end} />
             </div>
-            <RadioInput
+            <InputControl
                 htmlFor={htmlFor}
                 groupName={groupName}
                 defaultChecked={defaultChecked}
