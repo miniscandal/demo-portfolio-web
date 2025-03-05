@@ -1,0 +1,81 @@
+.main-header {
+    --filter-overlay-content: #472f47;
+    --filter-overlay-opacity: opacity(0.6);
+    --box-shadow-selected: 0 0 0.5rem 0.25rem #202020;
+
+
+    display: flex;
+    justify-content: space-between;
+    gap: var(--gap-simple-organism);
+    position: relative;
+
+    > .main-header__bg {
+        position: absolute;
+        inset: 0;
+
+        &::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background-color: var(--bg-page-main-header);
+            filter: var(--filter-overlay-opacity);
+        }
+    }
+
+    > .main-header__control-panel {
+        justify-items: center;
+
+        > .action-panel {
+            padding-bottom: var(--padding-simple-organism);
+        }
+
+        &.activity-bar {
+
+
+            &:has(input[for="nav"]:not([style*="display: none"]):checked) {
+
+                > .chessboard-nav {
+                    position: fixed;
+                    top: 0;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    z-index: 40;
+                }
+            }
+        }
+    }
+
+    @media (width < 80rem) {
+        flex-direction: column-reverse;
+        background-color: var(--bg-body);
+
+        > .main-header__bg {
+            display: none;
+        }
+
+        > .main-header__control-panel {
+            .action-panel {
+                padding: unset;
+            }
+
+            &:has(input[for="nav"]:checked) {
+
+                > .chessboard-nav {
+                    position: fixed;
+                    top: 10rem;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    z-index: 40;
+                }
+
+            }
+
+            &:has(input[for="nav"]:not(:checked)) {
+
+                > .chessboard-nav {
+                    display: none;
+                }
+            }
+        }
+    }
+}

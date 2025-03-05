@@ -26,7 +26,7 @@ function App() {
                         <WorkExperienceHistory />
                     </scroll-page>
                     <scroll-page id={SCROLL_PAGE_PERSONAL_SOFTWARE_PROJECTS}>
-                        <PersonalSoftwareProjects />
+                        {/* <PersonalSoftwareProjects /> */}
                     </scroll-page>
                     <scroll-page id={SCROLL_PAGE_ABOUT_ME}>
                         <AboutMe />
