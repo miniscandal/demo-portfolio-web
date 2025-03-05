@@ -1,4 +1,4 @@
-import { RadioInput } from '@shared-atoms/radio-input';
+import { InputControl } from '@shared-atoms/input-control';
 
 import './style.css';
 
@@ -13,7 +13,7 @@ function SelectTechToolsKnowledge({
     return (
         <label className='select-tech-tools-knowledge'>
             {text}
-            <RadioInput
+            <InputControl
                 htmlFor={htmlFor}
                 groupName={groupName}
                 defaultChecked={defaultChecked}
