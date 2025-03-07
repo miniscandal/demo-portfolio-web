@@ -6,10 +6,7 @@ import { ButtonDango } from '@feat-main-header-molecules/button-dango';
 import './style.css';
 
 
-function ActionPanel({
-    type = '',
-    navRef
-}) {
+function ActionPanel({ type = '', navRef }) {
     const labelRef = useRef(null);
 
     useEffect(() => {

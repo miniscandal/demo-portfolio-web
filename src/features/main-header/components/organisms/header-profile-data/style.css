@@ -55,4 +55,18 @@ meet the CEO's design requirements.
             }
         }
     }
+
+    @media (width < 30rem) {
+
+        .pixel-art {
+
+            &:first-child {
+                position: absolute;
+            }
+
+            &:last-child {
+                margin-left: auto;
+            }
+        }
+    }
 }

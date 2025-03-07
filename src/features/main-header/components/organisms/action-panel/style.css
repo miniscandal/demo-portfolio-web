@@ -1,6 +1,9 @@
 .action-panel {
     display: flex;
+    justify-content: center;
     gap: var(--gap-simple-organism);
+    padding: var(--padding-molecule);
+    background-color: color-mix(in srgb, var(--bg-dark) 60%, transparent 40%);
 
     > .button-dango {
         display: none;
@@ -12,12 +15,13 @@
         position: fixed;
         top: 0;
         right: 0;
+        z-index: 40;
 
         padding: var(--padding-molecule);
         border-radius: var(--border-radius-simple-molecule);
         background-color: color-mix(in srgb, var(--bg-dark) 60%, transparent 40%);
 
-        > .toggle-theme {
+        .toggle-theme {
             flex-direction: column;
         }
 
@@ -27,8 +31,16 @@
     }
 
     @media (width < 80rem) {
+        width: 100%;
+
         &.activity-bar {
-            position: static;
+            flex-direction: row;
+            top: 0;
+            left: 0;
+
+            .toggle-theme {
+                flex-direction: row;
+            }
         }
 
         > .button-dango {
