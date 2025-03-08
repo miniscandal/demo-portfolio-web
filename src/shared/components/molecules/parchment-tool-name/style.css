@@ -2,7 +2,7 @@
     position: relative;
     inline-size: max-content;
 
-    > .parchment-tool-name__div {
+    .parchment-tool-name__div {
         position: absolute;
         top: 50%;
         right: 2.8%;
@@ -14,19 +14,19 @@
         align-content: center;
         font-family: var(--font-family-manga);
 
-        > .parchment-tool-name__div--name {
+        .parchment-tool-name__div--name {
             transform: rotate(-4deg);
         }
     }
 
     &.with-tool-badge {
 
-        > .parchment-tool-name__div {
+        .parchment-tool-name__div {
             display: flex;
             justify-content: center;
             align-items: center;
 
-            > .parchment-tool-name__div--name {
+            .parchment-tool-name__div--name {
                 transform: unset;
                 padding-left: var(--padding-molecule);
             }

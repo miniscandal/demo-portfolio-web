@@ -1,6 +1,6 @@
 .tool-badge {
 
-    > .tool-badge__div {
+    .tool-badge__div {
         padding: var(--padding-atom);
         border-radius: var(--border-radius-atom);
         background-color: #d4d4d4;

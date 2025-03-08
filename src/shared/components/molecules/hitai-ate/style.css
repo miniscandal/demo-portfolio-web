@@ -2,7 +2,7 @@
     position: relative;
     width: fit-content;
 
-    > .hitai-ate__div {
+    .hitai-ate__div {
         position: absolute;
         top: 50%;
         left: 50%;

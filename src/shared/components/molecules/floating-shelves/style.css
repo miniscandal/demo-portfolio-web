@@ -1,11 +1,11 @@
 .floating-shelves {
     justify-items: center;
 
-    > .floating-shelves__item {
+    .floating-shelves__item {
         transform: translateY(0.35rem);
     }
 
-    > .floating-shelves__base {
+    .floating-shelves__base {
         width: 150%;
         height: 2rem;
         position: relative;

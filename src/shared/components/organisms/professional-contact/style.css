@@ -4,7 +4,7 @@
     gap: var(--gap-simple-organism);
     color: var(--text-color-light);
 
-    > .professional-contact__div {
+    .professional-contact__div {
         &:first-child {
             display: flex;
             gap: var(--gap-molecule);

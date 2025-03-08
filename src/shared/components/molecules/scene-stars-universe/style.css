@@ -5,7 +5,7 @@
     overflow: hidden;
     perspective: 20rem;
 
-    > .scene-stars-universe__star {
+    .scene-stars-universe__star {
         width: 0.25rem;
         height: 0.25rem;
         position: absolute;

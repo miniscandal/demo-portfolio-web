@@ -1,19 +1,19 @@
 .details-summary {
     width: min(100%, 25rem);
 
-    > summary {
+    summary {
         padding: var(--padding-molecule);
         border-radius: var(--border-radius-simple-molecule);
         filter: var(--filter-saturate-default);
     }
 
-    > ol {
+    ol {
         display: flex;
         flex-direction: column;
         gap: var(--gap-molecule);
         padding-top: var(--padding-molecule);
 
-        > li {
+        li {
             filter: var(--filter-brightness-base);
             transition: var(--transition-filter);
 

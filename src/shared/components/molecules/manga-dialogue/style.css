@@ -1,16 +1,15 @@
 .manga-dialogue {
     --bg-primary: #ffffff;
 
-
     padding-bottom: calc(1rem + var(--border-width-large) - 0.50rem);
     position: relative;
 
-    > .manga-dialogue__element {
+    .manga-dialogue__element {
         height: 100%;
         border-radius: 50%;
         border: solid var(--border-width-large) var(--border-dark);
 
-        > .manga-dialogue__element--message {
+        .manga-dialogue__element--message {
             height: 100%;
             align-content: center;
             border-radius: 50%;

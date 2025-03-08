@@ -1,8 +1,9 @@
 .next-step-indicator {
     justify-items: center;
     font-family: var(--font-family-manga);
+    text-align: center;
 
-    > .next-step-indicator__div {
+    .next-step-indicator__div {
         padding-top: var(--padding-simple-molecule);
         animation: press-indicator 0.5s infinite alternate linear;
     }

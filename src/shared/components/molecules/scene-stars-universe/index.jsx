@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 
 import './style.css';
 
+
 function SceneStarsUniverse() {
     const [stars, setStars] = useState([]);
 

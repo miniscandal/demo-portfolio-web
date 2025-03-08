@@ -3,7 +3,7 @@
     padding: var(--padding-molecule);
     color: var(--text-color-light);
 
-    > .knowledge-information__div {
+    .knowledge-information__div {
         position: absolute;
         top: 50%;
         right: var(--padding-molecule);

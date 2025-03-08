@@ -5,8 +5,9 @@ import { ArrowDown } from '@shared-atoms/icon-font-svg/variants';
 
 import './style.css';
 
+
 function NextStepIndicator({
-    text = 'Next Step',
+    step = '0',
     size = 'regular'
 }) {
     const classList = [
@@ -15,7 +16,7 @@ function NextStepIndicator({
 
     return (
         <div className={`next-step-indicator ${classList.join(' ')}`}>
-            <Paragraph text={text} />
+            <Paragraph text={`Next Step \n (x${step})`} />
             <div className='next-step-indicator__div'>
                 <IconFontSvg svg={ArrowDown} color='#d8d800' size='small' />
             </div>

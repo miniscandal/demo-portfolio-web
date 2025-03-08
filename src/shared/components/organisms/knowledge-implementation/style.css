@@ -1,13 +1,13 @@
 .knowledge-implementation {
 
-    > .knowledge-implementation__div--title {
+    .knowledge-implementation__div--title {
         padding-bottom: var(--padding-simple-organism);
         color: #d49c6b;
     }
 
     &.grid {
 
-        > .knowledge-implementation__div--items {
+        .knowledge-implementation__div--items {
             display: grid;
             gap: var(--gap-molecule);
 
@@ -28,7 +28,7 @@
 
     &.flex {
 
-        > .knowledge-implementation__div--items {
+        .knowledge-implementation__div--items {
             display: flex;
             flex-wrap: wrap;
             gap: var(--gap-molecule);
@@ -36,7 +36,8 @@
     }
 
     &.block {
-        > .knowledge-implementation__div--items {
+
+        .knowledge-implementation__div--items {
             display: flex;
             flex-direction: column;
             gap: var(--gap-molecule);
