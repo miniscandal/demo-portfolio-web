@@ -9,7 +9,6 @@ import './style.css';
 
 function PersonalSoftwareProjects() {
 
-
     return (
         <section className='personal-software-projects'>
             <DecoratedTitle text='PERSONAL PROJECTS' />

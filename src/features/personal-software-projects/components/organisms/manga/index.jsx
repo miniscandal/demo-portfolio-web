@@ -20,7 +20,6 @@ import {
 
 import './style.css';
 
-
 const createMangaPanel = (id, Component) => ({
     id,
     Component: ({ label, isMiniatureMode }) => (

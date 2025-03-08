@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 import { MangaPanelExpectedResults } from '@feat-personal-software-projects-organisms/manga-panel-expected-results';
-import { MangaPanelProjectPlanning } from '@feat-personal-software-projects-organisms/manga-panel-project-planning';
+import { MangaPanelProjectCode } from '@feat-personal-software-projects-organisms/manga-panel-project-code';
 import { MangaPanelProjectAppliedConcepts } from '@feat-personal-software-projects-organisms/manga-panel-project-applied-concepts';
 import { MangaPanelProjectPreview } from '@feat-personal-software-projects-organisms/manga-panel-project-preview';
 import { MangaPanel } from '@feat-personal-software-projects-molecules/manga-panel';
@@ -22,7 +22,7 @@ import './style.css';
 
 const MANGA_PANELS = {
     [MPP_DESCRIPTION_ID]: MangaPanelExpectedResults,
-    [MPP_PLANNING_ID]: MangaPanelProjectPlanning,
+    [MPP_PLANNING_ID]: MangaPanelProjectCode,
     [MPP_TECH_ECOSYSTEM_ID]: MangaPanelProjectAppliedConcepts,
     [MPP_PREVIEW_ID]: MangaPanelProjectPreview
 };

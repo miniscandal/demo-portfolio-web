@@ -9,7 +9,7 @@ function MangaPageMain({
 }) {
     const items = MangaPanels.map((value, index) => ({
         ...value,
-        Component: <value.Component label={`Ep 0${index + 1}`} isMiniature={true} />
+        Component: <value.Component label={`Ep 0${index + 1}`} isMiniatureMode={true} />
     }));
 
 

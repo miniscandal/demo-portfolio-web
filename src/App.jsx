@@ -21,24 +21,24 @@ function App() {
         <>
             <scroll-container>
                 <scroll-page id={SCROLL_PAGE_MAIN_HEADER}>
-                    <MainHeader />
+                    {/* <MainHeader /> */}
                 </scroll-page>
                 <main>
                     <scroll-page id={SCROLL_PAGE_WORK_EXPERIENCE_HISTORY}>
-                        <WorkExperienceHistory />
+                        {/* <WorkExperienceHistory /> */}
                     </scroll-page>
                     <scroll-page id={SCROLL_PAGE_PERSONAL_SOFTWARE_PROJECTS}>
                         <PersonalSoftwareProjects />
                     </scroll-page>
                     <scroll-page id={SCROLL_PAGE_ABOUT_ME}>
-                        <AboutMe />
+                        {/* <AboutMe /> */}
                     </scroll-page>
                     <scroll-page id={SCROLL_PAGE_PROFESSIONAL_PROFILE}>
-                        <ProfessionalProfile />
+                        {/* <ProfessionalProfile /> */}
                     </scroll-page>
                 </main>
                 <scroll-page id={SCROLL_PAGE_MAIN_FOOTER}>
-                    <MainFooter />
+                    {/* <MainFooter /> */}
                 </scroll-page>
             </scroll-container>
         </>

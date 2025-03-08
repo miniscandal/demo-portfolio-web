@@ -42,11 +42,11 @@ function MangaPanelExpectedResults({ isMiniatureMode = false }) {
                 character={PIXEL_ART_ANIME_STEINS_GATE_KURISU_ANIMATION}
             />
             {
-                !isMiniatureMode
-                &&
+                isMiniatureMode
+                ||
                 <>
                     <PixelArt character={PIXEL_ART_ITEM_ANIME_STEINS_GATE_COMPUTERS} />
-                    <NextStepIndicator />
+                    <NextStepIndicator step={expectedResults.length} />
                     <HitBoxButton handleClick={increaseIndex}>
                         <PixelArt character={PIXEL_ART_ITEM_ANIME_STEINS_GATE_MICROWAVE} />
                     </HitBoxButton>

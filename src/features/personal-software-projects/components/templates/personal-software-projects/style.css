@@ -1,6 +1,7 @@
 .personal-software-projects {
+    background-color: gray;
 
-    > .decorated-title {
+    .decorated-title {
         color: var(--text-title-color);
         padding-bottom: var(--padding-container);
     }
