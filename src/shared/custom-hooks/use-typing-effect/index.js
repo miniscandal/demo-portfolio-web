@@ -23,8 +23,8 @@ function useTypingEffect({ message = 'use-typing-effect' }) {
         };
 
         const startTyping = setTimeout(() => {
-            typingInterval = setInterval(setIntervalCallback, 150);
-        }, 500);
+            typingInterval = setInterval(setIntervalCallback, 100);
+        }, 300);
 
         return () => {
             clearTimeout(startTyping);
