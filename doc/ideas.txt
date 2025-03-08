@@ -1,15 +1,16 @@
 ⚝ Add new features
 
 Panel One:
-
 Description / Expected Results
-Panel Two:
+Components: MangaPanelProjectDescriptions, MangaPanelExpectedResults
 
+Panel Two:
 Project planning (ideas, criteria, resources, diagrams)
 Code (structure, main files)
 Documentation library
-Panel Three:
+Components: MangaProjectPlanning, MangaProjectCode
 
+Panel Three:
 Concepts (why they were chosen)
 Technologies (why they were chosen)
 Panel Four:
