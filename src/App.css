@@ -1,15 +1,19 @@
 scroll-container {
     scroll-page {
         display: block;
-        padding: var(--padding-container) var(--padding-viewport);
-        max-width: 90rem;
-        margin: auto;
 
+        &#work-experience-history > *,
+        &#personal-software-projects > *,
+        &#professional-profile > *,
+        &#about-me > *,
+        &#main-footer > * {
+            max-width: 90rem;
+            margin: auto;
+            padding: var(--padding-container) var(--padding-viewport);
+        }
 
         &#main-header {
             background-color: var(--bg-page-main-header);
-            max-width: unset;
-            padding: unset;
         }
 
         &#work-experience-history {
