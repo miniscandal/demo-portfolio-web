@@ -6,7 +6,7 @@ import { SCROLL_PAGE_WORK_EXPERIENCE_HISTORY } from '@shared-constants/anchor-id
 import { SCROLL_PAGE_PERSONAL_SOFTWARE_PROJECTS } from '@shared-constants/anchor-id';
 import { SCROLL_PAGE_PROFESSIONAL_PROFILE } from '@shared-constants/anchor-id';
 import { SCROLL_PAGE_ABOUT_ME } from '@shared-constants/anchor-id';
-import { SCROLL_PAGE_PRIMARY_FOOTER } from '@shared-constants/anchor-id';
+import { SCROLL_PAGE_MAIN_FOOTER } from '@shared-constants/anchor-id';
 
 import './style.css';
 
@@ -47,7 +47,7 @@ function ChessboardNav({
             id: 'primary-footer',
             text: 'ADDITIONAL INFORMATION',
             symbol: '05',
-            idAnchor: SCROLL_PAGE_PRIMARY_FOOTER
+            idAnchor: SCROLL_PAGE_MAIN_FOOTER
         },
     ];
     const Component = (({ idAnchor, ...values }) => (

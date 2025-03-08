@@ -98,7 +98,8 @@
     --text-title-color: #4e4e4e;
     --text-color: #2e2e2e;
 
-    --bg-page-main-header: #554d74;
+    --bg-activity-bar: #8b8b8b;
+    --bg-page-main-header: #eeddea;
     --bg-page-work-experience-history: #d4dbe2;
     --bg-page-about-me: #70546d;
     --bg-page-professional-profile: #efeff1;
@@ -111,7 +112,8 @@
         --text-title-color: #e5e5e5;
         --text-color: #e0e0e0;
 
-        --bg-page-main-header: #37424e;
+        --bg-activity-bar: #949494;
+        --bg-page-main-header: #351c30;
         --bg-page-work-experience-history: #37424e;
         --bg-page-about-me: #523f50;
         --bg-page-professional-profile: #3d3d47;
@@ -143,10 +145,6 @@ html,
 body {
     max-width: 100svw;
     min-height: 100svh;
-
-    &:has(input[for="nav"]:checked) {
-        overflow-y: hidden;
-    }
 }
 
 li {

@@ -15,16 +15,3 @@
         }
     }
 }
-
-
-/* 
-
-transition:
-        transform var(--transition-fast-seconds) ease,
-        box-shadow var(--transition-fast-seconds) ease;
-
-    &:has(input[type='radio']:checked) {
-        transform: var(--transform-translate-selected);
-        box-shadow: var(--box-shadow-selected);
-    }
-*/

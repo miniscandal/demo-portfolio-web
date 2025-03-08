@@ -2,10 +2,14 @@ scroll-container {
     scroll-page {
         display: block;
         padding: var(--padding-container) var(--padding-viewport);
+        max-width: 90rem;
+        margin: auto;
 
-        > * {
-            max-width: 90rem;
-            margin: auto;
+
+        &#main-header {
+            background-color: var(--bg-page-main-header);
+            max-width: unset;
+            padding: unset;
         }
 
         &#work-experience-history {
@@ -24,7 +28,7 @@ scroll-container {
             background-color: var(--bg-page-about-me);
         }
 
-        &#primary-footer {
+        &#main-footer {
             background-color: var(--bg-page-main-footer);
         }
     }

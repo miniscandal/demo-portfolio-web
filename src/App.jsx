@@ -5,11 +5,11 @@ import { PersonalSoftwareProjects } from '@feat-personal-software-projects-templ
 import { ProfessionalProfile } from '@feat-professional-profile-templates/professional-profile/index';
 import { AboutMe } from '@feat-about-me-templates/about-me/index';
 
-import { SCROLL_PAGE_WORK_EXPERIENCE_HISTORY } from '@shared-constants/anchor-id';
+import { SCROLL_PAGE_MAIN_HEADER, SCROLL_PAGE_WORK_EXPERIENCE_HISTORY } from '@shared-constants/anchor-id';
 import { SCROLL_PAGE_PERSONAL_SOFTWARE_PROJECTS } from '@shared-constants/anchor-id';
 import { SCROLL_PAGE_PROFESSIONAL_PROFILE } from '@shared-constants/anchor-id';
 import { SCROLL_PAGE_ABOUT_ME } from '@shared-constants/anchor-id';
-import { SCROLL_PAGE_PRIMARY_FOOTER } from '@shared-constants/anchor-id';
+import { SCROLL_PAGE_MAIN_FOOTER } from '@shared-constants/anchor-id';
 
 import './App.css';
 
@@ -19,14 +19,16 @@ function App() {
 
     return (
         <>
-            <MainHeader />
             <scroll-container>
+                <scroll-page id={SCROLL_PAGE_MAIN_HEADER}>
+                    <MainHeader />
+                </scroll-page>
                 <main>
                     <scroll-page id={SCROLL_PAGE_WORK_EXPERIENCE_HISTORY}>
                         <WorkExperienceHistory />
                     </scroll-page>
                     <scroll-page id={SCROLL_PAGE_PERSONAL_SOFTWARE_PROJECTS}>
-                        {/* <PersonalSoftwareProjects /> */}
+                        <PersonalSoftwareProjects />
                     </scroll-page>
                     <scroll-page id={SCROLL_PAGE_ABOUT_ME}>
                         <AboutMe />
@@ -35,7 +37,7 @@ function App() {
                         <ProfessionalProfile />
                     </scroll-page>
                 </main>
-                <scroll-page id={SCROLL_PAGE_PRIMARY_FOOTER}>
+                <scroll-page id={SCROLL_PAGE_MAIN_FOOTER}>
                     <MainFooter />
                 </scroll-page>
             </scroll-container>

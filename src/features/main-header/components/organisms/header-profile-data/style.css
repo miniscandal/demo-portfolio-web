@@ -54,6 +54,11 @@ meet the CEO's design requirements.
                 margin: auto;
             }
         }
+
+
+        &::before {
+            all: unset;
+        }
     }
 
     @media (width < 30rem) {
